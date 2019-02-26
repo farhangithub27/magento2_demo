@@ -13,7 +13,9 @@
  Magento 2.3 introduces declarative schemas and deprecate setup version attribute.
  -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd"> <!-- use alt enter to map the schema xsd files if urn string is in red color.-->
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <!-- use alt enter to map the schema xsd files if urn string is in red color.
+    or go to <magento root> and run command bin/magento dev:urn-catalog:generate .idea/misc.xml-->
     <module name="Lmap_EquipmentStore"> <!--  setup_version="1.0.0" , setup version attribute has been deprecated since version 2.3 -->
         <sequence>
             <!--Enter module dependencies in order here -->
