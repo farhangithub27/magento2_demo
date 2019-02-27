@@ -1,12 +1,11 @@
 <?xml version="1.0" ?>
-<!-- FrontEnd Routes configuration file -->
+<!-- BackEnd Routes configuration file -->
 <!--routes.xml is required for the controller to present the url. Url is composed of three parts
- localhost/frontName/controllerName(it's a folder inside /Lmap/EquipmentStore/Controller/)/actionName
- frontName is defined in this routes.xml file.-->
+ localhost/frontName/controllerName(it's a folder inside /Lmap/EquipmentStore/Controller/)/actionName -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
-    <router id="standard">
-        <route id="lmap" frontName="lmap">
+    <router id="admin">
+        <route frontName="lmap" id="lmap">
             <module name="Lmap_EquipmentStore"/>
         </route>
     </router>

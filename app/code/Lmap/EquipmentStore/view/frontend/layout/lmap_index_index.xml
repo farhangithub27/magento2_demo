@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--This xml file is named as frontName (coming from frontend routes.xml)_controllerName (which is Index)_actionName(which is Index too) -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <!-- We are rendering our block inside content container -->
+            <block name="lmap_hello" class="Lmap\EquipmentStore\Block\Hello" template="hello.phtml">
+                <!-- block name can bne anything unique you like -->
+                <!--
+                <arguments>
+                    <argument name="label" xsi:type="string">The Label</argument>
+                </arguments> -->
+            </block>
+        </referenceContainer>
+        <referenceBlock name="form.subscribe" remove="true"/>
+    </body>
+</page>
