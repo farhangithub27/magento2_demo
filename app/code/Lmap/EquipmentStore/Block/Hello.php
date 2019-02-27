@@ -26,4 +26,9 @@ class Hello extends Template
     {
         return $this->collectionFactory->create()->getItems();
     }
+
+    public function getEquipmentName()
+    {
+        return $this->collectionFactory->create()->getColumnValues('equipment_name');
+    }
 }
