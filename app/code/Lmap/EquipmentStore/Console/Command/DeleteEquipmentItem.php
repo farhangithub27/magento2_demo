@@ -52,6 +52,9 @@ class DeleteEquipmentItem extends Command
     {
         $itemName = $input->getArgument(self::INPUT_KEY_NAME);
         $itemCollection = $this->collectionFactory->create()->getItemsByColumnValue('equipment_name',$itemName); //array type
+        $equipment = $this->itemFactory->create();
+        $equipment->load($itemCollection[0]['id']);
+        $equipment->delete();
 
         echo gettype($itemCollection);
         //$items = $this->itemFactory->create()->getCollection()->getItemsByColumnValue('equipment_name',$itemName);
