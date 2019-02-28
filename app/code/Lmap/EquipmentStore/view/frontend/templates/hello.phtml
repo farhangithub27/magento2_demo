@@ -5,5 +5,7 @@
 <?php foreach ($block->getItems() as $item): ?>
     <p>
         <?php echo $item->getEquipmentName(); ?>: <?php echo $item->getDescription(); ?>
+        <!-- // getEquipmentName and getDescription are the magic methods.
+        http://www.coolryan.com/magento/2012/04/06/magic-methods-inside-magento/ -->
     </p>
 <?php endforeach; ?>

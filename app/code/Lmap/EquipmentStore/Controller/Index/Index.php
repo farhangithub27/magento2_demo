@@ -12,7 +12,7 @@ class Index extends \Magento\Framework\App\Action\Action
 {
     public function execute()
     {
-
+        // This execute method runs when we enter url in the browser
         /*
          * Switch off this Raw Response for frontend templates to work in view folder.
          */
