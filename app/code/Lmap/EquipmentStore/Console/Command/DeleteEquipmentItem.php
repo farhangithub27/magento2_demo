@@ -52,34 +52,20 @@ class DeleteEquipmentItem extends Command
     {
         $itemName = $input->getArgument(self::INPUT_KEY_NAME);
         $itemCollection = $this->collectionFactory->create()->getItemsByColumnValue('equipment_name',$itemName); //array type
-        $equipment = $this->itemFactory->create();
-        $equipment->load($itemCollection[0]['id']);
-        $equipment->delete();
+        //$equipment = $this->itemFactory->create();
+        $output->writeln('<info>Collection items are ' . var_dump($itemCollection) . '</info>');
+        foreach($itemCollection as $key=>$equipment)
+        {
+            $equipment->load($equipment['id']);
+            $equipment->delete();
+        }
+
 
         echo gettype($itemCollection);
         //$items = $this->itemFactory->create()->getCollection()->getItemsByColumnValue('equipment_name',$itemName);
 
-        $output->writeln('<info>Collection items are ' . var_dump($itemCollection[0]['id']) . '</info>');
 
-        /*
-        $itemName = $input->getArgument(self::INPUT_KEY_NAME); // Equipment name that needs to be deleted.
-        $ids = $item->get
-        $output->writeln('<info>ids are ' . $ids . '</info>');
-        if(is_null($itemName)) {
-            $output->writeln('<info>Equipment With Name ' . $itemName . ' does not exist.</info>');
-        }
-        else {
-            $equipment = $this->equipmentItem->load($itemName);
-            $output->writeln('<info>Equipment is ' . is_null($equipment). ' </info>');
-            //$equipment->unsetData();
-            foreach ($ids as $id) {
-                if ($item->getEquipmentName($id) == $itemName){
-                    $id->delete();
-                }
-                $output->writeln('<info>Equipment With Name ' . $itemName . ' is deleted.</info>');
-            }
 
-        }*/
         //$item->unsEquipmentName($input->getArgument(self::INPUT_KEY_NAME));
         // unsEquipmentName is unset($_data['name']) the magic method.
         //http://www.coolryan.com/magento/2012/04/06/magic-methods-inside-magento/

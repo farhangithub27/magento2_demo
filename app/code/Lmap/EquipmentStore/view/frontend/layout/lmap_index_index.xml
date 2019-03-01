@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--This xml file is named as frontName (coming from frontend routes.xml)_controllerName (which is Index)_actionName(which is Index too) -->
-<!-- This xml file provides layconfiguratuions and hooks up template and block to render.
+<!-- This xml file provides layout configurations and hooks up template and block to render. -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
