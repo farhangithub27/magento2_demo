@@ -1,9 +1,10 @@
 <?php
 // In order to activate this command we have define a di.xml file in etc folder as well with type Magento\Framework\Console\CommandList
-// This method doesnt work so far
+
 // https://github.com/webkul/magento2-custom-command/blob/master/Console/Command/OrderDeleteCommand.php
 namespace Lmap\EquipmentStore\Console\Command;
 
+use Magento\Framework\Event\ManagerInterface;
 use function PHPSTORM_META\type;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -13,7 +14,7 @@ use Lmap\EquipmentStore\Model\EquipmentItemFactory;
 use Lmap\EquipmentStore\Model\ResourceModel\EquipmentItem\CollectionFactory;
 use Lmap\EquipmentStore\Model\EquipmentItem;
 use Magento\Framework\Console\Cli;
-use Zend\Debug\Debug;
+
 
 class DeleteEquipmentItem extends Command
 {
@@ -23,12 +24,14 @@ class DeleteEquipmentItem extends Command
     private $itemFactory;
     private $equipmentItem;
     private $collectionFactory;
+    private $eventManager;
 
-    public function __construct(EquipmentItemFactory $itemFactory, EquipmentItem $equipmentItem, CollectionFactory $collectionFactory)
+    public function __construct(EquipmentItemFactory $itemFactory, EquipmentItem $equipmentItem, CollectionFactory $collectionFactory, ManagerInterface $eventManager)
     {
         $this->itemFactory = $itemFactory;
         $this->equipmentItem = $equipmentItem;
         $this->collectionFactory = $collectionFactory;
+        $this->eventManager = $eventManager;
         parent::__construct();
     }
 
@@ -51,8 +54,8 @@ class DeleteEquipmentItem extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $itemName = $input->getArgument(self::INPUT_KEY_NAME);
-        $itemCollection = $this->collectionFactory->create()->getItemsByColumnValue('equipment_name',$itemName); //array type
-        //$equipment = $this->itemFactory->create();
+        $itemCollection = $this->collectionFactory->create()->getItemsByColumnValue('equipment_name',$itemName);
+        // $itemCollection = $this->collectionFactory->create(); will give an array type
         $output->writeln('<info>Collection items are ' . var_dump($itemCollection) . '</info>');
         foreach($itemCollection as $key=>$equipment)
         {
@@ -71,9 +74,8 @@ class DeleteEquipmentItem extends Command
         //http://www.coolryan.com/magento/2012/04/06/magic-methods-inside-magento/
         //$item->setDescription($input->getArgument(self::INPUT_KEY_DESCRIPTION));
         // setDescription is the magic method.
-        //$item->setIsObjectNew(true);
-        //$item->save();
 
+        $this->eventManager->dispatch('lmap_command',['object'=>$itemCollection]);
         return Cli::RETURN_SUCCESS;
     }
 }

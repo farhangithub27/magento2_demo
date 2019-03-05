@@ -8,4 +8,74 @@
             </argument>
         </arguments>
     </type>
+
+
+    <!--
+    <preference for="Magento\Framework\Logger\Handler\Debug" type="Lmap\EquipmentStore\Model\DebugHandler"/>
+    -->
+    <!-- NOTE: Default monolog debug handler configuration location in app\etc\di.xml
+    Also ManagerInterface in AddEquipmentItem.php file will use below configurations.
+    Using preference to override default Debug handler will change behaviour of all framework for each module.
+    Lets create more specific di configuration for logging. So instead of using preference we will use
+    Type arguments below, tt will override default configuration of monolog debug handler.
+    Type arguments means we are passing our debug handler as argument to monolog class instance which will override default handler "debug".
+     -->
+    <!--
+    <type name="Magento\Framework\Logger\Monolog">
+        <arguments>
+            <argument name="handlers" xsi:type="array">
+                <item name="debug" xsi:type="object">Lmap\EquipmentStore\Model\DebugHandler</item>
+            </argument>
+        </arguments>
+    </type>
+    -->
+    <!-- Problems of type arguments way :
+    Above implementation is a bit specific as it is replacing the  type of debug handler for monolog class. However if we use different logger than monolog
+    then this configuration will not take effect for those logging classes. However, entire magento framework is using instance of monolog logging class
+    so it still effects a lot of functionality-->
+
+    <!-- Hence we use virtual types for our debug handler and associate them with our AddEquipmentItem command only.
+    Virtual type means we are creating new class by the name of LmapLogger which extends from Monolog class-->
+
+
+    <virtualType name="LmapLogger" type="Magento\Framework\Logger\Monolog">
+        <arguments> <!--These arguments will be received by monolog constructor -->
+            <argument name="name" xsi:type="string">main</argument>
+            <argument name="handlers"  xsi:type="array">
+                <item name="system" xsi:type="object">Magento\Framework\Logger\Handler\System</item>
+                <item name="debug" xsi:type="object">Lmap\EquipmentStore\Model\DebugHandler</item>
+            </argument>
+        </arguments>
+    </virtualType>
+    <!--AddEquipmentItem type arguments below will be added for virtual type above. This means that instance of command AddEquipmentItem
+    will get LmapLogger class for argument named logging.
+    Now Our customized debug handler will be used for only our Cli command AddEquipmentItem and will not effect other magento framework functionality.-->
+    <!--
+    <type name="Lmap\EquipmentStore\Console\Command\AddEquipmentItem">
+        <arguments>
+            <argument name="logging" xsi:type="object">LmapLogger</argument>
+        </arguments>
+    </type>
+    -->
+    <!-- Above customized debug handler will be used when only AddEquipmentItem CLi command will run.
+         This type is dropped in favor of observer below.
+         Add comment out all ManagerInterface dispatch related code in AddEquipmentITem.php
+    -->
+
+    <type name="Lmap\EquipmentStore\Observer\Logger">
+        <arguments>
+            <argument name="logger" xsi:type="object">LmapLogger</argument>
+        </arguments>
+    </type>
+    <!--Adding plugin for for Cli command -->
+    <type name="Lmap\EquipmentStore\Console\Command\AddEquipmentItem">
+        <plugin name="console_logging" type="Lmap\EquipmentStore\Plugin\Logger"/>
+    </type>
+
+
+    <!--
+    <type name="Lmap\EquipmentStore\Console\Command\DeleteEquipmentItem">
+        <plugin name="console_logging" type="Lmap\EquipmentStore\Plugin\Logger"/>
+    </type>
+    -->
 </config>

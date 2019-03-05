@@ -14,14 +14,15 @@ use Magento\Framework\Model\AbstractModel;
 
 class EquipmentItem extends AbstractModel
 {
-    protected $_eventPrefix = 'lmap_equipment_items';
+    protected $_eventPrefix = 'lmap_equipment_items';// This even prefix will be used will coding event (observer) based logging latter on.
+    // This prefix is used by AbstractModel to generate events.
     protected function _construct()
     {
         //$this->_init(EquipmentItem::class);
         $this->_init(\Lmap\EquipmentStore\Model\ResourceModel\EquipmentItem::class);
         /*
          * We can always define setter and getter for all fields in the model however its not required as we always use
-         * getdata() magic getter / setter magento data object. hence setter and getters are not created here.
+         * getdata() magic getter / setter magento data object. Hence setter and getters are not created here.
          */
     }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+
+    <!-- 1. Mapping event to Observer using ManagerInterface in AddEquipmentItem.php -->
+    <!-- We are mapping dispatch event "lmap_command" in AddEquipmentItem Cli command to Observer Implementation. This mapping requires ManagerInterface Code in AddEquipmentItem.php file. -->
+    <!--<event name="lmap_command">
+        <observer name="lmap_logger" instance="Lmap\EquipmentStore\Observer\Logger" />
+    </event>
+    -->
+    <!-- 2. Mapping event to Observer without ManagerInterface in AddEquipmentItem.php. This is easier way.
+     Its easier because magento defines lots of out of the box events which are static or dynamic.
+     We are going to log each time an item in our module is saved with dynamic event.-->
+    <!-- This event name of lmap_equipment_items_save_after was used without ManagerInterface code in AddEquipment. However  Observer Implementation is still the same.-->
+    <event name="lmap_equipment_items_save_after">
+        <!-- event name with a suffix for example  save_after means that event is of type dynamic and not static.
+        This event will be dispatched after model with above event prefix "lmap_equipment_items" is saved.
+        Also the model will passed to data together with event as object under object key so we dont have to change observer logger implementation given is instance string below..-->
+
+        <observer name="lmap_logger" instance="Lmap\EquipmentStore\Observer\Logger" />
+    </event>
+</config>

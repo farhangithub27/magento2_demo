@@ -13,7 +13,8 @@ class Hello extends Template
     public function __construct(
         Template\Context $context,
         CollectionFactory $collectionFactory,
-        array $data = []
+        array $data = [] // Any arguments defined in /var/www/html/magento23demo/app/code/Lmap/EquipmentStore/view/frontend/layout/lmap_index_index.xml
+        // will be acceessable through this data array using magic methods on a block.
     ) {
         $this->collectionFactory = $collectionFactory;
         parent::__construct($context, $data);
