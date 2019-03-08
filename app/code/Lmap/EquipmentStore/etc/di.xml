@@ -48,8 +48,12 @@
         </arguments>
     </virtualType>
     <!--AddEquipmentItem type arguments below will be added for virtual type above. This means that instance of command AddEquipmentItem
-    will get LmapLogger class for argument named logging.
-    Now Our customized debug handler will be used for only our Cli command AddEquipmentItem and will not effect other magento framework functionality.-->
+    will get LmapLogger class for argument named logging.Now Our customized debug handler will be used for only our Cli command AddEquipmentItem
+    and will not effect other magento framework functionality. Above customized debug handler will be used when only AddEquipmentItem CLi command will run.
+    Also as per Reference Book "Magento2 Dev Quick Start Guide page 29"
+    VirtualTypes do not kick in on its own they have to be triggered by using them by creating a type argument as given below.
+    Below Two types are created below one with name = Lmap\EquipmentStore\Console\Command\AddEquipmentItem and other with Oberver
+    -->
     <!--
     <type name="Lmap\EquipmentStore\Console\Command\AddEquipmentItem">
         <arguments>
@@ -57,17 +61,19 @@
         </arguments>
     </type>
     -->
-    <!-- Above customized debug handler will be used when only AddEquipmentItem CLi command will run.
-         This type is dropped in favor of observer below.
-         Add comment out all ManagerInterface dispatch related code in AddEquipmentITem.php
+    <!--
+         Above type is dropped in order to implement same thing using observer type.
+         Also first comment out all ManagerInterface dispatch related code in AddEquipmentITem.php as this code was required for above type not with below
+         observer type.
     -->
-
     <type name="Lmap\EquipmentStore\Observer\Logger">
         <arguments>
             <argument name="logger" xsi:type="object">LmapLogger</argument>
         </arguments>
     </type>
-    <!--Adding plugin for for Cli command -->
+
+
+    <!--Adding plugin for Cli command -->
     <type name="Lmap\EquipmentStore\Console\Command\AddEquipmentItem">
         <plugin name="console_logging" type="Lmap\EquipmentStore\Plugin\Logger"/>
     </type>

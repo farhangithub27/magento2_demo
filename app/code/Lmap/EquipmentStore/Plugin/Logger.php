@@ -2,9 +2,9 @@
 // A plugin, or interceptor, is a class that modifies the behavior of public class functions by intercepting a function
 // call and running code before, after, or around that function call. This allows you to substitute or extend the behavior of original, public methods for any class or interface.
 
-// They can used to extend functionality by creating"before", "after" or "around" plugins.
+// They can used to extend functionality by creating "before", "after" or "around" plugins. Around plugins do both before and after.
 // In previous coding we added observer customization based on events. Not all magento functionality is covered by events.
-// hence plugin in used.
+// Hence plugin in used.
 
 // We will create a plugin for our AddEquipmentItem Cli command for logging purpose. But execute method in /var/www/html/magento23demo/app/code/Lmap/EquipmentStore/Console/Command/AddEquipmentItem.php
 // is protected hence we cannot create plugin for that.
