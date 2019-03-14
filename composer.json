@@ -79,12 +79,16 @@
     },
     "version": "2.3.0",
     "minimum-stability": "stable",
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        "pmnts": {
+            "type": "git",
+            "url": "https://github.com/PMNTS/magento2-pmnts.git"
         }
-    ],
+    },
     "extra": {
         "magento-force": "override"
     }

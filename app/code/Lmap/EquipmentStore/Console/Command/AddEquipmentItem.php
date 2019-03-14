@@ -56,7 +56,7 @@ class AddEquipmentItem extends Command
         // setDescription is the magic method.
         $item->setIsObjectNew(true);
         $item->save();
-        //$this->logger-debug('Item was created'); refers to code in di.xml file from line 13 to line 57.
+        //$this->logger->debug('Item was created'); //refers to code in di.xml file from line 13 to line 57.
         //$this->eventManager->dispatch('lmap_command',['object'=>$item]);
 
         return Cli::RETURN_SUCCESS;
