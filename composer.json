@@ -31,7 +31,8 @@
         "magento/module-widget-sample-data": "100.3.*",
         "magento/module-wishlist-sample-data": "100.3.*",
         "magento/product-community-edition": "2.3.0",
-        "magento/sample-data-media": "100.3.*"
+        "magento/sample-data-media": "100.3.*",
+        "wikimedia/composer-merge-plugin": "^1.4"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~2.13.0",
@@ -86,7 +87,7 @@
         },
         "pmnts": {
             "type": "git",
-            "url": "https://github.com/PMNTS/magento2-pmnts.git"
+            "url": "https://github.com/farhangithub27/magento2-pmnts.git"
         }
     },
     "extra": {

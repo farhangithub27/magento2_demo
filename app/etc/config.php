@@ -214,7 +214,7 @@ return [
         'Dotdigitalgroup_Email' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistSampleData' => 1,
-        'PMNTS_Gateway' => 1,
+        'PMNTS_Gateway' => 0,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1
     ]

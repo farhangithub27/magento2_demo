@@ -3,9 +3,8 @@
     "license": [
         "OSL-3.0"
     ],
-    "name": "pmnts/module-gateway",
+    "name": "pmnts/magento2-pmnts",
     "require": {
-
     },
     "type": "magento2-module",
     "version": "dev-master",
