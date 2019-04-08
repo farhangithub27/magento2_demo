@@ -33,6 +33,7 @@
         "magento/product-community-edition": "2.3.1",
         "magento/sample-data-media": "100.3.*",
         "pmnts/magento2-pmnts": "dev-bugfix-magento23-compatible",
+        "webshopapps/module-matrixrate": "^20.1",
         "wikimedia/composer-merge-plugin": "^1.4"
     },
     "require-dev": {

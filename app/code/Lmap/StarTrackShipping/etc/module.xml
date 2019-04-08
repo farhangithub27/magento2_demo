@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!--xml file is required because firstly
+ It lists module dependencies in sequence tag that have to be loaded first before the module
+ is loaded. This can be important in case if our module references a table in a database for a setup script that is
+ created by another module. If dependencies are not mentioned then our module will load and migrations would fail
+ because the reference table wouldn't exit yet.
+ Magento uses sequence tag whenever magento enable or disable is run to build a directed acyclic graph which is then used
+ to determine the order of modules that is written in the app/etc/config.php file.
+
+ Secondly, xml file specify the module setup version. This version is used to determine which database migration
+ (or setup scripts) to execute and current version for each module is then stored in the database table setup module.
+ Magento 2.3 introduces declarative schemas and deprecate setup version attribute.
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Lmap_StarTrackShipping" setup_version="1.0.0"> <!--  setup_version="1.0.0" , setup version attribute has been deprecated since version 2.3 -->
+        <sequence>
+            <!--Enter module dependencies in order here -->
+        </sequence>
+    </module>
+</config>

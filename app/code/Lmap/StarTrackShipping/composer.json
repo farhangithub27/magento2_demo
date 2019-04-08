@@ -1,0 +1,33 @@
+{
+  "_comment": "This main purpose of this file is to contain meta information for our module and allow our module to be installed via composer. However, technically magento works if there is module without composer.json file. But problems might occur if the code that uses a class called PackageInfo in dir (Magento->Framework->module->PackageInfo).This class is used to get information about the module. If composer.json is missing then PackageInfo class will ignore this. However, every module should one.",
+  "name": "Lmap/module-startrackshipping",
+  "description": "N/A",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "~7.1.3||~7.2.0",
+    "lib-libxml": "*",
+    "magento/framework": "102.0.*",
+    "magento/module-catalog": "103.0.*",
+    "magento/module-catalog-inventory": "100.3.*",
+    "magento/module-config": "101.1.*",
+    "magento/module-directory": "100.3.*",
+    "magento/module-quote": "101.1.*",
+    "magento/module-sales": "102.0.*",
+    "magento/module-shipping": "100.3.*",
+    "magento/module-store": "101.0.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Lmap\\StarTrackShipping\\": ""
+    }
+  }
+}

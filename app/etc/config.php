@@ -9,6 +9,7 @@ return [
         'Magento_Eav' => 1,
         'Magento_AdminNotification' => 1,
         'Magento_Indexer' => 1,
+        'Lmap_StarTrackShipping' => 1,
         'MSP_ReCaptcha' => 1,
         'Magento_Config' => 1,
         'Magento_Customer' => 1,
@@ -92,7 +93,7 @@ return [
         'Magento_GroupedProductGraphQl' => 1,
         'Magento_CatalogSampleData' => 1,
         'Magento_DownloadableImportExport' => 1,
-        'Lmap_EquipmentStore' => 1,
+        'Lmap_EquipmentStore' => 0,
         'Magento_InstantPurchase' => 1,
         'Magento_CatalogAnalytics' => 1,
         'Magento_Inventory' => 1,
@@ -226,6 +227,7 @@ return [
         'Magento_WishlistSampleData' => 1,
         'PMNTS_Gateway' => 1,
         'Temando_Shipping' => 1,
-        'Vertex_Tax' => 1
+        'Vertex_Tax' => 1,
+        'WebShopApps_MatrixRate' => 1
     ]
 ];
