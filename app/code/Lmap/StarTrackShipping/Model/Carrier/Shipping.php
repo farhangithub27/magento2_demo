@@ -15,21 +15,29 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
     /**
      * @var \Magento\Shipping\Model\Rate\ResultFactory
      */
-    protected $_rateResultFactory;
+    protected $rateResultFactory;
 
     /**
      * @var \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory
      */
-    protected $_rateMethodFactory;
+    protected $rateMethodFactory;
+
+
+    /**
+     * @var \Lmap\StarTrackShipping\Model\ResourceModel\Carrier\ShippingFactory
+     */
+    protected $stShippingFactory;
 
     /**
      * Shipping constructor.
      *
+     * @param \
      * @param \Magento\Framework\App\Config\ScopeConfigInterface          $scopeConfig
      * @param \Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory  $rateErrorFactory
      * @param \Psr\Log\LoggerInterface                                    $logger
      * @param \Magento\Shipping\Model\Rate\ResultFactory                  $rateResultFactory
      * @param \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory $rateMethodFactory
+     * @param \Lmap\StarTrackShipping\Model\ResourceModel\Carrier\ShippingFactory $stShippingFactory
      * @param array                                                       $data
      */
     public function __construct(
@@ -38,10 +46,13 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         \Psr\Log\LoggerInterface $logger,
         \Magento\Shipping\Model\Rate\ResultFactory $rateResultFactory,
         \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory $rateMethodFactory,
+        \Lmap\StarTrackShipping\Model\ResourceModel\Carrier\ShippingFactory $stShippingFactory,
         array $data = []
     ) {
-        $this->_rateResultFactory = $rateResultFactory;
-        $this->_rateMethodFactory = $rateMethodFactory;
+        $this->rateResultFactory = $rateResultFactory;
+        $this->rateMethodFactory = $rateMethodFactory;
+        $this->stShippingFactory = $stShippingFactory;
+        $this->_logger = $logger;
         parent::__construct($scopeConfig, $rateErrorFactory, $logger, $data);
     }
 
@@ -55,16 +66,20 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
     }
 
     /**
+     * @param \Magento\Quote\Model\Quote\Address\RateRequest $request
      * @return float
      */
-    private function getShippingPrice()
+    private function getShippingPrice(RateRequest $request)
     {
-        $configPrice = $this->getConfigData('price');
+        $rate =  $this->stShippingFactory->create()->getRate($request);
+        //$this->_logger->debug('Postcode is: '. $rate);
+        //$configPrice = $this->getConfigData('price');
 
-        $shippingPrice = $this->getFinalPriceWithHandlingFee($configPrice);
+        $shippingPrice = $this->getFinalPriceWithHandlingFee($rate);
 
         return $shippingPrice;
     }
+
 
     /**
      * @param RateRequest $request
@@ -82,10 +97,10 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         }
 
         /** @var \Magento\Shipping\Model\Rate\Result $result */
-        $result = $this->_rateResultFactory->create();
+        $result = $this->rateResultFactory->create();
 
         /** @var \Magento\Quote\Model\Quote\Address\RateResult\Method $method */
-        $method = $this->_rateMethodFactory->create();
+        $method = $this->rateMethodFactory->create();
 
         $method->setCarrier($this->_code);
         $method->setCarrierTitle($this->getConfigData('title'));
@@ -93,7 +108,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         $method->setMethod($this->_code);
         $method->setMethodTitle($this->getConfigData('name'));
 
-        $amount = $this->getShippingPrice();
+        $amount = $this->getShippingPrice($request);
 
         $method->setPrice($amount);
         $method->setCost($amount);
@@ -102,4 +117,6 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
 
         return $result;
     }
+
+
 }

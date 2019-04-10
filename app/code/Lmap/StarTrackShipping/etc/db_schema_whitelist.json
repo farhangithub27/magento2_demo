@@ -1,0 +1,16 @@
+{
+    "lmap_shipping_tablerate": {
+        "column": {
+            "postcode": true,
+            "website_id": true,
+            "dest_country_id": true,
+            "zone": true,
+            "basic": true,
+            "rate_per_kg": true,
+            "minimum": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

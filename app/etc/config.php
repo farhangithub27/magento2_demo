@@ -93,7 +93,7 @@ return [
         'Magento_GroupedProductGraphQl' => 1,
         'Magento_CatalogSampleData' => 1,
         'Magento_DownloadableImportExport' => 1,
-        'Lmap_EquipmentStore' => 0,
+        'Lmap_EquipmentStore' => 1,
         'Magento_InstantPurchase' => 1,
         'Magento_CatalogAnalytics' => 1,
         'Magento_Inventory' => 1,

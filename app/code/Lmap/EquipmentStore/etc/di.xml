@@ -52,7 +52,7 @@
     and will not effect other magento framework functionality. Above customized debug handler will be used when only AddEquipmentItem CLi command will run.
     Also as per Reference Book "Magento2 Dev Quick Start Guide page 29"
     VirtualTypes do not kick in on its own they have to be triggered by using them by creating a type argument as given below.
-    Below Two types are created below one with name = Lmap\EquipmentStore\Console\Command\AddEquipmentItem and other with Oberver
+    Below Two types are created below one with name = Lmap\EquipmentStore\Console\Command\AddEquipmentItem and other with Observer
     -->
     <!--
     <type name="Lmap\EquipmentStore\Console\Command\AddEquipmentItem">
@@ -63,7 +63,7 @@
     -->
     <!--
          Above type is dropped in order to implement same thing using observer type.
-         Also first comment out all ManagerInterface dispatch related code in AddEquipmentITem.php as this code was required for above type not with below
+         Also first comment out all ManagerInterface dispatch related code in AddEquipmentItem.php as this code was required for above type not with below
          observer type.
     -->
     <type name="Lmap\EquipmentStore\Observer\Logger">
