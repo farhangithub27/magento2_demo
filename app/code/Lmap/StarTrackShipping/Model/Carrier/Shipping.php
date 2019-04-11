@@ -46,7 +46,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         \Psr\Log\LoggerInterface $logger,
         \Magento\Shipping\Model\Rate\ResultFactory $rateResultFactory,
         \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory $rateMethodFactory,
-        \Lmap\StarTrackShipping\Model\ResourceModel\Carrier\ShippingFactory $stShippingFactory,
+        \Lmap\StarTrackShipping\Model\ResourceModel\ShippingFactory $stShippingFactory,
         array $data = []
     ) {
         $this->rateResultFactory = $rateResultFactory;

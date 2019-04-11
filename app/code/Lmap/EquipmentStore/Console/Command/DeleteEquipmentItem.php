@@ -64,7 +64,7 @@ class DeleteEquipmentItem extends Command
         }
 
 
-        echo gettype($itemCollection);
+        //echo gettype($itemCollection);
         //$items = $this->itemFactory->create()->getCollection()->getItemsByColumnValue('equipment_name',$itemName);
 
 

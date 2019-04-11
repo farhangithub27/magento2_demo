@@ -3,8 +3,10 @@
 <schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
     <table name="lmap_shipping_tablerate" resource="default" engine="innodb" comment="LMAP Shipping Tablerate">
+        <column xsi:type="int" name="id" padding="10" unsigned="true" nullable="false" identity="true"
+                comment="Primary key"/>
         <column xsi:type="int" name="postcode" padding="10" unsigned="true" nullable="false"
-                comment="Primary key and Destination Post Code (Zip)"/>
+                comment="Unique Destination Post Code (Zip)"/>
         <column xsi:type="int" name="website_id" padding="11" unsigned="false" nullable="false" identity="false"
                 default="0" comment="Website Id"/>
         <column xsi:type="varchar" name="dest_country_id" nullable="false" length="4" default="0"
@@ -18,6 +20,9 @@
         <column xsi:type="decimal" name="minimum" scale="4" precision="12" unsigned="false"
                 comment="Minimum Rate"/>
         <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+        <constraint xsi:type="unique" referenceId="LMAP_SHIPPING_TABLERATE_POSTCODE">
             <column name="postcode"/>
         </constraint>
     </table>

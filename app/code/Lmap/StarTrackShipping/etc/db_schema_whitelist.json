@@ -1,6 +1,7 @@
 {
     "lmap_shipping_tablerate": {
         "column": {
+            "id": true,
             "postcode": true,
             "website_id": true,
             "dest_country_id": true,
@@ -10,7 +11,8 @@
             "minimum": true
         },
         "constraint": {
-            "PRIMARY": true
+            "PRIMARY": true,
+            "LMAP_SHIPPING_TABLERATE_POSTCODE": true
         }
     }
 }

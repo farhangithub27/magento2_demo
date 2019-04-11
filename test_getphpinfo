@@ -1,0 +1,24 @@
+#!/usr/bin/env php
+<?php
+phpinfo();
+
+
+
+# https://magento.stackexchange.com/questions/92492/magento-2-allowed-memory-exhausted-error-when-compile-code
+#
+# it shows the memory limit for the PHP in your path, which might be fine. But the magento script (bin/magento) uses the preamble
+
+# #!/usr/bin/env php
+
+# so it is not necessarily using the PHP from your path! One way to track down the php.ini file which is being used is to write a small script like this:
+
+# #!/usr/bin/env php
+# <?php
+# phpinfo();
+
+# call it getinfo (not getinfo.php!), make it executable, then run it like this:
+
+# ./getinfo  | grep php.ini
+#
+
+

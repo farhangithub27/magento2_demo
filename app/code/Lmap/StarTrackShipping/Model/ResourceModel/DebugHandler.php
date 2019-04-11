@@ -1,6 +1,7 @@
 <?php
 
-namespace Lmap\StarTrackShipping\Model;
+//namespace Lmap\StarTrackShipping\Model\Carrier;
+namespace Lmap\StarTrackShipping\Model\ResourceModel;
 
 use Monolog\Logger;
 use Magento\Framework\Logger\Handler\Base;
