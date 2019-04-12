@@ -9,20 +9,22 @@
             <argument name="connectionName" xsi:type="string">custom_setup</argument>
         </arguments>
     </type>
-    -->
+
+
     <virtualType name="LmapShippingLogger" type="Magento\Framework\Logger\Monolog">
-        <arguments> <!--These arguments will be received by monolog constructor -->
+        <arguments>
             <argument name="name" xsi:type="string">main</argument>
             <argument name="handlers"  xsi:type="array">
                 <item name="system" xsi:type="object">Magento\Framework\Logger\Handler\System</item>
-                <item name="debug" xsi:type="object">Lmap\StarTrackShipping\Model\ResourceModel\DebugHandler</item>
+                <item name="debug" xsi:type="object">Lmap\StarTrackShipping\Model\DebugHandler</item>
             </argument>
         </arguments>
     </virtualType>
 
-    <type name="Lmap\StarTrackShipping\Model\ResourceModel\Shipping">
+    <type name="Lmap\StarTrackShipping\Model\Shipping">
         <arguments>
-            <argument name="logger" xsi:type="object">LmapShippingLogger</argument>
+            <argument name="_logger" xsi:type="object">LmapShippingLogger</argument>
         </arguments>
     </type>
+        -->
 </config>

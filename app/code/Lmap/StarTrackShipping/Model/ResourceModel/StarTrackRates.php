@@ -3,14 +3,14 @@ namespace Lmap\StarTrackShipping\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 use Magento\Quote\Model\Quote\Address\RateRequest;
-use Lmap\StarTrackShipping\Model\ResourceModel\Shipping\CollectionFactory;
-use Lmap\StarTrackShipping\Model\ResourceModel\Shipping\Collection;
+//use Lmap\StarTrackShipping\Model\ResourceModel\Carrier\Shipping\CollectionFactory;
+//use Lmap\StarTrackShipping\Model\ResourceModel\Carrier\Shipping\Collection;
 use function PHPSTORM_META\type;
 use Psr\Log\LoggerInterface;
 use Magento\Framework\Model\ResourceModel\Db\Context;
 use Symfony\Component\Console\Output\OutputInterface;
-use Lmap\StarTrackShipping\Helper\ShippingRate;
-class Shipping extends AbstractDb
+//use Lmap\StarTrackShipping\Helper\ShippingRateFactory;
+class StarTrackRates extends AbstractDb
 {
 
     private $collectionFactory;
@@ -36,22 +36,19 @@ class Shipping extends AbstractDb
      * This construct with double underscore is required to initialize other classes as LoggerInterface, CollectionFactory etc
      * This concept is taken from Magento\OfflineShipping\Model\ResourceModel\Carrier\Tablerate.php;
      */
+
+    /*
     public function __construct(
-        LoggerInterface $logger,CollectionFactory $CollectionFactory, Context $context,ShippingRate $shippingRate
+        LoggerInterface $logger,CollectionFactory $CollectionFactory, Context $context,ShippingRateFactory $shippingRateFactory
     ) {
         $this->logger = $logger;
         $this->collectionFactory = $CollectionFactory;
-        $this->shippingrate = $shippingRate;
+        $this->shippingrate = $shippingRateFactory;
         parent::__construct($context);
 
     }
 
-    /**
-     * Return table rate array or false by rate request
-     * @var \Lmap\StarTrackShipping\Model\ResourceModel\Carrier\Shipping\CollectionFactory $CollectionFactory
-     * @param \Magento\Quote\Model\Quote\Address\RateRequest $request
-     * @return array|string
-     */
+
     public function getRate(RateRequest $request)
     {
         // $connection = $this->getConnection();
@@ -64,7 +61,10 @@ class Shipping extends AbstractDb
         $this->logger->debug('Postcode type: '. gettype($postcode) . ' and weight type is: '. gettype($weight));
         $this->logger->debug('Postcode val: '. $postcode . ' and weight val: '. $weight);
         $this->logger->debug('Postcode int val: '. (int)$postcode . ' and weight float val: '. (float)$weight);
-        $postcode_rate_row = $this->collectionFactory->create()->getItemsByColumnValue('postcode', '2600');
+        $methods_avail = get_class_methods($this->collectionFactory->create());
+        //print_r(get_class_methods($methods_avail));
+        $this->logger->debug('Methods are  : '.var_dump($methods_avail));
+        $postcode_rate_row = $this->collectionFactory->create()->getItemByColumnValue('postcode', 2600);
 
         $postcode_rate_row1 = $this->collectionFactory->create()->getConnection();
         $rates = $postcode_rate_row1->getTableName('lmap_shipping_tablerate');
@@ -80,5 +80,5 @@ class Shipping extends AbstractDb
 
         return $postcode_rate_row;
     }
-
+    */
 }

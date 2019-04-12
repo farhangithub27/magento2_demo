@@ -1,9 +1,9 @@
 <?php
 
-namespace Lmap\StartrackShipping\Model\ResourceModel\Shipping;
+namespace Lmap\StartrackShipping\Model\ResourceModel\StarTrackRates;
 
-use Lmap\StarTrackShipping\Model\Carrier\Shipping;
-use Lmap\StarTrackShipping\Model\ResourceModel\Shipping as LmapShippingResource;
+use Lmap\StarTrackShipping\Model\StarTrackRates;
+use Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRates as LmapRates;
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 /**
@@ -16,7 +16,7 @@ class Collection extends AbstractCollection
 
     protected function _construct()
     {
-        $this->_init(Shipping ::class, LmapShippingResource::class);
+        $this->_init(StarTrackRates ::class, LmapRates::class);
 
     }
 
