@@ -14,7 +14,7 @@
  -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Lmap_StarTrackShipping" > <!--  setup_version="1.0.0" , setup version attribute has been deprecated since version 2.3 -->
+    <module name="Lmap_StarTrackShipping" setup_version="1.0.0"> <!--  setup_version="1.0.0" , setup version attribute has been deprecated since version 2.3 -->
         <sequence>
             <!--Enter module dependencies in order here -->
         </sequence>

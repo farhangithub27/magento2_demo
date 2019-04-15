@@ -32,7 +32,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
     /**
      * @var \Lmap\StarTrackShipping\Model\ResourceModel\Carrier\ShippingFactory
      */
-    protected $stRateFactory;
+    protected $stRateCollectionFactory;
 
     protected $_eventPrefix = 'lmap_shipping_event';// This even prefix will be used for coding event (observer) based logging latter on.
     // This prefix is used by AbstractModel to generate events.
@@ -46,11 +46,12 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
      * @param \Psr\Log\LoggerInterface                                    $logger
      * @param \Magento\Shipping\Model\Rate\ResultFactory                  $rateResultFactory
      * @param \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory $rateMethodFactory
-     * @param \Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRates\CollectionFactory $stRatesFactory
+     * @param \Lmap\StarTrackShipping\Helper\FetchShippingRate $fetchShippingRate
+     * @param \Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRates\CollectionFactory $stRatesCollectionFactory
      * @param array                                                       $data
      */
     public function __construct(
-        CollectionFactory $stRatesFactory,
+        CollectionFactory $stRatesCollectionFactory,
         FetchShippingRate $fetchShippingRate,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
         \Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory $rateErrorFactory,
@@ -61,7 +62,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
     ) {
         $this->rateResultFactory = $rateResultFactory;
         $this->rateMethodFactory = $rateMethodFactory;
-        $this->stRateFactory = $stRatesFactory;
+        $this->stRateCollectionFactory = $stRatesCollectionFactory;
         $this->ratehelper = $fetchShippingRate;
         $this->_logger = $logger;
         parent::__construct($scopeConfig, $rateErrorFactory, $logger, $data);
@@ -84,17 +85,16 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
     {
         $postcode = $request->getDestPostcode();
         $weight = $request->getPackageWeight();
-        //print_r("Rate Working");
-        //$this->cmdoutput->writeln('<info>Postcode is:  ' . var_dump($postcode) . 'and weight is: '. var_dump($weight).'</info>');
-        $this->_logger->debug('Item was created');
-        $this->_logger->debug('Postcode is: '. var_export($postcode,true) . ' and weight is: '. var_export($weight,true));
-        $this->_logger->debug('Postcode type: '. gettype($postcode) . ' and weight type is: '. gettype($weight));
-        $this->_logger->debug('Postcode val: '. $postcode . ' and weight val: '. $weight);
-        $this->_logger->debug('Postcode int val: '. (int)$postcode . ' and weight float val: '. (float)$weight);
-        $methods_avail = get_class_methods($this->stRateFactory->create());
+
+        //$this->_logger->debug('Item was created');
+        //$this->_logger->debug('Postcode is: '. var_export($postcode,true) . ' and weight is: '. var_export($weight,true));
+        //$this->_logger->debug('Postcode type: '. gettype($postcode) . ' and weight type is: '. gettype($weight));
+        //$this->_logger->debug('Postcode val: '. $postcode . ' and weight val: '. $weight);
+        //$this->_logger->debug('Postcode int val: '. (int)$postcode . ' and weight float val: '. (float)$weight);
+        //$methods_avail = get_class_methods($this->stRateCollectionFactory->create());
         //print_r(get_class_methods($methods_avail));
-        $this->_logger->debug('Methods are  : '.var_dump($methods_avail));
-        $postcode_rate_row = $this->stRateFactory->create()->getItemByColumnValue('postcode', (int)$postcode);
+        //$this->_logger->debug('Methods are  : '.var_dump($methods_avail));
+        //$postcode_rate_row = $this->stRateCollectionFactory->create()->getItemByColumnValue('postcode', (int)$postcode);
 
         //$postcode_rate_row1 = $this->stRateFactory->create()->getConnection();
         //$rates = $postcode_rate_row1->getTableName('lmap_shipping_tablerate');
@@ -108,7 +108,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         // var_export only works here with json_encode method otherwise gives var_export circular reference issue and hence Allowed memory size of 792723456 bytes exhausted problem.
         //echo("Rate Generated ". var_($postcode_rate_row));
 
-        $shippingPrice = $this->getFinalPriceWithHandlingFee($postcode_rate_row);
+        $shippingPrice = $this->getFinalPriceWithHandlingFee($postcode_rate_row1);
 
         return $shippingPrice;
     }

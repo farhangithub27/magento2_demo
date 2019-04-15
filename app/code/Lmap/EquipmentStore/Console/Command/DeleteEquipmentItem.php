@@ -6,6 +6,7 @@ namespace Lmap\EquipmentStore\Console\Command;
 
 use Magento\Framework\Event\ManagerInterface;
 use function PHPSTORM_META\type;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -14,6 +15,8 @@ use Lmap\EquipmentStore\Model\EquipmentItemFactory;
 use Lmap\EquipmentStore\Model\ResourceModel\EquipmentItem\CollectionFactory;
 use Lmap\EquipmentStore\Model\EquipmentItem;
 use Magento\Framework\Console\Cli;
+
+
 
 
 class DeleteEquipmentItem extends Command
@@ -63,6 +66,10 @@ class DeleteEquipmentItem extends Command
             $equipment->delete();
         }
 
+        // Checking the what query are we getting
+        $collection = $this->collectionFactory->create();
+        $collection->addFieldToFilter('equipment_name',array('eq'=>'Equipment3'));
+        $output->writeln('<info> collection query is: ' . $collection->getSelect()->__toString() . '</info>');
 
         //echo gettype($itemCollection);
         //$items = $this->itemFactory->create()->getCollection()->getItemsByColumnValue('equipment_name',$itemName);
