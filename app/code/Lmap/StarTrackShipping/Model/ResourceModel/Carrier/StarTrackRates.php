@@ -1,5 +1,5 @@
 <?php
-namespace Lmap\StarTrackShipping\Model\ResourceModel;
+namespace Lmap\StarTrackShipping\Model\ResourceModel\Carrier;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 

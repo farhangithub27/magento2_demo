@@ -1,6 +1,6 @@
 <?php
 
-namespace Lmap\StarTrackShipping\Model;
+namespace Lmap\StarTrackShipping\Model\Carrier;
 
 use Magento\Framework\Model\AbstractModel;
 
@@ -17,7 +17,7 @@ class StarTrackRates extends AbstractModel
     protected function _construct()
     {
         //$this->_init(EquipmentItem::class);
-        $this->_init(\Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRates::class);
+        $this->_init(\Lmap\StarTrackShipping\Model\ResourceModel\Carrier\StarTrackRates::class);
         /*
          * We can always define setter and getter for all fields in the model however its not required as we always use
          * getdata() magic getter / setter magento data object. Hence setter and getters are not created here.

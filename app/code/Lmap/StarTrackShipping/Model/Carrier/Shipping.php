@@ -4,8 +4,9 @@ namespace Lmap\StarTrackShipping\Model\Carrier;
 
 use Magento\Quote\Model\Quote\Address\RateRequest;
 use Magento\Shipping\Model\Rate\Result;
-use Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRates\CollectionFactory;
+use Lmap\StarTrackShipping\Model\ResourceModel\Carrier\StarTrackRates\CollectionFactory;
 use Lmap\StarTrackShipping\Helper\FetchShippingRate;
+
 
 class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implements
     \Magento\Shipping\Model\Carrier\CarrierInterface
@@ -81,7 +82,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
      * @param \Magento\Quote\Model\Quote\Address\RateRequest $request
      * @return float
      */
-    private function getShippingPrice(RateRequest $request)
+    public function getShippingPrice(RateRequest $request)
     {
         $postcode = $request->getDestPostcode();
         $weight = $request->getPackageWeight();
@@ -100,7 +101,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         //$rates = $postcode_rate_row1->getTableName('lmap_shipping_tablerate');
         //$this->_logger->debug('Rates table is : '.var_dump($rates));
 
-        $postcode_rate_row1 = $this->ratehelper->fetchRate();
+        $postcode_rate_row1 = $this->ratehelper->fetchRate($postcode);
         $this->_logger->debug('Rates type is: '.gettype($postcode_rate_row1));
         $this->_logger->debug('Rates are empty: '. empty($postcode_rate_row1));
 
@@ -127,7 +128,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         if (!$this->getConfigFlag('active')) {
             return false;
         }
-
+        $postcode = $request->getDestPostcode();
         /** @var \Magento\Shipping\Model\Rate\Result $result */
         $result = $this->rateResultFactory->create();
 
@@ -140,8 +141,9 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         $method->setMethod($this->_code);
         $method->setMethodTitle($this->getConfigData('name'));
 
-        $amount = $this->getShippingPrice($request);
-
+        //$amount = $this->getShippingPrice($request);
+        $amount = $this->ratehelper->fetchRate(2600);
+        $this->_logger->debug('Shipping Rate is: '.var_dump($amount));
         $method->setPrice($amount);
         $method->setCost($amount);
 
