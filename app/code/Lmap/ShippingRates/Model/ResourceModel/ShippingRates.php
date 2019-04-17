@@ -1,0 +1,54 @@
+<?php
+namespace Lmap\ShippingRates\Model\ResourceModel;
+
+use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
+
+class ShippingRates extends AbstractDb
+{
+    protected $logger;
+
+    public function __construct(
+        \Magento\Framework\Model\ResourceModel\Db\Context $context,
+        \Psr\Log\LoggerInterface $logger,
+        $connectionName = null
+    ){
+        parent::__construct($context, $connectionName);
+        $this->logger = $logger;
+    }
+
+    /**
+     * Connecting with Database table
+     * This is special construct method with single underscore
+     */
+    protected function _construct()
+    {
+        $this->_init('lmap_shipping_rates', 'id');
+    }
+
+    /**
+     * @param \Magento\Quote\Model\Quote\Address\RateRequest $request
+     * @return array
+     * @throws \Magento\Framework\Exception\LocalizedException
+     */
+    public function getRate(\Magento\Quote\Model\Quote\Address\RateRequest $request)
+    {
+        $postcode = $request->getDestPostcode();
+
+        $connection = $this->getConnection();
+        $sql = $connection->select()->from($this->getMainTable())->where('postcode =?',$postcode);
+        $result = $connection->fetchAll($sql);
+        $this->logger->debug('The select with condition is:');
+        $this->logger->debug(var_export($result,true));
+
+        /** @var RateQuery $rateQuery */
+        //$rateQuery = $this->rateQueryFactory->create(['request' => $request]);
+
+        //$rateQuery->prepareSelect($select);
+        //$bindings = $rateQuery->getBindings();
+
+        //$result = $connection->fetchRow($select, $bindings);
+
+        return $result;
+    }
+
+}

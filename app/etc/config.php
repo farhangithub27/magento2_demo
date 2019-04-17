@@ -9,6 +9,7 @@ return [
         'Magento_Eav' => 1,
         'Magento_AdminNotification' => 1,
         'Magento_Indexer' => 1,
+        'Lmap_ShippingRates' => 1,
         'Lmap_StarTrackShipping' => 1,
         'MSP_ReCaptcha' => 1,
         'Magento_Config' => 1,

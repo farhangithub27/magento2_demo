@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="lmapAddShippingRate" xsi:type="object">Lmap\ShippingRates\Console\Command\AddShippingRate</item>
+                <item name="lmapDeleteShippingRate" xsi:type="object">Lmap\ShippingRates\Console\Command\DeleteShippingRate</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <!-- Connection for the new custom database in env.php file
+    <type name="Lmap\StarTrackShipping\Model\ResourceModel\Shipping">
+        <arguments>
+            <argument name="connectionName" xsi:type="string">custom_setup</argument>
+        </arguments>
+    </type>
+
+
+    <virtualType name="LmapShippingLogger" type="Magento\Framework\Logger\Monolog">
+        <arguments>
+            <argument name="name" xsi:type="string">main</argument>
+            <argument name="handlers"  xsi:type="array">
+                <item name="system" xsi:type="object">Magento\Framework\Logger\Handler\System</item>
+                <item name="debug" xsi:type="object">Lmap\StarTrackShipping\Model\DebugHandler</item>
+            </argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Lmap\StarTrackShipping\Model\Shipping">
+        <arguments>
+            <argument name="_logger" xsi:type="object">LmapShippingLogger</argument>
+        </arguments>
+    </type>
+        -->
+</config>

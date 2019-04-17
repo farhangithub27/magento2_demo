@@ -2,10 +2,13 @@
 namespace Lmap\StarTrackShipping\Model\Carrier;
 
 
+use Lmap\ShippingRates\Helper\ShippingRateHelperFactory;
+use Lmap\ShippingRates\Model\ResourceModel\ShippingRatesFactory;
 use Magento\Quote\Model\Quote\Address\RateRequest;
 use Magento\Shipping\Model\Rate\Result;
-use Lmap\StarTrackShipping\Model\ResourceModel\Carrier\StarTrackRates\CollectionFactory;
+//use Lmap\StarTrackShipping\Model\ResourceModel\Carrier\StarTrackRates\CollectionFactory;
 use Lmap\StarTrackShipping\Helper\FetchShippingRate;
+use Lmap\ShippingRates\Model\ResourceModel\ShippingRates\CollectionFactory as SRCollectionFactory;
 
 
 class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implements
@@ -27,7 +30,8 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
     protected $rateMethodFactory;
 
     protected $ratehelper;
-
+    private $shippingRateHelperFactory;
+    private $shippingRateFactory;
     protected $_logger;
 
     /**
@@ -52,19 +56,23 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
      * @param array                                                       $data
      */
     public function __construct(
-        CollectionFactory $stRatesCollectionFactory,
+        SRCollectionFactory $stRatesCollectionFactory,
         FetchShippingRate $fetchShippingRate,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
         \Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory $rateErrorFactory,
         \Psr\Log\LoggerInterface $logger,
         \Magento\Shipping\Model\Rate\ResultFactory $rateResultFactory,
         \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory $rateMethodFactory,
+        ShippingRateHelperFactory $shippingRateHelperFactory,
+        ShippingRatesFactory $shippingRateFactory,
         array $data = []
     ) {
         $this->rateResultFactory = $rateResultFactory;
         $this->rateMethodFactory = $rateMethodFactory;
         $this->stRateCollectionFactory = $stRatesCollectionFactory;
         $this->ratehelper = $fetchShippingRate;
+        $this->shippingRateHelperFactory = $shippingRateHelperFactory;
+        $this->shippingRateFactory = $shippingRateFactory;
         $this->_logger = $logger;
         parent::__construct($scopeConfig, $rateErrorFactory, $logger, $data);
     }
@@ -78,41 +86,6 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         return [$this->_code => $this->getConfigData('name')];
     }
 
-    /**
-     * @param \Magento\Quote\Model\Quote\Address\RateRequest $request
-     * @return float
-     */
-    public function getShippingPrice(RateRequest $request)
-    {
-        $postcode = $request->getDestPostcode();
-        $weight = $request->getPackageWeight();
-
-        //$this->_logger->debug('Item was created');
-        //$this->_logger->debug('Postcode is: '. var_export($postcode,true) . ' and weight is: '. var_export($weight,true));
-        //$this->_logger->debug('Postcode type: '. gettype($postcode) . ' and weight type is: '. gettype($weight));
-        //$this->_logger->debug('Postcode val: '. $postcode . ' and weight val: '. $weight);
-        //$this->_logger->debug('Postcode int val: '. (int)$postcode . ' and weight float val: '. (float)$weight);
-        //$methods_avail = get_class_methods($this->stRateCollectionFactory->create());
-        //print_r(get_class_methods($methods_avail));
-        //$this->_logger->debug('Methods are  : '.var_dump($methods_avail));
-        //$postcode_rate_row = $this->stRateCollectionFactory->create()->getItemByColumnValue('postcode', (int)$postcode);
-
-        //$postcode_rate_row1 = $this->stRateFactory->create()->getConnection();
-        //$rates = $postcode_rate_row1->getTableName('lmap_shipping_tablerate');
-        //$this->_logger->debug('Rates table is : '.var_dump($rates));
-
-        $postcode_rate_row1 = $this->ratehelper->fetchRate($postcode);
-        $this->_logger->debug('Rates type is: '.gettype($postcode_rate_row1));
-        $this->_logger->debug('Rates are empty: '. empty($postcode_rate_row1));
-
-        $this->_logger->debug('Rates received: '.var_dump($postcode_rate_row1));
-        // var_export only works here with json_encode method otherwise gives var_export circular reference issue and hence Allowed memory size of 792723456 bytes exhausted problem.
-        //echo("Rate Generated ". var_($postcode_rate_row));
-
-        $shippingPrice = $this->getFinalPriceWithHandlingFee($postcode_rate_row1);
-
-        return $shippingPrice;
-    }
 
     /**
      * @param RateRequest $request
@@ -128,7 +101,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         if (!$this->getConfigFlag('active')) {
             return false;
         }
-        $postcode = $request->getDestPostcode();
+
         /** @var \Magento\Shipping\Model\Rate\Result $result */
         $result = $this->rateResultFactory->create();
 
@@ -141,11 +114,29 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         $method->setMethod($this->_code);
         $method->setMethodTitle($this->getConfigData('name'));
 
-        //$amount = $this->getShippingPrice($request);
-        $amount = $this->ratehelper->fetchRate(2600);
-        $this->_logger->debug('Shipping Rate is: '.var_dump($amount));
-        $method->setPrice($amount);
-        $method->setCost($amount);
+
+        //$amount = $this->shippingRateHelperFactory->create()->fetchRate(2600);
+        //$amount = $this->stRateCollectionFactory->create()->getItemsByColumnValue('postcode',2600);
+        $received_rate_array = $this->shippingRateFactory->create()->getRate($request);
+
+        $this->_logger->debug('ShippingRatesHelper Rate is: '.var_export($received_rate_array[0]['basic'],true));
+        $packageWeight = $request->getPackageWeight();
+        $basic_rate = floatval($received_rate_array[0]['basic']);
+
+        $rate_per_kg = floatval($received_rate_array[0]['rate_per_kg']);
+        $minimum_rate = floatval($received_rate_array[0]['minimum']);
+
+        $weight_based_rate = $basic_rate + ($rate_per_kg * floatval($packageWeight));
+        $this->_logger->debug('Basic Rate is: '. var_export($basic_rate,true).' and Rate Per Kg: '.$rate_per_kg.' and Minimum Rate: '.$minimum_rate.' and Weight Based Rate: '.$weight_based_rate);
+        if ($weight_based_rate<$minimum_rate){
+            $shipping_rate = $minimum_rate;
+        }
+        else{
+            $shipping_rate = $weight_based_rate;
+        }
+
+        $method->setPrice($shipping_rate);
+        $method->setCost($shipping_rate);
 
         $result->append($method);
 
