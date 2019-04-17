@@ -1,9 +1,9 @@
 <?php
 
-namespace Lmap\StartrackShipping\Model\ResourceModel\Carrier\StarTrackRates;
+namespace Lmap\StartrackShipping\Model\ResourceModel\StarTrackRates;
 
-use Lmap\StarTrackShipping\Model\Carrier\StarTrackRates;
-use Lmap\StarTrackShipping\Model\ResourceModel\Carrier\StarTrackRates as StarTrackRatesResource;
+use Lmap\StarTrackShipping\Model\StarTrackRates;
+use Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRates as StarTrackRatesResource;
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 /**

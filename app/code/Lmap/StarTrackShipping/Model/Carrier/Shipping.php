@@ -2,13 +2,16 @@
 namespace Lmap\StarTrackShipping\Model\Carrier;
 
 
-use Lmap\ShippingRates\Helper\ShippingRateHelperFactory;
-use Lmap\ShippingRates\Model\ResourceModel\ShippingRatesFactory;
 use Magento\Quote\Model\Quote\Address\RateRequest;
 use Magento\Shipping\Model\Rate\Result;
-//use Lmap\StarTrackShipping\Model\ResourceModel\Carrier\StarTrackRates\CollectionFactory;
-use Lmap\StarTrackShipping\Helper\FetchShippingRate;
-use Lmap\ShippingRates\Model\ResourceModel\ShippingRates\CollectionFactory as SRCollectionFactory;
+
+//use Lmap\ShippingRates\Helper\ShippingRateHelperFactory; // Not used at all
+//use Lmap\ShippingRates\Model\ResourceModel\ShippingRatesFactory; // can be used if rates are fetched using seperate module Lmap_ShippingRates
+//use Lmap\ShippingRates\Model\ResourceModel\ShippingRates\CollectionFactory as SRCollectionFactory; // Not used at all
+
+use Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRatesFactory;
+//use Lmap\StarTrackShipping\Helper\FetchShippingRate; // Not used
+
 
 
 class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implements
@@ -29,8 +32,10 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
      */
     protected $rateMethodFactory;
 
-    protected $ratehelper;
-    private $shippingRateHelperFactory;
+    //protected $ratehelper;
+    //private $shippingRateHelperFactory;
+
+    private $starTrackRatesFactory;
     private $shippingRateFactory;
     protected $_logger;
 
@@ -44,35 +49,28 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
 
     /**
      * Shipping constructor.
-     *
-     * @param \
-     * @param \Magento\Framework\App\Config\ScopeConfigInterface          $scopeConfig
-     * @param \Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory  $rateErrorFactory
-     * @param \Psr\Log\LoggerInterface                                    $logger
-     * @param \Magento\Shipping\Model\Rate\ResultFactory                  $rateResultFactory
+     * @param \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig
+     * @param \Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory $rateErrorFactory
+     * @param \Psr\Log\LoggerInterface $logger
+     * @param \Magento\Shipping\Model\Rate\ResultFactory $rateResultFactory
      * @param \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory $rateMethodFactory
-     * @param \Lmap\StarTrackShipping\Helper\FetchShippingRate $fetchShippingRate
-     * @param \Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRates\CollectionFactory $stRatesCollectionFactory
-     * @param array                                                       $data
+     * @param StarTrackRatesFactory $starTrackRatesFactory
+     * @param array $data
      */
     public function __construct(
-        SRCollectionFactory $stRatesCollectionFactory,
-        FetchShippingRate $fetchShippingRate,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
         \Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory $rateErrorFactory,
         \Psr\Log\LoggerInterface $logger,
         \Magento\Shipping\Model\Rate\ResultFactory $rateResultFactory,
         \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory $rateMethodFactory,
-        ShippingRateHelperFactory $shippingRateHelperFactory,
-        ShippingRatesFactory $shippingRateFactory,
+        StarTrackRatesFactory $starTrackRatesFactory,
+        //ShippingRatesFactory $shippingRateFactory,
         array $data = []
     ) {
         $this->rateResultFactory = $rateResultFactory;
         $this->rateMethodFactory = $rateMethodFactory;
-        $this->stRateCollectionFactory = $stRatesCollectionFactory;
-        $this->ratehelper = $fetchShippingRate;
-        $this->shippingRateHelperFactory = $shippingRateHelperFactory;
-        $this->shippingRateFactory = $shippingRateFactory;
+        $this->starTrackRatesFactory = $starTrackRatesFactory;
+        //$this->shippingRateFactory = $shippingRateFactory;
         $this->_logger = $logger;
         parent::__construct($scopeConfig, $rateErrorFactory, $logger, $data);
     }
@@ -89,7 +87,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
 
     /**
      * @param RateRequest $request
-     * @return bool|Result
+     * @return bool|\Magento\Framework\DataObject|Result|null
      */
     public function collectRates(RateRequest $request)
         /**
@@ -117,7 +115,10 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
 
         //$amount = $this->shippingRateHelperFactory->create()->fetchRate(2600);
         //$amount = $this->stRateCollectionFactory->create()->getItemsByColumnValue('postcode',2600);
-        $received_rate_array = $this->shippingRateFactory->create()->getRate($request);
+
+        //$received_rate_array = $this->shippingRateFactory->create()->getRate($request); // Worked successfully
+
+        $received_rate_array = $this->starTrackRatesFactory->create()->getRate($request);
 
         $this->_logger->debug('ShippingRatesHelper Rate is: '.var_export($received_rate_array[0]['basic'],true));
         $packageWeight = $request->getPackageWeight();
@@ -127,7 +128,11 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         $minimum_rate = floatval($received_rate_array[0]['minimum']);
 
         $weight_based_rate = $basic_rate + ($rate_per_kg * floatval($packageWeight));
-        $this->_logger->debug('Basic Rate is: '. var_export($basic_rate,true).' and Rate Per Kg: '.$rate_per_kg.' and Minimum Rate: '.$minimum_rate.' and Weight Based Rate: '.$weight_based_rate);
+        $this->_logger->debug('Basic Rate is: '. var_export($basic_rate,true).
+                                ' and Rate Per Kg: '.$rate_per_kg.
+                                ' and Minimum Rate: '.$minimum_rate.
+                                ' and Weight Based Rate: '.$weight_based_rate.
+                                ' and package weight:' .floatval($packageWeight));
         if ($weight_based_rate<$minimum_rate){
             $shipping_rate = $minimum_rate;
         }

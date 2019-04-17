@@ -1,12 +1,19 @@
 <?php
-namespace Lmap\ShippingRates\Model\ResourceModel;
+namespace Lmap\StarTrackShipping\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
-class ShippingRates extends AbstractDb
+class StarTrackRates extends AbstractDb
 {
+
     protected $logger;
 
+    /**
+     * StarTrackRates constructor.
+     * @param \Magento\Framework\Model\ResourceModel\Db\Context $context
+     * @param \Psr\Log\LoggerInterface $logger
+     * @param null $connectionName
+     */
     public function __construct(
         \Magento\Framework\Model\ResourceModel\Db\Context $context,
         \Psr\Log\LoggerInterface $logger,
@@ -22,8 +29,9 @@ class ShippingRates extends AbstractDb
      */
     protected function _construct()
     {
-        $this->_init('lmap_shipping_rates', 'id');
+        $this->_init('lmap_shipping_tablerate', 'id');
     }
+
 
     /**
      * @param \Magento\Quote\Model\Quote\Address\RateRequest $request

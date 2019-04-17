@@ -1,10 +1,12 @@
 <?php
 
+// This helper class also produced empty result hence not used anymore.
+
 namespace Lmap\StarTrackShipping\Helper;
 
-use Lmap\StarTrackShipping\Model\ResourceModel\Carrier\StarTrackRates\CollectionFactory;
-use Lmap\StarTrackShipping\Model\Carrier\StarTrackRatesFactory;
-use Lmap\StarTrackShipping\Model\Carrier\StarTrackRates;
+use Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRates\CollectionFactory;
+use Lmap\StarTrackShipping\Model\StarTrackRatesFactory;
+use Lmap\StarTrackShipping\Model\StarTrackRates;
 //use Magento\Framework\DB\Helper\AbstractHelper;
 //use Magento\Framework\App\Helper\AbstractHelper;
 use Psr\Log\LoggerInterface;

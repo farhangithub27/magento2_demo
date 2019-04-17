@@ -12,7 +12,7 @@
  * select * FROM magento23demo.setup_module where module='Lmap_EquipmentStore';
  * select * FROM magento23demo.lmap_equipment_items;
  */
-namespace Lmap\StarTrackShipping\Setup;
+namespace Lmap\StarTrackShipping\Setup_oldway;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
