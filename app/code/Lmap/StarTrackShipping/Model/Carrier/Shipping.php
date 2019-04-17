@@ -35,7 +35,13 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
     //protected $ratehelper;
     //private $shippingRateHelperFactory;
 
+    /**
+     * @var \Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRatesFactory
+     */
     private $starTrackRatesFactory;
+    /**
+     * @var \Lmap\ShippingRates\Model\ResourceModel\ShippingRatesFactory
+     */
     private $shippingRateFactory;
     protected $_logger;
 
