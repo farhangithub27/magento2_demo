@@ -84,4 +84,8 @@
         <plugin name="console_logging" type="Lmap\EquipmentStore\Plugin\Logger"/>
     </type>
     -->
+    <!-- di Configurations for WebApi -->
+    <preference for="Lmap\EquipmentStore\Api\Data\ItemInterface" type="Lmap\EquipmentStore\Model\EquipmentItem"/>
+    <preference for="Lmap\EquipmentStore\Api\ItemRepositoryInterface" type="Lmap\EquipmentStore\Model\ItemRepository"/>
+
 </config>
