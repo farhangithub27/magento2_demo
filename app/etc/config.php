@@ -227,6 +227,7 @@ return [
         'Magento_WishlistGraphQl' => 1,
         'Magento_WishlistSampleData' => 1,
         'PMNTS_Gateway' => 1,
+        'Sivaschenko_LuckyOrder' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
         'WebShopApps_MatrixRate' => 1
