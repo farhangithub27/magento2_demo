@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668706575" stop="1556668706587" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Controller\Account\CreateTest</name>
+  <test-cases>
+    <test-case start="1556668706575" stop="1556668706580" status="passed">
+      <name>testExecuteAddsSessionMessageIfCustomerIsLoggedIn</name>
+    </test-case>
+    <test-case start="1556668706580" stop="1556668706587" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

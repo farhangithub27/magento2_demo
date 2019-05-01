@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668809546" stop="1556668809554" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Shipment\Plugin\ShippingLabelConverterTest</name>
+  <test-cases>
+    <test-case start="1556668809547" stop="1556668809551" status="passed">
+      <name>testAfterGet</name>
+    </test-case>
+    <test-case start="1556668809552" stop="1556668809554" status="passed">
+      <name>testAfterGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

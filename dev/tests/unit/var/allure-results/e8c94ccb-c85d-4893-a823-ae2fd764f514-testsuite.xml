@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668724195" stop="1556668724200" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Metadata\AttributeMetadataHydratorTest</name>
+  <test-cases>
+    <test-case start="1556668724195" stop="1556668724198" status="passed">
+      <name>testHydrate</name>
+    </test-case>
+    <test-case start="1556668724199" stop="1556668724200" status="passed">
+      <name>testExtract</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838895" stop="1556668838903" version="1.4.0">
+  <name>Magento\Framework\Test\Unit\Config\FileResolverByModuleTest</name>
+  <test-cases>
+    <test-case start="1556668838895" stop="1556668838898" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668838899" stop="1556668838900" status="passed">
+      <name>testGetWithException</name>
+    </test-case>
+    <test-case start="1556668838900" stop="1556668838902" status="passed">
+      <name>testGetOneModule</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

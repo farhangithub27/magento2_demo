@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668799803" stop="1556668799825" version="1.4.0">
+  <name>Magento\SalesSequence\Test\Unit\Model\SequenceTest</name>
+  <test-cases>
+    <test-case start="1556668799803" stop="1556668799817" status="passed">
+      <name>testSequenceInitialNull</name>
+    </test-case>
+    <test-case start="1556668799817" stop="1556668799825" status="passed">
+      <name>testSequenceNextValue</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

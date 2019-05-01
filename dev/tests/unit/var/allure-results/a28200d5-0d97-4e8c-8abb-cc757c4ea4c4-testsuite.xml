@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790051" stop="1556668790065" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Observer\EmulateCustomerObserverTest</name>
+  <test-cases>
+    <test-case start="1556668790051" stop="1556668790054" status="passed">
+      <name>testExecuteWhenCannotProcessPersistentData</name>
+    </test-case>
+    <test-case start="1556668790054" stop="1556668790055" status="passed">
+      <name>testExecuteWhenShoppingCartNotPersist</name>
+    </test-case>
+    <test-case start="1556668790055" stop="1556668790063" status="passed">
+      <name>testExecuteWhenSessionPersistAndCustomerNotLoggedIn</name>
+    </test-case>
+    <test-case start="1556668790063" stop="1556668790065" status="passed">
+      <name>testExecuteWhenSessionNotPersist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

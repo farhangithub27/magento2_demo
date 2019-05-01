@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668847114" stop="1556668847126" version="1.4.0">
+  <name>Magento\Framework\Code\Test\Unit\Generator\IoTest</name>
+  <test-cases>
+    <test-case start="1556668847115" stop="1556668847115" status="passed">
+      <name>testGetResultFileDirectory</name>
+    </test-case>
+    <test-case start="1556668847115" stop="1556668847116" status="passed">
+      <name>testGetResultFileName</name>
+    </test-case>
+    <test-case start="1556668847116" stop="1556668847118" status="passed">
+      <name>testWriteResultFileAlreadyExists with data set "Writing file succeeds: writeResultFile succeeds"</name>
+    </test-case>
+    <test-case start="1556668847118" stop="1556668847119" status="passed">
+      <name>testWriteResultFileAlreadyExists with data set "Writing file fails because class already exists on disc: writeResultFile succeeds"</name>
+    </test-case>
+    <test-case start="1556668847119" stop="1556668847121" status="passed">
+      <name>testWriteResultFileAlreadyExists with data set "Error renaming file, btu class does not exist on disc: writeResultFile throws exception and fails"</name>
+    </test-case>
+    <test-case start="1556668847121" stop="1556668847122" status="passed">
+      <name>testWriteResultFileAlreadyExistsDataProvider</name>
+    </test-case>
+    <test-case start="1556668847122" stop="1556668847123" status="passed">
+      <name>testMakeGenerationDirectoryWritable</name>
+    </test-case>
+    <test-case start="1556668847123" stop="1556668847124" status="passed">
+      <name>testMakeGenerationDirectoryReadOnly</name>
+    </test-case>
+    <test-case start="1556668847124" stop="1556668847124" status="passed">
+      <name>testGetGenerationDirectory</name>
+    </test-case>
+    <test-case start="1556668847125" stop="1556668847125" status="passed">
+      <name>testFileExists with data set #0</name>
+    </test-case>
+    <test-case start="1556668847126" stop="1556668847126" status="passed">
+      <name>testFileExists with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668834210" stop="1556668834272" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Model\Total\Quote\WeeeTaxTest</name>
+  <test-cases>
+    <test-case start="1556668834210" stop="1556668834217" status="passed">
+      <name>testFetch</name>
+    </test-case>
+    <test-case start="1556668834217" stop="1556668834218" status="passed">
+      <name>testFetchWithZeroAmounts</name>
+    </test-case>
+    <test-case start="1556668834219" stop="1556668834224" status="passed">
+      <name>testCollect with data set "price_incl_tax_weee_taxable_unit_included_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834224" stop="1556668834229" status="passed">
+      <name>testCollect with data set "price_incl_tax_weee_taxable_unit_not_included_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834229" stop="1556668834234" status="passed">
+      <name>testCollect with data set "price_excl_tax_weee_taxable_unit_included_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834234" stop="1556668834238" status="passed">
+      <name>testCollect with data set "price_incl_tax_weee_non_taxable_unit_included_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834238" stop="1556668834241" status="passed">
+      <name>testCollect with data set "price_excl_tax_weee_non_taxable_unit_include_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834242" stop="1556668834246" status="passed">
+      <name>testCollect with data set "price_incl_tax_weee_taxable_row_include_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834247" stop="1556668834252" status="passed">
+      <name>testCollect with data set "price_excl_tax_weee_taxable_row_include_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834252" stop="1556668834256" status="passed">
+      <name>testCollect with data set "price_incl_tax_weee_non_taxable_row_include_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834257" stop="1556668834261" status="passed">
+      <name>testCollect with data set "price_excl_tax_weee_non_taxable_row_not_included_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834262" stop="1556668834266" status="passed">
+      <name>testCollect with data set "price_excl_tax_weee_taxable_unit_not_included_in_subtotal"</name>
+    </test-case>
+    <test-case start="1556668834267" stop="1556668834269" status="passed">
+      <name>testCollect with data set "weee_disabled"</name>
+    </test-case>
+    <test-case start="1556668834270" stop="1556668834272" status="passed">
+      <name>testCollect with data set "zero_items"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

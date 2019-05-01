@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848659" stop="1556668848667" version="1.4.0">
+  <name>Magento\Framework\Controller\Test\Unit\Result\RedirectTest</name>
+  <test-cases>
+    <test-case start="1556668848660" stop="1556668848660" status="passed">
+      <name>testSetRefererUrl</name>
+    </test-case>
+    <test-case start="1556668848661" stop="1556668848661" status="passed">
+      <name>testSetRefererOrBaseUrl</name>
+    </test-case>
+    <test-case start="1556668848662" stop="1556668848662" status="passed">
+      <name>testSetUrl</name>
+    </test-case>
+    <test-case start="1556668848662" stop="1556668848663" status="passed">
+      <name>testSetPath</name>
+    </test-case>
+    <test-case start="1556668848664" stop="1556668848665" status="passed">
+      <name>testRender with data set #0</name>
+    </test-case>
+    <test-case start="1556668848665" stop="1556668848666" status="passed">
+      <name>testRender with data set #1</name>
+    </test-case>
+    <test-case start="1556668848666" stop="1556668848667" status="passed">
+      <name>testRender with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

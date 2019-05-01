@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668692833" stop="1556668692847" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Helper\Product\CompareTest</name>
+  <test-cases>
+    <test-case start="1556668692834" stop="1556668692839" status="passed">
+      <name>testGetPostDataRemove</name>
+    </test-case>
+    <test-case start="1556668692839" stop="1556668692841" status="passed">
+      <name>testGetClearListUrl</name>
+    </test-case>
+    <test-case start="1556668692841" stop="1556668692844" status="passed">
+      <name>testGetPostDataClearList</name>
+    </test-case>
+    <test-case start="1556668692844" stop="1556668692847" status="passed">
+      <name>testGetAddToCartUrl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

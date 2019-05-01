@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855374" stop="1556668855377" version="1.4.0">
+  <name>Magento\Framework\Indexer\Test\Unit\StrategyTest</name>
+  <test-cases>
+    <test-case start="1556668855374" stop="1556668855375" status="passed">
+      <name>testUseIdxTable</name>
+    </test-case>
+    <test-case start="1556668855375" stop="1556668855376" status="passed">
+      <name>testPrepareTableName</name>
+    </test-case>
+    <test-case start="1556668855376" stop="1556668855377" status="passed">
+      <name>testGetTableName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

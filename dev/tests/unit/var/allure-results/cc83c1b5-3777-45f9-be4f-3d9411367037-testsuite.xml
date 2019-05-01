@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668825593" stop="1556668825608" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Theme\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668825594" stop="1556668825601" status="passed">
+      <name>testLoadData</name>
+    </test-case>
+    <test-case start="1556668825602" stop="1556668825603" status="passed">
+      <name>testAddConstraintUnsupportedType</name>
+    </test-case>
+    <test-case start="1556668825603" stop="1556668825605" status="passed">
+      <name>testAddConstraint with data set "area"</name>
+    </test-case>
+    <test-case start="1556668825605" stop="1556668825606" status="passed">
+      <name>testAddConstraint with data set "vendor"</name>
+    </test-case>
+    <test-case start="1556668825606" stop="1556668825607" status="passed">
+      <name>testAddConstraint with data set "theme name"</name>
+    </test-case>
+    <test-case start="1556668825607" stop="1556668825608" status="passed">
+      <name>testAddConstraint with data set "area, vendor and theme name"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

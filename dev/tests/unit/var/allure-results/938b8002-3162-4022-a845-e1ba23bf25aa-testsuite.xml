@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668781853" stop="1556668781861" version="1.4.0">
+  <name>Magento\OfflinePayments\Test\Unit\Block\Info\CheckmoTest</name>
+  <test-cases>
+    <test-case start="1556668781854" stop="1556668781856" status="passed">
+      <name>testGetPayableTo with data set #0</name>
+    </test-case>
+    <test-case start="1556668781856" stop="1556668781857" status="passed">
+      <name>testGetPayableTo with data set #1</name>
+    </test-case>
+    <test-case start="1556668781858" stop="1556668781858" status="passed">
+      <name>testGetMailingAddress with data set #0</name>
+    </test-case>
+    <test-case start="1556668781859" stop="1556668781860" status="passed">
+      <name>testGetMailingAddress with data set #1</name>
+    </test-case>
+    <test-case start="1556668781860" stop="1556668781861" status="passed">
+      <name>testConvertAdditionalDataIsNeverCalled</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

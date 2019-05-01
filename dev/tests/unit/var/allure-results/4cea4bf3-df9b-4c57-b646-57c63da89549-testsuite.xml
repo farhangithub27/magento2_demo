@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668834133" stop="1556668834189" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Model\Total\Invoice\WeeeTest</name>
+  <test-cases>
+    <test-case start="1556668834134" stop="1556668834148" status="passed">
+      <name>testCollect with data set "complete_invoice"</name>
+    </test-case>
+    <test-case start="1556668834149" stop="1556668834157" status="passed">
+      <name>testCollect with data set "partial_invoice"</name>
+    </test-case>
+    <test-case start="1556668834157" stop="1556668834165" status="passed">
+      <name>testCollect with data set "second_partial_invoice"</name>
+    </test-case>
+    <test-case start="1556668834165" stop="1556668834177" status="passed">
+      <name>testCollect with data set "last_partial_invoice"</name>
+    </test-case>
+    <test-case start="1556668834177" stop="1556668834189" status="passed">
+      <name>testCollect with data set "zero_invoice"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

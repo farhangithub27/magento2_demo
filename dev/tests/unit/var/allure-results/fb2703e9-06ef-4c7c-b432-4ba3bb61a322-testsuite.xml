@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668746191" stop="1556668746245" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Controller\Adminhtml\Integration\DeleteTest</name>
+  <test-cases>
+    <test-case start="1556668746191" stop="1556668746216" status="passed">
+      <name>testDeleteAction</name>
+    </test-case>
+    <test-case start="1556668746217" stop="1556668746223" status="passed">
+      <name>testDeleteActionWithConsumer</name>
+    </test-case>
+    <test-case start="1556668746223" stop="1556668746229" status="passed">
+      <name>testDeleteActionConfigSetUp</name>
+    </test-case>
+    <test-case start="1556668746229" stop="1556668746234" status="passed">
+      <name>testDeleteActionMissingId</name>
+    </test-case>
+    <test-case start="1556668746234" stop="1556668746240" status="passed">
+      <name>testDeleteActionForServiceIntegrationException</name>
+    </test-case>
+    <test-case start="1556668746240" stop="1556668746245" status="passed">
+      <name>testDeleteActionForServiceGenericException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

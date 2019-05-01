@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668817521" stop="1556668817527" version="1.4.0">
+  <name>Magento\Store\Test\Unit\Console\Command\WebsiteListCommandTest</name>
+  <test-cases>
+    <test-case start="1556668817521" stop="1556668817522" status="passed">
+      <name>testExecuteExceptionNoVerbosity</name>
+    </test-case>
+    <test-case start="1556668817522" stop="1556668817527" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

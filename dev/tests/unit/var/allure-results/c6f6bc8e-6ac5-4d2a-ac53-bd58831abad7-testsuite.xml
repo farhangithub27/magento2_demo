@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657159" stop="1556668657175" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\Command\RollbackCommandTest</name>
+  <test-cases>
+    <test-case start="1556668657160" stop="1556668657162" status="passed">
+      <name>testExecuteCodeRollback</name>
+    </test-case>
+    <test-case start="1556668657163" stop="1556668657165" status="passed">
+      <name>testExecuteMediaRollback</name>
+    </test-case>
+    <test-case start="1556668657165" stop="1556668657168" status="passed">
+      <name>testExecuteDBRollback</name>
+    </test-case>
+    <test-case start="1556668657168" stop="1556668657170" status="passed">
+      <name>testExecuteNotInstalled</name>
+    </test-case>
+    <test-case start="1556668657170" stop="1556668657172" status="passed">
+      <name>testExecuteNoOptions</name>
+    </test-case>
+    <test-case start="1556668657172" stop="1556668657175" status="passed">
+      <name>testInteraction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

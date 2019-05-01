@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845049" stop="1556668845057" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\ResourceConnection\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668845049" stop="1556668845050" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "without_required_resource_handle"</name>
+    </test-case>
+    <test-case start="1556668845050" stop="1556668845051" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "resource_without_required_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668845051" stop="1556668845052" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "resource_name_attribute_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668845052" stop="1556668845053" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "resource_extends_attribute_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668845053" stop="1556668845054" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "resource_connection_attribute_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668845054" stop="1556668845055" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "resource_with_notallowed_attribute"</name>
+    </test-case>
+    <test-case start="1556668845055" stop="1556668845056" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "resource_with_same_name_value"</name>
+    </test-case>
+    <test-case start="1556668845056" stop="1556668845057" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

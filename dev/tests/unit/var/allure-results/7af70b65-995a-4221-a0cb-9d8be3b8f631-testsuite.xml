@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859546" stop="1556668859587" version="1.4.0">
+  <name>Magento\Framework\Pricing\Test\Unit\Render\AbstractAdjustmentTest</name>
+  <test-cases>
+    <test-case start="1556668859546" stop="1556668859550" status="passed">
+      <name>testConvertAndFormatCurrency</name>
+    </test-case>
+    <test-case start="1556668859550" stop="1556668859564" status="passed">
+      <name>testRender</name>
+    </test-case>
+    <test-case start="1556668859564" stop="1556668859567" status="passed">
+      <name>testGetAmountRender</name>
+    </test-case>
+    <test-case start="1556668859568" stop="1556668859571" status="passed">
+      <name>testGetPriceType</name>
+    </test-case>
+    <test-case start="1556668859572" stop="1556668859575" status="passed">
+      <name>testGetPrice</name>
+    </test-case>
+    <test-case start="1556668859575" stop="1556668859578" status="passed">
+      <name>testGetSealableItem</name>
+    </test-case>
+    <test-case start="1556668859579" stop="1556668859583" status="passed">
+      <name>testGetAdjustment</name>
+    </test-case>
+    <test-case start="1556668859583" stop="1556668859586" status="passed">
+      <name>testFormatCurrency</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

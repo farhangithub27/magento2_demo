@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668873733" stop="1556668873870" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\LayoutTest</name>
+  <test-cases>
+    <test-case start="1556668873733" stop="1556668873740" status="passed">
+      <name>testCreateBlockSuccess</name>
+    </test-case>
+    <test-case start="1556668873740" stop="1556668873742" status="passed">
+      <name>testGetUpdate</name>
+    </test-case>
+    <test-case start="1556668873742" stop="1556668873745" status="passed">
+      <name>testGenerateXml</name>
+    </test-case>
+    <test-case start="1556668873745" stop="1556668873748" status="passed">
+      <name>testGetChildBlock</name>
+    </test-case>
+    <test-case start="1556668873748" stop="1556668873750" status="passed">
+      <name>testGetChildNonExistBlock</name>
+    </test-case>
+    <test-case start="1556668873750" stop="1556668873752" status="passed">
+      <name>testSetChild</name>
+    </test-case>
+    <test-case start="1556668873753" stop="1556668873755" status="passed">
+      <name>testUnsetChild</name>
+    </test-case>
+    <test-case start="1556668873755" stop="1556668873757" status="passed">
+      <name>testGetChildNames</name>
+    </test-case>
+    <test-case start="1556668873757" stop="1556668873760" status="passed">
+      <name>testGetChildBlocks</name>
+    </test-case>
+    <test-case start="1556668873760" stop="1556668873762" status="passed">
+      <name>testGetChildName</name>
+    </test-case>
+    <test-case start="1556668873762" stop="1556668873765" status="passed">
+      <name>testAddToParentGroup</name>
+    </test-case>
+    <test-case start="1556668873765" stop="1556668873767" status="passed">
+      <name>testGetGroupChildNames</name>
+    </test-case>
+    <test-case start="1556668873767" stop="1556668873769" status="passed">
+      <name>testHasElement</name>
+    </test-case>
+    <test-case start="1556668873770" stop="1556668873771" status="passed">
+      <name>testGetElementProperty</name>
+    </test-case>
+    <test-case start="1556668873772" stop="1556668873774" status="passed">
+      <name>testIsContainer with data set #0</name>
+    </test-case>
+    <test-case start="1556668873774" stop="1556668873776" status="passed">
+      <name>testIsContainer with data set #1</name>
+    </test-case>
+    <test-case start="1556668873777" stop="1556668873779" status="passed">
+      <name>testIsContainer with data set #2</name>
+    </test-case>
+    <test-case start="1556668873779" stop="1556668873782" status="passed">
+      <name>testIsContainer with data set #3</name>
+    </test-case>
+    <test-case start="1556668873782" stop="1556668873785" status="passed">
+      <name>testIsManipulationAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668873785" stop="1556668873788" status="passed">
+      <name>testIsManipulationAllowed with data set #1</name>
+    </test-case>
+    <test-case start="1556668873788" stop="1556668873790" status="passed">
+      <name>testIsManipulationAllowed with data set #2</name>
+    </test-case>
+    <test-case start="1556668873790" stop="1556668873793" status="passed">
+      <name>testSetGetBlock</name>
+    </test-case>
+    <test-case start="1556668873793" stop="1556668873795" status="passed">
+      <name>testRenameElement</name>
+    </test-case>
+    <test-case start="1556668873796" stop="1556668873798" status="passed">
+      <name>testGetParentName</name>
+    </test-case>
+    <test-case start="1556668873798" stop="1556668873801" status="passed">
+      <name>testGetElementAlias</name>
+    </test-case>
+    <test-case start="1556668873801" stop="1556668873803" status="passed">
+      <name>testAddRemoveOutputElement</name>
+    </test-case>
+    <test-case start="1556668873803" stop="1556668873805" status="passed">
+      <name>testIsPrivate</name>
+    </test-case>
+    <test-case start="1556668873805" stop="1556668873807" status="passed">
+      <name>testGetBlockSingleton with data set #0</name>
+    </test-case>
+    <test-case start="1556668873808" stop="1556668873810" status="passed">
+      <name>testAddGetRendererOptions with data set "wrong namespace"</name>
+    </test-case>
+    <test-case start="1556668873810" stop="1556668873812" status="passed">
+      <name>testAddGetRendererOptions with data set "wrong static type"</name>
+    </test-case>
+    <test-case start="1556668873812" stop="1556668873814" status="passed">
+      <name>testAddGetRendererOptions with data set "wrong dynamic type"</name>
+    </test-case>
+    <test-case start="1556668873814" stop="1556668873816" status="passed">
+      <name>testAddGetRendererOptions with data set "set and get test"</name>
+    </test-case>
+    <test-case start="1556668873817" stop="1556668873819" status="passed">
+      <name>testIsCacheable with data set #0</name>
+    </test-case>
+    <test-case start="1556668873819" stop="1556668873821" status="passed">
+      <name>testIsCacheable with data set #1</name>
+    </test-case>
+    <test-case start="1556668873821" stop="1556668873825" status="passed">
+      <name>testGenerateElementsWithoutCache</name>
+    </test-case>
+    <test-case start="1556668873826" stop="1556668873829" status="passed">
+      <name>testGenerateElementsWithCache</name>
+    </test-case>
+    <test-case start="1556668873829" stop="1556668873831" status="passed">
+      <name>testGetXml</name>
+    </test-case>
+    <test-case start="1556668873831" stop="1556668873836" status="passed">
+      <name>testRenderElementDisplay with data set #0</name>
+    </test-case>
+    <test-case start="1556668873837" stop="1556668873841" status="passed">
+      <name>testRenderElementDisplay with data set #1</name>
+    </test-case>
+    <test-case start="1556668873842" stop="1556668873847" status="passed">
+      <name>testRenderElementDisplay with data set #2</name>
+    </test-case>
+    <test-case start="1556668873847" stop="1556668873852" status="passed">
+      <name>testRenderElementDisplay with data set #3</name>
+    </test-case>
+    <test-case start="1556668873853" stop="1556668873857" status="passed">
+      <name>testRenderElementDisplay with data set #4</name>
+    </test-case>
+    <test-case start="1556668873858" stop="1556668873863" status="passed">
+      <name>testRenderElementDisplay with data set #5</name>
+    </test-case>
+    <test-case start="1556668873863" stop="1556668873865" status="passed">
+      <name>testRenderElementDoNotDisplay with data set #0</name>
+    </test-case>
+    <test-case start="1556668873866" stop="1556668873867" status="passed">
+      <name>testRenderElementDoNotDisplay with data set #1</name>
+    </test-case>
+    <test-case start="1556668873868" stop="1556668873870" status="passed">
+      <name>testRenderElementDoNotDisplay with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

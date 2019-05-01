@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668664978" stop="1556668664987" version="1.4.0">
+  <name>Magento\AdvancedSearch\Test\Unit\Block\SearchDataTest</name>
+  <test-cases>
+    <test-case start="1556668664979" stop="1556668664984" status="passed">
+      <name>testGetSuggestions</name>
+    </test-case>
+    <test-case start="1556668664984" stop="1556668664986" status="passed">
+      <name>testGetLink</name>
+    </test-case>
+    <test-case start="1556668664986" stop="1556668664987" status="passed">
+      <name>testIsShowResultsCount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

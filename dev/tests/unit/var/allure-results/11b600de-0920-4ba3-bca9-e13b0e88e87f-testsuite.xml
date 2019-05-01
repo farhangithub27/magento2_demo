@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668713093" stop="1556668713104" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Structure\ElementVisibilityCompositeTest</name>
+  <test-cases>
+    <test-case start="1556668713093" stop="1556668713094" status="passed">
+      <name>testException</name>
+    </test-case>
+    <test-case start="1556668713094" stop="1556668713095" status="passed">
+      <name>testDisabled with data set #0</name>
+    </test-case>
+    <test-case start="1556668713096" stop="1556668713096" status="passed">
+      <name>testDisabled with data set #1</name>
+    </test-case>
+    <test-case start="1556668713097" stop="1556668713098" status="passed">
+      <name>testDisabled with data set #2</name>
+    </test-case>
+    <test-case start="1556668713098" stop="1556668713099" status="passed">
+      <name>testDisabled with data set #3</name>
+    </test-case>
+    <test-case start="1556668713100" stop="1556668713100" status="passed">
+      <name>testHidden with data set #0</name>
+    </test-case>
+    <test-case start="1556668713101" stop="1556668713102" status="passed">
+      <name>testHidden with data set #1</name>
+    </test-case>
+    <test-case start="1556668713102" stop="1556668713103" status="passed">
+      <name>testHidden with data set #2</name>
+    </test-case>
+    <test-case start="1556668713103" stop="1556668713104" status="passed">
+      <name>testHidden with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

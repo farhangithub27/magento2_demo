@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668718725" stop="1556668718728" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Adminhtml\From\Element\ImageTest</name>
+  <test-cases>
+    <test-case start="1556668718725" stop="1556668718728" status="passed">
+      <name>testGetPreviewFile</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

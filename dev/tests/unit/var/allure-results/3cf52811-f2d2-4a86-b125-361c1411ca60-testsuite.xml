@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668677187" stop="1556668677214" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Model\Plugin\PriceBackendTest</name>
+  <test-cases>
+    <test-case start="1556668677188" stop="1556668677208" status="passed">
+      <name>testAroundValidate with data set #0</name>
+    </test-case>
+    <test-case start="1556668677209" stop="1556668677209" status="passed">
+      <name>testAroundValidate with data set #1</name>
+    </test-case>
+    <test-case start="1556668677210" stop="1556668677211" status="passed">
+      <name>testAroundValidate with data set #2</name>
+    </test-case>
+    <test-case start="1556668677211" stop="1556668677212" status="passed">
+      <name>testAroundValidate with data set #3</name>
+    </test-case>
+    <test-case start="1556668677212" stop="1556668677213" status="passed">
+      <name>testAroundValidate with data set #4</name>
+    </test-case>
+    <test-case start="1556668677213" stop="1556668677214" status="passed">
+      <name>testAroundValidate with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

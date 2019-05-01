@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668665514" stop="1556668665521" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Model\Config\Backend\Baseurl\SubscriptionUpdateHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668665514" stop="1556668665516" status="passed">
+      <name>testTokenDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668665516" stop="1556668665518" status="passed">
+      <name>testTokenAndPreviousBaseUrlExist</name>
+    </test-case>
+    <test-case start="1556668665519" stop="1556668665521" status="passed">
+      <name>testTokenExistAndWithoutPreviousBaseUrl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

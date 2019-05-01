@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668813677" stop="1556668813684" version="1.4.0">
+  <name>Magento\Search\Test\Unit\Model\SynonymGroupTest</name>
+  <test-cases>
+    <test-case start="1556668813678" stop="1556668813679" status="passed">
+      <name>testSetGetStoreId</name>
+    </test-case>
+    <test-case start="1556668813679" stop="1556668813681" status="passed">
+      <name>testSetGetWebsiteId</name>
+    </test-case>
+    <test-case start="1556668813681" stop="1556668813682" status="passed">
+      <name>testSetGetSynonymGroup</name>
+    </test-case>
+    <test-case start="1556668813682" stop="1556668813683" status="passed">
+      <name>testSetGetGroupId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

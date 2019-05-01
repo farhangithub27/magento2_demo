@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668877037" stop="1556668877055" version="1.4.0">
+  <name>Magento\Test\Bootstrap\SettingsTest</name>
+  <test-cases>
+    <test-case start="1556668877038" stop="1556668877038" status="passed">
+      <name>testConstructorNonExistingBaseDir</name>
+    </test-case>
+    <test-case start="1556668877039" stop="1556668877039" status="passed">
+      <name>testGet with data set "string type"</name>
+    </test-case>
+    <test-case start="1556668877040" stop="1556668877040" status="passed">
+      <name>testGet with data set "integer type"</name>
+    </test-case>
+    <test-case start="1556668877040" stop="1556668877040" status="passed">
+      <name>testGet with data set "float type"</name>
+    </test-case>
+    <test-case start="1556668877041" stop="1556668877041" status="passed">
+      <name>testGet with data set "boolean type"</name>
+    </test-case>
+    <test-case start="1556668877041" stop="1556668877042" status="passed">
+      <name>testGet with data set "non-existing"</name>
+    </test-case>
+    <test-case start="1556668877042" stop="1556668877042" status="passed">
+      <name>testGet with data set "zero string"</name>
+    </test-case>
+    <test-case start="1556668877043" stop="1556668877043" status="passed">
+      <name>testGet with data set "default value"</name>
+    </test-case>
+    <test-case start="1556668877043" stop="1556668877043" status="passed">
+      <name>testGetAsBoolean with data set "non-enabled string"</name>
+    </test-case>
+    <test-case start="1556668877044" stop="1556668877044" status="passed">
+      <name>testGetAsBoolean with data set "non-enabled boolean"</name>
+    </test-case>
+    <test-case start="1556668877044" stop="1556668877045" status="passed">
+      <name>testGetAsBoolean with data set "enabled string"</name>
+    </test-case>
+    <test-case start="1556668877045" stop="1556668877045" status="passed">
+      <name>testGetAsFile with data set "existing file"</name>
+    </test-case>
+    <test-case start="1556668877046" stop="1556668877046" status="passed">
+      <name>testGetAsFile with data set "zero value setting"</name>
+    </test-case>
+    <test-case start="1556668877046" stop="1556668877046" status="passed">
+      <name>testGetAsFile with data set "empty default value"</name>
+    </test-case>
+    <test-case start="1556668877047" stop="1556668877047" status="passed">
+      <name>testGetAsFile with data set "zero default value"</name>
+    </test-case>
+    <test-case start="1556668877047" stop="1556668877048" status="passed">
+      <name>testGetAsFile with data set "default value"</name>
+    </test-case>
+    <test-case start="1556668877048" stop="1556668877049" status="passed">
+      <name>testGetAsMatchingPaths with data set "single pattern"</name>
+    </test-case>
+    <test-case start="1556668877049" stop="1556668877050" status="passed">
+      <name>testGetAsMatchingPaths with data set "pattern with braces"</name>
+    </test-case>
+    <test-case start="1556668877050" stop="1556668877050" status="passed">
+      <name>testGetAsMatchingPaths with data set "multiple patterns"</name>
+    </test-case>
+    <test-case start="1556668877051" stop="1556668877051" status="passed">
+      <name>testGetAsMatchingPaths with data set "non-existing setting"</name>
+    </test-case>
+    <test-case start="1556668877051" stop="1556668877051" status="passed">
+      <name>testGetAsMatchingPaths with data set "setting with zero value"</name>
+    </test-case>
+    <test-case start="1556668877052" stop="1556668877052" status="passed">
+      <name>testGetAsConfigFile with data set "config file &amp; dist file"</name>
+    </test-case>
+    <test-case start="1556668877052" stop="1556668877053" status="passed">
+      <name>testGetAsConfigFile with data set "config file &amp; no dist file"</name>
+    </test-case>
+    <test-case start="1556668877053" stop="1556668877053" status="passed">
+      <name>testGetAsConfigFile with data set "no config file &amp; dist file"</name>
+    </test-case>
+    <test-case start="1556668877054" stop="1556668877054" status="passed">
+      <name>testGetAsConfigFileException with data set "non-existing setting"</name>
+    </test-case>
+    <test-case start="1556668877054" stop="1556668877054" status="passed">
+      <name>testGetAsConfigFileException with data set "non-existing file"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

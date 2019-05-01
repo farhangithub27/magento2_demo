@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668706672" stop="1556668706727" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Controller\Cart\CouponPostTest</name>
+  <test-cases>
+    <test-case start="1556668706672" stop="1556668706682" status="passed">
+      <name>testExecuteWithEmptyCoupon</name>
+    </test-case>
+    <test-case start="1556668706683" stop="1556668706702" status="passed">
+      <name>testExecuteWithGoodCouponAndItems</name>
+    </test-case>
+    <test-case start="1556668706702" stop="1556668706710" status="passed">
+      <name>testExecuteWithGoodCouponAndNoItems</name>
+    </test-case>
+    <test-case start="1556668706710" stop="1556668706719" status="passed">
+      <name>testExecuteWithBadCouponAndItems</name>
+    </test-case>
+    <test-case start="1556668706719" stop="1556668706726" status="passed">
+      <name>testExecuteWithBadCouponAndNoItems</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

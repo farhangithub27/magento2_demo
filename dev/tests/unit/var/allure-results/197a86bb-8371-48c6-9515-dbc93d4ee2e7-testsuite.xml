@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668858002" stop="1556668858007" version="1.4.0">
+  <name>Magento\Framework\Mview\Test\Unit\Config\ReaderTest</name>
+  <test-cases>
+    <test-case start="1556668858003" stop="1556668858005" status="passed">
+      <name>testReadValidConfig with data set "mview_merged_one"</name>
+    </test-case>
+    <test-case start="1556668858005" stop="1556668858007" status="passed">
+      <name>testReadValidConfig with data set "mview_merged_two"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

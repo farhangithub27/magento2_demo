@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668817639" stop="1556668817644" version="1.4.0">
+  <name>Magento\Store\Test\Unit\Model\BaseUrlCheckerTest</name>
+  <test-cases>
+    <test-case start="1556668817640" stop="1556668817641" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668817642" stop="1556668817643" status="passed">
+      <name>testIsEnabled</name>
+    </test-case>
+    <test-case start="1556668817643" stop="1556668817644" status="passed">
+      <name>testIsFrontendSecure</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

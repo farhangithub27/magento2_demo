@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668857613" stop="1556668857624" version="1.4.0">
+  <name>Magento\Framework\Module\Test\Unit\Setup\MigrationTest</name>
+  <test-cases>
+    <test-case start="1556668857614" stop="1556668857616" status="passed">
+      <name>testAppendClassAliasReplace</name>
+    </test-case>
+    <test-case start="1556668857616" stop="1556668857617" status="pending">
+      <name>testDoUpdateClassAliases with data set "plain text replace model"</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/framework/Module/Test/Unit/Setup/MigrationTest.php(191): PHPUnit\Framework\Assert::markTestIncomplete('Requires refact...')
+#1 [internal function]: Magento\Framework\Module\Test\Unit\Setup\MigrationTest-&gt;testDoUpdateClassAliases(Array, Array, Array, Array)
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#14 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668857618" stop="1556668857619" status="pending">
+      <name>testDoUpdateClassAliases with data set "plain text replace resource"</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/framework/Module/Test/Unit/Setup/MigrationTest.php(191): PHPUnit\Framework\Assert::markTestIncomplete('Requires refact...')
+#1 [internal function]: Magento\Framework\Module\Test\Unit\Setup\MigrationTest-&gt;testDoUpdateClassAliases(Array, Array, Array)
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#14 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668857619" stop="1556668857620" status="pending">
+      <name>testDoUpdateClassAliases with data set "plain text replace with pk field"</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/framework/Module/Test/Unit/Setup/MigrationTest.php(191): PHPUnit\Framework\Assert::markTestIncomplete('Requires refact...')
+#1 [internal function]: Magento\Framework\Module\Test\Unit\Setup\MigrationTest-&gt;testDoUpdateClassAliases(Array, Array, Array)
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#14 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668857620" stop="1556668857621" status="pending">
+      <name>testDoUpdateClassAliases with data set "xml replace"</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/framework/Module/Test/Unit/Setup/MigrationTest.php(191): PHPUnit\Framework\Assert::markTestIncomplete('Requires refact...')
+#1 [internal function]: Magento\Framework\Module\Test\Unit\Setup\MigrationTest-&gt;testDoUpdateClassAliases(Array, Array, Array)
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#14 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668857622" stop="1556668857623" status="pending">
+      <name>testDoUpdateClassAliases with data set "wiki markup replace"</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/framework/Module/Test/Unit/Setup/MigrationTest.php(191): PHPUnit\Framework\Assert::markTestIncomplete('Requires refact...')
+#1 [internal function]: Magento\Framework\Module\Test\Unit\Setup\MigrationTest-&gt;testDoUpdateClassAliases(Array, Array, Array)
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#14 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668857623" stop="1556668857624" status="pending">
+      <name>testDoUpdateClassAliases with data set "serialized php replace"</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/framework/Module/Test/Unit/Setup/MigrationTest.php(191): PHPUnit\Framework\Assert::markTestIncomplete('Requires refact...')
+#1 [internal function]: Magento\Framework\Module\Test\Unit\Setup\MigrationTest-&gt;testDoUpdateClassAliases(Array, Array, Array)
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Module\Test\Unit\Setup\MigrationTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#14 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

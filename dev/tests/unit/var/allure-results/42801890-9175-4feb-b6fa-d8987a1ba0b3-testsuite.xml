@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668690260" stop="1556668690311" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Product\ProductList\ToolbarTest</name>
+  <test-cases>
+    <test-case start="1556668690260" stop="1556668690270" status="passed">
+      <name>testGetCurrentPage</name>
+    </test-case>
+    <test-case start="1556668690270" stop="1556668690272" status="passed">
+      <name>testGetPagerEncodedUrl</name>
+    </test-case>
+    <test-case start="1556668690272" stop="1556668690275" status="passed">
+      <name>testGetCurrentOrder</name>
+    </test-case>
+    <test-case start="1556668690275" stop="1556668690278" status="passed">
+      <name>testGetCurrentDirection</name>
+    </test-case>
+    <test-case start="1556668690278" stop="1556668690280" status="passed">
+      <name>testGetCurrentMode</name>
+    </test-case>
+    <test-case start="1556668690280" stop="1556668690283" status="passed">
+      <name>testGetModes</name>
+    </test-case>
+    <test-case start="1556668690283" stop="1556668690285" status="passed">
+      <name>testSetModes with data set #0</name>
+    </test-case>
+    <test-case start="1556668690286" stop="1556668690288" status="passed">
+      <name>testSetModes with data set #1</name>
+    </test-case>
+    <test-case start="1556668690288" stop="1556668690292" status="passed">
+      <name>testGetLimit</name>
+    </test-case>
+    <test-case start="1556668690292" stop="1556668690300" status="passed">
+      <name>testGetPagerHtml</name>
+    </test-case>
+    <test-case start="1556668690301" stop="1556668690303" status="passed">
+      <name>testSetDefaultOrder</name>
+    </test-case>
+    <test-case start="1556668690303" stop="1556668690305" status="passed">
+      <name>testGetAvailableOrders</name>
+    </test-case>
+    <test-case start="1556668690306" stop="1556668690308" status="passed">
+      <name>testAddOrderToAvailableOrders</name>
+    </test-case>
+    <test-case start="1556668690308" stop="1556668690310" status="passed">
+      <name>testRemoveOrderFromAvailableOrders</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

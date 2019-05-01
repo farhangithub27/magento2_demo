@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668853683" stop="1556668853698" version="1.4.0">
+  <name>Magento\Framework\Filesystem\Test\Unit\Directory\WriteTest</name>
+  <test-cases>
+    <test-case start="1556668853684" stop="1556668853685" status="passed">
+      <name>testGetDriver</name>
+    </test-case>
+    <test-case start="1556668853685" stop="1556668853686" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668853686" stop="1556668853687" status="passed">
+      <name>testIsWritable</name>
+    </test-case>
+    <test-case start="1556668853687" stop="1556668853689" status="passed">
+      <name>testCreateSymlinkTargetDirectoryExists</name>
+    </test-case>
+    <test-case start="1556668853689" stop="1556668853691" status="passed">
+      <name>testOpenFileNonWritable</name>
+    </test-case>
+    <test-case start="1556668853692" stop="1556668853695" status="passed">
+      <name>testRenameFile with data set #0</name>
+    </test-case>
+    <test-case start="1556668853695" stop="1556668853698" status="passed">
+      <name>testRenameFile with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

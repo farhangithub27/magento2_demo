@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668791940" stop="1556668791948" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\Address\ValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668791940" stop="1556668791942" status="passed">
+      <name>testValidateWithEmptyObject</name>
+    </test-case>
+    <test-case start="1556668791942" stop="1556668791943" status="passed">
+      <name>testValidateWithInvalidEmail</name>
+    </test-case>
+    <test-case start="1556668791943" stop="1556668791945" status="passed">
+      <name>testValidateWithInvalidCountryId</name>
+    </test-case>
+    <test-case start="1556668791945" stop="1556668791946" status="passed">
+      <name>testValidateWithInvalidData</name>
+    </test-case>
+    <test-case start="1556668791946" stop="1556668791948" status="passed">
+      <name>testValidateWithValidData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

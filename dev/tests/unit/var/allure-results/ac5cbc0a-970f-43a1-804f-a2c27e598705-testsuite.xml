@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668709112" stop="1556668709250" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Helper\Wysiwyg\ImagesTest</name>
+  <test-cases>
+    <test-case start="1556668709113" stop="1556668709121" status="passed">
+      <name>testSetStoreId</name>
+    </test-case>
+    <test-case start="1556668709121" stop="1556668709125" status="passed">
+      <name>testGetStorageRoot</name>
+    </test-case>
+    <test-case start="1556668709125" stop="1556668709129" status="passed">
+      <name>testGetBaseUrl</name>
+    </test-case>
+    <test-case start="1556668709129" stop="1556668709132" status="passed">
+      <name>testGetTreeNodeName</name>
+    </test-case>
+    <test-case start="1556668709133" stop="1556668709136" status="passed">
+      <name>testConvertPathToId</name>
+    </test-case>
+    <test-case start="1556668709137" stop="1556668709140" status="passed">
+      <name>testConvertIdToPathAnyId with data set #0</name>
+    </test-case>
+    <test-case start="1556668709141" stop="1556668709144" status="passed">
+      <name>testConvertIdToPathAnyId with data set #1</name>
+    </test-case>
+    <test-case start="1556668709144" stop="1556668709148" status="passed">
+      <name>testConvertIdToPathNodeRoot</name>
+    </test-case>
+    <test-case start="1556668709148" stop="1556668709152" status="passed">
+      <name>testConvertIdToPathInvalid</name>
+    </test-case>
+    <test-case start="1556668709152" stop="1556668709156" status="passed">
+      <name>testGetShortFilename with data set #0</name>
+    </test-case>
+    <test-case start="1556668709156" stop="1556668709160" status="passed">
+      <name>testGetShortFilename with data set #1</name>
+    </test-case>
+    <test-case start="1556668709160" stop="1556668709163" status="passed">
+      <name>testGetShortFilename with data set #2</name>
+    </test-case>
+    <test-case start="1556668709164" stop="1556668709167" status="passed">
+      <name>testGetShortFilenameDefaultMaxLength with data set #0</name>
+    </test-case>
+    <test-case start="1556668709168" stop="1556668709171" status="passed">
+      <name>testGetShortFilenameDefaultMaxLength with data set #1</name>
+    </test-case>
+    <test-case start="1556668709172" stop="1556668709175" status="passed">
+      <name>testGetShortFilenameDefaultMaxLength with data set #2</name>
+    </test-case>
+    <test-case start="1556668709175" stop="1556668709179" status="passed">
+      <name>testIsUsingStaticUrlsAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668709180" stop="1556668709184" status="passed">
+      <name>testIsUsingStaticUrlsAllowed with data set #1</name>
+    </test-case>
+    <test-case start="1556668709184" stop="1556668709190" status="passed">
+      <name>testGetCurrentPath with data set #0</name>
+    </test-case>
+    <test-case start="1556668709190" stop="1556668709196" status="passed">
+      <name>testGetCurrentPath with data set #1</name>
+    </test-case>
+    <test-case start="1556668709196" stop="1556668709201" status="passed">
+      <name>testGetCurrentPath with data set #2</name>
+    </test-case>
+    <test-case start="1556668709201" stop="1556668709207" status="passed">
+      <name>testGetCurrentPath with data set #3</name>
+    </test-case>
+    <test-case start="1556668709208" stop="1556668709214" status="passed">
+      <name>testGetCurrentPath with data set #4</name>
+    </test-case>
+    <test-case start="1556668709214" stop="1556668709219" status="passed">
+      <name>testGetCurrentPath with data set #5</name>
+    </test-case>
+    <test-case start="1556668709220" stop="1556668709224" status="passed">
+      <name>testGetCurrentPathThrowException</name>
+    </test-case>
+    <test-case start="1556668709224" stop="1556668709228" status="passed">
+      <name>testGetCurrentUrl</name>
+    </test-case>
+    <test-case start="1556668709229" stop="1556668709234" status="passed">
+      <name>testGetImageHtmlDeclarationRenderingAsTag with data set #0</name>
+    </test-case>
+    <test-case start="1556668709234" stop="1556668709239" status="passed">
+      <name>testGetImageHtmlDeclarationRenderingAsTag with data set #1</name>
+    </test-case>
+    <test-case start="1556668709239" stop="1556668709244" status="passed">
+      <name>testGetImageHtmlDeclaration with data set #0</name>
+    </test-case>
+    <test-case start="1556668709245" stop="1556668709249" status="passed">
+      <name>testGetImageHtmlDeclaration with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

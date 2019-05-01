@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668703390" stop="1556668703400" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Plugin\Model\Attribute\Backend\AttributeValidationTest</name>
+  <test-cases>
+    <test-case start="1556668703391" stop="1556668703394" status="passed">
+      <name>testAroundValidate with data set #0</name>
+    </test-case>
+    <test-case start="1556668703395" stop="1556668703396" status="passed">
+      <name>testAroundValidate with data set #1</name>
+    </test-case>
+    <test-case start="1556668703396" stop="1556668703397" status="passed">
+      <name>testAroundValidate with data set #2</name>
+    </test-case>
+    <test-case start="1556668703398" stop="1556668703399" status="passed">
+      <name>testAroundValidate with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

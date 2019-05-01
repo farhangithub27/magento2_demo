@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668794243" stop="1556668794264" version="1.4.0">
+  <name>Magento\ReleaseNotification\Test\Unit\Model\Condition\CanViewNotificationTest</name>
+  <test-cases>
+    <test-case start="1556668794243" stop="1556668794249" status="passed">
+      <name>testIsVisibleLoadDataFromCache</name>
+    </test-case>
+    <test-case start="1556668794250" stop="1556668794251" status="passed">
+      <name>testIsVisible with data set #0</name>
+    </test-case>
+    <test-case start="1556668794252" stop="1556668794254" status="passed">
+      <name>testIsVisible with data set #1</name>
+    </test-case>
+    <test-case start="1556668794254" stop="1556668794256" status="passed">
+      <name>testIsVisible with data set #2</name>
+    </test-case>
+    <test-case start="1556668794256" stop="1556668794258" status="passed">
+      <name>testIsVisible with data set #3</name>
+    </test-case>
+    <test-case start="1556668794258" stop="1556668794260" status="passed">
+      <name>testIsVisible with data set #4</name>
+    </test-case>
+    <test-case start="1556668794260" stop="1556668794262" status="passed">
+      <name>testIsVisible with data set #5</name>
+    </test-case>
+    <test-case start="1556668794263" stop="1556668794264" status="passed">
+      <name>testIsVisible with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

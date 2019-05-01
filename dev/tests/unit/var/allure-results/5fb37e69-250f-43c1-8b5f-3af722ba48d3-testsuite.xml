@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668835058" stop="1556668835085" version="1.4.0">
+  <name>Magento\Widget\Test\Unit\Block\Adminhtml\Widget\Instance\Edit\Tab\PropertiesTest</name>
+  <test-cases>
+    <test-case start="1556668835059" stop="1556668835072" status="passed">
+      <name>testIsHidden with data set #0</name>
+    </test-case>
+    <test-case start="1556668835073" stop="1556668835076" status="passed">
+      <name>testIsHidden with data set #1</name>
+    </test-case>
+    <test-case start="1556668835077" stop="1556668835081" status="passed">
+      <name>testIsHidden with data set #2</name>
+    </test-case>
+    <test-case start="1556668835081" stop="1556668835085" status="passed">
+      <name>testIsHidden with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

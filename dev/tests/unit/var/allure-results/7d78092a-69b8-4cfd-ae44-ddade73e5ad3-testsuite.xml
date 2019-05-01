@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668781990" stop="1556668782007" version="1.4.0">
+  <name>Magento\OfflinePayments\Test\Unit\Model\InstructionsConfigProviderTest</name>
+  <test-cases>
+    <test-case start="1556668781990" stop="1556668781992" status="passed">
+      <name>testGetConfig with data set #0</name>
+    </test-case>
+    <test-case start="1556668781993" stop="1556668781994" status="passed">
+      <name>testGetConfig with data set #1</name>
+    </test-case>
+    <test-case start="1556668781995" stop="1556668781996" status="passed">
+      <name>testGetConfig with data set #2</name>
+    </test-case>
+    <test-case start="1556668781996" stop="1556668781998" status="passed">
+      <name>testGetConfig with data set #3</name>
+    </test-case>
+    <test-case start="1556668781998" stop="1556668781999" status="passed">
+      <name>testGetConfig with data set #4</name>
+    </test-case>
+    <test-case start="1556668782000" stop="1556668782001" status="passed">
+      <name>testGetConfig with data set #5</name>
+    </test-case>
+    <test-case start="1556668782002" stop="1556668782003" status="passed">
+      <name>testGetConfig with data set #6</name>
+    </test-case>
+    <test-case start="1556668782004" stop="1556668782005" status="passed">
+      <name>testGetConfig with data set #7</name>
+    </test-case>
+    <test-case start="1556668782006" stop="1556668782007" status="passed">
+      <name>testGetConfig with data set #8</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

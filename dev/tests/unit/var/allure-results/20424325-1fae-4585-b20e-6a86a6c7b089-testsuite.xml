@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668789838" stop="1556668789862" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Model\SessionTest</name>
+  <test-cases>
+    <test-case start="1556668789839" stop="1556668789842" status="passed">
+      <name>testLoadByCookieKeyWithNull</name>
+    </test-case>
+    <test-case start="1556668789842" stop="1556668789846" status="passed">
+      <name>testAfterDeleteCommit</name>
+    </test-case>
+    <test-case start="1556668789846" stop="1556668789851" status="passed">
+      <name>testSetPersistentCookie</name>
+    </test-case>
+    <test-case start="1556668789852" stop="1556668789854" status="passed">
+      <name>testRenewPersistentCookie with data set "no duration"</name>
+    </test-case>
+    <test-case start="1556668789855" stop="1556668789857" status="passed">
+      <name>testRenewPersistentCookie with data set "no cookie"</name>
+    </test-case>
+    <test-case start="1556668789858" stop="1556668789862" status="passed">
+      <name>testRenewPersistentCookie with data set "all"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

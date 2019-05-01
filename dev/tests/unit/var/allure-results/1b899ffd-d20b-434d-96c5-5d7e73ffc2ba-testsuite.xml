@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668732504" stop="1556668732622" version="1.4.0">
+  <name>Magento\DownloadableImportExport\Test\Unit\Model\Import\Product\Type\DownloadableTest</name>
+  <test-cases>
+    <test-case start="1556668732504" stop="1556668732516" status="passed">
+      <name>testSaveDataAppend with data set #0</name>
+    </test-case>
+    <test-case start="1556668732516" stop="1556668732524" status="passed">
+      <name>testSaveDataAppend with data set #1</name>
+    </test-case>
+    <test-case start="1556668732524" stop="1556668732532" status="passed">
+      <name>testSaveDataAppend with data set #2</name>
+    </test-case>
+    <test-case start="1556668732532" stop="1556668732540" status="passed">
+      <name>testSaveDataAppend with data set #3</name>
+    </test-case>
+    <test-case start="1556668732540" stop="1556668732547" status="passed">
+      <name>testSaveDataAppend with data set #4</name>
+    </test-case>
+    <test-case start="1556668732548" stop="1556668732554" status="passed">
+      <name>testIsRowValid with data set #0</name>
+    </test-case>
+    <test-case start="1556668732554" stop="1556668732560" status="passed">
+      <name>testIsRowValid with data set #1</name>
+    </test-case>
+    <test-case start="1556668732560" stop="1556668732566" status="passed">
+      <name>testIsRowValid with data set #2</name>
+    </test-case>
+    <test-case start="1556668732566" stop="1556668732573" status="passed">
+      <name>testIsRowValid with data set #3</name>
+    </test-case>
+    <test-case start="1556668732573" stop="1556668732579" status="passed">
+      <name>testIsRowValid with data set #4</name>
+    </test-case>
+    <test-case start="1556668732580" stop="1556668732586" status="passed">
+      <name>testIsRowValid with data set #5</name>
+    </test-case>
+    <test-case start="1556668732586" stop="1556668732592" status="passed">
+      <name>testIsRowValid with data set #6</name>
+    </test-case>
+    <test-case start="1556668732592" stop="1556668732599" status="passed">
+      <name>testIsRowValid with data set #7</name>
+    </test-case>
+    <test-case start="1556668732599" stop="1556668732616" status="passed">
+      <name>testSetUploaderDirFalse with data set #0</name>
+    </test-case>
+    <test-case start="1556668732616" stop="1556668732622" status="passed">
+      <name>testPrepareAttributesWithDefaultValueForSave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668817350" stop="1556668817358" version="1.4.0">
+  <name>Magento\Store\Test\Unit\App\Request\PathInfoProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668817350" stop="1556668817352" status="passed">
+      <name>testProcessIfStoreExistsAndIsNotDirectAccessToFrontName</name>
+    </test-case>
+    <test-case start="1556668817352" stop="1556668817354" status="passed">
+      <name>testProcessIfStoreExistsAndDirectAccessToFrontName</name>
+    </test-case>
+    <test-case start="1556668817354" stop="1556668817355" status="passed">
+      <name>testProcessIfStoreIsEmpty</name>
+    </test-case>
+    <test-case start="1556668817355" stop="1556668817356" status="passed">
+      <name>testProcessIfStoreCodeIsNotExist</name>
+    </test-case>
+    <test-case start="1556668817357" stop="1556668817357" status="passed">
+      <name>testProcessIfStoreUrlNotEnabled</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

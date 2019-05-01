@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668733584" stop="1556668733667" version="1.4.0">
+  <name>Magento\Downloadable\Test\Unit\Model\LinkRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668733584" stop="1556668733606" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668733607" stop="1556668733611" status="passed">
+      <name>testCreateThrowsExceptionIfTitleIsEmpty</name>
+    </test-case>
+    <test-case start="1556668733611" stop="1556668733625" status="passed">
+      <name>testUpdate</name>
+    </test-case>
+    <test-case start="1556668733625" stop="1556668733639" status="passed">
+      <name>testUpdateWithExistingFile</name>
+    </test-case>
+    <test-case start="1556668733640" stop="1556668733645" status="passed">
+      <name>testUpdateThrowsExceptionIfTitleIsEmptyAndScopeIsGlobal</name>
+    </test-case>
+    <test-case start="1556668733646" stop="1556668733648" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668733648" stop="1556668733650" status="passed">
+      <name>testDeleteThrowsExceptionIfLinkIdIsNotValid</name>
+    </test-case>
+    <test-case start="1556668733650" stop="1556668733667" status="passed">
+      <name>testGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

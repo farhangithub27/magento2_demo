@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668824689" stop="1556668824696" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Config\Processor\DesignThemeTest</name>
+  <test-cases>
+    <test-case start="1556668824689" stop="1556668824691" status="passed">
+      <name>testProcess with data set #0</name>
+    </test-case>
+    <test-case start="1556668824691" stop="1556668824692" status="passed">
+      <name>testProcess with data set #1</name>
+    </test-case>
+    <test-case start="1556668824692" stop="1556668824693" status="passed">
+      <name>testProcess with data set #2</name>
+    </test-case>
+    <test-case start="1556668824694" stop="1556668824695" status="passed">
+      <name>testProcess with data set #3</name>
+    </test-case>
+    <test-case start="1556668824695" stop="1556668824696" status="passed">
+      <name>testProcess with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

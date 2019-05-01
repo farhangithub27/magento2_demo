@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837868" stop="1556668837880" version="1.4.0">
+  <name>Vertex\Tax\Test\Model\LogEntryExportTest</name>
+  <test-cases>
+    <test-case start="1556668837868" stop="1556668837872" status="passed">
+      <name>testExpectedFilePathOnClose</name>
+    </test-case>
+    <test-case start="1556668837872" stop="1556668837873" status="passed">
+      <name>testUnexpectedFilePathOnClose</name>
+    </test-case>
+    <test-case start="1556668837873" stop="1556668837875" status="passed">
+      <name>testStreamOpenSuccess</name>
+    </test-case>
+    <test-case start="1556668837875" stop="1556668837876" status="passed">
+      <name>testBlockOpenWhenStreamExists</name>
+    </test-case>
+    <test-case start="1556668837877" stop="1556668837880" status="passed">
+      <name>testExpectedExceptionOnWriteFailure</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

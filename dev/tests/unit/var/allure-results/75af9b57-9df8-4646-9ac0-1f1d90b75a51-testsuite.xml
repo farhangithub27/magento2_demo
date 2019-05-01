@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668829316" stop="1556668829320" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Model\UiComponentTypeResolverTest</name>
+  <test-cases>
+    <test-case start="1556668829317" stop="1556668829317" status="passed">
+      <name>testResolve with data set #0</name>
+    </test-case>
+    <test-case start="1556668829318" stop="1556668829318" status="passed">
+      <name>testResolve with data set #1</name>
+    </test-case>
+    <test-case start="1556668829319" stop="1556668829319" status="passed">
+      <name>testResolve with data set #2</name>
+    </test-case>
+    <test-case start="1556668829320" stop="1556668829320" status="passed">
+      <name>testResolve with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

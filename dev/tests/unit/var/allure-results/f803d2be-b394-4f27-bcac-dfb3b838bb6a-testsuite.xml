@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668739234" stop="1556668739239" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\SearchAdapter\Query\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668739234" stop="1556668739237" status="passed">
+      <name>testInitQuery</name>
+    </test-case>
+    <test-case start="1556668739238" stop="1556668739239" status="passed">
+      <name>testInitAggregations</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

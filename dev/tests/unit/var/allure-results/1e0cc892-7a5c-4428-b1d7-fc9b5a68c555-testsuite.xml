@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668824906" stop="1556668824919" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Design\Backend\ThemeTest</name>
+  <test-cases>
+    <test-case start="1556668824906" stop="1556668824909" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+    <test-case start="1556668824909" stop="1556668824911" status="passed">
+      <name>testAfterSave with data set #0</name>
+    </test-case>
+    <test-case start="1556668824911" stop="1556668824913" status="passed">
+      <name>testAfterSave with data set #1</name>
+    </test-case>
+    <test-case start="1556668824913" stop="1556668824915" status="passed">
+      <name>testGetValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668824915" stop="1556668824917" status="passed">
+      <name>testGetValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668824917" stop="1556668824919" status="passed">
+      <name>testAfterDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

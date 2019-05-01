@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668839701" stop="1556668840920" version="1.4.0">
+  <name>Magento\Framework\Test\Unit\ShellTest</name>
+  <test-cases>
+    <test-case start="1556668839701" stop="1556668839821" status="failed">
+      <name>testExecute with data set "STDOUT"</name>
+      <failure>
+        <message>Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27181'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++27181'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\IsEqual-&gt;evaluate('PHP Warning:  P...', '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(541): PHPUnit\Framework\Assert::assertThat('PHP Warning:  P...', Object(PHPUnit\Framework\Constraint\IsEqual), '')
+#2 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(42): PHPUnit\Framework\Assert::assertEquals('27181', 'PHP Warning:  P...')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(57): Magento\Framework\Test\Unit\ShellTest-&gt;_testExecuteCommand(Object(Magento\Framework\Shell), 'php -r %s', Array, '27181')
+#4 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecute('php -r %s', Array, '27181', Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#17 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668839822" stop="1556668839913" status="failed">
+      <name>testExecute with data set "STDERR"</name>
+      <failure>
+        <message>Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27182'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++27182'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\IsEqual-&gt;evaluate('PHP Warning:  P...', '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(541): PHPUnit\Framework\Assert::assertThat('PHP Warning:  P...', Object(PHPUnit\Framework\Constraint\IsEqual), '')
+#2 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(42): PHPUnit\Framework\Assert::assertEquals('27182', 'PHP Warning:  P...')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(57): Magento\Framework\Test\Unit\ShellTest-&gt;_testExecuteCommand(Object(Magento\Framework\Shell), 'php -r %s', Array, '27182')
+#4 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecute('php -r %s', Array, '27182', Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#17 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668839914" stop="1556668840008" status="failed">
+      <name>testExecute with data set "piping STDERR -&gt; STDOUT"</name>
+      <failure>
+        <message>Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27183'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\IsEqual-&gt;evaluate('PHP Warning:  P...', '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(541): PHPUnit\Framework\Assert::assertThat('PHP Warning:  P...', Object(PHPUnit\Framework\Constraint\IsEqual), '')
+#2 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(42): PHPUnit\Framework\Assert::assertEquals('27183', 'PHP Warning:  P...')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(57): Magento\Framework\Test\Unit\ShellTest-&gt;_testExecuteCommand(Object(Magento\Framework\Shell), 'php -r %s|php -...', Array, '27183')
+#4 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecute('php -r %s|php -...', Array, '27183', Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#17 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668840008" stop="1556668840099" status="failed">
+      <name>testExecute with data set "piping STDERR -&gt; STDERR"</name>
+      <failure>
+        <message>Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27184'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\IsEqual-&gt;evaluate('PHP Warning:  P...', '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(541): PHPUnit\Framework\Assert::assertThat('PHP Warning:  P...', Object(PHPUnit\Framework\Constraint\IsEqual), '')
+#2 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(42): PHPUnit\Framework\Assert::assertEquals('27184', 'PHP Warning:  P...')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(57): Magento\Framework\Test\Unit\ShellTest-&gt;_testExecuteCommand(Object(Magento\Framework\Shell), 'php -r %s | php...', Array, '27184')
+#4 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecute('php -r %s | php...', Array, '27184', Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#17 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668840100" stop="1556668840192" status="failed">
+      <name>testExecuteLog with data set "STDOUT"</name>
+      <failure>
+        <message>Expectation failed for method name is equal to 'info' when invoked at sequence index 1
+Parameter 0 for invocation Psr\Log\LoggerInterface::info('PHP Warning:  PHP Startup: Un...n27181', Array ()) does not match expected value.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27181'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++27181'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/InvocationMocker.php(131): PHPUnit\Framework\MockObject\Matcher-&gt;invoked(Object(PHPUnit\Framework\MockObject\Invocation\ObjectInvocation))
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/Generator.php(264) : eval()'d code(166): PHPUnit\Framework\MockObject\InvocationMocker-&gt;invoke(Object(PHPUnit\Framework\MockObject\Invocation\ObjectInvocation))
+#2 /var/www/html/magento23demo/vendor/magento/framework/Shell.php(81): Mock_LoggerInterface_dec566b0-&gt;info('PHP Warning:  P...')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Shell.php(60): Magento\Framework\Shell-&gt;log('PHP Warning:  P...')
+#4 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(41): Magento\Framework\Shell-&gt;execute('php -r 'echo 27...', Array)
+#5 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(82): Magento\Framework\Test\Unit\ShellTest-&gt;_testExecuteCommand(Object(Magento\Framework\Shell), 'php -r %s', Array, '27181')
+#6 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecuteLog('php -r %s', Array, '27181', Array)
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#17 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#18 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#19 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668840193" stop="1556668840287" status="failed">
+      <name>testExecuteLog with data set "STDERR"</name>
+      <failure>
+        <message>Expectation failed for method name is equal to 'info' when invoked at sequence index 1
+Parameter 0 for invocation Psr\Log\LoggerInterface::info('PHP Warning:  PHP Startup: Un...n27182', Array ()) does not match expected value.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27182'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++27182'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/InvocationMocker.php(131): PHPUnit\Framework\MockObject\Matcher-&gt;invoked(Object(PHPUnit\Framework\MockObject\Invocation\ObjectInvocation))
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/Generator.php(264) : eval()'d code(166): PHPUnit\Framework\MockObject\InvocationMocker-&gt;invoke(Object(PHPUnit\Framework\MockObject\Invocation\ObjectInvocation))
+#2 /var/www/html/magento23demo/vendor/magento/framework/Shell.php(81): Mock_LoggerInterface_dec566b0-&gt;info('PHP Warning:  P...')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Shell.php(60): Magento\Framework\Shell-&gt;log('PHP Warning:  P...')
+#4 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(41): Magento\Framework\Shell-&gt;execute('php -r 'fwrite(...', Array)
+#5 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(82): Magento\Framework\Test\Unit\ShellTest-&gt;_testExecuteCommand(Object(Magento\Framework\Shell), 'php -r %s', Array, '27182')
+#6 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecuteLog('php -r %s', Array, '27182', Array)
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#17 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#18 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#19 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668840288" stop="1556668840380" status="failed">
+      <name>testExecuteLog with data set "piping STDERR -&gt; STDOUT"</name>
+      <failure>
+        <message>Expectation failed for method name is equal to 'info' when invoked at sequence index 1
+Parameter 0 for invocation Psr\Log\LoggerInterface::info('PHP Warning:  PHP Startup: Un...line 0', Array ()) does not match expected value.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27183'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/InvocationMocker.php(131): PHPUnit\Framework\MockObject\Matcher-&gt;invoked(Object(PHPUnit\Framework\MockObject\Invocation\ObjectInvocation))
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/Generator.php(264) : eval()'d code(166): PHPUnit\Framework\MockObject\InvocationMocker-&gt;invoke(Object(PHPUnit\Framework\MockObject\Invocation\ObjectInvocation))
+#2 /var/www/html/magento23demo/vendor/magento/framework/Shell.php(81): Mock_LoggerInterface_dec566b0-&gt;info('PHP Warning:  P...')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Shell.php(60): Magento\Framework\Shell-&gt;log('PHP Warning:  P...')
+#4 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(41): Magento\Framework\Shell-&gt;execute('php -r 'fwrite(...', Array)
+#5 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(82): Magento\Framework\Test\Unit\ShellTest-&gt;_testExecuteCommand(Object(Magento\Framework\Shell), 'php -r %s|php -...', Array, '27183')
+#6 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecuteLog('php -r %s|php -...', Array, '27183', Array)
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#17 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#18 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#19 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668840381" stop="1556668840474" status="failed">
+      <name>testExecuteLog with data set "piping STDERR -&gt; STDERR"</name>
+      <failure>
+        <message>Expectation failed for method name is equal to 'info' when invoked at sequence index 1
+Parameter 0 for invocation Psr\Log\LoggerInterface::info('PHP Warning:  PHP Startup: Un...line 0', Array ()) does not match expected value.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27184'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/InvocationMocker.php(131): PHPUnit\Framework\MockObject\Matcher-&gt;invoked(Object(PHPUnit\Framework\MockObject\Invocation\ObjectInvocation))
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/Generator.php(264) : eval()'d code(166): PHPUnit\Framework\MockObject\InvocationMocker-&gt;invoke(Object(PHPUnit\Framework\MockObject\Invocation\ObjectInvocation))
+#2 /var/www/html/magento23demo/vendor/magento/framework/Shell.php(81): Mock_LoggerInterface_dec566b0-&gt;info('PHP Warning:  P...')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Shell.php(60): Magento\Framework\Shell-&gt;log('PHP Warning:  P...')
+#4 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(41): Magento\Framework\Shell-&gt;execute('php -r 'fwrite(...', Array)
+#5 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(82): Magento\Framework\Test\Unit\ShellTest-&gt;_testExecuteCommand(Object(Magento\Framework\Shell), 'php -r %s | php...', Array, '27184')
+#6 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecuteLog('php -r %s | php...', Array, '27184', Array)
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#17 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#18 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#19 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668840474" stop="1556668840539" status="passed">
+      <name>testExecuteFailure</name>
+    </test-case>
+    <test-case start="1556668840540" stop="1556668840637" status="failed">
+      <name>testExecuteFailureDetails with data set "STDOUT"</name>
+      <failure>
+        <message>Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27181'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++27181'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\IsEqual-&gt;evaluate('PHP Warning:  P...', '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(541): PHPUnit\Framework\Assert::assertThat('PHP Warning:  P...', Object(PHPUnit\Framework\Constraint\IsEqual), '')
+#2 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(141): PHPUnit\Framework\Assert::assertEquals('27181', 'PHP Warning:  P...')
+#3 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecuteFailureDetails('php -r %s', Array, '27181', Array)
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#16 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668840638" stop="1556668840728" status="failed">
+      <name>testExecuteFailureDetails with data set "STDERR"</name>
+      <failure>
+        <message>Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27182'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++27182'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\IsEqual-&gt;evaluate('PHP Warning:  P...', '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(541): PHPUnit\Framework\Assert::assertThat('PHP Warning:  P...', Object(PHPUnit\Framework\Constraint\IsEqual), '')
+#2 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(141): PHPUnit\Framework\Assert::assertEquals('27182', 'PHP Warning:  P...')
+#3 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecuteFailureDetails('php -r %s', Array, '27182', Array)
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#16 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668840729" stop="1556668840827" status="failed">
+      <name>testExecuteFailureDetails with data set "piping STDERR -&gt; STDOUT"</name>
+      <failure>
+        <message>Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27183'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\IsEqual-&gt;evaluate('PHP Warning:  P...', '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(541): PHPUnit\Framework\Assert::assertThat('PHP Warning:  P...', Object(PHPUnit\Framework\Constraint\IsEqual), '')
+#2 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(141): PHPUnit\Framework\Assert::assertEquals('27183', 'PHP Warning:  P...')
+#3 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecuteFailureDetails('php -r %s|php -...', Array, '27183', Array)
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#16 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668840828" stop="1556668840920" status="failed">
+      <name>testExecuteFailureDetails with data set "piping STDERR -&gt; STDERR"</name>
+      <failure>
+        <message>Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'27184'
++'PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0\n
++PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite.so' (tried: /usr/lib/php/20170718/pdo_sqlite.so (/usr/lib/php/20170718/pdo_sqlite.so: undefined symbol: sqlite3_column_table_name), /usr/lib/php/20170718/pdo_sqlite.so.so (/usr/lib/php/20170718/pdo_sqlite.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0'
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\IsEqual-&gt;evaluate('PHP Warning:  P...', '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(541): PHPUnit\Framework\Assert::assertThat('PHP Warning:  P...', Object(PHPUnit\Framework\Constraint\IsEqual), '')
+#2 /var/www/html/magento23demo/vendor/magento/framework/Test/Unit/ShellTest.php(141): PHPUnit\Framework\Assert::assertEquals('27184', 'PHP Warning:  P...')
+#3 [internal function]: Magento\Framework\Test\Unit\ShellTest-&gt;testExecuteFailureDetails('php -r %s | php...', Array, '27184', Array)
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Test\Unit\ShellTest), Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Test\Unit\ShellTest))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#16 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

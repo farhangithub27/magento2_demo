@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668700707" stop="1556668700720" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ProductOptions\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668700708" stop="1556668700708" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsXml with data set "options_node_is_required"</name>
+    </test-case>
+    <test-case start="1556668700709" stop="1556668700709" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsXml with data set "inputType_node_is_required"</name>
+    </test-case>
+    <test-case start="1556668700710" stop="1556668700710" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsXml with data set "options_name_must_be_unique"</name>
+    </test-case>
+    <test-case start="1556668700711" stop="1556668700711" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsXml with data set "inputType_name_must_be_unique"</name>
+    </test-case>
+    <test-case start="1556668700712" stop="1556668700712" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsXml with data set "renderer_attribute_with_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668700713" stop="1556668700713" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsXml with data set "disabled_attribute_with_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668700714" stop="1556668700714" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsMergedXml with data set "options_node_is_required"</name>
+    </test-case>
+    <test-case start="1556668700715" stop="1556668700716" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsMergedXml with data set "inputType_node_is_required"</name>
+    </test-case>
+    <test-case start="1556668700716" stop="1556668700717" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsMergedXml with data set "options_node_without_required_attributes"</name>
+    </test-case>
+    <test-case start="1556668700717" stop="1556668700718" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidProductOptionsMergedXml with data set "inputType_node_without_required_attributes"</name>
+    </test-case>
+    <test-case start="1556668700718" stop="1556668700719" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml with data set "product_options"</name>
+    </test-case>
+    <test-case start="1556668700719" stop="1556668700720" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml with data set "product_options_merged"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

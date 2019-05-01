@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860611" stop="1556668860614" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Adapter\Mysql\Aggregation\Builder\MetricsTest</name>
+  <test-cases>
+    <test-case start="1556668860612" stop="1556668860614" status="passed">
+      <name>testBuild</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668804008" stop="1556668804035" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\InvoiceOrderTest</name>
+  <test-cases>
+    <test-case start="1556668804009" stop="1556668804021" status="passed">
+      <name>testOrderInvoice with data set "TestWithNotifyTrue"</name>
+    </test-case>
+    <test-case start="1556668804022" stop="1556668804027" status="passed">
+      <name>testOrderInvoice with data set "TestWithNotifyFalse"</name>
+    </test-case>
+    <test-case start="1556668804027" stop="1556668804030" status="passed">
+      <name>testDocumentValidationException</name>
+    </test-case>
+    <test-case start="1556668804031" stop="1556668804035" status="passed">
+      <name>testCouldNotInvoiceException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

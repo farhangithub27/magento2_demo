@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837411" stop="1556668837425" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Block\Adminhtml\Config\Form\Field\ShippingCodesTest</name>
+  <test-cases>
+    <test-case start="1556668837411" stop="1556668837423" status="passed">
+      <name>testGetElementHtml</name>
+    </test-case>
+    <test-case start="1556668837423" stop="1556668837425" status="passed">
+      <name>testRender</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

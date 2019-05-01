@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668705666" stop="1556668705728" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Block\Cart\AbstractCartTest</name>
+  <test-cases>
+    <test-case start="1556668705667" stop="1556668705679" status="passed">
+      <name>testGetItemRenderer with data set #0</name>
+    </test-case>
+    <test-case start="1556668705680" stop="1556668705684" status="passed">
+      <name>testGetItemRenderer with data set #1</name>
+    </test-case>
+    <test-case start="1556668705684" stop="1556668705688" status="passed">
+      <name>testGetItemRendererThrowsExceptionForNonexistentRenderer</name>
+    </test-case>
+    <test-case start="1556668705688" stop="1556668705724" status="passed">
+      <name>testGetTotalsCache with data set #0</name>
+    </test-case>
+    <test-case start="1556668705725" stop="1556668705728" status="passed">
+      <name>testGetTotalsCache with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

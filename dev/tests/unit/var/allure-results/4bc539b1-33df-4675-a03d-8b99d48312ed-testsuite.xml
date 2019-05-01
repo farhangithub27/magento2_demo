@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668811355" stop="1556668811366" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\ResourceModel\Order\Handler\AddressTest</name>
+  <test-cases>
+    <test-case start="1556668811355" stop="1556668811360" status="passed">
+      <name>testProcessBillingAddress</name>
+    </test-case>
+    <test-case start="1556668811360" stop="1556668811363" status="passed">
+      <name>testProcessShippingAddress</name>
+    </test-case>
+    <test-case start="1556668811363" stop="1556668811366" status="passed">
+      <name>testRemoveEmptyAddresses</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

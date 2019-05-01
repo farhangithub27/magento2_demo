@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668831695" stop="1556668831700" version="1.4.0">
+  <name>Magento\Vault\Test\Unit\Model\CustomerTokenManagementTest</name>
+  <test-cases>
+    <test-case start="1556668831696" stop="1556668831698" status="passed">
+      <name>testGetCustomerSessionTokensNegative with data set "not registered customer"</name>
+    </test-case>
+    <test-case start="1556668831698" stop="1556668831699" status="passed">
+      <name>testGetCustomerSessionTokensNegative with data set "not logged in customer"</name>
+    </test-case>
+    <test-case start="1556668831699" stop="1556668831700" status="passed">
+      <name>testGetCustomerSessionTokens</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

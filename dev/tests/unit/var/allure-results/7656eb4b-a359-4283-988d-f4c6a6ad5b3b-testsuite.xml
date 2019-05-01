@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668668656" stop="1556668668664" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Gateway\SubjectReaderTest</name>
+  <test-cases>
+    <test-case start="1556668668656" stop="1556668668657" status="passed">
+      <name>testReadPayment</name>
+    </test-case>
+    <test-case start="1556668668657" stop="1556668668658" status="passed">
+      <name>testReadPaymentThrowsExceptionWhenNotAPaymentObject</name>
+    </test-case>
+    <test-case start="1556668668658" stop="1556668668659" status="passed">
+      <name>testReadPaymentThrowsExceptionWhenNotSet</name>
+    </test-case>
+    <test-case start="1556668668659" stop="1556668668659" status="passed">
+      <name>testReadResponse</name>
+    </test-case>
+    <test-case start="1556668668659" stop="1556668668660" status="passed">
+      <name>testReadResponseThrowsExceptionWhenNotAvailable</name>
+    </test-case>
+    <test-case start="1556668668660" stop="1556668668660" status="passed">
+      <name>testReadStoreId</name>
+    </test-case>
+    <test-case start="1556668668661" stop="1556668668661" status="passed">
+      <name>testReadStoreIdFromOrder</name>
+    </test-case>
+    <test-case start="1556668668661" stop="1556668668662" status="passed">
+      <name>testReadLoginId</name>
+    </test-case>
+    <test-case start="1556668668662" stop="1556668668662" status="passed">
+      <name>testReadTransactionKey</name>
+    </test-case>
+    <test-case start="1556668668663" stop="1556668668663" status="passed">
+      <name>testReadAmount</name>
+    </test-case>
+    <test-case start="1556668668663" stop="1556668668664" status="passed">
+      <name>testReadAmountThrowsExceptionWhenNotAvailable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

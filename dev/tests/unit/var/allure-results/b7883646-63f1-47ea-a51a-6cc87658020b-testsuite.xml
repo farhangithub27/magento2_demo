@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668662078" stop="1556668662081" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\Dependency\Report\Dependency\Data\DependencyTest</name>
+  <test-cases>
+    <test-case start="1556668662078" stop="1556668662079" status="passed">
+      <name>testGetModule</name>
+    </test-case>
+    <test-case start="1556668662079" stop="1556668662079" status="passed">
+      <name>testGetType</name>
+    </test-case>
+    <test-case start="1556668662080" stop="1556668662080" status="passed">
+      <name>testThatHardTypeIsDefault</name>
+    </test-case>
+    <test-case start="1556668662080" stop="1556668662081" status="passed">
+      <name>testThatHardTypeIsDefaultIfPassedWrongType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

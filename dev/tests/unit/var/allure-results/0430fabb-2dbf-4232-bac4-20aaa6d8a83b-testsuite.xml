@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668716705" stop="1556668716708" version="1.4.0">
+  <name>Magento\Cron\Test\Unit\Model\Config\Reader\XmlTest</name>
+  <test-cases>
+    <test-case start="1556668716706" stop="1556668716707" status="passed">
+      <name>testInstanceof</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

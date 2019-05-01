@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668675232" stop="1556668675251" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Model\Ui\ConfigProviderTest</name>
+  <test-cases>
+    <test-case start="1556668675233" stop="1556668675248" status="passed">
+      <name>testGetConfig with data set #0</name>
+    </test-case>
+    <test-case start="1556668675248" stop="1556668675249" status="passed">
+      <name>testGetClientToken with data set #0</name>
+    </test-case>
+    <test-case start="1556668675250" stop="1556668675251" status="passed">
+      <name>testGetClientToken with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

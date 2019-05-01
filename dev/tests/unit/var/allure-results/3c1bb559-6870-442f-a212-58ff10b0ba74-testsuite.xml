@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668805058" stop="1556668805109" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Creditmemo\Sender\EmailSenderTest</name>
+  <test-cases>
+    <test-case start="1556668805059" stop="1556668805076" status="passed">
+      <name>testSend with data set "Successful sync sending with comment"</name>
+    </test-case>
+    <test-case start="1556668805077" stop="1556668805086" status="passed">
+      <name>testSend with data set "Successful sync sending without comment"</name>
+    </test-case>
+    <test-case start="1556668805087" stop="1556668805095" status="passed">
+      <name>testSend with data set "Failed sync sending with comment"</name>
+    </test-case>
+    <test-case start="1556668805095" stop="1556668805105" status="passed">
+      <name>testSend with data set "Successful forced sync sending with comment"</name>
+    </test-case>
+    <test-case start="1556668805106" stop="1556668805109" status="passed">
+      <name>testSend with data set "Async sending"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

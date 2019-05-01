@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668821307" stop="1556668821322" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\Calculation\RateTest</name>
+  <test-cases>
+    <test-case start="1556668821307" stop="1556668821310" status="passed">
+      <name>testExceptionOfValidation with data set "fill all required fields 1"</name>
+    </test-case>
+    <test-case start="1556668821311" stop="1556668821312" status="passed">
+      <name>testExceptionOfValidation with data set "fill all required fields 2"</name>
+    </test-case>
+    <test-case start="1556668821313" stop="1556668821315" status="passed">
+      <name>testExceptionOfValidation with data set "positive number"</name>
+    </test-case>
+    <test-case start="1556668821316" stop="1556668821318" status="passed">
+      <name>testExceptionOfValidation with data set "zip code length"</name>
+    </test-case>
+    <test-case start="1556668821318" stop="1556668821320" status="passed">
+      <name>testExceptionOfValidation with data set "contain characters"</name>
+    </test-case>
+    <test-case start="1556668821320" stop="1556668821322" status="passed">
+      <name>testExceptionOfValidation with data set "equal or greater"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

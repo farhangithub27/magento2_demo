@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838186" stop="1556668838189" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Vertex\GetTaxAreaIdTest</name>
+  <test-cases>
+    <test-case start="1556668838187" stop="1556668838188" status="passed">
+      <name>testGetTotalTax</name>
+    </test-case>
+    <test-case start="1556668838188" stop="1556668838189" status="passed">
+      <name>testGetTotalTaxReturnsZeroWithoutTotalTax</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

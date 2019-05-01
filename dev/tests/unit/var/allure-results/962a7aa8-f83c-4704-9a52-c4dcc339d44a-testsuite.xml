@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668844438" stop="1556668844441" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\ObjectManager\Environment\CompiledTest</name>
+  <test-cases>
+    <test-case start="1556668844438" stop="1556668844440" status="passed">
+      <name>testGetMode</name>
+    </test-case>
+    <test-case start="1556668844440" stop="1556668844441" status="passed">
+      <name>testGetObjectManagerFactory</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

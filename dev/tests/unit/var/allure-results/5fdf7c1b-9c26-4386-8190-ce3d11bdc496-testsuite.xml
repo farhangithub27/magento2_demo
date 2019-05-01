@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668668867" stop="1556668668901" version="1.4.0">
+  <name>Magento\Authorizenet\Test\Unit\Controller\Adminhtml\Authorizenet\Directpost\Payment\RedirectTest</name>
+  <test-cases>
+    <test-case start="1556668668867" stop="1556668668891" status="passed">
+      <name>testExecuteErrorMsgWithoutCancelOrder</name>
+    </test-case>
+    <test-case start="1556668668891" stop="1556668668896" status="passed">
+      <name>testExecuteErrorMsgWithCancelOrder</name>
+    </test-case>
+    <test-case start="1556668668896" stop="1556668668901" status="passed">
+      <name>testExecuteSuccess</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

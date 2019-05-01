@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668713518" stop="1556668713604" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\PreparedValueFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668713519" stop="1556668713531" status="passed">
+      <name>testCreate with data set "standard flow"</name>
+    </test-case>
+    <test-case start="1556668713532" stop="1556668713540" status="passed">
+      <name>testCreate with data set "standard flow with custom config path"</name>
+    </test-case>
+    <test-case start="1556668713541" stop="1556668713549" status="passed">
+      <name>testCreate with data set "default scope flow"</name>
+    </test-case>
+    <test-case start="1556668713549" stop="1556668713557" status="passed">
+      <name>testCreate with data set "website scope flow"</name>
+    </test-case>
+    <test-case start="1556668713558" stop="1556668713566" status="passed">
+      <name>testCreate with data set "websites scope flow"</name>
+    </test-case>
+    <test-case start="1556668713567" stop="1556668713576" status="passed">
+      <name>testCreate with data set "store scope flow"</name>
+    </test-case>
+    <test-case start="1556668713576" stop="1556668713585" status="passed">
+      <name>testCreate with data set "stores scope flow"</name>
+    </test-case>
+    <test-case start="1556668713585" stop="1556668713587" status="passed">
+      <name>testCreateNotInstanceOfValue with data set "standard flow"</name>
+    </test-case>
+    <test-case start="1556668713588" stop="1556668713590" status="passed">
+      <name>testCreateNotInstanceOfValue with data set "standard flow with custom config path"</name>
+    </test-case>
+    <test-case start="1556668713590" stop="1556668713592" status="passed">
+      <name>testCreateNotInstanceOfValue with data set "default scope flow"</name>
+    </test-case>
+    <test-case start="1556668713593" stop="1556668713595" status="passed">
+      <name>testCreateNotInstanceOfValue with data set "website scope flow"</name>
+    </test-case>
+    <test-case start="1556668713596" stop="1556668713598" status="passed">
+      <name>testCreateNotInstanceOfValue with data set "websites scope flow"</name>
+    </test-case>
+    <test-case start="1556668713598" stop="1556668713600" status="passed">
+      <name>testCreateNotInstanceOfValue with data set "store scope flow"</name>
+    </test-case>
+    <test-case start="1556668713600" stop="1556668713602" status="passed">
+      <name>testCreateNotInstanceOfValue with data set "stores scope flow"</name>
+    </test-case>
+    <test-case start="1556668713602" stop="1556668713604" status="passed">
+      <name>testCreateWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

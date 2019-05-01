@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668700769" stop="1556668700773" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ProductRender\PriceInfoTest</name>
+  <test-cases>
+    <test-case start="1556668700769" stop="1556668700771" status="passed">
+      <name>testGetMaxRegularPrice</name>
+    </test-case>
+    <test-case start="1556668700771" stop="1556668700772" status="passed">
+      <name>testEmptyMaxRegularPrice</name>
+    </test-case>
+    <test-case start="1556668700772" stop="1556668700772" status="passed">
+      <name>testGetMinRegularPrice</name>
+    </test-case>
+    <test-case start="1556668700773" stop="1556668700773" status="passed">
+      <name>testEmptyMinRegularPrice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668785458" stop="1556668785513" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Block\Adminhtml\System\Config\Field\CountryTest</name>
+  <test-cases>
+    <test-case start="1556668785459" stop="1556668785465" status="passed">
+      <name>testRender with data set #0</name>
+    </test-case>
+    <test-case start="1556668785466" stop="1556668785471" status="passed">
+      <name>testRender with data set #1</name>
+    </test-case>
+    <test-case start="1556668785472" stop="1556668785477" status="passed">
+      <name>testRender with data set #2</name>
+    </test-case>
+    <test-case start="1556668785478" stop="1556668785483" status="passed">
+      <name>testRender with data set #3</name>
+    </test-case>
+    <test-case start="1556668785484" stop="1556668785489" status="passed">
+      <name>testRender with data set #4</name>
+    </test-case>
+    <test-case start="1556668785490" stop="1556668785495" status="passed">
+      <name>testRender with data set #5</name>
+    </test-case>
+    <test-case start="1556668785495" stop="1556668785501" status="passed">
+      <name>testRender with data set #6</name>
+    </test-case>
+    <test-case start="1556668785502" stop="1556668785507" status="passed">
+      <name>testRender with data set #7</name>
+    </test-case>
+    <test-case start="1556668785508" stop="1556668785513" status="passed">
+      <name>testRender with data set #8</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

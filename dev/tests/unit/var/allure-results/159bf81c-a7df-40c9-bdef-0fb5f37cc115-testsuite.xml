@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668713671" stop="1556668713720" version="1.4.0">
+  <name>Magento\ConfigurableImportExport\Test\Unit\Model\Import\Product\Type\ConfigurableTest</name>
+  <test-cases>
+    <test-case start="1556668713672" stop="1556668713711" status="passed">
+      <name>testSaveData</name>
+    </test-case>
+    <test-case start="1556668713711" stop="1556668713719" status="passed">
+      <name>testIsRowValid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

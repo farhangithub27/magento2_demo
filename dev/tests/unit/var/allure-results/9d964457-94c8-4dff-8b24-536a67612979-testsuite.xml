@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668712747" stop="1556668712761" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Structure\Element\Dependency\MapperTest</name>
+  <test-cases>
+    <test-case start="1556668712747" stop="1556668712753" status="passed">
+      <name>testGetDependenciesWhenDependentIsInvisible with data set #0</name>
+    </test-case>
+    <test-case start="1556668712753" stop="1556668712758" status="passed">
+      <name>testGetDependenciesWhenDependentIsInvisible with data set #1</name>
+    </test-case>
+    <test-case start="1556668712758" stop="1556668712761" status="passed">
+      <name>testGetDependenciesIsVisible</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

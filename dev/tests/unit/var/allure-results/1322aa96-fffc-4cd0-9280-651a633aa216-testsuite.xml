@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668830320" stop="1556668830338" version="1.4.0">
+  <name>Magento\UrlRewrite\Test\Unit\Helper\UrlRewriteTest</name>
+  <test-cases>
+    <test-case start="1556668830320" stop="1556668830322" status="passed">
+      <name>testValidateRequestPath with data set "no leading slash"</name>
+    </test-case>
+    <test-case start="1556668830322" stop="1556668830324" status="passed">
+      <name>testValidateRequestPath with data set "leading slash"</name>
+    </test-case>
+    <test-case start="1556668830324" stop="1556668830325" status="passed">
+      <name>testValidateRequestPathException with data set "two slashes"</name>
+    </test-case>
+    <test-case start="1556668830326" stop="1556668830327" status="passed">
+      <name>testValidateRequestPathException with data set "three slashes"</name>
+    </test-case>
+    <test-case start="1556668830328" stop="1556668830329" status="passed">
+      <name>testValidateRequestPathException with data set "anchor"</name>
+    </test-case>
+    <test-case start="1556668830330" stop="1556668830331" status="passed">
+      <name>testValidateSuffix with data set "no leading slash"</name>
+    </test-case>
+    <test-case start="1556668830331" stop="1556668830333" status="passed">
+      <name>testValidateSuffix with data set "leading slash"</name>
+    </test-case>
+    <test-case start="1556668830333" stop="1556668830335" status="passed">
+      <name>testValidateSuffixException with data set "two slashes"</name>
+    </test-case>
+    <test-case start="1556668830335" stop="1556668830336" status="passed">
+      <name>testValidateSuffixException with data set "three slashes"</name>
+    </test-case>
+    <test-case start="1556668830337" stop="1556668830338" status="passed">
+      <name>testValidateSuffixException with data set "anchor"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

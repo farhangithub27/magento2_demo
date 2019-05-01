@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668839554" stop="1556668839562" version="1.4.0">
+  <name>Magento\Framework\Test\Unit\Module\Plugin\DbStatusValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668839554" stop="1556668839556" status="passed">
+      <name>testBeforeDispatchUpToDate</name>
+    </test-case>
+    <test-case start="1556668839556" stop="1556668839557" status="passed">
+      <name>testBeforeDispatchOutOfDateNoErrors</name>
+    </test-case>
+    <test-case start="1556668839557" stop="1556668839559" status="passed">
+      <name>testBeforeDispatchOutOfDateWithErrors with data set "module versions too low"</name>
+    </test-case>
+    <test-case start="1556668839559" stop="1556668839560" status="passed">
+      <name>testBeforeDispatchOutOfDateWithErrors with data set "module versions too high"</name>
+    </test-case>
+    <test-case start="1556668839560" stop="1556668839561" status="passed">
+      <name>testBeforeDispatchOutOfDateWithErrors with data set "some versions too high, some too low"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

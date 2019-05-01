@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837683" stop="1556668837706" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Config\Backend\TaxOverrideTest</name>
+  <test-cases>
+    <test-case start="1556668837684" stop="1556668837686" status="passed">
+      <name>testAfterLoad with data set "invalid bool"</name>
+    </test-case>
+    <test-case start="1556668837686" stop="1556668837688" status="passed">
+      <name>testAfterLoad with data set "invalid empty string"</name>
+    </test-case>
+    <test-case start="1556668837688" stop="1556668837689" status="passed">
+      <name>testAfterLoad with data set "valid empty array"</name>
+    </test-case>
+    <test-case start="1556668837690" stop="1556668837691" status="passed">
+      <name>testAfterLoad with data set "valid with serialized"</name>
+    </test-case>
+    <test-case start="1556668837691" stop="1556668837695" status="passed">
+      <name>testAfterLoadDataProvider</name>
+    </test-case>
+    <test-case start="1556668837696" stop="1556668837697" status="passed">
+      <name>testBeforeSave with data set "invalid bool"</name>
+    </test-case>
+    <test-case start="1556668837698" stop="1556668837699" status="passed">
+      <name>testBeforeSave with data set "invalid empty string"</name>
+    </test-case>
+    <test-case start="1556668837699" stop="1556668837701" status="passed">
+      <name>testBeforeSave with data set "valid empty array"</name>
+    </test-case>
+    <test-case start="1556668837701" stop="1556668837703" status="passed">
+      <name>testBeforeSave with data set "valid delivery term"</name>
+    </test-case>
+    <test-case start="1556668837703" stop="1556668837706" status="passed">
+      <name>testBeforeSaveDataProvider</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

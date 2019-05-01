@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668782030" stop="1556668782040" version="1.4.0">
+  <name>Magento\OfflinePayments\Test\Unit\Model\PurchaseorderTest</name>
+  <test-cases>
+    <test-case start="1556668782030" stop="1556668782032" status="passed">
+      <name>testAssignData</name>
+    </test-case>
+    <test-case start="1556668782033" stop="1556668782040" status="passed">
+      <name>testValidate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

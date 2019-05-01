@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668858433" stop="1556668858456" version="1.4.0">
+  <name>Magento\Framework\Oauth\Test\Unit\Helper\RequestTest</name>
+  <test-cases>
+    <test-case start="1556668858434" stop="1556668858435" status="passed">
+      <name>testPrepareErrorResponse with data set #0</name>
+    </test-case>
+    <test-case start="1556668858435" stop="1556668858436" status="passed">
+      <name>testPrepareErrorResponse with data set #1</name>
+    </test-case>
+    <test-case start="1556668858436" stop="1556668858437" status="passed">
+      <name>testPrepareErrorResponse with data set #2</name>
+    </test-case>
+    <test-case start="1556668858437" stop="1556668858439" status="passed">
+      <name>testGetRequestUrl with data set "hostWithoutPort"</name>
+    </test-case>
+    <test-case start="1556668858439" stop="1556668858440" status="passed">
+      <name>testGetRequestUrl with data set "hostWithPort"</name>
+    </test-case>
+    <test-case start="1556668858441" stop="1556668858443" status="passed">
+      <name>testPrepareRequestOAuthHeader with data set #0</name>
+    </test-case>
+    <test-case start="1556668858443" stop="1556668858445" status="passed">
+      <name>testPrepareRequestOAuthHeader with data set #1</name>
+    </test-case>
+    <test-case start="1556668858446" stop="1556668858448" status="passed">
+      <name>testPrepareRequestOAuthHeader with data set #2</name>
+    </test-case>
+    <test-case start="1556668858448" stop="1556668858451" status="passed">
+      <name>testPrepareRequestOAuthHeader with data set #3</name>
+    </test-case>
+    <test-case start="1556668858451" stop="1556668858454" status="passed">
+      <name>testPrepareRequestOAuthHeader with data set #4</name>
+    </test-case>
+    <test-case start="1556668858454" stop="1556668858456" status="passed">
+      <name>testPrepareRequestOAuthHeader with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

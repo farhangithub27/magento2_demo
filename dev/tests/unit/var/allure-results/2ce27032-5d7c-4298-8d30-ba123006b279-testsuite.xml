@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668659982" stop="1556668659995" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\Cron\QueueTest</name>
+  <test-cases>
+    <test-case start="1556668659982" stop="1556668659983" status="passed">
+      <name>testPeek</name>
+    </test-case>
+    <test-case start="1556668659984" stop="1556668659984" status="passed">
+      <name>testPeekEmpty</name>
+    </test-case>
+    <test-case start="1556668659985" stop="1556668659985" status="passed">
+      <name>testPeekException</name>
+    </test-case>
+    <test-case start="1556668659986" stop="1556668659986" status="passed">
+      <name>testPeekExceptionNoJobsKey</name>
+    </test-case>
+    <test-case start="1556668659987" stop="1556668659988" status="passed">
+      <name>testPopQueuedJob</name>
+    </test-case>
+    <test-case start="1556668659988" stop="1556668659989" status="passed">
+      <name>testPopQueuedJobEmptyAfter</name>
+    </test-case>
+    <test-case start="1556668659989" stop="1556668659990" status="passed">
+      <name>testPopQueuedJobException</name>
+    </test-case>
+    <test-case start="1556668659990" stop="1556668659991" status="passed">
+      <name>testPopQueuedJobExceptionNoJobsKey</name>
+    </test-case>
+    <test-case start="1556668659991" stop="1556668659992" status="passed">
+      <name>testIsEmptyTrue</name>
+    </test-case>
+    <test-case start="1556668659992" stop="1556668659993" status="passed">
+      <name>testIsEmptyFalse</name>
+    </test-case>
+    <test-case start="1556668659993" stop="1556668659994" status="passed">
+      <name>testAddJobs</name>
+    </test-case>
+    <test-case start="1556668659994" stop="1556668659995" status="passed">
+      <name>testAddJobsInvalidJobs</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

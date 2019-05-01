@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668807261" stop="1556668807311" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Invoice\Sender\EmailSenderTest</name>
+  <test-cases>
+    <test-case start="1556668807262" stop="1556668807275" status="passed">
+      <name>testSend with data set "Successful sync sending with comment"</name>
+    </test-case>
+    <test-case start="1556668807275" stop="1556668807286" status="passed">
+      <name>testSend with data set "Successful sync sending without comment"</name>
+    </test-case>
+    <test-case start="1556668807286" stop="1556668807295" status="passed">
+      <name>testSend with data set "Failed sync sending with comment"</name>
+    </test-case>
+    <test-case start="1556668807295" stop="1556668807306" status="passed">
+      <name>testSend with data set "Successful forced sync sending with comment"</name>
+    </test-case>
+    <test-case start="1556668807307" stop="1556668807311" status="passed">
+      <name>testSend with data set "Async sending"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668710622" stop="1556668710645" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Block\System\Config\DwstreeTest</name>
+  <test-cases>
+    <test-case start="1556668710623" stop="1556668710629" status="passed">
+      <name>testInitTabs with data set "matchAll"</name>
+    </test-case>
+    <test-case start="1556668710630" stop="1556668710634" status="passed">
+      <name>testInitTabs with data set "matchStore"</name>
+    </test-case>
+    <test-case start="1556668710635" stop="1556668710639" status="passed">
+      <name>testInitTabs with data set "matchWebsite"</name>
+    </test-case>
+    <test-case start="1556668710640" stop="1556668710645" status="passed">
+      <name>testInitTabs with data set "noMatch"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

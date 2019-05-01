@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668870377" stop="1556668870380" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Asset\PreProcessor\MinificationFilenameResolverTest</name>
+  <test-cases>
+    <test-case start="1556668870377" stop="1556668870378" status="passed">
+      <name>testResolve with data set #0</name>
+    </test-case>
+    <test-case start="1556668870379" stop="1556668870379" status="passed">
+      <name>testResolve with data set #1</name>
+    </test-case>
+    <test-case start="1556668870380" stop="1556668870380" status="passed">
+      <name>testResolve with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

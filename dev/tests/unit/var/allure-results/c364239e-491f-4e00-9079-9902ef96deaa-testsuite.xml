@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668683674" stop="1556668683678" version="1.4.0">
+  <name>Magento\CatalogRule\Test\Unit\Block\Adminhtml\Edit\GenericButtonTest</name>
+  <test-cases>
+    <test-case start="1556668683674" stop="1556668683675" status="passed">
+      <name>testCanRender</name>
+    </test-case>
+    <test-case start="1556668683675" stop="1556668683676" status="passed">
+      <name>testGetUrl</name>
+    </test-case>
+    <test-case start="1556668683676" stop="1556668683677" status="passed">
+      <name>testGetRuleId</name>
+    </test-case>
+    <test-case start="1556668683677" stop="1556668683678" status="passed">
+      <name>testGetRuleIdWithoutRule</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

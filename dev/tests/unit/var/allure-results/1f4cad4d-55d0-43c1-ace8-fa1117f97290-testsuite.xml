@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668712975" stop="1556668712980" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Structure\Element\SectionTest</name>
+  <test-cases>
+    <test-case start="1556668712975" stop="1556668712976" status="passed">
+      <name>testIsAllowedReturnsFalseIfNoResourceIsSpecified</name>
+    </test-case>
+    <test-case start="1556668712976" stop="1556668712977" status="passed">
+      <name>testIsAllowedReturnsTrueIfResourcesIsValidAndAllowed</name>
+    </test-case>
+    <test-case start="1556668712978" stop="1556668712978" status="passed">
+      <name>testIsVisibleFirstChecksIfSectionIsAllowed</name>
+    </test-case>
+    <test-case start="1556668712979" stop="1556668712980" status="passed">
+      <name>testIsVisibleProceedsWithVisibilityCheckIfSectionIsAllowed</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

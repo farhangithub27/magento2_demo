@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668700597" stop="1556668700633" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ProductLink\RepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668700598" stop="1556668700617" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668700617" stop="1556668700622" status="passed">
+      <name>testSaveWithException</name>
+    </test-case>
+    <test-case start="1556668700622" stop="1556668700626" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668700626" stop="1556668700630" status="passed">
+      <name>testDeleteWithInvalidDataException</name>
+    </test-case>
+    <test-case start="1556668700630" stop="1556668700633" status="passed">
+      <name>testDeleteWithNoSuchEntityException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

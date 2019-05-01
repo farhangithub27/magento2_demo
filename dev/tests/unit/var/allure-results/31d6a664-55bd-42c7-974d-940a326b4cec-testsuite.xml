@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668686712" stop="1556668686721" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Search\QueryChecker\FullTextSearchCheckTest</name>
+  <test-cases>
+    <test-case start="1556668686712" stop="1556668686713" status="passed">
+      <name>testPositiveCheck with data set #0</name>
+    </test-case>
+    <test-case start="1556668686714" stop="1556668686715" status="passed">
+      <name>testPositiveCheck with data set #1</name>
+    </test-case>
+    <test-case start="1556668686715" stop="1556668686716" status="passed">
+      <name>testPositiveCheck with data set #2</name>
+    </test-case>
+    <test-case start="1556668686717" stop="1556668686718" status="passed">
+      <name>testNegativeCheck with data set #0</name>
+    </test-case>
+    <test-case start="1556668686718" stop="1556668686719" status="passed">
+      <name>testNegativeCheck with data set #1</name>
+    </test-case>
+    <test-case start="1556668686719" stop="1556668686720" status="passed">
+      <name>testInvalidArgumentException1</name>
+    </test-case>
+    <test-case start="1556668686720" stop="1556668686721" status="passed">
+      <name>testInvalidArgumentException2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668708280" stop="1556668708323" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Block\Widget\Page\LinkTest</name>
+  <test-cases>
+    <test-case start="1556668708280" stop="1556668708288" status="passed">
+      <name>testGetHrefEmpty</name>
+    </test-case>
+    <test-case start="1556668708288" stop="1556668708291" status="passed">
+      <name>testGetHref</name>
+    </test-case>
+    <test-case start="1556668708291" stop="1556668708294" status="passed">
+      <name>testGetHrefByPageId</name>
+    </test-case>
+    <test-case start="1556668708294" stop="1556668708297" status="passed">
+      <name>testGetTitleEmpty</name>
+    </test-case>
+    <test-case start="1556668708297" stop="1556668708300" status="passed">
+      <name>testGetTitle</name>
+    </test-case>
+    <test-case start="1556668708300" stop="1556668708303" status="passed">
+      <name>testGetTitleByPageId</name>
+    </test-case>
+    <test-case start="1556668708304" stop="1556668708307" status="passed">
+      <name>testGetTitleByHref</name>
+    </test-case>
+    <test-case start="1556668708307" stop="1556668708310" status="passed">
+      <name>testGetLabelByAnchorText</name>
+    </test-case>
+    <test-case start="1556668708310" stop="1556668708313" status="passed">
+      <name>testGetLabelLikeTitle</name>
+    </test-case>
+    <test-case start="1556668708313" stop="1556668708316" status="passed">
+      <name>testGetLabelByHref</name>
+    </test-case>
+    <test-case start="1556668708317" stop="1556668708320" status="passed">
+      <name>testGetLabelByPageId</name>
+    </test-case>
+    <test-case start="1556668708320" stop="1556668708323" status="passed">
+      <name>testGetLabelEmpty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

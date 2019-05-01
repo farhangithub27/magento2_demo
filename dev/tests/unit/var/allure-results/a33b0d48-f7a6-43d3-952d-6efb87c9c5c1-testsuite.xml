@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668847992" stop="1556668847995" version="1.4.0">
+  <name>Magento\Framework\Config\Test\Unit\Data\ConfigDataTest</name>
+  <test-cases>
+    <test-case start="1556668847992" stop="1556668847993" status="passed">
+      <name>testSet</name>
+    </test-case>
+    <test-case start="1556668847993" stop="1556668847993" status="passed">
+      <name>testSetWrongKey with data set "segment is empty"</name>
+    </test-case>
+    <test-case start="1556668847994" stop="1556668847994" status="passed">
+      <name>testSetWrongKey with data set "key is empty"</name>
+    </test-case>
+    <test-case start="1556668847995" stop="1556668847995" status="passed">
+      <name>testSetWrongKey with data set "access by empty value key"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

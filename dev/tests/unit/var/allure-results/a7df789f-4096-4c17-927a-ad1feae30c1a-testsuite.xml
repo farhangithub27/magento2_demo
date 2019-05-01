@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668658484" stop="1556668658517" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Fixtures\CategoriesFixtureTest</name>
+  <test-cases>
+    <test-case start="1556668658484" stop="1556668658499" status="passed">
+      <name>testDoNoExecuteIfCategoriesAlreadyGenerated</name>
+    </test-case>
+    <test-case start="1556668658499" stop="1556668658514" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668658515" stop="1556668658515" status="passed">
+      <name>testGetActionTitle</name>
+    </test-case>
+    <test-case start="1556668658516" stop="1556668658516" status="passed">
+      <name>testIntroduceParamLabels</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668807373" stop="1556668807391" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Invoice\Total\TaxTest</name>
+  <test-cases>
+    <test-case start="1556668807373" stop="1556668807381" status="passed">
+      <name>testCollect with data set "partial_invoice"</name>
+    </test-case>
+    <test-case start="1556668807381" stop="1556668807386" status="passed">
+      <name>testCollect with data set "partial_invoice_second_invoice"</name>
+    </test-case>
+    <test-case start="1556668807387" stop="1556668807390" status="passed">
+      <name>testCollect with data set "partial_invoice_last_invoice"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

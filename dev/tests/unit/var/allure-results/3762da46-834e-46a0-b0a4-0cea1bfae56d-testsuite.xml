@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668863563" stop="1556668863609" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Patch\PatchApplierTest</name>
+  <test-cases>
+    <test-case start="1556668863563" stop="1556668863577" status="passed">
+      <name>testApplyDataPatchForNewlyInstalledModule with data set "newly installed module"</name>
+    </test-case>
+    <test-case start="1556668863578" stop="1556668863583" status="passed">
+      <name>testApplyDataPatchForInstalledModule with data set "upgrade module iwth only OtherDataPatch"</name>
+    </test-case>
+    <test-case start="1556668863584" stop="1556668863589" status="passed">
+      <name>testApplyDataPatchRollback with data set "upgrade module iwth only OtherDataPatch"</name>
+    </test-case>
+    <test-case start="1556668863590" stop="1556668863593" status="passed">
+      <name>testNonDataPatchApply</name>
+    </test-case>
+    <test-case start="1556668863593" stop="1556668863598" status="passed">
+      <name>testNonTransactionablePatch</name>
+    </test-case>
+    <test-case start="1556668863598" stop="1556668863605" status="passed">
+      <name>testSchemaPatchAplly with data set "upgrade module iwth only OtherSchemaPatch"</name>
+    </test-case>
+    <test-case start="1556668863605" stop="1556668863609" status="passed">
+      <name>testRevertDataPatches</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

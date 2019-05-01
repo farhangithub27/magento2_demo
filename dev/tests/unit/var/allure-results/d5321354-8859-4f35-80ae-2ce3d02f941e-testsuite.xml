@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856585" stop="1556668856600" version="1.4.0">
+  <name>Magento\Framework\Model\Test\Unit\AbstractModelTest</name>
+  <test-cases>
+    <test-case start="1556668856585" stop="1556668856587" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668856588" stop="1556668856589" status="passed">
+      <name>testUpdateStoredData</name>
+    </test-case>
+    <test-case start="1556668856590" stop="1556668856591" status="passed">
+      <name>testIsDeleted</name>
+    </test-case>
+    <test-case start="1556668856591" stop="1556668856593" status="passed">
+      <name>testHasDataChanges</name>
+    </test-case>
+    <test-case start="1556668856593" stop="1556668856594" status="passed">
+      <name>testSetGetId</name>
+    </test-case>
+    <test-case start="1556668856595" stop="1556668856596" status="passed">
+      <name>testSetGetIdFieldName</name>
+    </test-case>
+    <test-case start="1556668856596" stop="1556668856598" status="passed">
+      <name>testOrigData</name>
+    </test-case>
+    <test-case start="1556668856598" stop="1556668856599" status="passed">
+      <name>testSetDataChanges</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

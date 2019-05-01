@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668738337" stop="1556668738346" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\Adapter\FieldMapper\Product\FieldProvider\StaticFieldTest</name>
+  <test-cases>
+    <test-case start="1556668738337" stop="1556668738341" status="passed">
+      <name>testGetAllAttributesTypes with data set #0</name>
+    </test-case>
+    <test-case start="1556668738342" stop="1556668738344" status="passed">
+      <name>testGetAllAttributesTypes with data set #1</name>
+    </test-case>
+    <test-case start="1556668738344" stop="1556668738346" status="passed">
+      <name>testGetAllAttributesTypes with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668827445" stop="1556668827509" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Component\Filters\Type\RangeTest</name>
+  <test-cases>
+    <test-case start="1556668827445" stop="1556668827446" status="passed">
+      <name>testGetComponentName</name>
+    </test-case>
+    <test-case start="1556668827447" stop="1556668827452" status="passed">
+      <name>testPrepare with data set #0</name>
+    </test-case>
+    <test-case start="1556668827452" stop="1556668827457" status="passed">
+      <name>testPrepare with data set #1</name>
+    </test-case>
+    <test-case start="1556668827457" stop="1556668827461" status="passed">
+      <name>testPrepare with data set #2</name>
+    </test-case>
+    <test-case start="1556668827462" stop="1556668827467" status="passed">
+      <name>testPrepare with data set #3</name>
+    </test-case>
+    <test-case start="1556668827467" stop="1556668827472" status="passed">
+      <name>testPrepare with data set #4</name>
+    </test-case>
+    <test-case start="1556668827473" stop="1556668827478" status="passed">
+      <name>testPrepare with data set #5</name>
+    </test-case>
+    <test-case start="1556668827479" stop="1556668827484" status="passed">
+      <name>testPrepare with data set #6</name>
+    </test-case>
+    <test-case start="1556668827485" stop="1556668827490" status="passed">
+      <name>testPrepare with data set #7</name>
+    </test-case>
+    <test-case start="1556668827490" stop="1556668827493" status="passed">
+      <name>testPrepare with data set #8</name>
+    </test-case>
+    <test-case start="1556668827494" stop="1556668827497" status="passed">
+      <name>testPrepare with data set #9</name>
+    </test-case>
+    <test-case start="1556668827497" stop="1556668827501" status="passed">
+      <name>testPrepare with data set #10</name>
+    </test-case>
+    <test-case start="1556668827502" stop="1556668827506" status="passed">
+      <name>testPrepare with data set #11</name>
+    </test-case>
+    <test-case start="1556668827506" stop="1556668827509" status="passed">
+      <name>testPrepare with data set #12</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

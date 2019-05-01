@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668827712" stop="1556668827757" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Component\Form\Element\DataType\Media\ImageTest</name>
+  <test-cases>
+    <test-case start="1556668827712" stop="1556668827732" status="passed">
+      <name>testPrepare with data set #0</name>
+    </test-case>
+    <test-case start="1556668827732" stop="1556668827735" status="passed">
+      <name>testPrepare with data set #1</name>
+    </test-case>
+    <test-case start="1556668827735" stop="1556668827738" status="passed">
+      <name>testPrepare with data set #2</name>
+    </test-case>
+    <test-case start="1556668827738" stop="1556668827741" status="passed">
+      <name>testPrepare with data set #3</name>
+    </test-case>
+    <test-case start="1556668827741" stop="1556668827743" status="passed">
+      <name>testPrepare with data set #4</name>
+    </test-case>
+    <test-case start="1556668827750" stop="1556668827753" status="passed">
+      <name>testPrepareWithoutDataScope</name>
+    </test-case>
+    <test-case start="1556668827753" stop="1556668827757" status="passed">
+      <name>testPrepareWithDataScope</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

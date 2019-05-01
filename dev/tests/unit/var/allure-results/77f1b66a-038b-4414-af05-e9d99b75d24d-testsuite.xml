@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668781922" stop="1556668781945" version="1.4.0">
+  <name>Magento\OfflinePayments\Test\Unit\Model\CheckmoConfigProviderTest</name>
+  <test-cases>
+    <test-case start="1556668781923" stop="1556668781936" status="passed">
+      <name>testGetConfig with data set #0</name>
+    </test-case>
+    <test-case start="1556668781936" stop="1556668781938" status="passed">
+      <name>testGetConfig with data set #1</name>
+    </test-case>
+    <test-case start="1556668781938" stop="1556668781940" status="passed">
+      <name>testGetConfig with data set #2</name>
+    </test-case>
+    <test-case start="1556668781940" stop="1556668781941" status="passed">
+      <name>testGetConfig with data set #3</name>
+    </test-case>
+    <test-case start="1556668781942" stop="1556668781943" status="passed">
+      <name>testGetConfig with data set #4</name>
+    </test-case>
+    <test-case start="1556668781944" stop="1556668781945" status="passed">
+      <name>testGetConfig with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

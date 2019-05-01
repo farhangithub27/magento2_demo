@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668721618" stop="1556668721878" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\AccountManagementTest</name>
+  <test-cases>
+    <test-case start="1556668721618" stop="1556668721631" status="passed">
+      <name>testCreateAccountWithPasswordHashWithExistingCustomer</name>
+    </test-case>
+    <test-case start="1556668721632" stop="1556668721641" status="passed">
+      <name>testCreateAccountWithPasswordHashWithCustomerWithoutStoreId</name>
+    </test-case>
+    <test-case start="1556668721641" stop="1556668721651" status="passed">
+      <name>testCreateAccountWithPasswordHashWithLocalizedException</name>
+    </test-case>
+    <test-case start="1556668721651" stop="1556668721661" status="passed">
+      <name>testCreateAccountWithPasswordHashWithAddressException</name>
+    </test-case>
+    <test-case start="1556668721662" stop="1556668721669" status="passed">
+      <name>testCreateAccountWithPasswordHashWithNewCustomerAndLocalizedException</name>
+    </test-case>
+    <test-case start="1556668721670" stop="1556668721685" status="passed">
+      <name>testCreateAccountWithoutPassword</name>
+    </test-case>
+    <test-case start="1556668721686" stop="1556668721689" status="passed">
+      <name>testCreateAccountWithPasswordInputException with data set #0</name>
+    </test-case>
+    <test-case start="1556668721689" stop="1556668721693" status="passed">
+      <name>testCreateAccountWithPasswordInputException with data set #1</name>
+    </test-case>
+    <test-case start="1556668721693" stop="1556668721696" status="passed">
+      <name>testCreateAccountInputExceptionExtraLongPassword</name>
+    </test-case>
+    <test-case start="1556668721697" stop="1556668721713" status="passed">
+      <name>testCreateAccountWithPassword</name>
+    </test-case>
+    <test-case start="1556668721713" stop="1556668721721" status="passed">
+      <name>testSendPasswordReminderEmail</name>
+    </test-case>
+    <test-case start="1556668721721" stop="1556668721729" status="passed">
+      <name>testInitiatePasswordResetEmailReminder</name>
+    </test-case>
+    <test-case start="1556668721729" stop="1556668721736" status="passed">
+      <name>testInitiatePasswordResetEmailReset</name>
+    </test-case>
+    <test-case start="1556668721736" stop="1556668721742" status="passed">
+      <name>testInitiatePasswordResetNoTemplate</name>
+    </test-case>
+    <test-case start="1556668721743" stop="1556668721746" status="passed">
+      <name>testValidateResetPasswordTokenBadCustomerId</name>
+    </test-case>
+    <test-case start="1556668721746" stop="1556668721749" status="passed">
+      <name>testValidateResetPasswordTokenBadResetPasswordLinkToken</name>
+    </test-case>
+    <test-case start="1556668721750" stop="1556668721753" status="passed">
+      <name>testValidateResetPasswordTokenTokenMismatch</name>
+    </test-case>
+    <test-case start="1556668721753" stop="1556668721764" status="passed">
+      <name>testValidateResetPasswordTokenTokenExpired</name>
+    </test-case>
+    <test-case start="1556668721764" stop="1556668721770" status="passed">
+      <name>testValidateResetPasswordToken</name>
+    </test-case>
+    <test-case start="1556668721771" stop="1556668721781" status="passed">
+      <name>testChangePassword</name>
+    </test-case>
+    <test-case start="1556668721781" stop="1556668721792" status="passed">
+      <name>testResetPassword</name>
+    </test-case>
+    <test-case start="1556668721792" stop="1556668721796" status="passed">
+      <name>testChangePasswordException</name>
+    </test-case>
+    <test-case start="1556668721796" stop="1556668721812" status="passed">
+      <name>testAuthenticate</name>
+    </test-case>
+    <test-case start="1556668721812" stop="1556668721817" status="passed">
+      <name>testGetConfirmationStatus with data set #0</name>
+    </test-case>
+    <test-case start="1556668721817" stop="1556668721821" status="passed">
+      <name>testGetConfirmationStatus with data set #1</name>
+    </test-case>
+    <test-case start="1556668721822" stop="1556668721826" status="passed">
+      <name>testGetConfirmationStatus with data set #2</name>
+    </test-case>
+    <test-case start="1556668721826" stop="1556668721831" status="passed">
+      <name>testGetConfirmationStatus with data set #3</name>
+    </test-case>
+    <test-case start="1556668721831" stop="1556668721835" status="passed">
+      <name>testGetConfirmationStatus with data set #4</name>
+    </test-case>
+    <test-case start="1556668721836" stop="1556668721846" status="passed">
+      <name>testCreateAccountWithPasswordHashForGuest</name>
+    </test-case>
+    <test-case start="1556668721847" stop="1556668721857" status="passed">
+      <name>testCreateAccountWithPasswordHashWithCustomerAddresses</name>
+    </test-case>
+    <test-case start="1556668721858" stop="1556668721873" status="passed">
+      <name>testCreateAccountUnexpectedValueException</name>
+    </test-case>
+    <test-case start="1556668721874" stop="1556668721878" status="passed">
+      <name>testCreateAccountWithStoreNotInWebsite</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668785355" stop="1556668785403" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Block\Adminhtml\Order\ViewTest</name>
+  <test-cases>
+    <test-case start="1556668785356" stop="1556668785366" status="passed">
+      <name>testIsOrderAuthorizationAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668785367" stop="1556668785372" status="passed">
+      <name>testIsOrderAuthorizationAllowed with data set #1</name>
+    </test-case>
+    <test-case start="1556668785372" stop="1556668785378" status="passed">
+      <name>testIsOrderAuthorizationAllowed with data set #2</name>
+    </test-case>
+    <test-case start="1556668785378" stop="1556668785384" status="passed">
+      <name>testIsOrderAuthorizationAllowed with data set #3</name>
+    </test-case>
+    <test-case start="1556668785385" stop="1556668785390" status="passed">
+      <name>testIsOrderAuthorizationAllowed with data set #4</name>
+    </test-case>
+    <test-case start="1556668785391" stop="1556668785396" status="passed">
+      <name>testIsOrderAuthorizationAllowed with data set #5</name>
+    </test-case>
+    <test-case start="1556668785397" stop="1556668785403" status="passed">
+      <name>testIsOrderAuthorizationAllowed with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

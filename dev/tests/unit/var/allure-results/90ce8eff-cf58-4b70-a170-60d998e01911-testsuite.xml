@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668780479" stop="1556668780493" version="1.4.0">
+  <name>Magento\NewRelicReporting\Test\Unit\Model\Apm\DeploymentsTest</name>
+  <test-cases>
+    <test-case start="1556668780479" stop="1556668780485" status="passed">
+      <name>testSetDeploymentRequestOk</name>
+    </test-case>
+    <test-case start="1556668780485" stop="1556668780489" status="passed">
+      <name>testSetDeploymentBadStatus</name>
+    </test-case>
+    <test-case start="1556668780489" stop="1556668780493" status="passed">
+      <name>testSetDeploymentRequestFail</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

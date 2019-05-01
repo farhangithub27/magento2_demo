@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668718825" stop="1556668718836" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Form\Login\InfoTest</name>
+  <test-cases>
+    <test-case start="1556668718825" stop="1556668718829" status="passed">
+      <name>testGetExistingCreateAccountUrl</name>
+    </test-case>
+    <test-case start="1556668718829" stop="1556668718832" status="passed">
+      <name>testGetCreateAccountUrlWithContext</name>
+    </test-case>
+    <test-case start="1556668718833" stop="1556668718836" status="passed">
+      <name>testGetCreateAccountUrl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

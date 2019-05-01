@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668739674" stop="1556668739740" version="1.4.0">
+  <name>Magento\Email\Test\Unit\Model\AbstractTemplateTest</name>
+  <test-cases>
+    <test-case start="1556668739675" stop="1556668739694" status="passed">
+      <name>testGetProcessedTemplate with data set "default"</name>
+    </test-case>
+    <test-case start="1556668739695" stop="1556668739703" status="passed">
+      <name>testGetProcessedTemplate with data set "logo variables set"</name>
+    </test-case>
+    <test-case start="1556668739703" stop="1556668739710" status="passed">
+      <name>testGetProcessedTemplateException</name>
+    </test-case>
+    <test-case start="1556668739710" stop="1556668739713" status="passed">
+      <name>testGetDefaultEmailLogo</name>
+    </test-case>
+    <test-case start="1556668739714" stop="1556668739716" status="passed">
+      <name>testSetDesignConfigWithInvalidInputParametersThrowsException with data set #0</name>
+    </test-case>
+    <test-case start="1556668739717" stop="1556668739719" status="passed">
+      <name>testSetDesignConfigWithInvalidInputParametersThrowsException with data set #1</name>
+    </test-case>
+    <test-case start="1556668739719" stop="1556668739722" status="passed">
+      <name>testSetDesignConfigWithInvalidInputParametersThrowsException with data set #2</name>
+    </test-case>
+    <test-case start="1556668739722" stop="1556668739725" status="passed">
+      <name>testSetDesignConfigWithValidInputParametersReturnsSuccess</name>
+    </test-case>
+    <test-case start="1556668739725" stop="1556668739728" status="passed">
+      <name>testEmulateDesignAndRevertDesign</name>
+    </test-case>
+    <test-case start="1556668739728" stop="1556668739735" status="passed">
+      <name>testGetDesignConfig</name>
+    </test-case>
+    <test-case start="1556668739735" stop="1556668739738" status="passed">
+      <name>testSetForcedAreaWhenAreaIsNotSet</name>
+    </test-case>
+    <test-case start="1556668739738" stop="1556668739740" status="passed">
+      <name>testSetForcedAreaWhenAreaIsSet</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

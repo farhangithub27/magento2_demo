@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668689441" stop="1556668689456" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Adminhtml\Product\Helper\Form\GalleryTest</name>
+  <test-cases>
+    <test-case start="1556668689441" stop="1556668689445" status="passed">
+      <name>testGetImages</name>
+    </test-case>
+    <test-case start="1556668689445" stop="1556668689448" status="passed">
+      <name>testGetImagesWithDataPersistor</name>
+    </test-case>
+    <test-case start="1556668689448" stop="1556668689451" status="passed">
+      <name>testGetImageValue</name>
+    </test-case>
+    <test-case start="1556668689451" stop="1556668689453" status="passed">
+      <name>testGetDataObject</name>
+    </test-case>
+    <test-case start="1556668689454" stop="1556668689456" status="passed">
+      <name>testGetAttributeFieldName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

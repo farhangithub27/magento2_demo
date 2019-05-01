@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668743246" stop="1556668743275" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Block\Adminhtml\Export\FilterTest</name>
+  <test-cases>
+    <test-case start="1556668743247" stop="1556668743255" status="passed">
+      <name>testDecorateFilter with data set #0</name>
+    </test-case>
+    <test-case start="1556668743256" stop="1556668743260" status="passed">
+      <name>testDecorateFilter with data set #1</name>
+    </test-case>
+    <test-case start="1556668743261" stop="1556668743266" status="passed">
+      <name>testDecorateFilter with data set #2</name>
+    </test-case>
+    <test-case start="1556668743266" stop="1556668743271" status="passed">
+      <name>testDecorateFilter with data set #3</name>
+    </test-case>
+    <test-case start="1556668743272" stop="1556668743275" status="pending">
+      <name>testPrepareForm</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-import-export/Test/Unit/Block/Adminhtml/Export/FilterTest.php(295): PHPUnit\Framework\Assert::markTestIncomplete('This test has n...')
+#1 [internal function]: Magento\ImportExport\Test\Unit\Block\Adminhtml\Export\FilterTest-&gt;testPrepareForm()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\ImportExport\Test\Unit\Block\Adminhtml\Export\FilterTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\ImportExport\Test\Unit\Block\Adminhtml\Export\FilterTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668791614" stop="1556668791620" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\QueryResolverTest</name>
+  <test-cases>
+    <test-case start="1556668791614" stop="1556668791616" status="passed">
+      <name>testIsSingleQueryWhenDataWereCached</name>
+    </test-case>
+    <test-case start="1556668791617" stop="1556668791618" status="passed">
+      <name>testIsSingleQueryWhenDataNotCached with data set #0</name>
+    </test-case>
+    <test-case start="1556668791619" stop="1556668791620" status="passed">
+      <name>testIsSingleQueryWhenDataNotCached with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

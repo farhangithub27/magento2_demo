@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668787803" stop="1556668787840" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\Express\CheckoutTest</name>
+  <test-cases>
+    <test-case start="1556668787803" stop="1556668787815" status="passed">
+      <name>testSetCustomerData</name>
+    </test-case>
+    <test-case start="1556668787815" stop="1556668787819" status="passed">
+      <name>testSetCustomerWithAddressChange</name>
+    </test-case>
+    <test-case start="1556668787819" stop="1556668787840" status="passed">
+      <name>testUpdateShippingMethod</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

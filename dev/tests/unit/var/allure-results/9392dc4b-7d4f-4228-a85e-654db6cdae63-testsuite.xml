@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668865740" stop="1556668865758" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Asset\FileTest</name>
+  <test-cases>
+    <test-case start="1556668865740" stop="1556668865741" status="passed">
+      <name>testGetUrl</name>
+    </test-case>
+    <test-case start="1556668865741" stop="1556668865742" status="passed">
+      <name>testGetContentType</name>
+    </test-case>
+    <test-case start="1556668865742" stop="1556668865743" status="passed">
+      <name>testGetPath with data set #0</name>
+    </test-case>
+    <test-case start="1556668865744" stop="1556668865744" status="passed">
+      <name>testGetPath with data set #1</name>
+    </test-case>
+    <test-case start="1556668865745" stop="1556668865745" status="passed">
+      <name>testGetPath with data set #2</name>
+    </test-case>
+    <test-case start="1556668865746" stop="1556668865747" status="passed">
+      <name>testGetPath with data set #3</name>
+    </test-case>
+    <test-case start="1556668865747" stop="1556668865748" status="passed">
+      <name>testGetPath with data set #4</name>
+    </test-case>
+    <test-case start="1556668865748" stop="1556668865749" status="passed">
+      <name>testGetPath with data set #5</name>
+    </test-case>
+    <test-case start="1556668865749" stop="1556668865750" status="passed">
+      <name>testGetPath with data set #6</name>
+    </test-case>
+    <test-case start="1556668865751" stop="1556668865751" status="passed">
+      <name>testGetPath with data set #7</name>
+    </test-case>
+    <test-case start="1556668865752" stop="1556668865752" status="passed">
+      <name>testGetSourceFile</name>
+    </test-case>
+    <test-case start="1556668865753" stop="1556668865754" status="passed">
+      <name>testGetSourceFileMissing</name>
+    </test-case>
+    <test-case start="1556668865754" stop="1556668865755" status="passed">
+      <name>testGetContent with data set "normal content"</name>
+    </test-case>
+    <test-case start="1556668865755" stop="1556668865756" status="passed">
+      <name>testGetContent with data set "empty content"</name>
+    </test-case>
+    <test-case start="1556668865756" stop="1556668865757" status="passed">
+      <name>testGetContentNotFound</name>
+    </test-case>
+    <test-case start="1556668865758" stop="1556668865758" status="passed">
+      <name>testSimpleGetters</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

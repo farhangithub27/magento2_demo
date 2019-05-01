@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848360" stop="1556668848366" version="1.4.0">
+  <name>Magento\Framework\Config\Test\Unit\ThemeTest</name>
+  <test-cases>
+    <test-case start="1556668848360" stop="1556668848361" status="passed">
+      <name>testGetSchemaFile</name>
+    </test-case>
+    <test-case start="1556668848361" stop="1556668848362" status="passed">
+      <name>testDataGetter with data set #0</name>
+    </test-case>
+    <test-case start="1556668848362" stop="1556668848363" status="passed">
+      <name>testDataGetter with data set #1</name>
+    </test-case>
+    <test-case start="1556668848363" stop="1556668848364" status="passed">
+      <name>testDataGetter with data set #2</name>
+    </test-case>
+    <test-case start="1556668848364" stop="1556668848365" status="passed">
+      <name>testDataGetter with data set #3</name>
+    </test-case>
+    <test-case start="1556668848365" stop="1556668848366" status="passed">
+      <name>testDataGetter with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

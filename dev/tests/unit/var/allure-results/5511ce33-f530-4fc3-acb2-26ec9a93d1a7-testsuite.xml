@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668672979" stop="1556668672991" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\Widget\Grid\ParserTest</name>
+  <test-cases>
+    <test-case start="1556668672980" stop="1556668672980" status="passed">
+      <name>testParseExpression with data set #0</name>
+    </test-case>
+    <test-case start="1556668672981" stop="1556668672981" status="passed">
+      <name>testParseExpression with data set #1</name>
+    </test-case>
+    <test-case start="1556668672981" stop="1556668672982" status="passed">
+      <name>testParseExpression with data set #2</name>
+    </test-case>
+    <test-case start="1556668672982" stop="1556668672983" status="passed">
+      <name>testParseExpression with data set #3</name>
+    </test-case>
+    <test-case start="1556668672983" stop="1556668672983" status="passed">
+      <name>testParseExpression with data set #4</name>
+    </test-case>
+    <test-case start="1556668672984" stop="1556668672984" status="passed">
+      <name>testParseExpression with data set #5</name>
+    </test-case>
+    <test-case start="1556668672985" stop="1556668672985" status="passed">
+      <name>testParseExpression with data set #6</name>
+    </test-case>
+    <test-case start="1556668672985" stop="1556668672986" status="passed">
+      <name>testParseExpression with data set #7</name>
+    </test-case>
+    <test-case start="1556668672986" stop="1556668672987" status="passed">
+      <name>testParseExpression with data set #8</name>
+    </test-case>
+    <test-case start="1556668672987" stop="1556668672988" status="passed">
+      <name>testIsOperation with data set #0</name>
+    </test-case>
+    <test-case start="1556668672988" stop="1556668672988" status="passed">
+      <name>testIsOperation with data set #1</name>
+    </test-case>
+    <test-case start="1556668672989" stop="1556668672989" status="passed">
+      <name>testIsOperation with data set #2</name>
+    </test-case>
+    <test-case start="1556668672989" stop="1556668672990" status="passed">
+      <name>testIsOperation with data set #3</name>
+    </test-case>
+    <test-case start="1556668672990" stop="1556668672990" status="passed">
+      <name>testIsOperation with data set #4</name>
+    </test-case>
+    <test-case start="1556668672991" stop="1556668672991" status="passed">
+      <name>testIsOperation with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

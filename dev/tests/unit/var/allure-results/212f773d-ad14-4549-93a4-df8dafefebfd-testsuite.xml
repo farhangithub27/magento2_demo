@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668675154" stop="1556668675169" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Model\Report\TransactionsCollectionTest</name>
+  <test-cases>
+    <test-case start="1556668675154" stop="1556668675157" status="passed">
+      <name>testGetItems</name>
+    </test-case>
+    <test-case start="1556668675157" stop="1556668675158" status="passed">
+      <name>testGetItemsEmptyCollection</name>
+    </test-case>
+    <test-case start="1556668675158" stop="1556668675162" status="passed">
+      <name>testGetItemsWithLimit</name>
+    </test-case>
+    <test-case start="1556668675162" stop="1556668675165" status="passed">
+      <name>testGetItemsWithNullLimit</name>
+    </test-case>
+    <test-case start="1556668675166" stop="1556668675167" status="passed">
+      <name>testAddToFilter with data set #0</name>
+    </test-case>
+    <test-case start="1556668675167" stop="1556668675168" status="passed">
+      <name>testAddToFilter with data set #1</name>
+    </test-case>
+    <test-case start="1556668675168" stop="1556668675169" status="passed">
+      <name>testAddToFilter with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

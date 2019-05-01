@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668705459" stop="1556668705462" version="1.4.0">
+  <name>Magento\CheckoutAgreements\Test\Unit\Model\AgreementsProviderTest</name>
+  <test-cases>
+    <test-case start="1556668705459" stop="1556668705461" status="passed">
+      <name>testGetRequiredAgreementIdsIfAgreementsEnabled</name>
+    </test-case>
+    <test-case start="1556668705462" stop="1556668705462" status="passed">
+      <name>testGetRequiredAgreementIdsIfAgreementsDisabled</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

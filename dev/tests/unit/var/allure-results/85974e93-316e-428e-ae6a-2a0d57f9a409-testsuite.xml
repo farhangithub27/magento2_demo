@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668665783" stop="1556668665788" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Model\Connector\Http\ResponseResolverTest</name>
+  <test-cases>
+    <test-case start="1556668665784" stop="1556668665786" status="passed">
+      <name>testGetResultHandleResponseSuccess</name>
+    </test-case>
+    <test-case start="1556668665787" stop="1556668665788" status="passed">
+      <name>testGetResultHandleResponseUnexpectedContentType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832836" stop="1556668832843" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Model\DataObjectProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668832837" stop="1556668832842" status="passed">
+      <name>testDataObjectProcessor</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

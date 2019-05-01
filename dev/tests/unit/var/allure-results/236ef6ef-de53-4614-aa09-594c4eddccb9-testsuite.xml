@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668793788" stop="1556668793792" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\ResourceModel\Quote\Item\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668793789" stop="1556668793792" status="passed">
+      <name>testInstanceOf</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

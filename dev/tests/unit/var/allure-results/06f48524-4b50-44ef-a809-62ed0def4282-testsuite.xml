@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668682185" stop="1556668682307" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Model\Quote\Item\QuantityValidator\Initializer\QuantityValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668682185" stop="1556668682221" status="passed">
+      <name>testValidateOutOfStock</name>
+    </test-case>
+    <test-case start="1556668682222" stop="1556668682232" status="passed">
+      <name>testValidateInStock</name>
+    </test-case>
+    <test-case start="1556668682232" stop="1556668682250" status="passed">
+      <name>testValidateWithOptions</name>
+    </test-case>
+    <test-case start="1556668682250" stop="1556668682267" status="passed">
+      <name>testValidateWithOptionsAndError</name>
+    </test-case>
+    <test-case start="1556668682267" stop="1556668682288" status="passed">
+      <name>testValidateAndRemoveErrorsFromQuote</name>
+    </test-case>
+    <test-case start="1556668682289" stop="1556668682302" status="passed">
+      <name>testRemoveError</name>
+    </test-case>
+    <test-case start="1556668682302" stop="1556668682307" status="passed">
+      <name>testException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

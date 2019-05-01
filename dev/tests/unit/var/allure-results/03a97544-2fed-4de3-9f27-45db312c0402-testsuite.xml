@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841839" stop="1556668841844" version="1.4.0">
+  <name>Magento\Framework\Api\Test\Unit\ExtensionAttribute\Config\ConverterTest</name>
+  <test-cases>
+    <test-case start="1556668841839" stop="1556668841839" status="passed">
+      <name>testInvalidData</name>
+    </test-case>
+    <test-case start="1556668841840" stop="1556668841840" status="passed">
+      <name>testConvertNoElements</name>
+    </test-case>
+    <test-case start="1556668841840" stop="1556668841841" status="passed">
+      <name>testConvert</name>
+    </test-case>
+    <test-case start="1556668841841" stop="1556668841843" status="passed">
+      <name>testConvertWithJoinDirectives</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

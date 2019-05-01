@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668821749" stop="1556668821764" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\Quote\ToOrderConverterTest</name>
+  <test-cases>
+    <test-case start="1556668821750" stop="1556668821758" status="passed">
+      <name>testAfterConvert with data set "afterConvert"</name>
+    </test-case>
+    <test-case start="1556668821759" stop="1556668821764" status="passed">
+      <name>testAfterConvertNullExtensionAttribute with data set "afterConvert"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

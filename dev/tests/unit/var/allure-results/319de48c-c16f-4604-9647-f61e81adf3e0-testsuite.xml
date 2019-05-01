@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864189" stop="1556668864200" version="1.4.0">
+  <name>Magento\Framework\Stdlib\Test\Unit\Cookie\SensitiveCookieMetadataTest</name>
+  <test-cases>
+    <test-case start="1556668864189" stop="1556668864190" status="passed">
+      <name>testConstructorAndGetHttpOnly with data set "with httpOnly"</name>
+    </test-case>
+    <test-case start="1556668864190" stop="1556668864191" status="passed">
+      <name>testConstructorAndGetHttpOnly with data set "without httpOnly"</name>
+    </test-case>
+    <test-case start="1556668864191" stop="1556668864192" status="passed">
+      <name>testGetSecure with data set "with secure"</name>
+    </test-case>
+    <test-case start="1556668864192" stop="1556668864193" status="passed">
+      <name>testGetSecure with data set "without secure"</name>
+    </test-case>
+    <test-case start="1556668864193" stop="1556668864194" status="passed">
+      <name>testGetSecure with data set "without secure 2"</name>
+    </test-case>
+    <test-case start="1556668864194" stop="1556668864195" status="passed">
+      <name>testToArray with data set "with secure"</name>
+    </test-case>
+    <test-case start="1556668864196" stop="1556668864197" status="passed">
+      <name>testToArray with data set "without secure"</name>
+    </test-case>
+    <test-case start="1556668864197" stop="1556668864198" status="passed">
+      <name>testToArray with data set "without secure 2"</name>
+    </test-case>
+    <test-case start="1556668864199" stop="1556668864199" status="passed">
+      <name>testGetters with data set "getDomain"</name>
+    </test-case>
+    <test-case start="1556668864199" stop="1556668864200" status="passed">
+      <name>testGetters with data set "getPath"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

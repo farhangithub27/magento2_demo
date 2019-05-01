@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668712140" stop="1556668712146" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Export\CommentTest</name>
+  <test-cases>
+    <test-case start="1556668712141" stop="1556668712143" status="passed">
+      <name>testGet with data set #0</name>
+    </test-case>
+    <test-case start="1556668712143" stop="1556668712144" status="passed">
+      <name>testGet with data set #1</name>
+    </test-case>
+    <test-case start="1556668712145" stop="1556668712146" status="passed">
+      <name>testGet with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

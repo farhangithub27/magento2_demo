@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668803459" stop="1556668803462" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\AdminOrder\EmailSenderTest</name>
+  <test-cases>
+    <test-case start="1556668803459" stop="1556668803460" status="passed">
+      <name>testSendSuccess</name>
+    </test-case>
+    <test-case start="1556668803461" stop="1556668803461" status="passed">
+      <name>testSendFailure</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

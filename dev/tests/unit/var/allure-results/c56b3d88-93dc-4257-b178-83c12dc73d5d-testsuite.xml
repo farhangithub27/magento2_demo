@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668791487" stop="1556668791514" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\PaymentMethodManagementTest</name>
+  <test-cases>
+    <test-case start="1556668791488" stop="1556668791490" status="passed">
+      <name>testGetPaymentIfPaymentMethodNotSet</name>
+    </test-case>
+    <test-case start="1556668791490" stop="1556668791491" status="passed">
+      <name>testGetPaymentSuccess</name>
+    </test-case>
+    <test-case start="1556668791491" stop="1556668791492" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668791493" stop="1556668791500" status="passed">
+      <name>testSetVirtualProduct</name>
+    </test-case>
+    <test-case start="1556668791500" stop="1556668791505" status="passed">
+      <name>testSetVirtualProductThrowsExceptionIfPaymentMethodNotAvailable</name>
+    </test-case>
+    <test-case start="1556668791505" stop="1556668791512" status="passed">
+      <name>testSetSimpleProduct</name>
+    </test-case>
+    <test-case start="1556668791512" stop="1556668791514" status="passed">
+      <name>testSetSimpleProductTrowsExceptionIfShippingAddressNotSet</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

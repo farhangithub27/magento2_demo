@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668707653" stop="1556668707657" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Model\Session\SuccessValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668707653" stop="1556668707654" status="passed">
+      <name>testIsValid</name>
+    </test-case>
+    <test-case start="1556668707654" stop="1556668707655" status="passed">
+      <name>testIsValidWithNotEmptyGetLastSuccessQuoteId</name>
+    </test-case>
+    <test-case start="1556668707655" stop="1556668707656" status="passed">
+      <name>testIsValidWithEmptyQuoteAndOrder</name>
+    </test-case>
+    <test-case start="1556668707656" stop="1556668707657" status="passed">
+      <name>testIsValidTrue</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668687649" stop="1556668687657" version="1.4.0">
+  <name>Magento\CatalogUrlRewrite\Test\Unit\Model\Map\UrlRewriteFinderTest</name>
+  <test-cases>
+    <test-case start="1556668687649" stop="1556668687652" status="passed">
+      <name>testGetByIdentifiersFallback</name>
+    </test-case>
+    <test-case start="1556668687652" stop="1556668687654" status="passed">
+      <name>testGetByIdentifiersProduct</name>
+    </test-case>
+    <test-case start="1556668687654" stop="1556668687657" status="passed">
+      <name>testGetByIdentifiersCategory</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

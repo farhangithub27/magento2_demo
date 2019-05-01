@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668697734" stop="1556668697741" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Attribute\Frontend\InputType\PresentationTest</name>
+  <test-cases>
+    <test-case start="1556668697734" stop="1556668697735" status="passed">
+      <name>testGetPresentationInputType with data set "attribute_is_textarea_and_wysiwyg_enabled"</name>
+    </test-case>
+    <test-case start="1556668697735" stop="1556668697736" status="passed">
+      <name>testGetPresentationInputType with data set "attribute_is_input_and_wysiwyg_enabled"</name>
+    </test-case>
+    <test-case start="1556668697737" stop="1556668697737" status="passed">
+      <name>testGetPresentationInputType with data set "attribute_is_textarea_and_wysiwyg_disabled"</name>
+    </test-case>
+    <test-case start="1556668697738" stop="1556668697738" status="passed">
+      <name>testConvertPresentationDataToInputType with data set #0</name>
+    </test-case>
+    <test-case start="1556668697739" stop="1556668697739" status="passed">
+      <name>testConvertPresentationDataToInputType with data set #1</name>
+    </test-case>
+    <test-case start="1556668697739" stop="1556668697740" status="passed">
+      <name>testConvertPresentationDataToInputType with data set #2</name>
+    </test-case>
+    <test-case start="1556668697740" stop="1556668697741" status="passed">
+      <name>testConvertPresentationDataToInputType with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

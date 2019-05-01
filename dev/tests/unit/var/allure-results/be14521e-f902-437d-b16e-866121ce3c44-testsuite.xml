@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668854712" stop="1556668854779" version="1.4.0">
+  <name>Magento\Framework\HTTP\Test\Unit\PhpEnvironment\RequestTest</name>
+  <test-cases>
+    <test-case start="1556668854712" stop="1556668854713" status="passed">
+      <name>testSetPathInfoWithNullValue</name>
+    </test-case>
+    <test-case start="1556668854713" stop="1556668854714" status="passed">
+      <name>testSetPathInfoWithValue</name>
+    </test-case>
+    <test-case start="1556668854715" stop="1556668854716" status="passed">
+      <name>testSetPathInfoWithQueryPart</name>
+    </test-case>
+    <test-case start="1556668854717" stop="1556668854719" status="passed">
+      <name>testGetServer with data set #0</name>
+    </test-case>
+    <test-case start="1556668854719" stop="1556668854721" status="passed">
+      <name>testGetServer with data set #1</name>
+    </test-case>
+    <test-case start="1556668854721" stop="1556668854723" status="passed">
+      <name>testGetServer with data set #2</name>
+    </test-case>
+    <test-case start="1556668854723" stop="1556668854725" status="passed">
+      <name>testGetServer with data set #3</name>
+    </test-case>
+    <test-case start="1556668854725" stop="1556668854727" status="passed">
+      <name>testGetServer with data set #4</name>
+    </test-case>
+    <test-case start="1556668854727" stop="1556668854729" status="passed">
+      <name>testGetServer with data set #5</name>
+    </test-case>
+    <test-case start="1556668854729" stop="1556668854731" status="passed">
+      <name>testGetServer with data set #6</name>
+    </test-case>
+    <test-case start="1556668854732" stop="1556668854733" status="passed">
+      <name>testGetServer with data set #7</name>
+    </test-case>
+    <test-case start="1556668854734" stop="1556668854735" status="passed">
+      <name>testGetServer with data set #8</name>
+    </test-case>
+    <test-case start="1556668854736" stop="1556668854737" status="passed">
+      <name>testGetServer with data set #9</name>
+    </test-case>
+    <test-case start="1556668854738" stop="1556668854739" status="passed">
+      <name>testGetServer with data set #10</name>
+    </test-case>
+    <test-case start="1556668854740" stop="1556668854742" status="passed">
+      <name>testGetServer with data set #11</name>
+    </test-case>
+    <test-case start="1556668854743" stop="1556668854745" status="passed">
+      <name>testGetServer with data set #12</name>
+    </test-case>
+    <test-case start="1556668854745" stop="1556668854747" status="passed">
+      <name>testGetServer with data set #13</name>
+    </test-case>
+    <test-case start="1556668854747" stop="1556668854749" status="passed">
+      <name>testGetServer with data set #14</name>
+    </test-case>
+    <test-case start="1556668854749" stop="1556668854751" status="passed">
+      <name>testGetServer with data set #15</name>
+    </test-case>
+    <test-case start="1556668854751" stop="1556668854753" status="passed">
+      <name>testGetServer with data set #16</name>
+    </test-case>
+    <test-case start="1556668854754" stop="1556668854755" status="passed">
+      <name>testGetServer with data set #17</name>
+    </test-case>
+    <test-case start="1556668854756" stop="1556668854757" status="passed">
+      <name>testGetServer with data set #18</name>
+    </test-case>
+    <test-case start="1556668854758" stop="1556668854759" status="passed">
+      <name>testGetServer with data set #19</name>
+    </test-case>
+    <test-case start="1556668854760" stop="1556668854761" status="passed">
+      <name>testGetServer with data set #20</name>
+    </test-case>
+    <test-case start="1556668854762" stop="1556668854763" status="passed">
+      <name>testGetAliasWhenAliasExists</name>
+    </test-case>
+    <test-case start="1556668854763" stop="1556668854764" status="passed">
+      <name>testGetAliasWhenAliasesIsNull</name>
+    </test-case>
+    <test-case start="1556668854764" stop="1556668854766" status="passed">
+      <name>testSetPostValue</name>
+    </test-case>
+    <test-case start="1556668854766" stop="1556668854767" status="passed">
+      <name>testGetFiles</name>
+    </test-case>
+    <test-case start="1556668854767" stop="1556668854769" status="passed">
+      <name>testGetBaseUrlWithUrl</name>
+    </test-case>
+    <test-case start="1556668854769" stop="1556668854770" status="passed">
+      <name>testGetBaseUrlWithEmptyUrl</name>
+    </test-case>
+    <test-case start="1556668854770" stop="1556668854771" status="passed">
+      <name>testGetAliasWhenAliasSet</name>
+    </test-case>
+    <test-case start="1556668854772" stop="1556668854773" status="passed">
+      <name>testGetAliasWhenAliasAreEmpty</name>
+    </test-case>
+    <test-case start="1556668854773" stop="1556668854774" status="passed">
+      <name>testGetCookie</name>
+    </test-case>
+    <test-case start="1556668854774" stop="1556668854776" status="passed">
+      <name>testGetCookieDefault</name>
+    </test-case>
+    <test-case start="1556668854776" stop="1556668854777" status="passed">
+      <name>testGetCookieNameExists</name>
+    </test-case>
+    <test-case start="1556668854777" stop="1556668854779" status="passed">
+      <name>testGetCookieNullName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

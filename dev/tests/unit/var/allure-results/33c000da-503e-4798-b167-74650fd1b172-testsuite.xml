@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859097" stop="1556668859100" version="1.4.0">
+  <name>Magento\Framework\Phrase\Test\Unit\Renderer\CompositeTest</name>
+  <test-cases>
+    <test-case start="1556668859097" stop="1556668859098" status="passed">
+      <name>testConstructorException</name>
+    </test-case>
+    <test-case start="1556668859098" stop="1556668859099" status="passed">
+      <name>testRender</name>
+    </test-case>
+    <test-case start="1556668859099" stop="1556668859100" status="passed">
+      <name>testRenderException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

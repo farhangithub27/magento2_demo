@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668851781" stop="1556668851783" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\FormFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668851781" stop="1556668851782" status="passed">
+      <name>testWrongTypeException</name>
+    </test-case>
+    <test-case start="1556668851782" stop="1556668851782" status="passed">
+      <name>testCreate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

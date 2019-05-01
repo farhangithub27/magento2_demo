@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668846654" stop="1556668846664" version="1.4.0">
+  <name>Magento\Framework\Cache\Test\Unit\Backend\RemoteSynchronizedCacheTest</name>
+  <test-cases>
+    <test-case start="1556668846654" stop="1556668846655" status="passed">
+      <name>testInitializeWithException with data set "empty_backend_option"</name>
+    </test-case>
+    <test-case start="1556668846656" stop="1556668846656" status="passed">
+      <name>testInitializeWithException with data set "empty_remote_backend_option"</name>
+    </test-case>
+    <test-case start="1556668846657" stop="1556668846657" status="passed">
+      <name>testInitializeWithException with data set "empty_local_backend_option"</name>
+    </test-case>
+    <test-case start="1556668846657" stop="1556668846658" status="passed">
+      <name>testInitializeWithOutException with data set "not_empty_backend_option"</name>
+    </test-case>
+    <test-case start="1556668846658" stop="1556668846659" status="passed">
+      <name>testLoad with data set "cacheInvalidationTime_is_less_than_that_dataModificationTime"</name>
+    </test-case>
+    <test-case start="1556668846660" stop="1556668846660" status="passed">
+      <name>testLoad with data set "cacheInvalidationTime_is_greater_than_that_dataModificationTime"</name>
+    </test-case>
+    <test-case start="1556668846661" stop="1556668846661" status="passed">
+      <name>testLoad with data set "cacheInvalidationTime_is_equal_to_the_dataModificationTime"</name>
+    </test-case>
+    <test-case start="1556668846662" stop="1556668846663" status="passed">
+      <name>testRemove</name>
+    </test-case>
+    <test-case start="1556668846663" stop="1556668846664" status="passed">
+      <name>testClean</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

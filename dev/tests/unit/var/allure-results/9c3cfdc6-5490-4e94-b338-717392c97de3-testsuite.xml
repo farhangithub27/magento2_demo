@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668863136" stop="1556668863148" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Declaration\Schema\Db\StatementAggregatorTest</name>
+  <test-cases>
+    <test-case start="1556668863136" stop="1556668863139" status="passed">
+      <name>testAddStatementsInOneBank</name>
+    </test-case>
+    <test-case start="1556668863140" stop="1556668863141" status="passed">
+      <name>testAddStatementsForDifferentTables</name>
+    </test-case>
+    <test-case start="1556668863141" stop="1556668863143" status="passed">
+      <name>testAddStatementsForDifferentResources</name>
+    </test-case>
+    <test-case start="1556668863143" stop="1556668863144" status="passed">
+      <name>testAddStatementsWithTriggersInLastStatement</name>
+    </test-case>
+    <test-case start="1556668863144" stop="1556668863145" status="passed">
+      <name>testAddStatementsWithTriggers</name>
+    </test-case>
+    <test-case start="1556668863145" stop="1556668863148" status="passed">
+      <name>testAddReferenceStatements</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668809840" stop="1556668809875" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\ShipmentRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668809840" stop="1556668809842" status="passed">
+      <name>testGet with data set #0</name>
+    </test-case>
+    <test-case start="1556668809842" stop="1556668809844" status="passed">
+      <name>testGet with data set #1</name>
+    </test-case>
+    <test-case start="1556668809844" stop="1556668809845" status="passed">
+      <name>testGet with data set #2</name>
+    </test-case>
+    <test-case start="1556668809846" stop="1556668809856" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668809856" stop="1556668809858" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668809858" stop="1556668809859" status="passed">
+      <name>testDeleteWithException</name>
+    </test-case>
+    <test-case start="1556668809859" stop="1556668809860" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668809861" stop="1556668809862" status="passed">
+      <name>testSaveWithException</name>
+    </test-case>
+    <test-case start="1556668809862" stop="1556668809875" status="passed">
+      <name>testCreate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

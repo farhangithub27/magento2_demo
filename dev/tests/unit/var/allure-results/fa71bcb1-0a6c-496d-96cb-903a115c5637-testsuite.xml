@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668698373" stop="1556668698401" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Gallery\GalleryManagementTest</name>
+  <test-cases>
+    <test-case start="1556668698374" stop="1556668698380" status="passed">
+      <name>testCreateWithInvalidImageException</name>
+    </test-case>
+    <test-case start="1556668698380" stop="1556668698382" status="passed">
+      <name>testCreateWithCannotSaveException</name>
+    </test-case>
+    <test-case start="1556668698382" stop="1556668698384" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668698384" stop="1556668698385" status="passed">
+      <name>testUpdateWithNonExistingImage</name>
+    </test-case>
+    <test-case start="1556668698386" stop="1556668698388" status="passed">
+      <name>testUpdateWithCannotSaveException</name>
+    </test-case>
+    <test-case start="1556668698388" stop="1556668698392" status="passed">
+      <name>testUpdate</name>
+    </test-case>
+    <test-case start="1556668698392" stop="1556668698394" status="passed">
+      <name>testRemoveWithNonExistingImage</name>
+    </test-case>
+    <test-case start="1556668698394" stop="1556668698396" status="passed">
+      <name>testRemove</name>
+    </test-case>
+    <test-case start="1556668698396" stop="1556668698397" status="passed">
+      <name>testGetWithNonExistingProduct</name>
+    </test-case>
+    <test-case start="1556668698397" stop="1556668698398" status="passed">
+      <name>testGetWithNonExistingImage</name>
+    </test-case>
+    <test-case start="1556668698398" stop="1556668698399" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668698400" stop="1556668698401" status="passed">
+      <name>testGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

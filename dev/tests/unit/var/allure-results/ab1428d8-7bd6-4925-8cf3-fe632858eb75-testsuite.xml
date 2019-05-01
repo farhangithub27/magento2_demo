@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668700302" stop="1556668700311" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\TypeTransitionManagerTest</name>
+  <test-cases>
+    <test-case start="1556668700302" stop="1556668700305" status="passed">
+      <name>testProcessProduct with data set #0</name>
+    </test-case>
+    <test-case start="1556668700305" stop="1556668700306" status="passed">
+      <name>testProcessProduct with data set #1</name>
+    </test-case>
+    <test-case start="1556668700307" stop="1556668700308" status="passed">
+      <name>testProcessProduct with data set #2</name>
+    </test-case>
+    <test-case start="1556668700308" stop="1556668700310" status="passed">
+      <name>testProcessProduct with data set #3</name>
+    </test-case>
+    <test-case start="1556668700310" stop="1556668700311" status="passed">
+      <name>testProcessProductWithWrongTypeId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

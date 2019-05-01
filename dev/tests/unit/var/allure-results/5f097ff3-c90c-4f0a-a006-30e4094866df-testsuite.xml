@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668791367" stop="1556668791371" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\GuestCart\GuestCouponManagementTest</name>
+  <test-cases>
+    <test-case start="1556668791367" stop="1556668791368" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668791369" stop="1556668791370" status="passed">
+      <name>testSet</name>
+    </test-case>
+    <test-case start="1556668791370" stop="1556668791371" status="passed">
+      <name>testRemove</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

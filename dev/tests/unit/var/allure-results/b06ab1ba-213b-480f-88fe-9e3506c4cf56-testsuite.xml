@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668746956" stop="1556668746979" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\Config\Integration\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668746957" stop="1556668746958" status="passed">
+      <name>testExemplarXml with data set "valid"</name>
+    </test-case>
+    <test-case start="1556668746958" stop="1556668746959" status="passed">
+      <name>testExemplarXml with data set "valid with several entities"</name>
+    </test-case>
+    <test-case start="1556668746959" stop="1556668746960" status="passed">
+      <name>testExemplarXml with data set "empty root node"</name>
+    </test-case>
+    <test-case start="1556668746960" stop="1556668746961" status="passed">
+      <name>testExemplarXml with data set "empty integration"</name>
+    </test-case>
+    <test-case start="1556668746962" stop="1556668746962" status="passed">
+      <name>testExemplarXml with data set "empty resources"</name>
+    </test-case>
+    <test-case start="1556668746963" stop="1556668746963" status="passed">
+      <name>testExemplarXml with data set "irrelevant root node"</name>
+    </test-case>
+    <test-case start="1556668746964" stop="1556668746965" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in root"</name>
+    </test-case>
+    <test-case start="1556668746965" stop="1556668746966" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in integration"</name>
+    </test-case>
+    <test-case start="1556668746966" stop="1556668746967" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in resources"</name>
+    </test-case>
+    <test-case start="1556668746967" stop="1556668746968" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in resource"</name>
+    </test-case>
+    <test-case start="1556668746969" stop="1556668746969" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in root"</name>
+    </test-case>
+    <test-case start="1556668746970" stop="1556668746971" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in integration"</name>
+    </test-case>
+    <test-case start="1556668746971" stop="1556668746972" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in resources"</name>
+    </test-case>
+    <test-case start="1556668746972" stop="1556668746973" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in resource"</name>
+    </test-case>
+    <test-case start="1556668746974" stop="1556668746974" status="passed">
+      <name>testExemplarXml with data set "integration without name"</name>
+    </test-case>
+    <test-case start="1556668746975" stop="1556668746976" status="passed">
+      <name>testExemplarXml with data set "integration with empty name"</name>
+    </test-case>
+    <test-case start="1556668746976" stop="1556668746977" status="passed">
+      <name>testExemplarXml with data set "resource without name"</name>
+    </test-case>
+    <test-case start="1556668746977" stop="1556668746978" status="passed">
+      <name>testExemplarXml with data set "resource with empty name"</name>
+    </test-case>
+    <test-case start="1556668746978" stop="1556668746979" status="passed">
+      <name>testExemplarXml with data set "resource with invalid name"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666005" stop="1556668666016" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Model\CryptographerTest</name>
+  <test-cases>
+    <test-case start="1556668666006" stop="1556668666009" status="passed">
+      <name>testEncode</name>
+    </test-case>
+    <test-case start="1556668666009" stop="1556668666010" status="passed">
+      <name>testEncodeUniqueInitializationVector</name>
+    </test-case>
+    <test-case start="1556668666011" stop="1556668666012" status="passed">
+      <name>testEncodeNotValidSource with data set "Array"</name>
+    </test-case>
+    <test-case start="1556668666012" stop="1556668666013" status="passed">
+      <name>testEncodeNotValidSource with data set "Empty string"</name>
+    </test-case>
+    <test-case start="1556668666013" stop="1556668666015" status="passed">
+      <name>testEncodeNotValidCipherMethod</name>
+    </test-case>
+    <test-case start="1556668666015" stop="1556668666016" status="passed">
+      <name>testEncodeTokenNotValid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668826109" stop="1556668826118" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Theme\ThemeProviderTest</name>
+  <test-cases>
+    <test-case start="1556668826109" stop="1556668826111" status="passed">
+      <name>testGetByFullPath</name>
+    </test-case>
+    <test-case start="1556668826111" stop="1556668826113" status="passed">
+      <name>testGetByFullPathWithCache</name>
+    </test-case>
+    <test-case start="1556668826113" stop="1556668826115" status="passed">
+      <name>testGetById</name>
+    </test-case>
+    <test-case start="1556668826115" stop="1556668826116" status="passed">
+      <name>testGetByIdWithCache</name>
+    </test-case>
+    <test-case start="1556668826116" stop="1556668826118" status="passed">
+      <name>testGetThemeCustomizations</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

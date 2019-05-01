@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668739139" stop="1556668739158" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\SearchAdapter\MapperTest</name>
+  <test-cases>
+    <test-case start="1556668739140" stop="1556668739143" status="passed">
+      <name>testBuildQueryFailure</name>
+    </test-case>
+    <test-case start="1556668739144" stop="1556668739147" status="passed">
+      <name>testBuildQuery with data set #0</name>
+    </test-case>
+    <test-case start="1556668739147" stop="1556668739151" status="passed">
+      <name>testBuildQuery with data set #1</name>
+    </test-case>
+    <test-case start="1556668739151" stop="1556668739155" status="passed">
+      <name>testBuildQuery with data set #2</name>
+    </test-case>
+    <test-case start="1556668739155" stop="1556668739158" status="passed">
+      <name>testBuildQuery with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

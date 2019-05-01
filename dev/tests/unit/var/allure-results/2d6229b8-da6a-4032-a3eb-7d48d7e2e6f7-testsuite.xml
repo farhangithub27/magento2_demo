@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668861339" stop="1556668861372" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Request\MapperTest</name>
+  <test-cases>
+    <test-case start="1556668861339" stop="1556668861344" status="passed">
+      <name>testGetQueryMatch with data set #0</name>
+    </test-case>
+    <test-case start="1556668861344" stop="1556668861345" status="passed">
+      <name>testGetQueryMatch with data set #1</name>
+    </test-case>
+    <test-case start="1556668861345" stop="1556668861347" status="passed">
+      <name>testGetQueryNotUsedStateException</name>
+    </test-case>
+    <test-case start="1556668861347" stop="1556668861348" status="passed">
+      <name>testGetQueryUsedStateException</name>
+    </test-case>
+    <test-case start="1556668861348" stop="1556668861350" status="passed">
+      <name>testGetQueryFilterQueryReference with data set #0</name>
+    </test-case>
+    <test-case start="1556668861350" stop="1556668861351" status="passed">
+      <name>testGetQueryFilterQueryReference with data set #1</name>
+    </test-case>
+    <test-case start="1556668861352" stop="1556668861352" status="passed">
+      <name>testGetQueryFilterReferenceException</name>
+    </test-case>
+    <test-case start="1556668861353" stop="1556668861354" status="passed">
+      <name>testGetQueryBool with data set #0</name>
+    </test-case>
+    <test-case start="1556668861355" stop="1556668861356" status="passed">
+      <name>testGetQueryBool with data set #1</name>
+    </test-case>
+    <test-case start="1556668861356" stop="1556668861357" status="passed">
+      <name>testGetQueryInvalidArgumentException</name>
+    </test-case>
+    <test-case start="1556668861357" stop="1556668861358" status="passed">
+      <name>testGetQueryException</name>
+    </test-case>
+    <test-case start="1556668861358" stop="1556668861359" status="passed">
+      <name>testGetFilterTerm</name>
+    </test-case>
+    <test-case start="1556668861360" stop="1556668861361" status="passed">
+      <name>testGetFilterWildcard</name>
+    </test-case>
+    <test-case start="1556668861361" stop="1556668861362" status="passed">
+      <name>testGetFilterRange</name>
+    </test-case>
+    <test-case start="1556668861363" stop="1556668861364" status="passed">
+      <name>testGetFilterBool</name>
+    </test-case>
+    <test-case start="1556668861364" stop="1556668861366" status="passed">
+      <name>testGetFilterNotUsedStateException</name>
+    </test-case>
+    <test-case start="1556668861366" stop="1556668861367" status="passed">
+      <name>testGetFilterUsedStateException</name>
+    </test-case>
+    <test-case start="1556668861367" stop="1556668861368" status="passed">
+      <name>testGetFilterInvalidArgumentException</name>
+    </test-case>
+    <test-case start="1556668861368" stop="1556668861369" status="passed">
+      <name>testGetFilterException</name>
+    </test-case>
+    <test-case start="1556668861370" stop="1556668861371" status="passed">
+      <name>testGetBucketsTermBucket</name>
+    </test-case>
+    <test-case start="1556668861371" stop="1556668861372" status="passed">
+      <name>testGetBucketsRangeBucket</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

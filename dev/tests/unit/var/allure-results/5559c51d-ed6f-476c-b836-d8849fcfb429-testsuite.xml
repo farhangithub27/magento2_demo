@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657899" stop="1556668657911" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\ModulesTest</name>
+  <test-cases>
+    <test-case start="1556668657900" stop="1556668657902" status="passed">
+      <name>testIndexAction with data set "with_modules"</name>
+    </test-case>
+    <test-case start="1556668657902" stop="1556668657903" status="passed">
+      <name>testIndexAction with data set "some_not_selected"</name>
+    </test-case>
+    <test-case start="1556668657904" stop="1556668657905" status="passed">
+      <name>testIndexAction with data set "some_disabled"</name>
+    </test-case>
+    <test-case start="1556668657905" stop="1556668657906" status="passed">
+      <name>testIndexAction with data set "no_modules"</name>
+    </test-case>
+    <test-case start="1556668657906" stop="1556668657907" status="passed">
+      <name>testIndexActionWithError with data set "with_modules"</name>
+    </test-case>
+    <test-case start="1556668657908" stop="1556668657909" status="passed">
+      <name>testIndexActionWithError with data set "some_not_selected"</name>
+    </test-case>
+    <test-case start="1556668657909" stop="1556668657910" status="passed">
+      <name>testIndexActionWithError with data set "some_disabled"</name>
+    </test-case>
+    <test-case start="1556668657910" stop="1556668657911" status="passed">
+      <name>testIndexActionWithError with data set "no_modules"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

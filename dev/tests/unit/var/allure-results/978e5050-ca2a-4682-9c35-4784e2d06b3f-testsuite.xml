@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668798226" stop="1556668798240" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Model\Converter\ToDataModelTest</name>
+  <test-cases>
+    <test-case start="1556668798227" stop="1556668798238" status="passed">
+      <name>testToDataModel</name>
+    </test-case>
+    <test-case start="1556668798238" stop="1556668798240" status="passed">
+      <name>testArrayToConditionDataModel</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

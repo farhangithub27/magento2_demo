@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668823533" stop="1556668823594" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Console\Command\ThemeUninstallCommandTest</name>
+  <test-cases>
+    <test-case start="1556668823533" stop="1556668823542" status="passed">
+      <name>testExecuteFailedValidationNotPackage</name>
+    </test-case>
+    <test-case start="1556668823542" stop="1556668823545" status="passed">
+      <name>testExecuteFailedValidationNotTheme</name>
+    </test-case>
+    <test-case start="1556668823545" stop="1556668823547" status="passed">
+      <name>testExecuteFailedValidationMixed</name>
+    </test-case>
+    <test-case start="1556668823548" stop="1556668823559" status="passed">
+      <name>testExecuteFailedThemeInUseCheck</name>
+    </test-case>
+    <test-case start="1556668823559" stop="1556668823561" status="passed">
+      <name>testExecuteFailedDependencyCheck</name>
+    </test-case>
+    <test-case start="1556668823562" stop="1556668823565" status="passed">
+      <name>testExecuteWithBackupCode</name>
+    </test-case>
+    <test-case start="1556668823565" stop="1556668823569" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668823569" stop="1556668823572" status="passed">
+      <name>testExecuteCleanStaticFiles</name>
+    </test-case>
+    <test-case start="1556668823573" stop="1556668823574" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #0</name>
+    </test-case>
+    <test-case start="1556668823574" stop="1556668823576" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #1</name>
+    </test-case>
+    <test-case start="1556668823576" stop="1556668823578" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #2</name>
+    </test-case>
+    <test-case start="1556668823578" stop="1556668823580" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #3</name>
+    </test-case>
+    <test-case start="1556668823580" stop="1556668823582" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #4</name>
+    </test-case>
+    <test-case start="1556668823583" stop="1556668823585" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #5</name>
+    </test-case>
+    <test-case start="1556668823586" stop="1556668823588" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #6</name>
+    </test-case>
+    <test-case start="1556668823588" stop="1556668823590" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #7</name>
+    </test-case>
+    <test-case start="1556668823590" stop="1556668823592" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #8</name>
+    </test-case>
+    <test-case start="1556668823592" stop="1556668823594" status="passed">
+      <name>testExecuteWrongThemeFormat with data set #9</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

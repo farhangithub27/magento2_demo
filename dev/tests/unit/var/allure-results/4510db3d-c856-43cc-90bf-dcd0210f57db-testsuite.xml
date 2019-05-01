@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657849" stop="1556668657857" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\MarketplaceTest</name>
+  <test-cases>
+    <test-case start="1556668657849" stop="1556668657851" status="passed">
+      <name>testSaveAuthJsonAction</name>
+    </test-case>
+    <test-case start="1556668657851" stop="1556668657852" status="passed">
+      <name>testSaveAuthJsonActionWithError</name>
+    </test-case>
+    <test-case start="1556668657852" stop="1556668657853" status="passed">
+      <name>testCheckAuthAction</name>
+    </test-case>
+    <test-case start="1556668657853" stop="1556668657854" status="passed">
+      <name>testCheckAuthActionWithError</name>
+    </test-case>
+    <test-case start="1556668657854" stop="1556668657854" status="passed">
+      <name>testRemoveCredentialsAction</name>
+    </test-case>
+    <test-case start="1556668657855" stop="1556668657855" status="passed">
+      <name>testRemoveCredentialsWithError</name>
+    </test-case>
+    <test-case start="1556668657855" stop="1556668657856" status="passed">
+      <name>testPopupAuthAction</name>
+    </test-case>
+    <test-case start="1556668657856" stop="1556668657857" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

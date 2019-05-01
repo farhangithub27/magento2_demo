@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668727415" stop="1556668727435" version="1.4.0">
+  <name>Magento\Deploy\Test\Unit\Model\FilesystemTest</name>
+  <test-cases>
+    <test-case start="1556668727415" stop="1556668727429" status="passed">
+      <name>testRegenerateStatic</name>
+    </test-case>
+    <test-case start="1556668727430" stop="1556668727432" status="passed">
+      <name>testGenerateStaticForNotAllowedStoreViewLocale</name>
+    </test-case>
+    <test-case start="1556668727433" stop="1556668727435" status="passed">
+      <name>testGenerateStaticForNotAllowedAdminLocale</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

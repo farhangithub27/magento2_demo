@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668813527" stop="1556668813530" version="1.4.0">
+  <name>Magento\Search\Test\Unit\Model\Search\PageSizeProviderTest</name>
+  <test-cases>
+    <test-case start="1556668813528" stop="1556668813529" status="passed">
+      <name>testGetPageSize with data set #0</name>
+    </test-case>
+    <test-case start="1556668813529" stop="1556668813530" status="passed">
+      <name>testGetPageSize with data set #1</name>
+    </test-case>
+    <test-case start="1556668813530" stop="1556668813530" status="passed">
+      <name>testGetPageSize with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

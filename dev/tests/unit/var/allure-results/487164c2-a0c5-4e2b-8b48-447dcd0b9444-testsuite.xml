@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668743924" stop="1556668743934" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Model\Import\Config\XsdMergedTest</name>
+  <test-cases>
+    <test-case start="1556668743925" stop="1556668743926" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_without_required_name"</name>
+    </test-case>
+    <test-case start="1556668743926" stop="1556668743927" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_without_required_label"</name>
+    </test-case>
+    <test-case start="1556668743927" stop="1556668743928" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_without_required_behaviormodel"</name>
+    </test-case>
+    <test-case start="1556668743928" stop="1556668743929" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_without_required_model"</name>
+    </test-case>
+    <test-case start="1556668743930" stop="1556668743930" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_with_notallowed_atrribute"</name>
+    </test-case>
+    <test-case start="1556668743931" stop="1556668743931" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_model_with_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668743932" stop="1556668743932" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_behaviorModel_with_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668743933" stop="1556668743933" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668714285" stop="1556668714290" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Controller\Adminhtml\Product\Initialization\Helper\Plugin\UpdateConfigurationsTest</name>
+  <test-cases>
+    <test-case start="1556668714285" stop="1556668714289" status="passed">
+      <name>testAfterInitialize</name>
+    </test-case>
+    <test-case start="1556668714289" stop="1556668714290" status="passed">
+      <name>testAfterInitializeEmptyMatrix</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

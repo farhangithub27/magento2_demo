@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668828908" stop="1556668828921" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Model\Export\ConvertToXmlTest</name>
+  <test-cases>
+    <test-case start="1556668828908" stop="1556668828912" status="passed">
+      <name>testGetRowData</name>
+    </test-case>
+    <test-case start="1556668828912" stop="1556668828921" status="passed">
+      <name>testGetXmlFile</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

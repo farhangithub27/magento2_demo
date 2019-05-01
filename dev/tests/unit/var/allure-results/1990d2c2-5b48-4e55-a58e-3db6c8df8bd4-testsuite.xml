@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843441" stop="1556668843447" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Config\InitialTest</name>
+  <test-cases>
+    <test-case start="1556668843442" stop="1556668843443" status="passed">
+      <name>testGetData with data set #0</name>
+    </test-case>
+    <test-case start="1556668843443" stop="1556668843444" status="passed">
+      <name>testGetData with data set #1</name>
+    </test-case>
+    <test-case start="1556668843445" stop="1556668843445" status="passed">
+      <name>testGetData with data set #2</name>
+    </test-case>
+    <test-case start="1556668843446" stop="1556668843446" status="passed">
+      <name>testGetMetadata</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

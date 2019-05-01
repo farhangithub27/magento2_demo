@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668829370" stop="1556668829461" version="1.4.0">
+  <name>Magento\Ups\Test\Unit\Model\CarrierCollectRatesOptionsTest</name>
+  <test-cases>
+    <test-case start="1556668829371" stop="1556668829386" status="passed">
+      <name>testCollectRates with data set #0</name>
+    </test-case>
+    <test-case start="1556668829386" stop="1556668829396" status="passed">
+      <name>testCollectRates with data set #1</name>
+    </test-case>
+    <test-case start="1556668829397" stop="1556668829407" status="passed">
+      <name>testCollectRates with data set #2</name>
+    </test-case>
+    <test-case start="1556668829407" stop="1556668829418" status="passed">
+      <name>testCollectRates with data set #3</name>
+    </test-case>
+    <test-case start="1556668829418" stop="1556668829428" status="passed">
+      <name>testCollectRates with data set #4</name>
+    </test-case>
+    <test-case start="1556668829429" stop="1556668829439" status="passed">
+      <name>testCollectRates with data set #5</name>
+    </test-case>
+    <test-case start="1556668829440" stop="1556668829450" status="passed">
+      <name>testCollectRates with data set #6</name>
+    </test-case>
+    <test-case start="1556668829450" stop="1556668829460" status="passed">
+      <name>testCollectRates with data set #7</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

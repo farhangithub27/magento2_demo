@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668817223" stop="1556668817226" version="1.4.0">
+  <name>Magento\Store\Test\Unit\App\Action\Plugin\StoreCheckTest</name>
+  <test-cases>
+    <test-case start="1556668817223" stop="1556668817224" status="passed">
+      <name>testBeforeDispatchWhenStoreNotActive</name>
+    </test-case>
+    <test-case start="1556668817225" stop="1556668817225" status="passed">
+      <name>testBeforeDispatchWhenStoreIsActive</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

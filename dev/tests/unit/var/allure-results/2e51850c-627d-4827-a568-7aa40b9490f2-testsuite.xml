@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841626" stop="1556668841641" version="1.4.0">
+  <name>Magento\Framework\Api\Test\Unit\Api\ImageProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668841626" stop="1556668841630" status="passed">
+      <name>testSaveWithNoImageData</name>
+    </test-case>
+    <test-case start="1556668841630" stop="1556668841632" status="passed">
+      <name>testSaveInputException</name>
+    </test-case>
+    <test-case start="1556668841632" stop="1556668841635" status="passed">
+      <name>testSaveWithNoPreviousData</name>
+    </test-case>
+    <test-case start="1556668841636" stop="1556668841638" status="passed">
+      <name>testSaveWithPreviousData</name>
+    </test-case>
+    <test-case start="1556668841639" stop="1556668841641" status="passed">
+      <name>testSaveWithoutFileExtension</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837729" stop="1556668837737" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Config\DeliveryTermTest</name>
+  <test-cases>
+    <test-case start="1556668837729" stop="1556668837730" status="passed">
+      <name>testMakeArrayFieldValue with data set "invalid bool"</name>
+    </test-case>
+    <test-case start="1556668837730" stop="1556668837731" status="passed">
+      <name>testMakeArrayFieldValue with data set "invalid empty string"</name>
+    </test-case>
+    <test-case start="1556668837731" stop="1556668837732" status="passed">
+      <name>testMakeArrayFieldValue with data set "valid empty array"</name>
+    </test-case>
+    <test-case start="1556668837732" stop="1556668837733" status="passed">
+      <name>testMakeArrayFieldValue with data set "valid with serialized"</name>
+    </test-case>
+    <test-case start="1556668837733" stop="1556668837734" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "invalid bool"</name>
+    </test-case>
+    <test-case start="1556668837734" stop="1556668837735" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "invalid empty string"</name>
+    </test-case>
+    <test-case start="1556668837735" stop="1556668837736" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "valid empty array"</name>
+    </test-case>
+    <test-case start="1556668837736" stop="1556668837736" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "valid delivery term"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

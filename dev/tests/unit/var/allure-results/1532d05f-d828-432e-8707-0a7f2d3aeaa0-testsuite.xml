@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668870852" stop="1556668870857" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Design\Fallback\Rule\ThemeTest</name>
+  <test-cases>
+    <test-case start="1556668870852" stop="1556668870853" status="passed">
+      <name>testGetPatternDirsException</name>
+    </test-case>
+    <test-case start="1556668870853" stop="1556668870856" status="passed">
+      <name>testGetPatternDirs</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668686345" stop="1556668686354" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\ResourceModel\AdvancedTest</name>
+  <test-cases>
+    <test-case start="1556668686345" stop="1556668686346" status="passed">
+      <name>testPrepareCondition with data set #0</name>
+    </test-case>
+    <test-case start="1556668686347" stop="1556668686348" status="passed">
+      <name>testPrepareCondition with data set #1</name>
+    </test-case>
+    <test-case start="1556668686348" stop="1556668686349" status="passed">
+      <name>testPrepareCondition with data set #2</name>
+    </test-case>
+    <test-case start="1556668686349" stop="1556668686350" status="passed">
+      <name>testPrepareCondition with data set #3</name>
+    </test-case>
+    <test-case start="1556668686351" stop="1556668686352" status="passed">
+      <name>testPrepareCondition with data set #4</name>
+    </test-case>
+    <test-case start="1556668686352" stop="1556668686353" status="passed">
+      <name>testPrepareCondition with data set #5</name>
+    </test-case>
+    <test-case start="1556668686353" stop="1556668686354" status="passed">
+      <name>testPrepareCondition with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668833441" stop="1556668833694" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Block\Item\Price\RendererTest</name>
+  <test-cases>
+    <test-case start="1556668833441" stop="1556668833447" status="passed">
+      <name>testDisplayPriceWithWeeeDetails with data set "weee_disabled_true_true"</name>
+    </test-case>
+    <test-case start="1556668833448" stop="1556668833451" status="passed">
+      <name>testDisplayPriceWithWeeeDetails with data set "weee_disabled_true_false"</name>
+    </test-case>
+    <test-case start="1556668833452" stop="1556668833455" status="passed">
+      <name>testDisplayPriceWithWeeeDetails with data set "weee_disabled_false_true"</name>
+    </test-case>
+    <test-case start="1556668833455" stop="1556668833459" status="passed">
+      <name>testDisplayPriceWithWeeeDetails with data set "weee_disabled_false_false"</name>
+    </test-case>
+    <test-case start="1556668833459" stop="1556668833463" status="passed">
+      <name>testDisplayPriceWithWeeeDetails with data set "weee_enabled_showdetail_true"</name>
+    </test-case>
+    <test-case start="1556668833463" stop="1556668833467" status="passed">
+      <name>testDisplayPriceWithWeeeDetails with data set "weee_enabled_showdetail_string_zero_false"</name>
+    </test-case>
+    <test-case start="1556668833467" stop="1556668833471" status="passed">
+      <name>testDisplayPriceWithWeeeDetails with data set "weee_enabled_showdetail_false"</name>
+    </test-case>
+    <test-case start="1556668833472" stop="1556668833475" status="passed">
+      <name>testDisplayPriceWithWeeeDetails with data set "weee_enabled_not_showing_detail_true"</name>
+    </test-case>
+    <test-case start="1556668833476" stop="1556668833479" status="passed">
+      <name>testDisplayPriceWithWeeeDetails with data set "weee_enabled_not_showing_detail_false"</name>
+    </test-case>
+    <test-case start="1556668833480" stop="1556668833484" status="passed">
+      <name>testGetUnitDisplayPriceInclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833484" stop="1556668833488" status="passed">
+      <name>testGetUnitDisplayPriceInclTax with data set "weee_disabled_false"</name>
+    </test-case>
+    <test-case start="1556668833488" stop="1556668833492" status="passed">
+      <name>testGetUnitDisplayPriceInclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833493" stop="1556668833497" status="passed">
+      <name>testGetUnitDisplayPriceInclTax with data set "weee_enabled_not_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833497" stop="1556668833501" status="passed">
+      <name>testGetBaseUnitDisplayPriceInclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833501" stop="1556668833505" status="passed">
+      <name>testGetBaseUnitDisplayPriceInclTax with data set "weee_disabled_false"</name>
+    </test-case>
+    <test-case start="1556668833505" stop="1556668833509" status="passed">
+      <name>testGetBaseUnitDisplayPriceInclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833510" stop="1556668833514" status="passed">
+      <name>testGetBaseUnitDisplayPriceInclTax with data set "weee_enabled_not_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833515" stop="1556668833518" status="passed">
+      <name>testGetUnitDisplayPriceExclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833519" stop="1556668833523" status="passed">
+      <name>testGetUnitDisplayPriceExclTax with data set "weee_disabled_false"</name>
+    </test-case>
+    <test-case start="1556668833524" stop="1556668833527" status="passed">
+      <name>testGetUnitDisplayPriceExclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833528" stop="1556668833532" status="passed">
+      <name>testGetUnitDisplayPriceExclTax with data set "weee_enabled_not_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833532" stop="1556668833536" status="passed">
+      <name>testGetBaseUnitDisplayPriceExclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833537" stop="1556668833541" status="passed">
+      <name>testGetBaseUnitDisplayPriceExclTax with data set "weee_disabled_false"</name>
+    </test-case>
+    <test-case start="1556668833542" stop="1556668833546" status="passed">
+      <name>testGetBaseUnitDisplayPriceExclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833547" stop="1556668833551" status="passed">
+      <name>testGetBaseUnitDisplayPriceExclTax with data set "weee_enabled_not_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833551" stop="1556668833555" status="passed">
+      <name>testGetRowDisplayPriceExclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833555" stop="1556668833559" status="passed">
+      <name>testGetRowDisplayPriceExclTax with data set "weee_disabled_false"</name>
+    </test-case>
+    <test-case start="1556668833559" stop="1556668833563" status="passed">
+      <name>testGetRowDisplayPriceExclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833563" stop="1556668833567" status="passed">
+      <name>testGetRowDisplayPriceExclTax with data set "weee_enabled_not_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833568" stop="1556668833571" status="passed">
+      <name>testGetBaseRowDisplayPriceExclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833572" stop="1556668833575" status="passed">
+      <name>testGetBaseRowDisplayPriceExclTax with data set "weee_disabled_false"</name>
+    </test-case>
+    <test-case start="1556668833576" stop="1556668833580" status="passed">
+      <name>testGetBaseRowDisplayPriceExclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833580" stop="1556668833584" status="passed">
+      <name>testGetBaseRowDisplayPriceExclTax with data set "weee_enabled_not_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833585" stop="1556668833588" status="passed">
+      <name>testGetRowDisplayPriceInclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833589" stop="1556668833593" status="passed">
+      <name>testGetRowDisplayPriceInclTax with data set "weee_disabled_false"</name>
+    </test-case>
+    <test-case start="1556668833593" stop="1556668833597" status="passed">
+      <name>testGetRowDisplayPriceInclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833598" stop="1556668833602" status="passed">
+      <name>testGetRowDisplayPriceInclTax with data set "weee_enabled_not_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833603" stop="1556668833606" status="passed">
+      <name>testGetBaseRowDisplayPriceInclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833607" stop="1556668833610" status="passed">
+      <name>testGetBaseRowDisplayPriceInclTax with data set "weee_disabled_false"</name>
+    </test-case>
+    <test-case start="1556668833611" stop="1556668833615" status="passed">
+      <name>testGetBaseRowDisplayPriceInclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833616" stop="1556668833620" status="passed">
+      <name>testGetBaseRowDisplayPriceInclTax with data set "weee_enabled_not_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833620" stop="1556668833623" status="passed">
+      <name>testGetFinalUnitDisplayPriceInclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833624" stop="1556668833628" status="passed">
+      <name>testGetFinalUnitDisplayPriceInclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833628" stop="1556668833632" status="passed">
+      <name>testGetBaseFinalUnitDisplayPriceInclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833632" stop="1556668833636" status="passed">
+      <name>testGetBaseFinalUnitDisplayPriceInclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833636" stop="1556668833640" status="passed">
+      <name>testGetFinalUnitDisplayPriceExclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833640" stop="1556668833644" status="passed">
+      <name>testGetFinalUnitDisplayPriceExclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833644" stop="1556668833648" status="passed">
+      <name>testGetBaseFinalUnitDisplayPriceExclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833648" stop="1556668833652" status="passed">
+      <name>testGetBaseFinalUnitDisplayPriceExclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833653" stop="1556668833656" status="passed">
+      <name>testGetFianlRowDisplayPriceExclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833657" stop="1556668833660" status="passed">
+      <name>testGetFianlRowDisplayPriceExclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833661" stop="1556668833664" status="passed">
+      <name>testGetBaseFianlRowDisplayPriceExclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833665" stop="1556668833668" status="passed">
+      <name>testGetBaseFianlRowDisplayPriceExclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833669" stop="1556668833672" status="passed">
+      <name>testGetFinalRowDisplayPriceInclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833673" stop="1556668833676" status="passed">
+      <name>testGetFinalRowDisplayPriceInclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833677" stop="1556668833680" status="passed">
+      <name>testGetBaseFinalRowDisplayPriceInclTax with data set "weee_disabled_true"</name>
+    </test-case>
+    <test-case start="1556668833681" stop="1556668833685" status="passed">
+      <name>testGetBaseFinalRowDisplayPriceInclTax with data set "weee_enabled_include_weee"</name>
+    </test-case>
+    <test-case start="1556668833685" stop="1556668833689" status="passed">
+      <name>testGetTotalAmount</name>
+    </test-case>
+    <test-case start="1556668833689" stop="1556668833694" status="passed">
+      <name>testGetBaseTotalAmount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

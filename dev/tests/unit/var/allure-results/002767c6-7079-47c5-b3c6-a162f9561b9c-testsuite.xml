@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668736345" stop="1556668736378" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Entity\Collection\AbstractCollectionTest</name>
+  <test-cases>
+    <test-case start="1556668736345" stop="1556668736349" status="passed">
+      <name>testLoad</name>
+    </test-case>
+    <test-case start="1556668736350" stop="1556668736352" status="passed">
+      <name>testClear with data set #0</name>
+    </test-case>
+    <test-case start="1556668736352" stop="1556668736355" status="passed">
+      <name>testClear with data set #1</name>
+    </test-case>
+    <test-case start="1556668736356" stop="1556668736359" status="passed">
+      <name>testClear with data set #2</name>
+    </test-case>
+    <test-case start="1556668736359" stop="1556668736362" status="passed">
+      <name>testRemoveAllItems with data set #0</name>
+    </test-case>
+    <test-case start="1556668736362" stop="1556668736365" status="passed">
+      <name>testRemoveAllItems with data set #1</name>
+    </test-case>
+    <test-case start="1556668736365" stop="1556668736368" status="passed">
+      <name>testRemoveAllItems with data set #2</name>
+    </test-case>
+    <test-case start="1556668736368" stop="1556668736371" status="passed">
+      <name>testRemoveItemByKey with data set #0</name>
+    </test-case>
+    <test-case start="1556668736371" stop="1556668736374" status="passed">
+      <name>testRemoveItemByKey with data set #1</name>
+    </test-case>
+    <test-case start="1556668736375" stop="1556668736377" status="passed">
+      <name>testRemoveItemByKey with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

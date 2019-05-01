@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845905" stop="1556668845913" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\View\Asset\PublisherTest</name>
+  <test-cases>
+    <test-case start="1556668845905" stop="1556668845908" status="passed">
+      <name>testPublishExistsBefore</name>
+    </test-case>
+    <test-case start="1556668845908" stop="1556668845913" status="passed">
+      <name>testPublish</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

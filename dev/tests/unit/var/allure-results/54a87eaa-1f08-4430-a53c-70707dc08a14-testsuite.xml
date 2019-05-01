@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668807959" stop="1556668807984" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Payment\RepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668807959" stop="1556668807974" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668807974" stop="1556668807976" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668807976" stop="1556668807977" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668807977" stop="1556668807979" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668807979" stop="1556668807980" status="passed">
+      <name>testGetException</name>
+    </test-case>
+    <test-case start="1556668807980" stop="1556668807982" status="passed">
+      <name>testGetNoSuchEntity</name>
+    </test-case>
+    <test-case start="1556668807982" stop="1556668807984" status="passed">
+      <name>testGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

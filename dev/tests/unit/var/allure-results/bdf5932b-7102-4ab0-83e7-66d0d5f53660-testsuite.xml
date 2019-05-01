@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668669118" stop="1556668669135" version="1.4.0">
+  <name>Magento\Authorizenet\Test\Unit\Model\Directpost\RequestTest</name>
+  <test-cases>
+    <test-case start="1556668669119" stop="1556668669134" status="passed">
+      <name>testSignRequestData with data set #0</name>
+    </test-case>
+    <test-case start="1556668669134" stop="1556668669135" status="passed">
+      <name>testSignRequestData with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

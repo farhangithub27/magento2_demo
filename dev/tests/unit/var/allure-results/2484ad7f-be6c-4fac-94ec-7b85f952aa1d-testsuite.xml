@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668823750" stop="1556668823785" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Controller\Adminhtml\System\Design\Theme\DeleteTest</name>
+  <test-cases>
+    <test-case start="1556668823751" stop="1556668823762" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668823762" stop="1556668823770" status="passed">
+      <name>testExecuteInvalidArgument with data set "themeId"</name>
+    </test-case>
+    <test-case start="1556668823771" stop="1556668823779" status="passed">
+      <name>testExecuteInvalidArgument with data set "isVirtual"</name>
+    </test-case>
+    <test-case start="1556668823779" stop="1556668823785" status="passed">
+      <name>testExecuteLocalizedException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832483" stop="1556668832489" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Controller\Rest\RouterTest</name>
+  <test-cases>
+    <test-case start="1556668832483" stop="1556668832487" status="passed">
+      <name>testMatch</name>
+    </test-case>
+    <test-case start="1556668832487" stop="1556668832489" status="passed">
+      <name>testNotMatch</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

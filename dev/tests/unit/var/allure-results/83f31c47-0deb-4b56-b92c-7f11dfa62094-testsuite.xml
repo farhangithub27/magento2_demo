@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790244" stop="1556668790251" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Observer\RemovePersistentCookieOnRegisterObserverTest</name>
+  <test-cases>
+    <test-case start="1556668790244" stop="1556668790246" status="passed">
+      <name>testExecuteWithPersistentDataThatCanNotBeProcess</name>
+    </test-case>
+    <test-case start="1556668790246" stop="1556668790247" status="passed">
+      <name>testExecuteWhenSessionIsNotPersistent</name>
+    </test-case>
+    <test-case start="1556668790247" stop="1556668790249" status="passed">
+      <name>testExecuteWithNotLoggedInCustomer</name>
+    </test-case>
+    <test-case start="1556668790249" stop="1556668790251" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

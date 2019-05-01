@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668835224" stop="1556668835231" version="1.4.0">
+  <name>Magento\Widget\Test\Unit\Model\NamespaceResolverTest</name>
+  <test-cases>
+    <test-case start="1556668835225" stop="1556668835226" status="passed">
+      <name>testDetermineOmittedNamespace with data set #0</name>
+    </test-case>
+    <test-case start="1556668835226" stop="1556668835227" status="passed">
+      <name>testDetermineOmittedNamespace with data set #1</name>
+    </test-case>
+    <test-case start="1556668835227" stop="1556668835228" status="passed">
+      <name>testDetermineOmittedNamespace with data set #2</name>
+    </test-case>
+    <test-case start="1556668835228" stop="1556668835229" status="passed">
+      <name>testDetermineOmittedNamespace with data set #3</name>
+    </test-case>
+    <test-case start="1556668835229" stop="1556668835230" status="passed">
+      <name>testDetermineOmittedNamespace with data set #4</name>
+    </test-case>
+    <test-case start="1556668835230" stop="1556668835231" status="passed">
+      <name>testDetermineOmittedNamespace with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

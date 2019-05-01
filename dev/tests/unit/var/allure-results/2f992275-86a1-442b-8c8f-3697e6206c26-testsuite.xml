@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668788800" stop="1556668788830" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\PayflowExpressTest</name>
+  <test-cases>
+    <test-case start="1556668788800" stop="1556668788815" status="passed">
+      <name>testCanRefundCaptureNotExist</name>
+    </test-case>
+    <test-case start="1556668788815" stop="1556668788819" status="passed">
+      <name>testCanRefundCaptureExistNoAdditionalInfo</name>
+    </test-case>
+    <test-case start="1556668788819" stop="1556668788823" status="passed">
+      <name>testCanRefundCaptureExistValid</name>
+    </test-case>
+    <test-case start="1556668788823" stop="1556668788826" status="passed">
+      <name>testCanFetchTransactionInfo</name>
+    </test-case>
+    <test-case start="1556668788827" stop="1556668788830" status="passed">
+      <name>testCanReviewPayment</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

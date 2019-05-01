@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668738766" stop="1556668738774" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Observer\CategoryProductIndexerTest</name>
+  <test-cases>
+    <test-case start="1556668738766" stop="1556668738770" status="passed">
+      <name>testExecuteIfCategoryHasChangedProducts</name>
+    </test-case>
+    <test-case start="1556668738771" stop="1556668738772" status="passed">
+      <name>testExecuteIfCategoryHasChangedProductsAndNotScheduledIndexer</name>
+    </test-case>
+    <test-case start="1556668738772" stop="1556668738773" status="passed">
+      <name>testExecuteIfCategoryHasNoneChangedProducts</name>
+    </test-case>
+    <test-case start="1556668738773" stop="1556668738774" status="passed">
+      <name>testExecuteIfElasticSearchIsDisabled</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

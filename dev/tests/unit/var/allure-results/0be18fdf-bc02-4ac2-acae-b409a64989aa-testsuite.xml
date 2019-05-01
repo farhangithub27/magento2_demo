@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668711086" stop="1556668711182" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Block\System\Config\Form\FieldsetTest</name>
+  <test-cases>
+    <test-case start="1556668711087" stop="1556668711108" status="passed">
+      <name>testRenderWithoutStoredElements with data set "expandedNestedExtra"</name>
+    </test-case>
+    <test-case start="1556668711109" stop="1556668711123" status="passed">
+      <name>testRenderWithoutStoredElements with data set "collapsedNotNestedExtra"</name>
+    </test-case>
+    <test-case start="1556668711123" stop="1556668711135" status="passed">
+      <name>testRenderWithoutStoredElements with data set "collapsedNotNestedNoExtra"</name>
+    </test-case>
+    <test-case start="1556668711135" stop="1556668711151" status="passed">
+      <name>testRenderWithStoredElements with data set "expandedNestedExtra"</name>
+    </test-case>
+    <test-case start="1556668711151" stop="1556668711167" status="passed">
+      <name>testRenderWithStoredElements with data set "collapsedNotNestedExtra"</name>
+    </test-case>
+    <test-case start="1556668711168" stop="1556668711182" status="passed">
+      <name>testRenderWithStoredElements with data set "collapsedNotNestedNoExtra"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668742750" stop="1556668742766" version="1.4.0">
+  <name>Magento\GroupedProduct\Test\Unit\Model\Product\Initialization\Helper\ProductLinks\Plugin\GroupedTest</name>
+  <test-cases>
+    <test-case start="1556668742750" stop="1556668742753" status="passed">
+      <name>testBeforeInitializeLinksRequestDoesNotHaveGrouped with data set #0</name>
+    </test-case>
+    <test-case start="1556668742753" stop="1556668742754" status="passed">
+      <name>testBeforeInitializeLinksRequestDoesNotHaveGrouped with data set #1</name>
+    </test-case>
+    <test-case start="1556668742754" stop="1556668742755" status="passed">
+      <name>testBeforeInitializeLinksRequestDoesNotHaveGrouped with data set #2</name>
+    </test-case>
+    <test-case start="1556668742756" stop="1556668742764" status="passed">
+      <name>testBeforeInitializeLinksRequestHasGrouped with data set #0</name>
+    </test-case>
+    <test-case start="1556668742765" stop="1556668742766" status="passed">
+      <name>testBeforeInitializeLinksProductIsReadonly</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

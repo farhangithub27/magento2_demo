@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864726" stop="1556668864766" version="1.4.0">
+  <name>Magento\Framework\Translate\Test\Unit\InlineTest</name>
+  <test-cases>
+    <test-case start="1556668864727" stop="1556668864730" status="passed">
+      <name>testIsAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668864730" stop="1556668864732" status="passed">
+      <name>testIsAllowed with data set #1</name>
+    </test-case>
+    <test-case start="1556668864732" stop="1556668864734" status="passed">
+      <name>testIsAllowed with data set #2</name>
+    </test-case>
+    <test-case start="1556668864734" stop="1556668864735" status="passed">
+      <name>testIsAllowed with data set #3</name>
+    </test-case>
+    <test-case start="1556668864736" stop="1556668864737" status="passed">
+      <name>testIsAllowed with data set #4</name>
+    </test-case>
+    <test-case start="1556668864738" stop="1556668864739" status="passed">
+      <name>testIsAllowed with data set #5</name>
+    </test-case>
+    <test-case start="1556668864740" stop="1556668864741" status="passed">
+      <name>testIsAllowed with data set #6</name>
+    </test-case>
+    <test-case start="1556668864741" stop="1556668864743" status="passed">
+      <name>testIsAllowed with data set #7</name>
+    </test-case>
+    <test-case start="1556668864743" stop="1556668864744" status="passed">
+      <name>testGetParser</name>
+    </test-case>
+    <test-case start="1556668864744" stop="1556668864745" status="passed">
+      <name>testProcessResponseBodyStripInline with data set #0</name>
+    </test-case>
+    <test-case start="1556668864746" stop="1556668864747" status="passed">
+      <name>testProcessResponseBodyStripInline with data set #1</name>
+    </test-case>
+    <test-case start="1556668864748" stop="1556668864749" status="passed">
+      <name>testProcessResponseBodyStripInline with data set #2</name>
+    </test-case>
+    <test-case start="1556668864749" stop="1556668864751" status="passed">
+      <name>testProcessResponseBodyStripInline with data set #3</name>
+    </test-case>
+    <test-case start="1556668864751" stop="1556668864752" status="passed">
+      <name>testProcessResponseBodyStripInline with data set #4</name>
+    </test-case>
+    <test-case start="1556668864753" stop="1556668864754" status="passed">
+      <name>testProcessResponseBodyStripInline with data set #5</name>
+    </test-case>
+    <test-case start="1556668864755" stop="1556668864757" status="passed">
+      <name>testProcessResponseBody with data set #0</name>
+    </test-case>
+    <test-case start="1556668864758" stop="1556668864760" status="passed">
+      <name>testProcessResponseBody with data set #1</name>
+    </test-case>
+    <test-case start="1556668864761" stop="1556668864763" status="passed">
+      <name>testProcessResponseBodyGetInlineScript with data set #0</name>
+    </test-case>
+    <test-case start="1556668864764" stop="1556668864766" status="passed">
+      <name>testProcessResponseBodyGetInlineScript with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

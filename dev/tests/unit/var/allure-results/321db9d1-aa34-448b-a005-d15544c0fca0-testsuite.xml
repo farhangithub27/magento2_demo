@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668679675" stop="1556668679679" version="1.4.0">
+  <name>Magento\CatalogImportExport\Test\Unit\Model\Import\Product\SkuProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668679676" stop="1556668679677" status="passed">
+      <name>testReloadOldSkus</name>
+    </test-case>
+    <test-case start="1556668679678" stop="1556668679678" status="passed">
+      <name>testGetOldSkusIfNotSet</name>
+    </test-case>
+    <test-case start="1556668679679" stop="1556668679679" status="passed">
+      <name>testGetOldSkusIfSet</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

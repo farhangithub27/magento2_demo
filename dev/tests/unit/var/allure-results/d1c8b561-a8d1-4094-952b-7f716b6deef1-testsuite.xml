@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668735137" stop="1556668735193" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Attribute\GroupRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668735137" stop="1556668735149" status="passed">
+      <name>testSaveIfObjectNew</name>
+    </test-case>
+    <test-case start="1556668735149" stop="1556668735152" status="passed">
+      <name>testSaveIfObjectNotNew</name>
+    </test-case>
+    <test-case start="1556668735152" stop="1556668735154" status="passed">
+      <name>testSaveThrowExceptionIfAttributeSetDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668735154" stop="1556668735157" status="passed">
+      <name>testSaveThrowExceptionIfCannotSaveGroup</name>
+    </test-case>
+    <test-case start="1556668735158" stop="1556668735160" status="passed">
+      <name>testSaveThrowExceptionIfGroupDoesNotBelongToProvidedSet</name>
+    </test-case>
+    <test-case start="1556668735160" stop="1556668735163" status="passed">
+      <name>testSaveThrowExceptionIfProvidedGroupDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668735163" stop="1556668735175" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668735175" stop="1556668735176" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668735177" stop="1556668735178" status="passed">
+      <name>testGetThrowExceptionIfProvidedGroupDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668735179" stop="1556668735180" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668735180" stop="1556668735182" status="passed">
+      <name>testDeleteThrowExceptionIfProvidedGroupDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668735182" stop="1556668735193" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

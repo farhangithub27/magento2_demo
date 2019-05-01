@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668742343" stop="1556668742360" version="1.4.0">
+  <name>Magento\GroupedProduct\Test\Unit\Block\Adminhtml\Order\Create\SidebarTest</name>
+  <test-cases>
+    <test-case start="1556668742343" stop="1556668742357" status="passed">
+      <name>testAroundGetItemQtyWhenProductGrouped</name>
+    </test-case>
+    <test-case start="1556668742357" stop="1556668742358" status="passed">
+      <name>testAroundGetItemQtyWhenProductNotGrouped</name>
+    </test-case>
+    <test-case start="1556668742358" stop="1556668742359" status="passed">
+      <name>testAroundIsConfigurationRequiredWhenProductGrouped</name>
+    </test-case>
+    <test-case start="1556668742359" stop="1556668742360" status="passed">
+      <name>testAroundIsConfigurationRequiredWhenProductNotGrouped</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

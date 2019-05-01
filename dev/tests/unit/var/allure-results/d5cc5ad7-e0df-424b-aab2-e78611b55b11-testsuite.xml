@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668870400" stop="1556668870415" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Asset\PreProcessor\MinifyTest</name>
+  <test-cases>
+    <test-case start="1556668870400" stop="1556668870403" status="passed">
+      <name>testProcess with data set #0</name>
+    </test-case>
+    <test-case start="1556668870403" stop="1556668870405" status="passed">
+      <name>testProcess with data set #1</name>
+    </test-case>
+    <test-case start="1556668870406" stop="1556668870407" status="passed">
+      <name>testProcess with data set #2</name>
+    </test-case>
+    <test-case start="1556668870407" stop="1556668870409" status="passed">
+      <name>testProcess with data set #3</name>
+    </test-case>
+    <test-case start="1556668870409" stop="1556668870411" status="passed">
+      <name>testProcess with data set #4</name>
+    </test-case>
+    <test-case start="1556668870411" stop="1556668870413" status="passed">
+      <name>testProcess with data set #5</name>
+    </test-case>
+    <test-case start="1556668870413" stop="1556668870414" status="passed">
+      <name>testProcess with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

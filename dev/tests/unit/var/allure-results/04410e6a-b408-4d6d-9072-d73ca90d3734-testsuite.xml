@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668795821" stop="1556668795830" version="1.4.0">
+  <name>Magento\Reports\Test\Unit\Observer\CatalogProductViewObserverTest</name>
+  <test-cases>
+    <test-case start="1556668795822" stop="1556668795826" status="passed">
+      <name>testCatalogProductViewCustomer</name>
+    </test-case>
+    <test-case start="1556668795826" stop="1556668795829" status="passed">
+      <name>testCatalogProductViewVisitor</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

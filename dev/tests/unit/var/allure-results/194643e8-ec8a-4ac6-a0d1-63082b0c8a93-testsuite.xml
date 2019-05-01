@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668705367" stop="1556668705369" version="1.4.0">
+  <name>Magento\CheckoutAgreements\Test\Unit\Model\AgreementModeOptionsTest</name>
+  <test-cases>
+    <test-case start="1556668705368" stop="1556668705369" status="passed">
+      <name>testGetOptionsArray</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

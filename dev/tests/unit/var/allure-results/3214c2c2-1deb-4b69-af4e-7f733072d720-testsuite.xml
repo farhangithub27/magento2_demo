@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668804177" stop="1556668804203" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\AddressRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668804178" stop="1556668804180" status="passed">
+      <name>testGet with data set #0</name>
+    </test-case>
+    <test-case start="1556668804180" stop="1556668804182" status="passed">
+      <name>testGet with data set #1</name>
+    </test-case>
+    <test-case start="1556668804183" stop="1556668804184" status="passed">
+      <name>testGet with data set #2</name>
+    </test-case>
+    <test-case start="1556668804184" stop="1556668804195" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668804195" stop="1556668804197" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668804197" stop="1556668804198" status="passed">
+      <name>testDeleteWithException</name>
+    </test-case>
+    <test-case start="1556668804199" stop="1556668804200" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668804200" stop="1556668804202" status="passed">
+      <name>testSaveWithException</name>
+    </test-case>
+    <test-case start="1556668804202" stop="1556668804203" status="passed">
+      <name>testCreate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

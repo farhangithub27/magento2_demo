@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668851855" stop="1556668851864" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\GraphTest</name>
+  <test-cases>
+    <test-case start="1556668851856" stop="1556668851857" status="passed">
+      <name>testConstructorError with data set "duplicate nodes"</name>
+    </test-case>
+    <test-case start="1556668851857" stop="1556668851858" status="passed">
+      <name>testConstructorError with data set "self-link"</name>
+    </test-case>
+    <test-case start="1556668851858" stop="1556668851858" status="passed">
+      <name>testConstructorError with data set "broken reference "from""</name>
+    </test-case>
+    <test-case start="1556668851859" stop="1556668851859" status="passed">
+      <name>testConstructorError with data set "broken reference "to""</name>
+    </test-case>
+    <test-case start="1556668851860" stop="1556668851860" status="passed">
+      <name>testAddRelation</name>
+    </test-case>
+    <test-case start="1556668851860" stop="1556668851861" status="passed">
+      <name>testGetRelations</name>
+    </test-case>
+    <test-case start="1556668851861" stop="1556668851862" status="passed">
+      <name>testFindCycle</name>
+    </test-case>
+    <test-case start="1556668851862" stop="1556668851863" status="passed">
+      <name>testDfs</name>
+    </test-case>
+    <test-case start="1556668851863" stop="1556668851863" status="passed">
+      <name>testFindPathsToReachableNodes</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

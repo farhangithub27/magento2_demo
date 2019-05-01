@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668718164" stop="1556668718234" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Account\Dashboard\InfoTest</name>
+  <test-cases>
+    <test-case start="1556668718164" stop="1556668718191" status="passed">
+      <name>testGetCustomer</name>
+    </test-case>
+    <test-case start="1556668718191" stop="1556668718196" status="passed">
+      <name>testGetCustomerException</name>
+    </test-case>
+    <test-case start="1556668718197" stop="1556668718202" status="passed">
+      <name>testGetName</name>
+    </test-case>
+    <test-case start="1556668718202" stop="1556668718207" status="passed">
+      <name>testGetChangePasswordUrl</name>
+    </test-case>
+    <test-case start="1556668718207" stop="1556668718212" status="passed">
+      <name>testGetSubscriptionObject</name>
+    </test-case>
+    <test-case start="1556668718212" stop="1556668718217" status="passed">
+      <name>testGetIsSubscribed with data set #0</name>
+    </test-case>
+    <test-case start="1556668718218" stop="1556668718223" status="passed">
+      <name>testGetIsSubscribed with data set #1</name>
+    </test-case>
+    <test-case start="1556668718223" stop="1556668718229" status="passed">
+      <name>testIsNewsletterEnabled with data set #0</name>
+    </test-case>
+    <test-case start="1556668718229" stop="1556668718234" status="passed">
+      <name>testIsNewsletterEnabled with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

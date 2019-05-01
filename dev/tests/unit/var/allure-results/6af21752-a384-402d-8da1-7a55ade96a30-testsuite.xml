@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816015" stop="1556668816029" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\Guarantee\CancelGuaranteeAbilityTest</name>
+  <test-cases>
+    <test-case start="1556668816015" stop="1556668816025" status="passed">
+      <name>testIsAvailableSuccess</name>
+    </test-case>
+    <test-case start="1556668816026" stop="1556668816026" status="passed">
+      <name>testIsAvailableWithNullCase</name>
+    </test-case>
+    <test-case start="1556668816026" stop="1556668816027" status="passed">
+      <name>testIsAvailableWithCanceledGuarantee</name>
+    </test-case>
+    <test-case start="1556668816027" stop="1556668816028" status="passed">
+      <name>testIsAvailableWithNullOrder</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

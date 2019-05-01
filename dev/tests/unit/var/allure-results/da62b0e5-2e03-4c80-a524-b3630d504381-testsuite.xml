@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668681890" stop="1556668681929" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Model\Indexer\Stock\CacheCleanerTest</name>
+  <test-cases>
+    <test-case start="1556668681890" stop="1556668681899" status="passed">
+      <name>testClean with data set #0</name>
+    </test-case>
+    <test-case start="1556668681899" stop="1556668681904" status="passed">
+      <name>testClean with data set #1</name>
+    </test-case>
+    <test-case start="1556668681905" stop="1556668681909" status="passed">
+      <name>testClean with data set #2</name>
+    </test-case>
+    <test-case start="1556668681910" stop="1556668681914" status="passed">
+      <name>testClean with data set #3</name>
+    </test-case>
+    <test-case start="1556668681915" stop="1556668681919" status="passed">
+      <name>testNotCleanCache with data set #0</name>
+    </test-case>
+    <test-case start="1556668681920" stop="1556668681924" status="passed">
+      <name>testNotCleanCache with data set #1</name>
+    </test-case>
+    <test-case start="1556668681925" stop="1556668681929" status="passed">
+      <name>testNotCleanCache with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

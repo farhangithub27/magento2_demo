@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668738473" stop="1556668738485" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\Adapter\Index\IndexNameResolverTest</name>
+  <test-cases>
+    <test-case start="1556668738473" stop="1556668738476" status="passed">
+      <name>testGetIndexNameForAlias</name>
+    </test-case>
+    <test-case start="1556668738476" stop="1556668738477" status="passed">
+      <name>testGetIndexNameWithPreparedIndex</name>
+    </test-case>
+    <test-case start="1556668738477" stop="1556668738478" status="passed">
+      <name>testGetIndexNameWithoutPreparedIndexWithIndexName</name>
+    </test-case>
+    <test-case start="1556668738478" stop="1556668738480" status="passed">
+      <name>testGetIndexPattern</name>
+    </test-case>
+    <test-case start="1556668738480" stop="1556668738481" status="passed">
+      <name>testUpdateAliasWithOldIndex</name>
+    </test-case>
+    <test-case start="1556668738482" stop="1556668738483" status="passed">
+      <name>testConnectException</name>
+    </test-case>
+    <test-case start="1556668738483" stop="1556668738484" status="passed">
+      <name>testGetIndexNameCatalogSearchFullText</name>
+    </test-case>
+    <test-case start="1556668738484" stop="1556668738485" status="passed">
+      <name>testGetIndexName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668852611" stop="1556668852627" version="1.4.0">
+  <name>Magento\Framework\EntityManager\Test\Unit\Db\UpdateRowTest</name>
+  <test-cases>
+    <test-case start="1556668852612" stop="1556668852617" status="passed">
+      <name>testExecute with data set "default"</name>
+    </test-case>
+    <test-case start="1556668852617" stop="1556668852622" status="passed">
+      <name>testExecute with data set "empty timestamp field"</name>
+    </test-case>
+    <test-case start="1556668852622" stop="1556668852627" status="passed">
+      <name>testExecute with data set "filled timestamp field"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

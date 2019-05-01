@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668660018" stop="1556668660032" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\Cron\ReadinessCheckTest</name>
+  <test-cases>
+    <test-case start="1556668660018" stop="1556668660024" status="passed">
+      <name>testRunReadinessCheckNoDbAccess</name>
+    </test-case>
+    <test-case start="1556668660025" stop="1556668660027" status="passed">
+      <name>testRunReadinessCheckNoDbWriteAccess</name>
+    </test-case>
+    <test-case start="1556668660027" stop="1556668660029" status="passed">
+      <name>testRunReadinessCheck</name>
+    </test-case>
+    <test-case start="1556668660029" stop="1556668660032" status="passed">
+      <name>testRunReadinessCheckLastTimestamp</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

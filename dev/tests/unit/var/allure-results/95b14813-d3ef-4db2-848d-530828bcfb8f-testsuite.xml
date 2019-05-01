@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668803330" stop="1556668803349" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Helper\ReorderTest</name>
+  <test-cases>
+    <test-case start="1556668803330" stop="1556668803332" status="passed">
+      <name>testIsAllowedScopeConfigReorder with data set #0</name>
+    </test-case>
+    <test-case start="1556668803332" stop="1556668803334" status="passed">
+      <name>testIsAllowedScopeConfigReorder with data set #1</name>
+    </test-case>
+    <test-case start="1556668803335" stop="1556668803336" status="passed">
+      <name>testIsAllowScopeConfigReorderNotAllowWithStore with data set #0</name>
+    </test-case>
+    <test-case start="1556668803337" stop="1556668803339" status="passed">
+      <name>testIsAllowScopeConfigReorderNotAllowWithStore with data set #1</name>
+    </test-case>
+    <test-case start="1556668803339" stop="1556668803341" status="passed">
+      <name>testCanReorderStoreNotAllowed</name>
+    </test-case>
+    <test-case start="1556668803341" stop="1556668803343" status="passed">
+      <name>testCanReorderCustomerNotLoggedIn</name>
+    </test-case>
+    <test-case start="1556668803344" stop="1556668803346" status="passed">
+      <name>testCanReorderCustomerLoggedInAndOrderCanReorder with data set #0</name>
+    </test-case>
+    <test-case start="1556668803346" stop="1556668803348" status="passed">
+      <name>testCanReorderCustomerLoggedInAndOrderCanReorder with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

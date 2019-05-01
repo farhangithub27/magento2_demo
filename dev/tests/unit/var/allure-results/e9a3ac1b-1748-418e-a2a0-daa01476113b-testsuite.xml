@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668685845" stop="1556668685851" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Indexer\IndexerHandlerFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668685846" stop="1556668685847" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668685848" stop="1556668685848" status="passed">
+      <name>testCreateWithoutHandlers</name>
+    </test-case>
+    <test-case start="1556668685849" stop="1556668685850" status="passed">
+      <name>testCreateWithWrongHandler</name>
+    </test-case>
+    <test-case start="1556668685850" stop="1556668685851" status="passed">
+      <name>testCreateWithoutAvailableHandler</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

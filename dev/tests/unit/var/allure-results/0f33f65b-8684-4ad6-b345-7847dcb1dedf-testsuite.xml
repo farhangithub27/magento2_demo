@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668857469" stop="1556668857484" version="1.4.0">
+  <name>Magento\Framework\Module\Test\Unit\ModuleList\LoaderTest</name>
+  <test-cases>
+    <test-case start="1556668857469" stop="1556668857474" status="passed">
+      <name>testLoad with data set "Ordered modules list returned by registrar"</name>
+    </test-case>
+    <test-case start="1556668857474" stop="1556668857477" status="passed">
+      <name>testLoad with data set "UnOrdered modules list returned by registrar"</name>
+    </test-case>
+    <test-case start="1556668857478" stop="1556668857479" status="passed">
+      <name>testLoadDataProvider</name>
+    </test-case>
+    <test-case start="1556668857479" stop="1556668857482" status="passed">
+      <name>testLoadExclude</name>
+    </test-case>
+    <test-case start="1556668857482" stop="1556668857484" status="passed">
+      <name>testLoadCircular</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

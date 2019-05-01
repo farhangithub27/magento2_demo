@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668874349" stop="1556668874353" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Page\Config\StructureTest</name>
+  <test-cases>
+    <test-case start="1556668874349" stop="1556668874350" status="passed">
+      <name>testSetElementAttribute</name>
+    </test-case>
+    <test-case start="1556668874350" stop="1556668874350" status="passed">
+      <name>testSetBodyClass</name>
+    </test-case>
+    <test-case start="1556668874351" stop="1556668874351" status="passed">
+      <name>testTitle</name>
+    </test-case>
+    <test-case start="1556668874351" stop="1556668874352" status="passed">
+      <name>testMetadata</name>
+    </test-case>
+    <test-case start="1556668874352" stop="1556668874352" status="passed">
+      <name>testAssets</name>
+    </test-case>
+    <test-case start="1556668874352" stop="1556668874353" status="passed">
+      <name>testProcessRemoveAssets</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

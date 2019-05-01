@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668665163" stop="1556668665168" version="1.4.0">
+  <name>Magento\AdvancedSearch\Test\Unit\Model\SuggestedQueriesTest</name>
+  <test-cases>
+    <test-case start="1556668665164" stop="1556668665165" status="passed">
+      <name>testIsResultsCountEnabled</name>
+    </test-case>
+    <test-case start="1556668665166" stop="1556668665167" status="passed">
+      <name>testIsResultsCountEnabledException</name>
+    </test-case>
+    <test-case start="1556668665167" stop="1556668665168" status="passed">
+      <name>testGetItems</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

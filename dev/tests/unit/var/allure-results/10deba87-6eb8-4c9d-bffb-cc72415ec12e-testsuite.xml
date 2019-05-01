@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668737922" stop="1556668737959" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\Adapter\FieldMapper\Product\AttributeAdapterTest</name>
+  <test-cases>
+    <test-case start="1556668737922" stop="1556668737924" status="passed">
+      <name>testIsFilterable with data set #0</name>
+    </test-case>
+    <test-case start="1556668737924" stop="1556668737925" status="passed">
+      <name>testIsFilterable with data set #1</name>
+    </test-case>
+    <test-case start="1556668737925" stop="1556668737926" status="passed">
+      <name>testIsFilterable with data set #2</name>
+    </test-case>
+    <test-case start="1556668737927" stop="1556668737928" status="passed">
+      <name>testIsSearchable with data set #0</name>
+    </test-case>
+    <test-case start="1556668737928" stop="1556668737930" status="passed">
+      <name>testIsSearchable with data set #1</name>
+    </test-case>
+    <test-case start="1556668737930" stop="1556668737931" status="passed">
+      <name>testIsSearchable with data set #2</name>
+    </test-case>
+    <test-case start="1556668737932" stop="1556668737933" status="passed">
+      <name>testIsSearchable with data set #3</name>
+    </test-case>
+    <test-case start="1556668737934" stop="1556668737934" status="passed">
+      <name>testIsSearchable with data set #4</name>
+    </test-case>
+    <test-case start="1556668737935" stop="1556668737936" status="passed">
+      <name>testIsSearchable with data set #5</name>
+    </test-case>
+    <test-case start="1556668737936" stop="1556668737937" status="passed">
+      <name>testIsAlwaysIndexable with data set #0</name>
+    </test-case>
+    <test-case start="1556668737937" stop="1556668737938" status="passed">
+      <name>testIsDateTimeType with data set #0</name>
+    </test-case>
+    <test-case start="1556668737938" stop="1556668737939" status="passed">
+      <name>testIsDateTimeType with data set #1</name>
+    </test-case>
+    <test-case start="1556668737939" stop="1556668737940" status="passed">
+      <name>testIsDateTimeType with data set #2</name>
+    </test-case>
+    <test-case start="1556668737940" stop="1556668737941" status="passed">
+      <name>testIsFloatType with data set #0</name>
+    </test-case>
+    <test-case start="1556668737941" stop="1556668737942" status="passed">
+      <name>testIsFloatType with data set #1</name>
+    </test-case>
+    <test-case start="1556668737942" stop="1556668737943" status="passed">
+      <name>testIsIntegerType with data set #0</name>
+    </test-case>
+    <test-case start="1556668737943" stop="1556668737944" status="passed">
+      <name>testIsIntegerType with data set #1</name>
+    </test-case>
+    <test-case start="1556668737944" stop="1556668737945" status="passed">
+      <name>testIsIntegerType with data set #2</name>
+    </test-case>
+    <test-case start="1556668737945" stop="1556668737946" status="passed">
+      <name>testIsBooleanType with data set #0</name>
+    </test-case>
+    <test-case start="1556668737947" stop="1556668737947" status="passed">
+      <name>testIsBooleanType with data set #1</name>
+    </test-case>
+    <test-case start="1556668737948" stop="1556668737948" status="passed">
+      <name>testIsBooleanType with data set #2</name>
+    </test-case>
+    <test-case start="1556668737949" stop="1556668737950" status="passed">
+      <name>testIsBooleanType with data set #3</name>
+    </test-case>
+    <test-case start="1556668737950" stop="1556668737951" status="passed">
+      <name>testIsBooleanType with data set #4</name>
+    </test-case>
+    <test-case start="1556668737951" stop="1556668737952" status="passed">
+      <name>testIsBooleanType with data set #5</name>
+    </test-case>
+    <test-case start="1556668737952" stop="1556668737953" status="passed">
+      <name>testIsComplexType with data set #0</name>
+    </test-case>
+    <test-case start="1556668737954" stop="1556668737954" status="passed">
+      <name>testIsComplexType with data set #1</name>
+    </test-case>
+    <test-case start="1556668737955" stop="1556668737955" status="passed">
+      <name>testIsComplexType with data set #2</name>
+    </test-case>
+    <test-case start="1556668737956" stop="1556668737957" status="passed">
+      <name>testIsComplexType with data set #3</name>
+    </test-case>
+    <test-case start="1556668737957" stop="1556668737958" status="passed">
+      <name>testIsComplexType with data set #4</name>
+    </test-case>
+    <test-case start="1556668737958" stop="1556668737959" status="passed">
+      <name>testIsEavAttribute with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

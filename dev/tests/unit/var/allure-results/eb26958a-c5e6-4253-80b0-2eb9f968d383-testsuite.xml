@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668872735" stop="1556668872740" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\File\FileList\CollatorTest</name>
+  <test-cases>
+    <test-case start="1556668872735" stop="1556668872736" status="passed">
+      <name>testCollateBaseFile</name>
+    </test-case>
+    <test-case start="1556668872736" stop="1556668872737" status="passed">
+      <name>testReplaceThemeFile</name>
+    </test-case>
+    <test-case start="1556668872737" stop="1556668872738" status="passed">
+      <name>testReplaceBaseFileException</name>
+    </test-case>
+    <test-case start="1556668872738" stop="1556668872739" status="passed">
+      <name>testReplaceBaseFileEmptyThemePathException</name>
+    </test-case>
+    <test-case start="1556668872739" stop="1556668872740" status="passed">
+      <name>testReplaceThemeFileException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

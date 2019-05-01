@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860293" stop="1556668860302" version="1.4.0">
+  <name>Magento\Framework\Reflection\Test\Unit\NameFinderTest</name>
+  <test-cases>
+    <test-case start="1556668860293" stop="1556668860294" status="passed">
+      <name>testGetSetterMethodName</name>
+    </test-case>
+    <test-case start="1556668860294" stop="1556668860295" status="passed">
+      <name>testGetSetterMethodNameInvalidAttribute</name>
+    </test-case>
+    <test-case start="1556668860295" stop="1556668860296" status="passed">
+      <name>testGetSetterMethodNameWrongCamelCasedAttribute</name>
+    </test-case>
+    <test-case start="1556668860296" stop="1556668860302" status="passed">
+      <name>testFindAccessorMethodName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668713019" stop="1556668713037" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Structure\ElementVisibility\ConcealInProductionTest</name>
+  <test-cases>
+    <test-case start="1556668713019" stop="1556668713020" status="passed">
+      <name>testCheckVisibility with data set #0</name>
+    </test-case>
+    <test-case start="1556668713021" stop="1556668713021" status="passed">
+      <name>testCheckVisibility with data set #1</name>
+    </test-case>
+    <test-case start="1556668713022" stop="1556668713022" status="passed">
+      <name>testCheckVisibility with data set #2</name>
+    </test-case>
+    <test-case start="1556668713023" stop="1556668713023" status="passed">
+      <name>testCheckVisibility with data set #3</name>
+    </test-case>
+    <test-case start="1556668713024" stop="1556668713024" status="passed">
+      <name>testCheckVisibility with data set #4</name>
+    </test-case>
+    <test-case start="1556668713025" stop="1556668713025" status="passed">
+      <name>testCheckVisibility with data set #5</name>
+    </test-case>
+    <test-case start="1556668713026" stop="1556668713026" status="passed">
+      <name>testCheckVisibility with data set #6</name>
+    </test-case>
+    <test-case start="1556668713027" stop="1556668713027" status="passed">
+      <name>testCheckVisibility with data set #7</name>
+    </test-case>
+    <test-case start="1556668713028" stop="1556668713028" status="passed">
+      <name>testCheckVisibility with data set #8</name>
+    </test-case>
+    <test-case start="1556668713029" stop="1556668713029" status="passed">
+      <name>testCheckVisibility with data set #9</name>
+    </test-case>
+    <test-case start="1556668713030" stop="1556668713030" status="passed">
+      <name>testCheckVisibility with data set #10</name>
+    </test-case>
+    <test-case start="1556668713031" stop="1556668713031" status="passed">
+      <name>testCheckVisibility with data set #11</name>
+    </test-case>
+    <test-case start="1556668713032" stop="1556668713032" status="passed">
+      <name>testCheckVisibility with data set #12</name>
+    </test-case>
+    <test-case start="1556668713033" stop="1556668713033" status="passed">
+      <name>testCheckVisibility with data set #13</name>
+    </test-case>
+    <test-case start="1556668713034" stop="1556668713034" status="passed">
+      <name>testCheckVisibility with data set #14</name>
+    </test-case>
+    <test-case start="1556668713035" stop="1556668713035" status="passed">
+      <name>testCheckVisibility with data set #15</name>
+    </test-case>
+    <test-case start="1556668713036" stop="1556668713036" status="passed">
+      <name>testCheckVisibility with data set #16</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668671337" stop="1556668671363" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Controller\Adminhtml\Cache\MassEnableTest</name>
+  <test-cases>
+    <test-case start="1556668671337" stop="1556668671343" status="passed">
+      <name>testExecuteInProductionMode</name>
+    </test-case>
+    <test-case start="1556668671344" stop="1556668671349" status="passed">
+      <name>testExecuteInvalidTypeCache</name>
+    </test-case>
+    <test-case start="1556668671350" stop="1556668671356" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+    <test-case start="1556668671356" stop="1556668671362" status="passed">
+      <name>testExecuteSuccess</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

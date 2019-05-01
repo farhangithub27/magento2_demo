@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841247" stop="1556668841255" version="1.4.0">
+  <name>Magento\Framework\Test\Unit\ValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668841248" stop="1556668841249" status="passed">
+      <name>testIsValid with data set #0</name>
+    </test-case>
+    <test-case start="1556668841250" stop="1556668841251" status="passed">
+      <name>testIsValid with data set #1</name>
+    </test-case>
+    <test-case start="1556668841252" stop="1556668841253" status="passed">
+      <name>testIsValid with data set #2</name>
+    </test-case>
+    <test-case start="1556668841253" stop="1556668841254" status="passed">
+      <name>testAddValidator</name>
+    </test-case>
+    <test-case start="1556668841254" stop="1556668841255" status="passed">
+      <name>testSetTranslator</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

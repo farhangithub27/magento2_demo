@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668812159" stop="1556668812196" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\ShipOrderTest</name>
+  <test-cases>
+    <test-case start="1556668812160" stop="1556668812173" status="passed">
+      <name>testExecute with data set "TestWithNotifyTrue"</name>
+    </test-case>
+    <test-case start="1556668812173" stop="1556668812182" status="passed">
+      <name>testExecute with data set "TestWithNotifyFalse"</name>
+    </test-case>
+    <test-case start="1556668812182" stop="1556668812189" status="passed">
+      <name>testDocumentValidationException</name>
+    </test-case>
+    <test-case start="1556668812189" stop="1556668812196" status="passed">
+      <name>testCouldNotShipException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

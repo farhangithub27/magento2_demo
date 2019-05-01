@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668809898" stop="1556668809911" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\ShipmentTest</name>
+  <test-cases>
+    <test-case start="1556668809898" stop="1556668809904" status="passed">
+      <name>testGetIncrementId</name>
+    </test-case>
+    <test-case start="1556668809905" stop="1556668809908" status="passed">
+      <name>testGetCommentsCollection</name>
+    </test-case>
+    <test-case start="1556668809908" stop="1556668809911" status="passed">
+      <name>testGetComments</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

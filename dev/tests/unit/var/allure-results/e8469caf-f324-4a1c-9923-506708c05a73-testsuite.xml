@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668806677" stop="1556668806765" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Invoice\ItemTest</name>
+  <test-cases>
+    <test-case start="1556668806677" stop="1556668806684" status="passed">
+      <name>testGetOrderItemFromOrder</name>
+    </test-case>
+    <test-case start="1556668806684" stop="1556668806687" status="passed">
+      <name>testGetOrderItemFromFactory</name>
+    </test-case>
+    <test-case start="1556668806687" stop="1556668806690" status="passed">
+      <name>testSetQty</name>
+    </test-case>
+    <test-case start="1556668806690" stop="1556668806724" status="passed">
+      <name>testRegister</name>
+    </test-case>
+    <test-case start="1556668806724" stop="1556668806757" status="passed">
+      <name>testCancel</name>
+    </test-case>
+    <test-case start="1556668806757" stop="1556668806764" status="passed">
+      <name>testCalcRowTotal</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

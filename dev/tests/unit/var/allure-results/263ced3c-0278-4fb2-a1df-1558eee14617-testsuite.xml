@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668823626" stop="1556668823643" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Controller\Adminhtml\Design\Config\EditTest</name>
+  <test-cases>
+    <test-case start="1556668823626" stop="1556668823633" status="passed">
+      <name>testScope</name>
+    </test-case>
+    <test-case start="1556668823633" stop="1556668823639" status="passed">
+      <name>testScopeDefault</name>
+    </test-case>
+    <test-case start="1556668823639" stop="1556668823643" status="passed">
+      <name>testScopeRedirect</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

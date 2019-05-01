@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668668614" stop="1556668668617" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Gateway\Response\TransactionIdHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668668614" stop="1556668668616" status="passed">
+      <name>testHandleDefaultResponse</name>
+    </test-case>
+    <test-case start="1556668668616" stop="1556668668617" status="passed">
+      <name>testHandleDifferenceInTransactionId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

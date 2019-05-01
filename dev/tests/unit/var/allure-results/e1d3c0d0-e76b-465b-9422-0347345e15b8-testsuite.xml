@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668727157" stop="1556668727158" version="1.4.0">
+  <name>Magento\Deploy\Test\Unit\Console\CommandListTest</name>
+  <test-cases>
+    <test-case start="1556668727157" stop="1556668727158" status="passed">
+      <name>testGetCommands</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

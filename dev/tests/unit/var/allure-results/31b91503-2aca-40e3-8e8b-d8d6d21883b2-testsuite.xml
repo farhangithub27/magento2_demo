@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668836629" stop="1556668836665" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Model\ItemCarrierTest</name>
+  <test-cases>
+    <test-case start="1556668836630" stop="1556668836641" status="passed">
+      <name>testMoveAllToCart</name>
+    </test-case>
+    <test-case start="1556668836641" stop="1556668836654" status="passed">
+      <name>testMoveAllToCartWithNotSalableAndOptions</name>
+    </test-case>
+    <test-case start="1556668836654" stop="1556668836665" status="passed">
+      <name>testMoveAllToCartWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

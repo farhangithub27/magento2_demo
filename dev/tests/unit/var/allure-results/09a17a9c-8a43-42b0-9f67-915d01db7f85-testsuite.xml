@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668784244" stop="1556668784274" version="1.4.0">
+  <name>Magento\Payment\Test\Unit\Helper\DataTest</name>
+  <test-cases>
+    <test-case start="1556668784244" stop="1556668784247" status="passed">
+      <name>testGetMethodInstance</name>
+    </test-case>
+    <test-case start="1556668784247" stop="1556668784250" status="passed">
+      <name>testGetMethodInstanceWithException</name>
+    </test-case>
+    <test-case start="1556668784250" stop="1556668784255" status="passed">
+      <name>testSortMethods with data set #0</name>
+    </test-case>
+    <test-case start="1556668784255" stop="1556668784260" status="passed">
+      <name>testSortMethods with data set #1</name>
+    </test-case>
+    <test-case start="1556668784260" stop="1556668784264" status="passed">
+      <name>testGetMethodFormBlock</name>
+    </test-case>
+    <test-case start="1556668784264" stop="1556668784267" status="passed">
+      <name>testGetInfoBlock</name>
+    </test-case>
+    <test-case start="1556668784268" stop="1556668784273" status="passed">
+      <name>testGetInfoBlockHtml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

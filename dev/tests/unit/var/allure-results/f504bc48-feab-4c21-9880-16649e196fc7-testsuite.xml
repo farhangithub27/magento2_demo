@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668831087" stop="1556668831101" version="1.4.0">
+  <name>Magento\User\Test\Unit\Model\UserTest</name>
+  <test-cases>
+    <test-case start="1556668831087" stop="1556668831093" status="passed">
+      <name>testSleep</name>
+    </test-case>
+    <test-case start="1556668831094" stop="1556668831096" status="passed">
+      <name>testChangeResetPasswordLinkToken</name>
+    </test-case>
+    <test-case start="1556668831096" stop="1556668831099" status="passed">
+      <name>testIsResetPasswordLinkTokenExpiredEmptyToken</name>
+    </test-case>
+    <test-case start="1556668831099" stop="1556668831101" status="passed">
+      <name>testIsResetPasswordLinkTokenExpiredIsExpiredToken</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

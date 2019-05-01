@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668723964" stop="1556668723985" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Indexer\AttributeProviderTest</name>
+  <test-cases>
+    <test-case start="1556668723964" stop="1556668723977" status="passed">
+      <name>testAddDynamicData</name>
+    </test-case>
+    <test-case start="1556668723977" stop="1556668723980" status="passed">
+      <name>testAddDynamicDataWithStaticAndSearchable</name>
+    </test-case>
+    <test-case start="1556668723980" stop="1556668723985" status="passed">
+      <name>testAddDynamicDataWithStaticAndFilterable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

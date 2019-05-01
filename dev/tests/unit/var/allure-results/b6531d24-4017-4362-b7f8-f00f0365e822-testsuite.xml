@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668827684" stop="1556668827688" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Component\Form\Element\DataType\DateTest</name>
+  <test-cases>
+    <test-case start="1556668827684" stop="1556668827685" status="passed">
+      <name>testPrepareWithTimeOffset</name>
+    </test-case>
+    <test-case start="1556668827685" stop="1556668827687" status="passed">
+      <name>testPrepareWithoutTimeOffset</name>
+    </test-case>
+    <test-case start="1556668827687" stop="1556668827688" status="passed">
+      <name>testPrepare</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

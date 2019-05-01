@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668725385" stop="1556668725388" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Plugin\AllowedCountriesTest</name>
+  <test-cases>
+    <test-case start="1556668725386" stop="1556668725387" status="passed">
+      <name>testGetAllowedCountriesWithGlobalScope</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

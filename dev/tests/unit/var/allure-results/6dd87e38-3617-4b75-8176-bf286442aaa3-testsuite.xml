@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668687160" stop="1556668687165" version="1.4.0">
+  <name>Magento\CatalogUrlRewrite\Test\Unit\Model\Category\Plugin\Category\MoveTest</name>
+  <test-cases>
+    <test-case start="1556668687160" stop="1556668687165" status="passed">
+      <name>testAfterChangeParent</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

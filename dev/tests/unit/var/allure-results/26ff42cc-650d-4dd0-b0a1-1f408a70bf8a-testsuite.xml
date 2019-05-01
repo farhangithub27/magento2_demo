@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668862795" stop="1556668862799" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Declaration\Schema\Db\MySQL\Definition\Columns\OnUpdateTest</name>
+  <test-cases>
+    <test-case start="1556668862796" stop="1556668862797" status="passed">
+      <name>testToDefinition</name>
+    </test-case>
+    <test-case start="1556668862797" stop="1556668862798" status="passed">
+      <name>testToDefinitionNonUpdate</name>
+    </test-case>
+    <test-case start="1556668862798" stop="1556668862799" status="passed">
+      <name>testToDefinitionNonTimestamp</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

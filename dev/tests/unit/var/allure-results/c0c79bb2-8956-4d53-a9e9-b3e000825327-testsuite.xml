@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668738166" stop="1556668738173" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\Adapter\FieldMapper\Product\FieldProvider\FieldName\Resolver\PriceTest</name>
+  <test-cases>
+    <test-case start="1556668738166" stop="1556668738168" status="passed">
+      <name>testGetFieldName with data set #0</name>
+    </test-case>
+    <test-case start="1556668738168" stop="1556668738169" status="passed">
+      <name>testGetFieldName with data set #1</name>
+    </test-case>
+    <test-case start="1556668738170" stop="1556668738171" status="passed">
+      <name>testGetFieldName with data set #2</name>
+    </test-case>
+    <test-case start="1556668738171" stop="1556668738172" status="passed">
+      <name>testGetFieldName with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

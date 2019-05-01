@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816085" stop="1556668816103" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\Guarantee\CreateGuaranteeAbilityTest</name>
+  <test-cases>
+    <test-case start="1556668816086" stop="1556668816090" status="passed">
+      <name>testIsAvailableSuccess</name>
+    </test-case>
+    <test-case start="1556668816090" stop="1556668816091" status="passed">
+      <name>testIsAvailableWithNullCase</name>
+    </test-case>
+    <test-case start="1556668816091" stop="1556668816091" status="passed">
+      <name>testIsAvailableWithGuarantyEligibleFalse</name>
+    </test-case>
+    <test-case start="1556668816092" stop="1556668816093" status="passed">
+      <name>testIsAvailableWithNullOrder</name>
+    </test-case>
+    <test-case start="1556668816093" stop="1556668816096" status="passed">
+      <name>testIsAvailableWithCanceledOrder with data set #0</name>
+    </test-case>
+    <test-case start="1556668816096" stop="1556668816099" status="passed">
+      <name>testIsAvailableWithCanceledOrder with data set #1</name>
+    </test-case>
+    <test-case start="1556668816099" stop="1556668816102" status="passed">
+      <name>testIsAvailableWithOldOrder</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

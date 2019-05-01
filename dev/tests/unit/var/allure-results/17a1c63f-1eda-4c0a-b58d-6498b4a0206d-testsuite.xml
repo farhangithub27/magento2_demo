@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668846751" stop="1556668846768" version="1.4.0">
+  <name>Magento\Framework\Cache\Test\Unit\CoreTest</name>
+  <test-cases>
+    <test-case start="1556668846751" stop="1556668846752" status="passed">
+      <name>testSetBackendDefault</name>
+    </test-case>
+    <test-case start="1556668846752" stop="1556668846753" status="passed">
+      <name>testSetBackendException with data set "string"</name>
+    </test-case>
+    <test-case start="1556668846753" stop="1556668846753" status="passed">
+      <name>testSetBackendException with data set "decorator setting is not an array"</name>
+    </test-case>
+    <test-case start="1556668846754" stop="1556668846754" status="passed">
+      <name>testSetBackendException with data set "decorator setting is empty array"</name>
+    </test-case>
+    <test-case start="1556668846755" stop="1556668846755" status="passed">
+      <name>testSetBackendException with data set "no class index in array"</name>
+    </test-case>
+    <test-case start="1556668846755" stop="1556668846756" status="passed">
+      <name>testSetBackendException with data set "non-existing class passed"</name>
+    </test-case>
+    <test-case start="1556668846756" stop="1556668846759" status="passed">
+      <name>testSaveDisabled</name>
+    </test-case>
+    <test-case start="1556668846760" stop="1556668846760" status="passed">
+      <name>testSaveNoCaching</name>
+    </test-case>
+    <test-case start="1556668846761" stop="1556668846762" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668846762" stop="1556668846763" status="passed">
+      <name>testClean</name>
+    </test-case>
+    <test-case start="1556668846763" stop="1556668846766" status="passed">
+      <name>testGetIdsMatchingTags</name>
+    </test-case>
+    <test-case start="1556668846767" stop="1556668846768" status="passed">
+      <name>testGetIdsNotMatchingTags</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

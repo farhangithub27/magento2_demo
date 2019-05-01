@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666953" stop="1556668666965" version="1.4.0">
+  <name>Magento\AsynchronousOperations\Test\Unit\Controller\Adminhtml\Bulk\RetryTest</name>
+  <test-cases>
+    <test-case start="1556668666953" stop="1556668666962" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668666962" stop="1556668666965" status="passed">
+      <name>testExecuteReturnsJsonResultWhenRequestIsSentViaAjax</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

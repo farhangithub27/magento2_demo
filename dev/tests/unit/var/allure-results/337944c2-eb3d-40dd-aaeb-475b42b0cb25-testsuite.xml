@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668780453" stop="1556668780460" version="1.4.0">
+  <name>Magento\MysqlMq\Test\Unit\Setup\RecurringTest</name>
+  <test-cases>
+    <test-case start="1556668780453" stop="1556668780460" status="passed">
+      <name>testInstall</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

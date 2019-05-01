@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668842830" stop="1556668842837" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Cache\StateTest</name>
+  <test-cases>
+    <test-case start="1556668842831" stop="1556668842832" status="passed">
+      <name>testIsEnabled with data set "enabled"</name>
+    </test-case>
+    <test-case start="1556668842832" stop="1556668842833" status="passed">
+      <name>testIsEnabled with data set "disabled"</name>
+    </test-case>
+    <test-case start="1556668842833" stop="1556668842834" status="passed">
+      <name>testIsEnabled with data set "unknown is disabled"</name>
+    </test-case>
+    <test-case start="1556668842835" stop="1556668842835" status="passed">
+      <name>testIsEnabled with data set "disabled, when all caches are banned"</name>
+    </test-case>
+    <test-case start="1556668842835" stop="1556668842836" status="passed">
+      <name>testSetEnabled</name>
+    </test-case>
+    <test-case start="1556668842836" stop="1556668842837" status="passed">
+      <name>testPersist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

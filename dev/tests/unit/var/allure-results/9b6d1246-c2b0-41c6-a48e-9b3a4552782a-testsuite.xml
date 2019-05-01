@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668679155" stop="1556668679157" version="1.4.0">
+  <name>Magento\Captcha\Test\Unit\Model\CaptchaFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668679155" stop="1556668679156" status="passed">
+      <name>testCreatePositive</name>
+    </test-case>
+    <test-case start="1556668679156" stop="1556668679157" status="passed">
+      <name>testCreateNegative</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

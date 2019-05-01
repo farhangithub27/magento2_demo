@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864534" stop="1556668864536" version="1.4.0">
+  <name>Magento\Framework\TestFramework\Test\Unit\Autoloader\FactoryGeneratorTest</name>
+  <test-cases>
+    <test-case start="1556668864534" stop="1556668864535" status="passed">
+      <name>testGenerateFactory</name>
+    </test-case>
+    <test-case start="1556668864535" stop="1556668864536" status="passed">
+      <name>testGenerateNonFactory with data set "non-factory class"</name>
+    </test-case>
+    <test-case start="1556668864536" stop="1556668864536" status="passed">
+      <name>testGenerateNonFactory with data set "non-conventional factory name"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860183" stop="1556668860188" version="1.4.0">
+  <name>Magento\Framework\Reflection\Test\Unit\ExtensionAttributesProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668860183" stop="1556668860186" status="passed">
+      <name>testBuildOutputDataArrayWithPermission with data set "permission allowed"</name>
+    </test-case>
+    <test-case start="1556668860187" stop="1556668860188" status="passed">
+      <name>testBuildOutputDataArrayWithPermission with data set "permission not allowed"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

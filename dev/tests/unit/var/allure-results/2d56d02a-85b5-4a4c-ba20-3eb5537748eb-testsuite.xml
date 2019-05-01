@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848906" stop="1556668848908" version="1.4.0">
+  <name>Magento\Framework\Crontab\Test\Unit\TasksProviderTest</name>
+  <test-cases>
+    <test-case start="1556668848907" stop="1556668848907" status="passed">
+      <name>testTasksProviderEmpty</name>
+    </test-case>
+    <test-case start="1556668848907" stop="1556668848908" status="passed">
+      <name>testTasksProvider</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

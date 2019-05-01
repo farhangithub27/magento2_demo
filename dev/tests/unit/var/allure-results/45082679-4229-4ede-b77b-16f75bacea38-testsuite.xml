@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668793366" stop="1556668793419" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\QuoteRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668793366" stop="1556668793380" status="passed">
+      <name>testGetWithExceptionById</name>
+    </test-case>
+    <test-case start="1556668793380" stop="1556668793383" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668793383" stop="1556668793387" status="passed">
+      <name>testGetForCustomerAfterGet</name>
+    </test-case>
+    <test-case start="1556668793387" stop="1556668793389" status="passed">
+      <name>testGetWithSharedStoreIds</name>
+    </test-case>
+    <test-case start="1556668793389" stop="1556668793392" status="passed">
+      <name>testGetForCustomer</name>
+    </test-case>
+    <test-case start="1556668793392" stop="1556668793394" status="passed">
+      <name>testGetActiveWithExceptionById</name>
+    </test-case>
+    <test-case start="1556668793394" stop="1556668793397" status="passed">
+      <name>testGetActiveWithExceptionByIsActive</name>
+    </test-case>
+    <test-case start="1556668793397" stop="1556668793400" status="passed">
+      <name>testGetActive</name>
+    </test-case>
+    <test-case start="1556668793400" stop="1556668793403" status="passed">
+      <name>testGetActiveWithSharedStoreIds</name>
+    </test-case>
+    <test-case start="1556668793403" stop="1556668793406" status="passed">
+      <name>testGetActiveForCustomer</name>
+    </test-case>
+    <test-case start="1556668793407" stop="1556668793413" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668793413" stop="1556668793415" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668793415" stop="1556668793419" status="passed">
+      <name>testGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

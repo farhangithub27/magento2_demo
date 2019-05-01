@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668663440" stop="1556668663774" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\I18n\Parser\Adapter\Php\Tokenizer\PhraseCollectorTest</name>
+  <test-cases>
+    <test-case start="1556668663440" stop="1556668663458" status="passed">
+      <name>testParse with data set "two phrases"</name>
+    </test-case>
+    <test-case start="1556668663458" stop="1556668663773" status="passed">
+      <name>testParseDataProvider</name>
+    </test-case>
+    <test-case start="1556668663773" stop="1556668663774" status="passed">
+      <name>testCollectPhrases</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

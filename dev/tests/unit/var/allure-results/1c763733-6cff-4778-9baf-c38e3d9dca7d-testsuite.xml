@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667481" stop="1556668667489" version="1.4.0">
+  <name>Magento\AsynchronousOperations\Test\Unit\Ui\Component\Operation\DataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668667481" stop="1556668667488" status="passed">
+      <name>testGetData</name>
+    </test-case>
+    <test-case start="1556668667488" stop="1556668667489" status="passed">
+      <name>testPrepareMeta</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

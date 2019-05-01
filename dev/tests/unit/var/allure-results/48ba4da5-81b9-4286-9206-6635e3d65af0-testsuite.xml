@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657720" stop="1556668657742" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\InstallTest</name>
+  <test-cases>
+    <test-case start="1556668657720" stop="1556668657723" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+    <test-case start="1556668657723" stop="1556668657725" status="passed">
+      <name>testStartAction</name>
+    </test-case>
+    <test-case start="1556668657725" stop="1556668657727" status="passed">
+      <name>testStartActionPriorInstallException</name>
+    </test-case>
+    <test-case start="1556668657727" stop="1556668657729" status="passed">
+      <name>testStartActionInstallException</name>
+    </test-case>
+    <test-case start="1556668657729" stop="1556668657731" status="passed">
+      <name>testStartActionWithSampleDataError</name>
+    </test-case>
+    <test-case start="1556668657731" stop="1556668657733" status="passed">
+      <name>testProgressAction</name>
+    </test-case>
+    <test-case start="1556668657734" stop="1556668657735" status="passed">
+      <name>testProgressActionWithError</name>
+    </test-case>
+    <test-case start="1556668657735" stop="1556668657737" status="passed">
+      <name>testProgressActionWithSampleDataError</name>
+    </test-case>
+    <test-case start="1556668657737" stop="1556668657738" status="passed">
+      <name>testProgressActionNoInstallLogFile</name>
+    </test-case>
+    <test-case start="1556668657738" stop="1556668657742" status="passed">
+      <name>testDispatch</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

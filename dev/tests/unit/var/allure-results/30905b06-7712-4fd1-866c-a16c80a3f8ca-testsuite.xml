@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668683475" stop="1556668683478" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Observer\UpdateItemsStockUponConfigChangeObserverTest</name>
+  <test-cases>
+    <test-case start="1556668683476" stop="1556668683478" status="passed">
+      <name>testUpdateItemsStockUponConfigChange</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

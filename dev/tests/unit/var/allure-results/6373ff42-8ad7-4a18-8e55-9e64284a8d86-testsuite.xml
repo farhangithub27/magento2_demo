@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668656314" stop="1556668656340" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\Command\CronRunCommandTest</name>
+  <test-cases>
+    <test-case start="1556668656315" stop="1556668656318" status="passed">
+      <name>testExecuteNotInstalled</name>
+    </test-case>
+    <test-case start="1556668656319" stop="1556668656320" status="passed">
+      <name>testExecuteFailedReadinessCheck</name>
+    </test-case>
+    <test-case start="1556668656320" stop="1556668656321" status="passed">
+      <name>testExecuteUpdateInProgress</name>
+    </test-case>
+    <test-case start="1556668656322" stop="1556668656323" status="passed">
+      <name>testExecuteUpdateError</name>
+    </test-case>
+    <test-case start="1556668656323" stop="1556668656325" status="passed">
+      <name>testExecuteErrorOnToggleInProgress</name>
+    </test-case>
+    <test-case start="1556668656325" stop="1556668656327" status="passed">
+      <name>testExecuteNoJobInQueue</name>
+    </test-case>
+    <test-case start="1556668656327" stop="1556668656329" status="passed">
+      <name>testExecuteFirstJobNotSupported</name>
+    </test-case>
+    <test-case start="1556668656330" stop="1556668656333" status="passed">
+      <name>testExecutePopQueueFails</name>
+    </test-case>
+    <test-case start="1556668656333" stop="1556668656337" status="passed">
+      <name>testExecuteJobFailed</name>
+    </test-case>
+    <test-case start="1556668656337" stop="1556668656340" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

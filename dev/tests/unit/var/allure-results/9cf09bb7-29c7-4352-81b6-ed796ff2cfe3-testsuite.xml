@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666274" stop="1556668666281" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Model\Plugin\BaseUrlConfigPluginTest</name>
+  <test-cases>
+    <test-case start="1556668666274" stop="1556668666276" status="passed">
+      <name>testAfterSavePluginIsNotApplicable with data set "Value has not been changed"</name>
+    </test-case>
+    <test-case start="1556668666276" stop="1556668666277" status="passed">
+      <name>testAfterSavePluginIsNotApplicable with data set "Unsecure URL has been changed"</name>
+    </test-case>
+    <test-case start="1556668666278" stop="1556668666279" status="passed">
+      <name>testAfterSavePluginIsNotApplicable with data set "Secure URL has been changed not in the Default scope"</name>
+    </test-case>
+    <test-case start="1556668666279" stop="1556668666281" status="passed">
+      <name>testAfterSavePluginIsApplicable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

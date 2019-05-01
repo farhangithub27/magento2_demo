@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837444" stop="1556668837458" version="1.4.0">
+  <name>Vertex\Tax\Block\Adminhtml\Config\Form\Field\VertexStatusTest</name>
+  <test-cases>
+    <test-case start="1556668837445" stop="1556668837454" status="passed">
+      <name>testStatusDisabled</name>
+    </test-case>
+    <test-case start="1556668837454" stop="1556668837456" status="passed">
+      <name>testStatusNotValid</name>
+    </test-case>
+    <test-case start="1556668837456" stop="1556668837458" status="passed">
+      <name>testStatusIsValid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668696882" stop="1556668696900" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Layer\Filter\DataProvider\PriceTest</name>
+  <test-cases>
+    <test-case start="1556668696882" stop="1556668696884" status="passed">
+      <name>testInterval</name>
+    </test-case>
+    <test-case start="1556668696884" stop="1556668696885" status="passed">
+      <name>testConfigValues</name>
+    </test-case>
+    <test-case start="1556668696885" stop="1556668696887" status="passed">
+      <name>testGetPriceRangeWithRangeInFilter</name>
+    </test-case>
+    <test-case start="1556668696887" stop="1556668696888" status="passed">
+      <name>testGetPriceRangeWithRangeCalculation</name>
+    </test-case>
+    <test-case start="1556668696888" stop="1556668696889" status="passed">
+      <name>testGetMaxPrice</name>
+    </test-case>
+    <test-case start="1556668696890" stop="1556668696891" status="passed">
+      <name>testValidateFilter with data set #0</name>
+    </test-case>
+    <test-case start="1556668696891" stop="1556668696892" status="passed">
+      <name>testValidateFilter with data set #1</name>
+    </test-case>
+    <test-case start="1556668696892" stop="1556668696893" status="passed">
+      <name>testValidateFilter with data set #2</name>
+    </test-case>
+    <test-case start="1556668696893" stop="1556668696894" status="passed">
+      <name>testValidateFilter with data set #3</name>
+    </test-case>
+    <test-case start="1556668696895" stop="1556668696896" status="passed">
+      <name>testValidateFilter with data set #4</name>
+    </test-case>
+    <test-case start="1556668696896" stop="1556668696897" status="passed">
+      <name>testValidateFilter with data set #5</name>
+    </test-case>
+    <test-case start="1556668696897" stop="1556668696898" status="passed">
+      <name>testValidateFilter with data set #6</name>
+    </test-case>
+    <test-case start="1556668696898" stop="1556668696899" status="passed">
+      <name>testGetLayer</name>
+    </test-case>
+    <test-case start="1556668696899" stop="1556668696900" status="passed">
+      <name>testGetRangeItemCounts</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

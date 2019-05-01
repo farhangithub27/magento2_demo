@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668663829" stop="1556668663833" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\I18n\Parser\Adapter\Php\TokenizerTest</name>
+  <test-cases>
+    <test-case start="1556668663829" stop="1556668663830" status="passed">
+      <name>testIsMatchingClass</name>
+    </test-case>
+    <test-case start="1556668663831" stop="1556668663831" status="passed">
+      <name>testGetNextRealToken</name>
+    </test-case>
+    <test-case start="1556668663832" stop="1556668663833" status="passed">
+      <name>testIsEndOfLoop</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

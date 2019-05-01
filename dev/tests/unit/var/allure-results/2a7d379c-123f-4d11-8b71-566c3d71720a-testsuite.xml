@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667508" stop="1556668667524" version="1.4.0">
+  <name>Magento\Authorization\Test\Unit\Model\Acl\AclRetrieverTest</name>
+  <test-cases>
+    <test-case start="1556668667509" stop="1556668667517" status="passed">
+      <name>testGetAllowedResourcesByUserTypeGuest</name>
+    </test-case>
+    <test-case start="1556668667517" stop="1556668667519" status="passed">
+      <name>testGetAllowedResourcesByUserTypeCustomer</name>
+    </test-case>
+    <test-case start="1556668667519" stop="1556668667521" status="passed">
+      <name>testGetAllowedResourcesByUserRoleNotFound</name>
+    </test-case>
+    <test-case start="1556668667521" stop="1556668667524" status="passed">
+      <name>testGetAllowedResourcesByUser</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668831268" stop="1556668831388" version="1.4.0">
+  <name>Magento\Usps\Test\Unit\Model\CarrierTest</name>
+  <test-cases>
+    <test-case start="1556668831268" stop="1556668831275" status="passed">
+      <name>testGetCodeArray with data set #0</name>
+    </test-case>
+    <test-case start="1556668831276" stop="1556668831280" status="passed">
+      <name>testGetCodeArray with data set #1</name>
+    </test-case>
+    <test-case start="1556668831280" stop="1556668831285" status="passed">
+      <name>testGetCodeArray with data set #2</name>
+    </test-case>
+    <test-case start="1556668831285" stop="1556668831289" status="passed">
+      <name>testGetCodeArray with data set #3</name>
+    </test-case>
+    <test-case start="1556668831289" stop="1556668831294" status="passed">
+      <name>testGetCodeBool</name>
+    </test-case>
+    <test-case start="1556668831294" stop="1556668831325" status="passed">
+      <name>testCollectRates</name>
+    </test-case>
+    <test-case start="1556668831325" stop="1556668831341" status="passed">
+      <name>testCollectRatesWithUnavailableService</name>
+    </test-case>
+    <test-case start="1556668831341" stop="1556668831349" status="passed">
+      <name>testReturnOfShipment</name>
+    </test-case>
+    <test-case start="1556668831349" stop="1556668831358" status="passed">
+      <name>testFormattingFloatValuesForIntlShipmentRequest</name>
+    </test-case>
+    <test-case start="1556668831358" stop="1556668831363" status="passed">
+      <name>testCollectRatesErrorMessage</name>
+    </test-case>
+    <test-case start="1556668831363" stop="1556668831370" status="passed">
+      <name>testCollectRatesFail</name>
+    </test-case>
+    <test-case start="1556668831370" stop="1556668831374" status="passed">
+      <name>testFilterDebugData with data set #0</name>
+    </test-case>
+    <test-case start="1556668831374" stop="1556668831379" status="passed">
+      <name>testIsGirthAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668831379" stop="1556668831383" status="passed">
+      <name>testIsGirthAllowed with data set #1</name>
+    </test-case>
+    <test-case start="1556668831383" stop="1556668831388" status="passed">
+      <name>testIsGirthAllowed with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666430" stop="1556668666437" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Model\System\Message\NotificationAboutFailedSubscriptionTest</name>
+  <test-cases>
+    <test-case start="1556668666431" stop="1556668666433" status="passed">
+      <name>testIsDisplayedWhenMessageShouldBeDisplayed</name>
+    </test-case>
+    <test-case start="1556668666434" stop="1556668666434" status="passed">
+      <name>testIsDisplayedWhenMessageShouldNotBeDisplayed with data set #0</name>
+    </test-case>
+    <test-case start="1556668666435" stop="1556668666435" status="passed">
+      <name>testIsDisplayedWhenMessageShouldNotBeDisplayed with data set #1</name>
+    </test-case>
+    <test-case start="1556668666436" stop="1556668666436" status="passed">
+      <name>testIsDisplayedWhenMessageShouldNotBeDisplayed with data set #2</name>
+    </test-case>
+    <test-case start="1556668666437" stop="1556668666437" status="passed">
+      <name>testGetTextShouldBuildMessage</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

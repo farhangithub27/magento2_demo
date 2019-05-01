@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837921" stop="1556668837933" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Repository\CustomerCodeRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668837921" stop="1556668837928" status="passed">
+      <name>testLoadsIfNotInRegistry</name>
+    </test-case>
+    <test-case start="1556668837928" stop="1556668837930" status="passed">
+      <name>testDoesNotLoadIfInRegistry</name>
+    </test-case>
+    <test-case start="1556668837930" stop="1556668837932" status="passed">
+      <name>testSavesIfNotInRegistry</name>
+    </test-case>
+    <test-case start="1556668837932" stop="1556668837933" status="passed">
+      <name>testDoesNotSaveIfInRegistry</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

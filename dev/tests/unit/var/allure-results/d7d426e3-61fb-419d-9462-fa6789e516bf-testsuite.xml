@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668726055" stop="1556668726105" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\ResourceModel\GroupRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668726056" stop="1556668726073" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668726073" stop="1556668726079" status="passed">
+      <name>testSaveWithException</name>
+    </test-case>
+    <test-case start="1556668726079" stop="1556668726085" status="passed">
+      <name>testGetById</name>
+    </test-case>
+    <test-case start="1556668726085" stop="1556668726096" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668726096" stop="1556668726101" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668726101" stop="1556668726105" status="passed">
+      <name>testDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

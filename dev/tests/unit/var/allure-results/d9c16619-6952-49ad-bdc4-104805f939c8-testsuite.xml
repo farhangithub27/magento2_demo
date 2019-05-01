@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747572" stop="1556668747581" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\Oauth\NonceTest</name>
+  <test-cases>
+    <test-case start="1556668747572" stop="1556668747576" status="passed">
+      <name>testAfterSave</name>
+    </test-case>
+    <test-case start="1556668747577" stop="1556668747578" status="passed">
+      <name>testAfterSaveNoCleanupProbability</name>
+    </test-case>
+    <test-case start="1556668747579" stop="1556668747580" status="passed">
+      <name>testLoadByCompositeKey</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

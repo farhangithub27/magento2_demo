@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668708064" stop="1556668708073" version="1.4.0">
+  <name>Magento\CmsUrlRewrite\Test\Unit\Observer\ProcessUrlRewriteSavingObserverTest</name>
+  <test-cases>
+    <test-case start="1556668708064" stop="1556668708067" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668708068" stop="1556668708069" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668708070" stop="1556668708072" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668708072" stop="1556668708073" status="passed">
+      <name>testExecuteWithoutDataChanged</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

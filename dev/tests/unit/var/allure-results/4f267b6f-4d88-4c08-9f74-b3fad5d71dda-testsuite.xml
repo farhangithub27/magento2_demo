@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668703164" stop="1556668703167" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\System\Config\Source\InputtypeTest</name>
+  <test-cases>
+    <test-case start="1556668703165" stop="1556668703166" status="passed">
+      <name>testToOptionArrayIsArray</name>
+    </test-case>
+    <test-case start="1556668703166" stop="1556668703167" status="passed">
+      <name>testToOptionArrayValid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

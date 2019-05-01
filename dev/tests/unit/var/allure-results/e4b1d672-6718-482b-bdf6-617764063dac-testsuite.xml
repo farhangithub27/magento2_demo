@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668875248" stop="1556668875260" version="1.4.0">
+  <name>Magento\Framework\Webapi\Test\Unit\Rest\Response\RendererFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668875248" stop="1556668875258" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668875258" stop="1556668875259" status="passed">
+      <name>testGetWithWrongAcceptHttpHeader</name>
+    </test-case>
+    <test-case start="1556668875259" stop="1556668875260" status="passed">
+      <name>testGetWithWrongRendererClass</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

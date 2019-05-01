@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668745616" stop="1556668745630" version="1.4.0">
+  <name>Magento\Indexer\Test\Unit\Model\Indexer\StateTest</name>
+  <test-cases>
+    <test-case start="1556668745617" stop="1556668745628" status="passed">
+      <name>testLoadByIndexer</name>
+    </test-case>
+    <test-case start="1556668745628" stop="1556668745629" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+    <test-case start="1556668745629" stop="1556668745630" status="passed">
+      <name>testSetStatus</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

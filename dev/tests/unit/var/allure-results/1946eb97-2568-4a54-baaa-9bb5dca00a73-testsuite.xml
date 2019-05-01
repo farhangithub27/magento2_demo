@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668862442" stop="1556668862502" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\BackupRollbackTest</name>
+  <test-cases>
+    <test-case start="1556668862442" stop="1556668862451" status="passed">
+      <name>testCodeBackup</name>
+    </test-case>
+    <test-case start="1556668862451" stop="1556668862453" status="passed">
+      <name>testCodeBackupWithInvalidType</name>
+    </test-case>
+    <test-case start="1556668862453" stop="1556668862462" status="passed">
+      <name>testCodeRollback</name>
+    </test-case>
+    <test-case start="1556668862462" stop="1556668862464" status="passed">
+      <name>testCodeRollbackWithInvalidFilePath</name>
+    </test-case>
+    <test-case start="1556668862464" stop="1556668862465" status="passed">
+      <name>testCodeRollbackWithInvalidFileType</name>
+    </test-case>
+    <test-case start="1556668862466" stop="1556668862474" status="passed">
+      <name>testMediaBackup</name>
+    </test-case>
+    <test-case start="1556668862474" stop="1556668862483" status="passed">
+      <name>testMediaRollback</name>
+    </test-case>
+    <test-case start="1556668862483" stop="1556668862488" status="passed">
+      <name>testDbBackup</name>
+    </test-case>
+    <test-case start="1556668862488" stop="1556668862497" status="passed">
+      <name>testDbRollback</name>
+    </test-case>
+    <test-case start="1556668862498" stop="1556668862500" status="passed">
+      <name>testGetFSDiskSpaceback</name>
+    </test-case>
+    <test-case start="1556668862500" stop="1556668862501" status="passed">
+      <name>testGetDBDiskSpace</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

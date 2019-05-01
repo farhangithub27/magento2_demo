@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668798308" stop="1556668798310" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Model\Coupon\CodegeneratorTest</name>
+  <test-cases>
+    <test-case start="1556668798308" stop="1556668798309" status="passed">
+      <name>testGenerateCode</name>
+    </test-case>
+    <test-case start="1556668798309" stop="1556668798310" status="passed">
+      <name>testGetDelimiter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668842700" stop="1556668842704" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Cache\FlushCacheByTagsTest</name>
+  <test-cases>
+    <test-case start="1556668842701" stop="1556668842702" status="passed">
+      <name>testAroundSave</name>
+    </test-case>
+    <test-case start="1556668842702" stop="1556668842703" status="passed">
+      <name>testAroundDelete</name>
+    </test-case>
+    <test-case start="1556668842703" stop="1556668842704" status="passed">
+      <name>testAroundSaveWithInterface</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

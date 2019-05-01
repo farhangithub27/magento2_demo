@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668723839" stop="1556668723866" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\FileProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668723840" stop="1556668723841" status="passed">
+      <name>testGetStat</name>
+    </test-case>
+    <test-case start="1556668723842" stop="1556668723843" status="passed">
+      <name>testIsExist</name>
+    </test-case>
+    <test-case start="1556668723843" stop="1556668723845" status="passed">
+      <name>testGetViewUrlCustomer</name>
+    </test-case>
+    <test-case start="1556668723845" stop="1556668723846" status="passed">
+      <name>testGetViewUrlCustomerAddress</name>
+    </test-case>
+    <test-case start="1556668723846" stop="1556668723848" status="passed">
+      <name>testRemoveUploadedFile</name>
+    </test-case>
+    <test-case start="1556668723848" stop="1556668723851" status="passed">
+      <name>testSaveTemporaryFile</name>
+    </test-case>
+    <test-case start="1556668723851" stop="1556668723855" status="passed">
+      <name>testSaveTemporaryFileWithError</name>
+    </test-case>
+    <test-case start="1556668723855" stop="1556668723856" status="passed">
+      <name>testMoveTemporaryFileUnableToCreateDirectory</name>
+    </test-case>
+    <test-case start="1556668723857" stop="1556668723858" status="passed">
+      <name>testMoveTemporaryFileDestinationFolderDoesNotExists</name>
+    </test-case>
+    <test-case start="1556668723859" stop="1556668723861" status="passed">
+      <name>testMoveTemporaryFile</name>
+    </test-case>
+    <test-case start="1556668723862" stop="1556668723864" status="passed">
+      <name>testMoveTemporaryFileWithException</name>
+    </test-case>
+    <test-case start="1556668723864" stop="1556668723866" status="passed">
+      <name>testGetMimeType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

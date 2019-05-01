@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859339" stop="1556668859344" version="1.4.0">
+  <name>Magento\Framework\Pricing\Test\Unit\Amount\BaseTest</name>
+  <test-cases>
+    <test-case start="1556668859339" stop="1556668859339" status="passed">
+      <name>testGetValueWithoutExclude</name>
+    </test-case>
+    <test-case start="1556668859340" stop="1556668859340" status="passed">
+      <name>testGetValueWithExclude</name>
+    </test-case>
+    <test-case start="1556668859340" stop="1556668859341" status="passed">
+      <name>testToString</name>
+    </test-case>
+    <test-case start="1556668859341" stop="1556668859341" status="passed">
+      <name>testGetBaseAmount</name>
+    </test-case>
+    <test-case start="1556668859341" stop="1556668859342" status="passed">
+      <name>testGetAdjustmentAmountNoAdjustments</name>
+    </test-case>
+    <test-case start="1556668859342" stop="1556668859342" status="passed">
+      <name>testGetAdjustmentAmountWithAdjustments</name>
+    </test-case>
+    <test-case start="1556668859343" stop="1556668859343" status="passed">
+      <name>testGetTotalAdjustmentAmount</name>
+    </test-case>
+    <test-case start="1556668859343" stop="1556668859344" status="passed">
+      <name>testGetAdjustmentAmounts</name>
+    </test-case>
+    <test-case start="1556668859344" stop="1556668859344" status="passed">
+      <name>testHasAdjustment</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

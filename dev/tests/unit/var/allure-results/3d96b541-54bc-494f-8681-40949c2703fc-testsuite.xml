@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668712333" stop="1556668712335" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\PathValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668712334" stop="1556668712334" status="passed">
+      <name>testValidate</name>
+    </test-case>
+    <test-case start="1556668712334" stop="1556668712335" status="passed">
+      <name>testValidateWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

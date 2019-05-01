@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668706516" stop="1556668706531" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Block\OnepageTest</name>
+  <test-cases>
+    <test-case start="1556668706516" stop="1556668706520" status="passed">
+      <name>testGetBaseUrl</name>
+    </test-case>
+    <test-case start="1556668706520" stop="1556668706523" status="passed">
+      <name>testGetCheckoutConfig</name>
+    </test-case>
+    <test-case start="1556668706523" stop="1556668706526" status="passed">
+      <name>testGetFormKey</name>
+    </test-case>
+    <test-case start="1556668706526" stop="1556668706529" status="passed">
+      <name>testGetJsLayout</name>
+    </test-case>
+    <test-case start="1556668706529" stop="1556668706531" status="passed">
+      <name>testGetSerializedCheckoutConfig</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668831529" stop="1556668831533" version="1.4.0">
+  <name>Magento\Variable\Test\Unit\Model\Source\VariablesTest</name>
+  <test-cases>
+    <test-case start="1556668831529" stop="1556668831531" status="passed">
+      <name>testToOptionArrayWithoutGroup</name>
+    </test-case>
+    <test-case start="1556668831532" stop="1556668831533" status="passed">
+      <name>testToOptionArrayWithGroup</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

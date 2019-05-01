@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668722563" stop="1556668722698" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\AttributeTest</name>
+  <test-cases>
+    <test-case start="1556668722563" stop="1556668722570" status="passed">
+      <name>testAfterSaveEavCache</name>
+    </test-case>
+    <test-case start="1556668722570" stop="1556668722576" status="passed">
+      <name>testAfterDeleteEavCache</name>
+    </test-case>
+    <test-case start="1556668722576" stop="1556668722581" status="passed">
+      <name>testInvalidate</name>
+    </test-case>
+    <test-case start="1556668722581" stop="1556668722585" status="passed">
+      <name>testCanBeSearchableInGrid with data set #0</name>
+    </test-case>
+    <test-case start="1556668722586" stop="1556668722589" status="passed">
+      <name>testCanBeSearchableInGrid with data set #1</name>
+    </test-case>
+    <test-case start="1556668722590" stop="1556668722594" status="passed">
+      <name>testCanBeSearchableInGrid with data set #2</name>
+    </test-case>
+    <test-case start="1556668722594" stop="1556668722599" status="passed">
+      <name>testCanBeSearchableInGrid with data set #3</name>
+    </test-case>
+    <test-case start="1556668722600" stop="1556668722604" status="passed">
+      <name>testCanBeSearchableInGrid with data set #4</name>
+    </test-case>
+    <test-case start="1556668722605" stop="1556668722608" status="passed">
+      <name>testCanBeSearchableInGrid with data set #5</name>
+    </test-case>
+    <test-case start="1556668722609" stop="1556668722612" status="passed">
+      <name>testCanBeSearchableInGrid with data set #6</name>
+    </test-case>
+    <test-case start="1556668722613" stop="1556668722617" status="passed">
+      <name>testCanBeSearchableInGrid with data set #7</name>
+    </test-case>
+    <test-case start="1556668722617" stop="1556668722621" status="passed">
+      <name>testCanBeSearchableInGrid with data set #8</name>
+    </test-case>
+    <test-case start="1556668722621" stop="1556668722625" status="passed">
+      <name>testCanBeSearchableInGrid with data set #9</name>
+    </test-case>
+    <test-case start="1556668722625" stop="1556668722629" status="passed">
+      <name>testCanBeSearchableInGrid with data set #10</name>
+    </test-case>
+    <test-case start="1556668722629" stop="1556668722633" status="passed">
+      <name>testCanBeSearchableInGrid with data set #11</name>
+    </test-case>
+    <test-case start="1556668722633" stop="1556668722637" status="passed">
+      <name>testCanBeSearchableInGrid with data set #12</name>
+    </test-case>
+    <test-case start="1556668722637" stop="1556668722641" status="passed">
+      <name>testCanBeFilterableInGrid with data set #0</name>
+    </test-case>
+    <test-case start="1556668722642" stop="1556668722645" status="passed">
+      <name>testCanBeFilterableInGrid with data set #1</name>
+    </test-case>
+    <test-case start="1556668722646" stop="1556668722649" status="passed">
+      <name>testCanBeFilterableInGrid with data set #2</name>
+    </test-case>
+    <test-case start="1556668722650" stop="1556668722653" status="passed">
+      <name>testCanBeFilterableInGrid with data set #3</name>
+    </test-case>
+    <test-case start="1556668722654" stop="1556668722657" status="passed">
+      <name>testCanBeFilterableInGrid with data set #4</name>
+    </test-case>
+    <test-case start="1556668722658" stop="1556668722661" status="passed">
+      <name>testCanBeFilterableInGrid with data set #5</name>
+    </test-case>
+    <test-case start="1556668722662" stop="1556668722665" status="passed">
+      <name>testCanBeFilterableInGrid with data set #6</name>
+    </test-case>
+    <test-case start="1556668722666" stop="1556668722669" status="passed">
+      <name>testCanBeFilterableInGrid with data set #7</name>
+    </test-case>
+    <test-case start="1556668722670" stop="1556668722674" status="passed">
+      <name>testCanBeFilterableInGrid with data set #8</name>
+    </test-case>
+    <test-case start="1556668722674" stop="1556668722678" status="passed">
+      <name>testCanBeFilterableInGrid with data set #9</name>
+    </test-case>
+    <test-case start="1556668722678" stop="1556668722682" status="passed">
+      <name>testCanBeFilterableInGrid with data set #10</name>
+    </test-case>
+    <test-case start="1556668722682" stop="1556668722686" status="passed">
+      <name>testCanBeFilterableInGrid with data set #11</name>
+    </test-case>
+    <test-case start="1556668722686" stop="1556668722690" status="passed">
+      <name>testCanBeFilterableInGrid with data set #12</name>
+    </test-case>
+    <test-case start="1556668722690" stop="1556668722694" status="passed">
+      <name>testCanBeFilterableInGrid with data set #13</name>
+    </test-case>
+    <test-case start="1556668722694" stop="1556668722698" status="passed">
+      <name>testCanBeFilterableInGrid with data set #14</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

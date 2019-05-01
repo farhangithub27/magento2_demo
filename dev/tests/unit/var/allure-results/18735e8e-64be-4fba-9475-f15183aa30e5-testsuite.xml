@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668703512" stop="1556668703525" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Plugin\Model\ResourceModel\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668703512" stop="1556668703517" status="passed">
+      <name>testGetAttributesUsedInListingOnCacheDisabled</name>
+    </test-case>
+    <test-case start="1556668703517" stop="1556668703519" status="passed">
+      <name>testGetAttributesUsedInListingFromCache</name>
+    </test-case>
+    <test-case start="1556668703519" stop="1556668703520" status="passed">
+      <name>testGetAttributesUsedInListingWithCacheSave</name>
+    </test-case>
+    <test-case start="1556668703521" stop="1556668703522" status="passed">
+      <name>testGetAttributesUsedForSortByOnCacheDisabled</name>
+    </test-case>
+    <test-case start="1556668703522" stop="1556668703523" status="passed">
+      <name>testGetAttributesUsedForSortByFromCache</name>
+    </test-case>
+    <test-case start="1556668703523" stop="1556668703525" status="passed">
+      <name>testGetAttributesUsedForSortByWithCacheSave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

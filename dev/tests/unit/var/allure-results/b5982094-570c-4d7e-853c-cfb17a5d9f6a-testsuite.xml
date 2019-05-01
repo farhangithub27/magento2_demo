@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668824847" stop="1556668824852" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Design\Backend\ExceptionsTest</name>
+  <test-cases>
+    <test-case start="1556668824847" stop="1556668824850" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+    <test-case start="1556668824850" stop="1556668824852" status="passed">
+      <name>testAfterLoad</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

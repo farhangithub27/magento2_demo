@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668871387" stop="1556668871392" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Design\Theme\ThemePackageTest</name>
+  <test-cases>
+    <test-case start="1556668871388" stop="1556668871389" status="passed">
+      <name>testConstructBadKey with data set #0</name>
+    </test-case>
+    <test-case start="1556668871389" stop="1556668871390" status="passed">
+      <name>testConstructBadKey with data set #1</name>
+    </test-case>
+    <test-case start="1556668871390" stop="1556668871391" status="passed">
+      <name>testConstructBadKey with data set #2</name>
+    </test-case>
+    <test-case start="1556668871391" stop="1556668871391" status="passed">
+      <name>testConstructBadKey with data set #3</name>
+    </test-case>
+    <test-case start="1556668871392" stop="1556668871392" status="passed">
+      <name>testGetters</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

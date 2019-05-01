@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668831121" stop="1556668831125" version="1.4.0">
+  <name>Magento\User\Test\Unit\Model\UserValidationRulesTest</name>
+  <test-cases>
+    <test-case start="1556668831122" stop="1556668831123" status="passed">
+      <name>testAddUserInfoRules</name>
+    </test-case>
+    <test-case start="1556668831123" stop="1556668831124" status="passed">
+      <name>testAddPasswordRules</name>
+    </test-case>
+    <test-case start="1556668831124" stop="1556668831125" status="passed">
+      <name>testAddPasswordConfirmationRule</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

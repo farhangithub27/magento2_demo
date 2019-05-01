@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668830655" stop="1556668830728" version="1.4.0">
+  <name>Magento\User\Test\Unit\Block\Role\Grid\UserTest</name>
+  <test-cases>
+    <test-case start="1556668830655" stop="1556668830661" status="passed">
+      <name>testGetGridUrlSuccessfulUrl</name>
+    </test-case>
+    <test-case start="1556668830661" stop="1556668830673" status="passed">
+      <name>testGetUsersPositiveNumberOfRolesAndJsonFalse</name>
+    </test-case>
+    <test-case start="1556668830673" stop="1556668830677" status="passed">
+      <name>testGetUsersPositiveNumberOfRolesAndJsonTrue</name>
+    </test-case>
+    <test-case start="1556668830678" stop="1556668830682" status="passed">
+      <name>testGetUsersNoRolesAndJsonFalse</name>
+    </test-case>
+    <test-case start="1556668830682" stop="1556668830728" status="passed">
+      <name>testPrepareColumns</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

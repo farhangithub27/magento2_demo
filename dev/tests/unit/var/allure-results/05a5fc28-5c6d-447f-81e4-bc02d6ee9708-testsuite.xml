@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668700156" stop="1556668700188" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Type\PriceTest</name>
+  <test-cases>
+    <test-case start="1556668700156" stop="1556668700162" status="passed">
+      <name>testGetPricesWithNull with data set "testGetTierPricesWithNull"</name>
+    </test-case>
+    <test-case start="1556668700162" stop="1556668700175" status="passed">
+      <name>testTierPrices with data set "global price scope"</name>
+    </test-case>
+    <test-case start="1556668700176" stop="1556668700188" status="passed">
+      <name>testTierPrices with data set "website price scope"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

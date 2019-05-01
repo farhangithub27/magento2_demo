@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668782793" stop="1556668782810" version="1.4.0">
+  <name>Magento\PageCache\Test\Unit\Model\App\FrontController\BuiltinPluginTest</name>
+  <test-cases>
+    <test-case start="1556668782793" stop="1556668782798" status="passed">
+      <name>testAroundDispatchProcessIfCacheMissed with data set "developer_mode"</name>
+    </test-case>
+    <test-case start="1556668782798" stop="1556668782800" status="passed">
+      <name>testAroundDispatchProcessIfCacheMissed with data set "production"</name>
+    </test-case>
+    <test-case start="1556668782800" stop="1556668782802" status="passed">
+      <name>testAroundDispatchReturnsResultInterfaceProcessIfCacheMissed with data set "developer_mode"</name>
+    </test-case>
+    <test-case start="1556668782802" stop="1556668782804" status="passed">
+      <name>testAroundDispatchReturnsResultInterfaceProcessIfCacheMissed with data set "production"</name>
+    </test-case>
+    <test-case start="1556668782804" stop="1556668782806" status="passed">
+      <name>testAroundDispatchReturnsCache with data set "developer_mode"</name>
+    </test-case>
+    <test-case start="1556668782806" stop="1556668782807" status="passed">
+      <name>testAroundDispatchReturnsCache with data set "production"</name>
+    </test-case>
+    <test-case start="1556668782807" stop="1556668782809" status="passed">
+      <name>testAroundDispatchDisabled with data set "developer_mode"</name>
+    </test-case>
+    <test-case start="1556668782809" stop="1556668782810" status="passed">
+      <name>testAroundDispatchDisabled with data set "production"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

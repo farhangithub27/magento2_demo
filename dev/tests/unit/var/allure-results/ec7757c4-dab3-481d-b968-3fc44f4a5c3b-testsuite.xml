@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668812395" stop="1556668812406" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Observer\Frontend\AddVatRequestParamsOrderCommentTest</name>
+  <test-cases>
+    <test-case start="1556668812396" stop="1556668812399" status="passed">
+      <name>testAddVatRequestParamsOrderComment with data set #0</name>
+    </test-case>
+    <test-case start="1556668812400" stop="1556668812401" status="passed">
+      <name>testAddVatRequestParamsOrderComment with data set #1</name>
+    </test-case>
+    <test-case start="1556668812401" stop="1556668812403" status="passed">
+      <name>testAddVatRequestParamsOrderComment with data set #2</name>
+    </test-case>
+    <test-case start="1556668812403" stop="1556668812404" status="passed">
+      <name>testAddVatRequestParamsOrderComment with data set #3</name>
+    </test-case>
+    <test-case start="1556668812405" stop="1556668812406" status="passed">
+      <name>testAddVatRequestParamsOrderComment with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

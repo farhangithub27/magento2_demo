@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657504" stop="1556668657524" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\CustomizeYourStoreTest</name>
+  <test-cases>
+    <test-case start="1556668657504" stop="1556668657508" status="passed">
+      <name>testIndexAction with data set "with_all_data"</name>
+    </test-case>
+    <test-case start="1556668657509" stop="1556668657511" status="passed">
+      <name>testIndexAction with data set "no_currency_data"</name>
+    </test-case>
+    <test-case start="1556668657511" stop="1556668657513" status="passed">
+      <name>testIndexAction with data set "no_timezone_data"</name>
+    </test-case>
+    <test-case start="1556668657513" stop="1556668657515" status="passed">
+      <name>testIndexAction with data set "no_language_data"</name>
+    </test-case>
+    <test-case start="1556668657515" stop="1556668657517" status="passed">
+      <name>testIndexAction with data set "empty_currency_data"</name>
+    </test-case>
+    <test-case start="1556668657517" stop="1556668657519" status="passed">
+      <name>testIndexAction with data set "empty_timezone_data"</name>
+    </test-case>
+    <test-case start="1556668657520" stop="1556668657521" status="passed">
+      <name>testIndexAction with data set "empty_language_data"</name>
+    </test-case>
+    <test-case start="1556668657522" stop="1556668657523" status="passed">
+      <name>testIndexAction with data set "no_sample_data"</name>
+    </test-case>
+    <test-case start="1556668657524" stop="1556668657524" status="passed">
+      <name>testDefaultTimeZoneAction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

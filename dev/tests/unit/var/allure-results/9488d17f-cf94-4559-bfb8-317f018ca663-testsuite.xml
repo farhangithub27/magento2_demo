@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668782737" stop="1556668782755" version="1.4.0">
+  <name>Magento\PageCache\Test\Unit\Controller\Block\RenderTest</name>
+  <test-cases>
+    <test-case start="1556668782737" stop="1556668782742" status="passed">
+      <name>testExecuteNotAjax</name>
+    </test-case>
+    <test-case start="1556668782742" stop="1556668782747" status="passed">
+      <name>testExecuteNoParams</name>
+    </test-case>
+    <test-case start="1556668782748" stop="1556668782754" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668857332" stop="1556668857340" version="1.4.0">
+  <name>Magento\Framework\Module\Test\Unit\Dir\ReaderTest</name>
+  <test-cases>
+    <test-case start="1556668857333" stop="1556668857336" status="passed">
+      <name>testGetModuleDirWhenCustomDirIsNotSet</name>
+    </test-case>
+    <test-case start="1556668857336" stop="1556668857337" status="passed">
+      <name>testGetModuleDirWhenCustomDirIsSet</name>
+    </test-case>
+    <test-case start="1556668857337" stop="1556668857339" status="passed">
+      <name>testGetConfigurationFiles</name>
+    </test-case>
+    <test-case start="1556668857339" stop="1556668857340" status="passed">
+      <name>testGetComposerJsonFiles</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

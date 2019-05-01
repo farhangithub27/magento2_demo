@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668679611" stop="1556668679634" version="1.4.0">
+  <name>Magento\CatalogImportExport\Test\Unit\Model\Import\Product\CategoryProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668679612" stop="1556668679616" status="passed">
+      <name>testUpsertCategories</name>
+    </test-case>
+    <test-case start="1556668679616" stop="1556668679622" status="passed">
+      <name>testUpsertCategoriesWithAlreadyExistsException</name>
+    </test-case>
+    <test-case start="1556668679622" stop="1556668679626" status="passed">
+      <name>testClearFailedCategories</name>
+    </test-case>
+    <test-case start="1556668679626" stop="1556668679630" status="passed">
+      <name>testGetCategoryById with data set #0</name>
+    </test-case>
+    <test-case start="1556668679630" stop="1556668679633" status="passed">
+      <name>testGetCategoryById with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

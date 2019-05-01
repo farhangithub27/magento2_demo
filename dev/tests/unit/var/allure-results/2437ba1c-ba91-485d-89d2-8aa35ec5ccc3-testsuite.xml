@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668659577" stop="1556668659612" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\ConfigOptionsListTest</name>
+  <test-cases>
+    <test-case start="1556668659577" stop="1556668659583" status="passed">
+      <name>testGetOptions</name>
+    </test-case>
+    <test-case start="1556668659583" stop="1556668659588" status="passed">
+      <name>testCreateOptions</name>
+    </test-case>
+    <test-case start="1556668659588" stop="1556668659593" status="passed">
+      <name>testCreateOptionsWithOptionalNull</name>
+    </test-case>
+    <test-case start="1556668659593" stop="1556668659596" status="passed">
+      <name>testValidateSuccess</name>
+    </test-case>
+    <test-case start="1556668659596" stop="1556668659597" status="passed">
+      <name>testValidateInvalidSessionHandler</name>
+    </test-case>
+    <test-case start="1556668659598" stop="1556668659599" status="passed">
+      <name>testValidateEmptyEncryptionKey</name>
+    </test-case>
+    <test-case start="1556668659600" stop="1556668659601" status="passed">
+      <name>testValidateCacheHosts with data set #0</name>
+    </test-case>
+    <test-case start="1556668659601" stop="1556668659603" status="passed">
+      <name>testValidateCacheHosts with data set #1</name>
+    </test-case>
+    <test-case start="1556668659603" stop="1556668659604" status="passed">
+      <name>testValidateCacheHosts with data set #2</name>
+    </test-case>
+    <test-case start="1556668659605" stop="1556668659606" status="passed">
+      <name>testValidateCacheHosts with data set #3</name>
+    </test-case>
+    <test-case start="1556668659607" stop="1556668659608" status="passed">
+      <name>testValidateCacheHosts with data set #4</name>
+    </test-case>
+    <test-case start="1556668659608" stop="1556668659610" status="passed">
+      <name>testValidateCacheHosts with data set #5</name>
+    </test-case>
+    <test-case start="1556668659610" stop="1556668659611" status="passed">
+      <name>testValidateCacheHosts with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

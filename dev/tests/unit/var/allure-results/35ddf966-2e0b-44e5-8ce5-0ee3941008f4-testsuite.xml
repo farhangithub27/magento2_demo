@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832083" stop="1556668832093" version="1.4.0">
+  <name>Magento\Vault\Test\Unit\Observer\VaultEnableAssignerTest</name>
+  <test-cases>
+    <test-case start="1556668832084" stop="1556668832084" status="passed">
+      <name>testExecuteNoActiveCode</name>
+    </test-case>
+    <test-case start="1556668832085" stop="1556668832086" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668832086" stop="1556668832087" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668832088" stop="1556668832089" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668832089" stop="1556668832090" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+    <test-case start="1556668832090" stop="1556668832091" status="passed">
+      <name>testExecute with data set #4</name>
+    </test-case>
+    <test-case start="1556668832091" stop="1556668832092" status="passed">
+      <name>testExecute with data set #5</name>
+    </test-case>
+    <test-case start="1556668832092" stop="1556668832093" status="passed">
+      <name>testExecuteNever</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

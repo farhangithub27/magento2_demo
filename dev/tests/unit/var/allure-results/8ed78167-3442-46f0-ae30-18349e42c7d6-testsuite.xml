@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668659515" stop="1556668659542" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\ConfigOptionsList\SessionTest</name>
+  <test-cases>
+    <test-case start="1556668659515" stop="1556668659517" status="passed">
+      <name>testGetOptions</name>
+    </test-case>
+    <test-case start="1556668659517" stop="1556668659518" status="passed">
+      <name>testCreateConfig</name>
+    </test-case>
+    <test-case start="1556668659518" stop="1556668659518" status="passed">
+      <name>testCreateConfigWithSessionSaveFiles</name>
+    </test-case>
+    <test-case start="1556668659519" stop="1556668659520" status="passed">
+      <name>testCreateConfigWithSessionSaveRedis</name>
+    </test-case>
+    <test-case start="1556668659520" stop="1556668659520" status="passed">
+      <name>testEmptyCreateConfig</name>
+    </test-case>
+    <test-case start="1556668659521" stop="1556668659522" status="passed">
+      <name>testCreateConfigWithRedisInput</name>
+    </test-case>
+    <test-case start="1556668659523" stop="1556668659523" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #0</name>
+    </test-case>
+    <test-case start="1556668659523" stop="1556668659524" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #1</name>
+    </test-case>
+    <test-case start="1556668659524" stop="1556668659525" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #2</name>
+    </test-case>
+    <test-case start="1556668659525" stop="1556668659526" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #3</name>
+    </test-case>
+    <test-case start="1556668659526" stop="1556668659527" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #4</name>
+    </test-case>
+    <test-case start="1556668659527" stop="1556668659527" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #5</name>
+    </test-case>
+    <test-case start="1556668659528" stop="1556668659528" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #6</name>
+    </test-case>
+    <test-case start="1556668659529" stop="1556668659529" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #7</name>
+    </test-case>
+    <test-case start="1556668659530" stop="1556668659530" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #8</name>
+    </test-case>
+    <test-case start="1556668659531" stop="1556668659531" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #9</name>
+    </test-case>
+    <test-case start="1556668659531" stop="1556668659532" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #10</name>
+    </test-case>
+    <test-case start="1556668659532" stop="1556668659533" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #11</name>
+    </test-case>
+    <test-case start="1556668659533" stop="1556668659534" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #12</name>
+    </test-case>
+    <test-case start="1556668659534" stop="1556668659535" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #13</name>
+    </test-case>
+    <test-case start="1556668659535" stop="1556668659535" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #14</name>
+    </test-case>
+    <test-case start="1556668659536" stop="1556668659536" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #15</name>
+    </test-case>
+    <test-case start="1556668659537" stop="1556668659537" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #16</name>
+    </test-case>
+    <test-case start="1556668659538" stop="1556668659538" status="passed">
+      <name>testIndividualOptionsAreSetProperly with data set #17</name>
+    </test-case>
+    <test-case start="1556668659538" stop="1556668659539" status="passed">
+      <name>testValidationWithValidOptions</name>
+    </test-case>
+    <test-case start="1556668659539" stop="1556668659540" status="passed">
+      <name>testValidationWithInvalidOptions with data set #0</name>
+    </test-case>
+    <test-case start="1556668659540" stop="1556668659541" status="passed">
+      <name>testValidationWithInvalidOptions with data set #1</name>
+    </test-case>
+    <test-case start="1556668659541" stop="1556668659542" status="passed">
+      <name>testValidationWithInvalidOptions with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

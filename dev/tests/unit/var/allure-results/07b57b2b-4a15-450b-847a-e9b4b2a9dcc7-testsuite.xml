@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668720940" stop="1556668720956" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Controller\Ajax\LoginTest</name>
+  <test-cases>
+    <test-case start="1556668720941" stop="1556668720950" status="passed">
+      <name>testLogin</name>
+    </test-case>
+    <test-case start="1556668720950" stop="1556668720955" status="passed">
+      <name>testLoginFailure</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

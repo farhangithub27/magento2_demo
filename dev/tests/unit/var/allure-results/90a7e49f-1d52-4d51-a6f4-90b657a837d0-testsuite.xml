@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668743880" stop="1556668743883" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Model\Import\Config\ConverterTest</name>
+  <test-cases>
+    <test-case start="1556668743881" stop="1556668743882" status="passed">
+      <name>testConvert</name>
+    </test-case>
+    <test-case start="1556668743882" stop="1556668743883" status="passed">
+      <name>testConvertWithDisabledModules</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

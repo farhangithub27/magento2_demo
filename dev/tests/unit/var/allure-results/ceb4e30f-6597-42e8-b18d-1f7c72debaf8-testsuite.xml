@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855566" stop="1556668855601" version="1.4.0">
+  <name>Magento\Framework\Interception\Test\Unit\PluginList\PluginListTest</name>
+  <test-cases>
+    <test-case start="1556668855566" stop="1556668855570" status="passed">
+      <name>testGetPlugin</name>
+    </test-case>
+    <test-case start="1556668855571" stop="1556668855572" status="passed">
+      <name>testGetPlugins with data set #0</name>
+    </test-case>
+    <test-case start="1556668855573" stop="1556668855575" status="passed">
+      <name>testGetPlugins with data set #1</name>
+    </test-case>
+    <test-case start="1556668855575" stop="1556668855577" status="passed">
+      <name>testGetPlugins with data set #2</name>
+    </test-case>
+    <test-case start="1556668855578" stop="1556668855579" status="passed">
+      <name>testGetPlugins with data set #3</name>
+    </test-case>
+    <test-case start="1556668855580" stop="1556668855582" status="passed">
+      <name>testGetPlugins with data set #4</name>
+    </test-case>
+    <test-case start="1556668855582" stop="1556668855584" status="passed">
+      <name>testGetPlugins with data set #5</name>
+    </test-case>
+    <test-case start="1556668855585" stop="1556668855587" status="passed">
+      <name>testGetPlugins with data set #6</name>
+    </test-case>
+    <test-case start="1556668855588" stop="1556668855589" status="passed">
+      <name>testGetPlugins with data set #7</name>
+    </test-case>
+    <test-case start="1556668855590" stop="1556668855592" status="passed">
+      <name>testInheritPluginsWithNonExistingClass</name>
+    </test-case>
+    <test-case start="1556668855592" stop="1556668855594" status="passed">
+      <name>testLoadScopedDataNotCached</name>
+    </test-case>
+    <test-case start="1556668855595" stop="1556668855597" status="passed">
+      <name>testInheritPluginsWithNotExistingPlugin</name>
+    </test-case>
+    <test-case start="1556668855597" stop="1556668855599" status="passed">
+      <name>testLoadScopedDataCached</name>
+    </test-case>
+    <test-case start="1556668855599" stop="1556668855601" status="passed">
+      <name>testLoadScopeDataWithEmptyData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668662015" stop="1556668662017" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\Dependency\Report\Circular\Data\ModuleTest</name>
+  <test-cases>
+    <test-case start="1556668662015" stop="1556668662015" status="passed">
+      <name>testGetName</name>
+    </test-case>
+    <test-case start="1556668662016" stop="1556668662016" status="passed">
+      <name>testGetChains</name>
+    </test-case>
+    <test-case start="1556668662016" stop="1556668662017" status="passed">
+      <name>testGetChainsCount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

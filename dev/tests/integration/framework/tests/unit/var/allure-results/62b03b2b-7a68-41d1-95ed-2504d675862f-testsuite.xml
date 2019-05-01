@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668877215" stop="1556668877227" version="1.4.0">
+  <name>Magento\Test\Event\PhpUnitTest</name>
+  <test-cases>
+    <test-case start="1556668877215" stop="1556668877216" status="passed">
+      <name>testConstructorDefaultEventManager</name>
+    </test-case>
+    <test-case start="1556668877216" stop="1556668877217" status="passed">
+      <name>testConstructorException</name>
+    </test-case>
+    <test-case start="1556668877217" stop="1556668877220" status="passed">
+      <name>testDoNotFireEvent with data set "method "addError""</name>
+    </test-case>
+    <test-case start="1556668877220" stop="1556668877221" status="passed">
+      <name>testDoNotFireEvent with data set "method "addFailure""</name>
+    </test-case>
+    <test-case start="1556668877221" stop="1556668877221" status="passed">
+      <name>testDoNotFireEvent with data set "method "addIncompleteTest""</name>
+    </test-case>
+    <test-case start="1556668877221" stop="1556668877222" status="passed">
+      <name>testDoNotFireEvent with data set "method "addSkippedTest""</name>
+    </test-case>
+    <test-case start="1556668877222" stop="1556668877222" status="passed">
+      <name>testStartTestSuiteFireEvent</name>
+    </test-case>
+    <test-case start="1556668877223" stop="1556668877223" status="passed">
+      <name>testStartTestSuiteDoNotFireEvent</name>
+    </test-case>
+    <test-case start="1556668877223" stop="1556668877224" status="passed">
+      <name>testEndTestSuiteFireEvent</name>
+    </test-case>
+    <test-case start="1556668877224" stop="1556668877224" status="passed">
+      <name>testEndTestSuiteDoNotFireEvent</name>
+    </test-case>
+    <test-case start="1556668877224" stop="1556668877225" status="passed">
+      <name>testStartTestFireEvent</name>
+    </test-case>
+    <test-case start="1556668877225" stop="1556668877226" status="passed">
+      <name>testStartTestDoNotFireEvent</name>
+    </test-case>
+    <test-case start="1556668877226" stop="1556668877226" status="passed">
+      <name>testEndTestFireEvent</name>
+    </test-case>
+    <test-case start="1556668877226" stop="1556668877227" status="passed">
+      <name>testEndTestDoNotFireEvent</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

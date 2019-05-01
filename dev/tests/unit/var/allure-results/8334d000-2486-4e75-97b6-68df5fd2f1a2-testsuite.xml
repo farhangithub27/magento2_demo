@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747125" stop="1556668747133" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\CustomerTokenServiceTest</name>
+  <test-cases>
+    <test-case start="1556668747125" stop="1556668747129" status="passed">
+      <name>testRevokeCustomerAccessToken</name>
+    </test-case>
+    <test-case start="1556668747130" stop="1556668747131" status="passed">
+      <name>testRevokeCustomerAccessTokenWithoutCustomerId</name>
+    </test-case>
+    <test-case start="1556668747132" stop="1556668747133" status="passed">
+      <name>testRevokeCustomerAccessTokenCannotRevoked</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

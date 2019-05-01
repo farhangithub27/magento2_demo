@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668862728" stop="1556668862748" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Declaration\Schema\Db\MySQL\Definition\Columns\IntegerTest</name>
+  <test-cases>
+    <test-case start="1556668862728" stop="1556668862735" status="passed">
+      <name>testToDefinition</name>
+    </test-case>
+    <test-case start="1556668862735" stop="1556668862736" status="passed">
+      <name>testFromDefinition with data set #0</name>
+    </test-case>
+    <test-case start="1556668862737" stop="1556668862738" status="passed">
+      <name>testFromDefinition with data set #1</name>
+    </test-case>
+    <test-case start="1556668862738" stop="1556668862739" status="passed">
+      <name>testFromDefinition with data set #2</name>
+    </test-case>
+    <test-case start="1556668862740" stop="1556668862741" status="passed">
+      <name>testFromDefinition with data set #3</name>
+    </test-case>
+    <test-case start="1556668862741" stop="1556668862742" status="passed">
+      <name>testFromDefinition with data set #4</name>
+    </test-case>
+    <test-case start="1556668862743" stop="1556668862744" status="passed">
+      <name>testFromDefinition with data set #5</name>
+    </test-case>
+    <test-case start="1556668862744" stop="1556668862745" status="passed">
+      <name>testFromDefinition with data set #6</name>
+    </test-case>
+    <test-case start="1556668862745" stop="1556668862747" status="passed">
+      <name>testFromDefinition with data set #7</name>
+    </test-case>
+    <test-case start="1556668862747" stop="1556668862748" status="passed">
+      <name>testFromDefinition with data set #8</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

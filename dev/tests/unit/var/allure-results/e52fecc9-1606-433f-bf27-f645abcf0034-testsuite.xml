@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668820095" stop="1556668820114" version="1.4.0">
+  <name>Magento\Swatches\Test\Unit\Model\SwatchAttributeTypeTest</name>
+  <test-cases>
+    <test-case start="1556668820096" stop="1556668820101" status="passed">
+      <name>testIsSwatchAttribute with data set #0</name>
+    </test-case>
+    <test-case start="1556668820101" stop="1556668820102" status="passed">
+      <name>testIsSwatchAttribute with data set #1</name>
+    </test-case>
+    <test-case start="1556668820103" stop="1556668820104" status="passed">
+      <name>testIsSwatchAttribute with data set #2</name>
+    </test-case>
+    <test-case start="1556668820104" stop="1556668820105" status="passed">
+      <name>testIsTextSwatch with data set #0</name>
+    </test-case>
+    <test-case start="1556668820106" stop="1556668820107" status="passed">
+      <name>testIsTextSwatch with data set #1</name>
+    </test-case>
+    <test-case start="1556668820107" stop="1556668820108" status="passed">
+      <name>testIsTextSwatch with data set #2</name>
+    </test-case>
+    <test-case start="1556668820109" stop="1556668820109" status="passed">
+      <name>testIsVisualSwatch with data set #0</name>
+    </test-case>
+    <test-case start="1556668820110" stop="1556668820111" status="passed">
+      <name>testIsVisualSwatch with data set #1</name>
+    </test-case>
+    <test-case start="1556668820111" stop="1556668820112" status="passed">
+      <name>testIsVisualSwatch with data set #2</name>
+    </test-case>
+    <test-case start="1556668820112" stop="1556668820114" status="passed">
+      <name>testIfAttributeHasNotAdditionData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

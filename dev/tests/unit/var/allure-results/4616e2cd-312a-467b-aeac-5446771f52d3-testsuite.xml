@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668874739" stop="1556668874744" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\TemplateEngine\PhpTest</name>
+  <test-cases>
+    <test-case start="1556668874739" stop="1556668874741" status="passed">
+      <name>testRender</name>
+    </test-case>
+    <test-case start="1556668874741" stop="1556668874742" status="passed">
+      <name>testRenderException</name>
+    </test-case>
+    <test-case start="1556668874743" stop="1556668874743" status="passed">
+      <name>testHelperWithInvalidClass</name>
+    </test-case>
+    <test-case start="1556668874743" stop="1556668874744" status="passed">
+      <name>testHelperWithValidClass</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

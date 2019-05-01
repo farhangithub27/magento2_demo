@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668681122" stop="1556668681161" version="1.4.0">
+  <name>Magento\CatalogImportExport\Test\Unit\Model\Import\UploaderTest</name>
+  <test-cases>
+    <test-case start="1556668681122" stop="1556668681134" status="passed">
+      <name>testMoveFileUrl with data set #0</name>
+    </test-case>
+    <test-case start="1556668681134" stop="1556668681138" status="passed">
+      <name>testMoveFileUrl with data set #1</name>
+    </test-case>
+    <test-case start="1556668681138" stop="1556668681142" status="passed">
+      <name>testMoveFileUrl with data set #2</name>
+    </test-case>
+    <test-case start="1556668681142" stop="1556668681145" status="passed">
+      <name>testMoveFileUrl with data set #3</name>
+    </test-case>
+    <test-case start="1556668681146" stop="1556668681149" status="passed">
+      <name>testMoveFileUrl with data set #4</name>
+    </test-case>
+    <test-case start="1556668681150" stop="1556668681153" status="passed">
+      <name>testMoveFileUrl with data set #5</name>
+    </test-case>
+    <test-case start="1556668681154" stop="1556668681156" status="passed">
+      <name>testMoveFileName</name>
+    </test-case>
+    <test-case start="1556668681156" stop="1556668681159" status="passed">
+      <name>testMoveFileUrlDrivePool with data set #0</name>
+    </test-case>
+    <test-case start="1556668681159" stop="1556668681161" status="passed">
+      <name>testMoveFileUrlDrivePool with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

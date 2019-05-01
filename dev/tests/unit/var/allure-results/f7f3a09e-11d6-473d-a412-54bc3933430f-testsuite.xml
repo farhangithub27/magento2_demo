@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668705227" stop="1556668705232" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Ui\DataProvider\Product\Related\CrossSellDataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668705228" stop="1556668705231" status="passed">
+      <name>testGetCollection</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

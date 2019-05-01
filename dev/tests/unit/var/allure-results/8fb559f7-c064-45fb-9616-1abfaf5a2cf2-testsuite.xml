@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668801174" stop="1556668801193" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Block\Order\Item\Renderer\DefaultRendererTest</name>
+  <test-cases>
+    <test-case start="1556668801174" stop="1556668801179" status="passed">
+      <name>testGetItemPriceHtml</name>
+    </test-case>
+    <test-case start="1556668801179" stop="1556668801183" status="passed">
+      <name>testGetItemRowTotalHtml</name>
+    </test-case>
+    <test-case start="1556668801183" stop="1556668801187" status="passed">
+      <name>testGetItemRowTotalAfterDiscountHtml</name>
+    </test-case>
+    <test-case start="1556668801188" stop="1556668801193" status="passed">
+      <name>testGetTotalAmount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

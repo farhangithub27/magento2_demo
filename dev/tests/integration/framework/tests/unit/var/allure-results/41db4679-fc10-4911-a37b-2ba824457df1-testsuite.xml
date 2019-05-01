@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668877593" stop="1556668877667" version="1.4.0">
+  <name>Magento\Test\TestCase\ControllerAbstractTest</name>
+  <test-cases>
+    <test-case start="1556668877594" stop="1556668877623" status="passed">
+      <name>testGetRequest</name>
+    </test-case>
+    <test-case start="1556668877623" stop="1556668877626" status="passed">
+      <name>testGetResponse</name>
+    </test-case>
+    <test-case start="1556668877626" stop="1556668877629" status="passed">
+      <name>testAssert404NotFound</name>
+    </test-case>
+    <test-case start="1556668877630" stop="1556668877632" status="passed">
+      <name>testAssertRedirectFailure</name>
+    </test-case>
+    <test-case start="1556668877633" stop="1556668877641" status="passed">
+      <name>testAssertRedirect</name>
+    </test-case>
+    <test-case start="1556668877642" stop="1556668877647" status="passed">
+      <name>testAssertSessionMessagesSuccess with data set "message warning type filtering"</name>
+    </test-case>
+    <test-case start="1556668877648" stop="1556668877652" status="passed">
+      <name>testAssertSessionMessagesSuccess with data set "message error type filtering"</name>
+    </test-case>
+    <test-case start="1556668877652" stop="1556668877656" status="passed">
+      <name>testAssertSessionMessagesSuccess with data set "message notice type filtering"</name>
+    </test-case>
+    <test-case start="1556668877657" stop="1556668877660" status="passed">
+      <name>testAssertSessionMessagesSuccess with data set "message success type filtering"</name>
+    </test-case>
+    <test-case start="1556668877661" stop="1556668877664" status="passed">
+      <name>testAssertSessionMessagesAll</name>
+    </test-case>
+    <test-case start="1556668877664" stop="1556668877667" status="passed">
+      <name>testAssertSessionMessagesEmpty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668686272" stop="1556668686325" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\ResourceModel\Advanced\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668686272" stop="1556668686296" status="passed">
+      <name>testLoadWithFilterNoFilters</name>
+    </test-case>
+    <test-case start="1556668686296" stop="1556668686324" status="passed">
+      <name>testLike</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

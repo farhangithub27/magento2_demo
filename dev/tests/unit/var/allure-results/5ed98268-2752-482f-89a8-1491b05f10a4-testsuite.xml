@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668784538" stop="1556668784543" version="1.4.0">
+  <name>Magento\Payment\Test\Unit\Model\Checks\CanUseForCountry\CountryProviderTest</name>
+  <test-cases>
+    <test-case start="1556668784538" stop="1556668784540" status="passed">
+      <name>testGetCountry</name>
+    </test-case>
+    <test-case start="1556668784541" stop="1556668784542" status="passed">
+      <name>testGetCountryForBillingAddressWithoutCountry</name>
+    </test-case>
+    <test-case start="1556668784542" stop="1556668784543" status="passed">
+      <name>testGetCountryShippingAddress</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

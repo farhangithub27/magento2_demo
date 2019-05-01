@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856209" stop="1556668856223" version="1.4.0">
+  <name>Magento\Framework\Math\Test\Unit\FloatComparatorTest</name>
+  <test-cases>
+    <test-case start="1556668856210" stop="1556668856211" status="passed">
+      <name>testEq with data set #0</name>
+    </test-case>
+    <test-case start="1556668856211" stop="1556668856211" status="passed">
+      <name>testEq with data set #1</name>
+    </test-case>
+    <test-case start="1556668856212" stop="1556668856212" status="passed">
+      <name>testEq with data set #2</name>
+    </test-case>
+    <test-case start="1556668856213" stop="1556668856213" status="passed">
+      <name>testEq with data set #3</name>
+    </test-case>
+    <test-case start="1556668856213" stop="1556668856214" status="passed">
+      <name>testEq with data set #4</name>
+    </test-case>
+    <test-case start="1556668856214" stop="1556668856215" status="passed">
+      <name>testGt with data set #0</name>
+    </test-case>
+    <test-case start="1556668856215" stop="1556668856215" status="passed">
+      <name>testGt with data set #1</name>
+    </test-case>
+    <test-case start="1556668856216" stop="1556668856216" status="passed">
+      <name>testGt with data set #2</name>
+    </test-case>
+    <test-case start="1556668856216" stop="1556668856217" status="passed">
+      <name>testGt with data set #3</name>
+    </test-case>
+    <test-case start="1556668856217" stop="1556668856218" status="passed">
+      <name>testGt with data set #4</name>
+    </test-case>
+    <test-case start="1556668856218" stop="1556668856219" status="passed">
+      <name>testGte with data set #0</name>
+    </test-case>
+    <test-case start="1556668856219" stop="1556668856219" status="passed">
+      <name>testGte with data set #1</name>
+    </test-case>
+    <test-case start="1556668856220" stop="1556668856220" status="passed">
+      <name>testGte with data set #2</name>
+    </test-case>
+    <test-case start="1556668856221" stop="1556668856221" status="passed">
+      <name>testGte with data set #3</name>
+    </test-case>
+    <test-case start="1556668856221" stop="1556668856222" status="passed">
+      <name>testGte with data set #4</name>
+    </test-case>
+    <test-case start="1556668856222" stop="1556668856222" status="passed">
+      <name>testGte with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

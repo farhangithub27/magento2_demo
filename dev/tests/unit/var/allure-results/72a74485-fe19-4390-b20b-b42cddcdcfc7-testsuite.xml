@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668684479" stop="1556668684480" version="1.4.0">
+  <name>Magento\CatalogRule\Test\Unit\Model\Rule\WebsitesOptionsProviderTest</name>
+  <test-cases>
+    <test-case start="1556668684479" stop="1556668684480" status="passed">
+      <name>testToOptionArray</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

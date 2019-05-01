@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860849" stop="1556668860853" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Adapter\Mysql\Filter\Builder\WildcardTest</name>
+  <test-cases>
+    <test-case start="1556668860850" stop="1556668860851" status="passed">
+      <name>testBuildQuery with data set "positive"</name>
+    </test-case>
+    <test-case start="1556668860852" stop="1556668860852" status="passed">
+      <name>testBuildQuery with data set "negative"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668874581" stop="1556668874601" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Result\LayoutTest</name>
+  <test-cases>
+    <test-case start="1556668874582" stop="1556668874584" status="passed">
+      <name>testGetLayout</name>
+    </test-case>
+    <test-case start="1556668874584" stop="1556668874586" status="passed">
+      <name>testGetDefaultLayoutHandle</name>
+    </test-case>
+    <test-case start="1556668874586" stop="1556668874588" status="passed">
+      <name>testAddHandle</name>
+    </test-case>
+    <test-case start="1556668874589" stop="1556668874591" status="passed">
+      <name>testAddUpdate</name>
+    </test-case>
+    <test-case start="1556668874592" stop="1556668874595" status="passed">
+      <name>testRenderResult with data set #0</name>
+    </test-case>
+    <test-case start="1556668874596" stop="1556668874599" status="passed">
+      <name>testRenderResult with data set #1</name>
+    </test-case>
+    <test-case start="1556668874599" stop="1556668874601" status="passed">
+      <name>testAddDefaultHandle</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

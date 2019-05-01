@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668714716" stop="1556668714754" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\OptionRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668714716" stop="1556668714721" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668714722" stop="1556668714723" status="passed">
+      <name>testGetNotConfigurableProduct</name>
+    </test-case>
+    <test-case start="1556668714724" stop="1556668714725" status="passed">
+      <name>testGetNotProductById</name>
+    </test-case>
+    <test-case start="1556668714726" stop="1556668714728" status="passed">
+      <name>testDeleteCantSaveProducts</name>
+    </test-case>
+    <test-case start="1556668714728" stop="1556668714730" status="passed">
+      <name>testDeleteCantDeleteOption</name>
+    </test-case>
+    <test-case start="1556668714731" stop="1556668714733" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668714733" stop="1556668714735" status="passed">
+      <name>testGetEmptyExtensionAttribute</name>
+    </test-case>
+    <test-case start="1556668714735" stop="1556668714737" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668714737" stop="1556668714739" status="passed">
+      <name>testGetListNotConfigurableProduct</name>
+    </test-case>
+    <test-case start="1556668714739" stop="1556668714743" status="passed">
+      <name>testValidateNewOptionData with data set #0</name>
+    </test-case>
+    <test-case start="1556668714743" stop="1556668714746" status="passed">
+      <name>testValidateNewOptionData with data set #1</name>
+    </test-case>
+    <test-case start="1556668714746" stop="1556668714748" status="passed">
+      <name>testValidateNewOptionData with data set #2</name>
+    </test-case>
+    <test-case start="1556668714749" stop="1556668714751" status="passed">
+      <name>testValidateNewOptionData with data set #3</name>
+    </test-case>
+    <test-case start="1556668714752" stop="1556668714754" status="passed">
+      <name>testValidateNewOptionData with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

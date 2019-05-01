@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668873663" stop="1556668873687" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Layout\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668873664" stop="1556668873666" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "options without model attribute"</name>
+    </test-case>
+    <test-case start="1556668873667" stop="1556668873668" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "url without path attribute"</name>
+    </test-case>
+    <test-case start="1556668873669" stop="1556668873670" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "url without param name"</name>
+    </test-case>
+    <test-case start="1556668873671" stop="1556668873672" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "url with forbidden param attribute"</name>
+    </test-case>
+    <test-case start="1556668873673" stop="1556668873675" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "url with forbidden param sub-element"</name>
+    </test-case>
+    <test-case start="1556668873675" stop="1556668873677" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "helper without helper attribute"</name>
+    </test-case>
+    <test-case start="1556668873677" stop="1556668873679" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "helper without param name"</name>
+    </test-case>
+    <test-case start="1556668873679" stop="1556668873681" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "helper with forbidden param attribute"</name>
+    </test-case>
+    <test-case start="1556668873681" stop="1556668873683" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "helper with forbidden param sub-element"</name>
+    </test-case>
+    <test-case start="1556668873683" stop="1556668873685" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "action with doubled arguments"</name>
+    </test-case>
+    <test-case start="1556668873685" stop="1556668873687" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

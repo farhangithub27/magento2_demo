@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859978" stop="1556668859980" version="1.4.0">
+  <name>Magento\Framework\Profiler\Test\Unit\Driver\Standard\Output\CsvfileTest</name>
+  <test-cases>
+    <test-case start="1556668859978" stop="1556668859979" status="passed">
+      <name>testConstructor with data set "Default config"</name>
+    </test-case>
+    <test-case start="1556668859979" stop="1556668859980" status="passed">
+      <name>testConstructor with data set "Custom config"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668833122" stop="1556668833138" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Model\Soap\Wsdl\GeneratorTest</name>
+  <test-cases>
+    <test-case start="1556668833122" stop="1556668833126" status="passed">
+      <name>testGetElementComplexTypeName</name>
+    </test-case>
+    <test-case start="1556668833126" stop="1556668833127" status="passed">
+      <name>testGetPortTypeName</name>
+    </test-case>
+    <test-case start="1556668833128" stop="1556668833129" status="passed">
+      <name>testGetBindingName</name>
+    </test-case>
+    <test-case start="1556668833129" stop="1556668833131" status="passed">
+      <name>testGetPortName</name>
+    </test-case>
+    <test-case start="1556668833131" stop="1556668833132" status="passed">
+      <name>testGetServiceName</name>
+    </test-case>
+    <test-case start="1556668833133" stop="1556668833134" status="passed">
+      <name>testGetInputMessageName</name>
+    </test-case>
+    <test-case start="1556668833134" stop="1556668833136" status="passed">
+      <name>testGetOutputMessageName</name>
+    </test-case>
+    <test-case start="1556668833136" stop="1556668833138" status="passed">
+      <name>testHandleWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

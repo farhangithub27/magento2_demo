@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855832" stop="1556668855851" version="1.4.0">
+  <name>Magento\Framework\Locale\Test\Unit\FormatTest</name>
+  <test-cases>
+    <test-case start="1556668855833" stop="1556668855835" status="passed">
+      <name>testGetPriceFormat with data set #0</name>
+    </test-case>
+    <test-case start="1556668855835" stop="1556668855836" status="failed">
+      <name>testGetPriceFormat with data set #1</name>
+      <failure>
+        <message>Failed asserting that actual size 0 matches expected size 2.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(62): PHPUnit\Framework\Constraint\Constraint-&gt;fail(Array, '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate(Array, '')
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(454): PHPUnit\Framework\Assert::assertThat(Array, Object(PHPUnit\Framework\Constraint\Count), '')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Locale/Test/Unit/FormatTest.php(82): PHPUnit\Framework\Assert::assertCount(2, Array)
+#4 [internal function]: Magento\Framework\Locale\Test\Unit\FormatTest-&gt;testGetPriceFormat('de_DE', Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Locale\Test\Unit\FormatTest), Array)
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Locale\Test\Unit\FormatTest))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#17 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668855837" stop="1556668855838" status="failed">
+      <name>testGetPriceFormat with data set #2</name>
+      <failure>
+        <message>Failed asserting that actual size 1 matches expected size 2.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(62): PHPUnit\Framework\Constraint\Constraint-&gt;fail(Array, '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate(Array, '')
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(454): PHPUnit\Framework\Assert::assertThat(Array, Object(PHPUnit\Framework\Constraint\Count), '')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Locale/Test/Unit/FormatTest.php(82): PHPUnit\Framework\Assert::assertCount(2, Array)
+#4 [internal function]: Magento\Framework\Locale\Test\Unit\FormatTest-&gt;testGetPriceFormat('de_CH', Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Locale\Test\Unit\FormatTest), Array)
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Locale\Test\Unit\FormatTest))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#17 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668855838" stop="1556668855839" status="failed">
+      <name>testGetPriceFormat with data set #3</name>
+      <failure>
+        <message>Failed asserting that actual size 0 matches expected size 2.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(62): PHPUnit\Framework\Constraint\Constraint-&gt;fail(Array, '')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate(Array, '')
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/Assert.php(454): PHPUnit\Framework\Assert::assertThat(Array, Object(PHPUnit\Framework\Constraint\Count), '')
+#3 /var/www/html/magento23demo/vendor/magento/framework/Locale/Test/Unit/FormatTest.php(82): PHPUnit\Framework\Assert::assertCount(2, Array)
+#4 [internal function]: Magento\Framework\Locale\Test\Unit\FormatTest-&gt;testGetPriceFormat('uk_UA', Array)
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Framework\Locale\Test\Unit\FormatTest), Array)
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Framework\Locale\Test\Unit\FormatTest))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#15 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#16 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#17 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668855840" stop="1556668855840" status="passed">
+      <name>testGetNumber with data set #0</name>
+    </test-case>
+    <test-case start="1556668855841" stop="1556668855842" status="passed">
+      <name>testGetNumber with data set #1</name>
+    </test-case>
+    <test-case start="1556668855842" stop="1556668855843" status="passed">
+      <name>testGetNumber with data set #2</name>
+    </test-case>
+    <test-case start="1556668855843" stop="1556668855844" status="passed">
+      <name>testGetNumber with data set #3</name>
+    </test-case>
+    <test-case start="1556668855844" stop="1556668855845" status="passed">
+      <name>testGetNumber with data set #4</name>
+    </test-case>
+    <test-case start="1556668855846" stop="1556668855846" status="passed">
+      <name>testGetNumber with data set #5</name>
+    </test-case>
+    <test-case start="1556668855847" stop="1556668855847" status="passed">
+      <name>testGetNumber with data set #6</name>
+    </test-case>
+    <test-case start="1556668855848" stop="1556668855849" status="passed">
+      <name>testGetNumber with data set #7</name>
+    </test-case>
+    <test-case start="1556668855849" stop="1556668855850" status="passed">
+      <name>testGetNumber with data set #8</name>
+    </test-case>
+    <test-case start="1556668855850" stop="1556668855851" status="passed">
+      <name>testGetNumber with data set #9</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

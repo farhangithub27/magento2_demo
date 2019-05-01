@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843796" stop="1556668843804" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Console\MaintenanceModeEnablerTest</name>
+  <test-cases>
+    <test-case start="1556668843796" stop="1556668843797" status="passed">
+      <name>testSuccessfulTask with data set "Maintenance mode disabled initially"</name>
+    </test-case>
+    <test-case start="1556668843798" stop="1556668843799" status="passed">
+      <name>testSuccessfulTask with data set "Maintenance mode enabled initially"</name>
+    </test-case>
+    <test-case start="1556668843799" stop="1556668843800" status="passed">
+      <name>testFailedTaskWithMaintenanceModeOnFailure with data set "Maintenance mode disabled initially"</name>
+    </test-case>
+    <test-case start="1556668843800" stop="1556668843801" status="passed">
+      <name>testFailedTaskWithMaintenanceModeOnFailure with data set "Maintenance mode enabled initially"</name>
+    </test-case>
+    <test-case start="1556668843801" stop="1556668843803" status="passed">
+      <name>testFailedTaskWithRestoredModeOnFailure with data set "Maintenance mode disabled initially"</name>
+    </test-case>
+    <test-case start="1556668843803" stop="1556668843804" status="passed">
+      <name>testFailedTaskWithRestoredModeOnFailure with data set "Maintenance mode enabled initially"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

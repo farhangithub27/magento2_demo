@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667898" stop="1556668667902" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Gateway\Command\RefundTransactionStrategyCommandTest</name>
+  <test-cases>
+    <test-case start="1556668667898" stop="1556668667899" status="passed">
+      <name>testCommandWillVoidWhenTransactionIsPendingSettlement</name>
+    </test-case>
+    <test-case start="1556668667899" stop="1556668667900" status="passed">
+      <name>testCommandWillRefundWhenTransactionIsSettled</name>
+    </test-case>
+    <test-case start="1556668667901" stop="1556668667901" status="passed">
+      <name>testCommandWillThrowExceptionWhenTransactionIsInInvalidState</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

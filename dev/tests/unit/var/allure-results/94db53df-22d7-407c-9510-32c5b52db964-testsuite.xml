@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668745444" stop="1556668745447" version="1.4.0">
+  <name>Magento\Indexer\Test\Unit\Model\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668745445" stop="1556668745445" status="passed">
+      <name>testGetIndexers</name>
+    </test-case>
+    <test-case start="1556668745445" stop="1556668745446" status="passed">
+      <name>testGetIndexer</name>
+    </test-case>
+    <test-case start="1556668745446" stop="1556668745447" status="passed">
+      <name>testGetNotExistingIndexer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

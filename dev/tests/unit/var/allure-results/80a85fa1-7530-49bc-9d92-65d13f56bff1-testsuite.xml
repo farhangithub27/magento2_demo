@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668733259" stop="1556668733299" version="1.4.0">
+  <name>Magento\Downloadable\Test\Unit\Helper\DownloadTest</name>
+  <test-cases>
+    <test-case start="1556668733260" stop="1556668733265" status="passed">
+      <name>testSetResourceInvalidPath</name>
+    </test-case>
+    <test-case start="1556668733265" stop="1556668733268" status="passed">
+      <name>testGetFileSizeNoResource</name>
+    </test-case>
+    <test-case start="1556668733268" stop="1556668733270" status="passed">
+      <name>testGetFileSizeInvalidLinkType</name>
+    </test-case>
+    <test-case start="1556668733270" stop="1556668733273" status="passed">
+      <name>testGetFileSizeUrl</name>
+    </test-case>
+    <test-case start="1556668733273" stop="1556668733275" status="passed">
+      <name>testGetFileSize</name>
+    </test-case>
+    <test-case start="1556668733276" stop="1556668733278" status="passed">
+      <name>testGetFileSizeNoFile</name>
+    </test-case>
+    <test-case start="1556668733278" stop="1556668733281" status="passed">
+      <name>testGetContentType</name>
+    </test-case>
+    <test-case start="1556668733281" stop="1556668733284" status="passed">
+      <name>testGetContentTypeThroughHelper with data set #0</name>
+    </test-case>
+    <test-case start="1556668733284" stop="1556668733287" status="passed">
+      <name>testGetContentTypeThroughHelper with data set #1</name>
+    </test-case>
+    <test-case start="1556668733287" stop="1556668733289" status="passed">
+      <name>testGetContentTypeUrl</name>
+    </test-case>
+    <test-case start="1556668733290" stop="1556668733292" status="passed">
+      <name>testGetFilename</name>
+    </test-case>
+    <test-case start="1556668733292" stop="1556668733294" status="passed">
+      <name>testGetFileNameUrl</name>
+    </test-case>
+    <test-case start="1556668733294" stop="1556668733297" status="passed">
+      <name>testGetFileNameUrlWithContentDisposition</name>
+    </test-case>
+    <test-case start="1556668733297" stop="1556668733299" status="passed">
+      <name>testOutput</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

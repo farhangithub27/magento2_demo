@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668782113" stop="1556668782133" version="1.4.0">
+  <name>Magento\OfflineShipping\Test\Unit\Block\Adminhtml\Carrier\Tablerate\GridTest</name>
+  <test-cases>
+    <test-case start="1556668782113" stop="1556668782125" status="passed">
+      <name>testSetWebsiteId</name>
+    </test-case>
+    <test-case start="1556668782125" stop="1556668782129" status="passed">
+      <name>testGetWebsiteId</name>
+    </test-case>
+    <test-case start="1556668782129" stop="1556668782133" status="passed">
+      <name>testSetAndGetConditionName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

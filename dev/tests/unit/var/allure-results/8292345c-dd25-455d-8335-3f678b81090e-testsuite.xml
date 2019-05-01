@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668808857" stop="1556668808945" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Pdf\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668808858" stop="1556668808859" status="passed">
+      <name>testSchemaByExemplar with data set "valid empty"</name>
+    </test-case>
+    <test-case start="1556668808860" stop="1556668808860" status="passed">
+      <name>testSchemaByExemplar with data set "valid empty renderers"</name>
+    </test-case>
+    <test-case start="1556668808861" stop="1556668808862" status="passed">
+      <name>testSchemaByExemplar with data set "valid empty totals"</name>
+    </test-case>
+    <test-case start="1556668808862" stop="1556668808863" status="passed">
+      <name>testSchemaByExemplar with data set "valid empty renderers and totals"</name>
+    </test-case>
+    <test-case start="1556668808863" stop="1556668808864" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid unknown node in &lt;config&gt;"</name>
+    </test-case>
+    <test-case start="1556668808864" stop="1556668808865" status="passed">
+      <name>testSchemaByExemplar with data set "valid pages"</name>
+    </test-case>
+    <test-case start="1556668808866" stop="1556668808866" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid non-unique pages"</name>
+    </test-case>
+    <test-case start="1556668808867" stop="1556668808868" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid unknown node in renderers"</name>
+    </test-case>
+    <test-case start="1556668808868" stop="1556668808869" status="passed">
+      <name>testSchemaByExemplar with data set "valid page renderers"</name>
+    </test-case>
+    <test-case start="1556668808869" stop="1556668808870" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid non-unique page renderers"</name>
+    </test-case>
+    <test-case start="1556668808871" stop="1556668808871" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid empty renderer class name"</name>
+    </test-case>
+    <test-case start="1556668808872" stop="1556668808873" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid unknown node in page"</name>
+    </test-case>
+    <test-case start="1556668808873" stop="1556668808874" status="passed">
+      <name>testSchemaByExemplar with data set "valid totals"</name>
+    </test-case>
+    <test-case start="1556668808874" stop="1556668808875" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid non-unique total items"</name>
+    </test-case>
+    <test-case start="1556668808876" stop="1556668808877" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid unknown node in total items"</name>
+    </test-case>
+    <test-case start="1556668808877" stop="1556668808878" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals empty title"</name>
+    </test-case>
+    <test-case start="1556668808878" stop="1556668808879" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals empty source_field"</name>
+    </test-case>
+    <test-case start="1556668808880" stop="1556668808880" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals empty title_source_field"</name>
+    </test-case>
+    <test-case start="1556668808881" stop="1556668808882" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals bad model"</name>
+    </test-case>
+    <test-case start="1556668808882" stop="1556668808883" status="passed">
+      <name>testSchemaByExemplar with data set "valid totals title_source_field"</name>
+    </test-case>
+    <test-case start="1556668808883" stop="1556668808884" status="passed">
+      <name>testSchemaByExemplar with data set "valid totals model"</name>
+    </test-case>
+    <test-case start="1556668808884" stop="1556668808885" status="passed">
+      <name>testSchemaByExemplar with data set "valid totals font_size"</name>
+    </test-case>
+    <test-case start="1556668808886" stop="1556668808886" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals font_size 0"</name>
+    </test-case>
+    <test-case start="1556668808887" stop="1556668808888" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals font_size"</name>
+    </test-case>
+    <test-case start="1556668808888" stop="1556668808889" status="passed">
+      <name>testSchemaByExemplar with data set "valid totals display_zero"</name>
+    </test-case>
+    <test-case start="1556668808889" stop="1556668808890" status="passed">
+      <name>testSchemaByExemplar with data set "valid totals display_zero true"</name>
+    </test-case>
+    <test-case start="1556668808890" stop="1556668808891" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals display_zero"</name>
+    </test-case>
+    <test-case start="1556668808892" stop="1556668808892" status="passed">
+      <name>testSchemaByExemplar with data set "valid totals sort_order"</name>
+    </test-case>
+    <test-case start="1556668808893" stop="1556668808894" status="passed">
+      <name>testSchemaByExemplar with data set "valid totals sort_order 0"</name>
+    </test-case>
+    <test-case start="1556668808894" stop="1556668808895" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals sort_order"</name>
+    </test-case>
+    <test-case start="1556668808895" stop="1556668808896" status="passed">
+      <name>testSchemaByExemplar with data set "valid totals title with translate attribute"</name>
+    </test-case>
+    <test-case start="1556668808896" stop="1556668808897" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals title with bad translate attribute"</name>
+    </test-case>
+    <test-case start="1556668808898" stop="1556668808898" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals missing title"</name>
+    </test-case>
+    <test-case start="1556668808899" stop="1556668808900" status="passed">
+      <name>testSchemaByExemplar with data set "non-valid totals missing source_field"</name>
+    </test-case>
+    <test-case start="1556668808900" stop="1556668808901" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid empty"</name>
+    </test-case>
+    <test-case start="1556668808902" stop="1556668808903" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid empty renderers"</name>
+    </test-case>
+    <test-case start="1556668808903" stop="1556668808904" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid empty totals"</name>
+    </test-case>
+    <test-case start="1556668808904" stop="1556668808905" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid empty renderers and totals"</name>
+    </test-case>
+    <test-case start="1556668808906" stop="1556668808907" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid unknown node in &lt;config&gt;"</name>
+    </test-case>
+    <test-case start="1556668808907" stop="1556668808908" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid pages"</name>
+    </test-case>
+    <test-case start="1556668808908" stop="1556668808909" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid non-unique pages"</name>
+    </test-case>
+    <test-case start="1556668808910" stop="1556668808910" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid unknown node in renderers"</name>
+    </test-case>
+    <test-case start="1556668808911" stop="1556668808912" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid page renderers"</name>
+    </test-case>
+    <test-case start="1556668808912" stop="1556668808913" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid non-unique page renderers"</name>
+    </test-case>
+    <test-case start="1556668808913" stop="1556668808914" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid empty renderer class name"</name>
+    </test-case>
+    <test-case start="1556668808915" stop="1556668808916" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid unknown node in page"</name>
+    </test-case>
+    <test-case start="1556668808916" stop="1556668808917" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals"</name>
+    </test-case>
+    <test-case start="1556668808917" stop="1556668808918" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid non-unique total items"</name>
+    </test-case>
+    <test-case start="1556668808919" stop="1556668808920" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid unknown node in total items"</name>
+    </test-case>
+    <test-case start="1556668808920" stop="1556668808921" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid totals empty title"</name>
+    </test-case>
+    <test-case start="1556668808921" stop="1556668808922" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid totals empty source_field"</name>
+    </test-case>
+    <test-case start="1556668808923" stop="1556668808924" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid totals empty title_source_field"</name>
+    </test-case>
+    <test-case start="1556668808924" stop="1556668808925" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid totals bad model"</name>
+    </test-case>
+    <test-case start="1556668808925" stop="1556668808926" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals title_source_field"</name>
+    </test-case>
+    <test-case start="1556668808927" stop="1556668808927" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals model"</name>
+    </test-case>
+    <test-case start="1556668808928" stop="1556668808929" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals font_size"</name>
+    </test-case>
+    <test-case start="1556668808929" stop="1556668808930" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid totals font_size 0"</name>
+    </test-case>
+    <test-case start="1556668808930" stop="1556668808931" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid totals font_size"</name>
+    </test-case>
+    <test-case start="1556668808932" stop="1556668808933" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals display_zero"</name>
+    </test-case>
+    <test-case start="1556668808933" stop="1556668808934" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals display_zero true"</name>
+    </test-case>
+    <test-case start="1556668808934" stop="1556668808935" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid totals display_zero"</name>
+    </test-case>
+    <test-case start="1556668808936" stop="1556668808937" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals sort_order"</name>
+    </test-case>
+    <test-case start="1556668808937" stop="1556668808938" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals sort_order 0"</name>
+    </test-case>
+    <test-case start="1556668808938" stop="1556668808939" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid totals sort_order"</name>
+    </test-case>
+    <test-case start="1556668808940" stop="1556668808941" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals title with translate attribute"</name>
+    </test-case>
+    <test-case start="1556668808941" stop="1556668808942" status="passed">
+      <name>testFileSchemaByExemplar with data set "non-valid totals title with bad translate attribute"</name>
+    </test-case>
+    <test-case start="1556668808942" stop="1556668808943" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals missing title"</name>
+    </test-case>
+    <test-case start="1556668808944" stop="1556668808944" status="passed">
+      <name>testFileSchemaByExemplar with data set "valid totals missing source_field"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

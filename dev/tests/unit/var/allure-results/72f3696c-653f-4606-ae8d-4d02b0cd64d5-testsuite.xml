@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668661800" stop="1556668661808" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\ConfigGeneratorTest</name>
+  <test-cases>
+    <test-case start="1556668661800" stop="1556668661802" status="passed">
+      <name>testCreateCryptConfigWithInput</name>
+    </test-case>
+    <test-case start="1556668661802" stop="1556668661803" status="passed">
+      <name>testCreateCryptConfigWithoutInput</name>
+    </test-case>
+    <test-case start="1556668661803" stop="1556668661804" status="passed">
+      <name>testCreateSessionConfigWithInput</name>
+    </test-case>
+    <test-case start="1556668661804" stop="1556668661805" status="passed">
+      <name>testCreateSessionConfigWithoutInput</name>
+    </test-case>
+    <test-case start="1556668661805" stop="1556668661806" status="passed">
+      <name>testCreateDbConfig</name>
+    </test-case>
+    <test-case start="1556668661807" stop="1556668661808" status="passed">
+      <name>testCreateResourceConfig</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

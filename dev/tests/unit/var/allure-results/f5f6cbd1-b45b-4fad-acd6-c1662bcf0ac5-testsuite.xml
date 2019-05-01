@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668789883" stop="1556668789903" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Observer\ApplyBlockPersistentDataObserverTest</name>
+  <test-cases>
+    <test-case start="1556668789883" stop="1556668789895" status="passed">
+      <name>testExecuteWhenSessionNotPersistent</name>
+    </test-case>
+    <test-case start="1556668789895" stop="1556668789896" status="passed">
+      <name>testExecuteForLoggedInAndPersistentCustomer</name>
+    </test-case>
+    <test-case start="1556668789896" stop="1556668789898" status="passed">
+      <name>testExecuteWhenBlockDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668789898" stop="1556668789900" status="passed">
+      <name>testExecuteWhenConfigFilePathDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668789900" stop="1556668789903" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

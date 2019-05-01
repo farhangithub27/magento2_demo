@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668798741" stop="1556668798756" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Model\ResourceModel\Report\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668798741" stop="1556668798745" status="passed">
+      <name>testAddRuleFilter</name>
+    </test-case>
+    <test-case start="1556668798745" stop="1556668798747" status="passed">
+      <name>testApplyAggregatedTableNegativeIsTotals</name>
+    </test-case>
+    <test-case start="1556668798747" stop="1556668798749" status="passed">
+      <name>testApplyAggregatedTableIsSubTotals</name>
+    </test-case>
+    <test-case start="1556668798749" stop="1556668798751" status="passed">
+      <name>testApplyRulesFilterNoRulesIdsFilter</name>
+    </test-case>
+    <test-case start="1556668798751" stop="1556668798753" status="passed">
+      <name>testApplyRulesFilterEmptyRulesList</name>
+    </test-case>
+    <test-case start="1556668798753" stop="1556668798756" status="passed">
+      <name>testApplyRulesFilterWithRulesList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

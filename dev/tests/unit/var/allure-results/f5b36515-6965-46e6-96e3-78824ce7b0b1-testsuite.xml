@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838162" stop="1556668838168" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Vertex\GetStoreIdTest</name>
+  <test-cases>
+    <test-case start="1556668838162" stop="1556668838166" status="passed">
+      <name>testInvoiceSuppliesDataFromOrder</name>
+    </test-case>
+    <test-case start="1556668838166" stop="1556668838168" status="passed">
+      <name>testNoOrderReturnsNull</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

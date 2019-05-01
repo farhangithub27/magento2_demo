@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668724699" stop="1556668724721" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Metadata\Form\ImageTest</name>
+  <test-cases>
+    <test-case start="1556668724700" stop="1556668724702" status="passed">
+      <name>testValidateIsNotValidFile</name>
+    </test-case>
+    <test-case start="1556668724703" stop="1556668724704" status="passed">
+      <name>testValidate</name>
+    </test-case>
+    <test-case start="1556668724705" stop="1556668724707" status="passed">
+      <name>testValidateMaxFileSize</name>
+    </test-case>
+    <test-case start="1556668724708" stop="1556668724710" status="passed">
+      <name>testValidateMaxImageWidth</name>
+    </test-case>
+    <test-case start="1556668724710" stop="1556668724713" status="passed">
+      <name>testValidateMaxImageHeight</name>
+    </test-case>
+    <test-case start="1556668724713" stop="1556668724714" status="passed">
+      <name>testCompactValueNoChanges</name>
+    </test-case>
+    <test-case start="1556668724714" stop="1556668724716" status="passed">
+      <name>testCompactValueUiComponentAddress</name>
+    </test-case>
+    <test-case start="1556668724716" stop="1556668724719" status="passed">
+      <name>testCompactValueUiComponentCustomer</name>
+    </test-case>
+    <test-case start="1556668724719" stop="1556668724720" status="passed">
+      <name>testCompactValueUiComponentCustomerNotExists</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

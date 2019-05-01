@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668679739" stop="1556668679839" version="1.4.0">
+  <name>Magento\CatalogImportExport\Test\Unit\Model\Import\Product\Type\AbstractTypeTest</name>
+  <test-cases>
+    <test-case start="1556668679740" stop="1556668679782" status="passed">
+      <name>testAddAttributeOption with data set #0</name>
+    </test-case>
+    <test-case start="1556668679782" stop="1556668679791" status="passed">
+      <name>testAddAttributeOption with data set #1</name>
+    </test-case>
+    <test-case start="1556668679792" stop="1556668679801" status="passed">
+      <name>testAddAttributeOptionReturn</name>
+    </test-case>
+    <test-case start="1556668679801" stop="1556668679810" status="passed">
+      <name>testGetCustomFieldsMapping</name>
+    </test-case>
+    <test-case start="1556668679811" stop="1556668679820" status="passed">
+      <name>testIsRowValidSuccess</name>
+    </test-case>
+    <test-case start="1556668679820" stop="1556668679830" status="passed">
+      <name>testIsRowValidError</name>
+    </test-case>
+    <test-case start="1556668679830" stop="1556668679839" status="passed">
+      <name>testPrepareAttributesWithDefaultValueForSave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

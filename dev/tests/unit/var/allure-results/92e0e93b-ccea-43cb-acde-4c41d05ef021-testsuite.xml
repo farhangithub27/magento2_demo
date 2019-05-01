@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668800023" stop="1556668800039" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Block\Adminhtml\Order\Comments\ViewTest</name>
+  <test-cases>
+    <test-case start="1556668800024" stop="1556668800031" status="passed">
+      <name>testEscapeHtml with data set #0</name>
+    </test-case>
+    <test-case start="1556668800031" stop="1556668800035" status="passed">
+      <name>testEscapeHtml with data set #1</name>
+    </test-case>
+    <test-case start="1556668800035" stop="1556668800039" status="passed">
+      <name>testEscapeHtml with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

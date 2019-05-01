@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715040" stop="1556668715046" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\Product\Type\Configurable\PriceTest</name>
+  <test-cases>
+    <test-case start="1556668715041" stop="1556668715046" status="passed">
+      <name>testGetFinalPrice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

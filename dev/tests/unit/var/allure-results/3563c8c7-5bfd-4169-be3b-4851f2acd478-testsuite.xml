@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668688356" stop="1556668688614" version="1.4.0">
+  <name>Magento\CatalogWidget\Test\Unit\Block\Product\ProductsListTest</name>
+  <test-cases>
+    <test-case start="1556668688357" stop="1556668688375" status="passed">
+      <name>testGetCacheKeyInfo</name>
+    </test-case>
+    <test-case start="1556668688375" stop="1556668688381" status="passed">
+      <name>testGetProductPriceHtml</name>
+    </test-case>
+    <test-case start="1556668688381" stop="1556668688386" status="passed">
+      <name>testGetPagerHtmlEmpty</name>
+    </test-case>
+    <test-case start="1556668688386" stop="1556668688398" status="passed">
+      <name>testGetPagerHtml</name>
+    </test-case>
+    <test-case start="1556668688398" stop="1556668688414" status="passed">
+      <name>testCreateCollection with data set #0</name>
+    </test-case>
+    <test-case start="1556668688414" stop="1556668688428" status="passed">
+      <name>testCreateCollection with data set #1</name>
+    </test-case>
+    <test-case start="1556668688429" stop="1556668688443" status="passed">
+      <name>testCreateCollection with data set #2</name>
+    </test-case>
+    <test-case start="1556668688443" stop="1556668688457" status="passed">
+      <name>testCreateCollection with data set #3</name>
+    </test-case>
+    <test-case start="1556668688457" stop="1556668688471" status="passed">
+      <name>testCreateCollection with data set #4</name>
+    </test-case>
+    <test-case start="1556668688472" stop="1556668688485" status="passed">
+      <name>testCreateCollection with data set #5</name>
+    </test-case>
+    <test-case start="1556668688486" stop="1556668688500" status="passed">
+      <name>testCreateCollection with data set #6</name>
+    </test-case>
+    <test-case start="1556668688500" stop="1556668688514" status="passed">
+      <name>testCreateCollection with data set #7</name>
+    </test-case>
+    <test-case start="1556668688514" stop="1556668688528" status="passed">
+      <name>testCreateCollection with data set #8</name>
+    </test-case>
+    <test-case start="1556668688529" stop="1556668688543" status="passed">
+      <name>testCreateCollection with data set #9</name>
+    </test-case>
+    <test-case start="1556668688543" stop="1556668688557" status="passed">
+      <name>testCreateCollection with data set #10</name>
+    </test-case>
+    <test-case start="1556668688557" stop="1556668688572" status="passed">
+      <name>testCreateCollection with data set #11</name>
+    </test-case>
+    <test-case start="1556668688572" stop="1556668688577" status="passed">
+      <name>testGetProductsCount</name>
+    </test-case>
+    <test-case start="1556668688577" stop="1556668688582" status="passed">
+      <name>testGetProductsPerPage</name>
+    </test-case>
+    <test-case start="1556668688582" stop="1556668688587" status="passed">
+      <name>testGetDefaultProductsPerPage</name>
+    </test-case>
+    <test-case start="1556668688587" stop="1556668688592" status="passed">
+      <name>testShowPager</name>
+    </test-case>
+    <test-case start="1556668688592" stop="1556668688599" status="passed">
+      <name>testGetIdentities</name>
+    </test-case>
+    <test-case start="1556668688599" stop="1556668688604" status="passed">
+      <name>testGetTitle</name>
+    </test-case>
+    <test-case start="1556668688604" stop="1556668688609" status="passed">
+      <name>testGetNonDefaultTitle</name>
+    </test-case>
+    <test-case start="1556668688609" stop="1556668688614" status="passed">
+      <name>testScope</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

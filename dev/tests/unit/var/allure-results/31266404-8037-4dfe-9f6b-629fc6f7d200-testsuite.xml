@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668691393" stop="1556668691399" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\RefreshPathTest</name>
+  <test-cases>
+    <test-case start="1556668691393" stop="1556668691397" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668691398" stop="1556668691399" status="passed">
+      <name>testExecuteWithoutCategoryId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

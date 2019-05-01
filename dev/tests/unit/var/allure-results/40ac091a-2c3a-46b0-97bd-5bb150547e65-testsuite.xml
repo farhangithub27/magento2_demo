@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832203" stop="1556668832207" version="1.4.0">
+  <name>Magento\WebapiAsync\Test\Unit\Model\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668832203" stop="1556668832206" status="passed">
+      <name>testGetServicesSetsTopicFromServiceContractName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

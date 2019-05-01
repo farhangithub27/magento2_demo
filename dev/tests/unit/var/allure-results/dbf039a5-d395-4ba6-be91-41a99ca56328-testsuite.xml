@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668802872" stop="1556668802895" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Controller\Adminhtml\Order\ViewTest</name>
+  <test-cases>
+    <test-case start="1556668802872" stop="1556668802881" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668802882" stop="1556668802887" status="passed">
+      <name>testExecuteNoOrder</name>
+    </test-case>
+    <test-case start="1556668802887" stop="1556668802895" status="passed">
+      <name>testGlobalException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

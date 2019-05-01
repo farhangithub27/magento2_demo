@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668853594" stop="1556668853612" version="1.4.0">
+  <name>Magento\Framework\File\Test\Unit\MimeTest</name>
+  <test-cases>
+    <test-case start="1556668853595" stop="1556668853595" status="passed">
+      <name>testGetMimeTypeNonexistentFileException</name>
+    </test-case>
+    <test-case start="1556668853596" stop="1556668853609" status="passed">
+      <name>testGetMimeType with data set "javascript"</name>
+    </test-case>
+    <test-case start="1556668853610" stop="1556668853611" status="passed">
+      <name>testGetMimeType with data set "weird extension"</name>
+    </test-case>
+    <test-case start="1556668853611" stop="1556668853612" status="passed">
+      <name>testGetMimeType with data set "weird uppercase extension"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

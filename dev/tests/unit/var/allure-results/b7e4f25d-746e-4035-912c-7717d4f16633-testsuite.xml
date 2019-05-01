@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668789294" stop="1556668789312" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\Report\Settlement\RowTest</name>
+  <test-cases>
+    <test-case start="1556668789295" stop="1556668789297" status="passed">
+      <name>testGetReferenceType with data set #0</name>
+    </test-case>
+    <test-case start="1556668789297" stop="1556668789299" status="passed">
+      <name>testGetReferenceType with data set #1</name>
+    </test-case>
+    <test-case start="1556668789299" stop="1556668789301" status="passed">
+      <name>testGetTransactionEvent with data set #0</name>
+    </test-case>
+    <test-case start="1556668789301" stop="1556668789303" status="passed">
+      <name>testGetTransactionEvent with data set #1</name>
+    </test-case>
+    <test-case start="1556668789303" stop="1556668789305" status="passed">
+      <name>testGetDebitCreditText with data set #0</name>
+    </test-case>
+    <test-case start="1556668789305" stop="1556668789307" status="passed">
+      <name>testGetDebitCreditText with data set #1</name>
+    </test-case>
+    <test-case start="1556668789307" stop="1556668789308" status="passed">
+      <name>testGetCastedAmount with data set #0</name>
+    </test-case>
+    <test-case start="1556668789309" stop="1556668789310" status="passed">
+      <name>testGetCastedAmount with data set #1</name>
+    </test-case>
+    <test-case start="1556668789310" stop="1556668789312" status="passed">
+      <name>testGetTransactionEvents</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

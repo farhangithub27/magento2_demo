@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855058" stop="1556668855062" version="1.4.0">
+  <name>Magento\Framework\Indexer\Test\Unit\BatchTest</name>
+  <test-cases>
+    <test-case start="1556668855058" stop="1556668855059" status="passed">
+      <name>testGetItems with data set "empty"</name>
+    </test-case>
+    <test-case start="1556668855059" stop="1556668855060" status="passed">
+      <name>testGetItems with data set "even, numeric keys"</name>
+    </test-case>
+    <test-case start="1556668855060" stop="1556668855060" status="passed">
+      <name>testGetItems with data set "odd, numeric keys"</name>
+    </test-case>
+    <test-case start="1556668855061" stop="1556668855061" status="passed">
+      <name>testGetItems with data set "even, string keys"</name>
+    </test-case>
+    <test-case start="1556668855062" stop="1556668855062" status="passed">
+      <name>testGetItems with data set "odd, string keys"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

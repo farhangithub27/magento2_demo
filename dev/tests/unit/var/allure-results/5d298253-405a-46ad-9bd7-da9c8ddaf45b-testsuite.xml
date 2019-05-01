@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822700" stop="1556668822731" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\TaxRuleRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668822700" stop="1556668822707" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668822707" stop="1556668822708" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668822709" stop="1556668822710" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668822710" stop="1556668822712" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668822713" stop="1556668822715" status="passed">
+      <name>testSaveWithExceptions with data set #0</name>
+    </test-case>
+    <test-case start="1556668822715" stop="1556668822717" status="passed">
+      <name>testSaveWithExceptions with data set #1</name>
+    </test-case>
+    <test-case start="1556668822717" stop="1556668822719" status="passed">
+      <name>testSaveWithExceptions with data set #2</name>
+    </test-case>
+    <test-case start="1556668822719" stop="1556668822731" status="passed">
+      <name>testGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

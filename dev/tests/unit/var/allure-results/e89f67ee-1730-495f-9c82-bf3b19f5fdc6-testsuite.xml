@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668691748" stop="1556668691861" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Controller\Adminhtml\Product\Attribute\ValidateTest</name>
+  <test-cases>
+    <test-case start="1556668691748" stop="1556668691774" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668691775" stop="1556668691783" status="passed">
+      <name>testUniqueValidation with data set "no values"</name>
+    </test-case>
+    <test-case start="1556668691784" stop="1556668691792" status="passed">
+      <name>testUniqueValidation with data set "valid options"</name>
+    </test-case>
+    <test-case start="1556668691792" stop="1556668691801" status="passed">
+      <name>testUniqueValidation with data set "duplicate options"</name>
+    </test-case>
+    <test-case start="1556668691801" stop="1556668691809" status="passed">
+      <name>testUniqueValidation with data set "duplicate and deleted"</name>
+    </test-case>
+    <test-case start="1556668691810" stop="1556668691818" status="passed">
+      <name>testUniqueValidation with data set "empty and deleted"</name>
+    </test-case>
+    <test-case start="1556668691818" stop="1556668691826" status="passed">
+      <name>testEmptyOption with data set "empty admin scope options"</name>
+    </test-case>
+    <test-case start="1556668691827" stop="1556668691834" status="passed">
+      <name>testEmptyOption with data set "not empty admin scope options"</name>
+    </test-case>
+    <test-case start="1556668691835" stop="1556668691843" status="passed">
+      <name>testEmptyOption with data set "empty admin scope options and deleted"</name>
+    </test-case>
+    <test-case start="1556668691843" stop="1556668691851" status="passed">
+      <name>testEmptyOption with data set "empty admin scope options and not deleted"</name>
+    </test-case>
+    <test-case start="1556668691851" stop="1556668691859" status="passed">
+      <name>testExecuteWithOptionsDataError</name>
+    </test-case>
+    <test-case start="1556668691859" stop="1556668691860" status="canceled">
+      <name>testDispatch</name>
+      <failure>
+        <message>Should be dispatched in parent</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-catalog/Test/Unit/Controller/Adminhtml/Product/AttributeTest.php(114): PHPUnit\Framework\Assert::markTestSkipped('Should be dispa...')
+#1 [internal function]: Magento\Catalog\Test\Unit\Controller\Adminhtml\Product\AttributeTest-&gt;testDispatch()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Catalog\Test\Unit\Controller\Adminhtml\Product\Attribute\ValidateTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Catalog\Test\Unit\Controller\Adminhtml\Product\Attribute\ValidateTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

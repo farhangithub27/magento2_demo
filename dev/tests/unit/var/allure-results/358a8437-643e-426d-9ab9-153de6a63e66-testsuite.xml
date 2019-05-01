@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843893" stop="1556668843897" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\DeploymentConfig\CommentParserTest</name>
+  <test-cases>
+    <test-case start="1556668843893" stop="1556668843895" status="passed">
+      <name>testExecuteFileDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668843895" stop="1556668843896" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

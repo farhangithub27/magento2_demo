@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668738887" stop="1556668738893" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\SearchAdapter\Aggregation\DataProviderFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668738887" stop="1556668738889" status="passed">
+      <name>testCreateDataProviderWithoutQuery</name>
+    </test-case>
+    <test-case start="1556668738889" stop="1556668738890" status="passed">
+      <name>testCreateDataProviderWithEmptyQuery</name>
+    </test-case>
+    <test-case start="1556668738890" stop="1556668738891" status="passed">
+      <name>testCreateDataProviderWithQuery</name>
+    </test-case>
+    <test-case start="1556668738891" stop="1556668738892" status="passed">
+      <name>testCreateQueryAwareDataProvider</name>
+    </test-case>
+    <test-case start="1556668738892" stop="1556668738893" status="passed">
+      <name>testCreateContainerAwareDataProviderWithoutQuery</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

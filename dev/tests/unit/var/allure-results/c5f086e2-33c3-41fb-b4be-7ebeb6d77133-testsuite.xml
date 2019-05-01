@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668703801" stop="1556668703823" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Pricing\Price\TierPriceTest</name>
+  <test-cases>
+    <test-case start="1556668703801" stop="1556668703804" status="passed">
+      <name>testBaseInitialization with data set "case for getValue"</name>
+    </test-case>
+    <test-case start="1556668703804" stop="1556668703806" status="passed">
+      <name>testBaseInitialization with data set "case for canApplyTierPrice"</name>
+    </test-case>
+    <test-case start="1556668703807" stop="1556668703809" status="passed">
+      <name>testGetterStoredTierPrices</name>
+    </test-case>
+    <test-case start="1556668703810" stop="1556668703814" status="passed">
+      <name>testGetterTierPriceList with data set "base case"</name>
+    </test-case>
+    <test-case start="1556668703815" stop="1556668703817" status="passed">
+      <name>testGetSavePercent with data set #0</name>
+    </test-case>
+    <test-case start="1556668703817" stop="1556668703819" status="passed">
+      <name>testGetSavePercent with data set #1</name>
+    </test-case>
+    <test-case start="1556668703819" stop="1556668703821" status="passed">
+      <name>testGetSavePercent with data set #2</name>
+    </test-case>
+    <test-case start="1556668703822" stop="1556668703823" status="passed">
+      <name>testGetSavePercent with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

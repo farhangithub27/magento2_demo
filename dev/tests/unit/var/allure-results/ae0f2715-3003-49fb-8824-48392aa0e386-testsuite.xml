@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668792104" stop="1556668792111" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\Item\AbstractItemTest</name>
+  <test-cases>
+    <test-case start="1556668792104" stop="1556668792106" status="passed">
+      <name>testGetTotalDiscountAmount with data set "no_children"</name>
+    </test-case>
+    <test-case start="1556668792107" stop="1556668792108" status="passed">
+      <name>testGetTotalDiscountAmount with data set "kids_but_not_calculated"</name>
+    </test-case>
+    <test-case start="1556668792108" stop="1556668792109" status="passed">
+      <name>testGetTotalDiscountAmount with data set "one_kid"</name>
+    </test-case>
+    <test-case start="1556668792110" stop="1556668792111" status="passed">
+      <name>testGetTotalDiscountAmount with data set "two_kids"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

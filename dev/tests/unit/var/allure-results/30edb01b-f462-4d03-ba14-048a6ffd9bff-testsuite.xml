@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668737022" stop="1556668737064" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Validator\Attribute\DataTest</name>
+  <test-cases>
+    <test-case start="1556668737023" stop="1556668737027" status="passed">
+      <name>testIsValid with data set "is_valid"</name>
+    </test-case>
+    <test-case start="1556668737028" stop="1556668737030" status="passed">
+      <name>testIsValid with data set "is_invalid"</name>
+    </test-case>
+    <test-case start="1556668737031" stop="1556668737033" status="passed">
+      <name>testIsValid with data set "no_data_models"</name>
+    </test-case>
+    <test-case start="1556668737034" stop="1556668737036" status="passed">
+      <name>testIsValid with data set "no_data_models_no_frontend_input"</name>
+    </test-case>
+    <test-case start="1556668737036" stop="1556668737039" status="passed">
+      <name>testIsValid with data set "no_data_for attribute"</name>
+    </test-case>
+    <test-case start="1556668737039" stop="1556668737042" status="passed">
+      <name>testIsValid with data set "is_valid_data_from_entity"</name>
+    </test-case>
+    <test-case start="1556668737042" stop="1556668737044" status="passed">
+      <name>testIsValid with data set "is_invisible"</name>
+    </test-case>
+    <test-case start="1556668737044" stop="1556668737048" status="passed">
+      <name>testIsValidAttributesFromCollection</name>
+    </test-case>
+    <test-case start="1556668737048" stop="1556668737052" status="passed">
+      <name>testIsValidBlackListWhiteListChecks with data set "white_list"</name>
+    </test-case>
+    <test-case start="1556668737052" stop="1556668737055" status="passed">
+      <name>testIsValidBlackListWhiteListChecks with data set "black_list"</name>
+    </test-case>
+    <test-case start="1556668737056" stop="1556668737057" status="passed">
+      <name>testSetAttributesWhiteList</name>
+    </test-case>
+    <test-case start="1556668737057" stop="1556668737058" status="passed">
+      <name>testSetAttributesBlackList</name>
+    </test-case>
+    <test-case start="1556668737058" stop="1556668737064" status="passed">
+      <name>testAddErrorMessages</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

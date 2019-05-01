@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668730543" stop="1556668730565" version="1.4.0">
+  <name>Magento\Deploy\Test\Unit\Service\DeployStaticContentTest</name>
+  <test-cases>
+    <test-case start="1556668730544" stop="1556668730556" status="passed">
+      <name>testDeploy with data set #0</name>
+    </test-case>
+    <test-case start="1556668730556" stop="1556668730563" status="passed">
+      <name>testDeploy with data set #1</name>
+    </test-case>
+    <test-case start="1556668730563" stop="1556668730565" status="passed">
+      <name>testDeploy with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668733081" stop="1556668733174" version="1.4.0">
+  <name>Magento\Downloadable\Test\Unit\Controller\Download\LinkTest</name>
+  <test-cases>
+    <test-case start="1556668733082" stop="1556668733088" status="passed">
+      <name>testAbsentLinkId</name>
+    </test-case>
+    <test-case start="1556668733088" stop="1556668733094" status="passed">
+      <name>testGetLinkForGuestCustomer</name>
+    </test-case>
+    <test-case start="1556668733094" stop="1556668733098" status="passed">
+      <name>testGetLinkForWrongCustomer</name>
+    </test-case>
+    <test-case start="1556668733099" stop="1556668733116" status="passed">
+      <name>testExceptionInUpdateLinkStatus with data set #0</name>
+    </test-case>
+    <test-case start="1556668733117" stop="1556668733135" status="passed">
+      <name>testExceptionInUpdateLinkStatus with data set #1</name>
+    </test-case>
+    <test-case start="1556668733135" stop="1556668733140" status="passed">
+      <name>testLinkNotAvailable with data set #0</name>
+    </test-case>
+    <test-case start="1556668733140" stop="1556668733145" status="passed">
+      <name>testLinkNotAvailable with data set #1</name>
+    </test-case>
+    <test-case start="1556668733145" stop="1556668733150" status="passed">
+      <name>testLinkNotAvailable with data set #2</name>
+    </test-case>
+    <test-case start="1556668733150" stop="1556668733155" status="passed">
+      <name>testLinkNotAvailable with data set #3</name>
+    </test-case>
+    <test-case start="1556668733155" stop="1556668733164" status="passed">
+      <name>testContentDisposition with data set #0</name>
+    </test-case>
+    <test-case start="1556668733165" stop="1556668733174" status="passed">
+      <name>testContentDisposition with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

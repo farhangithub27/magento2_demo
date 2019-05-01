@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668695155" stop="1556668695179" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\CustomOptions\CustomOptionProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668695155" stop="1556668695169" status="passed">
+      <name>testConvertToBuyRequest</name>
+    </test-case>
+    <test-case start="1556668695169" stop="1556668695179" status="passed">
+      <name>testProcessCustomOptions</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

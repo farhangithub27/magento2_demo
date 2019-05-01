@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668787058" stop="1556668787091" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\AbstractConfigTest</name>
+  <test-cases>
+    <test-case start="1556668787059" stop="1556668787059" status="passed">
+      <name>testSetMethod with data set #0</name>
+    </test-case>
+    <test-case start="1556668787060" stop="1556668787060" status="passed">
+      <name>testSetMethod with data set #1</name>
+    </test-case>
+    <test-case start="1556668787061" stop="1556668787061" status="passed">
+      <name>testSetMethod with data set #2</name>
+    </test-case>
+    <test-case start="1556668787061" stop="1556668787062" status="passed">
+      <name>testSetMethodInstance</name>
+    </test-case>
+    <test-case start="1556668787062" stop="1556668787063" status="passed">
+      <name>testGetMethod</name>
+    </test-case>
+    <test-case start="1556668787063" stop="1556668787063" status="passed">
+      <name>testSetStoreId</name>
+    </test-case>
+    <test-case start="1556668787064" stop="1556668787065" status="passed">
+      <name>testGetValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668787065" stop="1556668787066" status="passed">
+      <name>testGetValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668787066" stop="1556668787067" status="passed">
+      <name>testGetValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668787067" stop="1556668787068" status="passed">
+      <name>testGetValue with data set #3</name>
+    </test-case>
+    <test-case start="1556668787068" stop="1556668787069" status="passed">
+      <name>testGetValue with data set #4</name>
+    </test-case>
+    <test-case start="1556668787069" stop="1556668787070" status="passed">
+      <name>testGetValue with data set #5</name>
+    </test-case>
+    <test-case start="1556668787070" stop="1556668787071" status="passed">
+      <name>testIsWppApiAvailable with data set #0</name>
+    </test-case>
+    <test-case start="1556668787071" stop="1556668787072" status="passed">
+      <name>testIsWppApiAvailable with data set #1</name>
+    </test-case>
+    <test-case start="1556668787072" stop="1556668787073" status="passed">
+      <name>testIsWppApiAvailable with data set #2</name>
+    </test-case>
+    <test-case start="1556668787073" stop="1556668787074" status="passed">
+      <name>testIsWppApiAvailable with data set #3</name>
+    </test-case>
+    <test-case start="1556668787074" stop="1556668787075" status="passed">
+      <name>testIsWppApiAvailable with data set #4</name>
+    </test-case>
+    <test-case start="1556668787075" stop="1556668787076" status="passed">
+      <name>testIsWppApiAvailable with data set #5</name>
+    </test-case>
+    <test-case start="1556668787076" stop="1556668787077" status="passed">
+      <name>testIsMethodAvailable with data set #0</name>
+    </test-case>
+    <test-case start="1556668787077" stop="1556668787078" status="passed">
+      <name>testIsMethodAvailable with data set #1</name>
+    </test-case>
+    <test-case start="1556668787078" stop="1556668787078" status="passed">
+      <name>testIsMethodActive</name>
+    </test-case>
+    <test-case start="1556668787079" stop="1556668787080" status="passed">
+      <name>testIsMethodActiveBml with data set #0</name>
+    </test-case>
+    <test-case start="1556668787081" stop="1556668787081" status="passed">
+      <name>testIsMethodActiveBml with data set #1</name>
+    </test-case>
+    <test-case start="1556668787082" stop="1556668787083" status="passed">
+      <name>testIsMethodActiveBml with data set #2</name>
+    </test-case>
+    <test-case start="1556668787083" stop="1556668787084" status="passed">
+      <name>testIsMethodActiveBml with data set #3</name>
+    </test-case>
+    <test-case start="1556668787085" stop="1556668787085" status="passed">
+      <name>testIsMethodActiveBml with data set #4</name>
+    </test-case>
+    <test-case start="1556668787086" stop="1556668787087" status="passed">
+      <name>testIsMethodActiveBml with data set #5</name>
+    </test-case>
+    <test-case start="1556668787087" stop="1556668787088" status="passed">
+      <name>testIsMethodActiveBml with data set #6</name>
+    </test-case>
+    <test-case start="1556668787088" stop="1556668787089" status="passed">
+      <name>testIsMethodActiveBml with data set #7</name>
+    </test-case>
+    <test-case start="1556668787089" stop="1556668787090" status="passed">
+      <name>testGetBuildNotationCode</name>
+    </test-case>
+    <test-case start="1556668787090" stop="1556668787091" status="passed">
+      <name>testBuildNotationCodeFromConfig</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

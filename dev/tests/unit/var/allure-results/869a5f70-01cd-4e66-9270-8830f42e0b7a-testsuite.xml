@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668690528" stop="1556668690929" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Product\Widget\NewWidgetTest</name>
+  <test-cases>
+    <test-case start="1556668690529" stop="1556668690535" status="passed">
+      <name>testGetProductPriceHtml</name>
+    </test-case>
+    <test-case start="1556668690535" stop="1556668690538" status="passed">
+      <name>testGetCurrentPage with data set #0</name>
+    </test-case>
+    <test-case start="1556668690538" stop="1556668690541" status="passed">
+      <name>testGetCurrentPage with data set #1</name>
+    </test-case>
+    <test-case start="1556668690541" stop="1556668690544" status="passed">
+      <name>testGetCurrentPage with data set #2</name>
+    </test-case>
+    <test-case start="1556668690544" stop="1556668690546" status="passed">
+      <name>testGetProductsCount</name>
+    </test-case>
+    <test-case start="1556668690547" stop="1556668690566" status="passed">
+      <name>testGetProductNewCollection with data set #0</name>
+    </test-case>
+    <test-case start="1556668690567" stop="1556668690584" status="passed">
+      <name>testGetProductNewCollection with data set #1</name>
+    </test-case>
+    <test-case start="1556668690585" stop="1556668690604" status="passed">
+      <name>testGetProductNewCollection with data set #2</name>
+    </test-case>
+    <test-case start="1556668690605" stop="1556668690622" status="passed">
+      <name>testGetProductNewCollection with data set #3</name>
+    </test-case>
+    <test-case start="1556668690622" stop="1556668690639" status="passed">
+      <name>testGetProductNewCollection with data set #4</name>
+    </test-case>
+    <test-case start="1556668690640" stop="1556668690657" status="passed">
+      <name>testGetProductNewCollection with data set #5</name>
+    </test-case>
+    <test-case start="1556668690657" stop="1556668690674" status="passed">
+      <name>testGetProductNewCollection with data set #6</name>
+    </test-case>
+    <test-case start="1556668690675" stop="1556668690692" status="passed">
+      <name>testGetProductNewCollection with data set #7</name>
+    </test-case>
+    <test-case start="1556668690692" stop="1556668690709" status="passed">
+      <name>testGetProductNewCollection with data set #8</name>
+    </test-case>
+    <test-case start="1556668690710" stop="1556668690727" status="passed">
+      <name>testGetProductNewCollection with data set #9</name>
+    </test-case>
+    <test-case start="1556668690727" stop="1556668690744" status="passed">
+      <name>testGetProductNewCollection with data set #10</name>
+    </test-case>
+    <test-case start="1556668690745" stop="1556668690762" status="passed">
+      <name>testGetProductNewCollection with data set #11</name>
+    </test-case>
+    <test-case start="1556668690762" stop="1556668690776" status="passed">
+      <name>testGetProductAllCollection with data set #0</name>
+    </test-case>
+    <test-case start="1556668690776" stop="1556668690790" status="passed">
+      <name>testGetProductAllCollection with data set #1</name>
+    </test-case>
+    <test-case start="1556668690790" stop="1556668690804" status="passed">
+      <name>testGetProductAllCollection with data set #2</name>
+    </test-case>
+    <test-case start="1556668690804" stop="1556668690818" status="passed">
+      <name>testGetProductAllCollection with data set #3</name>
+    </test-case>
+    <test-case start="1556668690818" stop="1556668690832" status="passed">
+      <name>testGetProductAllCollection with data set #4</name>
+    </test-case>
+    <test-case start="1556668690832" stop="1556668690846" status="passed">
+      <name>testGetProductAllCollection with data set #5</name>
+    </test-case>
+    <test-case start="1556668690846" stop="1556668690860" status="passed">
+      <name>testGetProductAllCollection with data set #6</name>
+    </test-case>
+    <test-case start="1556668690860" stop="1556668690874" status="passed">
+      <name>testGetProductAllCollection with data set #7</name>
+    </test-case>
+    <test-case start="1556668690874" stop="1556668690887" status="passed">
+      <name>testGetProductAllCollection with data set #8</name>
+    </test-case>
+    <test-case start="1556668690888" stop="1556668690901" status="passed">
+      <name>testGetProductAllCollection with data set #9</name>
+    </test-case>
+    <test-case start="1556668690902" stop="1556668690915" status="passed">
+      <name>testGetProductAllCollection with data set #10</name>
+    </test-case>
+    <test-case start="1556668690916" stop="1556668690929" status="passed">
+      <name>testGetProductAllCollection with data set #11</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

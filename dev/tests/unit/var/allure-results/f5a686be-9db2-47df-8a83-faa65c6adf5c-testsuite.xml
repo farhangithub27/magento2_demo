@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668814303" stop="1556668814335" version="1.4.0">
+  <name>Magento\Security\Test\Unit\Model\SecurityChecker\QuantityTest</name>
+  <test-cases>
+    <test-case start="1556668814303" stop="1556668814306" status="passed">
+      <name>testCheck with data set #0</name>
+    </test-case>
+    <test-case start="1556668814306" stop="1556668814308" status="passed">
+      <name>testCheck with data set #1</name>
+    </test-case>
+    <test-case start="1556668814309" stop="1556668814311" status="passed">
+      <name>testCheck with data set #2</name>
+    </test-case>
+    <test-case start="1556668814311" stop="1556668814313" status="passed">
+      <name>testCheck with data set #3</name>
+    </test-case>
+    <test-case start="1556668814314" stop="1556668814316" status="passed">
+      <name>testCheck with data set #4</name>
+    </test-case>
+    <test-case start="1556668814316" stop="1556668814318" status="passed">
+      <name>testCheck with data set #5</name>
+    </test-case>
+    <test-case start="1556668814319" stop="1556668814321" status="passed">
+      <name>testCheckException with data set #0</name>
+    </test-case>
+    <test-case start="1556668814322" stop="1556668814324" status="passed">
+      <name>testCheckException with data set #1</name>
+    </test-case>
+    <test-case start="1556668814324" stop="1556668814326" status="passed">
+      <name>testCheckException with data set #2</name>
+    </test-case>
+    <test-case start="1556668814327" stop="1556668814329" status="passed">
+      <name>testCheckException with data set #3</name>
+    </test-case>
+    <test-case start="1556668814330" stop="1556668814332" status="passed">
+      <name>testCheckException with data set #4</name>
+    </test-case>
+    <test-case start="1556668814332" stop="1556668814334" status="passed">
+      <name>testCheckException with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

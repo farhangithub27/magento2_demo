@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668863828" stop="1556668863836" version="1.4.0">
+  <name>Magento\Framework\Shell\Test\Unit\ComplexParameterTest</name>
+  <test-cases>
+    <test-case start="1556668863828" stop="1556668863829" status="passed">
+      <name>testGetFromArray</name>
+    </test-case>
+    <test-case start="1556668863830" stop="1556668863830" status="passed">
+      <name>testGetFromString with data set #0</name>
+    </test-case>
+    <test-case start="1556668863830" stop="1556668863831" status="passed">
+      <name>testGetFromString with data set #1</name>
+    </test-case>
+    <test-case start="1556668863831" stop="1556668863831" status="passed">
+      <name>testGetFromString with data set #2</name>
+    </test-case>
+    <test-case start="1556668863832" stop="1556668863832" status="passed">
+      <name>testGetFromString with data set #3</name>
+    </test-case>
+    <test-case start="1556668863833" stop="1556668863833" status="passed">
+      <name>testGetFromString with data set #4</name>
+    </test-case>
+    <test-case start="1556668863833" stop="1556668863834" status="passed">
+      <name>testGetFromString with data set #5</name>
+    </test-case>
+    <test-case start="1556668863834" stop="1556668863834" status="passed">
+      <name>testGetFromString with data set #6</name>
+    </test-case>
+    <test-case start="1556668863835" stop="1556668863835" status="passed">
+      <name>testPattern</name>
+    </test-case>
+    <test-case start="1556668863835" stop="1556668863836" status="passed">
+      <name>testMergeFromArgv</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

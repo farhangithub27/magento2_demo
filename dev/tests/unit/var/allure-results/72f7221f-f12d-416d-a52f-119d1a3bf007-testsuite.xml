@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668792785" stop="1556668792791" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\RelationTest</name>
+  <test-cases>
+    <test-case start="1556668792786" stop="1556668792791" status="passed">
+      <name>testProcessRelation</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

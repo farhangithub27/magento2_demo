@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668717972" stop="1556668717986" version="1.4.0">
+  <name>Magento\CustomerImportExport\Test\Unit\Model\ResourceModel\Import\CustomerComposite\DataTest</name>
+  <test-cases>
+    <test-case start="1556668717973" stop="1556668717978" status="passed">
+      <name>testGetNextBunch with data set "address entity"</name>
+    </test-case>
+    <test-case start="1556668717979" stop="1556668717982" status="passed">
+      <name>testGetNextBunch with data set "customer entity default scope"</name>
+    </test-case>
+    <test-case start="1556668717982" stop="1556668717986" status="passed">
+      <name>testGetNextBunch with data set "customer entity address scope"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832057" stop="1556668832063" version="1.4.0">
+  <name>Magento\Vault\Test\Unit\Observer\PaymentTokenAssignerTest</name>
+  <test-cases>
+    <test-case start="1556668832057" stop="1556668832058" status="passed">
+      <name>testExecuteNoPublicHash</name>
+    </test-case>
+    <test-case start="1556668832059" stop="1556668832060" status="passed">
+      <name>testExecuteNotOrderPaymentModel</name>
+    </test-case>
+    <test-case start="1556668832060" stop="1556668832061" status="passed">
+      <name>testExecuteNoPaymentToken</name>
+    </test-case>
+    <test-case start="1556668832062" stop="1556668832063" status="passed">
+      <name>testExecuteSaveMetadata</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

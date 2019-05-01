@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668690386" stop="1556668690416" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Product\View\GalleryTest</name>
+  <test-cases>
+    <test-case start="1556668690386" stop="1556668690398" status="passed">
+      <name>testGetGalleryImagesJsonWithLabel</name>
+    </test-case>
+    <test-case start="1556668690398" stop="1556668690405" status="passed">
+      <name>testGetGalleryImagesJsonWithoutLabel</name>
+    </test-case>
+    <test-case start="1556668690405" stop="1556668690416" status="passed">
+      <name>testGetGalleryImages</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

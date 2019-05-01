@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668714662" stop="1556668714694" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\LinkManagementTest</name>
+  <test-cases>
+    <test-case start="1556668714662" stop="1556668714675" status="passed">
+      <name>testGetChildren</name>
+    </test-case>
+    <test-case start="1556668714675" stop="1556668714676" status="passed">
+      <name>testGetWithNonConfigurableProduct</name>
+    </test-case>
+    <test-case start="1556668714676" stop="1556668714684" status="passed">
+      <name>testAddChild</name>
+    </test-case>
+    <test-case start="1556668714685" stop="1556668714686" status="passed">
+      <name>testAddChildStateException</name>
+    </test-case>
+    <test-case start="1556668714687" stop="1556668714690" status="passed">
+      <name>testRemoveChild</name>
+    </test-case>
+    <test-case start="1556668714691" stop="1556668714692" status="passed">
+      <name>testRemoveChildForbidden</name>
+    </test-case>
+    <test-case start="1556668714692" stop="1556668714694" status="passed">
+      <name>testRemoveChildInvalidChildSku</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

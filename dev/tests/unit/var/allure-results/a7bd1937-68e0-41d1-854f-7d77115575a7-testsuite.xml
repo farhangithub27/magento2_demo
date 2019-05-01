@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668847037" stop="1556668847067" version="1.4.0">
+  <name>Magento\Framework\Code\Test\Unit\Generator\EntityAbstractTest</name>
+  <test-cases>
+    <test-case start="1556668847037" stop="1556668847046" status="passed">
+      <name>testConstruct</name>
+    </test-case>
+    <test-case start="1556668847047" stop="1556668847049" status="passed">
+      <name>testGenerate with data set "no_source_class"</name>
+    </test-case>
+    <test-case start="1556668847050" stop="1556668847051" status="passed">
+      <name>testGenerate with data set "cant_create_result_directory"</name>
+    </test-case>
+    <test-case start="1556668847052" stop="1556668847057" status="passed">
+      <name>testGenerate with data set "result_file_exists"</name>
+    </test-case>
+    <test-case start="1556668847058" stop="1556668847061" status="passed">
+      <name>testGenerate with data set "generate_no_data"</name>
+    </test-case>
+    <test-case start="1556668847062" stop="1556668847067" status="passed">
+      <name>testGenerate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

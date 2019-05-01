@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668743459" stop="1556668743494" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Helper\ReportTest</name>
+  <test-cases>
+    <test-case start="1556668743459" stop="1556668743465" status="passed">
+      <name>testGetExecutionTime</name>
+    </test-case>
+    <test-case start="1556668743465" stop="1556668743480" status="passed">
+      <name>testGetSummaryStats</name>
+    </test-case>
+    <test-case start="1556668743480" stop="1556668743482" status="passed">
+      <name>testImportFileExistsException with data set #0</name>
+    </test-case>
+    <test-case start="1556668743483" stop="1556668743485" status="passed">
+      <name>testImportFileExistsException with data set #1</name>
+    </test-case>
+    <test-case start="1556668743485" stop="1556668743487" status="passed">
+      <name>testImportFileExists</name>
+    </test-case>
+    <test-case start="1556668743487" stop="1556668743490" status="passed">
+      <name>testGetReportOutput</name>
+    </test-case>
+    <test-case start="1556668743490" stop="1556668743492" status="passed">
+      <name>testGetReportSize</name>
+    </test-case>
+    <test-case start="1556668743492" stop="1556668743494" status="passed">
+      <name>testGetDelimiter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

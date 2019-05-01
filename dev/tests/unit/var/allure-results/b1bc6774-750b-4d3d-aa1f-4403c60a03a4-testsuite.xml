@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668707034" stop="1556668707038" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\CustomerData\ItemPoolTest</name>
+  <test-cases>
+    <test-case start="1556668707034" stop="1556668707036" status="passed">
+      <name>testGetItemDataIfItemNotExistInMap</name>
+    </test-case>
+    <test-case start="1556668707036" stop="1556668707037" status="passed">
+      <name>testGetItemDataIfItemExistInMap</name>
+    </test-case>
+    <test-case start="1556668707037" stop="1556668707038" status="passed">
+      <name>testGetItemDataIfItemNotValid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860132" stop="1556668860136" version="1.4.0">
+  <name>Magento\Framework\Reflection\Test\Unit\AttributeTypeResolverTest</name>
+  <test-cases>
+    <test-case start="1556668860132" stop="1556668860133" status="passed">
+      <name>testResolveObjectTypeWithNonObjectValue</name>
+    </test-case>
+    <test-case start="1556668860133" stop="1556668860134" status="passed">
+      <name>testResolveObjectTypeWithoutConfiguredAttribute</name>
+    </test-case>
+    <test-case start="1556668860134" stop="1556668860135" status="passed">
+      <name>testResolveObjectTypeWithConfiguredAttribute</name>
+    </test-case>
+    <test-case start="1556668860135" stop="1556668860136" status="passed">
+      <name>testResolveObjectTypeWithConfiguredAttributeAndNonExistedClass</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

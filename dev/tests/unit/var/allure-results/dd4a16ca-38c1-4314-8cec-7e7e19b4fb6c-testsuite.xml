@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668691206" stop="1556668691231" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\DeleteTest</name>
+  <test-cases>
+    <test-case start="1556668691207" stop="1556668691221" status="passed">
+      <name>testDeleteWithoutCategoryId</name>
+    </test-case>
+    <test-case start="1556668691221" stop="1556668691231" status="passed">
+      <name>testDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

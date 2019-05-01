@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668813343" stop="1556668813362" version="1.4.0">
+  <name>Magento\Search\Test\Unit\Model\PopularSearchTermsTest</name>
+  <test-cases>
+    <test-case start="1556668813344" stop="1556668813355" status="passed">
+      <name>testIsCacheable with data set #0</name>
+    </test-case>
+    <test-case start="1556668813355" stop="1556668813357" status="passed">
+      <name>testIsCacheable with data set #1</name>
+    </test-case>
+    <test-case start="1556668813357" stop="1556668813359" status="passed">
+      <name>testIsCacheable with data set #2</name>
+    </test-case>
+    <test-case start="1556668813360" stop="1556668813362" status="passed">
+      <name>testIsCacheable with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

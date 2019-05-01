@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855396" stop="1556668855402" version="1.4.0">
+  <name>Magento\Framework\Indexer\Test\Unit\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668855396" stop="1556668855397" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "without_indexer_handle"</name>
+    </test-case>
+    <test-case start="1556668855398" stop="1556668855399" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "indexer_with_notallowed_attribute"</name>
+    </test-case>
+    <test-case start="1556668855399" stop="1556668855400" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "indexer_without_view_attribute"</name>
+    </test-case>
+    <test-case start="1556668855400" stop="1556668855401" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "indexer_duplicate_view_attribute"</name>
+    </test-case>
+    <test-case start="1556668855401" stop="1556668855402" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

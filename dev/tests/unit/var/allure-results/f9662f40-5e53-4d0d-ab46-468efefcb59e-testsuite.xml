@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668739530" stop="1556668739558" version="1.4.0">
+  <name>Magento\Email\Test\Unit\Block\Adminhtml\TemplateTest</name>
+  <test-cases>
+    <test-case start="1556668739530" stop="1556668739539" status="passed">
+      <name>testAddButton</name>
+    </test-case>
+    <test-case start="1556668739539" stop="1556668739543" status="passed">
+      <name>testUpdateButton</name>
+    </test-case>
+    <test-case start="1556668739543" stop="1556668739547" status="passed">
+      <name>testRemoveButton</name>
+    </test-case>
+    <test-case start="1556668739547" stop="1556668739551" status="passed">
+      <name>testGetCreateUrl</name>
+    </test-case>
+    <test-case start="1556668739551" stop="1556668739554" status="passed">
+      <name>testGetHeaderText</name>
+    </test-case>
+    <test-case start="1556668739555" stop="1556668739558" status="passed">
+      <name>testCanRender</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

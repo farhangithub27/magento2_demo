@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747386" stop="1556668747419" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\IntegrationServiceTest</name>
+  <test-cases>
+    <test-case start="1556668747386" stop="1556668747392" status="passed">
+      <name>testCreateSuccess</name>
+    </test-case>
+    <test-case start="1556668747392" stop="1556668747394" status="passed">
+      <name>testCreateIntegrationAlreadyExistsException</name>
+    </test-case>
+    <test-case start="1556668747394" stop="1556668747397" status="passed">
+      <name>testUpdateSuccess</name>
+    </test-case>
+    <test-case start="1556668747397" stop="1556668747401" status="passed">
+      <name>testUpdateSuccessNameChanged</name>
+    </test-case>
+    <test-case start="1556668747401" stop="1556668747404" status="passed">
+      <name>testUpdateException</name>
+    </test-case>
+    <test-case start="1556668747404" stop="1556668747407" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668747408" stop="1556668747409" status="passed">
+      <name>testGetException</name>
+    </test-case>
+    <test-case start="1556668747409" stop="1556668747411" status="passed">
+      <name>testFindByName</name>
+    </test-case>
+    <test-case start="1556668747411" stop="1556668747412" status="passed">
+      <name>testFindByNameNotFound</name>
+    </test-case>
+    <test-case start="1556668747412" stop="1556668747414" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668747415" stop="1556668747416" status="passed">
+      <name>testDeleteException</name>
+    </test-case>
+    <test-case start="1556668747416" stop="1556668747417" status="passed">
+      <name>testFindByConsumerId</name>
+    </test-case>
+    <test-case start="1556668747418" stop="1556668747419" status="passed">
+      <name>testFindByConsumerIdNotFound</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668696753" stop="1556668696772" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Layer\Filter\CategoryTest</name>
+  <test-cases>
+    <test-case start="1556668696754" stop="1556668696757" status="passed">
+      <name>testApplyWithEmptyRequest with data set #0</name>
+    </test-case>
+    <test-case start="1556668696758" stop="1556668696760" status="passed">
+      <name>testApplyWithEmptyRequest with data set #1</name>
+    </test-case>
+    <test-case start="1556668696761" stop="1556668696763" status="passed">
+      <name>testApplyWithEmptyRequest with data set #2</name>
+    </test-case>
+    <test-case start="1556668696763" stop="1556668696766" status="passed">
+      <name>testApply</name>
+    </test-case>
+    <test-case start="1556668696766" stop="1556668696772" status="passed">
+      <name>testGetItems</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

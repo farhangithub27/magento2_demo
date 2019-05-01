@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822392" stop="1556668822417" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\TaxClass\Source\CustomerTest</name>
+  <test-cases>
+    <test-case start="1556668822392" stop="1556668822397" status="passed">
+      <name>testGetAllOptions with data set #0</name>
+    </test-case>
+    <test-case start="1556668822397" stop="1556668822400" status="passed">
+      <name>testGetAllOptions with data set #1</name>
+    </test-case>
+    <test-case start="1556668822400" stop="1556668822403" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #0</name>
+    </test-case>
+    <test-case start="1556668822403" stop="1556668822405" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #1</name>
+    </test-case>
+    <test-case start="1556668822406" stop="1556668822408" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #2</name>
+    </test-case>
+    <test-case start="1556668822409" stop="1556668822411" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #3</name>
+    </test-case>
+    <test-case start="1556668822411" stop="1556668822414" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #4</name>
+    </test-case>
+    <test-case start="1556668822415" stop="1556668822417" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

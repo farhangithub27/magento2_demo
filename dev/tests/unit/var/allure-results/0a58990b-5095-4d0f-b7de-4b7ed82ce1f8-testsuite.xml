@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668875069" stop="1556668875073" version="1.4.0">
+  <name>Magento\Framework\Webapi\Test\Unit\Rest\Request\DeserializerFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668875069" stop="1556668875070" status="passed">
+      <name>testGetLogicExceptionEmptyRequestAdapter</name>
+    </test-case>
+    <test-case start="1556668875070" stop="1556668875071" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668875071" stop="1556668875072" status="passed">
+      <name>testGetMagentoWebapiException</name>
+    </test-case>
+    <test-case start="1556668875072" stop="1556668875073" status="passed">
+      <name>testGetLogicExceptionInvalidRequestDeserializer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

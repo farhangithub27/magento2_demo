@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856286" stop="1556668856291" version="1.4.0">
+  <name>Magento\Framework\Message\Test\Unit\AbstractMessageTest</name>
+  <test-cases>
+    <test-case start="1556668856287" stop="1556668856287" status="passed">
+      <name>testSetTextGetText with data set #0</name>
+    </test-case>
+    <test-case start="1556668856287" stop="1556668856288" status="passed">
+      <name>testSetTextGetText with data set #1</name>
+    </test-case>
+    <test-case start="1556668856288" stop="1556668856289" status="passed">
+      <name>testSetTextGetText with data set #2</name>
+    </test-case>
+    <test-case start="1556668856289" stop="1556668856289" status="passed">
+      <name>testSetIdentifierGetIdentifier with data set #0</name>
+    </test-case>
+    <test-case start="1556668856290" stop="1556668856290" status="passed">
+      <name>testSetIdentifierGetIdentifier with data set #1</name>
+    </test-case>
+    <test-case start="1556668856290" stop="1556668856291" status="passed">
+      <name>testSetIsStickyGetIsSticky</name>
+    </test-case>
+    <test-case start="1556668856291" stop="1556668856291" status="passed">
+      <name>testToString</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

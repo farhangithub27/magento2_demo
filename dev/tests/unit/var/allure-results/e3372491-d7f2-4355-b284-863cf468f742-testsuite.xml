@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715649" stop="1556668715658" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\ResourceModel\Product\Type\Configurable\AttributeTest</name>
+  <test-cases>
+    <test-case start="1556668715649" stop="1556668715653" status="passed">
+      <name>testSaveNewLabel</name>
+    </test-case>
+    <test-case start="1556668715654" stop="1556668715658" status="passed">
+      <name>testSaveExistingLabel</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

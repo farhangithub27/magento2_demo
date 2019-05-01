@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668674570" stop="1556668674576" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Validator\GeneralResponseValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668674571" stop="1556668674572" status="passed">
+      <name>testValidate with data set #0</name>
+    </test-case>
+    <test-case start="1556668674573" stop="1556668674574" status="passed">
+      <name>testValidate with data set #1</name>
+    </test-case>
+    <test-case start="1556668674574" stop="1556668674575" status="passed">
+      <name>testValidate with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

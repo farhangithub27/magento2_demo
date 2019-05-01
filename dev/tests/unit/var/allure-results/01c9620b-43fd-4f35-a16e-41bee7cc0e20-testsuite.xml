@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856097" stop="1556668856116" version="1.4.0">
+  <name>Magento\Framework\Mail\Test\Unit\Template\TransportBuilderTest</name>
+  <test-cases>
+    <test-case start="1556668856098" stop="1556668856103" status="passed">
+      <name>testGetTransport with data set #0</name>
+    </test-case>
+    <test-case start="1556668856104" stop="1556668856109" status="passed">
+      <name>testGetTransport with data set #1</name>
+    </test-case>
+    <test-case start="1556668856109" stop="1556668856111" status="passed">
+      <name>testSetFromByScope</name>
+    </test-case>
+    <test-case start="1556668856111" stop="1556668856112" status="passed">
+      <name>testSetCc</name>
+    </test-case>
+    <test-case start="1556668856112" stop="1556668856113" status="passed">
+      <name>testAddTo</name>
+    </test-case>
+    <test-case start="1556668856114" stop="1556668856115" status="passed">
+      <name>testAddBcc</name>
+    </test-case>
+    <test-case start="1556668856115" stop="1556668856116" status="passed">
+      <name>testSetReplyTo</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668798821" stop="1556668798840" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Model\ResourceModel\RuleTest</name>
+  <test-cases>
+    <test-case start="1556668798821" stop="1556668798825" status="passed">
+      <name>testLoad</name>
+    </test-case>
+    <test-case start="1556668798825" stop="1556668798827" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668798827" stop="1556668798830" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668798830" stop="1556668798832" status="passed">
+      <name>testGetProductAttributes with data set #0</name>
+    </test-case>
+    <test-case start="1556668798833" stop="1556668798835" status="passed">
+      <name>testGetProductAttributes with data set #1</name>
+    </test-case>
+    <test-case start="1556668798835" stop="1556668798837" status="passed">
+      <name>testGetProductAttributes with data set #2</name>
+    </test-case>
+    <test-case start="1556668798838" stop="1556668798840" status="passed">
+      <name>testGetProductAttributes with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715677" stop="1556668715699" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\ResourceModel\Product\Type\ConfigurableTest</name>
+  <test-cases>
+    <test-case start="1556668715678" stop="1556668715696" status="passed">
+      <name>testSaveProducts</name>
+    </test-case>
+    <test-case start="1556668715696" stop="1556668715699" status="passed">
+      <name>testGetConfigurableOptions</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

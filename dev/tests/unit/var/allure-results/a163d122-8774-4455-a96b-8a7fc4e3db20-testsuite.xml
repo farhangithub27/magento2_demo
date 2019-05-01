@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668806247" stop="1556668806325" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Email\Sender\OrderSenderTest</name>
+  <test-cases>
+    <test-case start="1556668806248" stop="1556668806257" status="passed">
+      <name>testSend with data set #0</name>
+    </test-case>
+    <test-case start="1556668806258" stop="1556668806265" status="passed">
+      <name>testSend with data set #1</name>
+    </test-case>
+    <test-case start="1556668806266" stop="1556668806272" status="passed">
+      <name>testSend with data set #2</name>
+    </test-case>
+    <test-case start="1556668806273" stop="1556668806277" status="passed">
+      <name>testSend with data set #3</name>
+    </test-case>
+    <test-case start="1556668806277" stop="1556668806280" status="passed">
+      <name>testSend with data set #4</name>
+    </test-case>
+    <test-case start="1556668806280" stop="1556668806283" status="passed">
+      <name>testSend with data set #5</name>
+    </test-case>
+    <test-case start="1556668806283" stop="1556668806291" status="passed">
+      <name>testSend with data set #6</name>
+    </test-case>
+    <test-case start="1556668806292" stop="1556668806299" status="passed">
+      <name>testSend with data set #7</name>
+    </test-case>
+    <test-case start="1556668806299" stop="1556668806307" status="passed">
+      <name>testSend with data set #8</name>
+    </test-case>
+    <test-case start="1556668806307" stop="1556668806310" status="passed">
+      <name>testSend with data set #9</name>
+    </test-case>
+    <test-case start="1556668806310" stop="1556668806317" status="passed">
+      <name>testSendVirtualOrder with data set #0</name>
+    </test-case>
+    <test-case start="1556668806318" stop="1556668806325" status="passed">
+      <name>testSendVirtualOrder with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

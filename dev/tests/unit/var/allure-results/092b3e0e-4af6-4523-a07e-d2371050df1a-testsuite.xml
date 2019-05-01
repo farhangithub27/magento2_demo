@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668721912" stop="1556668722005" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Address\AbstractAddressTest</name>
+  <test-cases>
+    <test-case start="1556668721913" stop="1556668721924" status="passed">
+      <name>testGetRegionWithRegionId</name>
+    </test-case>
+    <test-case start="1556668721925" stop="1556668721927" status="passed">
+      <name>testGetRegionWithRegion</name>
+    </test-case>
+    <test-case start="1556668721928" stop="1556668721930" status="passed">
+      <name>testGetRegionWithRegionName</name>
+    </test-case>
+    <test-case start="1556668721930" stop="1556668721932" status="passed">
+      <name>testGetRegionWithoutRegion</name>
+    </test-case>
+    <test-case start="1556668721933" stop="1556668721936" status="passed">
+      <name>testGetRegionCodeWithRegionId</name>
+    </test-case>
+    <test-case start="1556668721936" stop="1556668721939" status="passed">
+      <name>testGetRegionCodeWithRegion</name>
+    </test-case>
+    <test-case start="1556668721939" stop="1556668721941" status="passed">
+      <name>testGetRegionCodeWithRegionName</name>
+    </test-case>
+    <test-case start="1556668721942" stop="1556668721944" status="passed">
+      <name>testGetRegionCodeWithoutRegion</name>
+    </test-case>
+    <test-case start="1556668721944" stop="1556668721946" status="passed">
+      <name>testSetData</name>
+    </test-case>
+    <test-case start="1556668721947" stop="1556668721949" status="passed">
+      <name>testSetDataWithMultidimensionalArray</name>
+    </test-case>
+    <test-case start="1556668721949" stop="1556668721951" status="passed">
+      <name>testSetDataWithValue</name>
+    </test-case>
+    <test-case start="1556668721951" stop="1556668721954" status="passed">
+      <name>testSetDataWithObject</name>
+    </test-case>
+    <test-case start="1556668721954" stop="1556668721957" status="passed">
+      <name>testValidate with data set "firstname"</name>
+    </test-case>
+    <test-case start="1556668721957" stop="1556668721960" status="passed">
+      <name>testValidate with data set "lastname"</name>
+    </test-case>
+    <test-case start="1556668721960" stop="1556668721963" status="passed">
+      <name>testValidate with data set "street"</name>
+    </test-case>
+    <test-case start="1556668721963" stop="1556668721965" status="passed">
+      <name>testValidate with data set "city"</name>
+    </test-case>
+    <test-case start="1556668721966" stop="1556668721968" status="passed">
+      <name>testValidate with data set "telephone"</name>
+    </test-case>
+    <test-case start="1556668721969" stop="1556668721971" status="passed">
+      <name>testValidate with data set "postcode"</name>
+    </test-case>
+    <test-case start="1556668721972" stop="1556668721974" status="passed">
+      <name>testValidate with data set "region_id"</name>
+    </test-case>
+    <test-case start="1556668721975" stop="1556668721977" status="passed">
+      <name>testValidate with data set "country_id"</name>
+    </test-case>
+    <test-case start="1556668721977" stop="1556668721980" status="passed">
+      <name>testValidate with data set "validated"</name>
+    </test-case>
+    <test-case start="1556668721980" stop="1556668721982" status="passed">
+      <name>testGetStreetFullAlwaysReturnsString with data set #0</name>
+    </test-case>
+    <test-case start="1556668721983" stop="1556668721985" status="passed">
+      <name>testGetStreetFullAlwaysReturnsString with data set #1</name>
+    </test-case>
+    <test-case start="1556668721985" stop="1556668721987" status="passed">
+      <name>testGetStreetFullAlwaysReturnsString with data set #2</name>
+    </test-case>
+    <test-case start="1556668721988" stop="1556668721990" status="passed">
+      <name>testGetStreetFullAlwaysReturnsString with data set #3</name>
+    </test-case>
+    <test-case start="1556668721990" stop="1556668721992" status="passed">
+      <name>testGetStreetFullAlwaysReturnsString with data set #4</name>
+    </test-case>
+    <test-case start="1556668721992" stop="1556668721994" status="passed">
+      <name>testSetDataStreetAlwaysConvertedToString with data set #0</name>
+    </test-case>
+    <test-case start="1556668721995" stop="1556668721997" status="passed">
+      <name>testSetDataStreetAlwaysConvertedToString with data set #1</name>
+    </test-case>
+    <test-case start="1556668721997" stop="1556668721999" status="passed">
+      <name>testSetDataStreetAlwaysConvertedToString with data set #2</name>
+    </test-case>
+    <test-case start="1556668722000" stop="1556668722002" status="passed">
+      <name>testSetDataStreetAlwaysConvertedToString with data set #3</name>
+    </test-case>
+    <test-case start="1556668722002" stop="1556668722004" status="passed">
+      <name>testSetDataStreetAlwaysConvertedToString with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

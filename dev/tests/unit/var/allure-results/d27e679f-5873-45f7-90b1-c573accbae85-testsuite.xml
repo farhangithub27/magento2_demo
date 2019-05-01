@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837307" stop="1556668837311" version="1.4.0">
+  <name>Temando\Shipping\Rest\Exception\AdapterExceptionTest</name>
+  <test-cases>
+    <test-case start="1556668837307" stop="1556668837309" status="passed">
+      <name>extractMessageFromException with data set "both"</name>
+    </test-case>
+    <test-case start="1556668837309" stop="1556668837310" status="passed">
+      <name>extractMessageFromException with data set "no-detail"</name>
+    </test-case>
+    <test-case start="1556668837310" stop="1556668837311" status="passed">
+      <name>extractMessageFromException with data set "no-title"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

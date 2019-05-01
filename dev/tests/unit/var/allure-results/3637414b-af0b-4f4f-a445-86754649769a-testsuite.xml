@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668833867" stop="1556668833887" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Model\Attribute\Backend\Weee\TaxTest</name>
+  <test-cases>
+    <test-case start="1556668833868" stop="1556668833869" status="passed">
+      <name>testGetBackendModelName</name>
+    </test-case>
+    <test-case start="1556668833869" stop="1556668833871" status="passed">
+      <name>testValidate with data set "withDuplicate"</name>
+    </test-case>
+    <test-case start="1556668833871" stop="1556668833873" status="passed">
+      <name>testAfterLoad</name>
+    </test-case>
+    <test-case start="1556668833874" stop="1556668833878" status="passed">
+      <name>testAfterSaveWithRegion with data set "withRegion"</name>
+    </test-case>
+    <test-case start="1556668833879" stop="1556668833882" status="passed">
+      <name>testAfterSaveWithRegion with data set "withNoRegion"</name>
+    </test-case>
+    <test-case start="1556668833882" stop="1556668833884" status="passed">
+      <name>testAfterDelete</name>
+    </test-case>
+    <test-case start="1556668833884" stop="1556668833885" status="passed">
+      <name>testGetTable</name>
+    </test-case>
+    <test-case start="1556668833886" stop="1556668833887" status="passed">
+      <name>testGetEntityIdField</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

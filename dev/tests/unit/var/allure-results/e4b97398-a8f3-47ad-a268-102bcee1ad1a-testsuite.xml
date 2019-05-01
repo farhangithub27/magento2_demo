@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668793031" stop="1556668793043" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\TotalsReaderTest</name>
+  <test-cases>
+    <test-case start="1556668793031" stop="1556668793037" status="passed">
+      <name>testFetch</name>
+    </test-case>
+    <test-case start="1556668793037" stop="1556668793038" status="passed">
+      <name>testFetchWithEmptyData</name>
+    </test-case>
+    <test-case start="1556668793039" stop="1556668793041" status="passed">
+      <name>testFetchSeveralCollectors</name>
+    </test-case>
+    <test-case start="1556668793041" stop="1556668793043" status="passed">
+      <name>testConvert</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668793277" stop="1556668793288" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\QuoteRepository\Plugin\AccessChangeQuoteControlTest</name>
+  <test-cases>
+    <test-case start="1556668793278" stop="1556668793282" status="passed">
+      <name>testBeforeSaveForCustomer</name>
+    </test-case>
+    <test-case start="1556668793282" stop="1556668793283" status="passed">
+      <name>testBeforeSaveException</name>
+    </test-case>
+    <test-case start="1556668793283" stop="1556668793284" status="passed">
+      <name>testBeforeSaveForAdmin</name>
+    </test-case>
+    <test-case start="1556668793284" stop="1556668793285" status="passed">
+      <name>testBeforeSaveForGuest</name>
+    </test-case>
+    <test-case start="1556668793285" stop="1556668793286" status="passed">
+      <name>testBeforeSaveForGuestException</name>
+    </test-case>
+    <test-case start="1556668793287" stop="1556668793287" status="passed">
+      <name>testBeforeSaveForUnknownUserTypeException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

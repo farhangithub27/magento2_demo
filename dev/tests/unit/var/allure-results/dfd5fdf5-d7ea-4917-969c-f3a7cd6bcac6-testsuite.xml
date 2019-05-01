@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864459" stop="1556668864467" version="1.4.0">
+  <name>Magento\Framework\Stdlib\Test\Unit\StringUtilsTest</name>
+  <test-cases>
+    <test-case start="1556668864459" stop="1556668864460" status="passed">
+      <name>testStrSplit</name>
+    </test-case>
+    <test-case start="1556668864460" stop="1556668864461" status="passed">
+      <name>testSplitInjection</name>
+    </test-case>
+    <test-case start="1556668864461" stop="1556668864462" status="passed">
+      <name>testCleanString</name>
+    </test-case>
+    <test-case start="1556668864462" stop="1556668864462" status="passed">
+      <name>testSubstr</name>
+    </test-case>
+    <test-case start="1556668864463" stop="1556668864463" status="passed">
+      <name>testStrrev</name>
+    </test-case>
+    <test-case start="1556668864463" stop="1556668864464" status="passed">
+      <name>testStrpos</name>
+    </test-case>
+    <test-case start="1556668864464" stop="1556668864464" status="passed">
+      <name>testUpperCaseWords with data set #0</name>
+    </test-case>
+    <test-case start="1556668864465" stop="1556668864465" status="passed">
+      <name>testUpperCaseWords with data set #1</name>
+    </test-case>
+    <test-case start="1556668864466" stop="1556668864466" status="passed">
+      <name>testUpperCaseWords with data set #2</name>
+    </test-case>
+    <test-case start="1556668864466" stop="1556668864467" status="passed">
+      <name>testUpperCaseWordsWithSeparators with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

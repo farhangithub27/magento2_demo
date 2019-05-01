@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668689380" stop="1556668689421" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Adminhtml\Product\Helper\Form\Gallery\ContentTest</name>
+  <test-cases>
+    <test-case start="1556668689381" stop="1556668689397" status="passed">
+      <name>testGetImagesJson</name>
+    </test-case>
+    <test-case start="1556668689397" stop="1556668689401" status="passed">
+      <name>testGetImagesJsonWithoutImages</name>
+    </test-case>
+    <test-case start="1556668689401" stop="1556668689406" status="passed">
+      <name>testGetImagesJsonWithException</name>
+    </test-case>
+    <test-case start="1556668689406" stop="1556668689415" status="passed">
+      <name>testGetImageTypesFromDataPersistor</name>
+    </test-case>
+    <test-case start="1556668689415" stop="1556668689421" status="passed">
+      <name>testGetImageTypesFromProduct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

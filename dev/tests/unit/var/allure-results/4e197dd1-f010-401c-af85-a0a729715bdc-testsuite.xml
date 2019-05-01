@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668875044" stop="1556668875049" version="1.4.0">
+  <name>Magento\Framework\Webapi\Test\Unit\Rest\Request\Deserializer\XmlTest</name>
+  <test-cases>
+    <test-case start="1556668875044" stop="1556668875045" status="passed">
+      <name>testDeserializeInvalidArgumentException</name>
+    </test-case>
+    <test-case start="1556668875046" stop="1556668875046" status="passed">
+      <name>testDeserialize</name>
+    </test-case>
+    <test-case start="1556668875047" stop="1556668875047" status="passed">
+      <name>testHandleErrors</name>
+    </test-case>
+    <test-case start="1556668875047" stop="1556668875048" status="passed">
+      <name>testDeserializeMagentoWebapiExceptionDeveloperModeOn</name>
+    </test-case>
+    <test-case start="1556668875048" stop="1556668875049" status="passed">
+      <name>testDeserializeMagentoWebapiExceptionDeveloperModeOff</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

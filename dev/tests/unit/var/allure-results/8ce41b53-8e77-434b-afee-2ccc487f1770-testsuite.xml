@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668794365" stop="1556668794379" version="1.4.0">
+  <name>Magento\Reports\Test\Unit\Block\Adminhtml\Grid\AbstractGridTest</name>
+  <test-cases>
+    <test-case start="1556668794366" stop="1556668794375" status="passed">
+      <name>testGetCurrentCurrencyCode with data set #0</name>
+    </test-case>
+    <test-case start="1556668794375" stop="1556668794379" status="passed">
+      <name>testGetCurrentCurrencyCode with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

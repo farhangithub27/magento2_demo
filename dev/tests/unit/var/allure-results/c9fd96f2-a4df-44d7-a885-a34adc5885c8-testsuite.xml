@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668858660" stop="1556668858667" version="1.4.0">
+  <name>Magento\Framework\ObjectManager\Test\Unit\Config\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668858660" stop="1556668858661" status="passed">
+      <name>testGetArgumentsEmpty</name>
+    </test-case>
+    <test-case start="1556668858661" stop="1556668858662" status="passed">
+      <name>testExtendMergeConfiguration</name>
+    </test-case>
+    <test-case start="1556668858662" stop="1556668858664" status="passed">
+      <name>testExtendWithCacheMock</name>
+    </test-case>
+    <test-case start="1556668858664" stop="1556668858664" status="passed">
+      <name>testGetPreferenceTrimsFirstSlash</name>
+    </test-case>
+    <test-case start="1556668858664" stop="1556668858665" status="passed">
+      <name>testExtendIgnoresFirstSlashesOnPreferences</name>
+    </test-case>
+    <test-case start="1556668858665" stop="1556668858665" status="passed">
+      <name>testExtendIgnoresFirstShashesOnVirtualTypes</name>
+    </test-case>
+    <test-case start="1556668858666" stop="1556668858666" status="passed">
+      <name>testExtendIgnoresFirstShashes</name>
+    </test-case>
+    <test-case start="1556668858666" stop="1556668858667" status="passed">
+      <name>testExtendIgnoresFirstShashesForSharing</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668677401" stop="1556668677411" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Model\Product\LinksListTest</name>
+  <test-cases>
+    <test-case start="1556668677402" stop="1556668677410" status="passed">
+      <name>testLinksList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

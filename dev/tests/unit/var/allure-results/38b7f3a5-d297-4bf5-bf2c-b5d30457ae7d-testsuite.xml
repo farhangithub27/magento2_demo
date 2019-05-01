@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668675313" stop="1556668675334" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Observer\AddPaypalShortcutsTest</name>
+  <test-cases>
+    <test-case start="1556668675314" stop="1556668675334" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

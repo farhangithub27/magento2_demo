@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668656812" stop="1556668656826" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\Command\MaintenanceAllowIpsCommandTest</name>
+  <test-cases>
+    <test-case start="1556668656813" stop="1556668656815" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668656815" stop="1556668656816" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668656817" stop="1556668656818" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668656818" stop="1556668656819" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+    <test-case start="1556668656819" stop="1556668656820" status="passed">
+      <name>testExecute with data set #4</name>
+    </test-case>
+    <test-case start="1556668656821" stop="1556668656822" status="passed">
+      <name>testExecuteWithAdd with data set #0</name>
+    </test-case>
+    <test-case start="1556668656823" stop="1556668656824" status="passed">
+      <name>testExecuteWithAdd with data set #1</name>
+    </test-case>
+    <test-case start="1556668656825" stop="1556668656826" status="passed">
+      <name>testExecuteWithAdd with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

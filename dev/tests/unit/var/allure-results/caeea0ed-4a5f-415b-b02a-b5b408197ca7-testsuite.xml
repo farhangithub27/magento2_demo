@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668835933" stop="1556668835958" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Controller\Index\FromcartTest</name>
+  <test-cases>
+    <test-case start="1556668835934" stop="1556668835938" status="passed">
+      <name>testExecuteWithInvalidFormKey</name>
+    </test-case>
+    <test-case start="1556668835938" stop="1556668835942" status="passed">
+      <name>testExecutePageNotFound</name>
+    </test-case>
+    <test-case start="1556668835942" stop="1556668835947" status="passed">
+      <name>testExecuteNoCartItem</name>
+    </test-case>
+    <test-case start="1556668835947" stop="1556668835954" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668835954" stop="1556668835958" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

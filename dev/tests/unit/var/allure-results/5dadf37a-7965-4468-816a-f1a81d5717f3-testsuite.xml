@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668705623" stop="1556668705645" version="1.4.0">
+  <name>Magento\CheckoutAgreements\Test\Unit\Model\CheckoutAgreementsRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668705624" stop="1556668705631" status="passed">
+      <name>testGetListReturnsEmptyListIfCheckoutAgreementsAreDisabledOnFrontend</name>
+    </test-case>
+    <test-case start="1556668705631" stop="1556668705632" status="passed">
+      <name>testGetListReturnsTheListOfActiveCheckoutAgreements</name>
+    </test-case>
+    <test-case start="1556668705633" stop="1556668705635" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668705635" stop="1556668705638" status="passed">
+      <name>testUpdate</name>
+    </test-case>
+    <test-case start="1556668705638" stop="1556668705640" status="passed">
+      <name>testSaveWithException</name>
+    </test-case>
+    <test-case start="1556668705641" stop="1556668705642" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668705643" stop="1556668705645" status="passed">
+      <name>testDeleteByIdWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

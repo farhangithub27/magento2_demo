@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668663119" stop="1556668663136" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\I18n\Dictionary\PhraseTest</name>
+  <test-cases>
+    <test-case start="1556668663120" stop="1556668663120" status="passed">
+      <name>testPhraseCreation with data set #0</name>
+    </test-case>
+    <test-case start="1556668663121" stop="1556668663121" status="passed">
+      <name>testPhraseCreation with data set #1</name>
+    </test-case>
+    <test-case start="1556668663122" stop="1556668663122" status="passed">
+      <name>testPhraseCreation with data set #2</name>
+    </test-case>
+    <test-case start="1556668663122" stop="1556668663123" status="passed">
+      <name>testPhraseCreation with data set #3</name>
+    </test-case>
+    <test-case start="1556668663123" stop="1556668663124" status="passed">
+      <name>testPhraseCreation with data set #4</name>
+    </test-case>
+    <test-case start="1556668663124" stop="1556668663125" status="passed">
+      <name>testPhraseCreation with data set #5</name>
+    </test-case>
+    <test-case start="1556668663125" stop="1556668663126" status="passed">
+      <name>testWrongParametersWhilePhraseCreation with data set #0</name>
+    </test-case>
+    <test-case start="1556668663126" stop="1556668663127" status="passed">
+      <name>testWrongParametersWhilePhraseCreation with data set #1</name>
+    </test-case>
+    <test-case start="1556668663127" stop="1556668663128" status="passed">
+      <name>testWrongParametersWhilePhraseCreation with data set #2</name>
+    </test-case>
+    <test-case start="1556668663129" stop="1556668663129" status="passed">
+      <name>testAccessorMethods with data set #0</name>
+    </test-case>
+    <test-case start="1556668663129" stop="1556668663130" status="passed">
+      <name>testAccessorMethods with data set #1</name>
+    </test-case>
+    <test-case start="1556668663130" stop="1556668663131" status="passed">
+      <name>testAccessorMethods with data set #2</name>
+    </test-case>
+    <test-case start="1556668663131" stop="1556668663131" status="passed">
+      <name>testAccessorMethods with data set #3</name>
+    </test-case>
+    <test-case start="1556668663132" stop="1556668663132" status="passed">
+      <name>testAddContextValue</name>
+    </test-case>
+    <test-case start="1556668663132" stop="1556668663133" status="passed">
+      <name>testContextValueDuplicationResolving</name>
+    </test-case>
+    <test-case start="1556668663133" stop="1556668663133" status="passed">
+      <name>testAddEmptyContextValue</name>
+    </test-case>
+    <test-case start="1556668663134" stop="1556668663134" status="passed">
+      <name>testContextValueReset</name>
+    </test-case>
+    <test-case start="1556668663134" stop="1556668663135" status="passed">
+      <name>testGetContextValueAsString</name>
+    </test-case>
+    <test-case start="1556668663135" stop="1556668663135" status="passed">
+      <name>testGetContextValueAsStringWithCustomSeparator</name>
+    </test-case>
+    <test-case start="1556668663135" stop="1556668663136" status="passed">
+      <name>testGetKey</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

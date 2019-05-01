@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668671820" stop="1556668671829" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\Locale\ManagerTest</name>
+  <test-cases>
+    <test-case start="1556668671821" stop="1556668671823" status="passed">
+      <name>testSwitchBackendInterfaceLocale with data set "case1"</name>
+    </test-case>
+    <test-case start="1556668671823" stop="1556668671825" status="passed">
+      <name>testSwitchBackendInterfaceLocale with data set "case2"</name>
+    </test-case>
+    <test-case start="1556668671825" stop="1556668671826" status="passed">
+      <name>testGetUserInterfaceLocaleDefault</name>
+    </test-case>
+    <test-case start="1556668671826" stop="1556668671827" status="passed">
+      <name>testGetUserInterfaceLocale</name>
+    </test-case>
+    <test-case start="1556668671827" stop="1556668671829" status="passed">
+      <name>testGetUserInterfaceGeneralLocale</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668793867" stop="1556668793873" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\ResourceModel\QuoteTest</name>
+  <test-cases>
+    <test-case start="1556668793867" stop="1556668793869" status="passed">
+      <name>testGetReservedOrderId with data set #0</name>
+    </test-case>
+    <test-case start="1556668793870" stop="1556668793871" status="passed">
+      <name>testGetReservedOrderId with data set #1</name>
+    </test-case>
+    <test-case start="1556668793872" stop="1556668793873" status="passed">
+      <name>testGetReservedOrderId with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668827630" stop="1556668827636" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Component\Form\Element\ActionDeleteTest</name>
+  <test-cases>
+    <test-case start="1556668827631" stop="1556668827631" status="passed">
+      <name>testGetComponentName</name>
+    </test-case>
+    <test-case start="1556668827632" stop="1556668827633" status="passed">
+      <name>testGetHtmlId</name>
+    </test-case>
+    <test-case start="1556668827633" stop="1556668827633" status="passed">
+      <name>testGetValue</name>
+    </test-case>
+    <test-case start="1556668827634" stop="1556668827634" status="passed">
+      <name>testGetFormInputName</name>
+    </test-case>
+    <test-case start="1556668827634" stop="1556668827635" status="passed">
+      <name>testIsReadonly</name>
+    </test-case>
+    <test-case start="1556668827635" stop="1556668827636" status="passed">
+      <name>testGetCssClasses</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

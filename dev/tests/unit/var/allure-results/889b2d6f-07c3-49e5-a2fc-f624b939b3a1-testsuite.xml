@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668738387" stop="1556668738391" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\Adapter\Index\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668738387" stop="1556668738389" status="passed">
+      <name>testBuild with data set #0</name>
+    </test-case>
+    <test-case start="1556668738390" stop="1556668738390" status="passed">
+      <name>testBuild with data set #1</name>
+    </test-case>
+    <test-case start="1556668738391" stop="1556668738391" status="passed">
+      <name>testSetStoreId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668870786" stop="1556668870788" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Design\Fallback\Rule\ModularSwitchTest</name>
+  <test-cases>
+    <test-case start="1556668870786" stop="1556668870787" status="passed">
+      <name>testGetPatternDirsNonModular</name>
+    </test-case>
+    <test-case start="1556668870787" stop="1556668870788" status="passed">
+      <name>testGetPatternDirsModular</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

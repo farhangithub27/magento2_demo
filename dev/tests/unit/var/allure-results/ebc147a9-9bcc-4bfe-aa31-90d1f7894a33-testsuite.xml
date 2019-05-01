@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668684142" stop="1556668684147" version="1.4.0">
+  <name>Magento\CatalogRule\Test\Unit\Model\Indexer\RuleProductPricesPersistorTest</name>
+  <test-cases>
+    <test-case start="1556668684142" stop="1556668684143" status="passed">
+      <name>testExecuteWithEmptyPriceData</name>
+    </test-case>
+    <test-case start="1556668684143" stop="1556668684145" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668684145" stop="1556668684147" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

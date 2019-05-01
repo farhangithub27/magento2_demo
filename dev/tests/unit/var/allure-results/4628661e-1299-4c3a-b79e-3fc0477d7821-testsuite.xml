@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668746713" stop="1556668746723" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\AdminTokenServiceTest</name>
+  <test-cases>
+    <test-case start="1556668746713" stop="1556668746719" status="passed">
+      <name>testRevokeAdminAccessToken</name>
+    </test-case>
+    <test-case start="1556668746719" stop="1556668746721" status="passed">
+      <name>testRevokeAdminAccessTokenWithoutAdminId</name>
+    </test-case>
+    <test-case start="1556668746721" stop="1556668746723" status="passed">
+      <name>testRevokeAdminAccessTokenCannotRevoked</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

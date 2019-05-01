@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668748959" stop="1556668748974" version="1.4.0">
+  <name>Magento\MediaStorage\Test\Unit\Model\File\Storage\Directory\DatabaseTest</name>
+  <test-cases>
+    <test-case start="1556668748960" stop="1556668748968" status="passed">
+      <name>testImportDirectories</name>
+    </test-case>
+    <test-case start="1556668748968" stop="1556668748970" status="passed">
+      <name>testImportDirectoriesFailureWithoutParent</name>
+    </test-case>
+    <test-case start="1556668748970" stop="1556668748972" status="passed">
+      <name>testImportDirectoriesFailureNotArray</name>
+    </test-case>
+    <test-case start="1556668748972" stop="1556668748974" status="passed">
+      <name>testSetGetConnectionName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

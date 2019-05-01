@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668708781" stop="1556668708803" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Controller\Adminhtml\Page\SaveTest</name>
+  <test-cases>
+    <test-case start="1556668708781" stop="1556668708786" status="passed">
+      <name>testSaveAction</name>
+    </test-case>
+    <test-case start="1556668708787" stop="1556668708790" status="passed">
+      <name>testSaveActionWithoutData</name>
+    </test-case>
+    <test-case start="1556668708790" stop="1556668708793" status="passed">
+      <name>testSaveActionNoId</name>
+    </test-case>
+    <test-case start="1556668708794" stop="1556668708799" status="passed">
+      <name>testSaveAndContinue</name>
+    </test-case>
+    <test-case start="1556668708799" stop="1556668708803" status="passed">
+      <name>testSaveActionThrowsException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

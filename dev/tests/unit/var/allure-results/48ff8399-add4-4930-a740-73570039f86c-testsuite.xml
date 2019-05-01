@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668719011" stop="1556668719030" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Widget\AbstractWidgetTest</name>
+  <test-cases>
+    <test-case start="1556668719012" stop="1556668719014" status="passed">
+      <name>testGetConfig with data set #0</name>
+    </test-case>
+    <test-case start="1556668719014" stop="1556668719015" status="passed">
+      <name>testGetConfig with data set #1</name>
+    </test-case>
+    <test-case start="1556668719015" stop="1556668719016" status="passed">
+      <name>testGetFieldIdFormatHasData</name>
+    </test-case>
+    <test-case start="1556668719016" stop="1556668719017" status="passed">
+      <name>testGetFieldIdFormatHasNoData</name>
+    </test-case>
+    <test-case start="1556668719018" stop="1556668719019" status="passed">
+      <name>testGetFieldNameFormatHasData</name>
+    </test-case>
+    <test-case start="1556668719019" stop="1556668719020" status="passed">
+      <name>testGetFieldNameFormatHasNoData</name>
+    </test-case>
+    <test-case start="1556668719021" stop="1556668719022" status="passed">
+      <name>testGetFieldId with data set #0</name>
+    </test-case>
+    <test-case start="1556668719022" stop="1556668719023" status="passed">
+      <name>testGetFieldId with data set #1</name>
+    </test-case>
+    <test-case start="1556668719024" stop="1556668719025" status="passed">
+      <name>testGetFieldId with data set #2</name>
+    </test-case>
+    <test-case start="1556668719026" stop="1556668719027" status="passed">
+      <name>testGetFieldName with data set #0</name>
+    </test-case>
+    <test-case start="1556668719028" stop="1556668719029" status="passed">
+      <name>testGetFieldName with data set #1</name>
+    </test-case>
+    <test-case start="1556668719029" stop="1556668719030" status="passed">
+      <name>testGetFieldName with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

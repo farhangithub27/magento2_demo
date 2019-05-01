@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668849747" stop="1556668849750" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\ProfilerTest</name>
+  <test-cases>
+    <test-case start="1556668849747" stop="1556668849747" status="passed">
+      <name>testSetHost</name>
+    </test-case>
+    <test-case start="1556668849748" stop="1556668849748" status="passed">
+      <name>testSetType</name>
+    </test-case>
+    <test-case start="1556668849748" stop="1556668849749" status="passed">
+      <name>testQueryStart</name>
+    </test-case>
+    <test-case start="1556668849749" stop="1556668849749" status="passed">
+      <name>testQueryEnd</name>
+    </test-case>
+    <test-case start="1556668849749" stop="1556668849750" status="passed">
+      <name>testQueryEndLast</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

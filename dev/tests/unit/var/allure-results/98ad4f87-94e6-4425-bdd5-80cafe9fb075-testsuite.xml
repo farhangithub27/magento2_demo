@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668871258" stop="1556668871279" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Design\Theme\Image\UploaderTest</name>
+  <test-cases>
+    <test-case start="1556668871258" stop="1556668871269" status="passed">
+      <name>testUploadPreviewImage with data set #0</name>
+    </test-case>
+    <test-case start="1556668871270" stop="1556668871271" status="passed">
+      <name>testUploadPreviewImage with data set #1</name>
+    </test-case>
+    <test-case start="1556668871271" stop="1556668871273" status="passed">
+      <name>testUploadPreviewImage with data set #2</name>
+    </test-case>
+    <test-case start="1556668871273" stop="1556668871275" status="passed">
+      <name>testUploadPreviewImage with data set #3</name>
+    </test-case>
+    <test-case start="1556668871276" stop="1556668871278" status="passed">
+      <name>testUploadPreviewImage with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

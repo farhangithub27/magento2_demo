@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832987" stop="1556668832997" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Model\Soap\FaultTest</name>
+  <test-cases>
+    <test-case start="1556668832987" stop="1556668832989" status="passed">
+      <name>testToXmlDeveloperModeOff</name>
+    </test-case>
+    <test-case start="1556668832989" stop="1556668832990" status="passed">
+      <name>testToXmlDeveloperModeOn</name>
+    </test-case>
+    <test-case start="1556668832990" stop="1556668832991" status="passed">
+      <name>testGetSoapFaultMessage with data set "ArrayDataDetails"</name>
+    </test-case>
+    <test-case start="1556668832992" stop="1556668832992" status="passed">
+      <name>testGetSoapFaultMessage with data set "IndexArrayDetails"</name>
+    </test-case>
+    <test-case start="1556668832993" stop="1556668832994" status="passed">
+      <name>testGetSoapFaultMessage with data set "EmptyArrayDetails"</name>
+    </test-case>
+    <test-case start="1556668832994" stop="1556668832995" status="passed">
+      <name>testGetSoapFaultMessage with data set "ObjectDetails"</name>
+    </test-case>
+    <test-case start="1556668832995" stop="1556668832996" status="passed">
+      <name>testGetSoapFaultMessage with data set "ComplexDataDetails"</name>
+    </test-case>
+    <test-case start="1556668832996" stop="1556668832997" status="passed">
+      <name>testConstructor</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

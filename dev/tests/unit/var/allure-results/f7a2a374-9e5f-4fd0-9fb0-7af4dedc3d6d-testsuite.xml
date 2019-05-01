@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668711987" stop="1556668711996" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Backend\EncryptedTest</name>
+  <test-cases>
+    <test-case start="1556668711987" stop="1556668711989" status="passed">
+      <name>testProcessValue</name>
+    </test-case>
+    <test-case start="1556668711990" stop="1556668711992" status="passed">
+      <name>testBeforeSave with data set #0</name>
+    </test-case>
+    <test-case start="1556668711992" stop="1556668711994" status="passed">
+      <name>testBeforeSave with data set #1</name>
+    </test-case>
+    <test-case start="1556668711994" stop="1556668711995" status="passed">
+      <name>testAllowEmptySave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

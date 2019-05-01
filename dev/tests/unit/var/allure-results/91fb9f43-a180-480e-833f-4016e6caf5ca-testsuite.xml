@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668857305" stop="1556668857313" version="1.4.0">
+  <name>Magento\Framework\Module\Test\Unit\DependencyCheckerTest</name>
+  <test-cases>
+    <test-case start="1556668857305" stop="1556668857307" status="passed">
+      <name>testCheckDependenciesWhenDisableModules</name>
+    </test-case>
+    <test-case start="1556668857307" stop="1556668857309" status="passed">
+      <name>testCheckDependenciesWhenDisableModulesWithCurEnabledModules</name>
+    </test-case>
+    <test-case start="1556668857309" stop="1556668857311" status="passed">
+      <name>testCheckDependenciesWhenEnableModules</name>
+    </test-case>
+    <test-case start="1556668857311" stop="1556668857313" status="passed">
+      <name>testCheckDependenciesWhenEnableModulesWithCurEnabledModules</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

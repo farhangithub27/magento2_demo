@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668718569" stop="1556668718640" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Adminhtml\Edit\Tab\View\PersonalInfoTest</name>
+  <test-cases>
+    <test-case start="1556668718569" stop="1556668718579" status="passed">
+      <name>testGetStoreLastLoginDateTimezone</name>
+    </test-case>
+    <test-case start="1556668718580" stop="1556668718586" status="passed">
+      <name>testGetCurrentStatus with data set #0</name>
+    </test-case>
+    <test-case start="1556668718586" stop="1556668718593" status="passed">
+      <name>testGetCurrentStatus with data set #1</name>
+    </test-case>
+    <test-case start="1556668718593" stop="1556668718600" status="passed">
+      <name>testGetCurrentStatus with data set #2</name>
+    </test-case>
+    <test-case start="1556668718600" stop="1556668718606" status="passed">
+      <name>testGetCurrentStatus with data set #3</name>
+    </test-case>
+    <test-case start="1556668718607" stop="1556668718612" status="passed">
+      <name>testGetLastLoginDate with data set #0</name>
+    </test-case>
+    <test-case start="1556668718612" stop="1556668718617" status="passed">
+      <name>testGetLastLoginDate with data set #1</name>
+    </test-case>
+    <test-case start="1556668718618" stop="1556668718623" status="passed">
+      <name>testGetStoreLastLoginDate with data set #0</name>
+    </test-case>
+    <test-case start="1556668718623" stop="1556668718628" status="passed">
+      <name>testGetStoreLastLoginDate with data set #1</name>
+    </test-case>
+    <test-case start="1556668718629" stop="1556668718635" status="passed">
+      <name>testGetAccountLock with data set #0</name>
+    </test-case>
+    <test-case start="1556668718635" stop="1556668718640" status="passed">
+      <name>testGetAccountLock with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

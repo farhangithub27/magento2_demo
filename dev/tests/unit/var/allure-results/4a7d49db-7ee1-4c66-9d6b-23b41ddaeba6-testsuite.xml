@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668782463" stop="1556668782472" version="1.4.0">
+  <name>Magento\OfflineShipping\Test\Unit\Model\ResourceModel\Carrier\Tablerate\CSV\RowParserTest</name>
+  <test-cases>
+    <test-case start="1556668782463" stop="1556668782465" status="passed">
+      <name>testGetColumns</name>
+    </test-case>
+    <test-case start="1556668782466" stop="1556668782467" status="passed">
+      <name>testParse</name>
+    </test-case>
+    <test-case start="1556668782467" stop="1556668782468" status="passed">
+      <name>testParseWithException with data set #0</name>
+    </test-case>
+    <test-case start="1556668782469" stop="1556668782469" status="passed">
+      <name>testParseWithException with data set #1</name>
+    </test-case>
+    <test-case start="1556668782470" stop="1556668782471" status="passed">
+      <name>testParseWithException with data set #2</name>
+    </test-case>
+    <test-case start="1556668782471" stop="1556668782472" status="passed">
+      <name>testParseWithException with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

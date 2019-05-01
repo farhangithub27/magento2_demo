@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816947" stop="1556668816949" version="1.4.0">
+  <name>Magento\Sitemap\Test\Unit\Model\SitemapConfigReaderTest</name>
+  <test-cases>
+    <test-case start="1556668816948" stop="1556668816949" status="passed">
+      <name>testGetValidPaths</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

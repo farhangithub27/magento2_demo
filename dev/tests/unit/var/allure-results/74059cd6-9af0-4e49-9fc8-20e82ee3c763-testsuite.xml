@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668665457" stop="1556668665471" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Cron\UpdateTest</name>
+  <test-cases>
+    <test-case start="1556668665458" stop="1556668665460" status="passed">
+      <name>testExecuteWithoutToken</name>
+    </test-case>
+    <test-case start="1556668665461" stop="1556668665462" status="passed">
+      <name>testExecuteWithEmptyReverseCounter with data set #0</name>
+    </test-case>
+    <test-case start="1556668665463" stop="1556668665465" status="passed">
+      <name>testExecuteWithEmptyReverseCounter with data set #1</name>
+    </test-case>
+    <test-case start="1556668665465" stop="1556668665467" status="passed">
+      <name>testExecuteRegularScenario with data set "The last attempt with command execution result False"</name>
+    </test-case>
+    <test-case start="1556668665467" stop="1556668665469" status="passed">
+      <name>testExecuteRegularScenario with data set "Not the last attempt with command execution result False"</name>
+    </test-case>
+    <test-case start="1556668665469" stop="1556668665471" status="passed">
+      <name>testExecuteRegularScenario with data set "Command execution result True"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

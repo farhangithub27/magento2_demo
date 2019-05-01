@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668659744" stop="1556668659786" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\Cron\JobFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668659744" stop="1556668659762" status="passed">
+      <name>testUpgrade</name>
+    </test-case>
+    <test-case start="1556668659763" stop="1556668659765" status="passed">
+      <name>testRollback</name>
+    </test-case>
+    <test-case start="1556668659765" stop="1556668659768" status="passed">
+      <name>testComponentUninstall</name>
+    </test-case>
+    <test-case start="1556668659768" stop="1556668659770" status="passed">
+      <name>testCreateUnknownJob</name>
+    </test-case>
+    <test-case start="1556668659770" stop="1556668659776" status="passed">
+      <name>testCacheEnable</name>
+    </test-case>
+    <test-case start="1556668659776" stop="1556668659782" status="passed">
+      <name>testCacheDisable</name>
+    </test-case>
+    <test-case start="1556668659782" stop="1556668659784" status="passed">
+      <name>testMaintenanceModeEnable</name>
+    </test-case>
+    <test-case start="1556668659784" stop="1556668659786" status="passed">
+      <name>testMaintenanceModeDisable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

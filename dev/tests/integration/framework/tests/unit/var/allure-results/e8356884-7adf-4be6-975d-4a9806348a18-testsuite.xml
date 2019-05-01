@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668876842" stop="1556668876851" version="1.4.0">
+  <name>Magento\Test\Annotation\DataFixtureTest</name>
+  <test-cases>
+    <test-case start="1556668876842" stop="1556668876843" status="passed">
+      <name>testConstructorException</name>
+    </test-case>
+    <test-case start="1556668876843" stop="1556668876844" status="passed">
+      <name>testStartTestTransactionRequestClassAnnotation</name>
+    </test-case>
+    <test-case start="1556668876845" stop="1556668876845" status="passed">
+      <name>testStartTestTransactionRequestMethodAnnotation</name>
+    </test-case>
+    <test-case start="1556668876846" stop="1556668876846" status="passed">
+      <name>testDisabledDbIsolation</name>
+    </test-case>
+    <test-case start="1556668876846" stop="1556668876847" status="passed">
+      <name>testStartTestTransactionRequestInvalidPath</name>
+    </test-case>
+    <test-case start="1556668876847" stop="1556668876848" status="passed">
+      <name>testEndTestTransactionRequestMethodAnnotation</name>
+    </test-case>
+    <test-case start="1556668876848" stop="1556668876848" status="passed">
+      <name>testStartTransactionClassAnnotation</name>
+    </test-case>
+    <test-case start="1556668876848" stop="1556668876849" status="passed">
+      <name>testStartTransactionMethodAnnotation</name>
+    </test-case>
+    <test-case start="1556668876850" stop="1556668876850" status="passed">
+      <name>testRollbackTransactionRevertFixtureMethod</name>
+    </test-case>
+    <test-case start="1556668876850" stop="1556668876851" status="passed">
+      <name>testRollbackTransactionRevertFixtureFile</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

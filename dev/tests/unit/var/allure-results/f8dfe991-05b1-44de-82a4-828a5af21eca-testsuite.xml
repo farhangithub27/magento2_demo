@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668678147" stop="1556668678182" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Model\Sales\Order\Plugin\ItemTest</name>
+  <test-cases>
+    <test-case start="1556668678147" stop="1556668678175" status="passed">
+      <name>testAfterGetQtyToCancelIfProductIsBundle</name>
+    </test-case>
+    <test-case start="1556668678175" stop="1556668678177" status="passed">
+      <name>testAfterGetQtyToCancelIfParentProductIsBundle</name>
+    </test-case>
+    <test-case start="1556668678178" stop="1556668678179" status="passed">
+      <name>testAfterGetQtyToCancelForSimpleProduct</name>
+    </test-case>
+    <test-case start="1556668678179" stop="1556668678179" status="passed">
+      <name>testAfterIsProcessingAvailableForProductWithoutParent</name>
+    </test-case>
+    <test-case start="1556668678180" stop="1556668678181" status="passed">
+      <name>testAfterIsProcessingAvailableForProductWhenParentIsBundle</name>
+    </test-case>
+    <test-case start="1556668678181" stop="1556668678182" status="passed">
+      <name>testAfterIsProcessingAvailableForBundleProduct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

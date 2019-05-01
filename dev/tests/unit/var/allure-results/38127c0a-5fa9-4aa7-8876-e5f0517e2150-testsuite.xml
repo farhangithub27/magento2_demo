@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668827251" stop="1556668827256" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Component\ExportButtonTest</name>
+  <test-cases>
+    <test-case start="1556668827252" stop="1556668827253" status="passed">
+      <name>testGetComponentName</name>
+    </test-case>
+    <test-case start="1556668827253" stop="1556668827255" status="passed">
+      <name>testPrepare</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

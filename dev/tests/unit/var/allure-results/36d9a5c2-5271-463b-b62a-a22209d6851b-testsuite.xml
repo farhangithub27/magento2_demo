@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668844256" stop="1556668844280" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\HttpTest</name>
+  <test-cases>
+    <test-case start="1556668844256" stop="1556668844263" status="passed">
+      <name>testLaunchSuccess</name>
+    </test-case>
+    <test-case start="1556668844263" stop="1556668844266" status="passed">
+      <name>testLaunchException</name>
+    </test-case>
+    <test-case start="1556668844266" stop="1556668844270" status="passed">
+      <name>testHandleDeveloperModeNotInstalled</name>
+    </test-case>
+    <test-case start="1556668844271" stop="1556668844276" status="passed">
+      <name>testHandleDeveloperMode</name>
+    </test-case>
+    <test-case start="1556668844276" stop="1556668844280" status="passed">
+      <name>testCatchExceptionSessionException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

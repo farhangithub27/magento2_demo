@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668813623" stop="1556668813658" version="1.4.0">
+  <name>Magento\Search\Test\Unit\Model\SynonymGroupRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668813624" stop="1556668813634" status="passed">
+      <name>testSaveCreate</name>
+    </test-case>
+    <test-case start="1556668813634" stop="1556668813637" status="passed">
+      <name>testSaveCreateMergeConflict</name>
+    </test-case>
+    <test-case start="1556668813637" stop="1556668813642" status="passed">
+      <name>testSaveCreateMerge</name>
+    </test-case>
+    <test-case start="1556668813642" stop="1556668813648" status="passed">
+      <name>testSaveUpdate</name>
+    </test-case>
+    <test-case start="1556668813648" stop="1556668813651" status="passed">
+      <name>testSaveUpdateMergeConflict</name>
+    </test-case>
+    <test-case start="1556668813651" stop="1556668813658" status="passed">
+      <name>testSaveUpdateMerge</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

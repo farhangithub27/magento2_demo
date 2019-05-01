@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668698944" stop="1556668699000" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Option\RepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668698944" stop="1556668698947" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668698948" stop="1556668698949" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668698949" stop="1556668698950" status="passed">
+      <name>testGetNonExistingOption</name>
+    </test-case>
+    <test-case start="1556668698951" stop="1556668698952" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668698952" stop="1556668698954" status="passed">
+      <name>testDeleteByIdentifierNonExistingOption</name>
+    </test-case>
+    <test-case start="1556668698954" stop="1556668698956" status="passed">
+      <name>testDeleteByIdentifier</name>
+    </test-case>
+    <test-case start="1556668698956" stop="1556668698958" status="passed">
+      <name>testDeleteByIdentifierWhenCannotRemoveOption</name>
+    </test-case>
+    <test-case start="1556668698959" stop="1556668698960" status="passed">
+      <name>testSaveCouldNotSaveException</name>
+    </test-case>
+    <test-case start="1556668698960" stop="1556668698962" status="passed">
+      <name>testSaveNoSuchEntityException</name>
+    </test-case>
+    <test-case start="1556668698962" stop="1556668698994" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668698994" stop="1556668699000" status="passed">
+      <name>testSaveWhenOptionTypeWasChanged</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

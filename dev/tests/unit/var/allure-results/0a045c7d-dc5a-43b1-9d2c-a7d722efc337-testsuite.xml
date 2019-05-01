@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855226" stop="1556668855236" version="1.4.0">
+  <name>Magento\Framework\Indexer\Test\Unit\IndexStructureTest</name>
+  <test-cases>
+    <test-case start="1556668855226" stop="1556668855230" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668855231" stop="1556668855236" status="passed">
+      <name>testCreateWithEmptyFields</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

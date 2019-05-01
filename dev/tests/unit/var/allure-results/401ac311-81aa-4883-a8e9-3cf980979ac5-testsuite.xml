@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816383" stop="1556668816387" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\SignifydGateway\Client\HttpClientFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668816383" stop="1556668816385" status="passed">
+      <name>testCreateHttpClient</name>
+    </test-case>
+    <test-case start="1556668816386" stop="1556668816387" status="passed">
+      <name>testCreateWithParams</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

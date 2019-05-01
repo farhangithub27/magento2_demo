@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668711668" stop="1556668711677" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Console\Command\ConfigSetCommandTest</name>
+  <test-cases>
+    <test-case start="1556668711668" stop="1556668711672" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668711672" stop="1556668711674" status="passed">
+      <name>testExecuteMagentoUninstalled</name>
+    </test-case>
+    <test-case start="1556668711674" stop="1556668711675" status="passed">
+      <name>testExecuteNeedsRegeneration</name>
+    </test-case>
+    <test-case start="1556668711675" stop="1556668711677" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

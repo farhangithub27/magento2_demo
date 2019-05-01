@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837822" stop="1556668837843" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Data\LogEntryTest</name>
+  <test-cases>
+    <test-case start="1556668837823" stop="1556668837825" status="passed">
+      <name>testType</name>
+    </test-case>
+    <test-case start="1556668837825" stop="1556668837827" status="passed">
+      <name>testCartId</name>
+    </test-case>
+    <test-case start="1556668837827" stop="1556668837828" status="passed">
+      <name>testOrderId</name>
+    </test-case>
+    <test-case start="1556668837829" stop="1556668837830" status="passed">
+      <name>testTotalTax</name>
+    </test-case>
+    <test-case start="1556668837830" stop="1556668837832" status="passed">
+      <name>testSourcePath</name>
+    </test-case>
+    <test-case start="1556668837832" stop="1556668837833" status="passed">
+      <name>testTaxAreaId</name>
+    </test-case>
+    <test-case start="1556668837834" stop="1556668837835" status="passed">
+      <name>testSubTotal</name>
+    </test-case>
+    <test-case start="1556668837835" stop="1556668837837" status="passed">
+      <name>testTotal</name>
+    </test-case>
+    <test-case start="1556668837837" stop="1556668837839" status="passed">
+      <name>testLookupResult</name>
+    </test-case>
+    <test-case start="1556668837839" stop="1556668837840" status="passed">
+      <name>testDate</name>
+    </test-case>
+    <test-case start="1556668837840" stop="1556668837842" status="passed">
+      <name>testRequestXml</name>
+    </test-case>
+    <test-case start="1556668837842" stop="1556668837843" status="passed">
+      <name>testResponseXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

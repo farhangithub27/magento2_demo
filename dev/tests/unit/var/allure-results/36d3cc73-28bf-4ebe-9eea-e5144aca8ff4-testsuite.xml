@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668745825" stop="1556668745838" version="1.4.0">
+  <name>Magento\Indexer\Test\Unit\Model\ProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668745825" stop="1556668745829" status="passed">
+      <name>testReindexAllInvalid</name>
+    </test-case>
+    <test-case start="1556668745830" stop="1556668745836" status="passed">
+      <name>testReindexAll</name>
+    </test-case>
+    <test-case start="1556668745836" stop="1556668745837" status="passed">
+      <name>testUpdateMview</name>
+    </test-case>
+    <test-case start="1556668745837" stop="1556668745838" status="passed">
+      <name>testClearChangelog</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668849664" stop="1556668849707" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\Platform\QuoteTest</name>
+  <test-cases>
+    <test-case start="1556668849664" stop="1556668849665" status="passed">
+      <name>testQuoteIdentifierWithZendDbExpr</name>
+    </test-case>
+    <test-case start="1556668849665" stop="1556668849666" status="passed">
+      <name>testQuoteIdentifierWithSelect</name>
+    </test-case>
+    <test-case start="1556668849666" stop="1556668849667" status="passed">
+      <name>testQuoteIdentifierWithArrayExpr</name>
+    </test-case>
+    <test-case start="1556668849667" stop="1556668849668" status="passed">
+      <name>testQuoteIdentifier with data set #0</name>
+    </test-case>
+    <test-case start="1556668849668" stop="1556668849669" status="passed">
+      <name>testQuoteIdentifier with data set #1</name>
+    </test-case>
+    <test-case start="1556668849669" stop="1556668849670" status="passed">
+      <name>testQuoteIdentifier with data set #2</name>
+    </test-case>
+    <test-case start="1556668849670" stop="1556668849671" status="passed">
+      <name>testQuoteIdentifier with data set #3</name>
+    </test-case>
+    <test-case start="1556668849671" stop="1556668849672" status="passed">
+      <name>testQuoteIdentifier with data set #4</name>
+    </test-case>
+    <test-case start="1556668849672" stop="1556668849673" status="passed">
+      <name>testQuoteColumnAsWithZendDbExpr with data set #0</name>
+    </test-case>
+    <test-case start="1556668849673" stop="1556668849674" status="passed">
+      <name>testQuoteColumnAsWithZendDbExpr with data set #1</name>
+    </test-case>
+    <test-case start="1556668849674" stop="1556668849675" status="passed">
+      <name>testQuoteColumnAsWithZendDbExpr with data set #2</name>
+    </test-case>
+    <test-case start="1556668849675" stop="1556668849676" status="passed">
+      <name>testQuoteColumnAsWithZendDbExpr with data set #3</name>
+    </test-case>
+    <test-case start="1556668849677" stop="1556668849677" status="passed">
+      <name>testQuoteColumnAsWithSelect with data set #0</name>
+    </test-case>
+    <test-case start="1556668849678" stop="1556668849679" status="passed">
+      <name>testQuoteColumnAsWithSelect with data set #1</name>
+    </test-case>
+    <test-case start="1556668849679" stop="1556668849680" status="passed">
+      <name>testQuoteColumnAsWithSelect with data set #2</name>
+    </test-case>
+    <test-case start="1556668849681" stop="1556668849682" status="passed">
+      <name>testQuoteColumnAsWithSelect with data set #3</name>
+    </test-case>
+    <test-case start="1556668849682" stop="1556668849683" status="passed">
+      <name>testQuoteColumn with data set #0</name>
+    </test-case>
+    <test-case start="1556668849683" stop="1556668849684" status="passed">
+      <name>testQuoteColumn with data set #1</name>
+    </test-case>
+    <test-case start="1556668849684" stop="1556668849685" status="passed">
+      <name>testQuoteColumn with data set #2</name>
+    </test-case>
+    <test-case start="1556668849685" stop="1556668849686" status="passed">
+      <name>testQuoteColumn with data set #3</name>
+    </test-case>
+    <test-case start="1556668849686" stop="1556668849687" status="passed">
+      <name>testQuoteColumn with data set #4</name>
+    </test-case>
+    <test-case start="1556668849687" stop="1556668849688" status="passed">
+      <name>testQuoteColumn with data set #5</name>
+    </test-case>
+    <test-case start="1556668849688" stop="1556668849689" status="passed">
+      <name>testQuoteColumn with data set #6</name>
+    </test-case>
+    <test-case start="1556668849689" stop="1556668849689" status="passed">
+      <name>testQuoteColumn with data set #7</name>
+    </test-case>
+    <test-case start="1556668849690" stop="1556668849690" status="passed">
+      <name>testQuoteColumn with data set #8</name>
+    </test-case>
+    <test-case start="1556668849691" stop="1556668849691" status="passed">
+      <name>testQuoteTableAsWithZendDbExpr with data set #0</name>
+    </test-case>
+    <test-case start="1556668849692" stop="1556668849692" status="passed">
+      <name>testQuoteTableAsWithZendDbExpr with data set #1</name>
+    </test-case>
+    <test-case start="1556668849693" stop="1556668849694" status="passed">
+      <name>testQuoteTableAsWithZendDbExpr with data set #2</name>
+    </test-case>
+    <test-case start="1556668849694" stop="1556668849695" status="passed">
+      <name>testQuoteTableAsWithZendDbExpr with data set #3</name>
+    </test-case>
+    <test-case start="1556668849695" stop="1556668849696" status="passed">
+      <name>testQuoteTableAsWithSelect with data set #0</name>
+    </test-case>
+    <test-case start="1556668849696" stop="1556668849697" status="passed">
+      <name>testQuoteTableAsWithSelect with data set #1</name>
+    </test-case>
+    <test-case start="1556668849697" stop="1556668849698" status="passed">
+      <name>testQuoteTableAsWithSelect with data set #2</name>
+    </test-case>
+    <test-case start="1556668849698" stop="1556668849699" status="passed">
+      <name>testQuoteTableAsWithSelect with data set #3</name>
+    </test-case>
+    <test-case start="1556668849699" stop="1556668849700" status="passed">
+      <name>testQuoteTableAs with data set #0</name>
+    </test-case>
+    <test-case start="1556668849700" stop="1556668849701" status="passed">
+      <name>testQuoteTableAs with data set #1</name>
+    </test-case>
+    <test-case start="1556668849701" stop="1556668849702" status="passed">
+      <name>testQuoteTableAs with data set #2</name>
+    </test-case>
+    <test-case start="1556668849702" stop="1556668849703" status="passed">
+      <name>testQuoteTableAs with data set #3</name>
+    </test-case>
+    <test-case start="1556668849703" stop="1556668849704" status="passed">
+      <name>testQuoteTableAs with data set #4</name>
+    </test-case>
+    <test-case start="1556668849704" stop="1556668849705" status="passed">
+      <name>testQuoteTableAs with data set #5</name>
+    </test-case>
+    <test-case start="1556668849705" stop="1556668849705" status="passed">
+      <name>testQuoteTableAs with data set #6</name>
+    </test-case>
+    <test-case start="1556668849706" stop="1556668849706" status="passed">
+      <name>testQuoteTableAs with data set #7</name>
+    </test-case>
+    <test-case start="1556668849707" stop="1556668849707" status="passed">
+      <name>testQuoteTableAs with data set #8</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

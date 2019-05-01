@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668865035" stop="1556668865085" version="1.4.0">
+  <name>Magento\Framework\Validator\Test\Unit\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668865036" stop="1556668865041" status="passed">
+      <name>testCreateValidator with data set #0</name>
+    </test-case>
+    <test-case start="1556668865041" stop="1556668865045" status="passed">
+      <name>testCreateValidator with data set #1</name>
+    </test-case>
+    <test-case start="1556668865046" stop="1556668865050" status="passed">
+      <name>testCreateValidator with data set #2</name>
+    </test-case>
+    <test-case start="1556668865050" stop="1556668865052" status="passed">
+      <name>testAddConfiguration with data set "constraint is unchanged when alias not found"</name>
+    </test-case>
+    <test-case start="1556668865052" stop="1556668865053" status="passed">
+      <name>testAddConfiguration with data set "constraint options initialized with method"</name>
+    </test-case>
+    <test-case start="1556668865053" stop="1556668865054" status="passed">
+      <name>testAddConfiguration with data set "constraint options initialized with callback"</name>
+    </test-case>
+    <test-case start="1556668865055" stop="1556668865055" status="passed">
+      <name>testAddConfiguration with data set "constraint options initialized with arguments"</name>
+    </test-case>
+    <test-case start="1556668865056" stop="1556668865057" status="passed">
+      <name>testAddConfiguration with data set "constraint options arguments overwritten by newer arguments"</name>
+    </test-case>
+    <test-case start="1556668865057" stop="1556668865058" status="passed">
+      <name>testAddConfiguration with data set "methods initialized"</name>
+    </test-case>
+    <test-case start="1556668865058" stop="1556668865059" status="passed">
+      <name>testAddConfiguration with data set "method added"</name>
+    </test-case>
+    <test-case start="1556668865060" stop="1556668865060" status="passed">
+      <name>testAddConfiguration with data set "callback initialized"</name>
+    </test-case>
+    <test-case start="1556668865061" stop="1556668865061" status="passed">
+      <name>testAddConfiguration with data set "callback added"</name>
+    </test-case>
+    <test-case start="1556668865062" stop="1556668865063" status="passed">
+      <name>testAddConfigurations with data set "constraint is unchanged when alias not found"</name>
+    </test-case>
+    <test-case start="1556668865063" stop="1556668865064" status="passed">
+      <name>testAddConfigurations with data set "constraint options initialized with method"</name>
+    </test-case>
+    <test-case start="1556668865065" stop="1556668865065" status="passed">
+      <name>testAddConfigurations with data set "constraint options initialized with callback"</name>
+    </test-case>
+    <test-case start="1556668865066" stop="1556668865066" status="passed">
+      <name>testAddConfigurations with data set "constraint options initialized with arguments"</name>
+    </test-case>
+    <test-case start="1556668865067" stop="1556668865068" status="passed">
+      <name>testAddConfigurations with data set "constraint options arguments overwritten by newer arguments"</name>
+    </test-case>
+    <test-case start="1556668865068" stop="1556668865069" status="passed">
+      <name>testAddConfigurations with data set "methods initialized"</name>
+    </test-case>
+    <test-case start="1556668865069" stop="1556668865070" status="passed">
+      <name>testAddConfigurations with data set "method added"</name>
+    </test-case>
+    <test-case start="1556668865071" stop="1556668865071" status="passed">
+      <name>testAddConfigurations with data set "callback initialized"</name>
+    </test-case>
+    <test-case start="1556668865072" stop="1556668865073" status="passed">
+      <name>testAddConfigurations with data set "callback added"</name>
+    </test-case>
+    <test-case start="1556668865073" stop="1556668865074" status="passed">
+      <name>testConstructorConfigValidation with data set "constructor invalid arguments"</name>
+    </test-case>
+    <test-case start="1556668865074" stop="1556668865075" status="passed">
+      <name>testConstructorConfigValidation with data set "methods invalid arguments"</name>
+    </test-case>
+    <test-case start="1556668865075" stop="1556668865076" status="passed">
+      <name>testConstructorConfigValidation with data set "methods invalid format"</name>
+    </test-case>
+    <test-case start="1556668865077" stop="1556668865077" status="passed">
+      <name>testConstructorConfigValidation with data set "constructor arguments invalid callback"</name>
+    </test-case>
+    <test-case start="1556668865078" stop="1556668865078" status="passed">
+      <name>testAddConfigurationConfigValidation with data set "constructor invalid arguments"</name>
+    </test-case>
+    <test-case start="1556668865079" stop="1556668865080" status="passed">
+      <name>testAddConfigurationConfigValidation with data set "methods invalid arguments"</name>
+    </test-case>
+    <test-case start="1556668865080" stop="1556668865081" status="passed">
+      <name>testAddConfigurationConfigValidation with data set "methods invalid format"</name>
+    </test-case>
+    <test-case start="1556668865081" stop="1556668865082" status="passed">
+      <name>testAddConfigurationConfigValidation with data set "constructor arguments invalid callback"</name>
+    </test-case>
+    <test-case start="1556668865082" stop="1556668865083" status="passed">
+      <name>testCreateValidatorInvalidInstance</name>
+    </test-case>
+    <test-case start="1556668865083" stop="1556668865084" status="passed">
+      <name>testAddConfigurationInvalidFormat with data set "configuration incorrect method call"</name>
+    </test-case>
+    <test-case start="1556668865084" stop="1556668865085" status="passed">
+      <name>testAddConfigurationInvalidFormat with data set "configuration incorrect configuration"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

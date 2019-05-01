@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668684770" stop="1556668684780" version="1.4.0">
+  <name>Magento\CatalogRule\Test\Unit\Plugin\Model\Product\ActionTest</name>
+  <test-cases>
+    <test-case start="1556668684770" stop="1556668684779" status="passed">
+      <name>testAfterUpdateAttributes</name>
+    </test-case>
+    <test-case start="1556668684779" stop="1556668684780" status="passed">
+      <name>testAfterUpdateAttributesWithPrice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

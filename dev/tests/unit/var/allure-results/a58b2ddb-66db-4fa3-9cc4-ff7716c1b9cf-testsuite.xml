@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668744909" stop="1556668744988" version="1.4.0">
+  <name>Magento\Indexer\Test\Unit\Console\Command\IndexerReindexCommandTest</name>
+  <test-cases>
+    <test-case start="1556668744910" stop="1556668744912" status="passed">
+      <name>testGetOptions</name>
+    </test-case>
+    <test-case start="1556668744912" stop="1556668744917" status="passed">
+      <name>testExecuteAll</name>
+    </test-case>
+    <test-case start="1556668744918" stop="1556668744934" status="passed">
+      <name>testExecuteWithIndex with data set "Without dependencies"</name>
+    </test-case>
+    <test-case start="1556668744934" stop="1556668744954" status="passed">
+      <name>testExecuteWithIndex with data set "With dependencies and some indexers is invalid"</name>
+    </test-case>
+    <test-case start="1556668744954" stop="1556668744975" status="passed">
+      <name>testExecuteWithIndex with data set "With dependencies and multiple indexers in request"</name>
+    </test-case>
+    <test-case start="1556668744975" stop="1556668744979" status="passed">
+      <name>testExecuteWithLocalizedException</name>
+    </test-case>
+    <test-case start="1556668744979" stop="1556668744983" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+    <test-case start="1556668744983" stop="1556668744988" status="passed">
+      <name>testExecuteWithExceptionInGetIndexers</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

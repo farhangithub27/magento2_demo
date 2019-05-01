@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668721128" stop="1556668721218" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Helper\AddressTest</name>
+  <test-cases>
+    <test-case start="1556668721128" stop="1556668721132" status="passed">
+      <name>testGetStreetLines with data set #0</name>
+    </test-case>
+    <test-case start="1556668721132" stop="1556668721134" status="passed">
+      <name>testGetStreetLines with data set #1</name>
+    </test-case>
+    <test-case start="1556668721135" stop="1556668721137" status="passed">
+      <name>testGetStreetLines with data set #2</name>
+    </test-case>
+    <test-case start="1556668721137" stop="1556668721139" status="passed">
+      <name>testGetStreetLines with data set #3</name>
+    </test-case>
+    <test-case start="1556668721140" stop="1556668721142" status="passed">
+      <name>testGetStreetLines with data set #4</name>
+    </test-case>
+    <test-case start="1556668721142" stop="1556668721145" status="passed">
+      <name>testGetStreetLines with data set #5</name>
+    </test-case>
+    <test-case start="1556668721145" stop="1556668721147" status="passed">
+      <name>testGetStreetLines with data set #6</name>
+    </test-case>
+    <test-case start="1556668721148" stop="1556668721150" status="passed">
+      <name>testGetStreetLines with data set #7</name>
+    </test-case>
+    <test-case start="1556668721150" stop="1556668721152" status="passed">
+      <name>testGetStreetLines with data set #8</name>
+    </test-case>
+    <test-case start="1556668721153" stop="1556668721155" status="passed">
+      <name>testGetStreetLines with data set #9</name>
+    </test-case>
+    <test-case start="1556668721155" stop="1556668721157" status="passed">
+      <name>testGetStreetLines with data set #10</name>
+    </test-case>
+    <test-case start="1556668721158" stop="1556668721160" status="passed">
+      <name>testGetRenderer with data set #0</name>
+    </test-case>
+    <test-case start="1556668721160" stop="1556668721162" status="passed">
+      <name>testGetRenderer with data set #1</name>
+    </test-case>
+    <test-case start="1556668721163" stop="1556668721165" status="passed">
+      <name>testGetConfigCanShowConfig</name>
+    </test-case>
+    <test-case start="1556668721166" stop="1556668721168" status="passed">
+      <name>testGetAttributeValidationClass</name>
+    </test-case>
+    <test-case start="1556668721168" stop="1556668721170" status="passed">
+      <name>testGetAttributeValidationClassWithNoAttribute</name>
+    </test-case>
+    <test-case start="1556668721171" stop="1556668721173" status="passed">
+      <name>testConvertStreetLines with data set #0</name>
+    </test-case>
+    <test-case start="1556668721173" stop="1556668721175" status="passed">
+      <name>testConvertStreetLines with data set #1</name>
+    </test-case>
+    <test-case start="1556668721175" stop="1556668721177" status="passed">
+      <name>testIsVatValidationEnabled with data set #0</name>
+    </test-case>
+    <test-case start="1556668721178" stop="1556668721180" status="passed">
+      <name>testIsVatValidationEnabled with data set #1</name>
+    </test-case>
+    <test-case start="1556668721180" stop="1556668721183" status="passed">
+      <name>testIsVatValidationEnabled with data set #2</name>
+    </test-case>
+    <test-case start="1556668721183" stop="1556668721185" status="passed">
+      <name>testHasValidateOnEachTransaction with data set #0</name>
+    </test-case>
+    <test-case start="1556668721186" stop="1556668721188" status="passed">
+      <name>testHasValidateOnEachTransaction with data set #1</name>
+    </test-case>
+    <test-case start="1556668721188" stop="1556668721190" status="passed">
+      <name>testHasValidateOnEachTransaction with data set #2</name>
+    </test-case>
+    <test-case start="1556668721191" stop="1556668721193" status="passed">
+      <name>testGetTaxCalculationAddressType with data set #0</name>
+    </test-case>
+    <test-case start="1556668721193" stop="1556668721196" status="passed">
+      <name>testGetTaxCalculationAddressType with data set #1</name>
+    </test-case>
+    <test-case start="1556668721196" stop="1556668721198" status="passed">
+      <name>testGetTaxCalculationAddressType with data set #2</name>
+    </test-case>
+    <test-case start="1556668721198" stop="1556668721200" status="passed">
+      <name>testIsDisableAutoGroupAssignDefaultValue</name>
+    </test-case>
+    <test-case start="1556668721201" stop="1556668721203" status="passed">
+      <name>testIsVatAttributeVisible</name>
+    </test-case>
+    <test-case start="1556668721203" stop="1556668721205" status="passed">
+      <name>testGetFormatTypeRenderer with data set #0</name>
+    </test-case>
+    <test-case start="1556668721206" stop="1556668721208" status="passed">
+      <name>testGetFormatTypeRenderer with data set #1</name>
+    </test-case>
+    <test-case start="1556668721208" stop="1556668721210" status="passed">
+      <name>testGetFormat with data set #0</name>
+    </test-case>
+    <test-case start="1556668721211" stop="1556668721213" status="passed">
+      <name>testGetFormat with data set #1</name>
+    </test-case>
+    <test-case start="1556668721213" stop="1556668721216" status="passed">
+      <name>testIsAttributeVisible with data set #0</name>
+    </test-case>
+    <test-case start="1556668721216" stop="1556668721218" status="passed">
+      <name>testIsAttributeVisible with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668788620" stop="1556668788728" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\Payflow\TransparentTest</name>
+  <test-cases>
+    <test-case start="1556668788621" stop="1556668788638" status="passed">
+      <name>testAuthorizeException</name>
+    </test-case>
+    <test-case start="1556668788638" stop="1556668788654" status="passed">
+      <name>testAuthorizeValidationException</name>
+    </test-case>
+    <test-case start="1556668788655" stop="1556668788667" status="passed">
+      <name>testAuthorizeLocalizedException with data set #0</name>
+    </test-case>
+    <test-case start="1556668788668" stop="1556668788680" status="passed">
+      <name>testAuthorizeLocalizedException with data set #1</name>
+    </test-case>
+    <test-case start="1556668788680" stop="1556668788693" status="passed">
+      <name>testAuthorizeLocalizedException with data set #2</name>
+    </test-case>
+    <test-case start="1556668788693" stop="1556668788706" status="passed">
+      <name>testAuthorizeLocalizedException with data set #3</name>
+    </test-case>
+    <test-case start="1556668788706" stop="1556668788724" status="passed">
+      <name>testAuthorize</name>
+    </test-case>
+    <test-case start="1556668788725" stop="1556668788728" status="passed">
+      <name>testGetInfoBlockType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668862942" stop="1556668862946" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Declaration\Schema\Db\MySQL\Definition\Columns\UnsignedTest</name>
+  <test-cases>
+    <test-case start="1556668862943" stop="1556668862944" status="passed">
+      <name>testToDefinition</name>
+    </test-case>
+    <test-case start="1556668862944" stop="1556668862944" status="passed">
+      <name>testToDefinitionNotUnsigned</name>
+    </test-case>
+    <test-case start="1556668862945" stop="1556668862945" status="passed">
+      <name>testFromDefinition</name>
+    </test-case>
+    <test-case start="1556668862945" stop="1556668862945" status="passed">
+      <name>testFromDefinitionSigned</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668858351" stop="1556668858361" version="1.4.0">
+  <name>Magento\Framework\Mview\Test\Unit\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668858352" stop="1556668858352" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "without_mview_handle"</name>
+    </test-case>
+    <test-case start="1556668858353" stop="1556668858354" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "mview_with_notallowed_attribute"</name>
+    </test-case>
+    <test-case start="1556668858354" stop="1556668858355" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "mview_without_class_attribute"</name>
+    </test-case>
+    <test-case start="1556668858355" stop="1556668858356" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "mview_without_group_attribute"</name>
+    </test-case>
+    <test-case start="1556668858356" stop="1556668858356" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "mview_with_empty_subscriptions"</name>
+    </test-case>
+    <test-case start="1556668858357" stop="1556668858358" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "subscriptions_without_table"</name>
+    </test-case>
+    <test-case start="1556668858358" stop="1556668858359" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "table_without_column_attribute"</name>
+    </test-case>
+    <test-case start="1556668858359" stop="1556668858360" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "subscriptions_duplicate_table"</name>
+    </test-case>
+    <test-case start="1556668858360" stop="1556668858361" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

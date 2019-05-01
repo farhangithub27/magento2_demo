@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822909" stop="1556668822931" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Pricing\AdjustmentTest</name>
+  <test-cases>
+    <test-case start="1556668822909" stop="1556668822910" status="passed">
+      <name>testGetAdjustmentCode</name>
+    </test-case>
+    <test-case start="1556668822910" stop="1556668822911" status="passed">
+      <name>testIsIncludedInBasePrice with data set #0</name>
+    </test-case>
+    <test-case start="1556668822911" stop="1556668822912" status="passed">
+      <name>testIsIncludedInBasePrice with data set #1</name>
+    </test-case>
+    <test-case start="1556668822912" stop="1556668822913" status="passed">
+      <name>testIsIncludedInDisplayPrice with data set #0</name>
+    </test-case>
+    <test-case start="1556668822913" stop="1556668822914" status="passed">
+      <name>testIsIncludedInDisplayPrice with data set #1</name>
+    </test-case>
+    <test-case start="1556668822914" stop="1556668822915" status="passed">
+      <name>testIsIncludedInDisplayPrice with data set #2</name>
+    </test-case>
+    <test-case start="1556668822915" stop="1556668822916" status="passed">
+      <name>testIsIncludedInDisplayPrice with data set #3</name>
+    </test-case>
+    <test-case start="1556668822916" stop="1556668822917" status="passed">
+      <name>testExtractAdjustment with data set #0</name>
+    </test-case>
+    <test-case start="1556668822918" stop="1556668822919" status="passed">
+      <name>testExtractAdjustment with data set #1</name>
+    </test-case>
+    <test-case start="1556668822919" stop="1556668822920" status="passed">
+      <name>testExtractAdjustment with data set #2</name>
+    </test-case>
+    <test-case start="1556668822921" stop="1556668822922" status="passed">
+      <name>testExtractAdjustment with data set #3</name>
+    </test-case>
+    <test-case start="1556668822923" stop="1556668822925" status="passed">
+      <name>testApplyAdjustment with data set #0</name>
+    </test-case>
+    <test-case start="1556668822926" stop="1556668822927" status="passed">
+      <name>testApplyAdjustment with data set #1</name>
+    </test-case>
+    <test-case start="1556668822927" stop="1556668822928" status="passed">
+      <name>testApplyAdjustment with data set #2</name>
+    </test-case>
+    <test-case start="1556668822928" stop="1556668822929" status="passed">
+      <name>testIsExcludedWith with data set #0</name>
+    </test-case>
+    <test-case start="1556668822929" stop="1556668822930" status="passed">
+      <name>testIsExcludedWith with data set #1</name>
+    </test-case>
+    <test-case start="1556668822930" stop="1556668822931" status="passed">
+      <name>testGetSortOrder</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

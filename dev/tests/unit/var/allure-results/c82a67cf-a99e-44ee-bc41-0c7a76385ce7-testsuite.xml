@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668686600" stop="1556668686615" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Search\FilterMapper\FilterContextTest</name>
+  <test-cases>
+    <test-case start="1556668686600" stop="1556668686604" status="passed">
+      <name>testApplyOnExclusionFilter</name>
+    </test-case>
+    <test-case start="1556668686604" stop="1556668686606" status="passed">
+      <name>testApplyFilterWithoutAttribute</name>
+    </test-case>
+    <test-case start="1556668686606" stop="1556668686608" status="passed">
+      <name>testApplyOnTermFilterBySelect</name>
+    </test-case>
+    <test-case start="1556668686608" stop="1556668686610" status="passed">
+      <name>testApplyOnTermFilterByMultiSelect</name>
+    </test-case>
+    <test-case start="1556668686610" stop="1556668686613" status="passed">
+      <name>testApplyOnTermFilterByStaticAttribute</name>
+    </test-case>
+    <test-case start="1556668686613" stop="1556668686615" status="passed">
+      <name>testApplyOnTermFilterByUnknownAttributeType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848740" stop="1556668848745" version="1.4.0">
+  <name>Magento\Framework\Convert\Test\Unit\DataSizeTest</name>
+  <test-cases>
+    <test-case start="1556668848741" stop="1556668848741" status="passed">
+      <name>testConvertSizeToInteger with data set #0</name>
+    </test-case>
+    <test-case start="1556668848741" stop="1556668848742" status="passed">
+      <name>testConvertSizeToInteger with data set #1</name>
+    </test-case>
+    <test-case start="1556668848742" stop="1556668848743" status="passed">
+      <name>testConvertSizeToInteger with data set #2</name>
+    </test-case>
+    <test-case start="1556668848743" stop="1556668848743" status="passed">
+      <name>testConvertSizeToInteger with data set #3</name>
+    </test-case>
+    <test-case start="1556668848744" stop="1556668848744" status="passed">
+      <name>testConvertSizeToInteger with data set #4</name>
+    </test-case>
+    <test-case start="1556668848745" stop="1556668848745" status="passed">
+      <name>testConvertSizeToInteger with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

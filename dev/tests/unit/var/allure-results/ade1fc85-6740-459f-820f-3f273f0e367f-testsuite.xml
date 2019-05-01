@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668699260" stop="1556668699279" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Option\Validator\SelectTest</name>
+  <test-cases>
+    <test-case start="1556668699261" stop="1556668699264" status="passed">
+      <name>testIsValidSuccess with data set #0</name>
+    </test-case>
+    <test-case start="1556668699264" stop="1556668699266" status="passed">
+      <name>testIsValidSuccess with data set #1</name>
+    </test-case>
+    <test-case start="1556668699267" stop="1556668699269" status="passed">
+      <name>testIsValidSuccess with data set #2</name>
+    </test-case>
+    <test-case start="1556668699269" stop="1556668699271" status="passed">
+      <name>testIsValidateWithInvalidOptionValues</name>
+    </test-case>
+    <test-case start="1556668699272" stop="1556668699274" status="passed">
+      <name>testIsValidateWithEmptyValues</name>
+    </test-case>
+    <test-case start="1556668699274" stop="1556668699277" status="passed">
+      <name>testIsValidateWithInvalidData with data set "invalid_price_type"</name>
+    </test-case>
+    <test-case start="1556668699277" stop="1556668699279" status="passed">
+      <name>testIsValidateWithInvalidData with data set "empty_title"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

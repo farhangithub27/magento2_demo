@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832859" stop="1556668832865" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Model\Plugin\ManagerTest</name>
+  <test-cases>
+    <test-case start="1556668832859" stop="1556668832862" status="passed">
+      <name>testAfterProcessIntegrationConfigNoIntegrations</name>
+    </test-case>
+    <test-case start="1556668832862" stop="1556668832863" status="passed">
+      <name>testAfterProcessIntegrationConfigSuccess</name>
+    </test-case>
+    <test-case start="1556668832863" stop="1556668832864" status="passed">
+      <name>testAfterProcessConfigBasedIntegrationsNoIntegrations</name>
+    </test-case>
+    <test-case start="1556668832864" stop="1556668832865" status="passed">
+      <name>testAfterProcessConfigBasedIntegrationsSuccess</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

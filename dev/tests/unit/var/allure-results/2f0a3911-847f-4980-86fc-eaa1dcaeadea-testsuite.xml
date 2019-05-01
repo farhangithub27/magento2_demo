@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668811854" stop="1556668811856" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\ResourceModel\Provider\NotSyncedDataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668811854" stop="1556668811854" status="passed">
+      <name>testGetIdsEmpty</name>
+    </test-case>
+    <test-case start="1556668811855" stop="1556668811856" status="passed">
+      <name>testGetIds</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

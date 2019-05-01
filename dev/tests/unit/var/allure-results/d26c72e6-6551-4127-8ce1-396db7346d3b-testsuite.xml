@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668732022" stop="1556668732029" version="1.4.0">
+  <name>Magento\Directory\Test\Unit\Model\Currency\DefaultLocatorTest</name>
+  <test-cases>
+    <test-case start="1556668732022" stop="1556668732024" status="passed">
+      <name>testGetDefaultCurrencyReturnDefaultStoreDefaultCurrencyIfNoStoreIsSpecified</name>
+    </test-case>
+    <test-case start="1556668732024" stop="1556668732026" status="passed">
+      <name>testGetDefaultCurrencyReturnStoreDefaultCurrency</name>
+    </test-case>
+    <test-case start="1556668732026" stop="1556668732027" status="passed">
+      <name>testGetDefaultCurrencyReturnWebsiteDefaultCurrency</name>
+    </test-case>
+    <test-case start="1556668732027" stop="1556668732028" status="passed">
+      <name>testGetDefaultCurrencyReturnGroupDefaultCurrency</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

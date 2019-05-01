@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668724056" stop="1556668724071" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\LoggerTest</name>
+  <test-cases>
+    <test-case start="1556668724056" stop="1556668724059" status="passed">
+      <name>testLog with data set #0</name>
+    </test-case>
+    <test-case start="1556668724059" stop="1556668724060" status="passed">
+      <name>testLog with data set #1</name>
+    </test-case>
+    <test-case start="1556668724060" stop="1556668724064" status="passed">
+      <name>testGet with data set #0</name>
+    </test-case>
+    <test-case start="1556668724064" stop="1556668724067" status="passed">
+      <name>testGet with data set #1</name>
+    </test-case>
+    <test-case start="1556668724068" stop="1556668724070" status="passed">
+      <name>testGet with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

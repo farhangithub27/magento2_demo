@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668717608" stop="1556668717672" version="1.4.0">
+  <name>Magento\CustomerImportExport\Test\Unit\Model\Import\AddressTest</name>
+  <test-cases>
+    <test-case start="1556668717609" stop="1556668717625" status="passed">
+      <name>testValidateRowForUpdate with data set "valid"</name>
+    </test-case>
+    <test-case start="1556668717625" stop="1556668717633" status="passed">
+      <name>testValidateRowForUpdate with data set "empty address id"</name>
+    </test-case>
+    <test-case start="1556668717633" stop="1556668717640" status="passed">
+      <name>testValidateRowForUpdateDuplicateRows</name>
+    </test-case>
+    <test-case start="1556668717641" stop="1556668717648" status="passed">
+      <name>testValidateRowForDelete with data set "valid"</name>
+    </test-case>
+    <test-case start="1556668717648" stop="1556668717654" status="passed">
+      <name>testGetEntityTypeCode</name>
+    </test-case>
+    <test-case start="1556668717654" stop="1556668717661" status="passed">
+      <name>testGetDefaultAddressAttributeMapping</name>
+    </test-case>
+    <test-case start="1556668717661" stop="1556668717671" status="passed">
+      <name>testImportDataWithCustomBehaviour</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

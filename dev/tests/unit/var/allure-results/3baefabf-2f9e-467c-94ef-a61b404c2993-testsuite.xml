@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832365" stop="1556668832374" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Controller\Rest\ParamsOverriderTest</name>
+  <test-cases>
+    <test-case start="1556668832366" stop="1556668832367" status="passed">
+      <name>testOverrideParams with data set "force false, value present"</name>
+    </test-case>
+    <test-case start="1556668832368" stop="1556668832368" status="passed">
+      <name>testOverrideParams with data set "force true, value present"</name>
+    </test-case>
+    <test-case start="1556668832369" stop="1556668832370" status="passed">
+      <name>testOverrideParams with data set "force true, value not present"</name>
+    </test-case>
+    <test-case start="1556668832370" stop="1556668832371" status="passed">
+      <name>testOverrideParams with data set "force false, value not present"</name>
+    </test-case>
+    <test-case start="1556668832372" stop="1556668832372" status="passed">
+      <name>testOverrideParams with data set "force true, value present, override value is %customer_id%"</name>
+    </test-case>
+    <test-case start="1556668832373" stop="1556668832374" status="passed">
+      <name>testOverrideParams with data set "force true, value present, override value is %customer_id%, not a customer"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

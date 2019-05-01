@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668815665" stop="1556668815672" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\CaseServices\UpdatingServiceFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668815665" stop="1556668815667" status="passed">
+      <name>testCreateWithInactiveConfig</name>
+    </test-case>
+    <test-case start="1556668815668" stop="1556668815669" status="passed">
+      <name>testCreateWithTestType</name>
+    </test-case>
+    <test-case start="1556668815669" stop="1556668815670" status="passed">
+      <name>testCreateWithException</name>
+    </test-case>
+    <test-case start="1556668815670" stop="1556668815672" status="passed">
+      <name>testCreate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

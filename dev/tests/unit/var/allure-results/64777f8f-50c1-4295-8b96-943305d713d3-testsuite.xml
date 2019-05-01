@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668661742" stop="1556668661743" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\UpdaterTest</name>
+  <test-cases>
+    <test-case start="1556668661742" stop="1556668661743" status="passed">
+      <name>testCreateUpdaterTaskUpdate</name>
+    </test-case>
+    <test-case start="1556668661743" stop="1556668661743" status="passed">
+      <name>testCreateUpdaterTaskUninstall</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

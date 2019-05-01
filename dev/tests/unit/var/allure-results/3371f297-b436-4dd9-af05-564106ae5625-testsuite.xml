@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668709019" stop="1556668709091" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Helper\PageTest</name>
+  <test-cases>
+    <test-case start="1556668709020" stop="1556668709030" status="passed">
+      <name>testPrepareResultPage with data set "ids NOT EQUAL BUT page-&gt;load() NOT SUCCESSFUL"</name>
+    </test-case>
+    <test-case start="1556668709031" stop="1556668709038" status="passed">
+      <name>testPrepareResultPage with data set "page-&gt;load IS SUCCESSFUL BUT internalPageId IS EMPTY"</name>
+    </test-case>
+    <test-case start="1556668709039" stop="1556668709056" status="passed">
+      <name>testPrepareResultPage with data set "getPageLayout() AND getLayoutUpdateXml() ARE USED"</name>
+    </test-case>
+    <test-case start="1556668709057" stop="1556668709074" status="passed">
+      <name>testPrepareResultPage with data set "getCustomPageLayout() AND getCustomLayoutUpdateXml() ARE USED"</name>
+    </test-case>
+    <test-case start="1556668709075" stop="1556668709080" status="passed">
+      <name>testGetPageUrl with data set "ids NOT EQUAL BUT page-&gt;load() NOT SUCCESSFUL"</name>
+    </test-case>
+    <test-case start="1556668709080" stop="1556668709085" status="passed">
+      <name>testGetPageUrl with data set "page-&gt;load() IS SUCCESSFUL BUT internalId IS EMPTY"</name>
+    </test-case>
+    <test-case start="1556668709086" stop="1556668709091" status="passed">
+      <name>testGetPageUrl with data set "SUCCESS"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

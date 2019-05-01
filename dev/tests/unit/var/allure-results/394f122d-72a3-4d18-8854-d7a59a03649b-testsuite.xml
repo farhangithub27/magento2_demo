@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668798654" stop="1556668798699" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Model\Quote\DiscountTest</name>
+  <test-cases>
+    <test-case start="1556668798655" stop="1556668798665" status="passed">
+      <name>testCollectItemNoDiscount</name>
+    </test-case>
+    <test-case start="1556668798666" stop="1556668798670" status="passed">
+      <name>testCollectItemHasParent</name>
+    </test-case>
+    <test-case start="1556668798670" stop="1556668798679" status="passed">
+      <name>testCollectItemHasChildren with data set #0</name>
+    </test-case>
+    <test-case start="1556668798680" stop="1556668798692" status="passed">
+      <name>testCollectItemHasChildren with data set #1</name>
+    </test-case>
+    <test-case start="1556668798692" stop="1556668798697" status="passed">
+      <name>testCollectItemHasNoChildren</name>
+    </test-case>
+    <test-case start="1556668798697" stop="1556668798699" status="passed">
+      <name>testFetch</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

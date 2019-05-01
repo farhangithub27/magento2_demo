@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668793334" stop="1556668793346" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\QuoteRepository\SaveHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668793334" stop="1556668793342" status="passed">
+      <name>testSaveForVirtualQuote</name>
+    </test-case>
+    <test-case start="1556668793342" stop="1556668793346" status="passed">
+      <name>testSaveWithNotExistingCustomerAddress</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

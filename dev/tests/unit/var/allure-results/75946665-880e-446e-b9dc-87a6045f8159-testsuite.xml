@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668826690" stop="1556668826704" version="1.4.0">
+  <name>Magento\Translation\Test\Unit\Block\JsTest</name>
+  <test-cases>
+    <test-case start="1556668826690" stop="1556668826695" status="passed">
+      <name>testIsDictionaryStrategy</name>
+    </test-case>
+    <test-case start="1556668826695" stop="1556668826698" status="passed">
+      <name>testGetTranslationFileTimestamp</name>
+    </test-case>
+    <test-case start="1556668826698" stop="1556668826701" status="passed">
+      <name>testGetTranslationFilePath</name>
+    </test-case>
+    <test-case start="1556668826701" stop="1556668826704" status="passed">
+      <name>testGetTranslationFileVersion</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

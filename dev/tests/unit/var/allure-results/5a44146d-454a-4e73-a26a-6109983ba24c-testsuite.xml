@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668741134" stop="1556668741208" version="1.4.0">
+  <name>Magento\GiftMessage\Test\Unit\Model\Plugin\OrderGetTest</name>
+  <test-cases>
+    <test-case start="1556668741134" stop="1556668741195" status="passed">
+      <name>testAfterGetGiftMessageOnOrderLevel</name>
+    </test-case>
+    <test-case start="1556668741195" stop="1556668741199" status="passed">
+      <name>testAfterGetGiftMessageOnItemLevel</name>
+    </test-case>
+    <test-case start="1556668741200" stop="1556668741203" status="passed">
+      <name>testGetAfterWhenMessagesAreNotSet</name>
+    </test-case>
+    <test-case start="1556668741204" stop="1556668741208" status="passed">
+      <name>testAfterGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

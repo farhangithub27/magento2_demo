@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668835778" stop="1556668835910" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Controller\Index\CartTest</name>
+  <test-cases>
+    <test-case start="1556668835778" stop="1556668835792" status="passed">
+      <name>testExecuteWithInvalidFormKey</name>
+    </test-case>
+    <test-case start="1556668835792" stop="1556668835800" status="passed">
+      <name>testExecuteWithNoItem</name>
+    </test-case>
+    <test-case start="1556668835800" stop="1556668835808" status="passed">
+      <name>testExecuteWithNoWishlist</name>
+    </test-case>
+    <test-case start="1556668835808" stop="1556668835845" status="passed">
+      <name>testExecuteWithQuantityArray</name>
+    </test-case>
+    <test-case start="1556668835845" stop="1556668835863" status="passed">
+      <name>testExecuteWithQuantityArrayAjax</name>
+    </test-case>
+    <test-case start="1556668835864" stop="1556668835879" status="passed">
+      <name>testExecuteWithoutQuantityArrayAndOutOfStock</name>
+    </test-case>
+    <test-case start="1556668835880" stop="1556668835894" status="passed">
+      <name>testExecuteWithoutQuantityArrayAndConfigurable</name>
+    </test-case>
+    <test-case start="1556668835895" stop="1556668835910" status="passed">
+      <name>testExecuteWithEditQuantity</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

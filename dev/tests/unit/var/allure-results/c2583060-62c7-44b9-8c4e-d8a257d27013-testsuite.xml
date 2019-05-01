@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657218" stop="1556668657231" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\Command\UpgradeCommandTest</name>
+  <test-cases>
+    <test-case start="1556668657218" stop="1556668657223" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668657224" stop="1556668657226" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668657226" stop="1556668657228" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668657229" stop="1556668657231" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668684868" stop="1556668684896" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Block\ResultTest</name>
+  <test-cases>
+    <test-case start="1556668684868" stop="1556668684884" status="passed">
+      <name>testGetSearchQueryText</name>
+    </test-case>
+    <test-case start="1556668684884" stop="1556668684886" status="passed">
+      <name>testGetNoteMessages</name>
+    </test-case>
+    <test-case start="1556668684886" stop="1556668684895" status="passed">
+      <name>testGetNoResultText with data set #0</name>
+    </test-case>
+    <test-case start="1556668684895" stop="1556668684896" status="passed">
+      <name>testGetNoResultText with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

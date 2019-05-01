@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668731564" stop="1556668731568" version="1.4.0">
+  <name>Magento\Dhl\Test\Unit\Model\Validator\ResponseErrorProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668731564" stop="1556668731565" status="passed">
+      <name>testProcess with data set #0</name>
+    </test-case>
+    <test-case start="1556668731565" stop="1556668731566" status="passed">
+      <name>testProcess with data set #1</name>
+    </test-case>
+    <test-case start="1556668731567" stop="1556668731568" status="passed">
+      <name>testProcess with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

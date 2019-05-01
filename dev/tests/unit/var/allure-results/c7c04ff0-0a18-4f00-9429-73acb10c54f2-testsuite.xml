@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668704501" stop="1556668704516" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Ui\DataProvider\Product\Form\Modifier\AttributeSetTest</name>
+  <test-cases>
+    <test-case start="1556668704501" stop="1556668704503" status="passed">
+      <name>testModifyMeta</name>
+    </test-case>
+    <test-case start="1556668704504" stop="1556668704506" status="passed">
+      <name>testModifyMetaLocked with data set #0</name>
+    </test-case>
+    <test-case start="1556668704507" stop="1556668704509" status="passed">
+      <name>testModifyMetaLocked with data set #1</name>
+    </test-case>
+    <test-case start="1556668704510" stop="1556668704511" status="passed">
+      <name>testModifyMetaToBeEmpty</name>
+    </test-case>
+    <test-case start="1556668704511" stop="1556668704514" status="passed">
+      <name>testGetOptions</name>
+    </test-case>
+    <test-case start="1556668704514" stop="1556668704516" status="passed">
+      <name>testModifyData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

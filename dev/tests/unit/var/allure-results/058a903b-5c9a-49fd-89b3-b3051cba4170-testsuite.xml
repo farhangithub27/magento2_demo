@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859199" stop="1556668859208" version="1.4.0">
+  <name>Magento\Framework\Pricing\Test\Unit\Adjustment\CalculatorTest</name>
+  <test-cases>
+    <test-case start="1556668859199" stop="1556668859205" status="passed">
+      <name>testGetAmount</name>
+    </test-case>
+    <test-case start="1556668859205" stop="1556668859208" status="passed">
+      <name>testGetAmountExclude</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

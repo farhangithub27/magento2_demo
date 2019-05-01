@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668827123" stop="1556668827141" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Component\Control\ButtonTest</name>
+  <test-cases>
+    <test-case start="1556668827123" stop="1556668827125" status="passed">
+      <name>testGetType</name>
+    </test-case>
+    <test-case start="1556668827125" stop="1556668827127" status="passed">
+      <name>testGetAttributesHtml</name>
+    </test-case>
+    <test-case start="1556668827128" stop="1556668827129" status="passed">
+      <name>testGetOnClick with data set #0</name>
+    </test-case>
+    <test-case start="1556668827130" stop="1556668827131" status="passed">
+      <name>testGetOnClick with data set #1</name>
+    </test-case>
+    <test-case start="1556668827132" stop="1556668827133" status="passed">
+      <name>testGetOnClick with data set #2</name>
+    </test-case>
+    <test-case start="1556668827134" stop="1556668827135" status="passed">
+      <name>testGetOnClick with data set #3</name>
+    </test-case>
+    <test-case start="1556668827136" stop="1556668827137" status="passed">
+      <name>testGetOnClick with data set #4</name>
+    </test-case>
+    <test-case start="1556668827138" stop="1556668827139" status="passed">
+      <name>testGetOnClick with data set #5</name>
+    </test-case>
+    <test-case start="1556668827140" stop="1556668827141" status="passed">
+      <name>testGetOnClick with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816283" stop="1556668816286" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\PaymentMethodMapper\XmlToArrayConfigConverterTest</name>
+  <test-cases>
+    <test-case start="1556668816283" stop="1556668816284" status="passed">
+      <name>testConvert</name>
+    </test-case>
+    <test-case start="1556668816284" stop="1556668816285" status="passed">
+      <name>testConvertEmptyPaymentMethodException</name>
+    </test-case>
+    <test-case start="1556668816286" stop="1556668816286" status="passed">
+      <name>testConvertEmptySygnifydPaymentMethodException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864419" stop="1556668864437" version="1.4.0">
+  <name>Magento\Framework\Stdlib\Test\Unit\DateTime\TimezoneTest</name>
+  <test-cases>
+    <test-case start="1556668864419" stop="1556668864422" status="passed">
+      <name>testDateIncludeTime with data set "Parse d/m/y date without time"</name>
+    </test-case>
+    <test-case start="1556668864423" stop="1556668864424" status="passed">
+      <name>testDateIncludeTime with data set "Parse d/m/y date with time"</name>
+    </test-case>
+    <test-case start="1556668864424" stop="1556668864425" status="passed">
+      <name>testDateIncludeTime with data set "Parse m/d/y date without time"</name>
+    </test-case>
+    <test-case start="1556668864426" stop="1556668864427" status="passed">
+      <name>testDateIncludeTime with data set "Parse m/d/y date with time"</name>
+    </test-case>
+    <test-case start="1556668864427" stop="1556668864428" status="passed">
+      <name>testConvertConfigTimeToUtc with data set "string"</name>
+    </test-case>
+    <test-case start="1556668864428" stop="1556668864429" status="passed">
+      <name>testConvertConfigTimeToUtc with data set "datetime"</name>
+    </test-case>
+    <test-case start="1556668864430" stop="1556668864431" status="passed">
+      <name>testConvertConfigTimeToUtc with data set "datetimeimmutable"</name>
+    </test-case>
+    <test-case start="1556668864431" stop="1556668864437" status="passed">
+      <name>testDate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

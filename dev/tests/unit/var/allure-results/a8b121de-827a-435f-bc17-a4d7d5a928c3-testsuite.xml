@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668787619" stop="1556668787639" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\Config\Structure\PaymentSectionModifierTest</name>
+  <test-cases>
+    <test-case start="1556668787620" stop="1556668787621" status="passed">
+      <name>testSpecialGroupsPresent with data set #0</name>
+    </test-case>
+    <test-case start="1556668787621" stop="1556668787622" status="passed">
+      <name>testSpecialGroupsPresent with data set #1</name>
+    </test-case>
+    <test-case start="1556668787622" stop="1556668787622" status="passed">
+      <name>testSpecialGroupsPresent with data set #2</name>
+    </test-case>
+    <test-case start="1556668787623" stop="1556668787623" status="passed">
+      <name>testSpecialGroupsPresent with data set #3</name>
+    </test-case>
+    <test-case start="1556668787624" stop="1556668787624" status="passed">
+      <name>testSpecialGroupsPresent with data set #4</name>
+    </test-case>
+    <test-case start="1556668787624" stop="1556668787625" status="passed">
+      <name>testSpecialGroupsPresent with data set #5</name>
+    </test-case>
+    <test-case start="1556668787625" stop="1556668787625" status="passed">
+      <name>testSpecialGroupsPresent with data set #6</name>
+    </test-case>
+    <test-case start="1556668787626" stop="1556668787626" status="passed">
+      <name>testSpecialGroupsPresent with data set #7</name>
+    </test-case>
+    <test-case start="1556668787627" stop="1556668787627" status="passed">
+      <name>testOnlySpecialGroupsPresent with data set #0</name>
+    </test-case>
+    <test-case start="1556668787627" stop="1556668787628" status="passed">
+      <name>testOnlySpecialGroupsPresent with data set #1</name>
+    </test-case>
+    <test-case start="1556668787628" stop="1556668787629" status="passed">
+      <name>testOnlySpecialGroupsPresent with data set #2</name>
+    </test-case>
+    <test-case start="1556668787629" stop="1556668787629" status="passed">
+      <name>testOnlySpecialGroupsPresent with data set #3</name>
+    </test-case>
+    <test-case start="1556668787630" stop="1556668787630" status="passed">
+      <name>testOnlySpecialGroupsPresent with data set #4</name>
+    </test-case>
+    <test-case start="1556668787630" stop="1556668787631" status="passed">
+      <name>testOnlySpecialGroupsPresent with data set #5</name>
+    </test-case>
+    <test-case start="1556668787631" stop="1556668787632" status="passed">
+      <name>testOnlySpecialGroupsPresent with data set #6</name>
+    </test-case>
+    <test-case start="1556668787632" stop="1556668787632" status="passed">
+      <name>testOnlySpecialGroupsPresent with data set #7</name>
+    </test-case>
+    <test-case start="1556668787633" stop="1556668787633" status="passed">
+      <name>testGroupsNotRemovedAfterModification with data set #0</name>
+    </test-case>
+    <test-case start="1556668787634" stop="1556668787634" status="passed">
+      <name>testGroupsNotRemovedAfterModification with data set #1</name>
+    </test-case>
+    <test-case start="1556668787634" stop="1556668787635" status="passed">
+      <name>testGroupsNotRemovedAfterModification with data set #2</name>
+    </test-case>
+    <test-case start="1556668787635" stop="1556668787636" status="passed">
+      <name>testGroupsNotRemovedAfterModification with data set #3</name>
+    </test-case>
+    <test-case start="1556668787636" stop="1556668787636" status="passed">
+      <name>testGroupsNotRemovedAfterModification with data set #4</name>
+    </test-case>
+    <test-case start="1556668787637" stop="1556668787637" status="passed">
+      <name>testGroupsNotRemovedAfterModification with data set #5</name>
+    </test-case>
+    <test-case start="1556668787638" stop="1556668787638" status="passed">
+      <name>testGroupsNotRemovedAfterModification with data set #6</name>
+    </test-case>
+    <test-case start="1556668787638" stop="1556668787639" status="passed">
+      <name>testGroupsNotRemovedAfterModification with data set #7</name>
+    </test-case>
+    <test-case start="1556668787639" stop="1556668787639" status="passed">
+      <name>testMovedToTargetSpecialGroup</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

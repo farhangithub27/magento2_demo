@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668673508" stop="1556668673561" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Controller\Paypal\ReviewTest</name>
+  <test-cases>
+    <test-case start="1556668673508" stop="1556668673541" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668673541" stop="1556668673546" status="passed">
+      <name>testExecuteException</name>
+    </test-case>
+    <test-case start="1556668673546" stop="1556668673561" status="passed">
+      <name>testExecuteExceptionPaymentWithoutNonce</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

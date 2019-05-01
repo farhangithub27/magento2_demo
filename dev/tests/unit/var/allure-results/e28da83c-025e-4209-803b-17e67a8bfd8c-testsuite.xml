@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668676135" stop="1556668676247" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Block\Catalog\Product\View\Type\BundleTest</name>
+  <test-cases>
+    <test-case start="1556668676135" stop="1556668676160" status="passed">
+      <name>testGetOptionHtmlNoRenderer</name>
+    </test-case>
+    <test-case start="1556668676161" stop="1556668676166" status="passed">
+      <name>testGetOptionHtml</name>
+    </test-case>
+    <test-case start="1556668676166" stop="1556668676206" status="passed">
+      <name>testGetJsonConfigFixedPriceBundleNoOption</name>
+    </test-case>
+    <test-case start="1556668676206" stop="1556668676229" status="passed">
+      <name>testGetJsonConfigFixedPriceBundle</name>
+    </test-case>
+    <test-case start="1556668676230" stop="1556668676238" status="passed">
+      <name>testGetOptions with data set #0</name>
+    </test-case>
+    <test-case start="1556668676238" stop="1556668676247" status="passed">
+      <name>testGetOptions with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

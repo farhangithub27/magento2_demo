@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668810348" stop="1556668810354" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\OrderNotifierTest</name>
+  <test-cases>
+    <test-case start="1556668810349" stop="1556668810351" status="passed">
+      <name>testNotifySuccess</name>
+    </test-case>
+    <test-case start="1556668810352" stop="1556668810352" status="passed">
+      <name>testNotifyFail</name>
+    </test-case>
+    <test-case start="1556668810353" stop="1556668810354" status="passed">
+      <name>testNotifyException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

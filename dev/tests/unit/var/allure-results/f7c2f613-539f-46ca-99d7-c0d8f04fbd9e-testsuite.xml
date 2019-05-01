@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668784906" stop="1556668784921" version="1.4.0">
+  <name>Magento\Payment\Test\Unit\Model\Method\AbstractMethodTest</name>
+  <test-cases>
+    <test-case start="1556668784907" stop="1556668784913" status="passed">
+      <name>testDebugData</name>
+    </test-case>
+    <test-case start="1556668784913" stop="1556668784916" status="passed">
+      <name>testIsAvailable with data set #0</name>
+    </test-case>
+    <test-case start="1556668784916" stop="1556668784918" status="passed">
+      <name>testIsAvailable with data set #1</name>
+    </test-case>
+    <test-case start="1556668784919" stop="1556668784921" status="passed">
+      <name>testAssignData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

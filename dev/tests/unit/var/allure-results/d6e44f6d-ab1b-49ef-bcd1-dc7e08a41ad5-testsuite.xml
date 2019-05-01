@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668697502" stop="1556668697519" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Attribute\Backend\Media\ImageEntryConverterTest</name>
+  <test-cases>
+    <test-case start="1556668697502" stop="1556668697506" status="passed">
+      <name>testGetMediaEntryType</name>
+    </test-case>
+    <test-case start="1556668697506" stop="1556668697507" status="passed">
+      <name>testConvertTo</name>
+    </test-case>
+    <test-case start="1556668697507" stop="1556668697512" status="passed">
+      <name>testConvertFromNullContent</name>
+    </test-case>
+    <test-case start="1556668697512" stop="1556668697518" status="passed">
+      <name>testConvertFrom</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

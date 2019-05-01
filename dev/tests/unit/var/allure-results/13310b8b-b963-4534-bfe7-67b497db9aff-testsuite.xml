@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668711507" stop="1556668711511" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Console\Command\ConfigSet\ConfigSetProcessorFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668711507" stop="1556668711509" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668711509" stop="1556668711510" status="passed">
+      <name>testCreateNonExisted</name>
+    </test-case>
+    <test-case start="1556668711510" stop="1556668711511" status="passed">
+      <name>testCreateWrongImplementation</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

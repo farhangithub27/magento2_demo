@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668857648" stop="1556668857659" version="1.4.0">
+  <name>Magento\Framework\Module\Test\Unit\SetupTest</name>
+  <test-cases>
+    <test-case start="1556668857648" stop="1556668857649" status="passed">
+      <name>testGetConnection</name>
+    </test-case>
+    <test-case start="1556668857650" stop="1556668857651" status="passed">
+      <name>testSetTableName</name>
+    </test-case>
+    <test-case start="1556668857651" stop="1556668857653" status="passed">
+      <name>testGetTable</name>
+    </test-case>
+    <test-case start="1556668857653" stop="1556668857654" status="passed">
+      <name>testTableExists</name>
+    </test-case>
+    <test-case start="1556668857655" stop="1556668857656" status="passed">
+      <name>testRun</name>
+    </test-case>
+    <test-case start="1556668857656" stop="1556668857657" status="passed">
+      <name>testStartSetup</name>
+    </test-case>
+    <test-case start="1556668857658" stop="1556668857659" status="passed">
+      <name>testEndSetup</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

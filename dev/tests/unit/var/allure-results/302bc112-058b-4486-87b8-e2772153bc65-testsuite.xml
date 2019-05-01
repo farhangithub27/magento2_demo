@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668716191" stop="1556668716194" version="1.4.0">
+  <name>Magento\Contact\Test\Unit\Block\ContactFormTest</name>
+  <test-cases>
+    <test-case start="1556668716192" stop="1556668716193" status="passed">
+      <name>testScope</name>
+    </test-case>
+    <test-case start="1556668716193" stop="1556668716194" status="passed">
+      <name>testGetFormAction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

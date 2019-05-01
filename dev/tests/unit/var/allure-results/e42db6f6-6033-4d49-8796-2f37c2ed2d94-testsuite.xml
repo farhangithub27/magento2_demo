@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864001" stop="1556668864013" version="1.4.0">
+  <name>Magento\Framework\Stdlib\Test\Unit\ArrayUtilsTest</name>
+  <test-cases>
+    <test-case start="1556668864001" stop="1556668864002" status="passed">
+      <name>testKsortMultibyte with data set #0</name>
+    </test-case>
+    <test-case start="1556668864003" stop="1556668864005" status="passed">
+      <name>testDecorateArray</name>
+    </test-case>
+    <test-case start="1556668864005" stop="1556668864006" status="passed">
+      <name>testFlatten with data set #0</name>
+    </test-case>
+    <test-case start="1556668864006" stop="1556668864007" status="passed">
+      <name>testFlatten with data set #1</name>
+    </test-case>
+    <test-case start="1556668864007" stop="1556668864008" status="passed">
+      <name>testFlatten with data set #2</name>
+    </test-case>
+    <test-case start="1556668864008" stop="1556668864008" status="passed">
+      <name>testFlatten with data set #3</name>
+    </test-case>
+    <test-case start="1556668864009" stop="1556668864009" status="passed">
+      <name>testFlatten with data set #4</name>
+    </test-case>
+    <test-case start="1556668864010" stop="1556668864010" status="passed">
+      <name>testFlatten with data set #5</name>
+    </test-case>
+    <test-case start="1556668864011" stop="1556668864011" status="passed">
+      <name>testRecursiveDiff with data set #0</name>
+    </test-case>
+    <test-case start="1556668864011" stop="1556668864012" status="passed">
+      <name>testRecursiveDiff with data set #1</name>
+    </test-case>
+    <test-case start="1556668864012" stop="1556668864013" status="passed">
+      <name>testRecursiveDiff with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668668712" stop="1556668668728" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Gateway\Validator\TransactionHashValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668668712" stop="1556668668714" status="passed">
+      <name>testValidateSha512HashScenarios with data set #0</name>
+    </test-case>
+    <test-case start="1556668668715" stop="1556668668716" status="passed">
+      <name>testValidateSha512HashScenarios with data set #1</name>
+    </test-case>
+    <test-case start="1556668668716" stop="1556668668717" status="passed">
+      <name>testValidateSha512HashScenarios with data set #2</name>
+    </test-case>
+    <test-case start="1556668668718" stop="1556668668719" status="passed">
+      <name>testValidateSha512HashScenarios with data set #3</name>
+    </test-case>
+    <test-case start="1556668668719" stop="1556668668720" status="passed">
+      <name>testValidateSha512HashScenarios with data set #4</name>
+    </test-case>
+    <test-case start="1556668668721" stop="1556668668722" status="passed">
+      <name>testValidateSha512HashScenarios with data set #5</name>
+    </test-case>
+    <test-case start="1556668668722" stop="1556668668724" status="passed">
+      <name>testValidateMd5HashScenarios with data set #0</name>
+    </test-case>
+    <test-case start="1556668668724" stop="1556668668725" status="passed">
+      <name>testValidateMd5HashScenarios with data set #1</name>
+    </test-case>
+    <test-case start="1556668668726" stop="1556668668727" status="passed">
+      <name>testValidateMd5HashScenarios with data set #2</name>
+    </test-case>
+    <test-case start="1556668668727" stop="1556668668728" status="passed">
+      <name>testValidateMd5HashScenarios with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

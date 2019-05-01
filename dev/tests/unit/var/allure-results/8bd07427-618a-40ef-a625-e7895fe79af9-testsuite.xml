@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668812130" stop="1556668812139" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Service\ShipmentServiceTest</name>
+  <test-cases>
+    <test-case start="1556668812131" stop="1556668812134" status="passed">
+      <name>testGetLabel</name>
+    </test-case>
+    <test-case start="1556668812135" stop="1556668812137" status="passed">
+      <name>testGetCommentsList</name>
+    </test-case>
+    <test-case start="1556668812137" stop="1556668812139" status="passed">
+      <name>testNotify</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

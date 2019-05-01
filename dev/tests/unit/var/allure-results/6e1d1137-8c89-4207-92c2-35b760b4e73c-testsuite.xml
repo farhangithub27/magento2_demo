@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668861261" stop="1556668861266" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Request\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668861261" stop="1556668861262" status="passed">
+      <name>testCreateInvalidArgumentExceptionNotDefined</name>
+    </test-case>
+    <test-case start="1556668861263" stop="1556668861264" status="passed">
+      <name>testCreateInvalidArgumentException</name>
+    </test-case>
+    <test-case start="1556668861264" stop="1556668861266" status="passed">
+      <name>testCreate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

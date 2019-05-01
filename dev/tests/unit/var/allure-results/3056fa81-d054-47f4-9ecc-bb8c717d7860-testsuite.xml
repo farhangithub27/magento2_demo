@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668731700" stop="1556668731731" version="1.4.0">
+  <name>Magento\Directory\Test\Unit\Helper\DataTest</name>
+  <test-cases>
+    <test-case start="1556668731700" stop="1556668731704" status="passed">
+      <name>testGetRegionJson</name>
+    </test-case>
+    <test-case start="1556668731705" stop="1556668731707" status="passed">
+      <name>testGetCountriesWithStatesRequired with data set "empty_list"</name>
+    </test-case>
+    <test-case start="1556668731707" stop="1556668731710" status="passed">
+      <name>testGetCountriesWithStatesRequired with data set "normal_list"</name>
+    </test-case>
+    <test-case start="1556668731710" stop="1556668731712" status="passed">
+      <name>testGetCountriesWithOptionalZip with data set "empty_list"</name>
+    </test-case>
+    <test-case start="1556668731713" stop="1556668731715" status="passed">
+      <name>testGetCountriesWithOptionalZip with data set "normal_list"</name>
+    </test-case>
+    <test-case start="1556668731715" stop="1556668731718" status="passed">
+      <name>testGetDefaultCountry</name>
+    </test-case>
+    <test-case start="1556668731718" stop="1556668731720" status="passed">
+      <name>testGetCountryCollection</name>
+    </test-case>
+    <test-case start="1556668731721" stop="1556668731723" status="passed">
+      <name>testGetTopCountryCodesReturnsParsedConfigurationValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668731724" stop="1556668731726" status="passed">
+      <name>testGetTopCountryCodesReturnsParsedConfigurationValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668731726" stop="1556668731729" status="passed">
+      <name>testGetTopCountryCodesReturnsParsedConfigurationValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668731729" stop="1556668731731" status="passed">
+      <name>testGetTopCountryCodesReturnsParsedConfigurationValue with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

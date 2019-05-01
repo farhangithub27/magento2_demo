@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860322" stop="1556668860339" version="1.4.0">
+  <name>Magento\Framework\Reflection\Test\Unit\TypeCasterTest</name>
+  <test-cases>
+    <test-case start="1556668860323" stop="1556668860323" status="passed">
+      <name>testCastValues with data set "null"</name>
+    </test-case>
+    <test-case start="1556668860324" stop="1556668860324" status="passed">
+      <name>testCastValues with data set "int"</name>
+    </test-case>
+    <test-case start="1556668860325" stop="1556668860325" status="passed">
+      <name>testCastValues with data set "integer"</name>
+    </test-case>
+    <test-case start="1556668860325" stop="1556668860326" status="passed">
+      <name>testCastValues with data set "string"</name>
+    </test-case>
+    <test-case start="1556668860326" stop="1556668860327" status="passed">
+      <name>testCastValues with data set "bool 0"</name>
+    </test-case>
+    <test-case start="1556668860327" stop="1556668860328" status="passed">
+      <name>testCastValues with data set "bool 1"</name>
+    </test-case>
+    <test-case start="1556668860328" stop="1556668860329" status="passed">
+      <name>testCastValues with data set "boolean 0"</name>
+    </test-case>
+    <test-case start="1556668860329" stop="1556668860330" status="passed">
+      <name>testCastValues with data set "boolean 1"</name>
+    </test-case>
+    <test-case start="1556668860330" stop="1556668860330" status="passed">
+      <name>testCastValues with data set "true"</name>
+    </test-case>
+    <test-case start="1556668860331" stop="1556668860331" status="passed">
+      <name>testCastValues with data set "false"</name>
+    </test-case>
+    <test-case start="1556668860332" stop="1556668860332" status="passed">
+      <name>testCastValues with data set "float"</name>
+    </test-case>
+    <test-case start="1556668860333" stop="1556668860333" status="passed">
+      <name>testCastValues with data set "double"</name>
+    </test-case>
+    <test-case start="1556668860334" stop="1556668860334" status="passed">
+      <name>testCastValues with data set "array of objects"</name>
+    </test-case>
+    <test-case start="1556668860335" stop="1556668860335" status="passed">
+      <name>testCastValues with data set "array of interfaces"</name>
+    </test-case>
+    <test-case start="1556668860336" stop="1556668860336" status="passed">
+      <name>testCastValueToType with data set #0</name>
+    </test-case>
+    <test-case start="1556668860337" stop="1556668860338" status="passed">
+      <name>testCastValueToType with data set #1</name>
+    </test-case>
+    <test-case start="1556668860338" stop="1556668860339" status="passed">
+      <name>testCastValueToType with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

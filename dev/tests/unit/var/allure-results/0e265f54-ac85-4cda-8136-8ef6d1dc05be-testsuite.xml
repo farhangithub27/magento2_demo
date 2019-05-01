@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668727205" stop="1556668727225" version="1.4.0">
+  <name>Magento\Deploy\Test\Unit\Model\ConfigWriterTest</name>
+  <test-cases>
+    <test-case start="1556668727205" stop="1556668727215" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668727216" stop="1556668727224" status="passed">
+      <name>testSaveDefaultScope</name>
+    </test-case>
+    <test-case start="1556668727224" stop="1556668727225" status="passed">
+      <name>testSavingNullValues</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

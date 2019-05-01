@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668852556" stop="1556668852565" version="1.4.0">
+  <name>Magento\Framework\Encryption\Test\Unit\KeyValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668852556" stop="1556668852556" status="passed">
+      <name>testIsValid with data set "32 numbers"</name>
+    </test-case>
+    <test-case start="1556668852557" stop="1556668852557" status="passed">
+      <name>testIsValid with data set "32 characters"</name>
+    </test-case>
+    <test-case start="1556668852558" stop="1556668852558" status="passed">
+      <name>testIsValid with data set "32 special characters"</name>
+    </test-case>
+    <test-case start="1556668852558" stop="1556668852559" status="passed">
+      <name>testIsValid with data set "32 combination"</name>
+    </test-case>
+    <test-case start="1556668852559" stop="1556668852560" status="passed">
+      <name>testIsValid with data set "empty string"</name>
+    </test-case>
+    <test-case start="1556668852560" stop="1556668852560" status="passed">
+      <name>testIsValid with data set "leading space"</name>
+    </test-case>
+    <test-case start="1556668852561" stop="1556668852561" status="passed">
+      <name>testIsValid with data set "tailing space"</name>
+    </test-case>
+    <test-case start="1556668852561" stop="1556668852562" status="passed">
+      <name>testIsValid with data set "space in the middle"</name>
+    </test-case>
+    <test-case start="1556668852562" stop="1556668852563" status="passed">
+      <name>testIsValid with data set "tab in the middle"</name>
+    </test-case>
+    <test-case start="1556668852563" stop="1556668852563" status="passed">
+      <name>testIsValid with data set "return in the middle"</name>
+    </test-case>
+    <test-case start="1556668852564" stop="1556668852564" status="passed">
+      <name>testIsValid with data set "31 characters"</name>
+    </test-case>
+    <test-case start="1556668852564" stop="1556668852565" status="passed">
+      <name>testIsValid with data set "33 characters"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

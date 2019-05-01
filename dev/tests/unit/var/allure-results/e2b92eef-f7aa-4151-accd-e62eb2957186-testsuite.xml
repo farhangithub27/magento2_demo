@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668749084" stop="1556668749086" version="1.4.0">
+  <name>Magento\MediaStorage\Test\Unit\Model\ResourceModel\File\Storage\FileTest</name>
+  <test-cases>
+    <test-case start="1556668749084" stop="1556668749086" status="passed">
+      <name>testGetStorageData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668736283" stop="1556668736312" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Entity\AttributeTest</name>
+  <test-cases>
+    <test-case start="1556668736284" stop="1556668736284" status="passed">
+      <name>testGetBackendTypeByInput with data set #0</name>
+    </test-case>
+    <test-case start="1556668736285" stop="1556668736285" status="passed">
+      <name>testGetBackendTypeByInput with data set #1</name>
+    </test-case>
+    <test-case start="1556668736286" stop="1556668736286" status="passed">
+      <name>testGetBackendTypeByInput with data set #2</name>
+    </test-case>
+    <test-case start="1556668736286" stop="1556668736287" status="passed">
+      <name>testGetBackendTypeByInput with data set #3</name>
+    </test-case>
+    <test-case start="1556668736287" stop="1556668736288" status="passed">
+      <name>testGetBackendTypeByInput with data set #4</name>
+    </test-case>
+    <test-case start="1556668736288" stop="1556668736289" status="passed">
+      <name>testGetBackendTypeByInput with data set #5</name>
+    </test-case>
+    <test-case start="1556668736289" stop="1556668736290" status="passed">
+      <name>testGetBackendTypeByInput with data set #6</name>
+    </test-case>
+    <test-case start="1556668736290" stop="1556668736290" status="passed">
+      <name>testGetBackendTypeByInput with data set #7</name>
+    </test-case>
+    <test-case start="1556668736291" stop="1556668736291" status="passed">
+      <name>testGetBackendTypeByInput with data set #8</name>
+    </test-case>
+    <test-case start="1556668736292" stop="1556668736292" status="passed">
+      <name>testGetBackendTypeByInput with data set #9</name>
+    </test-case>
+    <test-case start="1556668736292" stop="1556668736293" status="passed">
+      <name>testGetBackendTypeByInput with data set #10</name>
+    </test-case>
+    <test-case start="1556668736293" stop="1556668736294" status="passed">
+      <name>testGetBackendTypeByInput with data set #11</name>
+    </test-case>
+    <test-case start="1556668736294" stop="1556668736295" status="passed">
+      <name>testGetDefaultValueByInput with data set #0</name>
+    </test-case>
+    <test-case start="1556668736295" stop="1556668736295" status="passed">
+      <name>testGetDefaultValueByInput with data set #1</name>
+    </test-case>
+    <test-case start="1556668736296" stop="1556668736296" status="passed">
+      <name>testGetDefaultValueByInput with data set #2</name>
+    </test-case>
+    <test-case start="1556668736297" stop="1556668736297" status="passed">
+      <name>testGetDefaultValueByInput with data set #3</name>
+    </test-case>
+    <test-case start="1556668736297" stop="1556668736298" status="passed">
+      <name>testGetDefaultValueByInput with data set #4</name>
+    </test-case>
+    <test-case start="1556668736298" stop="1556668736299" status="passed">
+      <name>testGetDefaultValueByInput with data set #5</name>
+    </test-case>
+    <test-case start="1556668736299" stop="1556668736300" status="passed">
+      <name>testGetDefaultValueByInput with data set #6</name>
+    </test-case>
+    <test-case start="1556668736300" stop="1556668736300" status="passed">
+      <name>testGetDefaultValueByInput with data set #7</name>
+    </test-case>
+    <test-case start="1556668736301" stop="1556668736301" status="passed">
+      <name>testGetDefaultValueByInput with data set #8</name>
+    </test-case>
+    <test-case start="1556668736302" stop="1556668736302" status="passed">
+      <name>testGetDefaultValueByInput with data set #9</name>
+    </test-case>
+    <test-case start="1556668736302" stop="1556668736303" status="passed">
+      <name>testGetDefaultValueByInput with data set #10</name>
+    </test-case>
+    <test-case start="1556668736303" stop="1556668736304" status="passed">
+      <name>testGetDefaultValueByInput with data set #11</name>
+    </test-case>
+    <test-case start="1556668736304" stop="1556668736305" status="passed">
+      <name>testGetSortWeight with data set "empty set info"</name>
+    </test-case>
+    <test-case start="1556668736305" stop="1556668736305" status="passed">
+      <name>testGetSortWeight with data set "no group sort"</name>
+    </test-case>
+    <test-case start="1556668736306" stop="1556668736306" status="passed">
+      <name>testGetSortWeight with data set "no sort"</name>
+    </test-case>
+    <test-case start="1556668736307" stop="1556668736307" status="passed">
+      <name>testGetSortWeight with data set "group sort and sort"</name>
+    </test-case>
+    <test-case start="1556668736308" stop="1556668736312" status="passed">
+      <name>testGetFrontendLabels</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668718103" stop="1556668718117" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Account\AuthorizationLinkTest</name>
+  <test-cases>
+    <test-case start="1556668718103" stop="1556668718107" status="passed">
+      <name>testGetLabelLoggedIn</name>
+    </test-case>
+    <test-case start="1556668718108" stop="1556668718111" status="passed">
+      <name>testGetLabelLoggedOut</name>
+    </test-case>
+    <test-case start="1556668718111" stop="1556668718114" status="passed">
+      <name>testGetHrefLoggedIn</name>
+    </test-case>
+    <test-case start="1556668718114" stop="1556668718117" status="passed">
+      <name>testGetHrefLoggedOut</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

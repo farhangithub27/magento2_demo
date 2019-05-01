@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715415" stop="1556668715425" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\ProductOptionProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668715415" stop="1556668715419" status="passed">
+      <name>testConvertToBuyRequest with data set #0</name>
+    </test-case>
+    <test-case start="1556668715419" stop="1556668715421" status="passed">
+      <name>testConvertToBuyRequest with data set #1</name>
+    </test-case>
+    <test-case start="1556668715421" stop="1556668715423" status="passed">
+      <name>testConvertToProductOption with data set #0</name>
+    </test-case>
+    <test-case start="1556668715423" stop="1556668715424" status="passed">
+      <name>testConvertToProductOption with data set #1</name>
+    </test-case>
+    <test-case start="1556668715424" stop="1556668715425" status="passed">
+      <name>testConvertToProductOption with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

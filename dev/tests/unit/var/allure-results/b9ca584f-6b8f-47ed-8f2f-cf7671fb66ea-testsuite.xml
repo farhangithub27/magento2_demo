@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668738410" stop="1556668738412" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\Adapter\Index\Config\ConverterTest</name>
+  <test-cases>
+    <test-case start="1556668738411" stop="1556668738412" status="passed">
+      <name>testConvert</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

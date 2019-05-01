@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668669177" stop="1556668669184" version="1.4.0">
+  <name>Magento\Authorizenet\Test\Unit\Model\Directpost\ResponseTest</name>
+  <test-cases>
+    <test-case start="1556668669178" stop="1556668669178" status="passed">
+      <name>testIsValidHash with data set #0</name>
+    </test-case>
+    <test-case start="1556668669179" stop="1556668669179" status="passed">
+      <name>testIsValidHash with data set #1</name>
+    </test-case>
+    <test-case start="1556668669180" stop="1556668669181" status="passed">
+      <name>testIsValidHash with data set #2</name>
+    </test-case>
+    <test-case start="1556668669181" stop="1556668669182" status="passed">
+      <name>testIsApproved with data set #0</name>
+    </test-case>
+    <test-case start="1556668669182" stop="1556668669182" status="passed">
+      <name>testIsApproved with data set #1</name>
+    </test-case>
+    <test-case start="1556668669183" stop="1556668669183" status="passed">
+      <name>testIsApproved with data set #2</name>
+    </test-case>
+    <test-case start="1556668669184" stop="1556668669184" status="passed">
+      <name>testIsApproved with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

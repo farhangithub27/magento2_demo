@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668737089" stop="1556668737094" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Plugin\Model\ResourceModel\Entity\AttributeTest</name>
+  <test-cases>
+    <test-case start="1556668737089" stop="1556668737091" status="passed">
+      <name>testAroundGetStoreLabelsByAttributeIdCacheIsDisabled</name>
+    </test-case>
+    <test-case start="1556668737091" stop="1556668737092" status="passed">
+      <name>testAroundGetStoreLabelsByAttributeIdCacheExists</name>
+    </test-case>
+    <test-case start="1556668737092" stop="1556668737094" status="passed">
+      <name>testAroundGetStoreLabelsByAttributeIdCacheDoesNotExist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

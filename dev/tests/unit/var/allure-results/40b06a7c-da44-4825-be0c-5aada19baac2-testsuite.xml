@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668738967" stop="1556668738970" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\SearchAdapter\ConnectionManagerTest</name>
+  <test-cases>
+    <test-case start="1556668738967" stop="1556668738969" status="passed">
+      <name>testGetConnectionSuccessfull</name>
+    </test-case>
+    <test-case start="1556668738969" stop="1556668738970" status="passed">
+      <name>testGetConnectionFailure</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

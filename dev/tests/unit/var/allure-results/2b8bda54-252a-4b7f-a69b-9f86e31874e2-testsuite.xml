@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668844348" stop="1556668844364" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\MaintenanceModeTest</name>
+  <test-cases>
+    <test-case start="1556668844349" stop="1556668844349" status="passed">
+      <name>testIsOnInitial</name>
+    </test-case>
+    <test-case start="1556668844350" stop="1556668844351" status="passed">
+      <name>testisOnWithoutIP</name>
+    </test-case>
+    <test-case start="1556668844351" stop="1556668844352" status="passed">
+      <name>testisOnWithIP</name>
+    </test-case>
+    <test-case start="1556668844352" stop="1556668844353" status="passed">
+      <name>testisOnWithIPNoMaintenance</name>
+    </test-case>
+    <test-case start="1556668844353" stop="1556668844354" status="passed">
+      <name>testMaintenanceModeOn</name>
+    </test-case>
+    <test-case start="1556668844354" stop="1556668844355" status="passed">
+      <name>testMaintenanceModeOff</name>
+    </test-case>
+    <test-case start="1556668844356" stop="1556668844357" status="passed">
+      <name>testSetAddresses</name>
+    </test-case>
+    <test-case start="1556668844357" stop="1556668844359" status="passed">
+      <name>testSetSingleAddresses</name>
+    </test-case>
+    <test-case start="1556668844359" stop="1556668844362" status="passed">
+      <name>testOnSetMultipleAddresses</name>
+    </test-case>
+    <test-case start="1556668844362" stop="1556668844364" status="passed">
+      <name>testOffSetMultipleAddresses</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668690206" stop="1556668690239" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Product\ProductList\RelatedTest</name>
+  <test-cases>
+    <test-case start="1556668690207" stop="1556668690218" status="passed">
+      <name>testGetIdentities</name>
+    </test-case>
+    <test-case start="1556668690219" stop="1556668690224" status="passed">
+      <name>testCanItemsAddToCart with data set #0</name>
+    </test-case>
+    <test-case start="1556668690224" stop="1556668690229" status="passed">
+      <name>testCanItemsAddToCart with data set #1</name>
+    </test-case>
+    <test-case start="1556668690230" stop="1556668690234" status="passed">
+      <name>testCanItemsAddToCart with data set #2</name>
+    </test-case>
+    <test-case start="1556668690235" stop="1556668690239" status="passed">
+      <name>testCanItemsAddToCart with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

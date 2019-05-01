@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668716459" stop="1556668716471" version="1.4.0">
+  <name>Magento\Cookie\Test\Unit\Model\Config\Backend\DomainTest</name>
+  <test-cases>
+    <test-case start="1556668716460" stop="1556668716464" status="passed">
+      <name>testBeforeSave with data set "not string"</name>
+    </test-case>
+    <test-case start="1556668716465" stop="1556668716466" status="passed">
+      <name>testBeforeSave with data set "invalid hostname"</name>
+    </test-case>
+    <test-case start="1556668716467" stop="1556668716469" status="passed">
+      <name>testBeforeSave with data set "valid hostname"</name>
+    </test-case>
+    <test-case start="1556668716469" stop="1556668716471" status="passed">
+      <name>testBeforeSave with data set "empty string"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

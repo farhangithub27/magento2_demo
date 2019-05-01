@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668787401" stop="1556668787456" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\CartTest</name>
+  <test-cases>
+    <test-case start="1556668787401" stop="1556668787406" status="passed">
+      <name>testInvalidGetAllItems with data set #0</name>
+    </test-case>
+    <test-case start="1556668787407" stop="1556668787410" status="passed">
+      <name>testInvalidGetAllItems with data set #1</name>
+    </test-case>
+    <test-case start="1556668787411" stop="1556668787414" status="passed">
+      <name>testInvalidGetAllItems with data set #2</name>
+    </test-case>
+    <test-case start="1556668787415" stop="1556668787418" status="passed">
+      <name>testInvalidGetAllItems with data set #3</name>
+    </test-case>
+    <test-case start="1556668787419" stop="1556668787423" status="passed">
+      <name>testInvalidTotalsGetAllItems with data set #0</name>
+    </test-case>
+    <test-case start="1556668787423" stop="1556668787428" status="passed">
+      <name>testInvalidTotalsGetAllItems with data set #1</name>
+    </test-case>
+    <test-case start="1556668787428" stop="1556668787433" status="passed">
+      <name>testGetAllItems</name>
+    </test-case>
+    <test-case start="1556668787433" stop="1556668787437" status="passed">
+      <name>testInvalidGetAmounts with data set #0</name>
+    </test-case>
+    <test-case start="1556668787438" stop="1556668787442" status="passed">
+      <name>testInvalidGetAmounts with data set #1</name>
+    </test-case>
+    <test-case start="1556668787442" stop="1556668787446" status="passed">
+      <name>testInvalidGetAmounts with data set #2</name>
+    </test-case>
+    <test-case start="1556668787447" stop="1556668787451" status="passed">
+      <name>testInvalidGetAmounts with data set #3</name>
+    </test-case>
+    <test-case start="1556668787451" stop="1556668787455" status="passed">
+      <name>testGetAmounts</name>
+    </test-case>
+    <test-case start="1556668787455" stop="1556668787456" status="passed">
+      <name>testHasNegativeItemAmount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

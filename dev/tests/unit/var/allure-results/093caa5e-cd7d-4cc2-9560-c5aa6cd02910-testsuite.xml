@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668846943" stop="1556668846963" version="1.4.0">
+  <name>Magento\Framework\Code\Test\Unit\GeneratedFilesTest</name>
+  <test-cases>
+    <test-case start="1556668846943" stop="1556668846949" status="passed">
+      <name>testCleanGeneratedFiles with data set "runAll"</name>
+    </test-case>
+    <test-case start="1556668846950" stop="1556668846953" status="passed">
+      <name>testCleanGeneratedFiles with data set "noDIfolder"</name>
+    </test-case>
+    <test-case start="1556668846954" stop="1556668846957" status="passed">
+      <name>testCleanGeneratedFiles with data set "noGenerationfolder"</name>
+    </test-case>
+    <test-case start="1556668846957" stop="1556668846960" status="passed">
+      <name>testCleanGeneratedFiles with data set "nofolders"</name>
+    </test-case>
+    <test-case start="1556668846961" stop="1556668846962" status="passed">
+      <name>testCleanGeneratedFilesWithNoFlag</name>
+    </test-case>
+    <test-case start="1556668846962" stop="1556668846963" status="passed">
+      <name>testRequestRegeneration</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

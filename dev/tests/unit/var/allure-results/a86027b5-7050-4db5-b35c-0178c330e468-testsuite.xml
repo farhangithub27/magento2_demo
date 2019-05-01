@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668844688" stop="1556668844693" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\ProductMetadataTest</name>
+  <test-cases>
+    <test-case start="1556668844688" stop="1556668844689" status="passed">
+      <name>testGetVersion with data set #0</name>
+    </test-case>
+    <test-case start="1556668844689" stop="1556668844690" status="passed">
+      <name>testGetVersion with data set #1</name>
+    </test-case>
+    <test-case start="1556668844690" stop="1556668844692" status="passed">
+      <name>testGetVersionGitInstallationDataProvider</name>
+    </test-case>
+    <test-case start="1556668844692" stop="1556668844692" status="passed">
+      <name>testGetEdition</name>
+    </test-case>
+    <test-case start="1556668844693" stop="1556668844693" status="passed">
+      <name>testGetName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

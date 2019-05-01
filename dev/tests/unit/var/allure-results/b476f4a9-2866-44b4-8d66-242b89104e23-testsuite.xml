@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668703444" stop="1556668703448" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Plugin\Model\Indexer\Category\Product\ExecuteTest</name>
+  <test-cases>
+    <test-case start="1556668703444" stop="1556668703447" status="passed">
+      <name>testAfterExecute</name>
+    </test-case>
+    <test-case start="1556668703447" stop="1556668703448" status="passed">
+      <name>testAfterExecuteInvalidate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

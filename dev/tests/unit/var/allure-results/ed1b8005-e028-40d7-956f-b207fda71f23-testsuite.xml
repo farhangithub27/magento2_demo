@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668780084" stop="1556668780087" version="1.4.0">
+  <name>Magento\Multishipping\Test\Unit\Model\Checkout\Type\Multishipping\PlaceOrderPoolTest</name>
+  <test-cases>
+    <test-case start="1556668780085" stop="1556668780086" status="passed">
+      <name>testGet with data set "code exists in pool"</name>
+    </test-case>
+    <test-case start="1556668780087" stop="1556668780087" status="passed">
+      <name>testGet with data set "no code in pool"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

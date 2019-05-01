@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668673913" stop="1556668673928" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Request\AddressDataBuilderTest</name>
+  <test-cases>
+    <test-case start="1556668673914" stop="1556668673914" status="passed">
+      <name>testBuildReadPaymentException</name>
+    </test-case>
+    <test-case start="1556668673915" stop="1556668673916" status="passed">
+      <name>testBuildNoAddresses</name>
+    </test-case>
+    <test-case start="1556668673916" stop="1556668673928" status="passed">
+      <name>testBuild with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

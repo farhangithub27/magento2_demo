@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668691335" stop="1556668691374" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\MoveTest</name>
+  <test-cases>
+    <test-case start="1556668691335" stop="1556668691359" status="passed">
+      <name>testExecuteWithGenericException</name>
+    </test-case>
+    <test-case start="1556668691359" stop="1556668691366" status="passed">
+      <name>testExecuteWithLocalizedException</name>
+    </test-case>
+    <test-case start="1556668691367" stop="1556668691374" status="passed">
+      <name>testSuccessfulCategorySave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

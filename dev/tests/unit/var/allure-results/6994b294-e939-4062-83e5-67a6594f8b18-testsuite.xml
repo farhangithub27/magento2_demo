@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668796784" stop="1556668796791" version="1.4.0">
+  <name>Magento\Review\Test\Unit\Observer\ProcessProductAfterDeleteEventObserverTest</name>
+  <test-cases>
+    <test-case start="1556668796784" stop="1556668796789" status="passed">
+      <name>testCleanupProductReviewsWithProduct</name>
+    </test-case>
+    <test-case start="1556668796790" stop="1556668796791" status="passed">
+      <name>testCleanupProductReviewsWithoutProduct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

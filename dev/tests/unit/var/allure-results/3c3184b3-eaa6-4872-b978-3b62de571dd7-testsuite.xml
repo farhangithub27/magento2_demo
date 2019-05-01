@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816587" stop="1556668816600" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\SignifydGateway\Response\WebhookRequestValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668816588" stop="1556668816589" status="passed">
+      <name>testValidateSuccess with data set #0</name>
+    </test-case>
+    <test-case start="1556668816590" stop="1556668816591" status="passed">
+      <name>testValidateSuccess with data set #1</name>
+    </test-case>
+    <test-case start="1556668816591" stop="1556668816592" status="passed">
+      <name>testValidationTopicFails with data set #0</name>
+    </test-case>
+    <test-case start="1556668816593" stop="1556668816594" status="passed">
+      <name>testValidationTopicFails with data set #1</name>
+    </test-case>
+    <test-case start="1556668816595" stop="1556668816596" status="passed">
+      <name>testValidationBodyFails with data set #0</name>
+    </test-case>
+    <test-case start="1556668816597" stop="1556668816598" status="passed">
+      <name>testValidationBodyFails with data set #1</name>
+    </test-case>
+    <test-case start="1556668816598" stop="1556668816600" status="passed">
+      <name>testValidationHashFails</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

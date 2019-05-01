@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837802" stop="1556668837803" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Config\Source\TaxInvoiceTest</name>
+  <test-cases>
+    <test-case start="1556668837802" stop="1556668837803" status="passed">
+      <name>testReturnArray</name>
+    </test-case>
+    <test-case start="1556668837803" stop="1556668837803" status="passed">
+      <name>testImplementsOptionSourceInterface</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

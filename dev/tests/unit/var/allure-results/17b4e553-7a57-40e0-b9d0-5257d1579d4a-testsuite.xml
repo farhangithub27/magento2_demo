@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668698143" stop="1556668698149" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\CatalogPriceTest</name>
+  <test-cases>
+    <test-case start="1556668698143" stop="1556668698145" status="passed">
+      <name>testGetCatalogPriceWhenPoolContainsPriceModelForGivenProductType</name>
+    </test-case>
+    <test-case start="1556668698146" stop="1556668698146" status="passed">
+      <name>testGetCatalogPriceWhenPoolDoesNotContainPriceModelForGivenProductType</name>
+    </test-case>
+    <test-case start="1556668698147" stop="1556668698147" status="passed">
+      <name>testGetCatalogRegularPriceWhenPoolDoesNotContainPriceModelForGivenProductType</name>
+    </test-case>
+    <test-case start="1556668698148" stop="1556668698149" status="passed">
+      <name>testGetCatalogRegularPriceWhenPoolContainsPriceModelForGivenProductType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

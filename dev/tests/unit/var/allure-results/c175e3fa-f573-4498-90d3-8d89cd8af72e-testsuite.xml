@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668825999" stop="1556668826005" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Theme\SingleFileTest</name>
+  <test-cases>
+    <test-case start="1556668826000" stop="1556668826004" status="passed">
+      <name>testUpdate</name>
+    </test-case>
+    <test-case start="1556668826004" stop="1556668826005" status="passed">
+      <name>testUpdateWhenFileDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

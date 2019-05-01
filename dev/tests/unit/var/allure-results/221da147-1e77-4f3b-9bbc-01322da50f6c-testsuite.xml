@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843100" stop="1556668843123" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\CacheTest</name>
+  <test-cases>
+    <test-case start="1556668843101" stop="1556668843103" status="passed">
+      <name>testConstructor</name>
+    </test-case>
+    <test-case start="1556668843104" stop="1556668843105" status="passed">
+      <name>testGetFrontend</name>
+    </test-case>
+    <test-case start="1556668843105" stop="1556668843107" status="passed">
+      <name>testLoad</name>
+    </test-case>
+    <test-case start="1556668843107" stop="1556668843109" status="passed">
+      <name>testSave with data set "default tags"</name>
+    </test-case>
+    <test-case start="1556668843109" stop="1556668843111" status="passed">
+      <name>testSave with data set "config tags"</name>
+    </test-case>
+    <test-case start="1556668843111" stop="1556668843113" status="passed">
+      <name>testSave with data set "lowercase tags"</name>
+    </test-case>
+    <test-case start="1556668843114" stop="1556668843115" status="passed">
+      <name>testSave with data set "non-string data"</name>
+    </test-case>
+    <test-case start="1556668843116" stop="1556668843117" status="passed">
+      <name>testRemove with data set "success"</name>
+    </test-case>
+    <test-case start="1556668843117" stop="1556668843119" status="passed">
+      <name>testRemove with data set "failure"</name>
+    </test-case>
+    <test-case start="1556668843119" stop="1556668843120" status="passed">
+      <name>testCleanByTags</name>
+    </test-case>
+    <test-case start="1556668843120" stop="1556668843123" status="passed">
+      <name>testCleanByEmptyTags</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668697124" stop="1556668697130" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Layer\StateTest</name>
+  <test-cases>
+    <test-case start="1556668697124" stop="1556668697128" status="passed">
+      <name>testSetFiltersException</name>
+    </test-case>
+    <test-case start="1556668697128" stop="1556668697129" status="passed">
+      <name>testSetFilters</name>
+    </test-case>
+    <test-case start="1556668697129" stop="1556668697130" status="passed">
+      <name>testAddFilter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

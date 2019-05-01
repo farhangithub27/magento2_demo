@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668672458" stop="1556668672465" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\Search\Config\Result\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668672458" stop="1556668672463" status="passed">
+      <name>testAddWithNotSupportedStructureElementReturnsNothing</name>
+    </test-case>
+    <test-case start="1556668672463" stop="1556668672464" status="passed">
+      <name>testAddWithSupportedStructureElements</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

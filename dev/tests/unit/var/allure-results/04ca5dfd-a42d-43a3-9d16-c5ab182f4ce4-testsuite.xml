@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668786369" stop="1556668786378" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Block\Payflow\Link\IframeTest</name>
+  <test-cases>
+    <test-case start="1556668786369" stop="1556668786374" status="passed">
+      <name>testCheckIsScopePrivate</name>
+    </test-case>
+    <test-case start="1556668786374" stop="1556668786376" status="passed">
+      <name>testGetTransactionUrlLive</name>
+    </test-case>
+    <test-case start="1556668786376" stop="1556668786378" status="passed">
+      <name>testGetTransactionUrlTest</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

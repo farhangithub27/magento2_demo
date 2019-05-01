@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668742511" stop="1556668742514" version="1.4.0">
+  <name>Magento\GroupedProduct\Test\Unit\Block\Product\Grouped\AssociatedProductsTest</name>
+  <test-cases>
+    <test-case start="1556668742511" stop="1556668742512" status="passed">
+      <name>testGetParentTab</name>
+    </test-case>
+    <test-case start="1556668742513" stop="1556668742514" status="passed">
+      <name>testGetTabLabel</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

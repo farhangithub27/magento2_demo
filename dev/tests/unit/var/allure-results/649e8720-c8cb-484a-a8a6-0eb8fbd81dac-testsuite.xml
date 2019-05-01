@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668809456" stop="1556668809460" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Shipment\Comment\ValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668809456" stop="1556668809459" status="passed">
+      <name>testValidate with data set #0</name>
+    </test-case>
+    <test-case start="1556668809459" stop="1556668809460" status="passed">
+      <name>testValidate with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

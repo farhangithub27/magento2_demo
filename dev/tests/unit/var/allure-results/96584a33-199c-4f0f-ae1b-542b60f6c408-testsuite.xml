@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668712781" stop="1556668712828" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Structure\Element\FieldTest</name>
+  <test-cases>
+    <test-case start="1556668712781" stop="1556668712785" status="passed">
+      <name>testGetLabelTranslatesLabelAndPrefix</name>
+    </test-case>
+    <test-case start="1556668712785" stop="1556668712787" status="passed">
+      <name>testGetHintTranslatesElementHint</name>
+    </test-case>
+    <test-case start="1556668712787" stop="1556668712789" status="passed">
+      <name>testGetCommentTranslatesCommentTextIfNoCommentModelIsProvided</name>
+    </test-case>
+    <test-case start="1556668712789" stop="1556668712791" status="passed">
+      <name>testGetCommentRetrievesCommentFromCommentModelIfItsProvided</name>
+    </test-case>
+    <test-case start="1556668712792" stop="1556668712793" status="passed">
+      <name>testGetTooltipRetunrsTranslatedAttributeIfNoBlockIsProvided</name>
+    </test-case>
+    <test-case start="1556668712793" stop="1556668712794" status="passed">
+      <name>testGetTooltipCreatesTooltipBlock</name>
+    </test-case>
+    <test-case start="1556668712794" stop="1556668712795" status="passed">
+      <name>testGetTypeReturnsTextByDefault</name>
+    </test-case>
+    <test-case start="1556668712795" stop="1556668712796" status="passed">
+      <name>testGetTypeReturnsProvidedType</name>
+    </test-case>
+    <test-case start="1556668712796" stop="1556668712797" status="passed">
+      <name>testGetFrontendClass</name>
+    </test-case>
+    <test-case start="1556668712797" stop="1556668712798" status="passed">
+      <name>testHasBackendModel</name>
+    </test-case>
+    <test-case start="1556668712799" stop="1556668712800" status="passed">
+      <name>testGetBackendModelCreatesBackendModel</name>
+    </test-case>
+    <test-case start="1556668712800" stop="1556668712801" status="passed">
+      <name>testGetSectionId</name>
+    </test-case>
+    <test-case start="1556668712801" stop="1556668712802" status="passed">
+      <name>testGetGroupPath</name>
+    </test-case>
+    <test-case start="1556668712802" stop="1556668712803" status="passed">
+      <name>testGetConfigPath</name>
+    </test-case>
+    <test-case start="1556668712803" stop="1556668712804" status="passed">
+      <name>testShowInDefault</name>
+    </test-case>
+    <test-case start="1556668712805" stop="1556668712806" status="passed">
+      <name>testShowInWebsite</name>
+    </test-case>
+    <test-case start="1556668712806" stop="1556668712807" status="passed">
+      <name>testShowInStore</name>
+    </test-case>
+    <test-case start="1556668712807" stop="1556668712808" status="passed">
+      <name>testPopulateInput</name>
+    </test-case>
+    <test-case start="1556668712809" stop="1556668712810" status="passed">
+      <name>testHasValidation</name>
+    </test-case>
+    <test-case start="1556668712810" stop="1556668712811" status="passed">
+      <name>testCanBeEmpty</name>
+    </test-case>
+    <test-case start="1556668712811" stop="1556668712812" status="passed">
+      <name>testHasSourceModel</name>
+    </test-case>
+    <test-case start="1556668712812" stop="1556668712813" status="passed">
+      <name>testHasOptionsWithSourceModel</name>
+    </test-case>
+    <test-case start="1556668712813" stop="1556668712814" status="passed">
+      <name>testHasOptionsWithOptions</name>
+    </test-case>
+    <test-case start="1556668712814" stop="1556668712816" status="passed">
+      <name>testGetOptionsWithOptions</name>
+    </test-case>
+    <test-case start="1556668712816" stop="1556668712818" status="passed">
+      <name>testGetOptionsWithConstantValOptions</name>
+    </test-case>
+    <test-case start="1556668712818" stop="1556668712820" status="passed">
+      <name>testGetOptionsUsesOptionsInterfaceIfNoMethodIsProvided</name>
+    </test-case>
+    <test-case start="1556668712820" stop="1556668712822" status="passed">
+      <name>testGetOptionsUsesProvidedMethodOfSourceModel</name>
+    </test-case>
+    <test-case start="1556668712822" stop="1556668712823" status="passed">
+      <name>testGetOptionsParsesResultOfProvidedMethodOfSourceModelIfTypeIsNotMultiselect</name>
+    </test-case>
+    <test-case start="1556668712824" stop="1556668712824" status="passed">
+      <name>testGetDependenciesWithoutDependencies</name>
+    </test-case>
+    <test-case start="1556668712825" stop="1556668712826" status="passed">
+      <name>testGetDependenciesWithDependencies</name>
+    </test-case>
+    <test-case start="1556668712826" stop="1556668712827" status="passed">
+      <name>testIsAdvanced</name>
+    </test-case>
+    <test-case start="1556668712827" stop="1556668712828" status="passed">
+      <name>testGetValidation</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

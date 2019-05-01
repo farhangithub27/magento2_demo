@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668658047" stop="1556668658062" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\SessionTest</name>
+  <test-cases>
+    <test-case start="1556668658047" stop="1556668658059" status="passed">
+      <name>testUnloginAction</name>
+    </test-case>
+    <test-case start="1556668658059" stop="1556668658060" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+    <test-case start="1556668658060" stop="1556668658062" status="passed">
+      <name>testProlongActionWithExistingSession</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

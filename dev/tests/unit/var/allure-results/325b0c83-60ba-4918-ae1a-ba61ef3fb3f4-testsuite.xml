@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667245" stop="1556668667247" version="1.4.0">
+  <name>Magento\AsynchronousOperations\Test\Unit\Model\Operation\DetailsTest</name>
+  <test-cases>
+    <test-case start="1556668667246" stop="1556668667247" status="passed">
+      <name>testGetDetails</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

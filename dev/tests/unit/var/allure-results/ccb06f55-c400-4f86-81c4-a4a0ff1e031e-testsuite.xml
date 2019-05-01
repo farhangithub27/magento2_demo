@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848995" stop="1556668849003" version="1.4.0">
+  <name>Magento\Framework\Css\Test\Unit\PreProcessor\File\Collector\LibraryTest</name>
+  <test-cases>
+    <test-case start="1556668848995" stop="1556668848998" status="passed">
+      <name>testGetFilesEmpty</name>
+    </test-case>
+    <test-case start="1556668848998" stop="1556668849000" status="passed">
+      <name>testGetFiles with data set "all files"</name>
+    </test-case>
+    <test-case start="1556668849001" stop="1556668849003" status="passed">
+      <name>testGetFiles with data set "no library"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

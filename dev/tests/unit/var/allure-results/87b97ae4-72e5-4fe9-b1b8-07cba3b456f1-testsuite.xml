@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668713336" stop="1556668713373" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668713337" stop="1556668713338" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "tab_id_not_unique"</name>
+    </test-case>
+    <test-case start="1556668713339" stop="1556668713340" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "section_id_not_unique"</name>
+    </test-case>
+    <test-case start="1556668713340" stop="1556668713341" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "field_id_not_unique"</name>
+    </test-case>
+    <test-case start="1556668713342" stop="1556668713343" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "field_element_id_not_expected"</name>
+    </test-case>
+    <test-case start="1556668713343" stop="1556668713344" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "group_id_not_unique"</name>
+    </test-case>
+    <test-case start="1556668713345" stop="1556668713346" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "group_is_not_expected"</name>
+    </test-case>
+    <test-case start="1556668713346" stop="1556668713347" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "upload_dir_is_not_expected"</name>
+    </test-case>
+    <test-case start="1556668713348" stop="1556668713349" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "upload_dir_with_invalid_type"</name>
+    </test-case>
+    <test-case start="1556668713349" stop="1556668713350" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "if_module_enabled_with_invalid_type"</name>
+    </test-case>
+    <test-case start="1556668713351" stop="1556668713352" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "id_minimum length"</name>
+    </test-case>
+    <test-case start="1556668713352" stop="1556668713354" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "source_model_with_invalid_type"</name>
+    </test-case>
+    <test-case start="1556668713354" stop="1556668713355" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "base_url_with_invalid_type"</name>
+    </test-case>
+    <test-case start="1556668713356" stop="1556668713357" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "advanced_with_invalid_type"</name>
+    </test-case>
+    <test-case start="1556668713357" stop="1556668713358" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "advanced_attribute_with_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668713359" stop="1556668713360" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "options_node_without_any_options"</name>
+    </test-case>
+    <test-case start="1556668713360" stop="1556668713361" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "system_node_without_allowed_elements"</name>
+    </test-case>
+    <test-case start="1556668713361" stop="1556668713363" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "config_node_without_allowed_elements"</name>
+    </test-case>
+    <test-case start="1556668713363" stop="1556668713364" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "config_without_required_attributes"</name>
+    </test-case>
+    <test-case start="1556668713365" stop="1556668713368" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "attribute_type_is_unique"</name>
+    </test-case>
+    <test-case start="1556668713369" stop="1556668713373" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668711894" stop="1556668711905" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Backend\Email\AddressTest</name>
+  <test-cases>
+    <test-case start="1556668711894" stop="1556668711896" status="passed">
+      <name>testBeforeSave with data set #0</name>
+    </test-case>
+    <test-case start="1556668711897" stop="1556668711899" status="passed">
+      <name>testBeforeSave with data set #1</name>
+    </test-case>
+    <test-case start="1556668711899" stop="1556668711901" status="passed">
+      <name>testBeforeSave with data set #2</name>
+    </test-case>
+    <test-case start="1556668711901" stop="1556668711903" status="passed">
+      <name>testBeforeSave with data set #3</name>
+    </test-case>
+    <test-case start="1556668711903" stop="1556668711905" status="passed">
+      <name>testBeforeSave with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

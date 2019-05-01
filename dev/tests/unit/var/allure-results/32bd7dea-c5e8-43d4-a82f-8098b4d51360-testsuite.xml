@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668710238" stop="1556668710308" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Model\Wysiwyg\Images\StorageTest</name>
+  <test-cases>
+    <test-case start="1556668710238" stop="1556668710259" status="passed">
+      <name>testGetResizeWidth</name>
+    </test-case>
+    <test-case start="1556668710259" stop="1556668710261" status="passed">
+      <name>testGetResizeHeight</name>
+    </test-case>
+    <test-case start="1556668710261" stop="1556668710264" status="passed">
+      <name>testDeleteDirectoryOverRoot</name>
+    </test-case>
+    <test-case start="1556668710264" stop="1556668710266" status="passed">
+      <name>testDeleteRootDirectory</name>
+    </test-case>
+    <test-case start="1556668710267" stop="1556668710277" status="passed">
+      <name>testGetDirsCollectionCreateSubDirectories</name>
+    </test-case>
+    <test-case start="1556668710278" stop="1556668710282" status="passed">
+      <name>testGetDirsCollection with data set #0</name>
+    </test-case>
+    <test-case start="1556668710283" stop="1556668710287" status="passed">
+      <name>testGetDirsCollection with data set #1</name>
+    </test-case>
+    <test-case start="1556668710288" stop="1556668710292" status="passed">
+      <name>testGetDirsCollection with data set #2</name>
+    </test-case>
+    <test-case start="1556668710292" stop="1556668710298" status="passed">
+      <name>testGetDirsCollection with data set #3</name>
+    </test-case>
+    <test-case start="1556668710298" stop="1556668710307" status="passed">
+      <name>testUploadFile</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668835484" stop="1556668835497" version="1.4.0">
+  <name>Magento\Widget\Test\Unit\Model\WidgetTest</name>
+  <test-cases>
+    <test-case start="1556668835484" stop="1556668835486" status="passed">
+      <name>testGetWidgets</name>
+    </test-case>
+    <test-case start="1556668835487" stop="1556668835488" status="passed">
+      <name>testGetWidgetsWithFilter</name>
+    </test-case>
+    <test-case start="1556668835488" stop="1556668835489" status="passed">
+      <name>testGetWidgetsWithUnknownFilter</name>
+    </test-case>
+    <test-case start="1556668835489" stop="1556668835490" status="passed">
+      <name>testGetWidgetByClassType</name>
+    </test-case>
+    <test-case start="1556668835490" stop="1556668835492" status="passed">
+      <name>testGetConfigAsObject</name>
+    </test-case>
+    <test-case start="1556668835492" stop="1556668835493" status="passed">
+      <name>testGetConfigAsObjectWidgetNoFound</name>
+    </test-case>
+    <test-case start="1556668835493" stop="1556668835495" status="passed">
+      <name>testGetWidgetDeclaration</name>
+    </test-case>
+    <test-case start="1556668835495" stop="1556668835497" status="passed">
+      <name>testGetWidgetDeclarationWithZeroValueParam</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

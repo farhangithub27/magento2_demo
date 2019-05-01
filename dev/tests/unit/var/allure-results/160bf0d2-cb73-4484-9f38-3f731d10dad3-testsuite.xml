@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668865596" stop="1556668865620" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Asset\Bundle\ManagerTest</name>
+  <test-cases>
+    <test-case start="1556668865597" stop="1556668865603" status="passed">
+      <name>testAddAssetWithInvalidType</name>
+    </test-case>
+    <test-case start="1556668865603" stop="1556668865608" status="passed">
+      <name>testAddAssetWithExcludedFile</name>
+    </test-case>
+    <test-case start="1556668865608" stop="1556668865614" status="passed">
+      <name>testAddAssetWithExcludedDirectory</name>
+    </test-case>
+    <test-case start="1556668865615" stop="1556668865618" status="passed">
+      <name>testAddAsset</name>
+    </test-case>
+    <test-case start="1556668865619" stop="1556668865620" status="passed">
+      <name>testFlush</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

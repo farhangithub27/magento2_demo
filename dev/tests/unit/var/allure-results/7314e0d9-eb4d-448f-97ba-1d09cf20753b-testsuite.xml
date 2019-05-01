@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860823" stop="1556668860830" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Adapter\Mysql\Filter\Builder\TermTest</name>
+  <test-cases>
+    <test-case start="1556668860824" stop="1556668860825" status="passed">
+      <name>testBuildQuery with data set "positive"</name>
+    </test-case>
+    <test-case start="1556668860826" stop="1556668860827" status="passed">
+      <name>testBuildQuery with data set "negative"</name>
+    </test-case>
+    <test-case start="1556668860827" stop="1556668860828" status="passed">
+      <name>testBuildQuery with data set "positiveIn"</name>
+    </test-case>
+    <test-case start="1556668860828" stop="1556668860829" status="passed">
+      <name>testBuildQuery with data set "negativeIn"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

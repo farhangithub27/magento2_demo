@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668824872" stop="1556668824886" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Design\Backend\FileTest</name>
+  <test-cases>
+    <test-case start="1556668824873" stop="1556668824877" status="passed">
+      <name>testAfterLoad</name>
+    </test-case>
+    <test-case start="1556668824877" stop="1556668824880" status="passed">
+      <name>testBeforeSave with data set "Normal file name"</name>
+    </test-case>
+    <test-case start="1556668824880" stop="1556668824882" status="passed">
+      <name>testBeforeSave with data set "Vulnerable file name"</name>
+    </test-case>
+    <test-case start="1556668824882" stop="1556668824884" status="passed">
+      <name>testBeforeSaveWithoutFile</name>
+    </test-case>
+    <test-case start="1556668824884" stop="1556668824886" status="passed">
+      <name>testBeforeSaveWithExistingFile</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

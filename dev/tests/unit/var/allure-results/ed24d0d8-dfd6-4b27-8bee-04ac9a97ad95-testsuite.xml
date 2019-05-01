@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668804575" stop="1556668804646" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Creditmemo\ItemTest</name>
+  <test-cases>
+    <test-case start="1556668804575" stop="1556668804577" status="passed">
+      <name>testGetOrderItemExist</name>
+    </test-case>
+    <test-case start="1556668804578" stop="1556668804580" status="passed">
+      <name>testGetOrderItemFromCreditmemo</name>
+    </test-case>
+    <test-case start="1556668804581" stop="1556668804583" status="passed">
+      <name>testGetOrderItemFromFactory</name>
+    </test-case>
+    <test-case start="1556668804584" stop="1556668804585" status="passed">
+      <name>testSetQty</name>
+    </test-case>
+    <test-case start="1556668804586" stop="1556668804602" status="passed">
+      <name>testRegister</name>
+    </test-case>
+    <test-case start="1556668804603" stop="1556668804606" status="passed">
+      <name>testRegisterWithException</name>
+    </test-case>
+    <test-case start="1556668804606" stop="1556668804618" status="passed">
+      <name>testCancel</name>
+    </test-case>
+    <test-case start="1556668804619" stop="1556668804633" status="passed">
+      <name>testCalcRowTotal with data set "qty 1"</name>
+    </test-case>
+    <test-case start="1556668804633" stop="1556668804646" status="passed">
+      <name>testCalcRowTotal with data set "qty 0"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

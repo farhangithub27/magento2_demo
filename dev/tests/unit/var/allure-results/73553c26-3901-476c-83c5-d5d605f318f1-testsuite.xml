@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855481" stop="1556668855517" version="1.4.0">
+  <name>Magento\Framework\Interception\Test\Unit\Config\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668855482" stop="1556668855487" status="passed">
+      <name>testHasPluginsWhenDataIsNotCached with data set #0</name>
+    </test-case>
+    <test-case start="1556668855488" stop="1556668855490" status="passed">
+      <name>testHasPluginsWhenDataIsNotCached with data set #1</name>
+    </test-case>
+    <test-case start="1556668855490" stop="1556668855493" status="passed">
+      <name>testHasPluginsWhenDataIsNotCached with data set #2</name>
+    </test-case>
+    <test-case start="1556668855493" stop="1556668855495" status="passed">
+      <name>testHasPluginsWhenDataIsNotCached with data set #3</name>
+    </test-case>
+    <test-case start="1556668855496" stop="1556668855498" status="passed">
+      <name>testHasPluginsWhenDataIsNotCached with data set #4</name>
+    </test-case>
+    <test-case start="1556668855499" stop="1556668855501" status="passed">
+      <name>testHasPluginsWhenDataIsNotCached with data set #5</name>
+    </test-case>
+    <test-case start="1556668855501" stop="1556668855504" status="passed">
+      <name>testHasPluginsWhenDataIsNotCached with data set #6</name>
+    </test-case>
+    <test-case start="1556668855504" stop="1556668855506" status="passed">
+      <name>testHasPluginsWhenDataIsCached with data set #0</name>
+    </test-case>
+    <test-case start="1556668855506" stop="1556668855508" status="passed">
+      <name>testHasPluginsWhenDataIsCached with data set #1</name>
+    </test-case>
+    <test-case start="1556668855508" stop="1556668855510" status="passed">
+      <name>testHasPluginsWhenDataIsCached with data set #2</name>
+    </test-case>
+    <test-case start="1556668855510" stop="1556668855512" status="passed">
+      <name>testHasPluginsWhenDataIsCached with data set #3</name>
+    </test-case>
+    <test-case start="1556668855512" stop="1556668855513" status="passed">
+      <name>testHasPluginsWhenDataIsCached with data set #4</name>
+    </test-case>
+    <test-case start="1556668855514" stop="1556668855515" status="passed">
+      <name>testHasPluginsWhenDataIsCached with data set #5</name>
+    </test-case>
+    <test-case start="1556668855516" stop="1556668855517" status="passed">
+      <name>testHasPluginsWhenDataIsCached with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

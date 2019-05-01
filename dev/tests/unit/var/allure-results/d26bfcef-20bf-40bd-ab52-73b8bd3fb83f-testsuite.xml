@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841781" stop="1556668841797" version="1.4.0">
+  <name>Magento\Framework\Api\Test\Unit\DataObjectHelperTest</name>
+  <test-cases>
+    <test-case start="1556668841781" stop="1556668841786" status="passed">
+      <name>testPopulateWithArrayWithSimpleAttributes</name>
+    </test-case>
+    <test-case start="1556668841786" stop="1556668841788" status="passed">
+      <name>testPopulateWithArrayWithCustomAttribute</name>
+    </test-case>
+    <test-case start="1556668841788" stop="1556668841790" status="passed">
+      <name>testPopulateWithArrayWithCustomAttributes</name>
+    </test-case>
+    <test-case start="1556668841790" stop="1556668841793" status="passed">
+      <name>testMergeDataObjects with data set #0</name>
+    </test-case>
+    <test-case start="1556668841794" stop="1556668841797" status="passed">
+      <name>testMergeDataObjects with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

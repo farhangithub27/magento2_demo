@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668671912" stop="1556668671914" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\Menu\Builder\Command\UpdateTest</name>
+  <test-cases>
+    <test-case start="1556668671912" stop="1556668671913" status="passed">
+      <name>testExecuteFillsEmptyItemWithData</name>
+    </test-case>
+    <test-case start="1556668671913" stop="1556668671914" status="passed">
+      <name>testExecuteRewritesDataInFilledItem</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

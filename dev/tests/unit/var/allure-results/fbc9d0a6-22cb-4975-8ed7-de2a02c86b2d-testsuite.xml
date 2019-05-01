@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860736" stop="1556668860758" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Adapter\Mysql\ConditionManagerTest</name>
+  <test-cases>
+    <test-case start="1556668860737" stop="1556668860749" status="passed">
+      <name>testWrapBrackets with data set "validQuery"</name>
+    </test-case>
+    <test-case start="1556668860750" stop="1556668860751" status="passed">
+      <name>testWrapBrackets with data set "emptyQuery"</name>
+    </test-case>
+    <test-case start="1556668860752" stop="1556668860753" status="passed">
+      <name>testWrapBrackets with data set "invalidQuery"</name>
+    </test-case>
+    <test-case start="1556668860753" stop="1556668860754" status="passed">
+      <name>testCombineQueries</name>
+    </test-case>
+    <test-case start="1556668860755" stop="1556668860756" status="passed">
+      <name>testGenerateCondition with data set #0</name>
+    </test-case>
+    <test-case start="1556668860757" stop="1556668860758" status="passed">
+      <name>testGenerateCondition with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

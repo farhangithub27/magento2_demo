@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668828444" stop="1556668828447" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Config\Converter\CommunicationTest</name>
+  <test-cases>
+    <test-case start="1556668828444" stop="1556668828445" status="passed">
+      <name>testExportsConvert</name>
+    </test-case>
+    <test-case start="1556668828445" stop="1556668828446" status="passed">
+      <name>testImportsConvert</name>
+    </test-case>
+    <test-case start="1556668828446" stop="1556668828447" status="passed">
+      <name>testListensConvert</name>
+    </test-case>
+    <test-case start="1556668828447" stop="1556668828447" status="passed">
+      <name>testLinksConvert</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

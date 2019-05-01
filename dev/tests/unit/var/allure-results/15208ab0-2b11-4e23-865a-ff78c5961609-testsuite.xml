@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843038" stop="1556668843045" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Cache\Type\GenericTest</name>
+  <test-cases>
+    <test-case start="1556668843039" stop="1556668843040" status="passed">
+      <name>testConstructor with data set #0</name>
+    </test-case>
+    <test-case start="1556668843040" stop="1556668843041" status="passed">
+      <name>testConstructor with data set #1</name>
+    </test-case>
+    <test-case start="1556668843041" stop="1556668843042" status="passed">
+      <name>testConstructor with data set #2</name>
+    </test-case>
+    <test-case start="1556668843042" stop="1556668843043" status="passed">
+      <name>testConstructor with data set #3</name>
+    </test-case>
+    <test-case start="1556668843043" stop="1556668843044" status="passed">
+      <name>testConstructor with data set #4</name>
+    </test-case>
+    <test-case start="1556668843044" stop="1556668843045" status="passed">
+      <name>testConstructor with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

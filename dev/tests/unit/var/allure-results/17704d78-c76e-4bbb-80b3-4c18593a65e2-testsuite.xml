@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666535" stop="1556668666542" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\ReportXml\DB\Assembler\FilterAssemblerTest</name>
+  <test-cases>
+    <test-case start="1556668666535" stop="1556668666540" status="passed">
+      <name>testAssembleEmpty</name>
+    </test-case>
+    <test-case start="1556668666540" stop="1556668666541" status="passed">
+      <name>testAssembleNotEmpty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

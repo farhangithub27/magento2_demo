@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668794065" stop="1556668794098" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Observer\Frontend\Quote\Address\CollectTotalsObserverTest</name>
+  <test-cases>
+    <test-case start="1556668794065" stop="1556668794076" status="passed">
+      <name>testDispatchWithDisableVatValidator</name>
+    </test-case>
+    <test-case start="1556668794076" stop="1556668794080" status="passed">
+      <name>testDispatchWithCustomerCountryNotInEUAndNotLoggedCustomerInGroup</name>
+    </test-case>
+    <test-case start="1556668794080" stop="1556668794085" status="passed">
+      <name>testDispatchWithDefaultCustomerGroupId</name>
+    </test-case>
+    <test-case start="1556668794085" stop="1556668794091" status="passed">
+      <name>testDispatchWithCustomerCountryInEU</name>
+    </test-case>
+    <test-case start="1556668794091" stop="1556668794098" status="passed">
+      <name>testDispatchWithEmptyShippingAddress</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822755" stop="1556668822770" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Observer\AfterAddressSaveObserverTest</name>
+  <test-cases>
+    <test-case start="1556668822756" stop="1556668822758" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668822758" stop="1556668822760" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668822760" stop="1556668822761" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668822762" stop="1556668822763" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+    <test-case start="1556668822763" stop="1556668822765" status="passed">
+      <name>testExecute with data set #4</name>
+    </test-case>
+    <test-case start="1556668822765" stop="1556668822766" status="passed">
+      <name>testExecute with data set #5</name>
+    </test-case>
+    <test-case start="1556668822767" stop="1556668822768" status="passed">
+      <name>testExecute with data set #6</name>
+    </test-case>
+    <test-case start="1556668822768" stop="1556668822770" status="passed">
+      <name>testExecute with data set #7</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

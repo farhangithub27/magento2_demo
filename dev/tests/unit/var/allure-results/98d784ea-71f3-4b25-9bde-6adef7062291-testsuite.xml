@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668719250" stop="1556668719268" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Widget\GenderTest</name>
+  <test-cases>
+    <test-case start="1556668719251" stop="1556668719253" status="passed">
+      <name>testIsEnabled with data set #0</name>
+    </test-case>
+    <test-case start="1556668719254" stop="1556668719255" status="passed">
+      <name>testIsEnabled with data set #1</name>
+    </test-case>
+    <test-case start="1556668719256" stop="1556668719257" status="passed">
+      <name>testIsEnabledWithException</name>
+    </test-case>
+    <test-case start="1556668719258" stop="1556668719260" status="passed">
+      <name>testIsRequired with data set #0</name>
+    </test-case>
+    <test-case start="1556668719260" stop="1556668719262" status="passed">
+      <name>testIsRequired with data set #1</name>
+    </test-case>
+    <test-case start="1556668719262" stop="1556668719264" status="passed">
+      <name>testIsRequiredWithException</name>
+    </test-case>
+    <test-case start="1556668719264" stop="1556668719266" status="passed">
+      <name>testGetCustomer</name>
+    </test-case>
+    <test-case start="1556668719266" stop="1556668719268" status="passed">
+      <name>testGetGenderOptions</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

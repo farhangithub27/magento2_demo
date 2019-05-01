@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668743956" stop="1556668743966" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Model\Import\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668743956" stop="1556668743957" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_same_name_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668743958" stop="1556668743958" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_without_required_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668743958" stop="1556668743959" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_with_invalid_model_value"</name>
+    </test-case>
+    <test-case start="1556668743960" stop="1556668743960" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_with_invalid_behaviormodel_value"</name>
+    </test-case>
+    <test-case start="1556668743961" stop="1556668743961" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entity_with_notallowed_attribute"</name>
+    </test-case>
+    <test-case start="1556668743962" stop="1556668743962" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entitytype_without_required_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668743963" stop="1556668743963" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entitytype_without_required_model_attribute"</name>
+    </test-case>
+    <test-case start="1556668743963" stop="1556668743964" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entitytype_with_invalid_model_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668743965" stop="1556668743965" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "entitytype_with_notallowed"</name>
+    </test-case>
+    <test-case start="1556668743965" stop="1556668743966" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

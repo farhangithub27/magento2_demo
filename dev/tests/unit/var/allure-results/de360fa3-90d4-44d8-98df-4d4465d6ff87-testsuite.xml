@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668727272" stop="1556668727274" version="1.4.0">
+  <name>Magento\Deploy\Test\Unit\Model\DeploymentConfig\DataCollectorTest</name>
+  <test-cases>
+    <test-case start="1556668727273" stop="1556668727273" status="passed">
+      <name>testGetConfig</name>
+    </test-case>
+    <test-case start="1556668727274" stop="1556668727274" status="passed">
+      <name>testGetConfigSpecificSection</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668854393" stop="1556668854471" version="1.4.0">
+  <name>Magento\Framework\Filter\Test\Unit\TemplateTest</name>
+  <test-cases>
+    <test-case start="1556668854393" stop="1556668854399" status="passed">
+      <name>testFilter</name>
+    </test-case>
+    <test-case start="1556668854399" stop="1556668854402" status="passed">
+      <name>testAfterFilter</name>
+    </test-case>
+    <test-case start="1556668854403" stop="1556668854406" status="passed">
+      <name>testAfterFilterCallbackReset</name>
+    </test-case>
+    <test-case start="1556668854406" stop="1556668854409" status="passed">
+      <name>testVarDirective with data set "no variables"</name>
+    </test-case>
+    <test-case start="1556668854410" stop="1556668854413" status="passed">
+      <name>testVarDirective with data set "invalid variable"</name>
+    </test-case>
+    <test-case start="1556668854413" stop="1556668854417" status="passed">
+      <name>testVarDirective with data set "string variable"</name>
+    </test-case>
+    <test-case start="1556668854417" stop="1556668854421" status="passed">
+      <name>testVarDirective with data set "array argument to method"</name>
+    </test-case>
+    <test-case start="1556668854422" stop="1556668854425" status="passed">
+      <name>testVarDirective with data set "non DataObject method call"</name>
+    </test-case>
+    <test-case start="1556668854425" stop="1556668854429" status="passed">
+      <name>testVarDirective with data set "non DataObject undefined method call"</name>
+    </test-case>
+    <test-case start="1556668854429" stop="1556668854432" status="passed">
+      <name>testLoopPattern with data set "no loop tag"</name>
+    </test-case>
+    <test-case start="1556668854432" stop="1556668854435" status="passed">
+      <name>testLoopPattern with data set "no loop body tag"</name>
+    </test-case>
+    <test-case start="1556668854436" stop="1556668854439" status="passed">
+      <name>testLoopPattern with data set "no item tag"</name>
+    </test-case>
+    <test-case start="1556668854439" stop="1556668854442" status="passed">
+      <name>testLoopPattern with data set "no item, no body tags"</name>
+    </test-case>
+    <test-case start="1556668854442" stop="1556668854445" status="passed">
+      <name>testLoopPattern with data set "no item, no data, no body tags"</name>
+    </test-case>
+    <test-case start="1556668854446" stop="1556668854449" status="passed">
+      <name>testInvalidMethodCall</name>
+    </test-case>
+    <test-case start="1556668854449" stop="1556668854453" status="passed">
+      <name>testInappropriateCallbacks</name>
+    </test-case>
+    <test-case start="1556668854453" stop="1556668854456" status="passed">
+      <name>testDisallowedMethods with data set #0</name>
+    </test-case>
+    <test-case start="1556668854457" stop="1556668854460" status="passed">
+      <name>testDisallowedMethods with data set #1</name>
+    </test-case>
+    <test-case start="1556668854460" stop="1556668854463" status="passed">
+      <name>testDisallowedMethods with data set #2</name>
+    </test-case>
+    <test-case start="1556668854464" stop="1556668854467" status="passed">
+      <name>testDisallowedMethods with data set #3</name>
+    </test-case>
+    <test-case start="1556668854467" stop="1556668854471" status="passed">
+      <name>testDisallowedMethods with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

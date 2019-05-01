@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668710986" stop="1556668711064" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Block\System\Config\Form\Fieldset\Modules\DisableOutputTest</name>
+  <test-cases>
+    <test-case start="1556668710987" stop="1556668711023" status="passed">
+      <name>testRender with data set "expandedNestedExtra"</name>
+    </test-case>
+    <test-case start="1556668711023" stop="1556668711043" status="passed">
+      <name>testRender with data set "collapsedNotNestedExtra"</name>
+    </test-case>
+    <test-case start="1556668711044" stop="1556668711063" status="passed">
+      <name>testRender with data set "collapsedNotNestedNoExtra"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

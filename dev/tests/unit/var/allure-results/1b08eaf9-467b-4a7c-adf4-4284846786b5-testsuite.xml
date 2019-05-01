@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668683617" stop="1556668683631" version="1.4.0">
+  <name>Magento\CatalogRuleConfigurable\Test\Unit\Plugin\CatalogRule\Model\Rule\ValidationTest</name>
+  <test-cases>
+    <test-case start="1556668683618" stop="1556668683628" status="passed">
+      <name>testAfterValidateWithValidConfigurableProduct with data set #0</name>
+    </test-case>
+    <test-case start="1556668683629" stop="1556668683630" status="passed">
+      <name>testAfterValidateWithValidConfigurableProduct with data set #1</name>
+    </test-case>
+    <test-case start="1556668683630" stop="1556668683631" status="passed">
+      <name>testAfterValidateWithValidConfigurableProduct with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

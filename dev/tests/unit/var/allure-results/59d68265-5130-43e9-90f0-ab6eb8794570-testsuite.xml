@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668865807" stop="1556668870014" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Asset\LockerProcessTest</name>
+  <test-cases>
+    <test-case start="1556668865807" stop="1556668870007" status="passed">
+      <name>testLockProcess with data set #0</name>
+    </test-case>
+    <test-case start="1556668870008" stop="1556668870010" status="passed">
+      <name>testLockProcess with data set #1</name>
+    </test-case>
+    <test-case start="1556668870010" stop="1556668870010" status="passed">
+      <name>testNotLockProcessInProductionMode</name>
+    </test-case>
+    <test-case start="1556668870011" stop="1556668870013" status="passed">
+      <name>testUnlockProcess</name>
+    </test-case>
+    <test-case start="1556668870013" stop="1556668870013" status="passed">
+      <name>testNotUnlockProcessInProductionMode</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

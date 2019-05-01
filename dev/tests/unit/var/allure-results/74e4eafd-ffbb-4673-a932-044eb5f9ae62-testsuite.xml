@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668700475" stop="1556668700498" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ProductAttributeGroupRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668700475" stop="1556668700481" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668700481" stop="1556668700482" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668700482" stop="1556668700492" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668700492" stop="1556668700493" status="passed">
+      <name>testGetThrowsExceptionIfGroupDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668700493" stop="1556668700495" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668700496" stop="1556668700497" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668700497" stop="1556668700498" status="passed">
+      <name>testDeleteThrowsExceptionIfGroupHasSystemAttributes</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668844665" stop="1556668844669" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\PageCache\VersionTest</name>
+  <test-cases>
+    <test-case start="1556668844665" stop="1556668844668" status="passed">
+      <name>testProcess with data set "post"</name>
+    </test-case>
+    <test-case start="1556668844668" stop="1556668844669" status="passed">
+      <name>testProcess with data set "notPost"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

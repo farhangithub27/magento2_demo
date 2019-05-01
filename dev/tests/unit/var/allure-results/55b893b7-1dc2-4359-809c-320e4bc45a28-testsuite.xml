@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668823706" stop="1556668823730" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Controller\Adminhtml\Design\Config\SaveTest</name>
+  <test-cases>
+    <test-case start="1556668823707" stop="1556668823719" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668823719" stop="1556668823725" status="passed">
+      <name>testSaveWithLocalizedException</name>
+    </test-case>
+    <test-case start="1556668823725" stop="1556668823730" status="passed">
+      <name>testSaveWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668849977" stop="1556668849979" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\Select\LimitRendererTest</name>
+  <test-cases>
+    <test-case start="1556668849978" stop="1556668849979" status="passed">
+      <name>testRender</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

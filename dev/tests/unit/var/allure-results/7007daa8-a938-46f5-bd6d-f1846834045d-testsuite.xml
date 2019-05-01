@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668823807" stop="1556668823829" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Controller\Adminhtml\System\Design\Theme\DownloadCssTest</name>
+  <test-cases>
+    <test-case start="1556668823807" stop="1556668823819" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668823819" stop="1556668823829" status="passed">
+      <name>testExecuteInvalidArgument</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668661363" stop="1556668661408" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\PackagesDataTest</name>
+  <test-cases>
+    <test-case start="1556668661363" stop="1556668661383" status="passed">
+      <name>testSyncPackagesData</name>
+    </test-case>
+    <test-case start="1556668661383" stop="1556668661387" status="passed">
+      <name>testGetPackagesForUpdateWithException</name>
+    </test-case>
+    <test-case start="1556668661387" stop="1556668661393" status="passed">
+      <name>testPackagesForUpdateFromJson</name>
+    </test-case>
+    <test-case start="1556668661393" stop="1556668661398" status="passed">
+      <name>testGetPackagesForUpdate</name>
+    </test-case>
+    <test-case start="1556668661399" stop="1556668661402" status="passed">
+      <name>testGetInstalledPackages</name>
+    </test-case>
+    <test-case start="1556668661402" stop="1556668661405" status="passed">
+      <name>testGetMetaPackagesMap</name>
+    </test-case>
+    <test-case start="1556668661405" stop="1556668661408" status="passed">
+      <name>testAddPackageExtraInfo</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

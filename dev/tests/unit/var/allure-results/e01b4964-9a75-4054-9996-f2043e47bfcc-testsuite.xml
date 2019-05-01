@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668694257" stop="1556668694384" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\CategoryTest</name>
+  <test-cases>
+    <test-case start="1556668694258" stop="1556668694264" status="passed">
+      <name>testFormatUrlKey</name>
+    </test-case>
+    <test-case start="1556668694265" stop="1556668694268" status="pending">
+      <name>testMoveWhenCannotFindParentCategory</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-catalog/Test/Unit/Model/CategoryTest.php(185): PHPUnit\Framework\Assert::markTestIncomplete('MAGETWO-31165')
+#1 [internal function]: Magento\Catalog\Test\Unit\Model\CategoryTest-&gt;testMoveWhenCannotFindParentCategory()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Catalog\Test\Unit\Model\CategoryTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Catalog\Test\Unit\Model\CategoryTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668694268" stop="1556668694274" status="passed">
+      <name>testMoveWhenCannotFindNewCategory</name>
+    </test-case>
+    <test-case start="1556668694274" stop="1556668694277" status="pending">
+      <name>testMoveWhenParentCategoryIsSameAsChildCategory</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-catalog/Test/Unit/Model/CategoryTest.php(231): PHPUnit\Framework\Assert::markTestIncomplete('MAGETWO-31165')
+#1 [internal function]: Magento\Catalog\Test\Unit\Model\CategoryTest-&gt;testMoveWhenParentCategoryIsSameAsChildCategory()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Catalog\Test\Unit\Model\CategoryTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Catalog\Test\Unit\Model\CategoryTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668694277" stop="1556668694283" status="passed">
+      <name>testMovePrimaryWorkflow</name>
+    </test-case>
+    <test-case start="1556668694283" stop="1556668694287" status="passed">
+      <name>testGetUseFlatResourceFalse</name>
+    </test-case>
+    <test-case start="1556668694287" stop="1556668694292" status="passed">
+      <name>testGetUseFlatResourceTrue</name>
+    </test-case>
+    <test-case start="1556668694293" stop="1556668694298" status="passed">
+      <name>testReindexFlatEnabled with data set "set 1"</name>
+    </test-case>
+    <test-case start="1556668694298" stop="1556668694302" status="passed">
+      <name>testReindexFlatEnabled with data set "set 2"</name>
+    </test-case>
+    <test-case start="1556668694303" stop="1556668694306" status="passed">
+      <name>testReindexFlatEnabled with data set "set 3"</name>
+    </test-case>
+    <test-case start="1556668694307" stop="1556668694311" status="passed">
+      <name>testReindexFlatEnabled with data set "set 4"</name>
+    </test-case>
+    <test-case start="1556668694312" stop="1556668694316" status="passed">
+      <name>testReindexFlatDisabled with data set #0</name>
+    </test-case>
+    <test-case start="1556668694317" stop="1556668694321" status="passed">
+      <name>testReindexFlatDisabled with data set #1</name>
+    </test-case>
+    <test-case start="1556668694322" stop="1556668694326" status="passed">
+      <name>testReindexFlatDisabled with data set #2</name>
+    </test-case>
+    <test-case start="1556668694326" stop="1556668694330" status="passed">
+      <name>testReindexFlatDisabled with data set #3</name>
+    </test-case>
+    <test-case start="1556668694331" stop="1556668694335" status="passed">
+      <name>testReindexFlatDisabled with data set #4</name>
+    </test-case>
+    <test-case start="1556668694336" stop="1556668694341" status="passed">
+      <name>testReindexFlatDisabled with data set #5</name>
+    </test-case>
+    <test-case start="1556668694342" stop="1556668694346" status="passed">
+      <name>testReindexFlatDisabled with data set #6</name>
+    </test-case>
+    <test-case start="1556668694347" stop="1556668694351" status="passed">
+      <name>testReindexFlatDisabled with data set #7</name>
+    </test-case>
+    <test-case start="1556668694351" stop="1556668694356" status="passed">
+      <name>testReindexFlatDisabled with data set #8</name>
+    </test-case>
+    <test-case start="1556668694356" stop="1556668694361" status="passed">
+      <name>testGetCustomAttributes</name>
+    </test-case>
+    <test-case start="1556668694361" stop="1556668694370" status="passed">
+      <name>testGetImageWithAttributeCode with data set #0</name>
+    </test-case>
+    <test-case start="1556668694370" stop="1556668694377" status="passed">
+      <name>testGetImageWithAttributeCode with data set #1</name>
+    </test-case>
+    <test-case start="1556668694377" stop="1556668694383" status="passed">
+      <name>testGetImageWithoutAttributeCode</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

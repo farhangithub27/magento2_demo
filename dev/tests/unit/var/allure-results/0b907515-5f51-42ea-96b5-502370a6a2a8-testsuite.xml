@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668680329" stop="1556668680340" version="1.4.0">
+  <name>Magento\CatalogImportExport\Test\Unit\Model\Import\Product\Validator\QuantityTest</name>
+  <test-cases>
+    <test-case start="1556668680330" stop="1556668680330" status="passed">
+      <name>testIsValid with data set #0</name>
+    </test-case>
+    <test-case start="1556668680331" stop="1556668680331" status="passed">
+      <name>testIsValid with data set #1</name>
+    </test-case>
+    <test-case start="1556668680332" stop="1556668680332" status="passed">
+      <name>testIsValid with data set #2</name>
+    </test-case>
+    <test-case start="1556668680333" stop="1556668680333" status="passed">
+      <name>testIsValid with data set #3</name>
+    </test-case>
+    <test-case start="1556668680334" stop="1556668680334" status="passed">
+      <name>testIsValid with data set #4</name>
+    </test-case>
+    <test-case start="1556668680334" stop="1556668680335" status="passed">
+      <name>testIsValid with data set #5</name>
+    </test-case>
+    <test-case start="1556668680335" stop="1556668680336" status="passed">
+      <name>testIsValid with data set #6</name>
+    </test-case>
+    <test-case start="1556668680336" stop="1556668680337" status="passed">
+      <name>testIsValid with data set #7</name>
+    </test-case>
+    <test-case start="1556668680337" stop="1556668680338" status="passed">
+      <name>testIsValid with data set #8</name>
+    </test-case>
+    <test-case start="1556668680339" stop="1556668680339" status="passed">
+      <name>testIsValid with data set #9</name>
+    </test-case>
+    <test-case start="1556668680340" stop="1556668680340" status="passed">
+      <name>testIsValid with data set #10</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

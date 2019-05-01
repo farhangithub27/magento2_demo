@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668836945" stop="1556668836954" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Model\ResourceModel\Item\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668836945" stop="1556668836954" status="passed">
+      <name>testAddProductNameFilter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

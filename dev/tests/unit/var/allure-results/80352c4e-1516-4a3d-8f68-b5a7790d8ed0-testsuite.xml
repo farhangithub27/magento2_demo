@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860207" stop="1556668860210" version="1.4.0">
+  <name>Magento\Framework\Reflection\Test\Unit\FieldNamerTest</name>
+  <test-cases>
+    <test-case start="1556668860207" stop="1556668860208" status="passed">
+      <name>testGetFieldNameForMethodName with data set "isMethod"</name>
+    </test-case>
+    <test-case start="1556668860208" stop="1556668860209" status="passed">
+      <name>testGetFieldNameForMethodName with data set "getMethod"</name>
+    </test-case>
+    <test-case start="1556668860209" stop="1556668860209" status="passed">
+      <name>testGetFieldNameForMethodName with data set "hasMethod"</name>
+    </test-case>
+    <test-case start="1556668860210" stop="1556668860210" status="passed">
+      <name>testGetFieldNameForMethodName with data set "randomMethod"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

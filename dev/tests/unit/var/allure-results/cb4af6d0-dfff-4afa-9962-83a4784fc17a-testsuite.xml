@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668815485" stop="1556668815549" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Block\Adminhtml\CaseInfoTest</name>
+  <test-cases>
+    <test-case start="1556668815485" stop="1556668815512" status="passed">
+      <name>testGetGuaranteeDisposition with data set #0</name>
+    </test-case>
+    <test-case start="1556668815513" stop="1556668815518" status="passed">
+      <name>testGetGuaranteeDisposition with data set #1</name>
+    </test-case>
+    <test-case start="1556668815519" stop="1556668815523" status="passed">
+      <name>testGetGuaranteeDisposition with data set #2</name>
+    </test-case>
+    <test-case start="1556668815524" stop="1556668815528" status="passed">
+      <name>testGetGuaranteeDisposition with data set #3</name>
+    </test-case>
+    <test-case start="1556668815529" stop="1556668815534" status="passed">
+      <name>testGetGuaranteeDisposition with data set #4</name>
+    </test-case>
+    <test-case start="1556668815534" stop="1556668815539" status="passed">
+      <name>testGetGuaranteeDisposition with data set #5</name>
+    </test-case>
+    <test-case start="1556668815540" stop="1556668815544" status="passed">
+      <name>testGetGuaranteeDisposition with data set #6</name>
+    </test-case>
+    <test-case start="1556668815545" stop="1556668815549" status="passed">
+      <name>testCasePropertyWithEmptyCase</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

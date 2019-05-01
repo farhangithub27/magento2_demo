@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668834508" stop="1556668834522" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Observer\AfterAddressSaveTest</name>
+  <test-cases>
+    <test-case start="1556668834509" stop="1556668834510" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668834511" stop="1556668834512" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668834512" stop="1556668834513" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668834514" stop="1556668834515" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+    <test-case start="1556668834515" stop="1556668834517" status="passed">
+      <name>testExecute with data set #4</name>
+    </test-case>
+    <test-case start="1556668834517" stop="1556668834518" status="passed">
+      <name>testExecute with data set #5</name>
+    </test-case>
+    <test-case start="1556668834519" stop="1556668834520" status="passed">
+      <name>testExecute with data set #6</name>
+    </test-case>
+    <test-case start="1556668834520" stop="1556668834521" status="passed">
+      <name>testExecute with data set #7</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

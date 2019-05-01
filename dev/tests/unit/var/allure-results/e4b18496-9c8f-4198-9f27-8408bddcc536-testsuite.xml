@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668712544" stop="1556668712564" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Structure\AbstractElementTest</name>
+  <test-cases>
+    <test-case start="1556668712544" stop="1556668712545" status="passed">
+      <name>testGetId</name>
+    </test-case>
+    <test-case start="1556668712546" stop="1556668712547" status="passed">
+      <name>testGetLabelTranslatesLabel</name>
+    </test-case>
+    <test-case start="1556668712547" stop="1556668712548" status="passed">
+      <name>testGetCommentTranslatesComment</name>
+    </test-case>
+    <test-case start="1556668712548" stop="1556668712549" status="passed">
+      <name>testGetFrontEndModel</name>
+    </test-case>
+    <test-case start="1556668712549" stop="1556668712550" status="passed">
+      <name>testGetAttribute</name>
+    </test-case>
+    <test-case start="1556668712550" stop="1556668712551" status="passed">
+      <name>testIsVisibleReturnsTrueInSingleStoreModeForNonHiddenElements</name>
+    </test-case>
+    <test-case start="1556668712551" stop="1556668712552" status="passed">
+      <name>testIsVisibleReturnsFalseInSingleStoreModeForHiddenElements</name>
+    </test-case>
+    <test-case start="1556668712552" stop="1556668712553" status="passed">
+      <name>testIsVisibleReturnsFalseInSingleStoreModeForInvisibleElements</name>
+    </test-case>
+    <test-case start="1556668712553" stop="1556668712554" status="passed">
+      <name>testIsVisibleReturnsTrueForProperScopes with data set #0</name>
+    </test-case>
+    <test-case start="1556668712554" stop="1556668712555" status="passed">
+      <name>testIsVisibleReturnsTrueForProperScopes with data set #1</name>
+    </test-case>
+    <test-case start="1556668712555" stop="1556668712556" status="passed">
+      <name>testIsVisibleReturnsTrueForProperScopes with data set #2</name>
+    </test-case>
+    <test-case start="1556668712557" stop="1556668712557" status="passed">
+      <name>testIsVisibleReturnsFalseForNonProperScopes with data set #0</name>
+    </test-case>
+    <test-case start="1556668712558" stop="1556668712558" status="passed">
+      <name>testIsVisibleReturnsFalseForNonProperScopes with data set #1</name>
+    </test-case>
+    <test-case start="1556668712559" stop="1556668712560" status="passed">
+      <name>testIsVisibleReturnsFalseForNonProperScopes with data set #2</name>
+    </test-case>
+    <test-case start="1556668712560" stop="1556668712561" status="passed">
+      <name>testIsVisibleReturnFalseIfModuleNotEnabled</name>
+    </test-case>
+    <test-case start="1556668712561" stop="1556668712562" status="passed">
+      <name>testIsVisibleVisibilityIsHiddenTrue</name>
+    </test-case>
+    <test-case start="1556668712562" stop="1556668712563" status="passed">
+      <name>testGetClass</name>
+    </test-case>
+    <test-case start="1556668712563" stop="1556668712564" status="passed">
+      <name>testGetPathBuildsFullPath</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

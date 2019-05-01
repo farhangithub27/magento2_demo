@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668858795" stop="1556668858829" version="1.4.0">
+  <name>Magento\Framework\ObjectManager\Test\Unit\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668858796" stop="1556668858797" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "preference_without_required_for_attribute"</name>
+    </test-case>
+    <test-case start="1556668858797" stop="1556668858798" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "preference_without_required_type_attribute"</name>
+    </test-case>
+    <test-case start="1556668858798" stop="1556668858799" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "preferences_with_same_for_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668858799" stop="1556668858800" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "preferences_with_forbidden_attribute"</name>
+    </test-case>
+    <test-case start="1556668858801" stop="1556668858802" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_without_required_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668858802" stop="1556668858803" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_with_same_name_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668858803" stop="1556668858804" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_with_forbidden_attribute"</name>
+    </test-case>
+    <test-case start="1556668858805" stop="1556668858805" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_shared_attribute_with_forbidden_value"</name>
+    </test-case>
+    <test-case start="1556668858806" stop="1556668858807" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_object_with_forbidden_shared_value"</name>
+    </test-case>
+    <test-case start="1556668858807" stop="1556668858808" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_instance_with_forbidden_attribute"</name>
+    </test-case>
+    <test-case start="1556668858808" stop="1556668858809" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_plugin_without_required_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668858810" stop="1556668858810" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_plugin_with_forbidden_attribute"</name>
+    </test-case>
+    <test-case start="1556668858811" stop="1556668858812" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_plugin_disabled_attribute_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668858812" stop="1556668858813" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_plugin_sortorder_attribute_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668858813" stop="1556668858814" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_with_same_argument_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668858815" stop="1556668858815" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "virtualtype_without_required_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668858816" stop="1556668858817" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "virtualtype_with_forbidden_shared_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668858817" stop="1556668858818" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "virtualtype_with_forbidden_attribute"</name>
+    </test-case>
+    <test-case start="1556668858818" stop="1556668858819" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "virtualtype_with_same_name_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668858820" stop="1556668858821" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "virtualtype_with_same_argument_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668858821" stop="1556668858822" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "sorted_object_list_with_invalid_sortOrder_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668858822" stop="1556668858823" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "virtualtype with empty_name"</name>
+    </test-case>
+    <test-case start="1556668858824" stop="1556668858825" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "virtualtype with empty_type"</name>
+    </test-case>
+    <test-case start="1556668858825" stop="1556668858826" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "virtualtype with invalid_type"</name>
+    </test-case>
+    <test-case start="1556668858826" stop="1556668858827" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "virtualtype with digits_and_prefix_slash"</name>
+    </test-case>
+    <test-case start="1556668858827" stop="1556668858829" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

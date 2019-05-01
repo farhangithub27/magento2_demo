@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668821973" stop="1556668822011" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\Sales\Total\Quote\TaxTest</name>
+  <test-cases>
+    <test-case start="1556668821974" stop="1556668821976" status="pending">
+      <name>testCollect with data set "default"</name>
+      <failure>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-tax/Test/Unit/Model/Sales/Total/Quote/TaxTest.php(46): PHPUnit\Framework\Assert::markTestIncomplete('Source code is ...')
+#1 [internal function]: Magento\Tax\Test\Unit\Model\Sales\Total\Quote\TaxTest-&gt;testCollect(Array, Array, Array, Array, Array, Array)
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Tax\Test\Unit\Model\Sales\Total\Quote\TaxTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Tax\Test\Unit\Model\Sales\Total\Quote\TaxTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#14 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668821976" stop="1556668821979" status="passed">
+      <name>testProcessConfigArray with data set #0</name>
+    </test-case>
+    <test-case start="1556668821980" stop="1556668821981" status="passed">
+      <name>testProcessConfigArray with data set #1</name>
+    </test-case>
+    <test-case start="1556668821982" stop="1556668821984" status="passed">
+      <name>testProcessConfigArray with data set #2</name>
+    </test-case>
+    <test-case start="1556668821984" stop="1556668821986" status="passed">
+      <name>testProcessConfigArray with data set #3</name>
+    </test-case>
+    <test-case start="1556668821986" stop="1556668821997" status="passed">
+      <name>testMapQuoteExtraTaxables with data set "default"</name>
+    </test-case>
+    <test-case start="1556668821997" stop="1556668822004" status="passed">
+      <name>testFetch with data set "default"</name>
+    </test-case>
+    <test-case start="1556668822005" stop="1556668822007" status="passed">
+      <name>testGetLabel</name>
+    </test-case>
+    <test-case start="1556668822008" stop="1556668822011" status="passed">
+      <name>testEmptyAddress</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

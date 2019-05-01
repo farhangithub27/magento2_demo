@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668744216" stop="1556668744249" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Model\Import\ErrorProcessing\ProcessingErrorAggregatorTest</name>
+  <test-cases>
+    <test-case start="1556668744216" stop="1556668744217" status="passed">
+      <name>testAddError</name>
+    </test-case>
+    <test-case start="1556668744217" stop="1556668744218" status="passed">
+      <name>testAddRowToSkip</name>
+    </test-case>
+    <test-case start="1556668744218" stop="1556668744219" status="passed">
+      <name>testAddErrorMessageTemplate</name>
+    </test-case>
+    <test-case start="1556668744219" stop="1556668744220" status="passed">
+      <name>testIsRowInvalid with data set #0</name>
+    </test-case>
+    <test-case start="1556668744220" stop="1556668744221" status="passed">
+      <name>testIsRowInvalid with data set #1</name>
+    </test-case>
+    <test-case start="1556668744221" stop="1556668744221" status="passed">
+      <name>testIsRowInvalid with data set #2</name>
+    </test-case>
+    <test-case start="1556668744222" stop="1556668744222" status="passed">
+      <name>testIsRowInvalid with data set #3</name>
+    </test-case>
+    <test-case start="1556668744223" stop="1556668744223" status="passed">
+      <name>testGetInvalidRowsCountZero</name>
+    </test-case>
+    <test-case start="1556668744223" stop="1556668744224" status="passed">
+      <name>testGetInvalidRowsCountOne</name>
+    </test-case>
+    <test-case start="1556668744224" stop="1556668744225" status="passed">
+      <name>testGetInvalidRowsCountTwo</name>
+    </test-case>
+    <test-case start="1556668744225" stop="1556668744226" status="passed">
+      <name>testInitValidationStrategy</name>
+    </test-case>
+    <test-case start="1556668744226" stop="1556668744226" status="passed">
+      <name>testInitValidationStrategyExceed</name>
+    </test-case>
+    <test-case start="1556668744227" stop="1556668744227" status="passed">
+      <name>testInitValidationStrategyException</name>
+    </test-case>
+    <test-case start="1556668744227" stop="1556668744228" status="passed">
+      <name>testIsErrorLimitExceededTrue</name>
+    </test-case>
+    <test-case start="1556668744229" stop="1556668744229" status="passed">
+      <name>testIsErrorLimitExceededFalse</name>
+    </test-case>
+    <test-case start="1556668744230" stop="1556668744230" status="passed">
+      <name>testHasFatalExceptionsTrue</name>
+    </test-case>
+    <test-case start="1556668744230" stop="1556668744231" status="passed">
+      <name>testHasFatalExceptionsFalse</name>
+    </test-case>
+    <test-case start="1556668744231" stop="1556668744232" status="passed">
+      <name>testHasToBeTerminatedFalse</name>
+    </test-case>
+    <test-case start="1556668744232" stop="1556668744232" status="passed">
+      <name>testHasToBeTerminatedTrue</name>
+    </test-case>
+    <test-case start="1556668744233" stop="1556668744233" status="passed">
+      <name>testGetAllErrors</name>
+    </test-case>
+    <test-case start="1556668744234" stop="1556668744234" status="passed">
+      <name>testGetErrorByRowNumber</name>
+    </test-case>
+    <test-case start="1556668744235" stop="1556668744235" status="passed">
+      <name>testAddTheSameErrorTwice</name>
+    </test-case>
+    <test-case start="1556668744235" stop="1556668744236" status="passed">
+      <name>testGetErrorsByCodeInArray</name>
+    </test-case>
+    <test-case start="1556668744236" stop="1556668744237" status="passed">
+      <name>testGetErrorsByCodeNotInArray</name>
+    </test-case>
+    <test-case start="1556668744237" stop="1556668744238" status="passed">
+      <name>testGetRowsGroupedByErrorCodeWithErrors with data set #0</name>
+    </test-case>
+    <test-case start="1556668744238" stop="1556668744239" status="passed">
+      <name>testGetRowsGroupedByErrorCodeWithErrors with data set #1</name>
+    </test-case>
+    <test-case start="1556668744239" stop="1556668744240" status="passed">
+      <name>testGetRowsGroupedByErrorCodeWithErrors with data set #2</name>
+    </test-case>
+    <test-case start="1556668744241" stop="1556668744241" status="passed">
+      <name>testGetRowsGroupedByErrorCodeWithErrors with data set #3</name>
+    </test-case>
+    <test-case start="1556668744242" stop="1556668744242" status="passed">
+      <name>testGetRowsGroupedByErrorCodeWithErrors with data set #4</name>
+    </test-case>
+    <test-case start="1556668744243" stop="1556668744243" status="passed">
+      <name>testGetRowsGroupedByErrorCodeWithErrors with data set #5</name>
+    </test-case>
+    <test-case start="1556668744244" stop="1556668744244" status="passed">
+      <name>testGetRowsGroupedByErrorCodeWithErrors with data set #6</name>
+    </test-case>
+    <test-case start="1556668744245" stop="1556668744246" status="passed">
+      <name>testGetRowsGroupedByErrorCodeWithErrors with data set #7</name>
+    </test-case>
+    <test-case start="1556668744246" stop="1556668744247" status="passed">
+      <name>testGetRowsGroupedByErrorCodeNoErrors</name>
+    </test-case>
+    <test-case start="1556668744247" stop="1556668744247" status="passed">
+      <name>testGetAllowedErrorsCount</name>
+    </test-case>
+    <test-case start="1556668744248" stop="1556668744248" status="passed">
+      <name>testClear</name>
+    </test-case>
+    <test-case start="1556668744248" stop="1556668744249" status="passed">
+      <name>testGetErrorsCount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

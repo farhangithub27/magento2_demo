@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668862772" stop="1556668862775" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Declaration\Schema\Db\MySQL\Definition\Columns\NullableTest</name>
+  <test-cases>
+    <test-case start="1556668862772" stop="1556668862773" status="passed">
+      <name>testToDefinition</name>
+    </test-case>
+    <test-case start="1556668862773" stop="1556668862774" status="passed">
+      <name>testToDefinitionNotNull</name>
+    </test-case>
+    <test-case start="1556668862774" stop="1556668862775" status="passed">
+      <name>testToDefinitionNotNullableAware</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

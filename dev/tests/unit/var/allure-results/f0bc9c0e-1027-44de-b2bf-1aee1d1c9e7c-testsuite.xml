@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668705387" stop="1556668705402" version="1.4.0">
+  <name>Magento\CheckoutAgreements\Test\Unit\Model\AgreementTest</name>
+  <test-cases>
+    <test-case start="1556668705388" stop="1556668705390" status="passed">
+      <name>testValidateData with data set #0</name>
+    </test-case>
+    <test-case start="1556668705391" stop="1556668705392" status="passed">
+      <name>testValidateData with data set #1</name>
+    </test-case>
+    <test-case start="1556668705393" stop="1556668705394" status="passed">
+      <name>testValidateData with data set #2</name>
+    </test-case>
+    <test-case start="1556668705395" stop="1556668705396" status="passed">
+      <name>testValidateData with data set #3</name>
+    </test-case>
+    <test-case start="1556668705397" stop="1556668705398" status="passed">
+      <name>testValidateData with data set #4</name>
+    </test-case>
+    <test-case start="1556668705399" stop="1556668705400" status="passed">
+      <name>testValidateData with data set #5</name>
+    </test-case>
+    <test-case start="1556668705401" stop="1556668705402" status="passed">
+      <name>testValidateData with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

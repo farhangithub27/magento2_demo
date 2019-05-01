@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668797638" stop="1556668797649" version="1.4.0">
+  <name>Magento\Rule\Test\Unit\Model\ConditionFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668797638" stop="1556668797646" status="passed">
+      <name>testExceptingToCallMethodCreateInObjectManager</name>
+    </test-case>
+    <test-case start="1556668797647" stop="1556668797647" status="passed">
+      <name>testExceptingClonedObject</name>
+    </test-case>
+    <test-case start="1556668797648" stop="1556668797648" status="passed">
+      <name>testCreateExceptionClass</name>
+    </test-case>
+    <test-case start="1556668797648" stop="1556668797649" status="passed">
+      <name>testCreateExceptionType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666828" stop="1556668666832" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\ReportXml\SelectHydratorTest</name>
+  <test-cases>
+    <test-case start="1556668666828" stop="1556668666829" status="passed">
+      <name>testExtract</name>
+    </test-case>
+    <test-case start="1556668666829" stop="1556668666830" status="passed">
+      <name>testRecreateWithoutExpression with data set "Select without expressions"</name>
+    </test-case>
+    <test-case start="1556668666831" stop="1556668666832" status="passed">
+      <name>testRecreateWithExpression with data set "Select without expressions"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

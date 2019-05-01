@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668735742" stop="1556668735750" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Entity\Attribute\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668735742" stop="1556668735743" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "config_only_with_entity_node"</name>
+    </test-case>
+    <test-case start="1556668735743" stop="1556668735744" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "field_code_must_be_unique"</name>
+    </test-case>
+    <test-case start="1556668735744" stop="1556668735745" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "type_attribute_is_required"</name>
+    </test-case>
+    <test-case start="1556668735745" stop="1556668735746" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "attribute_without_required_attributes"</name>
+    </test-case>
+    <test-case start="1556668735746" stop="1556668735747" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "field_node_without_required_attributes"</name>
+    </test-case>
+    <test-case start="1556668735747" stop="1556668735748" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "locked_attribute_with_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668735748" stop="1556668735749" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "attribute_with_type_identifierType_with_invalid_value"</name>
+    </test-case>
+    <test-case start="1556668735749" stop="1556668735750" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

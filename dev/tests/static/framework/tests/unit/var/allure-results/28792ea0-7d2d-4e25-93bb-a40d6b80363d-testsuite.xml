@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668876201" stop="1556668876215" version="1.4.0">
+  <name>Magento\TestFramework\Inspection\WordsFinderTest</name>
+  <test-cases>
+    <test-case start="1556668876202" stop="1556668876204" status="passed">
+      <name>testConstructorException with data set "non-existing config file"</name>
+    </test-case>
+    <test-case start="1556668876205" stop="1556668876205" status="passed">
+      <name>testConstructorException with data set "non-existing base dir"</name>
+    </test-case>
+    <test-case start="1556668876205" stop="1556668876206" status="passed">
+      <name>testConstructorException with data set "broken config"</name>
+    </test-case>
+    <test-case start="1556668876206" stop="1556668876207" status="passed">
+      <name>testConstructorException with data set "empty words config"</name>
+    </test-case>
+    <test-case start="1556668876207" stop="1556668876207" status="passed">
+      <name>testConstructorException with data set "empty whitelisted path"</name>
+    </test-case>
+    <test-case start="1556668876208" stop="1556668876208" status="passed">
+      <name>testFindWords with data set "usual file"</name>
+    </test-case>
+    <test-case start="1556668876209" stop="1556668876209" status="passed">
+      <name>testFindWords with data set "whitelisted file"</name>
+    </test-case>
+    <test-case start="1556668876210" stop="1556668876210" status="passed">
+      <name>testFindWords with data set "partially whitelisted file"</name>
+    </test-case>
+    <test-case start="1556668876211" stop="1556668876211" status="passed">
+      <name>testFindWords with data set "filename with bad word"</name>
+    </test-case>
+    <test-case start="1556668876212" stop="1556668876212" status="passed">
+      <name>testFindWords with data set "binary file, having name with bad word"</name>
+    </test-case>
+    <test-case start="1556668876213" stop="1556668876213" status="passed">
+      <name>testFindWords with data set "words in multiple configs"</name>
+    </test-case>
+    <test-case start="1556668876214" stop="1556668876214" status="passed">
+      <name>testFindWords with data set "whitelisted paths in multiple configs"</name>
+    </test-case>
+    <test-case start="1556668876215" stop="1556668876215" status="passed">
+      <name>testFindWords with data set "config must be whitelisted automatically"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668733393" stop="1556668733422" version="1.4.0">
+  <name>Magento\Downloadable\Test\Unit\Model\Link\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668733393" stop="1556668733409" status="passed">
+      <name>testBuild with data set "price_0"</name>
+    </test-case>
+    <test-case start="1556668733409" stop="1556668733419" status="passed">
+      <name>testBuild with data set "price_declared"</name>
+    </test-case>
+    <test-case start="1556668733420" stop="1556668733422" status="passed">
+      <name>testBuildFileNotProvided</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

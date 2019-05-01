@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668789061" stop="1556668789067" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\Payment\Method\Billing\AbstractAgreementTest</name>
+  <test-cases>
+    <test-case start="1556668789062" stop="1556668789067" status="passed">
+      <name>testAssignData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668711800" stop="1556668711823" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Controller\Adminhtml\System\Config\SaveTest</name>
+  <test-cases>
+    <test-case start="1556668711801" stop="1556668711808" status="passed">
+      <name>testIndexActionWithAllowedSection</name>
+    </test-case>
+    <test-case start="1556668711808" stop="1556668711812" status="passed">
+      <name>testIndexActionSaveState</name>
+    </test-case>
+    <test-case start="1556668711812" stop="1556668711819" status="passed">
+      <name>testIndexActionGetGroupForSave</name>
+    </test-case>
+    <test-case start="1556668711819" stop="1556668711823" status="passed">
+      <name>testIndexActionSaveAdvanced</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

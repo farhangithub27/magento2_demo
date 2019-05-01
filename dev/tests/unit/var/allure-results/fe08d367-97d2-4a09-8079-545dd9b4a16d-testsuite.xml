@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668854133" stop="1556668854140" version="1.4.0">
+  <name>Magento\Framework\Filter\Test\Unit\FilterManagerTest</name>
+  <test-cases>
+    <test-case start="1556668854133" stop="1556668854135" status="passed">
+      <name>testGetFilterFactories</name>
+    </test-case>
+    <test-case start="1556668854135" stop="1556668854136" status="passed">
+      <name>testGetFilterFactoriesWrongInstance</name>
+    </test-case>
+    <test-case start="1556668854136" stop="1556668854138" status="passed">
+      <name>testCreateFilterInstance</name>
+    </test-case>
+    <test-case start="1556668854138" stop="1556668854139" status="passed">
+      <name>testCreateFilterInstanceWrongAlias</name>
+    </test-case>
+    <test-case start="1556668854139" stop="1556668854140" status="passed">
+      <name>testCall</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

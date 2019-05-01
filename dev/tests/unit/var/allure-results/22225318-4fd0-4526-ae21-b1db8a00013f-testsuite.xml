@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668844025" stop="1556668844030" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\DeploymentConfigTest</name>
+  <test-cases>
+    <test-case start="1556668844026" stop="1556668844027" status="passed">
+      <name>testGetters</name>
+    </test-case>
+    <test-case start="1556668844027" stop="1556668844028" status="passed">
+      <name>testIsAvailable</name>
+    </test-case>
+    <test-case start="1556668844028" stop="1556668844028" status="passed">
+      <name>testNotAvailable</name>
+    </test-case>
+    <test-case start="1556668844029" stop="1556668844029" status="passed">
+      <name>testNotAvailableThenAvailable</name>
+    </test-case>
+    <test-case start="1556668844030" stop="1556668844030" status="passed">
+      <name>testKeyCollision with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

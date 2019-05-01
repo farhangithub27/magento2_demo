@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841316" stop="1556668841342" version="1.4.0">
+  <name>Magento\Framework\Acl\Test\Unit\AclResource\Config\MergedXsdTest</name>
+  <test-cases>
+    <test-case start="1556668841316" stop="1556668841318" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "disabled_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668841318" stop="1556668841319" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "disabled_attribute_wrong_type_value"</name>
+    </test-case>
+    <test-case start="1556668841319" stop="1556668841320" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "double_acl"</name>
+    </test-case>
+    <test-case start="1556668841321" stop="1556668841321" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "double_resource"</name>
+    </test-case>
+    <test-case start="1556668841322" stop="1556668841322" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "less_minLength_title_attribute"</name>
+    </test-case>
+    <test-case start="1556668841323" stop="1556668841324" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "more_maxLength_title_attribute"</name>
+    </test-case>
+    <test-case start="1556668841324" stop="1556668841325" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "notvalid_id_attribute_value_regexp1"</name>
+    </test-case>
+    <test-case start="1556668841325" stop="1556668841326" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "notvalid_id_attribute_value_regexp2"</name>
+    </test-case>
+    <test-case start="1556668841326" stop="1556668841327" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "notvalid_id_attribute_value_regexp3"</name>
+    </test-case>
+    <test-case start="1556668841327" stop="1556668841328" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "notvalid_id_attribute_value_regexp4"</name>
+    </test-case>
+    <test-case start="1556668841328" stop="1556668841329" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "notvalid_id_attribute_value_regexp5"</name>
+    </test-case>
+    <test-case start="1556668841330" stop="1556668841330" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "notvalid_id_attribute_value_regexp6"</name>
+    </test-case>
+    <test-case start="1556668841331" stop="1556668841332" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "notvalid_id_attribute_value_regexp7"</name>
+    </test-case>
+    <test-case start="1556668841332" stop="1556668841333" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "sortOrder_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668841333" stop="1556668841334" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "sortOrder_attribute_wrong_type_value"</name>
+    </test-case>
+    <test-case start="1556668841334" stop="1556668841335" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "with_not_allowed_attribute"</name>
+    </test-case>
+    <test-case start="1556668841335" stop="1556668841336" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "with_two_same_id"</name>
+    </test-case>
+    <test-case start="1556668841336" stop="1556668841337" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "without_acl"</name>
+    </test-case>
+    <test-case start="1556668841337" stop="1556668841338" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "without_required_id_attribute"</name>
+    </test-case>
+    <test-case start="1556668841339" stop="1556668841339" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "without_resource"</name>
+    </test-case>
+    <test-case start="1556668841340" stop="1556668841340" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "without_title"</name>
+    </test-case>
+    <test-case start="1556668841341" stop="1556668841341" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

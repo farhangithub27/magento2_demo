@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715345" stop="1556668715392" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\Product\VariationHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668715345" stop="1556668715351" status="passed">
+      <name>testPrepareAttributeSet</name>
+    </test-case>
+    <test-case start="1556668715352" stop="1556668715364" status="passed">
+      <name>testGenerateSimpleProducts with data set #0</name>
+    </test-case>
+    <test-case start="1556668715365" stop="1556668715374" status="passed">
+      <name>testGenerateSimpleProducts with data set #1</name>
+    </test-case>
+    <test-case start="1556668715374" stop="1556668715383" status="passed">
+      <name>testGenerateSimpleProducts with data set #2</name>
+    </test-case>
+    <test-case start="1556668715383" stop="1556668715384" status="passed">
+      <name>testProcessMediaGalleryWithImagesAndGallery</name>
+    </test-case>
+    <test-case start="1556668715385" stop="1556668715386" status="passed">
+      <name>testProcessMediaGalleryIfImageIsEmptyButProductMediaGalleryIsNotEmpty</name>
+    </test-case>
+    <test-case start="1556668715386" stop="1556668715387" status="passed">
+      <name>testProcessMediaGalleryIfProductDataHasNoImagesAndGallery</name>
+    </test-case>
+    <test-case start="1556668715387" stop="1556668715388" status="passed">
+      <name>testProcessMediaGalleryForFillingGallery with data set "empty array"</name>
+    </test-case>
+    <test-case start="1556668715389" stop="1556668715390" status="passed">
+      <name>testProcessMediaGalleryForFillingGallery with data set "array only with empty image"</name>
+    </test-case>
+    <test-case start="1556668715390" stop="1556668715392" status="passed">
+      <name>testProcessMediaGalleryForFillingGallery with data set "empty array with not empty image"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668680432" stop="1556668680444" version="1.4.0">
+  <name>Magento\CatalogImportExport\Test\Unit\Model\Import\Product\Validator\WeightTest</name>
+  <test-cases>
+    <test-case start="1556668680432" stop="1556668680433" status="passed">
+      <name>testIsValid with data set #0</name>
+    </test-case>
+    <test-case start="1556668680434" stop="1556668680434" status="passed">
+      <name>testIsValid with data set #1</name>
+    </test-case>
+    <test-case start="1556668680434" stop="1556668680435" status="passed">
+      <name>testIsValid with data set #2</name>
+    </test-case>
+    <test-case start="1556668680435" stop="1556668680436" status="passed">
+      <name>testIsValid with data set #3</name>
+    </test-case>
+    <test-case start="1556668680436" stop="1556668680437" status="passed">
+      <name>testIsValid with data set #4</name>
+    </test-case>
+    <test-case start="1556668680438" stop="1556668680438" status="passed">
+      <name>testIsValid with data set #5</name>
+    </test-case>
+    <test-case start="1556668680439" stop="1556668680439" status="passed">
+      <name>testIsValid with data set #6</name>
+    </test-case>
+    <test-case start="1556668680440" stop="1556668680440" status="passed">
+      <name>testIsValid with data set #7</name>
+    </test-case>
+    <test-case start="1556668680441" stop="1556668680441" status="passed">
+      <name>testIsValid with data set #8</name>
+    </test-case>
+    <test-case start="1556668680442" stop="1556668680442" status="passed">
+      <name>testIsValid with data set #9</name>
+    </test-case>
+    <test-case start="1556668680443" stop="1556668680443" status="passed">
+      <name>testIsValid with data set #10</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

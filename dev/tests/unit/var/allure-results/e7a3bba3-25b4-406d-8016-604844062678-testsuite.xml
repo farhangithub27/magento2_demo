@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668814443" stop="1556668814465" version="1.4.0">
+  <name>Magento\SendFriend\Test\Unit\Block\SendTest</name>
+  <test-cases>
+    <test-case start="1556668814444" stop="1556668814457" status="passed">
+      <name>testGetSendUrl</name>
+    </test-case>
+    <test-case start="1556668814457" stop="1556668814461" status="passed">
+      <name>testCanSend with data set #0</name>
+    </test-case>
+    <test-case start="1556668814461" stop="1556668814465" status="passed">
+      <name>testCanSend with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

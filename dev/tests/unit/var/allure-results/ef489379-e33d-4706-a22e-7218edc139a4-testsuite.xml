@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668830583" stop="1556668830586" version="1.4.0">
+  <name>Magento\UrlRewrite\Test\Unit\Model\UrlRewriteTest</name>
+  <test-cases>
+    <test-case start="1556668830584" stop="1556668830586" status="passed">
+      <name>testSetAndGetMetadata</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

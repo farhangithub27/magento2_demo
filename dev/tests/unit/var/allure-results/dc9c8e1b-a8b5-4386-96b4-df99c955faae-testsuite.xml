@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668846290" stop="1556668846296" version="1.4.0">
+  <name>Magento\Framework\Backup\Test\Unit\Filesystem\Rollback\FsTest</name>
+  <test-cases>
+    <test-case start="1556668846290" stop="1556668846294" status="passed">
+      <name>testRunNotEnoughPermissions</name>
+    </test-case>
+    <test-case start="1556668846294" stop="1556668846296" status="passed">
+      <name>testRun</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859903" stop="1556668859930" version="1.4.0">
+  <name>Magento\Framework\Pricing\Test\Unit\RenderTest</name>
+  <test-cases>
+    <test-case start="1556668859903" stop="1556668859908" status="passed">
+      <name>testSetLayout</name>
+    </test-case>
+    <test-case start="1556668859908" stop="1556668859911" status="passed">
+      <name>testRenderWithoutRenderList</name>
+    </test-case>
+    <test-case start="1556668859911" stop="1556668859915" status="passed">
+      <name>testRender</name>
+    </test-case>
+    <test-case start="1556668859915" stop="1556668859918" status="passed">
+      <name>testRenderDefault</name>
+    </test-case>
+    <test-case start="1556668859919" stop="1556668859922" status="passed">
+      <name>testRenderDefaultDefault</name>
+    </test-case>
+    <test-case start="1556668859922" stop="1556668859926" status="passed">
+      <name>testAmountRender</name>
+    </test-case>
+    <test-case start="1556668859926" stop="1556668859930" status="passed">
+      <name>testAmountRenderNoRenderPool</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

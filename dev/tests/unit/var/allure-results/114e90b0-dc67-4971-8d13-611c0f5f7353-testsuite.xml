@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668686979" stop="1556668686982" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Plugin\EnableEavIndexerTest</name>
+  <test-cases>
+    <test-case start="1556668686979" stop="1556668686981" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+    <test-case start="1556668686981" stop="1556668686982" status="passed">
+      <name>testBeforeSaveMysqlSearchEngine</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

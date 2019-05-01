@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668854904" stop="1556668854912" version="1.4.0">
+  <name>Magento\Framework\Image\Test\Unit\Adapter\Gd2Test</name>
+  <test-cases>
+    <test-case start="1556668854904" stop="1556668854905" status="passed">
+      <name>testParentClass</name>
+    </test-case>
+    <test-case start="1556668854905" stop="1556668854906" status="passed">
+      <name>testOpen with data set "positive_M"</name>
+    </test-case>
+    <test-case start="1556668854907" stop="1556668854907" status="passed">
+      <name>testOpen with data set "positive_KB"</name>
+    </test-case>
+    <test-case start="1556668854908" stop="1556668854908" status="passed">
+      <name>testOpen with data set "negative_KB"</name>
+    </test-case>
+    <test-case start="1556668854909" stop="1556668854909" status="passed">
+      <name>testOpen with data set "negative_bytes"</name>
+    </test-case>
+    <test-case start="1556668854910" stop="1556668854911" status="passed">
+      <name>testOpen with data set "no_limit"</name>
+    </test-case>
+    <test-case start="1556668854911" stop="1556668854912" status="passed">
+      <name>testOpenDifferentTypes</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668707758" stop="1556668707821" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Model\ShippingInformationManagementTest</name>
+  <test-cases>
+    <test-case start="1556668707758" stop="1556668707787" status="passed">
+      <name>testSaveAddressInformationIfCartIsEmpty</name>
+    </test-case>
+    <test-case start="1556668707787" stop="1556668707790" status="passed">
+      <name>testSaveAddressInformationIfShippingAddressNotSet</name>
+    </test-case>
+    <test-case start="1556668707791" stop="1556668707797" status="passed">
+      <name>testSaveAddressInformationIfCanNotSaveQuote</name>
+    </test-case>
+    <test-case start="1556668707798" stop="1556668707806" status="passed">
+      <name>testSaveAddressInformationIfCarrierCodeIsInvalid</name>
+    </test-case>
+    <test-case start="1556668707806" stop="1556668707821" status="passed">
+      <name>testSaveAddressInformation</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

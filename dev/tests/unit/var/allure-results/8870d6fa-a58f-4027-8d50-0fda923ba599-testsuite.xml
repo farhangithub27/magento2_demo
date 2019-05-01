@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859174" stop="1556668859179" version="1.4.0">
+  <name>Magento\Framework\Phrase\Test\Unit\Renderer\TranslateTest</name>
+  <test-cases>
+    <test-case start="1556668859175" stop="1556668859175" status="passed">
+      <name>testRenderTextWithoutTranslation</name>
+    </test-case>
+    <test-case start="1556668859176" stop="1556668859176" status="passed">
+      <name>testRenderTextWithSingleQuotes</name>
+    </test-case>
+    <test-case start="1556668859176" stop="1556668859177" status="passed">
+      <name>testRenderWithoutTranslation</name>
+    </test-case>
+    <test-case start="1556668859177" stop="1556668859178" status="passed">
+      <name>testRenderTextWithDoubleQuotes</name>
+    </test-case>
+    <test-case start="1556668859178" stop="1556668859179" status="passed">
+      <name>testRenderException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668826724" stop="1556668826730" version="1.4.0">
+  <name>Magento\Translation\Test\Unit\Console\Command\UninstallLanguageCommandTest</name>
+  <test-cases>
+    <test-case start="1556668826724" stop="1556668826726" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668826726" stop="1556668826727" status="passed">
+      <name>testExecuteNoBackupOption</name>
+    </test-case>
+    <test-case start="1556668826727" stop="1556668826729" status="passed">
+      <name>testExecutePackageHasDependency</name>
+    </test-case>
+    <test-case start="1556668826729" stop="1556668826730" status="passed">
+      <name>testExecutePackageNoLanguage</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

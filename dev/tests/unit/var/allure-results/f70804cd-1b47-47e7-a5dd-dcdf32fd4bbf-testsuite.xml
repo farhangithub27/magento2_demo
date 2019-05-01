@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668722961" stop="1556668722976" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Customer\Attribute\Backend\PasswordTest</name>
+  <test-cases>
+    <test-case start="1556668722962" stop="1556668722963" status="passed">
+      <name>testValidatePositive</name>
+    </test-case>
+    <test-case start="1556668722963" stop="1556668722964" status="passed">
+      <name>testBeforeSaveNegative with data set "less-then-6-char"</name>
+    </test-case>
+    <test-case start="1556668722964" stop="1556668722965" status="passed">
+      <name>testBeforeSaveNegative with data set "with-space-prefix"</name>
+    </test-case>
+    <test-case start="1556668722965" stop="1556668722966" status="passed">
+      <name>testBeforeSaveNegative with data set "with-space-suffix"</name>
+    </test-case>
+    <test-case start="1556668722966" stop="1556668722967" status="passed">
+      <name>testBeforeSavePositive</name>
+    </test-case>
+    <test-case start="1556668722968" stop="1556668722969" status="passed">
+      <name>testCustomerGetPasswordAndGetPasswordConfirmAlwaysReturnsAString with data set #0</name>
+    </test-case>
+    <test-case start="1556668722969" stop="1556668722970" status="passed">
+      <name>testCustomerGetPasswordAndGetPasswordConfirmAlwaysReturnsAString with data set #1</name>
+    </test-case>
+    <test-case start="1556668722970" stop="1556668722970" status="passed">
+      <name>testCustomerGetPasswordAndGetPasswordConfirmAlwaysReturnsAString with data set #2</name>
+    </test-case>
+    <test-case start="1556668722971" stop="1556668722971" status="passed">
+      <name>testCustomerGetPasswordAndGetPasswordConfirmAlwaysReturnsAString with data set #3</name>
+    </test-case>
+    <test-case start="1556668722972" stop="1556668722972" status="passed">
+      <name>testCustomerGetPasswordAndGetPasswordConfirmAlwaysReturnsAString with data set #4</name>
+    </test-case>
+    <test-case start="1556668722973" stop="1556668722973" status="passed">
+      <name>testCustomerGetPasswordAndGetPasswordConfirmAlwaysReturnsAString with data set #5</name>
+    </test-case>
+    <test-case start="1556668722973" stop="1556668722974" status="passed">
+      <name>testCustomerGetPasswordAndGetPasswordConfirmAlwaysReturnsAString with data set #6</name>
+    </test-case>
+    <test-case start="1556668722974" stop="1556668722975" status="passed">
+      <name>testCustomerGetPasswordAndGetPasswordConfirmAlwaysReturnsAString with data set #7</name>
+    </test-case>
+    <test-case start="1556668722975" stop="1556668722976" status="passed">
+      <name>testCustomerGetPasswordAndGetPasswordConfirmAlwaysReturnsAString with data set #8</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

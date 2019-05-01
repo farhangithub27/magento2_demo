@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668789984" stop="1556668790011" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Observer\ClearExpiredCronJobObserverTest</name>
+  <test-cases>
+    <test-case start="1556668789985" stop="1556668790009" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668790009" stop="1556668790010" status="passed">
+      <name>testExecuteForNotExistingWebsite</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

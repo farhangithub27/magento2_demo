@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668792729" stop="1556668792762" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\PaymentTest</name>
+  <test-cases>
+    <test-case start="1556668792730" stop="1556668792732" status="passed">
+      <name>testGetCcExpYearReturnsValidValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668792732" stop="1556668792734" status="passed">
+      <name>testGetCcExpYearReturnsValidValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668792735" stop="1556668792737" status="passed">
+      <name>testGetCcExpYearReturnsValidValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668792737" stop="1556668792739" status="passed">
+      <name>testGetCcExpYearReturnsValidValue with data set #3</name>
+    </test-case>
+    <test-case start="1556668792740" stop="1556668792746" status="passed">
+      <name>testImportDataPositiveCheck with data set #0</name>
+    </test-case>
+    <test-case start="1556668792746" stop="1556668792752" status="passed">
+      <name>testImportDataPositiveCheck with data set #1</name>
+    </test-case>
+    <test-case start="1556668792753" stop="1556668792755" status="passed">
+      <name>testGetAdditionalData with data set #0</name>
+    </test-case>
+    <test-case start="1556668792755" stop="1556668792757" status="passed">
+      <name>testGetAdditionalData with data set #1</name>
+    </test-case>
+    <test-case start="1556668792758" stop="1556668792760" status="passed">
+      <name>testGetAdditionalData with data set #2</name>
+    </test-case>
+    <test-case start="1556668792760" stop="1556668792762" status="passed">
+      <name>testGetAdditionalData with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668676268" stop="1556668676363" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Block\Sales\Order\Items\RendererTest</name>
+  <test-cases>
+    <test-case start="1556668676268" stop="1556668676273" status="passed">
+      <name>testGetChildrenEmptyItems with data set #0</name>
+    </test-case>
+    <test-case start="1556668676273" stop="1556668676277" status="passed">
+      <name>testGetChildrenEmptyItems with data set #1</name>
+    </test-case>
+    <test-case start="1556668676277" stop="1556668676281" status="passed">
+      <name>testGetChildrenEmptyItems with data set #2</name>
+    </test-case>
+    <test-case start="1556668676281" stop="1556668676286" status="passed">
+      <name>testGetChildren with data set #0</name>
+    </test-case>
+    <test-case start="1556668676286" stop="1556668676292" status="passed">
+      <name>testGetChildren with data set #1</name>
+    </test-case>
+    <test-case start="1556668676292" stop="1556668676295" status="passed">
+      <name>testIsShipmentSeparatelyWithoutItem with data set #0</name>
+    </test-case>
+    <test-case start="1556668676295" stop="1556668676298" status="passed">
+      <name>testIsShipmentSeparatelyWithoutItem with data set #1</name>
+    </test-case>
+    <test-case start="1556668676299" stop="1556668676302" status="passed">
+      <name>testIsShipmentSeparatelyWithoutItem with data set #2</name>
+    </test-case>
+    <test-case start="1556668676302" stop="1556668676306" status="passed">
+      <name>testIsShipmentSeparatelyWithItem with data set #0</name>
+    </test-case>
+    <test-case start="1556668676306" stop="1556668676310" status="passed">
+      <name>testIsShipmentSeparatelyWithItem with data set #1</name>
+    </test-case>
+    <test-case start="1556668676310" stop="1556668676314" status="passed">
+      <name>testIsShipmentSeparatelyWithItem with data set #2</name>
+    </test-case>
+    <test-case start="1556668676314" stop="1556668676318" status="passed">
+      <name>testIsShipmentSeparatelyWithItem with data set #3</name>
+    </test-case>
+    <test-case start="1556668676318" stop="1556668676321" status="passed">
+      <name>testIsChildCalculatedWithoutItem with data set #0</name>
+    </test-case>
+    <test-case start="1556668676322" stop="1556668676325" status="passed">
+      <name>testIsChildCalculatedWithoutItem with data set #1</name>
+    </test-case>
+    <test-case start="1556668676325" stop="1556668676328" status="passed">
+      <name>testIsChildCalculatedWithoutItem with data set #2</name>
+    </test-case>
+    <test-case start="1556668676328" stop="1556668676332" status="passed">
+      <name>testIsChildCalculatedWithItem with data set #0</name>
+    </test-case>
+    <test-case start="1556668676333" stop="1556668676336" status="passed">
+      <name>testIsChildCalculatedWithItem with data set #1</name>
+    </test-case>
+    <test-case start="1556668676337" stop="1556668676340" status="passed">
+      <name>testIsChildCalculatedWithItem with data set #2</name>
+    </test-case>
+    <test-case start="1556668676340" stop="1556668676344" status="passed">
+      <name>testIsChildCalculatedWithItem with data set #3</name>
+    </test-case>
+    <test-case start="1556668676344" stop="1556668676347" status="passed">
+      <name>testGetSelectionAttributes</name>
+    </test-case>
+    <test-case start="1556668676347" stop="1556668676350" status="passed">
+      <name>testGetSelectionAttributesWithBundle</name>
+    </test-case>
+    <test-case start="1556668676351" stop="1556668676355" status="passed">
+      <name>testCanShowPriceInfo with data set #0</name>
+    </test-case>
+    <test-case start="1556668676355" stop="1556668676359" status="passed">
+      <name>testCanShowPriceInfo with data set #1</name>
+    </test-case>
+    <test-case start="1556668676359" stop="1556668676363" status="passed">
+      <name>testCanShowPriceInfo with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

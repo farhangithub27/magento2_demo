@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667053" stop="1556668667060" version="1.4.0">
+  <name>Magento\AsynchronousOperations\Test\Unit\Model\AccessValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668667053" stop="1556668667058" status="passed">
+      <name>testIsAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668667059" stop="1556668667060" status="passed">
+      <name>testIsAllowed with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

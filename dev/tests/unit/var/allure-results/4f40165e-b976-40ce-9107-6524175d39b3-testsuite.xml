@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668737679" stop="1556668737693" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\Adapter\Container\AttributeTest</name>
+  <test-cases>
+    <test-case start="1556668737680" stop="1556668737681" status="passed">
+      <name>testGetAttributeCodeById</name>
+    </test-case>
+    <test-case start="1556668737682" stop="1556668737682" status="passed">
+      <name>testGetOptionsAttributeCodeById</name>
+    </test-case>
+    <test-case start="1556668737682" stop="1556668737683" status="passed">
+      <name>testGetAttributeIdByCode</name>
+    </test-case>
+    <test-case start="1556668737684" stop="1556668737684" status="passed">
+      <name>testGetOptionsAttributeIdByCode</name>
+    </test-case>
+    <test-case start="1556668737684" stop="1556668737686" status="passed">
+      <name>testGetMultipleAttributeIdsByCode</name>
+    </test-case>
+    <test-case start="1556668737686" stop="1556668737687" status="passed">
+      <name>testGetAttributeByIdTwice</name>
+    </test-case>
+    <test-case start="1556668737687" stop="1556668737688" status="passed">
+      <name>testGetAttributeByIdCachedInGetAttributeByCode</name>
+    </test-case>
+    <test-case start="1556668737688" stop="1556668737689" status="passed">
+      <name>testGetAttribute</name>
+    </test-case>
+    <test-case start="1556668737689" stop="1556668737690" status="passed">
+      <name>testGetUnknownAttribute</name>
+    </test-case>
+    <test-case start="1556668737690" stop="1556668737692" status="passed">
+      <name>testGetAttributes</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

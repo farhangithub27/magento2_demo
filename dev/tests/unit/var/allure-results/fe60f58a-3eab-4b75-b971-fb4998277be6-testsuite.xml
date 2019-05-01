@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667006" stop="1556668667013" version="1.4.0">
+  <name>Magento\AsynchronousOperations\Test\Unit\Controller\Adminhtml\Notification\DismissTest</name>
+  <test-cases>
+    <test-case start="1556668667006" stop="1556668667010" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668667010" stop="1556668667012" status="passed">
+      <name>testExecuteSetsBadRequestResponseStatusIfBulkWasNotAcknowledgedCorrectly</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

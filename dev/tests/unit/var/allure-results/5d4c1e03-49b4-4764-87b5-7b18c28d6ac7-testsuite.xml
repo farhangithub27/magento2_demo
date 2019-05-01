@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668833960" stop="1556668833968" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Model\ResourceModel\TaxTest</name>
+  <test-cases>
+    <test-case start="1556668833961" stop="1556668833964" status="passed">
+      <name>testInWeeeLocation</name>
+    </test-case>
+    <test-case start="1556668833964" stop="1556668833968" status="passed">
+      <name>testFetchWeeeTaxCalculationsByEntity</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

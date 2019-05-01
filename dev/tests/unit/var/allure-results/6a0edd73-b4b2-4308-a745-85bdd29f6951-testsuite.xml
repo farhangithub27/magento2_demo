@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668784155" stop="1556668784160" version="1.4.0">
+  <name>Magento\Payment\Test\Unit\Gateway\Validator\CountryValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668784155" stop="1556668784157" status="passed">
+      <name>testValidateAllowspecificTrue with data set #0</name>
+    </test-case>
+    <test-case start="1556668784157" stop="1556668784158" status="passed">
+      <name>testValidateAllowspecificTrue with data set #1</name>
+    </test-case>
+    <test-case start="1556668784159" stop="1556668784159" status="passed">
+      <name>testValidateAllowspecificFalse with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

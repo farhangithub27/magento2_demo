@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668780513" stop="1556668780523" version="1.4.0">
+  <name>Magento\NewRelicReporting\Test\Unit\Model\CounterTest</name>
+  <test-cases>
+    <test-case start="1556668780513" stop="1556668780516" status="passed">
+      <name>testGetAllProductsCount</name>
+    </test-case>
+    <test-case start="1556668780516" stop="1556668780517" status="passed">
+      <name>testGetConfigurableCount</name>
+    </test-case>
+    <test-case start="1556668780517" stop="1556668780518" status="passed">
+      <name>testGetActiveCatalogSize</name>
+    </test-case>
+    <test-case start="1556668780519" stop="1556668780519" status="passed">
+      <name>testGetCategoryCount</name>
+    </test-case>
+    <test-case start="1556668780520" stop="1556668780521" status="passed">
+      <name>testGetCustomerCount</name>
+    </test-case>
+    <test-case start="1556668780521" stop="1556668780522" status="passed">
+      <name>testGetWebsiteCount</name>
+    </test-case>
+    <test-case start="1556668780522" stop="1556668780523" status="passed">
+      <name>testGetStoreViewsCount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

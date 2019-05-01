@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668745134" stop="1556668745144" version="1.4.0">
+  <name>Magento\Indexer\Test\Unit\Console\Command\IndexerShowDimensionsModeCommandTest</name>
+  <test-cases>
+    <test-case start="1556668745135" stop="1556668745138" status="passed">
+      <name>testExecuteWithAttributes with data set "get_all"</name>
+    </test-case>
+    <test-case start="1556668745139" stop="1556668745141" status="passed">
+      <name>testExecuteWithAttributes with data set "get_by_index"</name>
+    </test-case>
+    <test-case start="1556668745141" stop="1556668745144" status="passed">
+      <name>testExecuteWithAttributes with data set "get_by_several_indexes"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

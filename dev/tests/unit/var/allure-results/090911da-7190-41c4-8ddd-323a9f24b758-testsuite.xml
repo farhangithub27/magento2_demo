@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668706197" stop="1556668706214" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Block\Cart\LinkTest</name>
+  <test-cases>
+    <test-case start="1556668706198" stop="1556668706201" status="passed">
+      <name>testGetUrl</name>
+    </test-case>
+    <test-case start="1556668706201" stop="1556668706205" status="passed">
+      <name>testToHtml</name>
+    </test-case>
+    <test-case start="1556668706205" stop="1556668706208" status="passed">
+      <name>testGetLabel with data set #0</name>
+    </test-case>
+    <test-case start="1556668706208" stop="1556668706211" status="passed">
+      <name>testGetLabel with data set #1</name>
+    </test-case>
+    <test-case start="1556668706211" stop="1556668706214" status="passed">
+      <name>testGetLabel with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

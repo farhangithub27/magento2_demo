@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668787707" stop="1556668787763" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668787707" stop="1556668787710" status="passed">
+      <name>testGetCountryMethods</name>
+    </test-case>
+    <test-case start="1556668787710" stop="1556668787711" status="passed">
+      <name>testIsMethodActive</name>
+    </test-case>
+    <test-case start="1556668787711" stop="1556668787712" status="passed">
+      <name>testIsMethodAvailableWPPPE</name>
+    </test-case>
+    <test-case start="1556668787713" stop="1556668787714" status="passed">
+      <name>testIsMethodAvailableForIsMethodActive with data set #0</name>
+    </test-case>
+    <test-case start="1556668787714" stop="1556668787715" status="passed">
+      <name>testIsMethodAvailableForIsMethodActive with data set #1</name>
+    </test-case>
+    <test-case start="1556668787716" stop="1556668787717" status="passed">
+      <name>testIsMethodAvailableForIsMethodActive with data set #2</name>
+    </test-case>
+    <test-case start="1556668787717" stop="1556668787719" status="passed">
+      <name>testIsMethodAvailableForIsMethodActive with data set #3</name>
+    </test-case>
+    <test-case start="1556668787719" stop="1556668787720" status="passed">
+      <name>testGetMerchantCountryPaypal</name>
+    </test-case>
+    <test-case start="1556668787720" stop="1556668787721" status="passed">
+      <name>testGetMerchantCountryGeneral</name>
+    </test-case>
+    <test-case start="1556668787721" stop="1556668787722" status="passed">
+      <name>testIsCreditCardMethod</name>
+    </test-case>
+    <test-case start="1556668787722" stop="1556668787723" status="passed">
+      <name>testGetSpecificConfigPath</name>
+    </test-case>
+    <test-case start="1556668787723" stop="1556668787724" status="passed">
+      <name>testGetSpecificConfigPathPayflow</name>
+    </test-case>
+    <test-case start="1556668787724" stop="1556668787725" status="passed">
+      <name>testGetSpecificConfigPathPayflowAdvancedLink</name>
+    </test-case>
+    <test-case start="1556668787726" stop="1556668787727" status="passed">
+      <name>testGetSpecificConfigPathPayPalStyles with data set #0</name>
+    </test-case>
+    <test-case start="1556668787727" stop="1556668787728" status="passed">
+      <name>testGetSpecificConfigPathPayPalStyles with data set #1</name>
+    </test-case>
+    <test-case start="1556668787728" stop="1556668787729" status="passed">
+      <name>testGetPayPalBasicStartUrl with data set #0</name>
+    </test-case>
+    <test-case start="1556668787729" stop="1556668787730" status="passed">
+      <name>testGetPayPalBasicStartUrl with data set #1</name>
+    </test-case>
+    <test-case start="1556668787730" stop="1556668787731" status="passed">
+      <name>testGetExpressCheckoutOrderUrl</name>
+    </test-case>
+    <test-case start="1556668787731" stop="1556668787732" status="passed">
+      <name>testGetBmlPublisherId</name>
+    </test-case>
+    <test-case start="1556668787733" stop="1556668787733" status="passed">
+      <name>testGetBmlPosition with data set #0</name>
+    </test-case>
+    <test-case start="1556668787734" stop="1556668787735" status="passed">
+      <name>testGetBmlPosition with data set #1</name>
+    </test-case>
+    <test-case start="1556668787735" stop="1556668787736" status="passed">
+      <name>testGetBmlSize with data set #0</name>
+    </test-case>
+    <test-case start="1556668787736" stop="1556668787737" status="passed">
+      <name>testGetBmlSize with data set #1</name>
+    </test-case>
+    <test-case start="1556668787737" stop="1556668787739" status="passed">
+      <name>testGetBmlDisplay with data set #0</name>
+    </test-case>
+    <test-case start="1556668787739" stop="1556668787741" status="passed">
+      <name>testGetBmlDisplay with data set #1</name>
+    </test-case>
+    <test-case start="1556668787741" stop="1556668787742" status="passed">
+      <name>testGetBmlDisplay with data set #2</name>
+    </test-case>
+    <test-case start="1556668787742" stop="1556668787744" status="passed">
+      <name>testGetBmlDisplay with data set #3</name>
+    </test-case>
+    <test-case start="1556668787744" stop="1556668787745" status="passed">
+      <name>testGetExpressCheckoutShortcutImageUrl with data set #0</name>
+    </test-case>
+    <test-case start="1556668787746" stop="1556668787747" status="passed">
+      <name>testGetExpressCheckoutShortcutImageUrl with data set #1</name>
+    </test-case>
+    <test-case start="1556668787747" stop="1556668787748" status="passed">
+      <name>testGetExpressCheckoutShortcutImageUrl with data set #2</name>
+    </test-case>
+    <test-case start="1556668787749" stop="1556668787750" status="passed">
+      <name>testGetExpressCheckoutShortcutImageUrl with data set #3</name>
+    </test-case>
+    <test-case start="1556668787750" stop="1556668787751" status="passed">
+      <name>testGetExpressCheckoutShortcutImageUrl with data set #4</name>
+    </test-case>
+    <test-case start="1556668787752" stop="1556668787753" status="passed">
+      <name>testGetExpressCheckoutShortcutImageUrl with data set #5</name>
+    </test-case>
+    <test-case start="1556668787754" stop="1556668787754" status="passed">
+      <name>testGetPaymentMarkImageUrl with data set #0</name>
+    </test-case>
+    <test-case start="1556668787755" stop="1556668787756" status="passed">
+      <name>testGetPaymentMarkImageUrl with data set #1</name>
+    </test-case>
+    <test-case start="1556668787757" stop="1556668787757" status="passed">
+      <name>testGetPaymentMarkImageUrl with data set #2</name>
+    </test-case>
+    <test-case start="1556668787758" stop="1556668787759" status="passed">
+      <name>testGetPaymentMarkImageUrl with data set #3</name>
+    </test-case>
+    <test-case start="1556668787759" stop="1556668787760" status="passed">
+      <name>testGetPaymentMarkImageUrl with data set #4</name>
+    </test-case>
+    <test-case start="1556668787761" stop="1556668787761" status="passed">
+      <name>testGetPaymentMarkImageUrl with data set #5</name>
+    </test-case>
+    <test-case start="1556668787762" stop="1556668787763" status="passed">
+      <name>testGetPaymentMarkImageUrl with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

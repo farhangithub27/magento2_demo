@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668702166" stop="1556668702212" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ResourceModel\Eav\AttributeTest</name>
+  <test-cases>
+    <test-case start="1556668702167" stop="1556668702173" status="passed">
+      <name>testIndexerAfterSaveAttribute</name>
+    </test-case>
+    <test-case start="1556668702173" stop="1556668702178" status="passed">
+      <name>testIndexerAfterSaveScopeChangeAttribute</name>
+    </test-case>
+    <test-case start="1556668702178" stop="1556668702182" status="passed">
+      <name>testAfterSaveEavCache</name>
+    </test-case>
+    <test-case start="1556668702182" stop="1556668702186" status="passed">
+      <name>testIndexerAfterDeleteAttribute</name>
+    </test-case>
+    <test-case start="1556668702187" stop="1556668702191" status="passed">
+      <name>testAfterDeleteEavCache</name>
+    </test-case>
+    <test-case start="1556668702191" stop="1556668702198" status="passed">
+      <name>testGetScopeGlobal</name>
+    </test-case>
+    <test-case start="1556668702198" stop="1556668702205" status="passed">
+      <name>testGetScopeWebsite</name>
+    </test-case>
+    <test-case start="1556668702205" stop="1556668702212" status="passed">
+      <name>testGetScopeStore</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

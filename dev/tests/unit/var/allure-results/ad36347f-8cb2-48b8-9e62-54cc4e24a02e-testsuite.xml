@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668686435" stop="1556668686461" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\ResourceModel\Fulltext\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668686435" stop="1556668686445" status="passed">
+      <name>testGetFacetedDataWithException</name>
+    </test-case>
+    <test-case start="1556668686445" stop="1556668686453" status="passed">
+      <name>testGetFacetedDataWithEmptyAggregations</name>
+    </test-case>
+    <test-case start="1556668686453" stop="1556668686461" status="passed">
+      <name>testAddFieldToFilter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

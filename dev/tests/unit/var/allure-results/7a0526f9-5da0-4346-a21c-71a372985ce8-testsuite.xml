@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668736686" stop="1556668736694" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\FormTest</name>
+  <test-cases>
+    <test-case start="1556668736686" stop="1556668736687" status="passed">
+      <name>testGetAttributes</name>
+    </test-case>
+    <test-case start="1556668736688" stop="1556668736688" status="passed">
+      <name>testGetUserAttributes</name>
+    </test-case>
+    <test-case start="1556668736689" stop="1556668736689" status="passed">
+      <name>testGetSystemAttributes</name>
+    </test-case>
+    <test-case start="1556668736690" stop="1556668736690" status="passed">
+      <name>testGetAllowedAttributes</name>
+    </test-case>
+    <test-case start="1556668736691" stop="1556668736692" status="passed">
+      <name>testValidateDataPassed with data set "is_valid"</name>
+    </test-case>
+    <test-case start="1556668736693" stop="1556668736694" status="passed">
+      <name>testValidateDataPassed with data set "is_invalid"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

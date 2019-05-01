@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838347" stop="1556668838362" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Observer\InvoiceSavedAfterObserverTest</name>
+  <test-cases>
+    <test-case start="1556668838347" stop="1556668838357" status="passed">
+      <name>testNonDuplicativeInvoiceSentState</name>
+    </test-case>
+    <test-case start="1556668838357" stop="1556668838362" status="passed">
+      <name>testSendOrderAfterInvoiceSaveRequest</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

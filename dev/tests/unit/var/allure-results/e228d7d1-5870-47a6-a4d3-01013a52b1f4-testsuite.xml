@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668851802" stop="1556668851835" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\FormTest</name>
+  <test-cases>
+    <test-case start="1556668851802" stop="1556668851803" status="passed">
+      <name>testFormKeyUsing</name>
+    </test-case>
+    <test-case start="1556668851803" stop="1556668851824" status="passed">
+      <name>testSettersGetters</name>
+    </test-case>
+    <test-case start="1556668851824" stop="1556668851832" status="passed">
+      <name>testElementExistsException</name>
+    </test-case>
+    <test-case start="1556668851832" stop="1556668851835" status="passed">
+      <name>testElementOperations</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668797250" stop="1556668797261" version="1.4.0">
+  <name>Magento\Rule\Test\Unit\Model\AbstractModelTest</name>
+  <test-cases>
+    <test-case start="1556668797250" stop="1556668797254" status="passed">
+      <name>testGetConditions</name>
+    </test-case>
+    <test-case start="1556668797254" stop="1556668797258" status="passed">
+      <name>testGetActions</name>
+    </test-case>
+    <test-case start="1556668797258" stop="1556668797261" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

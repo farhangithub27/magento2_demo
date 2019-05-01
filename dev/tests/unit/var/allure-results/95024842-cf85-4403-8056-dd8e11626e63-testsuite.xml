@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668854040" stop="1556668854051" version="1.4.0">
+  <name>Magento\Framework\Filter\Test\Unit\AbstractFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668854040" stop="1556668854042" status="passed">
+      <name>testCanCreateFilter with data set #0</name>
+    </test-case>
+    <test-case start="1556668854042" stop="1556668854043" status="passed">
+      <name>testCanCreateFilter with data set #1</name>
+    </test-case>
+    <test-case start="1556668854043" stop="1556668854044" status="passed">
+      <name>testIsShared with data set "shared"</name>
+    </test-case>
+    <test-case start="1556668854044" stop="1556668854045" status="passed">
+      <name>testIsShared with data set "not shared"</name>
+    </test-case>
+    <test-case start="1556668854045" stop="1556668854045" status="passed">
+      <name>testIsShared with data set "default value"</name>
+    </test-case>
+    <test-case start="1556668854046" stop="1556668854047" status="passed">
+      <name>testCreateFilter with data set "not shared with args"</name>
+    </test-case>
+    <test-case start="1556668854048" stop="1556668854048" status="passed">
+      <name>testCreateFilter with data set "not shared without args"</name>
+    </test-case>
+    <test-case start="1556668854049" stop="1556668854050" status="passed">
+      <name>testCreateFilter with data set "shared"</name>
+    </test-case>
+    <test-case start="1556668854050" stop="1556668854051" status="passed">
+      <name>testCreateFilter with data set "default shared"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

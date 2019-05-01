@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668693067" stop="1556668693076" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Attribute\Backend\CustomlayoutupdateTest</name>
+  <test-cases>
+    <test-case start="1556668693068" stop="1556668693072" status="passed">
+      <name>testValidateException</name>
+    </test-case>
+    <test-case start="1556668693073" stop="1556668693074" status="passed">
+      <name>testValidate with data set #0</name>
+    </test-case>
+    <test-case start="1556668693074" stop="1556668693075" status="passed">
+      <name>testValidate with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

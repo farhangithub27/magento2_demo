@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668794022" stop="1556668794039" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Observer\Backend\CustomerQuoteObserverTest</name>
+  <test-cases>
+    <test-case start="1556668794022" stop="1556668794024" status="passed">
+      <name>testDispatchNoCustomerGroupChange</name>
+    </test-case>
+    <test-case start="1556668794024" stop="1556668794028" status="passed">
+      <name>testDispatch with data set #0</name>
+    </test-case>
+    <test-case start="1556668794028" stop="1556668794031" status="passed">
+      <name>testDispatch with data set #1</name>
+    </test-case>
+    <test-case start="1556668794032" stop="1556668794035" status="passed">
+      <name>testDispatch with data set #2</name>
+    </test-case>
+    <test-case start="1556668794035" stop="1556668794039" status="passed">
+      <name>testDispatch with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

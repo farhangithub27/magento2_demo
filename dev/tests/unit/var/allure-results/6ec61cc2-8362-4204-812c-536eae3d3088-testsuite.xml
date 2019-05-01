@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816163" stop="1556668816169" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\MessageGenerators\CaseRescoreTest</name>
+  <test-cases>
+    <test-case start="1556668816163" stop="1556668816165" status="passed">
+      <name>testGenerateEmptyCaseIdException</name>
+    </test-case>
+    <test-case start="1556668816166" stop="1556668816166" status="passed">
+      <name>testGenerateNotFoundException</name>
+    </test-case>
+    <test-case start="1556668816167" stop="1556668816168" status="passed">
+      <name>testGenerateWithPreviousScore</name>
+    </test-case>
+    <test-case start="1556668816168" stop="1556668816169" status="passed">
+      <name>testGenerateWithoutPreviousScore</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

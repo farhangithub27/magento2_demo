@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668861136" stop="1556668861156" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Adapter\Mysql\TemporaryStorageTest</name>
+  <test-cases>
+    <test-case start="1556668861136" stop="1556668861141" status="passed">
+      <name>testStoreDocumentsFromSelect</name>
+    </test-case>
+    <test-case start="1556668861142" stop="1556668861147" status="passed">
+      <name>testStoreDocuments</name>
+    </test-case>
+    <test-case start="1556668861148" stop="1556668861152" status="passed">
+      <name>testStoreApiDocuments</name>
+    </test-case>
+    <test-case start="1556668861152" stop="1556668861156" status="passed">
+      <name>testNoDropIfNotPersistent</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

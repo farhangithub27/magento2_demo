@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668833058" stop="1556668833099" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Model\Soap\Wsdl\ComplexTypeStrategyTest</name>
+  <test-cases>
+    <test-case start="1556668833058" stop="1556668833062" status="passed">
+      <name>testCheckTypeName</name>
+    </test-case>
+    <test-case start="1556668833062" stop="1556668833073" status="passed">
+      <name>testAddComplexTypeSimpleParameters with data set "simple parameters"</name>
+    </test-case>
+    <test-case start="1556668833073" stop="1556668833078" status="passed">
+      <name>testAddComplexTypeSimpleParameters with data set "type with call info"</name>
+    </test-case>
+    <test-case start="1556668833078" stop="1556668833083" status="passed">
+      <name>testAddComplexTypeSimpleParameters with data set "parameter with call info"</name>
+    </test-case>
+    <test-case start="1556668833083" stop="1556668833088" status="passed">
+      <name>testAddComplexTypeSimpleParameters with data set "parameter with see link"</name>
+    </test-case>
+    <test-case start="1556668833088" stop="1556668833091" status="passed">
+      <name>testAddComplexTypeSimpleParameters with data set "parameter with doc instructions"</name>
+    </test-case>
+    <test-case start="1556668833092" stop="1556668833098" status="passed">
+      <name>testAddComplexTypeComplexParameters</name>
+    </test-case>
+    <test-case start="1556668833099" stop="1556668833099" status="passed">
+      <name>testAddAnnotationToComplexType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

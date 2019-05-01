@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668684631" stop="1556668684636" version="1.4.0">
+  <name>Magento\CatalogRule\Test\Unit\Plugin\Indexer\CategoryTest</name>
+  <test-cases>
+    <test-case start="1556668684631" stop="1556668684634" status="passed">
+      <name>testAfterSaveWithoutAffectedProductIds</name>
+    </test-case>
+    <test-case start="1556668684634" stop="1556668684635" status="passed">
+      <name>testAfterSave</name>
+    </test-case>
+    <test-case start="1556668684635" stop="1556668684636" status="passed">
+      <name>testAfterDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668779480" stop="1556668779485" version="1.4.0">
+  <name>Magento\Multishipping\Test\Unit\Block\Checkout\Billing\ItemsTest</name>
+  <test-cases>
+    <test-case start="1556668779480" stop="1556668779484" status="passed">
+      <name>testGetVirtualProductEditUrl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

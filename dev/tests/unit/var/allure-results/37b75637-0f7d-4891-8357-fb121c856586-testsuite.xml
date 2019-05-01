@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822817" stop="1556668822828" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Observer\GetPriceConfigurationObserverTest</name>
+  <test-cases>
+    <test-case start="1556668822818" stop="1556668822827" status="passed">
+      <name>testExecute with data set "basic"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

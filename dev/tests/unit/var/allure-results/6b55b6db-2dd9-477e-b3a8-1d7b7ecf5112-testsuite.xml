@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668834885" stop="1556668834890" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Ui\DataProvider\Product\Form\Modifier\Manager\WebsiteTest</name>
+  <test-cases>
+    <test-case start="1556668834885" stop="1556668834888" status="passed">
+      <name>testGetWebsites</name>
+    </test-case>
+    <test-case start="1556668834888" stop="1556668834890" status="passed">
+      <name>testIsMultiWebsites</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

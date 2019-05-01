@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657446" stop="1556668657448" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\CompleteBackupTest</name>
+  <test-cases>
+    <test-case start="1556668657446" stop="1556668657447" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+    <test-case start="1556668657447" stop="1556668657448" status="passed">
+      <name>testProgressAction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

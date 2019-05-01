@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668850388" stop="1556668850394" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Argument\Interpreter\CompositeTest</name>
+  <test-cases>
+    <test-case start="1556668850388" stop="1556668850389" status="passed">
+      <name>testConstructWrongInterpreter</name>
+    </test-case>
+    <test-case start="1556668850389" stop="1556668850390" status="passed">
+      <name>testEvaluateWrongDiscriminator with data set "no discriminator"</name>
+    </test-case>
+    <test-case start="1556668850390" stop="1556668850391" status="passed">
+      <name>testEvaluateWrongDiscriminator with data set "nonexistent interpreter "</name>
+    </test-case>
+    <test-case start="1556668850391" stop="1556668850392" status="passed">
+      <name>testEvaluate</name>
+    </test-case>
+    <test-case start="1556668850392" stop="1556668850393" status="passed">
+      <name>testAddInterpreter</name>
+    </test-case>
+    <test-case start="1556668850393" stop="1556668850394" status="passed">
+      <name>testAddInterpreterException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

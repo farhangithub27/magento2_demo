@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747028" stop="1556668747051" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668747028" stop="1556668747029" status="passed">
+      <name>testExemplarXml with data set "valid"</name>
+    </test-case>
+    <test-case start="1556668747029" stop="1556668747030" status="passed">
+      <name>testExemplarXml with data set "valid with several entities"</name>
+    </test-case>
+    <test-case start="1556668747031" stop="1556668747031" status="passed">
+      <name>testExemplarXml with data set "empty root node"</name>
+    </test-case>
+    <test-case start="1556668747032" stop="1556668747032" status="passed">
+      <name>testExemplarXml with data set "empty integration"</name>
+    </test-case>
+    <test-case start="1556668747033" stop="1556668747034" status="passed">
+      <name>testExemplarXml with data set "integration without email"</name>
+    </test-case>
+    <test-case start="1556668747034" stop="1556668747035" status="passed">
+      <name>testExemplarXml with data set "empty email"</name>
+    </test-case>
+    <test-case start="1556668747035" stop="1556668747036" status="passed">
+      <name>testExemplarXml with data set "endpoint_url is empty"</name>
+    </test-case>
+    <test-case start="1556668747036" stop="1556668747037" status="passed">
+      <name>testExemplarXml with data set "identity_link_url is empty"</name>
+    </test-case>
+    <test-case start="1556668747038" stop="1556668747038" status="passed">
+      <name>testExemplarXml with data set "irrelevant root node"</name>
+    </test-case>
+    <test-case start="1556668747039" stop="1556668747040" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in root"</name>
+    </test-case>
+    <test-case start="1556668747040" stop="1556668747041" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in integration"</name>
+    </test-case>
+    <test-case start="1556668747041" stop="1556668747042" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in authentication"</name>
+    </test-case>
+    <test-case start="1556668747042" stop="1556668747043" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in root"</name>
+    </test-case>
+    <test-case start="1556668747043" stop="1556668747044" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in integration"</name>
+    </test-case>
+    <test-case start="1556668747044" stop="1556668747045" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in email"</name>
+    </test-case>
+    <test-case start="1556668747046" stop="1556668747046" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in endpoint_url"</name>
+    </test-case>
+    <test-case start="1556668747047" stop="1556668747047" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in identity_link_url"</name>
+    </test-case>
+    <test-case start="1556668747048" stop="1556668747049" status="passed">
+      <name>testExemplarXml with data set "integration without name"</name>
+    </test-case>
+    <test-case start="1556668747049" stop="1556668747050" status="passed">
+      <name>testExemplarXml with data set "integration with empty name"</name>
+    </test-case>
+    <test-case start="1556668747050" stop="1556668747051" status="passed">
+      <name>testExemplarXml with data set "invalid email"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

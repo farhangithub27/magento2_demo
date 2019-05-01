@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668782184" stop="1556668782189" version="1.4.0">
+  <name>Magento\OfflineShipping\Test\Unit\Block\Adminhtml\Form\Field\ImportTest</name>
+  <test-cases>
+    <test-case start="1556668782184" stop="1556668782186" status="passed">
+      <name>testGetNameWhenFormFiledNameSuffixIsEmpty</name>
+    </test-case>
+    <test-case start="1556668782186" stop="1556668782187" status="passed">
+      <name>testGetNameWhenFormFiledNameSuffixIsNotEmpty</name>
+    </test-case>
+    <test-case start="1556668782188" stop="1556668782189" status="passed">
+      <name>testGetElementHtml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

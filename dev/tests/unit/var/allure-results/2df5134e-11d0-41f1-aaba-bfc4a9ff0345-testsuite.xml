@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668677255" stop="1556668677282" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Model\Plugin\QuoteItemTest</name>
+  <test-cases>
+    <test-case start="1556668677255" stop="1556668677279" status="passed">
+      <name>testAroundItemToOrderItemPositive</name>
+    </test-case>
+    <test-case start="1556668677279" stop="1556668677281" status="passed">
+      <name>testAroundItemToOrderItemNegative</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

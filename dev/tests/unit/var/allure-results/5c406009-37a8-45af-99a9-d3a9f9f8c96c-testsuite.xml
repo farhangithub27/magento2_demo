@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668781724" stop="1556668781735" version="1.4.0">
+  <name>Magento\Newsletter\Test\Unit\Model\Template\FilterTest</name>
+  <test-cases>
+    <test-case start="1556668781724" stop="1556668781733" status="passed">
+      <name>testWidgetDirective</name>
+    </test-case>
+    <test-case start="1556668781733" stop="1556668781735" status="passed">
+      <name>testWidgetDirectiveWithoutRequiredVariable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

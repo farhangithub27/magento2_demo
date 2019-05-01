@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657017" stop="1556668657130" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\Command\ModuleUninstallCommandTest</name>
+  <test-cases>
+    <test-case start="1556668657017" stop="1556668657027" status="passed">
+      <name>testExecuteApplicationNotInstalled</name>
+    </test-case>
+    <test-case start="1556668657027" stop="1556668657030" status="passed">
+      <name>testExecuteFailedValidation with data set "one non-composer package"</name>
+    </test-case>
+    <test-case start="1556668657031" stop="1556668657034" status="passed">
+      <name>testExecuteFailedValidation with data set "one non-composer package, one valid"</name>
+    </test-case>
+    <test-case start="1556668657034" stop="1556668657038" status="passed">
+      <name>testExecuteFailedValidation with data set "two non-composer packages"</name>
+    </test-case>
+    <test-case start="1556668657038" stop="1556668657041" status="passed">
+      <name>testExecuteFailedValidation with data set "one unknown module"</name>
+    </test-case>
+    <test-case start="1556668657042" stop="1556668657045" status="passed">
+      <name>testExecuteFailedValidation with data set "two unknown modules"</name>
+    </test-case>
+    <test-case start="1556668657046" stop="1556668657051" status="passed">
+      <name>testExecuteFailedValidation with data set "one unknown module, one valid"</name>
+    </test-case>
+    <test-case start="1556668657051" stop="1556668657057" status="passed">
+      <name>testExecuteFailedValidation with data set "one non-composer package, one unknown module"</name>
+    </test-case>
+    <test-case start="1556668657057" stop="1556668657062" status="passed">
+      <name>testExecuteFailedValidation with data set "two non-composer package, one unknown module"</name>
+    </test-case>
+    <test-case start="1556668657063" stop="1556668657068" status="passed">
+      <name>testExecuteFailedValidation with data set "two non-composer package, two unknown module"</name>
+    </test-case>
+    <test-case start="1556668657069" stop="1556668657075" status="passed">
+      <name>testExecuteFailedValidation with data set "two non-composer package, two unknown module, two valid"</name>
+    </test-case>
+    <test-case start="1556668657076" stop="1556668657079" status="passed">
+      <name>testExecuteFailedDependencies with data set #0</name>
+    </test-case>
+    <test-case start="1556668657080" stop="1556668657083" status="passed">
+      <name>testExecuteFailedDependencies with data set #1</name>
+    </test-case>
+    <test-case start="1556668657083" stop="1556668657087" status="passed">
+      <name>testExecuteFailedDependencies with data set #2</name>
+    </test-case>
+    <test-case start="1556668657087" stop="1556668657092" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668657092" stop="1556668657097" status="passed">
+      <name>testExecuteClearStaticContent</name>
+    </test-case>
+    <test-case start="1556668657097" stop="1556668657102" status="passed">
+      <name>testExecuteRemoveData</name>
+    </test-case>
+    <test-case start="1556668657102" stop="1556668657105" status="passed">
+      <name>testExecuteNonComposerModules</name>
+    </test-case>
+    <test-case start="1556668657106" stop="1556668657111" status="passed">
+      <name>testExecuteAll</name>
+    </test-case>
+    <test-case start="1556668657111" stop="1556668657115" status="passed">
+      <name>testExecuteCodeBackup</name>
+    </test-case>
+    <test-case start="1556668657116" stop="1556668657120" status="passed">
+      <name>testExecuteMediaBackup</name>
+    </test-case>
+    <test-case start="1556668657120" stop="1556668657125" status="passed">
+      <name>testExecuteDBBackup</name>
+    </test-case>
+    <test-case start="1556668657125" stop="1556668657130" status="passed">
+      <name>testInteraction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

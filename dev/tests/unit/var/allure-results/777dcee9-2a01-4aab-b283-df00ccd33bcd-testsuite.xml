@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668798041" stop="1556668798043" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Block\Adminhtml\Promo\Quote\Edit\SaveAndContinueButtonTest</name>
+  <test-cases>
+    <test-case start="1556668798041" stop="1556668798043" status="passed">
+      <name>testGetButtonData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

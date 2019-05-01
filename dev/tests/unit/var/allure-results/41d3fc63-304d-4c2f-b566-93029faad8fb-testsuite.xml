@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668821089" stop="1556668821107" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\Calculation\CalculatorFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668821090" stop="1556668821093" status="passed">
+      <name>testCreate with data set "Unit"</name>
+    </test-case>
+    <test-case start="1556668821094" stop="1556668821096" status="passed">
+      <name>testCreate with data set "Row HasBilling"</name>
+    </test-case>
+    <test-case start="1556668821097" stop="1556668821098" status="passed">
+      <name>testCreate with data set "Row HasCustomerTaxClassId"</name>
+    </test-case>
+    <test-case start="1556668821099" stop="1556668821101" status="passed">
+      <name>testCreate with data set "Total HasShipping"</name>
+    </test-case>
+    <test-case start="1556668821102" stop="1556668821104" status="passed">
+      <name>testCreate with data set "Total HasShipping HasBilling HasCustomerTaxClassId"</name>
+    </test-case>
+    <test-case start="1556668821104" stop="1556668821106" status="passed">
+      <name>testCreate with data set "Total HasShipping HasBilling HasCustomerTaxClassId, HasCustomer"</name>
+    </test-case>
+    <test-case start="1556668821107" stop="1556668821107" status="passed">
+      <name>testCreateInvalid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

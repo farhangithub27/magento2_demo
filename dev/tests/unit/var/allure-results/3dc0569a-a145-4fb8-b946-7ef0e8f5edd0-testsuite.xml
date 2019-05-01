@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838099" stop="1556668838108" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\TaxRegistry\CacheStorageTest</name>
+  <test-cases>
+    <test-case start="1556668838099" stop="1556668838101" status="passed">
+      <name>testMissingCacheEntryRetrievalResolvesToNull</name>
+    </test-case>
+    <test-case start="1556668838101" stop="1556668838102" status="passed">
+      <name>testMissingCacheEntryRetrievalResolvesToFallback</name>
+    </test-case>
+    <test-case start="1556668838102" stop="1556668838104" status="passed">
+      <name>testGetScalarData with data set "data"</name>
+    </test-case>
+    <test-case start="1556668838104" stop="1556668838105" status="passed">
+      <name>testGetArrayData with data set "data"</name>
+    </test-case>
+    <test-case start="1556668838105" stop="1556668838106" status="passed">
+      <name>testSetScalarData with data set "data"</name>
+    </test-case>
+    <test-case start="1556668838107" stop="1556668838108" status="passed">
+      <name>testSetArrayData with data set "data"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

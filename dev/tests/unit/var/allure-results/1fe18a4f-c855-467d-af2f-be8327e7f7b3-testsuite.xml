@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668692888" stop="1556668692891" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Helper\Product\ConfigurationTest</name>
+  <test-cases>
+    <test-case start="1556668692888" stop="1556668692891" status="passed">
+      <name>testGetAdditionalOptionOnly</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

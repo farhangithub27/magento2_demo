@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668793919" stop="1556668793970" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\ShippingMethodManagementTest</name>
+  <test-cases>
+    <test-case start="1556668793919" stop="1556668793926" status="passed">
+      <name>testGetMethodWhenShippingAddressIsNotSet</name>
+    </test-case>
+    <test-case start="1556668793927" stop="1556668793932" status="passed">
+      <name>testGetMethod</name>
+    </test-case>
+    <test-case start="1556668793932" stop="1556668793934" status="passed">
+      <name>testGetMethodIfMethodIsNotSet</name>
+    </test-case>
+    <test-case start="1556668793934" stop="1556668793936" status="passed">
+      <name>testGetListForVirtualCart</name>
+    </test-case>
+    <test-case start="1556668793936" stop="1556668793938" status="passed">
+      <name>testGetListForEmptyCart</name>
+    </test-case>
+    <test-case start="1556668793938" stop="1556668793940" status="passed">
+      <name>testGetListWhenShippingAddressIsNotSet</name>
+    </test-case>
+    <test-case start="1556668793940" stop="1556668793944" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668793944" stop="1556668793946" status="passed">
+      <name>testSetMethodWithInputException</name>
+    </test-case>
+    <test-case start="1556668793946" stop="1556668793948" status="passed">
+      <name>testSetMethodWithVirtualProduct</name>
+    </test-case>
+    <test-case start="1556668793949" stop="1556668793951" status="passed">
+      <name>testSetMethodWithoutShippingAddress</name>
+    </test-case>
+    <test-case start="1556668793951" stop="1556668793955" status="passed">
+      <name>testSetMethodWithCouldNotSaveException</name>
+    </test-case>
+    <test-case start="1556668793955" stop="1556668793958" status="passed">
+      <name>testSetMethodWithoutAddress</name>
+    </test-case>
+    <test-case start="1556668793958" stop="1556668793961" status="passed">
+      <name>testSetMethod</name>
+    </test-case>
+    <test-case start="1556668793961" stop="1556668793965" status="passed">
+      <name>testEstimateByExtendedAddress</name>
+    </test-case>
+    <test-case start="1556668793966" stop="1556668793970" status="passed">
+      <name>testEstimateByAddressId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

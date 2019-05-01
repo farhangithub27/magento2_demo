@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668824465" stop="1556668824528" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Helper\StorageTest</name>
+  <test-cases>
+    <test-case start="1556668824465" stop="1556668824470" status="passed">
+      <name>testGetShortFilename</name>
+    </test-case>
+    <test-case start="1556668824470" stop="1556668824474" status="passed">
+      <name>testGetStorageRoot</name>
+    </test-case>
+    <test-case start="1556668824474" stop="1556668824478" status="passed">
+      <name>testGetThumbnailDirectory</name>
+    </test-case>
+    <test-case start="1556668824478" stop="1556668824482" status="passed">
+      <name>testGetThumbnailPath</name>
+    </test-case>
+    <test-case start="1556668824482" stop="1556668824486" status="passed">
+      <name>testGetRequestParams</name>
+    </test-case>
+    <test-case start="1556668824487" stop="1556668824491" status="passed">
+      <name>testGetAllowedExtensionsByType</name>
+    </test-case>
+    <test-case start="1556668824491" stop="1556668824496" status="passed">
+      <name>testGetThumbnailPathNotFound</name>
+    </test-case>
+    <test-case start="1556668824497" stop="1556668824501" status="passed">
+      <name>testConvertPathToIdAndIdToPath</name>
+    </test-case>
+    <test-case start="1556668824501" stop="1556668824504" status="passed">
+      <name>testGetSession</name>
+    </test-case>
+    <test-case start="1556668824505" stop="1556668824509" status="passed">
+      <name>testGetRelativeUrl</name>
+    </test-case>
+    <test-case start="1556668824509" stop="1556668824513" status="passed">
+      <name>testGetStorageTypeName with data set "font"</name>
+    </test-case>
+    <test-case start="1556668824513" stop="1556668824517" status="passed">
+      <name>testGetStorageTypeName with data set "image"</name>
+    </test-case>
+    <test-case start="1556668824517" stop="1556668824521" status="passed">
+      <name>testGetStorageTypeNameInvalid</name>
+    </test-case>
+    <test-case start="1556668824522" stop="1556668824528" status="passed">
+      <name>testGetThemeNotFound</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

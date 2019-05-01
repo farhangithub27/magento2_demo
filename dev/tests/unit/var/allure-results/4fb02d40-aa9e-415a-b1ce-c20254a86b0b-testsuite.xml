@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668726235" stop="1556668726258" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\VisitorTest</name>
+  <test-cases>
+    <test-case start="1556668726235" stop="1556668726239" status="passed">
+      <name>testInitByRequest</name>
+    </test-case>
+    <test-case start="1556668726239" stop="1556668726242" status="passed">
+      <name>testSaveByRequest</name>
+    </test-case>
+    <test-case start="1556668726242" stop="1556668726245" status="passed">
+      <name>testIsModuleIgnored</name>
+    </test-case>
+    <test-case start="1556668726246" stop="1556668726248" status="passed">
+      <name>testBindCustomerLogin</name>
+    </test-case>
+    <test-case start="1556668726248" stop="1556668726250" status="passed">
+      <name>testBindCustomerLogout</name>
+    </test-case>
+    <test-case start="1556668726250" stop="1556668726252" status="passed">
+      <name>testBindQuoteCreate</name>
+    </test-case>
+    <test-case start="1556668726253" stop="1556668726255" status="passed">
+      <name>testBindQuoteDestroy</name>
+    </test-case>
+    <test-case start="1556668726255" stop="1556668726257" status="passed">
+      <name>testClean</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

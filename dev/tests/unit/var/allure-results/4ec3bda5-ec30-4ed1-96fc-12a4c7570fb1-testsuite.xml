@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668847611" stop="1556668847615" version="1.4.0">
+  <name>Magento\Framework\Code\Test\Unit\Validator\TypeDuplicationTest</name>
+  <test-cases>
+    <test-case start="1556668847612" stop="1556668847613" status="passed">
+      <name>testValidClasses with data set "Duplicated interface injection"</name>
+    </test-case>
+    <test-case start="1556668847613" stop="1556668847614" status="passed">
+      <name>testValidClasses with data set "Class with sub type arguments"</name>
+    </test-case>
+    <test-case start="1556668847614" stop="1556668847614" status="passed">
+      <name>testValidClasses with data set "Class with SuppressWarnings"</name>
+    </test-case>
+    <test-case start="1556668847615" stop="1556668847615" status="passed">
+      <name>testInvalidClass</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

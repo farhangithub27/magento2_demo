@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668784223" stop="1556668784225" version="1.4.0">
+  <name>Magento\Payment\Test\Unit\Gateway\Validator\ValidatorPoolTest</name>
+  <test-cases>
+    <test-case start="1556668784223" stop="1556668784224" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668784224" stop="1556668784225" status="passed">
+      <name>testGetException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

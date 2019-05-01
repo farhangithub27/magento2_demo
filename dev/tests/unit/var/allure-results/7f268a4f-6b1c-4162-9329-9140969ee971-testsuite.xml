@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668792208" stop="1556668792216" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\Item\RelatedProductsTest</name>
+  <test-cases>
+    <test-case start="1556668792209" stop="1556668792211" status="passed">
+      <name>testGetRelatedProductIds with data set #0</name>
+    </test-case>
+    <test-case start="1556668792211" stop="1556668792212" status="passed">
+      <name>testGetRelatedProductIds with data set #1</name>
+    </test-case>
+    <test-case start="1556668792212" stop="1556668792213" status="passed">
+      <name>testGetRelatedProductIds with data set #2</name>
+    </test-case>
+    <test-case start="1556668792214" stop="1556668792215" status="passed">
+      <name>testGetRelatedProductIds with data set #3</name>
+    </test-case>
+    <test-case start="1556668792215" stop="1556668792215" status="passed">
+      <name>testGetRelatedProductIdsNoOptions</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

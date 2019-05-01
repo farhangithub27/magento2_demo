@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668662100" stop="1556668662105" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\Dependency\Report\Dependency\Data\ModuleTest</name>
+  <test-cases>
+    <test-case start="1556668662100" stop="1556668662101" status="passed">
+      <name>testGetName</name>
+    </test-case>
+    <test-case start="1556668662102" stop="1556668662102" status="passed">
+      <name>testGetDependencies</name>
+    </test-case>
+    <test-case start="1556668662102" stop="1556668662103" status="passed">
+      <name>testGetDependenciesCount</name>
+    </test-case>
+    <test-case start="1556668662103" stop="1556668662104" status="passed">
+      <name>testGetHardDependenciesCount</name>
+    </test-case>
+    <test-case start="1556668662104" stop="1556668662105" status="passed">
+      <name>testGetSoftDependenciesCount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

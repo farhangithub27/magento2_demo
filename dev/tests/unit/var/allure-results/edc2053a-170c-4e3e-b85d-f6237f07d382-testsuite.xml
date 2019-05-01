@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668679267" stop="1556668679340" version="1.4.0">
+  <name>Magento\Captcha\Test\Unit\Model\DefaultTest</name>
+  <test-cases>
+    <test-case start="1556668679267" stop="1556668679291" status="passed">
+      <name>testGetBlockName</name>
+    </test-case>
+    <test-case start="1556668679291" stop="1556668679296" status="passed">
+      <name>testIsRequired</name>
+    </test-case>
+    <test-case start="1556668679297" stop="1556668679301" status="passed">
+      <name>testIsCaseSensitive</name>
+    </test-case>
+    <test-case start="1556668679301" stop="1556668679305" status="passed">
+      <name>testGetFont</name>
+    </test-case>
+    <test-case start="1556668679305" stop="1556668679309" status="passed">
+      <name>testGetTimeout</name>
+    </test-case>
+    <test-case start="1556668679309" stop="1556668679313" status="passed">
+      <name>testIsCorrect</name>
+    </test-case>
+    <test-case start="1556668679314" stop="1556668679318" status="passed">
+      <name>testGetImgSrc</name>
+    </test-case>
+    <test-case start="1556668679318" stop="1556668679323" status="passed">
+      <name>testLogAttempt</name>
+    </test-case>
+    <test-case start="1556668679323" stop="1556668679327" status="passed">
+      <name>testGetWord</name>
+    </test-case>
+    <test-case start="1556668679327" stop="1556668679331" status="passed">
+      <name>testIsShownToLoggedInUser with data set #0</name>
+    </test-case>
+    <test-case start="1556668679332" stop="1556668679336" status="passed">
+      <name>testIsShownToLoggedInUser with data set #1</name>
+    </test-case>
+    <test-case start="1556668679336" stop="1556668679340" status="passed">
+      <name>testIsShownToLoggedInUser with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

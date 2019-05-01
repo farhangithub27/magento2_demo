@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668677083" stop="1556668677105" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Model\OptionTest</name>
+  <test-cases>
+    <test-case start="1556668677083" stop="1556668677085" status="passed">
+      <name>testAddSelection</name>
+    </test-case>
+    <test-case start="1556668677086" stop="1556668677087" status="passed">
+      <name>testIsSaleablePositive</name>
+    </test-case>
+    <test-case start="1556668677088" stop="1556668677089" status="passed">
+      <name>testIsSaleableNegative</name>
+    </test-case>
+    <test-case start="1556668677090" stop="1556668677091" status="passed">
+      <name>testGetDefaultSelection</name>
+    </test-case>
+    <test-case start="1556668677091" stop="1556668677093" status="passed">
+      <name>testGetDefaultSelectionNegative</name>
+    </test-case>
+    <test-case start="1556668677094" stop="1556668677095" status="passed">
+      <name>testIsMultiSelection with data set #0</name>
+    </test-case>
+    <test-case start="1556668677095" stop="1556668677097" status="passed">
+      <name>testIsMultiSelection with data set #1</name>
+    </test-case>
+    <test-case start="1556668677097" stop="1556668677099" status="passed">
+      <name>testIsMultiSelection with data set #2</name>
+    </test-case>
+    <test-case start="1556668677099" stop="1556668677101" status="passed">
+      <name>testGetSearchableData</name>
+    </test-case>
+    <test-case start="1556668677101" stop="1556668677103" status="passed">
+      <name>testGetSelectionById</name>
+    </test-case>
+    <test-case start="1556668677103" stop="1556668677105" status="passed">
+      <name>testGetSelectionByIdNegative</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

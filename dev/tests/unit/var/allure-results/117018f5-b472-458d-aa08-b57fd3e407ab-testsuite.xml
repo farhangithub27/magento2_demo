@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668801040" stop="1556668801054" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Block\Order\Create\TotalsTest</name>
+  <test-cases>
+    <test-case start="1556668801041" stop="1556668801048" status="passed">
+      <name>testGetTotals with data set #0</name>
+    </test-case>
+    <test-case start="1556668801049" stop="1556668801053" status="passed">
+      <name>testGetTotals with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

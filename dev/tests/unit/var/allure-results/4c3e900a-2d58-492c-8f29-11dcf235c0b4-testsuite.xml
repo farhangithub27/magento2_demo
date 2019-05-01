@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668656430" stop="1556668656445" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\Command\DeployStaticContentCommandTest</name>
+  <test-cases>
+    <test-case start="1556668656430" stop="1556668656437" status="passed">
+      <name>testExecute with data set "No options"</name>
+    </test-case>
+    <test-case start="1556668656437" stop="1556668656440" status="passed">
+      <name>testExecute with data set "With static content version option"</name>
+    </test-case>
+    <test-case start="1556668656440" stop="1556668656443" status="passed">
+      <name>testExecuteInNonProductionMode with data set #0</name>
+    </test-case>
+    <test-case start="1556668656443" stop="1556668656445" status="passed">
+      <name>testExecuteInNonProductionMode with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

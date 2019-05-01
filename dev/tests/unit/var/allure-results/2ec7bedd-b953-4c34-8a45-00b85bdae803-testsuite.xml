@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668786951" stop="1556668786975" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Helper\Shortcut\CheckoutValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668786951" stop="1556668786966" status="passed">
+      <name>testValidate</name>
+    </test-case>
+    <test-case start="1556668786966" stop="1556668786967" status="passed">
+      <name>testIsMethodQuoteAvailableNoQuoteMethodNotAvailableFalse</name>
+    </test-case>
+    <test-case start="1556668786968" stop="1556668786969" status="passed">
+      <name>testIsMethodQuoteAvailableWithQuoteMethodNotAvailable with data set #0</name>
+    </test-case>
+    <test-case start="1556668786969" stop="1556668786970" status="passed">
+      <name>testIsMethodQuoteAvailableWithQuoteMethodNotAvailable with data set #1</name>
+    </test-case>
+    <test-case start="1556668786970" stop="1556668786971" status="passed">
+      <name>testIsQuoteSummaryValidNoQuote</name>
+    </test-case>
+    <test-case start="1556668786971" stop="1556668786972" status="passed">
+      <name>testIsQuoteSummaryValidMinimumAmountFalse</name>
+    </test-case>
+    <test-case start="1556668786972" stop="1556668786974" status="passed">
+      <name>testIsQuoteSummaryValidGrandTotalFalse</name>
+    </test-case>
+    <test-case start="1556668786974" stop="1556668786975" status="passed">
+      <name>testIsQuoteSummaryValidTrue</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

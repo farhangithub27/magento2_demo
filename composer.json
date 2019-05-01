@@ -37,15 +37,15 @@
         "wikimedia/composer-merge-plugin": "^1.4"
     },
     "require-dev": {
+        "allure-framework/allure-phpunit": "~1.2.0",
         "friendsofphp/php-cs-fixer": "~2.13.0",
         "lusitanian/oauth": "~0.8.10",
-        "magento/magento2-functional-testing-framework": "2.3.9",
+        "magento/magento2-functional-testing-framework": "~2.3.13",
         "pdepend/pdepend": "2.5.2",
         "phpmd/phpmd": "@stable",
         "phpunit/phpunit": "~6.5.0",
         "sebastian/phpcpd": "~3.0.0",
-        "squizlabs/php_codesniffer": "3.3.1",
-        "allure-framework/allure-phpunit": "~1.2.0"
+        "squizlabs/php_codesniffer": "3.3.1"
     },
     "conflict": {
         "gene/bluefoot": "*"

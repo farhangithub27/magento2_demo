@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860025" stop="1556668860036" version="1.4.0">
+  <name>Magento\Framework\Profiler\Test\Unit\Driver\Standard\OutputAbstractTest</name>
+  <test-cases>
+    <test-case start="1556668860025" stop="1556668860026" status="passed">
+      <name>testSetFilterPattern</name>
+    </test-case>
+    <test-case start="1556668860026" stop="1556668860027" status="passed">
+      <name>testSetThreshold</name>
+    </test-case>
+    <test-case start="1556668860027" stop="1556668860028" status="passed">
+      <name>testConstructor</name>
+    </test-case>
+    <test-case start="1556668860028" stop="1556668860029" status="passed">
+      <name>testRenderColumnValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668860029" stop="1556668860030" status="passed">
+      <name>testRenderColumnValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668860030" stop="1556668860031" status="passed">
+      <name>testRenderColumnValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668860031" stop="1556668860032" status="passed">
+      <name>testRenderColumnValue with data set #3</name>
+    </test-case>
+    <test-case start="1556668860032" stop="1556668860032" status="passed">
+      <name>testRenderColumnValue with data set #4</name>
+    </test-case>
+    <test-case start="1556668860033" stop="1556668860033" status="passed">
+      <name>testRenderCaption</name>
+    </test-case>
+    <test-case start="1556668860033" stop="1556668860035" status="passed">
+      <name>testGetTimerIds</name>
+    </test-case>
+    <test-case start="1556668860035" stop="1556668860036" status="passed">
+      <name>testRenderTimerId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

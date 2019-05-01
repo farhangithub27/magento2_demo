@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668857141" stop="1556668857151" version="1.4.0">
+  <name>Magento\Framework\Model\Test\Unit\ResourceModel\Type\Db\Pdo\MysqlTest</name>
+  <test-cases>
+    <test-case start="1556668857141" stop="1556668857142" status="passed">
+      <name>testConstructor with data set "default values"</name>
+    </test-case>
+    <test-case start="1556668857142" stop="1556668857143" status="passed">
+      <name>testConstructor with data set "custom values"</name>
+    </test-case>
+    <test-case start="1556668857143" stop="1556668857144" status="passed">
+      <name>testConstructor with data set "active string true"</name>
+    </test-case>
+    <test-case start="1556668857144" stop="1556668857145" status="passed">
+      <name>testConstructor with data set "non-active string false"</name>
+    </test-case>
+    <test-case start="1556668857146" stop="1556668857147" status="passed">
+      <name>testConstructor with data set "non-active string 0"</name>
+    </test-case>
+    <test-case start="1556668857147" stop="1556668857148" status="passed">
+      <name>testConstructor with data set "non-active bool false"</name>
+    </test-case>
+    <test-case start="1556668857148" stop="1556668857149" status="passed">
+      <name>testConstructorException</name>
+    </test-case>
+    <test-case start="1556668857149" stop="1556668857151" status="passed">
+      <name>testGetConnectionInactive</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

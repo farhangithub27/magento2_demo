@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668819351" stop="1556668819357" version="1.4.0">
+  <name>Magento\Swatches\Test\Unit\Block\Adminhtml\Product\Attribute\Edit\FormTest</name>
+  <test-cases>
+    <test-case start="1556668819351" stop="1556668819352" status="passed">
+      <name>testAddValues with data set #0</name>
+    </test-case>
+    <test-case start="1556668819352" stop="1556668819353" status="passed">
+      <name>testAddValues with data set #1</name>
+    </test-case>
+    <test-case start="1556668819353" stop="1556668819354" status="passed">
+      <name>testAddValues with data set #2</name>
+    </test-case>
+    <test-case start="1556668819354" stop="1556668819355" status="passed">
+      <name>testAddValues with data set #3</name>
+    </test-case>
+    <test-case start="1556668819355" stop="1556668819356" status="passed">
+      <name>testAddValues with data set #4</name>
+    </test-case>
+    <test-case start="1556668819356" stop="1556668819357" status="passed">
+      <name>testAddValues with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

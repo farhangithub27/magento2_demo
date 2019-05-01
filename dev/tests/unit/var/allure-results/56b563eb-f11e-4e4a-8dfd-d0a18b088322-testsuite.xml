@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668714779" stop="1556668714788" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\Order\Admin\Item\Plugin\ConfigurableTest</name>
+  <test-cases>
+    <test-case start="1556668714779" stop="1556668714782" status="passed">
+      <name>testAroundGetNameIfProductIsConfigurable</name>
+    </test-case>
+    <test-case start="1556668714782" stop="1556668714783" status="passed">
+      <name>testAroundGetNameIfProductIsSimple</name>
+    </test-case>
+    <test-case start="1556668714783" stop="1556668714784" status="passed">
+      <name>testAroundGetSkuIfProductIsConfigurable</name>
+    </test-case>
+    <test-case start="1556668714785" stop="1556668714785" status="passed">
+      <name>testAroundGetSkuIfProductIsSimple</name>
+    </test-case>
+    <test-case start="1556668714786" stop="1556668714787" status="passed">
+      <name>testAroundGetProductIdIfProductIsConfigurable</name>
+    </test-case>
+    <test-case start="1556668714787" stop="1556668714788" status="passed">
+      <name>testAroundGetProductIdIfProductIsSimple</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

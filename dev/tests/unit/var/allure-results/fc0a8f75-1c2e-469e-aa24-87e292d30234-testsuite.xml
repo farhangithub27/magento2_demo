@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668804104" stop="1556668804121" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Address\RendererTest</name>
+  <test-cases>
+    <test-case start="1556668804104" stop="1556668804120" status="passed">
+      <name>testFormat</name>
+    </test-case>
+    <test-case start="1556668804120" stop="1556668804121" status="passed">
+      <name>testFormatNoRenderer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841958" stop="1556668841962" version="1.4.0">
+  <name>Magento\Framework\Api\Test\Unit\SearchCriteria\CollectionProcessor\ConditionProcessor\CustomConditionProviderTest</name>
+  <test-cases>
+    <test-case start="1556668841958" stop="1556668841959" status="passed">
+      <name>testPositiveHasProcessorForField</name>
+    </test-case>
+    <test-case start="1556668841959" stop="1556668841959" status="passed">
+      <name>testNegativeHasProcessorForField</name>
+    </test-case>
+    <test-case start="1556668841960" stop="1556668841960" status="passed">
+      <name>testPositiveGetProcessorByField</name>
+    </test-case>
+    <test-case start="1556668841960" stop="1556668841961" status="passed">
+      <name>testNegativeGetProcessorByFieldExceptionFieldIsAbsent</name>
+    </test-case>
+    <test-case start="1556668841961" stop="1556668841962" status="passed">
+      <name>testNegativeGetProcessorByFieldExceptionWrongClass</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

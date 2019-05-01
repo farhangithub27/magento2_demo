@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668815134" stop="1556668815147" version="1.4.0">
+  <name>Magento\Shipping\Test\Unit\Model\Carrier\AbstractCarrierOnlineTest</name>
+  <test-cases>
+    <test-case start="1556668815134" stop="1556668815140" status="passed">
+      <name>testComposePackages</name>
+    </test-case>
+    <test-case start="1556668815140" stop="1556668815142" status="passed">
+      <name>testParseXml</name>
+    </test-case>
+    <test-case start="1556668815143" stop="1556668815145" status="passed">
+      <name>testParseXmlXXEXml</name>
+    </test-case>
+    <test-case start="1556668815145" stop="1556668815147" status="passed">
+      <name>testParseXmlXQBXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

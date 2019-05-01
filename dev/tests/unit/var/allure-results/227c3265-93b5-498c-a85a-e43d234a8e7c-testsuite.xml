@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747708" stop="1556668747757" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\Oauth\TokenTest</name>
+  <test-cases>
+    <test-case start="1556668747709" stop="1556668747713" status="passed">
+      <name>testAfterSave</name>
+    </test-case>
+    <test-case start="1556668747713" stop="1556668747715" status="passed">
+      <name>testAfterSaveNoCleanupProbability</name>
+    </test-case>
+    <test-case start="1556668747715" stop="1556668747717" status="passed">
+      <name>testCreateVerifierToken</name>
+    </test-case>
+    <test-case start="1556668747717" stop="1556668747721" status="passed">
+      <name>testCreateVerifierTokenIfNoTokenId</name>
+    </test-case>
+    <test-case start="1556668747721" stop="1556668747723" status="passed">
+      <name>testConvertToAccessIfIsNotRequestType</name>
+    </test-case>
+    <test-case start="1556668747723" stop="1556668747725" status="passed">
+      <name>testConvertToAccess</name>
+    </test-case>
+    <test-case start="1556668747725" stop="1556668747727" status="passed">
+      <name>testCreateAdminToken</name>
+    </test-case>
+    <test-case start="1556668747727" stop="1556668747729" status="passed">
+      <name>testCreateCustomerToken</name>
+    </test-case>
+    <test-case start="1556668747729" stop="1556668747732" status="passed">
+      <name>testCreateRequestToken</name>
+    </test-case>
+    <test-case start="1556668747732" stop="1556668747733" status="passed">
+      <name>testToString</name>
+    </test-case>
+    <test-case start="1556668747733" stop="1556668747735" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+    <test-case start="1556668747735" stop="1556668747736" status="passed">
+      <name>testGetVerifier</name>
+    </test-case>
+    <test-case start="1556668747736" stop="1556668747738" status="passed">
+      <name>testLoadByConsumerIdAndUserType</name>
+    </test-case>
+    <test-case start="1556668747738" stop="1556668747740" status="passed">
+      <name>testLoadByAdminId</name>
+    </test-case>
+    <test-case start="1556668747740" stop="1556668747741" status="passed">
+      <name>testLoadByCustomerId</name>
+    </test-case>
+    <test-case start="1556668747741" stop="1556668747743" status="passed">
+      <name>testLoad</name>
+    </test-case>
+    <test-case start="1556668747743" stop="1556668747745" status="passed">
+      <name>testValidateIfNotCallbackEstablishedAndNotValid</name>
+    </test-case>
+    <test-case start="1556668747745" stop="1556668747747" status="passed">
+      <name>testValidateIfSecretNotValid</name>
+    </test-case>
+    <test-case start="1556668747747" stop="1556668747749" status="passed">
+      <name>testValidateIfTokenNotValid</name>
+    </test-case>
+    <test-case start="1556668747750" stop="1556668747752" status="passed">
+      <name>testValidateIfVerifierNotValid</name>
+    </test-case>
+    <test-case start="1556668747753" stop="1556668747754" status="passed">
+      <name>testValidateIfVerifierIsNotSet</name>
+    </test-case>
+    <test-case start="1556668747755" stop="1556668747757" status="passed">
+      <name>testValidate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

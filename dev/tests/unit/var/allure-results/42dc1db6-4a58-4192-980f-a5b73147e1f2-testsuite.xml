@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845985" stop="1556668846049" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\ViewTest</name>
+  <test-cases>
+    <test-case start="1556668845985" stop="1556668845993" status="passed">
+      <name>testGetLayout</name>
+    </test-case>
+    <test-case start="1556668845993" stop="1556668845998" status="passed">
+      <name>testLoadLayoutWhenLayoutAlreadyLoaded</name>
+    </test-case>
+    <test-case start="1556668845998" stop="1556668846002" status="passed">
+      <name>testLoadLayoutWithDefaultSetup</name>
+    </test-case>
+    <test-case start="1556668846003" stop="1556668846007" status="passed">
+      <name>testLoadLayoutWhenBlocksNotGenerated</name>
+    </test-case>
+    <test-case start="1556668846007" stop="1556668846012" status="passed">
+      <name>testLoadLayoutWhenXmlNotGenerated</name>
+    </test-case>
+    <test-case start="1556668846012" stop="1556668846016" status="passed">
+      <name>testGetDefaultLayoutHandle</name>
+    </test-case>
+    <test-case start="1556668846016" stop="1556668846021" status="passed">
+      <name>testAddActionLayoutHandlesWhenPageLayoutHandlesExist</name>
+    </test-case>
+    <test-case start="1556668846021" stop="1556668846026" status="passed">
+      <name>testAddPageLayoutHandles</name>
+    </test-case>
+    <test-case start="1556668846026" stop="1556668846030" status="passed">
+      <name>testGenerateLayoutBlocksWhenFlagIsNotSet</name>
+    </test-case>
+    <test-case start="1556668846030" stop="1556668846035" status="passed">
+      <name>testGenerateLayoutBlocksWhenFlagIsSet</name>
+    </test-case>
+    <test-case start="1556668846035" stop="1556668846039" status="passed">
+      <name>testRenderLayoutIfActionFlagExist</name>
+    </test-case>
+    <test-case start="1556668846039" stop="1556668846044" status="passed">
+      <name>testRenderLayoutWhenOutputNotEmpty</name>
+    </test-case>
+    <test-case start="1556668846045" stop="1556668846049" status="passed">
+      <name>testRenderLayoutWhenOutputEmpty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

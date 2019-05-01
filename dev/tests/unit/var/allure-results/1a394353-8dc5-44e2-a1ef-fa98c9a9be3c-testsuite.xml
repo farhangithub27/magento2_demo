@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668828941" stop="1556668828994" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Model\Export\MetadataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668828942" stop="1556668828952" status="passed">
+      <name>testGetHeaders with data set #0</name>
+    </test-case>
+    <test-case start="1556668828953" stop="1556668828955" status="passed">
+      <name>testGetHeaders with data set #1</name>
+    </test-case>
+    <test-case start="1556668828956" stop="1556668828958" status="passed">
+      <name>testGetHeaders with data set #2</name>
+    </test-case>
+    <test-case start="1556668828958" stop="1556668828960" status="passed">
+      <name>testGetHeaders with data set #3</name>
+    </test-case>
+    <test-case start="1556668828961" stop="1556668828963" status="passed">
+      <name>testGetHeaders with data set #4</name>
+    </test-case>
+    <test-case start="1556668828964" stop="1556668828966" status="passed">
+      <name>testGetHeaders with data set #5</name>
+    </test-case>
+    <test-case start="1556668828966" stop="1556668828968" status="passed">
+      <name>testGetFields</name>
+    </test-case>
+    <test-case start="1556668828969" stop="1556668828970" status="passed">
+      <name>testGetRowData with data set #0</name>
+    </test-case>
+    <test-case start="1556668828971" stop="1556668828972" status="passed">
+      <name>testGetRowData with data set #1</name>
+    </test-case>
+    <test-case start="1556668828973" stop="1556668828974" status="passed">
+      <name>testGetRowData with data set #2</name>
+    </test-case>
+    <test-case start="1556668828975" stop="1556668828986" status="passed">
+      <name>testGetOptions with data set #0</name>
+    </test-case>
+    <test-case start="1556668828987" stop="1556668828988" status="passed">
+      <name>testGetOptions with data set #1</name>
+    </test-case>
+    <test-case start="1556668828989" stop="1556668828990" status="passed">
+      <name>testGetOptions with data set #2</name>
+    </test-case>
+    <test-case start="1556668828991" stop="1556668828992" status="passed">
+      <name>testConvertDate with data set #0</name>
+    </test-case>
+    <test-case start="1556668828993" stop="1556668828994" status="passed">
+      <name>testConvertDate with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

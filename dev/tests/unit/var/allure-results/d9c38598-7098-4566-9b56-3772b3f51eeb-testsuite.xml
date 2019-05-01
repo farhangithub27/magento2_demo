@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668875498" stop="1556668875505" version="1.4.0">
+  <name>Magento\Framework\Xml\Test\Unit\SecurityTest</name>
+  <test-cases>
+    <test-case start="1556668875499" stop="1556668875500" status="passed">
+      <name>testScan with data set #0</name>
+    </test-case>
+    <test-case start="1556668875500" stop="1556668875501" status="passed">
+      <name>testScan with data set #1</name>
+    </test-case>
+    <test-case start="1556668875501" stop="1556668875502" status="passed">
+      <name>testScan with data set #2</name>
+    </test-case>
+    <test-case start="1556668875503" stop="1556668875503" status="passed">
+      <name>testScan with data set #3</name>
+    </test-case>
+    <test-case start="1556668875504" stop="1556668875504" status="passed">
+      <name>testScan with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

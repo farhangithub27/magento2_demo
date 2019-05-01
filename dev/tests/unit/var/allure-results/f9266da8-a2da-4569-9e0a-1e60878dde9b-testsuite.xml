@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668702255" stop="1556668702284" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ResourceModel\Product\CategoryLinkTest</name>
+  <test-cases>
+    <test-case start="1556668702255" stop="1556668702258" status="passed">
+      <name>testGetCategoryLinks</name>
+    </test-case>
+    <test-case start="1556668702258" stop="1556668702263" status="passed">
+      <name>testSaveCategoryLinks with data set #0</name>
+    </test-case>
+    <test-case start="1556668702263" stop="1556668702269" status="passed">
+      <name>testSaveCategoryLinks with data set #1</name>
+    </test-case>
+    <test-case start="1556668702269" stop="1556668702274" status="passed">
+      <name>testSaveCategoryLinks with data set #2</name>
+    </test-case>
+    <test-case start="1556668702275" stop="1556668702279" status="passed">
+      <name>testSaveCategoryLinks with data set #3</name>
+    </test-case>
+    <test-case start="1556668702279" stop="1556668702284" status="passed">
+      <name>testSaveCategoryLinks with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

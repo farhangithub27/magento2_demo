@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668674912" stop="1556668674915" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Model\InstantPurchase\PayPal\TokenFormatterTest</name>
+  <test-cases>
+    <test-case start="1556668674912" stop="1556668674913" status="passed">
+      <name>testFormatPaymentTokenWithKnownCardType</name>
+    </test-case>
+    <test-case start="1556668674913" stop="1556668674914" status="passed">
+      <name>testFormatPaymentTokenWithUnknownCardType</name>
+    </test-case>
+    <test-case start="1556668674914" stop="1556668674915" status="passed">
+      <name>testFormatPaymentTokenWithWrongData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

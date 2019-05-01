@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667871" stop="1556668667880" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Gateway\Command\GatewayQueryCommandTest</name>
+  <test-cases>
+    <test-case start="1556668667872" stop="1556668667876" status="passed">
+      <name>testNormalExecution</name>
+    </test-case>
+    <test-case start="1556668667876" stop="1556668667878" status="passed">
+      <name>testExceptionIsThrownAndLoggedWhenRequestFails</name>
+    </test-case>
+    <test-case start="1556668667878" stop="1556668667880" status="passed">
+      <name>testExceptionIsThrownWhenResponseIsInvalid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

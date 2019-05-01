@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668872661" stop="1556668872668" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\File\Collector\ThemeModularTest</name>
+  <test-cases>
+    <test-case start="1556668872661" stop="1556668872662" status="passed">
+      <name>testGetFilesWrongTheme</name>
+    </test-case>
+    <test-case start="1556668872663" stop="1556668872666" status="passed">
+      <name>testGetFiles with data set #0</name>
+    </test-case>
+    <test-case start="1556668872666" stop="1556668872668" status="passed">
+      <name>testGetFiles with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

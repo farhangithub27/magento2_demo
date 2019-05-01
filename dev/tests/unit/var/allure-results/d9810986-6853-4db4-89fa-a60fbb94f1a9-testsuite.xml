@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668786398" stop="1556668786403" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Block\PayflowExpress\FormTest</name>
+  <test-cases>
+    <test-case start="1556668786398" stop="1556668786403" status="passed">
+      <name>testGetBillingAgreementCode</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

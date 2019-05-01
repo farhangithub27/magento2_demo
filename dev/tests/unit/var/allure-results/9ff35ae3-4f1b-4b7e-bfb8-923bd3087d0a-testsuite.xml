@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668685871" stop="1556668685899" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Indexer\Scope\IndexSwitcherTest</name>
+  <test-cases>
+    <test-case start="1556668685871" stop="1556668685885" status="passed">
+      <name>testSwitchRegularIndex</name>
+    </test-case>
+    <test-case start="1556668685886" stop="1556668685887" status="passed">
+      <name>testSwitchIndexWithUnknownState</name>
+    </test-case>
+    <test-case start="1556668685887" stop="1556668685892" status="passed">
+      <name>testSwitchTemporaryIndexWhenRegularIndexExist</name>
+    </test-case>
+    <test-case start="1556668685892" stop="1556668685896" status="passed">
+      <name>testSwitchTemporaryIndexWhenRegularIndexNotExist</name>
+    </test-case>
+    <test-case start="1556668685896" stop="1556668685899" status="passed">
+      <name>testSwitchWhenTemporaryIndexNotExist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

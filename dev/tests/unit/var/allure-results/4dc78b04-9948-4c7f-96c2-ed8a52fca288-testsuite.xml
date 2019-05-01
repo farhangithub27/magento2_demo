@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668677516" stop="1556668677971" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Model\Product\TypeTest</name>
+  <test-cases>
+    <test-case start="1556668677516" stop="1556668677570" status="passed">
+      <name>testPrepareForCartAdvancedWithoutOptions</name>
+    </test-case>
+    <test-case start="1556668677571" stop="1556668677620" status="passed">
+      <name>testPrepareForCartAdvancedWithShoppingCart</name>
+    </test-case>
+    <test-case start="1556668677621" stop="1556668677659" status="passed">
+      <name>testPrepareForCartAdvancedEmptyShoppingCart</name>
+    </test-case>
+    <test-case start="1556668677660" stop="1556668677698" status="passed">
+      <name>testPrepareForCartAdvancedStringInResult</name>
+    </test-case>
+    <test-case start="1556668677698" stop="1556668677720" status="passed">
+      <name>testPrepareForCartAdvancedWithoutSelections</name>
+    </test-case>
+    <test-case start="1556668677720" stop="1556668677740" status="passed">
+      <name>testPrepareForCartAdvancedSelectionsSelectionIdsExists</name>
+    </test-case>
+    <test-case start="1556668677740" stop="1556668677760" status="passed">
+      <name>testPrepareForCartAdvancedSelectRequiredOptions</name>
+    </test-case>
+    <test-case start="1556668677761" stop="1556668677764" status="passed">
+      <name>testPrepareForCartAdvancedParentClassReturnString</name>
+    </test-case>
+    <test-case start="1556668677765" stop="1556668677783" status="passed">
+      <name>testPrepareForCartAdvancedAllRequiredOption</name>
+    </test-case>
+    <test-case start="1556668677783" stop="1556668677796" status="passed">
+      <name>testPrepareForCartAdvancedSpecifyProductOptions</name>
+    </test-case>
+    <test-case start="1556668677797" stop="1556668677799" status="passed">
+      <name>testHasWeightTrue</name>
+    </test-case>
+    <test-case start="1556668677799" stop="1556668677803" status="passed">
+      <name>testGetIdentities</name>
+    </test-case>
+    <test-case start="1556668677804" stop="1556668677806" status="passed">
+      <name>testGetSkuWithType</name>
+    </test-case>
+    <test-case start="1556668677807" stop="1556668677813" status="passed">
+      <name>testGetSkuWithoutType</name>
+    </test-case>
+    <test-case start="1556668677813" stop="1556668677816" status="passed">
+      <name>testGetWeightWithoutCustomOption</name>
+    </test-case>
+    <test-case start="1556668677816" stop="1556668677821" status="passed">
+      <name>testGetWeightWithCustomOption</name>
+    </test-case>
+    <test-case start="1556668677821" stop="1556668677825" status="passed">
+      <name>testGetWeightWithSeveralCustomOption</name>
+    </test-case>
+    <test-case start="1556668677826" stop="1556668677828" status="passed">
+      <name>testIsVirtualWithoutCustomOption</name>
+    </test-case>
+    <test-case start="1556668677828" stop="1556668677833" status="passed">
+      <name>testIsVirtual</name>
+    </test-case>
+    <test-case start="1556668677833" stop="1556668677839" status="passed">
+      <name>testShakeSelections with data set #0</name>
+    </test-case>
+    <test-case start="1556668677840" stop="1556668677844" status="passed">
+      <name>testShakeSelections with data set #1</name>
+    </test-case>
+    <test-case start="1556668677845" stop="1556668677850" status="passed">
+      <name>testShakeSelections with data set #2</name>
+    </test-case>
+    <test-case start="1556668677850" stop="1556668677861" status="passed">
+      <name>testGetSelectionsByIds</name>
+    </test-case>
+    <test-case start="1556668677861" stop="1556668677867" status="passed">
+      <name>testGetOptionsByIds</name>
+    </test-case>
+    <test-case start="1556668677867" stop="1556668677870" status="passed">
+      <name>testIsSalableFalse</name>
+    </test-case>
+    <test-case start="1556668677870" stop="1556668677873" status="passed">
+      <name>testIsSalableWithoutOptions</name>
+    </test-case>
+    <test-case start="1556668677874" stop="1556668677882" status="passed">
+      <name>testIsSalableWithRequiredOptionsTrue</name>
+    </test-case>
+    <test-case start="1556668677882" stop="1556668677885" status="passed">
+      <name>testIsSalableCache</name>
+    </test-case>
+    <test-case start="1556668677885" stop="1556668677890" status="passed">
+      <name>testIsSalableWithEmptySelectionsCollection</name>
+    </test-case>
+    <test-case start="1556668677890" stop="1556668677896" status="passed">
+      <name>testIsSalableWithNonSalableRequiredOptions</name>
+    </test-case>
+    <test-case start="1556668677896" stop="1556668677906" status="passed">
+      <name>testGetSelectionsCollection</name>
+    </test-case>
+    <test-case start="1556668677906" stop="1556668677909" status="passed">
+      <name>testProcessBuyRequest</name>
+    </test-case>
+    <test-case start="1556668677910" stop="1556668677920" status="passed">
+      <name>testGetProductsToPurchaseByReqGroups</name>
+    </test-case>
+    <test-case start="1556668677920" stop="1556668677924" status="passed">
+      <name>testGetSearchableData</name>
+    </test-case>
+    <test-case start="1556668677924" stop="1556668677935" status="passed">
+      <name>testHasOptions</name>
+    </test-case>
+    <test-case start="1556668677935" stop="1556668677944" status="passed">
+      <name>testCheckProductBuyStateEmptyOptionsException</name>
+    </test-case>
+    <test-case start="1556668677945" stop="1556668677953" status="passed">
+      <name>testCheckProductBuyStateMissedOptionException with data set #0</name>
+    </test-case>
+    <test-case start="1556668677954" stop="1556668677962" status="passed">
+      <name>testCheckProductBuyStateMissedOptionException with data set #1</name>
+    </test-case>
+    <test-case start="1556668677962" stop="1556668677971" status="passed">
+      <name>testCheckProductBuyStateRequiredOptionException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

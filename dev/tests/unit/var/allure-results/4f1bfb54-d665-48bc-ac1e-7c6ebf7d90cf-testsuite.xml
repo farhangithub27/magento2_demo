@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668707841" stop="1556668707862" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Model\SidebarTest</name>
+  <test-cases>
+    <test-case start="1556668707841" stop="1556668707842" status="passed">
+      <name>testGetResponseData with data set #0</name>
+    </test-case>
+    <test-case start="1556668707842" stop="1556668707843" status="passed">
+      <name>testGetResponseData with data set #1</name>
+    </test-case>
+    <test-case start="1556668707843" stop="1556668707844" status="passed">
+      <name>testGetResponseData with data set #2</name>
+    </test-case>
+    <test-case start="1556668707844" stop="1556668707845" status="passed">
+      <name>testGetResponseData with data set #3</name>
+    </test-case>
+    <test-case start="1556668707845" stop="1556668707848" status="passed">
+      <name>testCheckQuoteItem</name>
+    </test-case>
+    <test-case start="1556668707848" stop="1556668707849" status="passed">
+      <name>testCheckQuoteItemWithException</name>
+    </test-case>
+    <test-case start="1556668707849" stop="1556668707850" status="passed">
+      <name>testRemoveQuoteItem</name>
+    </test-case>
+    <test-case start="1556668707850" stop="1556668707860" status="passed">
+      <name>testUpdateQuoteItem</name>
+    </test-case>
+    <test-case start="1556668707861" stop="1556668707862" status="passed">
+      <name>testUpdateQuoteItemWithZeroQty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

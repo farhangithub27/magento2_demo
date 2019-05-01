@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668675738" stop="1556668675743" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Block\Adminhtml\Catalog\Product\Composite\Fieldset\Options\Type\SelectTest</name>
+  <test-cases>
+    <test-case start="1556668675739" stop="1556668675743" status="passed">
+      <name>testSetValidationContainer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

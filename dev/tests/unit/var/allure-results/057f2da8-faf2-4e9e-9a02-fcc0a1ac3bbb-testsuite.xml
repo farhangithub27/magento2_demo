@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668705427" stop="1556668705440" version="1.4.0">
+  <name>Magento\CheckoutAgreements\Test\Unit\Model\AgreementsConfigProviderTest</name>
+  <test-cases>
+    <test-case start="1556668705428" stop="1556668705435" status="passed">
+      <name>testGetConfigIfContentIsHtml</name>
+    </test-case>
+    <test-case start="1556668705436" stop="1556668705439" status="passed">
+      <name>testGetConfigIfContentIsNotHtml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

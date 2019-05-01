@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668786010" stop="1556668786173" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Block\Billing\AgreementsTest</name>
+  <test-cases>
+    <test-case start="1556668786011" stop="1556668786033" status="passed">
+      <name>testGetBillingAgreements</name>
+    </test-case>
+    <test-case start="1556668786033" stop="1556668786054" status="passed">
+      <name>testGetItemValueCreatedAt</name>
+    </test-case>
+    <test-case start="1556668786055" stop="1556668786067" status="passed">
+      <name>testGetItemValueCreatedAtNoData</name>
+    </test-case>
+    <test-case start="1556668786067" stop="1556668786080" status="passed">
+      <name>testGetItemValueUpdatedAt</name>
+    </test-case>
+    <test-case start="1556668786080" stop="1556668786092" status="passed">
+      <name>testGetItemValueUpdatedAtNoData</name>
+    </test-case>
+    <test-case start="1556668786093" stop="1556668786106" status="passed">
+      <name>testGetItemValueEditUrl</name>
+    </test-case>
+    <test-case start="1556668786106" stop="1556668786119" status="passed">
+      <name>testGetItemPaymentMethodLabel</name>
+    </test-case>
+    <test-case start="1556668786119" stop="1556668786131" status="passed">
+      <name>testGetItemStatus</name>
+    </test-case>
+    <test-case start="1556668786132" stop="1556668786144" status="passed">
+      <name>testGetItemDefault</name>
+    </test-case>
+    <test-case start="1556668786145" stop="1556668786159" status="passed">
+      <name>testGetWizardPaymentMethodOptions</name>
+    </test-case>
+    <test-case start="1556668786159" stop="1556668786173" status="passed">
+      <name>testToHtml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

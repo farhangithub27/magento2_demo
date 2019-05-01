@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668850204" stop="1556668850219" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\TemporaryTableServiceTest</name>
+  <test-cases>
+    <test-case start="1556668850204" stop="1556668850205" status="passed">
+      <name>testCreateFromSelectWithException</name>
+    </test-case>
+    <test-case start="1556668850205" stop="1556668850207" status="passed">
+      <name>testCreateFromSelect with data set #0</name>
+    </test-case>
+    <test-case start="1556668850208" stop="1556668850210" status="passed">
+      <name>testCreateFromSelect with data set #1</name>
+    </test-case>
+    <test-case start="1556668850210" stop="1556668850212" status="passed">
+      <name>testCreateFromSelect with data set #2</name>
+    </test-case>
+    <test-case start="1556668850213" stop="1556668850216" status="passed">
+      <name>testCreateFromSelect with data set #3</name>
+    </test-case>
+    <test-case start="1556668850216" stop="1556668850217" status="passed">
+      <name>testDropTableWhenCreatedTablesArrayIsEmpty</name>
+    </test-case>
+    <test-case start="1556668850217" stop="1556668850218" status="passed">
+      <name>testDropTableWhenCreatedTablesArrayNotEmpty with data set #0</name>
+    </test-case>
+    <test-case start="1556668850218" stop="1556668850219" status="passed">
+      <name>testDropTableWhenCreatedTablesArrayNotEmpty with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

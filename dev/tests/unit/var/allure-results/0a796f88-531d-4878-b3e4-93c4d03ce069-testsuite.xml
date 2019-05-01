@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668791556" stop="1556668791570" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Product\Plugin\UpdateQuoteItemsTest</name>
+  <test-cases>
+    <test-case start="1556668791557" stop="1556668791563" status="passed">
+      <name>testAfterUpdate with data set #0</name>
+    </test-case>
+    <test-case start="1556668791564" stop="1556668791565" status="passed">
+      <name>testAfterUpdate with data set #1</name>
+    </test-case>
+    <test-case start="1556668791566" stop="1556668791567" status="passed">
+      <name>testAfterUpdate with data set #2</name>
+    </test-case>
+    <test-case start="1556668791568" stop="1556668791570" status="passed">
+      <name>testAfterUpdate with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668708346" stop="1556668708368" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Controller\Adminhtml\Block\DeleteTest</name>
+  <test-cases>
+    <test-case start="1556668708347" stop="1556668708355" status="passed">
+      <name>testDeleteAction</name>
+    </test-case>
+    <test-case start="1556668708355" stop="1556668708362" status="passed">
+      <name>testDeleteActionNoId</name>
+    </test-case>
+    <test-case start="1556668708362" stop="1556668708368" status="passed">
+      <name>testDeleteActionThrowsException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

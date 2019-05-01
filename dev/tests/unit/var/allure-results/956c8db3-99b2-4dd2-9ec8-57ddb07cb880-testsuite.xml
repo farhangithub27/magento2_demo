@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668709402" stop="1556668709434" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Model\BlockTest</name>
+  <test-cases>
+    <test-case start="1556668709402" stop="1556668709407" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+    <test-case start="1556668709407" stop="1556668709408" status="passed">
+      <name>testBeforeSaveWithException</name>
+    </test-case>
+    <test-case start="1556668709408" stop="1556668709410" status="passed">
+      <name>testGetIdentities</name>
+    </test-case>
+    <test-case start="1556668709410" stop="1556668709411" status="passed">
+      <name>testGetId</name>
+    </test-case>
+    <test-case start="1556668709411" stop="1556668709413" status="passed">
+      <name>testGetIdentifier</name>
+    </test-case>
+    <test-case start="1556668709413" stop="1556668709414" status="passed">
+      <name>testGetTitle</name>
+    </test-case>
+    <test-case start="1556668709414" stop="1556668709416" status="passed">
+      <name>testGetContent</name>
+    </test-case>
+    <test-case start="1556668709416" stop="1556668709417" status="passed">
+      <name>testGetCreationTime</name>
+    </test-case>
+    <test-case start="1556668709417" stop="1556668709419" status="passed">
+      <name>testGetUpdateTime</name>
+    </test-case>
+    <test-case start="1556668709419" stop="1556668709420" status="passed">
+      <name>testIsActive</name>
+    </test-case>
+    <test-case start="1556668709420" stop="1556668709422" status="passed">
+      <name>testSetId</name>
+    </test-case>
+    <test-case start="1556668709422" stop="1556668709423" status="passed">
+      <name>testSetIdentifier</name>
+    </test-case>
+    <test-case start="1556668709423" stop="1556668709425" status="passed">
+      <name>testSetTitle</name>
+    </test-case>
+    <test-case start="1556668709425" stop="1556668709426" status="passed">
+      <name>testSetContent</name>
+    </test-case>
+    <test-case start="1556668709426" stop="1556668709428" status="passed">
+      <name>testSetCreationTime</name>
+    </test-case>
+    <test-case start="1556668709428" stop="1556668709429" status="passed">
+      <name>testSetUpdateTime</name>
+    </test-case>
+    <test-case start="1556668709429" stop="1556668709431" status="passed">
+      <name>testSetIsActive</name>
+    </test-case>
+    <test-case start="1556668709431" stop="1556668709432" status="passed">
+      <name>testGetStores</name>
+    </test-case>
+    <test-case start="1556668709433" stop="1556668709434" status="passed">
+      <name>testGetAvailableStatuses</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

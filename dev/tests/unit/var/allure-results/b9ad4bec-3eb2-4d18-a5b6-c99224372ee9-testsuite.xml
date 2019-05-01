@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668719848" stop="1556668720104" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Controller\Address\FormPostTest</name>
+  <test-cases>
+    <test-case start="1556668719848" stop="1556668719861" status="passed">
+      <name>testExecuteNoFormKey</name>
+    </test-case>
+    <test-case start="1556668719861" stop="1556668719868" status="passed">
+      <name>testExecuteNoPostData</name>
+    </test-case>
+    <test-case start="1556668719869" stop="1556668719879" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668719880" stop="1556668719891" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668719892" stop="1556668719903" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668719903" stop="1556668719914" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+    <test-case start="1556668719915" stop="1556668719926" status="passed">
+      <name>testExecute with data set #4</name>
+    </test-case>
+    <test-case start="1556668719927" stop="1556668719938" status="passed">
+      <name>testExecute with data set #5</name>
+    </test-case>
+    <test-case start="1556668719939" stop="1556668719949" status="passed">
+      <name>testExecute with data set #6</name>
+    </test-case>
+    <test-case start="1556668719950" stop="1556668719960" status="passed">
+      <name>testExecute with data set #7</name>
+    </test-case>
+    <test-case start="1556668719961" stop="1556668719971" status="passed">
+      <name>testExecute with data set #8</name>
+    </test-case>
+    <test-case start="1556668719972" stop="1556668719982" status="passed">
+      <name>testExecute with data set #9</name>
+    </test-case>
+    <test-case start="1556668719983" stop="1556668719995" status="passed">
+      <name>testExecute with data set #10</name>
+    </test-case>
+    <test-case start="1556668719996" stop="1556668720006" status="passed">
+      <name>testExecute with data set #11</name>
+    </test-case>
+    <test-case start="1556668720007" stop="1556668720017" status="passed">
+      <name>testExecute with data set #12</name>
+    </test-case>
+    <test-case start="1556668720018" stop="1556668720029" status="passed">
+      <name>testExecute with data set #13</name>
+    </test-case>
+    <test-case start="1556668720030" stop="1556668720041" status="passed">
+      <name>testExecute with data set #14</name>
+    </test-case>
+    <test-case start="1556668720041" stop="1556668720052" status="passed">
+      <name>testExecute with data set #15</name>
+    </test-case>
+    <test-case start="1556668720053" stop="1556668720064" status="passed">
+      <name>testExecute with data set #16</name>
+    </test-case>
+    <test-case start="1556668720065" stop="1556668720076" status="passed">
+      <name>testExecute with data set #17</name>
+    </test-case>
+    <test-case start="1556668720077" stop="1556668720088" status="passed">
+      <name>testExecute with data set #18</name>
+    </test-case>
+    <test-case start="1556668720088" stop="1556668720096" status="passed">
+      <name>testExecuteInputException</name>
+    </test-case>
+    <test-case start="1556668720096" stop="1556668720104" status="passed">
+      <name>testExecuteException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

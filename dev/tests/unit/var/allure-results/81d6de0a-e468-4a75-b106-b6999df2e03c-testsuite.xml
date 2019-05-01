@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667632" stop="1556668667643" version="1.4.0">
+  <name>Magento\Authorization\Test\Unit\Model\ResourceModel\RulesTest</name>
+  <test-cases>
+    <test-case start="1556668667633" stop="1556668667638" status="passed">
+      <name>testSaveRelNoResources</name>
+    </test-case>
+    <test-case start="1556668667638" stop="1556668667640" status="passed">
+      <name>testLocalizedExceptionOccurance</name>
+    </test-case>
+    <test-case start="1556668667641" stop="1556668667643" status="passed">
+      <name>testGenericExceptionOccurance</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

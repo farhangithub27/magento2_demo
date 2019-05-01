@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668658022" stop="1556668658027" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\SelectVersionTest</name>
+  <test-cases>
+    <test-case start="1556668658023" stop="1556668658024" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+    <test-case start="1556668658024" stop="1556668658025" status="passed">
+      <name>testSystemPackageAction</name>
+    </test-case>
+    <test-case start="1556668658025" stop="1556668658026" status="passed">
+      <name>testSystemPackageActionActionWithError</name>
+    </test-case>
+    <test-case start="1556668658026" stop="1556668658027" status="passed">
+      <name>testInstalledSystemPackageAction</name>
+    </test-case>
+    <test-case start="1556668658027" stop="1556668658027" status="passed">
+      <name>testInstalledSystemPackageActionWithError</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

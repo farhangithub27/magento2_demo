@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668801982" stop="1556668802004" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Controller\Adminhtml\Order\Creditmemo\PrintActionTest</name>
+  <test-cases>
+    <test-case start="1556668801983" stop="1556668801998" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668801998" stop="1556668802003" status="passed">
+      <name>testExecuteNoCreditmemoId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

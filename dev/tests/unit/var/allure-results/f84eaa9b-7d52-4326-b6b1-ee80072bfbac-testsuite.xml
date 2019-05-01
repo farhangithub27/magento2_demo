@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668673096" stop="1556668673100" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Setup\ConfigOptionsListTest</name>
+  <test-cases>
+    <test-case start="1556668673096" stop="1556668673097" status="passed">
+      <name>testGetOptions</name>
+    </test-case>
+    <test-case start="1556668673097" stop="1556668673097" status="passed">
+      <name>testCreateConfig</name>
+    </test-case>
+    <test-case start="1556668673098" stop="1556668673098" status="passed">
+      <name>testValidate</name>
+    </test-case>
+    <test-case start="1556668673098" stop="1556668673099" status="passed">
+      <name>testValidateInvalid with data set #0</name>
+    </test-case>
+    <test-case start="1556668673099" stop="1556668673100" status="passed">
+      <name>testValidateInvalid with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

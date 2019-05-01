@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668842758" stop="1556668842775" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Cache\Frontend\PoolTest</name>
+  <test-cases>
+    <test-case start="1556668842758" stop="1556668842760" status="passed">
+      <name>testConstructorNoInitialization</name>
+    </test-case>
+    <test-case start="1556668842760" stop="1556668842762" status="passed">
+      <name>testInitializationParams with data set "default frontend, default settings"</name>
+    </test-case>
+    <test-case start="1556668842762" stop="1556668842763" status="passed">
+      <name>testInitializationParams with data set "default frontend, overridden settings"</name>
+    </test-case>
+    <test-case start="1556668842764" stop="1556668842765" status="passed">
+      <name>testInitializationParams with data set "custom frontend, default settings"</name>
+    </test-case>
+    <test-case start="1556668842765" stop="1556668842766" status="passed">
+      <name>testInitializationParams with data set "custom frontend, overridden settings"</name>
+    </test-case>
+    <test-case start="1556668842767" stop="1556668842768" status="passed">
+      <name>testCurrent</name>
+    </test-case>
+    <test-case start="1556668842768" stop="1556668842769" status="passed">
+      <name>testKey</name>
+    </test-case>
+    <test-case start="1556668842769" stop="1556668842770" status="passed">
+      <name>testNext</name>
+    </test-case>
+    <test-case start="1556668842770" stop="1556668842772" status="passed">
+      <name>testRewind</name>
+    </test-case>
+    <test-case start="1556668842772" stop="1556668842773" status="passed">
+      <name>testValid</name>
+    </test-case>
+    <test-case start="1556668842773" stop="1556668842774" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668842774" stop="1556668842775" status="passed">
+      <name>testGetUnknownFrontendId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

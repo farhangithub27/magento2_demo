@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668783682" stop="1556668783692" version="1.4.0">
+  <name>Magento\Payment\Test\Unit\Gateway\Command\GatewayCommandTest</name>
+  <test-cases>
+    <test-case start="1556668783682" stop="1556668783686" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668783686" stop="1556668783689" status="passed">
+      <name>testExecuteValidationFail</name>
+    </test-case>
+    <test-case start="1556668783689" stop="1556668783692" status="passed">
+      <name>testExecuteValidationFailWithMappedErrors</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

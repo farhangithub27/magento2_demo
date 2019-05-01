@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668830877" stop="1556668830893" version="1.4.0">
+  <name>Magento\User\Test\Unit\Controller\Adminhtml\User\DeleteTest</name>
+  <test-cases>
+    <test-case start="1556668830877" stop="1556668830883" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668830883" stop="1556668830886" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668830887" stop="1556668830890" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668830890" stop="1556668830893" status="passed">
+      <name>testEmptyPassword</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

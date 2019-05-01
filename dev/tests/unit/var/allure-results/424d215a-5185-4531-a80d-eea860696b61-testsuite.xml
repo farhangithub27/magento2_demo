@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668814144" stop="1556668814159" version="1.4.0">
+  <name>Magento\Security\Test\Unit\Model\ResourceModel\PasswordResetRequestEvent\CollectionFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668814144" stop="1556668814155" status="passed">
+      <name>testCreate with data set #0</name>
+    </test-case>
+    <test-case start="1556668814155" stop="1556668814156" status="passed">
+      <name>testCreate with data set #1</name>
+    </test-case>
+    <test-case start="1556668814156" stop="1556668814157" status="passed">
+      <name>testCreate with data set #2</name>
+    </test-case>
+    <test-case start="1556668814158" stop="1556668814159" status="passed">
+      <name>testCreate with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

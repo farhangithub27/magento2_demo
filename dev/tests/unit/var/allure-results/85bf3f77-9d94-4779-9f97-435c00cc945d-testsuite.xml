@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668815073" stop="1556668815082" version="1.4.0">
+  <name>Magento\Shipping\Test\Unit\Controller\Adminhtml\Order\ShipmentLoaderTest</name>
+  <test-cases>
+    <test-case start="1556668815073" stop="1556668815077" status="passed">
+      <name>testLoadShipmentId</name>
+    </test-case>
+    <test-case start="1556668815077" stop="1556668815082" status="passed">
+      <name>testLoadOrderId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

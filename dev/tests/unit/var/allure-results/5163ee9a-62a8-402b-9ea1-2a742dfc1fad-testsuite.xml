@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668849128" stop="1556668849159" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\AbstractMapperTest</name>
+  <test-cases>
+    <test-case start="1556668849129" stop="1556668849136" status="passed">
+      <name>testMap with data set #0</name>
+    </test-case>
+    <test-case start="1556668849136" stop="1556668849138" status="passed">
+      <name>testMapException</name>
+    </test-case>
+    <test-case start="1556668849139" stop="1556668849140" status="passed">
+      <name>testAddExpressionFieldToSelect</name>
+    </test-case>
+    <test-case start="1556668849141" stop="1556668849156" status="passed">
+      <name>testAddFieldToFilter with data set #0</name>
+    </test-case>
+    <test-case start="1556668849156" stop="1556668849159" status="passed">
+      <name>testAddFieldToFilter with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

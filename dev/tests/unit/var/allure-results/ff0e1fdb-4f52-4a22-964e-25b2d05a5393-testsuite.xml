@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668709743" stop="1556668709754" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Model\PageTest</name>
+  <test-cases>
+    <test-case start="1556668709743" stop="1556668709746" status="passed">
+      <name>testNoRoutePage</name>
+    </test-case>
+    <test-case start="1556668709746" stop="1556668709748" status="passed">
+      <name>testCheckIdentifier</name>
+    </test-case>
+    <test-case start="1556668709748" stop="1556668709750" status="passed">
+      <name>testBeforeSave404Identifier</name>
+    </test-case>
+    <test-case start="1556668709750" stop="1556668709752" status="passed">
+      <name>testBeforeSaveHomeIdentifier</name>
+    </test-case>
+    <test-case start="1556668709752" stop="1556668709754" status="passed">
+      <name>testBeforeSaveNoCookiesIdentifier</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

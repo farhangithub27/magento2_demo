@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859143" stop="1556668859152" version="1.4.0">
+  <name>Magento\Framework\Phrase\Test\Unit\Renderer\PlaceholderTest</name>
+  <test-cases>
+    <test-case start="1556668859143" stop="1556668859144" status="passed">
+      <name>testRenderPlaceholder with data set #0</name>
+    </test-case>
+    <test-case start="1556668859144" stop="1556668859145" status="passed">
+      <name>testRenderPlaceholder with data set #1</name>
+    </test-case>
+    <test-case start="1556668859145" stop="1556668859146" status="passed">
+      <name>testRenderPlaceholder with data set #2</name>
+    </test-case>
+    <test-case start="1556668859146" stop="1556668859146" status="passed">
+      <name>testRenderPlaceholder with data set #3</name>
+    </test-case>
+    <test-case start="1556668859147" stop="1556668859147" status="passed">
+      <name>testRenderPlaceholder with data set #4</name>
+    </test-case>
+    <test-case start="1556668859148" stop="1556668859148" status="passed">
+      <name>testRenderPlaceholder with data set #5</name>
+    </test-case>
+    <test-case start="1556668859149" stop="1556668859149" status="passed">
+      <name>testRenderPlaceholder with data set #6</name>
+    </test-case>
+    <test-case start="1556668859150" stop="1556668859150" status="passed">
+      <name>testRenderPlaceholder with data set #7</name>
+    </test-case>
+    <test-case start="1556668859151" stop="1556668859151" status="passed">
+      <name>testRenderPlaceholder with data set #8</name>
+    </test-case>
+    <test-case start="1556668859152" stop="1556668859152" status="passed">
+      <name>testRenderPlaceholder with data set #9</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

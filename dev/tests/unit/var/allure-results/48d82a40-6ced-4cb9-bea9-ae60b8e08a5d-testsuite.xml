@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668705196" stop="1556668705206" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Ui\DataProvider\Product\ProductCustomOptionsDataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668705196" stop="1556668705200" status="passed">
+      <name>testGetDataCollectionIsLoaded with data set #0</name>
+    </test-case>
+    <test-case start="1556668705201" stop="1556668705206" status="passed">
+      <name>testGetData with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

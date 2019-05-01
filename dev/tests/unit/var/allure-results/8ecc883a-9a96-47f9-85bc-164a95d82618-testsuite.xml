@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668670637" stop="1556668670773" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Block\Widget\Grid\ColumnTest</name>
+  <test-cases>
+    <test-case start="1556668670637" stop="1556668670641" status="passed">
+      <name>testGetFilterWhenFilterSetFalse</name>
+    </test-case>
+    <test-case start="1556668670642" stop="1556668670645" status="passed">
+      <name>testGetFilterWhenFilterSetZero</name>
+    </test-case>
+    <test-case start="1556668670645" stop="1556668670648" status="passed">
+      <name>testGetFilterWhenFilterIsNotSet</name>
+    </test-case>
+    <test-case start="1556668670649" stop="1556668670652" status="passed">
+      <name>testGetSortableNotSet</name>
+    </test-case>
+    <test-case start="1556668670652" stop="1556668670655" status="passed">
+      <name>testGetSortable with data set "zero"</name>
+    </test-case>
+    <test-case start="1556668670656" stop="1556668670659" status="passed">
+      <name>testGetSortable with data set "false"</name>
+    </test-case>
+    <test-case start="1556668670659" stop="1556668670663" status="passed">
+      <name>testGetSortable with data set "null"</name>
+    </test-case>
+    <test-case start="1556668670663" stop="1556668670666" status="passed">
+      <name>testGetFilterWithSetEmptyCustomFilterType</name>
+    </test-case>
+    <test-case start="1556668670666" stop="1556668670670" status="passed">
+      <name>testGetFilterWithInvalidFilterTypeWhenUseDefaultFilter</name>
+    </test-case>
+    <test-case start="1556668670670" stop="1556668670673" status="passed">
+      <name>testGetFilterWhenUseCustomFilter</name>
+    </test-case>
+    <test-case start="1556668670674" stop="1556668670677" status="passed">
+      <name>testGetFilterWhenFilterWasSetPreviously</name>
+    </test-case>
+    <test-case start="1556668670677" stop="1556668670681" status="passed">
+      <name>testGetFilterHtmlWhenFilterExist</name>
+    </test-case>
+    <test-case start="1556668670681" stop="1556668670684" status="passed">
+      <name>testGetFilterHtmlWhenFilterNotExist</name>
+    </test-case>
+    <test-case start="1556668670685" stop="1556668670688" status="passed">
+      <name>testGetRendererWhenRendererIsSet</name>
+    </test-case>
+    <test-case start="1556668670688" stop="1556668670692" status="passed">
+      <name>testGetRendererWheRendererSetFalse</name>
+    </test-case>
+    <test-case start="1556668670692" stop="1556668670696" status="passed">
+      <name>testGetRendererWhenUseCustomRenderer</name>
+    </test-case>
+    <test-case start="1556668670696" stop="1556668670699" status="passed">
+      <name>testGetRendererWhenRendererWasSetPreviously</name>
+    </test-case>
+    <test-case start="1556668670699" stop="1556668670702" status="passed">
+      <name>testGetExportHeaderWhenExportHeaderIsSet</name>
+    </test-case>
+    <test-case start="1556668670703" stop="1556668670706" status="passed">
+      <name>testGetExportHeaderWhenExportHeaderIsNotSetAndHeaderIsSet</name>
+    </test-case>
+    <test-case start="1556668670706" stop="1556668670709" status="passed">
+      <name>testGetHeaderHtmlPropertyWhenHeaderCssClassEmpty</name>
+    </test-case>
+    <test-case start="1556668670710" stop="1556668670713" status="passed">
+      <name>testGetHeaderHtmlPropertyWhenHeaderCssClassIsSet</name>
+    </test-case>
+    <test-case start="1556668670713" stop="1556668670716" status="passed">
+      <name>testAddHeaderCssClassWhenHeaderCssClassEmpty</name>
+    </test-case>
+    <test-case start="1556668670717" stop="1556668670720" status="passed">
+      <name>testAddHeaderCssClassWhenHeaderCssClassIsSet</name>
+    </test-case>
+    <test-case start="1556668670720" stop="1556668670723" status="passed">
+      <name>testGetHeaderCssClassWhenNotSortable</name>
+    </test-case>
+    <test-case start="1556668670724" stop="1556668670727" status="passed">
+      <name>testGetHeaderCssClassWhenIsSortable</name>
+    </test-case>
+    <test-case start="1556668670727" stop="1556668670730" status="passed">
+      <name>testGetCssClassWithAlignAndEditableAndWithoutColumnCssClass</name>
+    </test-case>
+    <test-case start="1556668670731" stop="1556668670734" status="passed">
+      <name>testGetCssClassWithAlignAndEditableAndWithColumnCssClass</name>
+    </test-case>
+    <test-case start="1556668670734" stop="1556668670737" status="passed">
+      <name>testGetCssClassWithoutAlignEditableAndColumnCssClass</name>
+    </test-case>
+    <test-case start="1556668670737" stop="1556668670741" status="passed">
+      <name>testSetGetGrid</name>
+    </test-case>
+    <test-case start="1556668670741" stop="1556668670747" status="passed">
+      <name>testColumnIsGrouped with data set #0</name>
+    </test-case>
+    <test-case start="1556668670748" stop="1556668670753" status="passed">
+      <name>testColumnIsGrouped with data set #1</name>
+    </test-case>
+    <test-case start="1556668670754" stop="1556668670760" status="passed">
+      <name>testColumnIsGrouped with data set #2</name>
+    </test-case>
+    <test-case start="1556668670760" stop="1556668670765" status="passed">
+      <name>testGetRowFieldAndExportWithFrameCallback</name>
+    </test-case>
+    <test-case start="1556668670765" stop="1556668670768" status="passed">
+      <name>testGetRowFieldExportWithInvalidCallback</name>
+    </test-case>
+    <test-case start="1556668670769" stop="1556668670773" status="passed">
+      <name>testGetRowFieldWithInvalidCallback</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

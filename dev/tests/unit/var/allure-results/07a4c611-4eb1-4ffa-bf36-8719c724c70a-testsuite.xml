@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668742722" stop="1556668742731" version="1.4.0">
+  <name>Magento\GroupedProduct\Test\Unit\Model\Product\CopyConstructor\GroupedTest</name>
+  <test-cases>
+    <test-case start="1556668742722" stop="1556668742726" status="passed">
+      <name>testBuildWithNonGroupedProductType</name>
+    </test-case>
+    <test-case start="1556668742726" stop="1556668742730" status="passed">
+      <name>testBuild</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

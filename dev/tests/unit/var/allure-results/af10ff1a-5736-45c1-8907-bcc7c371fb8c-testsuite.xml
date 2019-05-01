@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668672575" stop="1556668672613" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\Session\QuoteTest</name>
+  <test-cases>
+    <test-case start="1556668672575" stop="1556668672599" status="passed">
+      <name>testGetQuoteWithoutQuoteId</name>
+    </test-case>
+    <test-case start="1556668672600" stop="1556668672607" status="passed">
+      <name>testGetQuoteWithQuoteId with data set "customer ids different"</name>
+    </test-case>
+    <test-case start="1556668672607" stop="1556668672612" status="passed">
+      <name>testGetQuoteWithQuoteId with data set "customer ids same"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

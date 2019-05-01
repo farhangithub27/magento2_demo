@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668861576" stop="1556668861596" version="1.4.0">
+  <name>Magento\Framework\Serialize\Test\Unit\Serializer\Base64JsonTest</name>
+  <test-cases>
+    <test-case start="1556668861577" stop="1556668861577" status="passed">
+      <name>testSerialize with data set #0</name>
+    </test-case>
+    <test-case start="1556668861578" stop="1556668861578" status="passed">
+      <name>testSerialize with data set #1</name>
+    </test-case>
+    <test-case start="1556668861579" stop="1556668861579" status="passed">
+      <name>testSerialize with data set #2</name>
+    </test-case>
+    <test-case start="1556668861579" stop="1556668861580" status="passed">
+      <name>testSerialize with data set #3</name>
+    </test-case>
+    <test-case start="1556668861580" stop="1556668861581" status="passed">
+      <name>testSerialize with data set #4</name>
+    </test-case>
+    <test-case start="1556668861581" stop="1556668861581" status="passed">
+      <name>testSerialize with data set #5</name>
+    </test-case>
+    <test-case start="1556668861582" stop="1556668861582" status="passed">
+      <name>testSerialize with data set #6</name>
+    </test-case>
+    <test-case start="1556668861583" stop="1556668861583" status="passed">
+      <name>testSerialize with data set #7</name>
+    </test-case>
+    <test-case start="1556668861584" stop="1556668861584" status="passed">
+      <name>testUnserialize with data set #0</name>
+    </test-case>
+    <test-case start="1556668861585" stop="1556668861585" status="passed">
+      <name>testUnserialize with data set #1</name>
+    </test-case>
+    <test-case start="1556668861585" stop="1556668861586" status="passed">
+      <name>testUnserialize with data set #2</name>
+    </test-case>
+    <test-case start="1556668861586" stop="1556668861587" status="passed">
+      <name>testUnserialize with data set #3</name>
+    </test-case>
+    <test-case start="1556668861587" stop="1556668861588" status="passed">
+      <name>testUnserialize with data set #4</name>
+    </test-case>
+    <test-case start="1556668861588" stop="1556668861588" status="passed">
+      <name>testUnserialize with data set #5</name>
+    </test-case>
+    <test-case start="1556668861589" stop="1556668861589" status="passed">
+      <name>testUnserialize with data set #6</name>
+    </test-case>
+    <test-case start="1556668861590" stop="1556668861590" status="passed">
+      <name>testUnserialize with data set #7</name>
+    </test-case>
+    <test-case start="1556668861591" stop="1556668861591" status="passed">
+      <name>testUnserialize with data set #8</name>
+    </test-case>
+    <test-case start="1556668861591" stop="1556668861592" status="passed">
+      <name>testUnserialize with data set #9</name>
+    </test-case>
+    <test-case start="1556668861592" stop="1556668861593" status="passed">
+      <name>testUnserialize with data set #10</name>
+    </test-case>
+    <test-case start="1556668861593" stop="1556668861593" status="passed">
+      <name>testUnserialize with data set #11</name>
+    </test-case>
+    <test-case start="1556668861594" stop="1556668861594" status="passed">
+      <name>testUnserialize with data set #12</name>
+    </test-case>
+    <test-case start="1556668861595" stop="1556668861595" status="passed">
+      <name>testUnserialize with data set #13</name>
+    </test-case>
+    <test-case start="1556668861596" stop="1556668861596" status="passed">
+      <name>testUnserialize with data set #14</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

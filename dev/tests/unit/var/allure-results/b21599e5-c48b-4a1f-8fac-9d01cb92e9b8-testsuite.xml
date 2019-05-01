@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668801273" stop="1556668801276" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Block\Order\TotalsTest</name>
+  <test-cases>
+    <test-case start="1556668801273" stop="1556668801275" status="passed">
+      <name>testApplySortOrder</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668684916" stop="1556668684940" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Controller\Advanced\ResultTest</name>
+  <test-cases>
+    <test-case start="1556668684916" stop="1556668684921" status="passed">
+      <name>testResultActionFiltersSetBeforeLoadLayout</name>
+    </test-case>
+    <test-case start="1556668684922" stop="1556668684935" status="passed">
+      <name>testUrlSetOnException</name>
+    </test-case>
+    <test-case start="1556668684935" stop="1556668684940" status="passed">
+      <name>testNoResultsHandle</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

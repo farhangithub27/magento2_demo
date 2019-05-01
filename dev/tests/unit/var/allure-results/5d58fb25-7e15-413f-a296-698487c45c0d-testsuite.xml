@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668725459" stop="1556668725462" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Plugin\CustomerRepository\TransactionWrapperTest</name>
+  <test-cases>
+    <test-case start="1556668725459" stop="1556668725461" status="passed">
+      <name>testAroundSaveCommit</name>
+    </test-case>
+    <test-case start="1556668725461" stop="1556668725462" status="passed">
+      <name>testAroundSaveRollBack</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

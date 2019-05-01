@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845409" stop="1556668845435" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Router\BaseTest</name>
+  <test-cases>
+    <test-case start="1556668845409" stop="1556668845418" status="passed">
+      <name>testMatch</name>
+    </test-case>
+    <test-case start="1556668845418" stop="1556668845423" status="passed">
+      <name>testMatchUseParams</name>
+    </test-case>
+    <test-case start="1556668845423" stop="1556668845428" status="passed">
+      <name>testMatchUseDefaultPath</name>
+    </test-case>
+    <test-case start="1556668845428" stop="1556668845430" status="passed">
+      <name>testMatchEmptyModuleList</name>
+    </test-case>
+    <test-case start="1556668845430" stop="1556668845433" status="passed">
+      <name>testMatchEmptyActionInstance</name>
+    </test-case>
+    <test-case start="1556668845433" stop="1556668845435" status="passed">
+      <name>testGetActionClassName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

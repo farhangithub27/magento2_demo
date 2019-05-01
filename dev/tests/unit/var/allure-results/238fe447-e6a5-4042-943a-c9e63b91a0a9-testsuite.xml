@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668830467" stop="1556668830476" version="1.4.0">
+  <name>Magento\UrlRewrite\Test\Unit\Model\Storage\AbstractStorageTest</name>
+  <test-cases>
+    <test-case start="1556668830468" stop="1556668830470" status="passed">
+      <name>testFindAllByData</name>
+    </test-case>
+    <test-case start="1556668830470" stop="1556668830471" status="passed">
+      <name>testFindOneByDataIfNotFound</name>
+    </test-case>
+    <test-case start="1556668830471" stop="1556668830472" status="passed">
+      <name>testFindOneByDataIfFound</name>
+    </test-case>
+    <test-case start="1556668830472" stop="1556668830473" status="passed">
+      <name>testReplaceIfUrlsAreEmpty</name>
+    </test-case>
+    <test-case start="1556668830473" stop="1556668830474" status="passed">
+      <name>testReplaceIfThrewDuplicateEntryExceptionWithCustomMessage</name>
+    </test-case>
+    <test-case start="1556668830474" stop="1556668830475" status="passed">
+      <name>testReplaceIfThrewDuplicateEntryExceptionDefaultMessage</name>
+    </test-case>
+    <test-case start="1556668830475" stop="1556668830476" status="passed">
+      <name>testReplace</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

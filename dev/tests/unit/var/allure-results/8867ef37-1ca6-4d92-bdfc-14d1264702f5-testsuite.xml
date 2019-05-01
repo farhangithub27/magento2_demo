@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668821007" stop="1556668821065" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Helper\DataTest</name>
+  <test-cases>
+    <test-case start="1556668821007" stop="1556668821011" status="passed">
+      <name>testGetCalculatedTaxesEmptySource</name>
+    </test-case>
+    <test-case start="1556668821011" stop="1556668821018" status="passed">
+      <name>testGetCalculatedTaxesForOrder</name>
+    </test-case>
+    <test-case start="1556668821018" stop="1556668821025" status="passed">
+      <name>testGetCalculatedTaxesForOrderItems with data set "two_items_with_one_zero_tax"</name>
+    </test-case>
+    <test-case start="1556668821026" stop="1556668821034" status="passed">
+      <name>testGetCalculatedTaxesForOrderItems with data set "item_with_weee_tax_partial_invoice"</name>
+    </test-case>
+    <test-case start="1556668821035" stop="1556668821044" status="passed">
+      <name>testGetCalculatedTaxesForOrderItems with data set "one_item_with_both_shipping_and_product_taxes"</name>
+    </test-case>
+    <test-case start="1556668821044" stop="1556668821047" status="passed">
+      <name>testIsCatalogPriceDisplayAffectedByTax with data set #0</name>
+    </test-case>
+    <test-case start="1556668821047" stop="1556668821050" status="passed">
+      <name>testIsCatalogPriceDisplayAffectedByTax with data set #1</name>
+    </test-case>
+    <test-case start="1556668821051" stop="1556668821054" status="passed">
+      <name>testIsCatalogPriceDisplayAffectedByTax with data set #2</name>
+    </test-case>
+    <test-case start="1556668821055" stop="1556668821057" status="passed">
+      <name>testIsCatalogPriceDisplayAffectedByTax with data set #3</name>
+    </test-case>
+    <test-case start="1556668821058" stop="1556668821062" status="passed">
+      <name>testIsCatalogPriceDisplayAffectedByTax with data set #4</name>
+    </test-case>
+    <test-case start="1556668821062" stop="1556668821065" status="passed">
+      <name>testIsCatalogPriceDisplayAffectedByTax with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

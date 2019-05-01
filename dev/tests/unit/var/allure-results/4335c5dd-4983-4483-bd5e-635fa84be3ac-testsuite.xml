@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668805992" stop="1556668806057" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Email\Sender\CreditmemoSenderTest</name>
+  <test-cases>
+    <test-case start="1556668805992" stop="1556668806002" status="passed">
+      <name>testSend with data set #0</name>
+    </test-case>
+    <test-case start="1556668806002" stop="1556668806010" status="passed">
+      <name>testSend with data set #1</name>
+    </test-case>
+    <test-case start="1556668806011" stop="1556668806018" status="passed">
+      <name>testSend with data set #2</name>
+    </test-case>
+    <test-case start="1556668806018" stop="1556668806023" status="passed">
+      <name>testSend with data set #3</name>
+    </test-case>
+    <test-case start="1556668806024" stop="1556668806031" status="passed">
+      <name>testSend with data set #4</name>
+    </test-case>
+    <test-case start="1556668806032" stop="1556668806039" status="passed">
+      <name>testSend with data set #5</name>
+    </test-case>
+    <test-case start="1556668806040" stop="1556668806042" status="passed">
+      <name>testSend with data set #6</name>
+    </test-case>
+    <test-case start="1556668806043" stop="1556668806049" status="passed">
+      <name>testSendVirtualOrder with data set #0</name>
+    </test-case>
+    <test-case start="1556668806049" stop="1556668806056" status="passed">
+      <name>testSendVirtualOrder with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

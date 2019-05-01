@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864315" stop="1556668864322" version="1.4.0">
+  <name>Magento\Framework\Stdlib\Test\Unit\DateTime\DateTimeTest</name>
+  <test-cases>
+    <test-case start="1556668864316" stop="1556668864317" status="passed">
+      <name>testGmtTimestamp with data set "string"</name>
+    </test-case>
+    <test-case start="1556668864317" stop="1556668864318" status="passed">
+      <name>testGmtTimestamp with data set "int"</name>
+    </test-case>
+    <test-case start="1556668864318" stop="1556668864319" status="passed">
+      <name>testGmtTimestamp with data set "DateTimeInterface"</name>
+    </test-case>
+    <test-case start="1556668864319" stop="1556668864320" status="passed">
+      <name>testTimestamp with data set "string"</name>
+    </test-case>
+    <test-case start="1556668864320" stop="1556668864321" status="passed">
+      <name>testTimestamp with data set "int"</name>
+    </test-case>
+    <test-case start="1556668864321" stop="1556668864322" status="passed">
+      <name>testTimestamp with data set "DateTimeInterface"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

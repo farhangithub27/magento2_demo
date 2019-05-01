@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668806785" stop="1556668807200" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Invoice\PayOperationTest</name>
+  <test-cases>
+    <test-case start="1556668806786" stop="1556668806920" status="passed">
+      <name>testExecute with data set "Invoice can capture, online"</name>
+    </test-case>
+    <test-case start="1556668806921" stop="1556668807010" status="passed">
+      <name>testExecute with data set "Invoice can capture, offline"</name>
+    </test-case>
+    <test-case start="1556668807011" stop="1556668807105" status="passed">
+      <name>testExecute with data set "Invoice can not capture, online, is not gateway, transaction is not pending"</name>
+    </test-case>
+    <test-case start="1556668807105" stop="1556668807200" status="passed">
+      <name>testExecute with data set "Invoice can not capture, offline, gateway, transaction is not pending"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

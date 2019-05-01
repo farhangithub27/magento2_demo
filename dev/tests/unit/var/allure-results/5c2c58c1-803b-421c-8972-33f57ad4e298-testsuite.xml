@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668865424" stop="1556668865438" version="1.4.0">
+  <name>Magento\Framework\Validator\Test\Unit\FactoryTest</name>
+  <test-cases>
+    <test-case start="1556668865425" stop="1556668865429" status="passed">
+      <name>testGetValidatorConfig</name>
+    </test-case>
+    <test-case start="1556668865430" stop="1556668865431" status="passed">
+      <name>testGetValidatorConfigCacheNotExist</name>
+    </test-case>
+    <test-case start="1556668865432" stop="1556668865433" status="passed">
+      <name>testGetValidatorConfigCacheExist</name>
+    </test-case>
+    <test-case start="1556668865434" stop="1556668865435" status="passed">
+      <name>testCreateValidatorBuilder</name>
+    </test-case>
+    <test-case start="1556668865436" stop="1556668865437" status="passed">
+      <name>testCreateValidator</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668681571" stop="1556668681614" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Helper\MinsaleqtyTest</name>
+  <test-cases>
+    <test-case start="1556668681571" stop="1556668681575" status="passed">
+      <name>testGetConfigValue with data set "valid numeric"</name>
+    </test-case>
+    <test-case start="1556668681576" stop="1556668681578" status="passed">
+      <name>testGetConfigValue with data set "null global group"</name>
+    </test-case>
+    <test-case start="1556668681578" stop="1556668681580" status="passed">
+      <name>testGetConfigValue with data set "null retailer group"</name>
+    </test-case>
+    <test-case start="1556668681581" stop="1556668681583" status="passed">
+      <name>testGetConfigValue with data set "valid serialized - wholesale group"</name>
+    </test-case>
+    <test-case start="1556668681584" stop="1556668681586" status="passed">
+      <name>testGetConfigValue with data set "valid serialized - general group"</name>
+    </test-case>
+    <test-case start="1556668681587" stop="1556668681588" status="passed">
+      <name>testGetConfigValue with data set "valid serialized - custom group match"</name>
+    </test-case>
+    <test-case start="1556668681589" stop="1556668681591" status="passed">
+      <name>testGetConfigValue with data set "valid serialized - custom group no match"</name>
+    </test-case>
+    <test-case start="1556668681592" stop="1556668681594" status="passed">
+      <name>testMakeArrayFieldValue with data set "empty string"</name>
+    </test-case>
+    <test-case start="1556668681595" stop="1556668681596" status="passed">
+      <name>testMakeArrayFieldValue with data set "valid with getAllCustomersGroupId lookup"</name>
+    </test-case>
+    <test-case start="1556668681597" stop="1556668681598" status="passed">
+      <name>testMakeArrayFieldValue with data set "valid with unserialize"</name>
+    </test-case>
+    <test-case start="1556668681599" stop="1556668681601" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "invalid bool"</name>
+    </test-case>
+    <test-case start="1556668681601" stop="1556668681603" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "invalid empty string"</name>
+    </test-case>
+    <test-case start="1556668681603" stop="1556668681605" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "valid numeric"</name>
+    </test-case>
+    <test-case start="1556668681605" stop="1556668681606" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "valid empty array"</name>
+    </test-case>
+    <test-case start="1556668681607" stop="1556668681609" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "valid no key match"</name>
+    </test-case>
+    <test-case start="1556668681609" stop="1556668681611" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "valid key match"</name>
+    </test-case>
+    <test-case start="1556668681611" stop="1556668681613" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "valid wholesale"</name>
+    </test-case>
+    <test-case start="1556668681613" stop="1556668681614" status="passed">
+      <name>testMakeStorableArrayFieldValue with data set "invalid - cannot override not logged in group"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

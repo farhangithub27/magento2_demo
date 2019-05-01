@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715920" stop="1556668715934" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Pricing\Render\FinalPriceBoxTest</name>
+  <test-cases>
+    <test-case start="1556668715920" stop="1556668715928" status="passed">
+      <name>testHasSpecialPrice with data set #0</name>
+    </test-case>
+    <test-case start="1556668715928" stop="1556668715931" status="passed">
+      <name>testHasSpecialPrice with data set #1</name>
+    </test-case>
+    <test-case start="1556668715931" stop="1556668715934" status="passed">
+      <name>testHasSpecialPrice with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

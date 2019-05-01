@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667163" stop="1556668667201" version="1.4.0">
+  <name>Magento\AsynchronousOperations\Test\Unit\Model\BulkStatusTest</name>
+  <test-cases>
+    <test-case start="1556668667164" stop="1556668667190" status="passed">
+      <name>testGetFailedOperationsByBulkId with data set #0</name>
+    </test-case>
+    <test-case start="1556668667190" stop="1556668667192" status="passed">
+      <name>testGetFailedOperationsByBulkId with data set #1</name>
+    </test-case>
+    <test-case start="1556668667193" stop="1556668667194" status="passed">
+      <name>testGetOperationsCountByBulkIdAndStatus</name>
+    </test-case>
+    <test-case start="1556668667195" stop="1556668667197" status="passed">
+      <name>testGetBulksByUser</name>
+    </test-case>
+    <test-case start="1556668667197" stop="1556668667201" status="passed">
+      <name>testGetBulksStatus</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

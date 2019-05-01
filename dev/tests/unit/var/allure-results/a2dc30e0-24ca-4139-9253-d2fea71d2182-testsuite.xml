@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860960" stop="1556668861030" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Adapter\Mysql\MapperTest</name>
+  <test-cases>
+    <test-case start="1556668860960" stop="1556668860985" status="passed">
+      <name>testBuildMatchQuery</name>
+    </test-case>
+    <test-case start="1556668860986" stop="1556668860994" status="passed">
+      <name>testBuildFilterQuery</name>
+    </test-case>
+    <test-case start="1556668860994" stop="1556668861003" status="passed">
+      <name>testBuildQuery with data set "one"</name>
+    </test-case>
+    <test-case start="1556668861004" stop="1556668861011" status="passed">
+      <name>testBuildQuery with data set "two"</name>
+    </test-case>
+    <test-case start="1556668861011" stop="1556668861022" status="passed">
+      <name>testBuildQuery with data set "three"</name>
+    </test-case>
+    <test-case start="1556668861022" stop="1556668861025" status="passed">
+      <name>testGetUnknownQueryType</name>
+    </test-case>
+    <test-case start="1556668861026" stop="1556668861029" status="passed">
+      <name>testUnsupportedRelevanceCalculationMethod</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

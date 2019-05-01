@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668834042" stop="1556668834113" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Model\Total\Creditmemo\WeeeTest</name>
+  <test-cases>
+    <test-case start="1556668834043" stop="1556668834063" status="passed">
+      <name>testCollect with data set "complete_creditmemo"</name>
+    </test-case>
+    <test-case start="1556668834063" stop="1556668834080" status="passed">
+      <name>testCollect with data set "partial_creditmemo"</name>
+    </test-case>
+    <test-case start="1556668834080" stop="1556668834097" status="passed">
+      <name>testCollect with data set "last_partial_creditmemo"</name>
+    </test-case>
+    <test-case start="1556668834097" stop="1556668834113" status="passed">
+      <name>testCollect with data set "zero_return"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668707605" stop="1556668707632" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Model\PaymentInformationManagementTest</name>
+  <test-cases>
+    <test-case start="1556668707606" stop="1556668707615" status="passed">
+      <name>testSavePaymentInformationAndPlaceOrder</name>
+    </test-case>
+    <test-case start="1556668707616" stop="1556668707620" status="passed">
+      <name>testSavePaymentInformationAndPlaceOrderException</name>
+    </test-case>
+    <test-case start="1556668707620" stop="1556668707621" status="passed">
+      <name>testSavePaymentInformationAndPlaceOrderIfBillingAddressNotExist</name>
+    </test-case>
+    <test-case start="1556668707622" stop="1556668707626" status="passed">
+      <name>testSavePaymentInformation</name>
+    </test-case>
+    <test-case start="1556668707626" stop="1556668707628" status="passed">
+      <name>testSavePaymentInformationWithoutBillingAddress</name>
+    </test-case>
+    <test-case start="1556668707628" stop="1556668707632" status="passed">
+      <name>testSavePaymentInformationAndPlaceOrderWithLocolizedException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

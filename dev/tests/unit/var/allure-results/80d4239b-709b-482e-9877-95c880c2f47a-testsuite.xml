@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668852370" stop="1556668852377" version="1.4.0">
+  <name>Magento\Framework\Encryption\Test\Unit\Adapter\SodiumChachaIetfTest</name>
+  <test-cases>
+    <test-case start="1556668852371" stop="1556668852371" status="passed">
+      <name>testEncrypt with data set #0</name>
+    </test-case>
+    <test-case start="1556668852372" stop="1556668852372" status="passed">
+      <name>testEncrypt with data set #1</name>
+    </test-case>
+    <test-case start="1556668852372" stop="1556668852373" status="passed">
+      <name>testEncrypt with data set #2</name>
+    </test-case>
+    <test-case start="1556668852373" stop="1556668852373" status="passed">
+      <name>testEncrypt with data set #3</name>
+    </test-case>
+    <test-case start="1556668852374" stop="1556668852374" status="passed">
+      <name>testEncrypt with data set #4</name>
+    </test-case>
+    <test-case start="1556668852374" stop="1556668852375" status="passed">
+      <name>testDecrypt with data set #0</name>
+    </test-case>
+    <test-case start="1556668852375" stop="1556668852375" status="passed">
+      <name>testDecrypt with data set #1</name>
+    </test-case>
+    <test-case start="1556668852376" stop="1556668852376" status="passed">
+      <name>testDecrypt with data set #2</name>
+    </test-case>
+    <test-case start="1556668852376" stop="1556668852377" status="passed">
+      <name>testDecrypt with data set #3</name>
+    </test-case>
+    <test-case start="1556668852377" stop="1556668852377" status="passed">
+      <name>testDecrypt with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

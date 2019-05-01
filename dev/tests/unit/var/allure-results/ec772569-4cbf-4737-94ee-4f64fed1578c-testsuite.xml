@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668827347" stop="1556668827375" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Component\Filters\Type\DateTest</name>
+  <test-cases>
+    <test-case start="1556668827347" stop="1556668827348" status="passed">
+      <name>testGetComponentName</name>
+    </test-case>
+    <test-case start="1556668827349" stop="1556668827354" status="passed">
+      <name>testPrepare with data set #0</name>
+    </test-case>
+    <test-case start="1556668827354" stop="1556668827359" status="passed">
+      <name>testPrepare with data set #1</name>
+    </test-case>
+    <test-case start="1556668827359" stop="1556668827366" status="passed">
+      <name>testPrepare with data set #2</name>
+    </test-case>
+    <test-case start="1556668827366" stop="1556668827371" status="passed">
+      <name>testPrepare with data set #3</name>
+    </test-case>
+    <test-case start="1556668827372" stop="1556668827375" status="passed">
+      <name>testPrepare with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

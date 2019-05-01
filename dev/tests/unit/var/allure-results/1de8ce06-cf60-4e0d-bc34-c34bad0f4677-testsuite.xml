@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668849407" stop="1556668849418" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\Ddl\TriggerTest</name>
+  <test-cases>
+    <test-case start="1556668849407" stop="1556668849408" status="passed">
+      <name>testGetListOfEvents</name>
+    </test-case>
+    <test-case start="1556668849408" stop="1556668849408" status="passed">
+      <name>testGetListOfTimes</name>
+    </test-case>
+    <test-case start="1556668849409" stop="1556668849409" status="passed">
+      <name>testGetNameWithSetName</name>
+    </test-case>
+    <test-case start="1556668849409" stop="1556668849410" status="passed">
+      <name>testSetNameWithException</name>
+    </test-case>
+    <test-case start="1556668849410" stop="1556668849411" status="passed">
+      <name>testSetTableWithException</name>
+    </test-case>
+    <test-case start="1556668849411" stop="1556668849411" status="passed">
+      <name>testSetTableName</name>
+    </test-case>
+    <test-case start="1556668849411" stop="1556668849412" status="passed">
+      <name>testGetNameWithException</name>
+    </test-case>
+    <test-case start="1556668849412" stop="1556668849413" status="passed">
+      <name>testGetTimeWithException</name>
+    </test-case>
+    <test-case start="1556668849413" stop="1556668849413" status="passed">
+      <name>testGetTableWithException</name>
+    </test-case>
+    <test-case start="1556668849414" stop="1556668849414" status="passed">
+      <name>testGetEventWithException</name>
+    </test-case>
+    <test-case start="1556668849414" stop="1556668849415" status="passed">
+      <name>testWrongEventTypeException</name>
+    </test-case>
+    <test-case start="1556668849415" stop="1556668849416" status="passed">
+      <name>testWrongTimeTypeException</name>
+    </test-case>
+    <test-case start="1556668849416" stop="1556668849416" status="passed">
+      <name>testAddStatementWithException</name>
+    </test-case>
+    <test-case start="1556668849417" stop="1556668849417" status="passed">
+      <name>testAddStatement with data set #0</name>
+    </test-case>
+    <test-case start="1556668849417" stop="1556668849418" status="passed">
+      <name>testAddStatement with data set #1</name>
+    </test-case>
+    <test-case start="1556668849418" stop="1556668849418" status="passed">
+      <name>testGetStatements</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

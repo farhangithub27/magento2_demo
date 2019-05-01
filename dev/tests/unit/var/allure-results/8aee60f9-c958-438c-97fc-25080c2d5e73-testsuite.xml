@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668830275" stop="1556668830297" version="1.4.0">
+  <name>Magento\UrlRewrite\Test\Unit\Controller\RouterTest</name>
+  <test-cases>
+    <test-case start="1556668830275" stop="1556668830277" status="passed">
+      <name>testNoRewriteExist</name>
+    </test-case>
+    <test-case start="1556668830278" stop="1556668830280" status="passed">
+      <name>testRewriteAfterStoreSwitcher</name>
+    </test-case>
+    <test-case start="1556668830280" stop="1556668830282" status="passed">
+      <name>testNoRewriteAfterStoreSwitcherWhenNoOldRewrite</name>
+    </test-case>
+    <test-case start="1556668830282" stop="1556668830284" status="passed">
+      <name>testNoRewriteAfterStoreSwitcherWhenOldRewriteEqualsToNewOne</name>
+    </test-case>
+    <test-case start="1556668830284" stop="1556668830286" status="passed">
+      <name>testMatchWithRedirect</name>
+    </test-case>
+    <test-case start="1556668830287" stop="1556668830289" status="passed">
+      <name>testMatchWithCustomInternalRedirect</name>
+    </test-case>
+    <test-case start="1556668830290" stop="1556668830292" status="passed">
+      <name>testMatchWithCustomExternalRedirect with data set #0</name>
+    </test-case>
+    <test-case start="1556668830292" stop="1556668830295" status="passed">
+      <name>testMatchWithCustomExternalRedirect with data set #1</name>
+    </test-case>
+    <test-case start="1556668830295" stop="1556668830297" status="passed">
+      <name>testMatch</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

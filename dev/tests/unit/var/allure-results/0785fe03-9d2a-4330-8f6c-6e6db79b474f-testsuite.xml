@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668836470" stop="1556668836520" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Helper\DataTest</name>
+  <test-cases>
+    <test-case start="1556668836471" stop="1556668836477" status="passed">
+      <name>testGetAddToCartUrl</name>
+    </test-case>
+    <test-case start="1556668836477" stop="1556668836482" status="passed">
+      <name>testGetConfigureUrl</name>
+    </test-case>
+    <test-case start="1556668836482" stop="1556668836486" status="passed">
+      <name>testGetWishlist</name>
+    </test-case>
+    <test-case start="1556668836486" stop="1556668836490" status="passed">
+      <name>testGetWishlistWithCoreRegistry</name>
+    </test-case>
+    <test-case start="1556668836490" stop="1556668836495" status="passed">
+      <name>testGetAddToCartParams</name>
+    </test-case>
+    <test-case start="1556668836495" stop="1556668836501" status="passed">
+      <name>testGetAddToCartParamsWithReferer</name>
+    </test-case>
+    <test-case start="1556668836501" stop="1556668836505" status="passed">
+      <name>testGetRemoveParams</name>
+    </test-case>
+    <test-case start="1556668836506" stop="1556668836510" status="passed">
+      <name>testGetRemoveParamsWithReferer</name>
+    </test-case>
+    <test-case start="1556668836510" stop="1556668836515" status="passed">
+      <name>testGetSharedAddToCartUrl</name>
+    </test-case>
+    <test-case start="1556668836515" stop="1556668836519" status="passed">
+      <name>testGetSharedAddAllToCartUrl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

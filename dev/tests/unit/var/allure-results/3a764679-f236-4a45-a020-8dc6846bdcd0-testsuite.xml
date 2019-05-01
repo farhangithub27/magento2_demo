@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790029" stop="1556668790033" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Observer\CustomerAuthenticatedEventObserverTest</name>
+  <test-cases>
+    <test-case start="1556668790029" stop="1556668790031" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668790031" stop="1556668790033" status="passed">
+      <name>testExecuteDuringCheckout</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

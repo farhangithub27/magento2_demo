@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668710123" stop="1556668710131" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Model\Template\FilterProviderTest</name>
+  <test-cases>
+    <test-case start="1556668710123" stop="1556668710127" status="passed">
+      <name>testGetBlockFilter</name>
+    </test-case>
+    <test-case start="1556668710127" stop="1556668710128" status="passed">
+      <name>testGetPageFilter</name>
+    </test-case>
+    <test-case start="1556668710128" stop="1556668710129" status="passed">
+      <name>testGetPageFilterInnerCache</name>
+    </test-case>
+    <test-case start="1556668710129" stop="1556668710130" status="passed">
+      <name>testGetPageWrongInstance</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

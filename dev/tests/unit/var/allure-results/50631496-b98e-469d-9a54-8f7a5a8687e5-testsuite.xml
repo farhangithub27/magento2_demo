@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668825129" stop="1556668825143" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Design\Config\StorageTest</name>
+  <test-cases>
+    <test-case start="1556668825130" stop="1556668825137" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668825137" stop="1556668825140" status="passed">
+      <name>testLoad</name>
+    </test-case>
+    <test-case start="1556668825140" stop="1556668825143" status="passed">
+      <name>testDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

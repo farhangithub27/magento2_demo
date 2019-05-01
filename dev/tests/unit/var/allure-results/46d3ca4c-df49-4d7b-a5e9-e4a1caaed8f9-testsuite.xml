@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668678573" stop="1556668678577" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Pricing\Price\DiscountCalculatorTest</name>
+  <test-cases>
+    <test-case start="1556668678573" stop="1556668678576" status="passed">
+      <name>testCalculateDiscountWithDefaultAmount</name>
+    </test-case>
+    <test-case start="1556668678576" stop="1556668678577" status="passed">
+      <name>testCalculateDiscountWithCustomAmount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668696623" stop="1556668696637" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Layer\Category\AvailabilityFlagTest</name>
+  <test-cases>
+    <test-case start="1556668696624" stop="1556668696633" status="passed">
+      <name>testIsEnabled with data set #0</name>
+    </test-case>
+    <test-case start="1556668696634" stop="1556668696635" status="passed">
+      <name>testIsEnabled with data set #1</name>
+    </test-case>
+    <test-case start="1556668696635" stop="1556668696636" status="passed">
+      <name>testIsEnabled with data set #2</name>
+    </test-case>
+    <test-case start="1556668696636" stop="1556668696637" status="passed">
+      <name>testIsEnabled with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

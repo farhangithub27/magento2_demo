@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668661330" stop="1556668661343" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\PackagesAuthTest</name>
+  <test-cases>
+    <test-case start="1556668661330" stop="1556668661335" status="passed">
+      <name>testCheckCredentialsActionBadCredentials</name>
+    </test-case>
+    <test-case start="1556668661335" stop="1556668661337" status="passed">
+      <name>testCheckCredentials</name>
+    </test-case>
+    <test-case start="1556668661337" stop="1556668661339" status="passed">
+      <name>testCheckCredentialsActionWithException</name>
+    </test-case>
+    <test-case start="1556668661339" stop="1556668661342" status="passed">
+      <name>testRemoveCredentials</name>
+    </test-case>
+    <test-case start="1556668661342" stop="1556668661343" status="passed">
+      <name>testSaveAuthJson</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

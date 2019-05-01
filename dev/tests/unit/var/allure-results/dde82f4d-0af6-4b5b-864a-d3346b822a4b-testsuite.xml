@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668814535" stop="1556668814565" version="1.4.0">
+  <name>Magento\Shipping\Test\Unit\Controller\Adminhtml\Order\Shipment\AddCommentTest</name>
+  <test-cases>
+    <test-case start="1556668814535" stop="1556668814548" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668814548" stop="1556668814555" status="passed">
+      <name>testExecuteLoadException</name>
+    </test-case>
+    <test-case start="1556668814555" stop="1556668814559" status="passed">
+      <name>testEmptyCommentData</name>
+    </test-case>
+    <test-case start="1556668814559" stop="1556668814565" status="passed">
+      <name>testExecuteExceptionSave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

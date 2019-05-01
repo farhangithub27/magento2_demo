@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845731" stop="1556668845759" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\StaticResourceTest</name>
+  <test-cases>
+    <test-case start="1556668845731" stop="1556668845736" status="passed">
+      <name>testLaunchProductionMode</name>
+    </test-case>
+    <test-case start="1556668845737" stop="1556668845740" status="passed">
+      <name>testLaunch with data set "developer mode with non-modular resource"</name>
+    </test-case>
+    <test-case start="1556668845740" stop="1556668845743" status="passed">
+      <name>testLaunch with data set "default mode with modular resource"</name>
+    </test-case>
+    <test-case start="1556668845744" stop="1556668845747" status="passed">
+      <name>testLaunch with data set "production mode with static_content_on_demand_in_production and with non-modular resource"</name>
+    </test-case>
+    <test-case start="1556668845748" stop="1556668845751" status="passed">
+      <name>testLaunch with data set "production mode with static_content_on_demand_in_production and with modular resource"</name>
+    </test-case>
+    <test-case start="1556668845752" stop="1556668845753" status="passed">
+      <name>testLaunchWrongPath</name>
+    </test-case>
+    <test-case start="1556668845753" stop="1556668845757" status="passed">
+      <name>testCatchExceptionDeveloperMode</name>
+    </test-case>
+    <test-case start="1556668845757" stop="1556668845759" status="passed">
+      <name>testLaunchPathAbove</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

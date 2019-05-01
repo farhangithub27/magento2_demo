@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668789618" stop="1556668789629" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Model\Checkout\ConfigProviderPluginTest</name>
+  <test-cases>
+    <test-case start="1556668789619" stop="1556668789624" status="passed">
+      <name>testAfterGetConfigNegative with data set #0</name>
+    </test-case>
+    <test-case start="1556668789624" stop="1556668789625" status="passed">
+      <name>testAfterGetConfigNegative with data set #1</name>
+    </test-case>
+    <test-case start="1556668789626" stop="1556668789627" status="passed">
+      <name>testAfterGetConfigNegative with data set #2</name>
+    </test-case>
+    <test-case start="1556668789627" stop="1556668789629" status="passed">
+      <name>testAfterGetConfigPositive</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668791467" stop="1556668791469" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\GuestCartManagement\Plugin\AuthorizationTest</name>
+  <test-cases>
+    <test-case start="1556668791467" stop="1556668791469" status="passed">
+      <name>testBeforeAssignCustomer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

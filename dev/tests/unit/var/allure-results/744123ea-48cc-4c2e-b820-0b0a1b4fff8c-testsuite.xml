@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668785226" stop="1556668785228" version="1.4.0">
+  <name>Magento\Payment\Test\Unit\Model\Source\CctypeTest</name>
+  <test-cases>
+    <test-case start="1556668785226" stop="1556668785227" status="passed">
+      <name>testSetAndGetAllowedTypes</name>
+    </test-case>
+    <test-case start="1556668785227" stop="1556668785227" status="passed">
+      <name>testToOptionArrayEmptyAllowed</name>
+    </test-case>
+    <test-case start="1556668785227" stop="1556668785228" status="passed">
+      <name>testToOptionArrayNotEmptyAllowed</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

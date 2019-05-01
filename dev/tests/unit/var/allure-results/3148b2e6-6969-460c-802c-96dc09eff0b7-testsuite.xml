@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790121" stop="1556668790128" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Observer\MakePersistentQuoteGuestObserverTest</name>
+  <test-cases>
+    <test-case start="1556668790122" stop="1556668790124" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668790125" stop="1556668790126" status="passed">
+      <name>testExecuteWhenShoppingCartIsPersist</name>
+    </test-case>
+    <test-case start="1556668790126" stop="1556668790127" status="passed">
+      <name>testExecuteWhenShoppingCartIsNotPersist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668712037" stop="1556668712048" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Backend\FileTest</name>
+  <test-cases>
+    <test-case start="1556668712037" stop="1556668712039" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+    <test-case start="1556668712040" stop="1556668712042" status="passed">
+      <name>testBeforeWithoutRequest</name>
+    </test-case>
+    <test-case start="1556668712042" stop="1556668712043" status="passed">
+      <name>testBeforeWithoutFile</name>
+    </test-case>
+    <test-case start="1556668712044" stop="1556668712045" status="passed">
+      <name>testBeforeWithDelete</name>
+    </test-case>
+    <test-case start="1556668712046" stop="1556668712048" status="passed">
+      <name>testBeforeSaveWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

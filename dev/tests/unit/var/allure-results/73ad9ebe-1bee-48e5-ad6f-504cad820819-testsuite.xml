@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668660690" stop="1556668660832" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\Installer\ProgressTest</name>
+  <test-cases>
+    <test-case start="1556668660690" stop="1556668660691" status="passed">
+      <name>testConstructorExceptionInvalidTotal with data set #0</name>
+    </test-case>
+    <test-case start="1556668660691" stop="1556668660692" status="passed">
+      <name>testConstructorExceptionInvalidTotal with data set #1</name>
+    </test-case>
+    <test-case start="1556668660692" stop="1556668660693" status="passed">
+      <name>testConstructorExceptionInvalidTotal with data set #2</name>
+    </test-case>
+    <test-case start="1556668660693" stop="1556668660693" status="passed">
+      <name>testConstructorExceptionCurrentExceedsTotal</name>
+    </test-case>
+    <test-case start="1556668660694" stop="1556668660694" status="passed">
+      <name>testSetNext</name>
+    </test-case>
+    <test-case start="1556668660694" stop="1556668660695" status="passed">
+      <name>testSetNextException</name>
+    </test-case>
+    <test-case start="1556668660695" stop="1556668660695" status="passed">
+      <name>testFinish</name>
+    </test-case>
+    <test-case start="1556668660695" stop="1556668660696" status="passed">
+      <name>testGetCurrent</name>
+    </test-case>
+    <test-case start="1556668660696" stop="1556668660696" status="passed">
+      <name>testGetTotal</name>
+    </test-case>
+    <test-case start="1556668660698" stop="1556668660698" status="passed">
+      <name>testRatio with data set #0</name>
+    </test-case>
+    <test-case start="1556668660699" stop="1556668660699" status="passed">
+      <name>testRatio with data set #1</name>
+    </test-case>
+    <test-case start="1556668660699" stop="1556668660700" status="passed">
+      <name>testRatio with data set #2</name>
+    </test-case>
+    <test-case start="1556668660700" stop="1556668660700" status="passed">
+      <name>testRatio with data set #3</name>
+    </test-case>
+    <test-case start="1556668660701" stop="1556668660701" status="passed">
+      <name>testRatio with data set #4</name>
+    </test-case>
+    <test-case start="1556668660702" stop="1556668660702" status="passed">
+      <name>testRatio with data set #5</name>
+    </test-case>
+    <test-case start="1556668660702" stop="1556668660703" status="passed">
+      <name>testRatio with data set #6</name>
+    </test-case>
+    <test-case start="1556668660703" stop="1556668660703" status="passed">
+      <name>testRatio with data set #7</name>
+    </test-case>
+    <test-case start="1556668660704" stop="1556668660704" status="passed">
+      <name>testRatio with data set #8</name>
+    </test-case>
+    <test-case start="1556668660705" stop="1556668660705" status="passed">
+      <name>testRatio with data set #9</name>
+    </test-case>
+    <test-case start="1556668660705" stop="1556668660706" status="passed">
+      <name>testRatio with data set #10</name>
+    </test-case>
+    <test-case start="1556668660706" stop="1556668660706" status="passed">
+      <name>testRatio with data set #11</name>
+    </test-case>
+    <test-case start="1556668660707" stop="1556668660707" status="passed">
+      <name>testRatio with data set #12</name>
+    </test-case>
+    <test-case start="1556668660707" stop="1556668660708" status="passed">
+      <name>testRatio with data set #13</name>
+    </test-case>
+    <test-case start="1556668660708" stop="1556668660709" status="passed">
+      <name>testRatio with data set #14</name>
+    </test-case>
+    <test-case start="1556668660709" stop="1556668660709" status="passed">
+      <name>testRatio with data set #15</name>
+    </test-case>
+    <test-case start="1556668660710" stop="1556668660710" status="passed">
+      <name>testRatio with data set #16</name>
+    </test-case>
+    <test-case start="1556668660710" stop="1556668660711" status="passed">
+      <name>testRatio with data set #17</name>
+    </test-case>
+    <test-case start="1556668660711" stop="1556668660711" status="passed">
+      <name>testRatio with data set #18</name>
+    </test-case>
+    <test-case start="1556668660712" stop="1556668660712" status="passed">
+      <name>testRatio with data set #19</name>
+    </test-case>
+    <test-case start="1556668660712" stop="1556668660713" status="passed">
+      <name>testRatio with data set #20</name>
+    </test-case>
+    <test-case start="1556668660713" stop="1556668660713" status="passed">
+      <name>testRatio with data set #21</name>
+    </test-case>
+    <test-case start="1556668660714" stop="1556668660714" status="passed">
+      <name>testRatio with data set #22</name>
+    </test-case>
+    <test-case start="1556668660715" stop="1556668660715" status="passed">
+      <name>testRatio with data set #23</name>
+    </test-case>
+    <test-case start="1556668660715" stop="1556668660716" status="passed">
+      <name>testRatio with data set #24</name>
+    </test-case>
+    <test-case start="1556668660716" stop="1556668660716" status="passed">
+      <name>testRatio with data set #25</name>
+    </test-case>
+    <test-case start="1556668660717" stop="1556668660717" status="passed">
+      <name>testRatio with data set #26</name>
+    </test-case>
+    <test-case start="1556668660717" stop="1556668660718" status="passed">
+      <name>testRatio with data set #27</name>
+    </test-case>
+    <test-case start="1556668660718" stop="1556668660719" status="passed">
+      <name>testRatio with data set #28</name>
+    </test-case>
+    <test-case start="1556668660719" stop="1556668660719" status="passed">
+      <name>testRatio with data set #29</name>
+    </test-case>
+    <test-case start="1556668660720" stop="1556668660720" status="passed">
+      <name>testRatio with data set #30</name>
+    </test-case>
+    <test-case start="1556668660720" stop="1556668660721" status="passed">
+      <name>testRatio with data set #31</name>
+    </test-case>
+    <test-case start="1556668660721" stop="1556668660722" status="passed">
+      <name>testRatio with data set #32</name>
+    </test-case>
+    <test-case start="1556668660722" stop="1556668660722" status="passed">
+      <name>testRatio with data set #33</name>
+    </test-case>
+    <test-case start="1556668660723" stop="1556668660723" status="passed">
+      <name>testRatio with data set #34</name>
+    </test-case>
+    <test-case start="1556668660723" stop="1556668660724" status="passed">
+      <name>testRatio with data set #35</name>
+    </test-case>
+    <test-case start="1556668660724" stop="1556668660725" status="passed">
+      <name>testRatio with data set #36</name>
+    </test-case>
+    <test-case start="1556668660725" stop="1556668660725" status="passed">
+      <name>testRatio with data set #37</name>
+    </test-case>
+    <test-case start="1556668660726" stop="1556668660726" status="passed">
+      <name>testRatio with data set #38</name>
+    </test-case>
+    <test-case start="1556668660726" stop="1556668660727" status="passed">
+      <name>testRatio with data set #39</name>
+    </test-case>
+    <test-case start="1556668660727" stop="1556668660728" status="passed">
+      <name>testRatio with data set #40</name>
+    </test-case>
+    <test-case start="1556668660728" stop="1556668660729" status="passed">
+      <name>testRatio with data set #41</name>
+    </test-case>
+    <test-case start="1556668660729" stop="1556668660729" status="passed">
+      <name>testRatio with data set #42</name>
+    </test-case>
+    <test-case start="1556668660730" stop="1556668660730" status="passed">
+      <name>testRatio with data set #43</name>
+    </test-case>
+    <test-case start="1556668660730" stop="1556668660731" status="passed">
+      <name>testRatio with data set #44</name>
+    </test-case>
+    <test-case start="1556668660731" stop="1556668660732" status="passed">
+      <name>testRatio with data set #45</name>
+    </test-case>
+    <test-case start="1556668660732" stop="1556668660732" status="passed">
+      <name>testRatio with data set #46</name>
+    </test-case>
+    <test-case start="1556668660733" stop="1556668660733" status="passed">
+      <name>testRatio with data set #47</name>
+    </test-case>
+    <test-case start="1556668660733" stop="1556668660734" status="passed">
+      <name>testRatio with data set #48</name>
+    </test-case>
+    <test-case start="1556668660734" stop="1556668660734" status="passed">
+      <name>testRatio with data set #49</name>
+    </test-case>
+    <test-case start="1556668660735" stop="1556668660735" status="passed">
+      <name>testRatio with data set #50</name>
+    </test-case>
+    <test-case start="1556668660736" stop="1556668660736" status="passed">
+      <name>testRatio with data set #51</name>
+    </test-case>
+    <test-case start="1556668660736" stop="1556668660737" status="passed">
+      <name>testRatio with data set #52</name>
+    </test-case>
+    <test-case start="1556668660737" stop="1556668660737" status="passed">
+      <name>testRatio with data set #53</name>
+    </test-case>
+    <test-case start="1556668660738" stop="1556668660738" status="passed">
+      <name>testRatio with data set #54</name>
+    </test-case>
+    <test-case start="1556668660739" stop="1556668660739" status="passed">
+      <name>testRatio with data set #55</name>
+    </test-case>
+    <test-case start="1556668660739" stop="1556668660740" status="passed">
+      <name>testRatio with data set #56</name>
+    </test-case>
+    <test-case start="1556668660740" stop="1556668660740" status="passed">
+      <name>testRatio with data set #57</name>
+    </test-case>
+    <test-case start="1556668660741" stop="1556668660741" status="passed">
+      <name>testRatio with data set #58</name>
+    </test-case>
+    <test-case start="1556668660742" stop="1556668660743" status="passed">
+      <name>testRatio with data set #59</name>
+    </test-case>
+    <test-case start="1556668660743" stop="1556668660744" status="passed">
+      <name>testRatio with data set #60</name>
+    </test-case>
+    <test-case start="1556668660744" stop="1556668660744" status="passed">
+      <name>testRatio with data set #61</name>
+    </test-case>
+    <test-case start="1556668660745" stop="1556668660745" status="passed">
+      <name>testRatio with data set #62</name>
+    </test-case>
+    <test-case start="1556668660746" stop="1556668660746" status="passed">
+      <name>testRatio with data set #63</name>
+    </test-case>
+    <test-case start="1556668660747" stop="1556668660747" status="passed">
+      <name>testRatio with data set #64</name>
+    </test-case>
+    <test-case start="1556668660747" stop="1556668660748" status="passed">
+      <name>testRatio with data set #65</name>
+    </test-case>
+    <test-case start="1556668660748" stop="1556668660748" status="passed">
+      <name>testRatio with data set #66</name>
+    </test-case>
+    <test-case start="1556668660749" stop="1556668660749" status="passed">
+      <name>testRatio with data set #67</name>
+    </test-case>
+    <test-case start="1556668660750" stop="1556668660750" status="passed">
+      <name>testRatio with data set #68</name>
+    </test-case>
+    <test-case start="1556668660750" stop="1556668660751" status="passed">
+      <name>testRatio with data set #69</name>
+    </test-case>
+    <test-case start="1556668660751" stop="1556668660751" status="passed">
+      <name>testRatio with data set #70</name>
+    </test-case>
+    <test-case start="1556668660752" stop="1556668660752" status="passed">
+      <name>testRatio with data set #71</name>
+    </test-case>
+    <test-case start="1556668660752" stop="1556668660753" status="passed">
+      <name>testRatio with data set #72</name>
+    </test-case>
+    <test-case start="1556668660753" stop="1556668660754" status="passed">
+      <name>testRatio with data set #73</name>
+    </test-case>
+    <test-case start="1556668660754" stop="1556668660754" status="passed">
+      <name>testRatio with data set #74</name>
+    </test-case>
+    <test-case start="1556668660755" stop="1556668660755" status="passed">
+      <name>testRatio with data set #75</name>
+    </test-case>
+    <test-case start="1556668660755" stop="1556668660756" status="passed">
+      <name>testRatio with data set #76</name>
+    </test-case>
+    <test-case start="1556668660756" stop="1556668660756" status="passed">
+      <name>testRatio with data set #77</name>
+    </test-case>
+    <test-case start="1556668660757" stop="1556668660757" status="passed">
+      <name>testRatio with data set #78</name>
+    </test-case>
+    <test-case start="1556668660758" stop="1556668660758" status="passed">
+      <name>testRatio with data set #79</name>
+    </test-case>
+    <test-case start="1556668660758" stop="1556668660759" status="passed">
+      <name>testRatio with data set #80</name>
+    </test-case>
+    <test-case start="1556668660759" stop="1556668660759" status="passed">
+      <name>testRatio with data set #81</name>
+    </test-case>
+    <test-case start="1556668660760" stop="1556668660760" status="passed">
+      <name>testRatio with data set #82</name>
+    </test-case>
+    <test-case start="1556668660761" stop="1556668660761" status="passed">
+      <name>testRatio with data set #83</name>
+    </test-case>
+    <test-case start="1556668660761" stop="1556668660762" status="passed">
+      <name>testRatio with data set #84</name>
+    </test-case>
+    <test-case start="1556668660762" stop="1556668660762" status="passed">
+      <name>testRatio with data set #85</name>
+    </test-case>
+    <test-case start="1556668660763" stop="1556668660763" status="passed">
+      <name>testRatio with data set #86</name>
+    </test-case>
+    <test-case start="1556668660763" stop="1556668660764" status="passed">
+      <name>testRatio with data set #87</name>
+    </test-case>
+    <test-case start="1556668660764" stop="1556668660764" status="passed">
+      <name>testRatio with data set #88</name>
+    </test-case>
+    <test-case start="1556668660765" stop="1556668660765" status="passed">
+      <name>testRatio with data set #89</name>
+    </test-case>
+    <test-case start="1556668660766" stop="1556668660766" status="passed">
+      <name>testRatio with data set #90</name>
+    </test-case>
+    <test-case start="1556668660766" stop="1556668660767" status="passed">
+      <name>testRatio with data set #91</name>
+    </test-case>
+    <test-case start="1556668660767" stop="1556668660767" status="passed">
+      <name>testRatio with data set #92</name>
+    </test-case>
+    <test-case start="1556668660768" stop="1556668660768" status="passed">
+      <name>testRatio with data set #93</name>
+    </test-case>
+    <test-case start="1556668660768" stop="1556668660769" status="passed">
+      <name>testRatio with data set #94</name>
+    </test-case>
+    <test-case start="1556668660769" stop="1556668660770" status="passed">
+      <name>testRatio with data set #95</name>
+    </test-case>
+    <test-case start="1556668660770" stop="1556668660770" status="passed">
+      <name>testRatio with data set #96</name>
+    </test-case>
+    <test-case start="1556668660771" stop="1556668660771" status="passed">
+      <name>testRatio with data set #97</name>
+    </test-case>
+    <test-case start="1556668660771" stop="1556668660772" status="passed">
+      <name>testRatio with data set #98</name>
+    </test-case>
+    <test-case start="1556668660772" stop="1556668660773" status="passed">
+      <name>testRatio with data set #99</name>
+    </test-case>
+    <test-case start="1556668660773" stop="1556668660773" status="passed">
+      <name>testRatio with data set #100</name>
+    </test-case>
+    <test-case start="1556668660774" stop="1556668660774" status="passed">
+      <name>testRatio with data set #101</name>
+    </test-case>
+    <test-case start="1556668660774" stop="1556668660775" status="passed">
+      <name>testRatio with data set #102</name>
+    </test-case>
+    <test-case start="1556668660775" stop="1556668660776" status="passed">
+      <name>testRatio with data set #103</name>
+    </test-case>
+    <test-case start="1556668660776" stop="1556668660777" status="passed">
+      <name>testRatio with data set #104</name>
+    </test-case>
+    <test-case start="1556668660778" stop="1556668660778" status="passed">
+      <name>testRatio with data set #105</name>
+    </test-case>
+    <test-case start="1556668660778" stop="1556668660779" status="passed">
+      <name>testRatio with data set #106</name>
+    </test-case>
+    <test-case start="1556668660779" stop="1556668660780" status="passed">
+      <name>testRatio with data set #107</name>
+    </test-case>
+    <test-case start="1556668660780" stop="1556668660780" status="passed">
+      <name>testRatio with data set #108</name>
+    </test-case>
+    <test-case start="1556668660781" stop="1556668660781" status="passed">
+      <name>testRatio with data set #109</name>
+    </test-case>
+    <test-case start="1556668660782" stop="1556668660782" status="passed">
+      <name>testRatio with data set #110</name>
+    </test-case>
+    <test-case start="1556668660783" stop="1556668660783" status="passed">
+      <name>testRatio with data set #111</name>
+    </test-case>
+    <test-case start="1556668660784" stop="1556668660784" status="passed">
+      <name>testRatio with data set #112</name>
+    </test-case>
+    <test-case start="1556668660784" stop="1556668660785" status="passed">
+      <name>testRatio with data set #113</name>
+    </test-case>
+    <test-case start="1556668660785" stop="1556668660785" status="passed">
+      <name>testRatio with data set #114</name>
+    </test-case>
+    <test-case start="1556668660786" stop="1556668660786" status="passed">
+      <name>testRatio with data set #115</name>
+    </test-case>
+    <test-case start="1556668660786" stop="1556668660787" status="passed">
+      <name>testRatio with data set #116</name>
+    </test-case>
+    <test-case start="1556668660787" stop="1556668660788" status="passed">
+      <name>testRatio with data set #117</name>
+    </test-case>
+    <test-case start="1556668660788" stop="1556668660788" status="passed">
+      <name>testRatio with data set #118</name>
+    </test-case>
+    <test-case start="1556668660789" stop="1556668660789" status="passed">
+      <name>testRatio with data set #119</name>
+    </test-case>
+    <test-case start="1556668660789" stop="1556668660790" status="passed">
+      <name>testRatio with data set #120</name>
+    </test-case>
+    <test-case start="1556668660790" stop="1556668660791" status="passed">
+      <name>testRatio with data set #121</name>
+    </test-case>
+    <test-case start="1556668660791" stop="1556668660792" status="passed">
+      <name>testRatio with data set #122</name>
+    </test-case>
+    <test-case start="1556668660792" stop="1556668660793" status="passed">
+      <name>testRatio with data set #123</name>
+    </test-case>
+    <test-case start="1556668660793" stop="1556668660794" status="passed">
+      <name>testRatio with data set #124</name>
+    </test-case>
+    <test-case start="1556668660794" stop="1556668660795" status="passed">
+      <name>testRatio with data set #125</name>
+    </test-case>
+    <test-case start="1556668660795" stop="1556668660796" status="passed">
+      <name>testRatio with data set #126</name>
+    </test-case>
+    <test-case start="1556668660796" stop="1556668660796" status="passed">
+      <name>testRatio with data set #127</name>
+    </test-case>
+    <test-case start="1556668660797" stop="1556668660797" status="passed">
+      <name>testRatio with data set #128</name>
+    </test-case>
+    <test-case start="1556668660798" stop="1556668660798" status="passed">
+      <name>testRatio with data set #129</name>
+    </test-case>
+    <test-case start="1556668660799" stop="1556668660799" status="passed">
+      <name>testRatio with data set #130</name>
+    </test-case>
+    <test-case start="1556668660799" stop="1556668660800" status="passed">
+      <name>testRatio with data set #131</name>
+    </test-case>
+    <test-case start="1556668660800" stop="1556668660801" status="passed">
+      <name>testRatio with data set #132</name>
+    </test-case>
+    <test-case start="1556668660801" stop="1556668660801" status="passed">
+      <name>testRatio with data set #133</name>
+    </test-case>
+    <test-case start="1556668660802" stop="1556668660802" status="passed">
+      <name>testRatio with data set #134</name>
+    </test-case>
+    <test-case start="1556668660802" stop="1556668660803" status="passed">
+      <name>testRatio with data set #135</name>
+    </test-case>
+    <test-case start="1556668660803" stop="1556668660803" status="passed">
+      <name>testRatio with data set #136</name>
+    </test-case>
+    <test-case start="1556668660804" stop="1556668660804" status="passed">
+      <name>testRatio with data set #137</name>
+    </test-case>
+    <test-case start="1556668660805" stop="1556668660805" status="passed">
+      <name>testRatio with data set #138</name>
+    </test-case>
+    <test-case start="1556668660805" stop="1556668660806" status="passed">
+      <name>testRatio with data set #139</name>
+    </test-case>
+    <test-case start="1556668660806" stop="1556668660806" status="passed">
+      <name>testRatio with data set #140</name>
+    </test-case>
+    <test-case start="1556668660807" stop="1556668660807" status="passed">
+      <name>testRatio with data set #141</name>
+    </test-case>
+    <test-case start="1556668660808" stop="1556668660808" status="passed">
+      <name>testRatio with data set #142</name>
+    </test-case>
+    <test-case start="1556668660808" stop="1556668660809" status="passed">
+      <name>testRatio with data set #143</name>
+    </test-case>
+    <test-case start="1556668660809" stop="1556668660809" status="passed">
+      <name>testRatio with data set #144</name>
+    </test-case>
+    <test-case start="1556668660810" stop="1556668660810" status="passed">
+      <name>testRatio with data set #145</name>
+    </test-case>
+    <test-case start="1556668660810" stop="1556668660811" status="passed">
+      <name>testRatio with data set #146</name>
+    </test-case>
+    <test-case start="1556668660811" stop="1556668660812" status="passed">
+      <name>testRatio with data set #147</name>
+    </test-case>
+    <test-case start="1556668660812" stop="1556668660812" status="passed">
+      <name>testRatio with data set #148</name>
+    </test-case>
+    <test-case start="1556668660813" stop="1556668660813" status="passed">
+      <name>testRatio with data set #149</name>
+    </test-case>
+    <test-case start="1556668660813" stop="1556668660814" status="passed">
+      <name>testRatio with data set #150</name>
+    </test-case>
+    <test-case start="1556668660814" stop="1556668660814" status="passed">
+      <name>testRatio with data set #151</name>
+    </test-case>
+    <test-case start="1556668660815" stop="1556668660815" status="passed">
+      <name>testRatio with data set #152</name>
+    </test-case>
+    <test-case start="1556668660816" stop="1556668660816" status="passed">
+      <name>testRatio with data set #153</name>
+    </test-case>
+    <test-case start="1556668660816" stop="1556668660817" status="passed">
+      <name>testRatio with data set #154</name>
+    </test-case>
+    <test-case start="1556668660817" stop="1556668660817" status="passed">
+      <name>testRatio with data set #155</name>
+    </test-case>
+    <test-case start="1556668660818" stop="1556668660818" status="passed">
+      <name>testRatio with data set #156</name>
+    </test-case>
+    <test-case start="1556668660818" stop="1556668660819" status="passed">
+      <name>testRatio with data set #157</name>
+    </test-case>
+    <test-case start="1556668660819" stop="1556668660820" status="passed">
+      <name>testRatio with data set #158</name>
+    </test-case>
+    <test-case start="1556668660820" stop="1556668660820" status="passed">
+      <name>testRatio with data set #159</name>
+    </test-case>
+    <test-case start="1556668660821" stop="1556668660821" status="passed">
+      <name>testRatio with data set #160</name>
+    </test-case>
+    <test-case start="1556668660821" stop="1556668660822" status="passed">
+      <name>testRatio with data set #161</name>
+    </test-case>
+    <test-case start="1556668660822" stop="1556668660823" status="passed">
+      <name>testRatio with data set #162</name>
+    </test-case>
+    <test-case start="1556668660823" stop="1556668660823" status="passed">
+      <name>testRatio with data set #163</name>
+    </test-case>
+    <test-case start="1556668660824" stop="1556668660824" status="passed">
+      <name>testRatio with data set #164</name>
+    </test-case>
+    <test-case start="1556668660824" stop="1556668660825" status="passed">
+      <name>testRatio with data set #165</name>
+    </test-case>
+    <test-case start="1556668660825" stop="1556668660825" status="passed">
+      <name>testRatio with data set #166</name>
+    </test-case>
+    <test-case start="1556668660826" stop="1556668660826" status="passed">
+      <name>testRatio with data set #167</name>
+    </test-case>
+    <test-case start="1556668660826" stop="1556668660827" status="passed">
+      <name>testRatio with data set #168</name>
+    </test-case>
+    <test-case start="1556668660827" stop="1556668660827" status="passed">
+      <name>testRatio with data set #169</name>
+    </test-case>
+    <test-case start="1556668660828" stop="1556668660828" status="passed">
+      <name>testRatio with data set #170</name>
+    </test-case>
+    <test-case start="1556668660828" stop="1556668660829" status="passed">
+      <name>testRatio with data set #171</name>
+    </test-case>
+    <test-case start="1556668660829" stop="1556668660829" status="passed">
+      <name>testRatio with data set #172</name>
+    </test-case>
+    <test-case start="1556668660830" stop="1556668660830" status="passed">
+      <name>testRatio with data set #173</name>
+    </test-case>
+    <test-case start="1556668660830" stop="1556668660831" status="passed">
+      <name>testRatio with data set #174</name>
+    </test-case>
+    <test-case start="1556668660831" stop="1556668660831" status="passed">
+      <name>testRatio with data set #175</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

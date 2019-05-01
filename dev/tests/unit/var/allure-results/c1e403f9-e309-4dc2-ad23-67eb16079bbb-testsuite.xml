@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668825654" stop="1556668825659" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Theme\Customization\File\CustomCssTest</name>
+  <test-cases>
+    <test-case start="1556668825655" stop="1556668825659" status="passed">
+      <name>testPrepareFile</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

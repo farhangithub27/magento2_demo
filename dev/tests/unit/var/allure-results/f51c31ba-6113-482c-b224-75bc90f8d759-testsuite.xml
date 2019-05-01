@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668702076" stop="1556668702092" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ResourceModel\Category\TreeTest</name>
+  <test-cases>
+    <test-case start="1556668702076" stop="1556668702079" status="passed">
+      <name>testGetCollection</name>
+    </test-case>
+    <test-case start="1556668702079" stop="1556668702081" status="passed">
+      <name>testSetCollection</name>
+    </test-case>
+    <test-case start="1556668702081" stop="1556668702083" status="passed">
+      <name>testCallCleaningDuringSetCollection</name>
+    </test-case>
+    <test-case start="1556668702084" stop="1556668702092" status="passed">
+      <name>testAddCollectionData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

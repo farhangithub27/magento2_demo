@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668780652" stop="1556668780664" version="1.4.0">
+  <name>Magento\NewRelicReporting\Test\Unit\Model\CronEventTest</name>
+  <test-cases>
+    <test-case start="1556668780653" stop="1556668780658" status="passed">
+      <name>testSendRequestStatusOk</name>
+    </test-case>
+    <test-case start="1556668780658" stop="1556668780663" status="passed">
+      <name>testSendRequestStatusBad</name>
+    </test-case>
+    <test-case start="1556668780663" stop="1556668780664" status="passed">
+      <name>testSendRequestException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

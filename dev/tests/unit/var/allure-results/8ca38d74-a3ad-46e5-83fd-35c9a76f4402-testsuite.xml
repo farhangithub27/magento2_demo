@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855878" stop="1556668855903" version="1.4.0">
+  <name>Magento\Framework\Locale\Test\Unit\TranslatedListsTest</name>
+  <test-cases>
+    <test-case start="1556668855878" stop="1556668855881" status="passed">
+      <name>testGetCountryTranslation</name>
+    </test-case>
+    <test-case start="1556668855881" stop="1556668855883" status="passed">
+      <name>testGetOptionAllCurrencies</name>
+    </test-case>
+    <test-case start="1556668855883" stop="1556668855884" status="passed">
+      <name>testGetOptionCurrencies</name>
+    </test-case>
+    <test-case start="1556668855885" stop="1556668855886" status="passed">
+      <name>testGetOptionCountries</name>
+    </test-case>
+    <test-case start="1556668855886" stop="1556668855887" status="passed">
+      <name>testGetOptionsWeekdays</name>
+    </test-case>
+    <test-case start="1556668855887" stop="1556668855896" status="passed">
+      <name>testGetOptionTimezones</name>
+    </test-case>
+    <test-case start="1556668855896" stop="1556668855901" status="passed">
+      <name>testGetOptionLocales</name>
+    </test-case>
+    <test-case start="1556668855901" stop="1556668855903" status="passed">
+      <name>testGetTranslatedOptionLocales</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

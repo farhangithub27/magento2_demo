@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668852107" stop="1556668852110" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Tree\Node\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668852107" stop="1556668852108" status="passed">
+      <name>testAdd</name>
+    </test-case>
+    <test-case start="1556668852108" stop="1556668852108" status="passed">
+      <name>testOffsets</name>
+    </test-case>
+    <test-case start="1556668852109" stop="1556668852109" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668852109" stop="1556668852110" status="passed">
+      <name>testLastNode</name>
+    </test-case>
+    <test-case start="1556668852110" stop="1556668852110" status="passed">
+      <name>testSearchById</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

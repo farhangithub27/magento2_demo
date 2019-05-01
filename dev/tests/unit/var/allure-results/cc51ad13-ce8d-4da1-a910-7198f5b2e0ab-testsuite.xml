@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668675523" stop="1556668675532" version="1.4.0">
+  <name>Magento\BundleImportExport\Test\Unit\Model\Import\Product\Type\Bundle\RelationsDataSaverTest</name>
+  <test-cases>
+    <test-case start="1556668675523" stop="1556668675528" status="passed">
+      <name>testSaveOptions</name>
+    </test-case>
+    <test-case start="1556668675529" stop="1556668675530" status="passed">
+      <name>testSaveOptionValues</name>
+    </test-case>
+    <test-case start="1556668675530" stop="1556668675531" status="passed">
+      <name>testSaveSelections</name>
+    </test-case>
+    <test-case start="1556668675531" stop="1556668675532" status="passed">
+      <name>testSaveProductRelations</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

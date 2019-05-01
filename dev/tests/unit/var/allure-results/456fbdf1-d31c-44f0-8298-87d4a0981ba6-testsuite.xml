@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668658341" stop="1556668658348" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Fixtures\AttributeSetsFixtureTest</name>
+  <test-cases>
+    <test-case start="1556668658341" stop="1556668658344" status="passed">
+      <name>testCreateAttributeSet</name>
+    </test-case>
+    <test-case start="1556668658344" stop="1556668658346" status="passed">
+      <name>testCreateProductAttributeSet</name>
+    </test-case>
+    <test-case start="1556668658346" stop="1556668658347" status="passed">
+      <name>testGetActionTitle</name>
+    </test-case>
+    <test-case start="1556668658347" stop="1556668658348" status="passed">
+      <name>testIntroduceParamLabels</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

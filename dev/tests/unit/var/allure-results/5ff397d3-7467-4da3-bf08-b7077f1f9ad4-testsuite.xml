@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668691907" stop="1556668691920" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Controller\Adminhtml\Product\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668691907" stop="1556668691913" status="passed">
+      <name>testBuildWhenProductExistAndPossibleToLoadProduct</name>
+    </test-case>
+    <test-case start="1556668691913" stop="1556668691917" status="passed">
+      <name>testBuildWhenImpossibleLoadProduct</name>
+    </test-case>
+    <test-case start="1556668691917" stop="1556668691920" status="passed">
+      <name>testBuildWhenProductNotExist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

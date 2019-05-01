@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668695762" stop="1556668695769" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Indexer\Product\CategoryTest</name>
+  <test-cases>
+    <test-case start="1556668695763" stop="1556668695766" status="passed">
+      <name>testExecuteWithIndexerWorking</name>
+    </test-case>
+    <test-case start="1556668695766" stop="1556668695767" status="passed">
+      <name>testExecuteWithIndexerNotWorking</name>
+    </test-case>
+    <test-case start="1556668695768" stop="1556668695769" status="passed">
+      <name>testExecuteFull</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

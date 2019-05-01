@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668698188" stop="1556668698205" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\ConditionTest</name>
+  <test-cases>
+    <test-case start="1556668698188" stop="1556668698190" status="passed">
+      <name>testApplyToCollection</name>
+    </test-case>
+    <test-case start="1556668698190" stop="1556668698204" status="passed">
+      <name>testGetIdsSelect</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

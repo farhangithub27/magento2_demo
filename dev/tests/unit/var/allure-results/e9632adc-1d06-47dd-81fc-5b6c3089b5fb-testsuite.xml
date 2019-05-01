@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864076" stop="1556668864091" version="1.4.0">
+  <name>Magento\Framework\Stdlib\Test\Unit\Cookie\CookieScopeTest</name>
+  <test-cases>
+    <test-case start="1556668864077" stop="1556668864079" status="passed">
+      <name>testGetSensitiveCookieMetadataEmpty</name>
+    </test-case>
+    <test-case start="1556668864079" stop="1556668864081" status="passed">
+      <name>testGetPublicCookieMetadataEmpty</name>
+    </test-case>
+    <test-case start="1556668864081" stop="1556668864082" status="passed">
+      <name>testGetCookieMetadataEmpty</name>
+    </test-case>
+    <test-case start="1556668864082" stop="1556668864084" status="passed">
+      <name>testGetSensitiveCookieMetadataDefaults</name>
+    </test-case>
+    <test-case start="1556668864084" stop="1556668864085" status="passed">
+      <name>testGetPublicCookieMetadataDefaults</name>
+    </test-case>
+    <test-case start="1556668864085" stop="1556668864086" status="passed">
+      <name>testGetCookieMetadataDefaults</name>
+    </test-case>
+    <test-case start="1556668864087" stop="1556668864088" status="passed">
+      <name>testGetSensitiveCookieMetadataOverrides</name>
+    </test-case>
+    <test-case start="1556668864088" stop="1556668864089" status="passed">
+      <name>testGetPublicCookieMetadataOverrides</name>
+    </test-case>
+    <test-case start="1556668864090" stop="1556668864091" status="passed">
+      <name>testGetCookieMetadataOverrides</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

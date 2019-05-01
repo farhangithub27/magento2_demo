@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848785" stop="1556668848792" version="1.4.0">
+  <name>Magento\Framework\Convert\Test\Unit\ExcelTest</name>
+  <test-cases>
+    <test-case start="1556668848786" stop="1556668848788" status="passed">
+      <name>testConvert</name>
+    </test-case>
+    <test-case start="1556668848788" stop="1556668848789" status="passed">
+      <name>testConvertCallback</name>
+    </test-case>
+    <test-case start="1556668848789" stop="1556668848790" status="passed">
+      <name>testWrite</name>
+    </test-case>
+    <test-case start="1556668848791" stop="1556668848791" status="passed">
+      <name>testWriteCallback</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

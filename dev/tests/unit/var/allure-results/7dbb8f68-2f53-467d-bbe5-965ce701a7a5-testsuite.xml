@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822137" stop="1556668822141" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\System\Message\NotificationsTest</name>
+  <test-cases>
+    <test-case start="1556668822137" stop="1556668822139" status="passed">
+      <name>testIsDisplayed with data set #0</name>
+    </test-case>
+    <test-case start="1556668822139" stop="1556668822140" status="passed">
+      <name>testIsDisplayed with data set #1</name>
+    </test-case>
+    <test-case start="1556668822140" stop="1556668822141" status="passed">
+      <name>testGetText</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

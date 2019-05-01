@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668659681" stop="1556668659699" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\Cron\JobComponentUninstallTest</name>
+  <test-cases>
+    <test-case start="1556668659681" stop="1556668659685" status="passed">
+      <name>testExecuteModule</name>
+    </test-case>
+    <test-case start="1556668659686" stop="1556668659687" status="passed">
+      <name>testExecuteLanguage</name>
+    </test-case>
+    <test-case start="1556668659687" stop="1556668659689" status="passed">
+      <name>testExecuteTheme</name>
+    </test-case>
+    <test-case start="1556668659690" stop="1556668659691" status="passed">
+      <name>testExecuteUnknownType</name>
+    </test-case>
+    <test-case start="1556668659692" stop="1556668659693" status="passed">
+      <name>testExecuteWrongFormat with data set "empty"</name>
+    </test-case>
+    <test-case start="1556668659694" stop="1556668659695" status="passed">
+      <name>testExecuteWrongFormat with data set "no name"</name>
+    </test-case>
+    <test-case start="1556668659696" stop="1556668659697" status="passed">
+      <name>testExecuteWrongFormat with data set "components not array"</name>
+    </test-case>
+    <test-case start="1556668659698" stop="1556668659699" status="passed">
+      <name>testExecuteUpdateFails</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

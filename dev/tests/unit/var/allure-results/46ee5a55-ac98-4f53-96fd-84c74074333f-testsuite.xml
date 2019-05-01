@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668829232" stop="1556668829263" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Model\ResourceModel\BookmarkRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668829232" stop="1556668829244" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668829245" stop="1556668829246" status="passed">
+      <name>testSaveWithException</name>
+    </test-case>
+    <test-case start="1556668829246" stop="1556668829247" status="passed">
+      <name>testGetById</name>
+    </test-case>
+    <test-case start="1556668829247" stop="1556668829249" status="passed">
+      <name>testGetByIdWithException</name>
+    </test-case>
+    <test-case start="1556668829249" stop="1556668829250" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668829250" stop="1556668829252" status="passed">
+      <name>testDeleteWithException</name>
+    </test-case>
+    <test-case start="1556668829252" stop="1556668829261" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668829262" stop="1556668829263" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668799274" stop="1556668799311" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Model\Service\CouponManagementServiceTest</name>
+  <test-cases>
+    <test-case start="1556668799275" stop="1556668799294" status="passed">
+      <name>testGenerate</name>
+    </test-case>
+    <test-case start="1556668799294" stop="1556668799296" status="passed">
+      <name>testGenerateValidationException</name>
+    </test-case>
+    <test-case start="1556668799297" stop="1556668799300" status="passed">
+      <name>testGenerateLocalizedException</name>
+    </test-case>
+    <test-case start="1556668799300" stop="1556668799302" status="passed">
+      <name>testGenerateNoSuchEntity</name>
+    </test-case>
+    <test-case start="1556668799302" stop="1556668799304" status="passed">
+      <name>testDeleteByIdsIgnore</name>
+    </test-case>
+    <test-case start="1556668799305" stop="1556668799306" status="passed">
+      <name>testDeleteByAnyNoIgnore</name>
+    </test-case>
+    <test-case start="1556668799306" stop="1556668799308" status="passed">
+      <name>testDeleteByAnyExceptionOnDelete</name>
+    </test-case>
+    <test-case start="1556668799309" stop="1556668799311" status="passed">
+      <name>testDeleteByCodes</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

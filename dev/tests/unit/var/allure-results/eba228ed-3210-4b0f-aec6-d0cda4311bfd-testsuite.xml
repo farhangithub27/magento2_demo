@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843694" stop="1556668843724" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668843695" stop="1556668843695" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "without_router_handle"</name>
+    </test-case>
+    <test-case start="1556668843696" stop="1556668843696" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_without_required_id_attribute"</name>
+    </test-case>
+    <test-case start="1556668843697" stop="1556668843698" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_with_same_id_attribute"</name>
+    </test-case>
+    <test-case start="1556668843698" stop="1556668843699" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_without_required_route_handle"</name>
+    </test-case>
+    <test-case start="1556668843699" stop="1556668843700" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "routers_with_same_id"</name>
+    </test-case>
+    <test-case start="1556668843700" stop="1556668843701" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_with_notallowed_attribute"</name>
+    </test-case>
+    <test-case start="1556668843701" stop="1556668843702" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_without_required_module_handle"</name>
+    </test-case>
+    <test-case start="1556668843702" stop="1556668843703" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_with_notallowed_attribute"</name>
+    </test-case>
+    <test-case start="1556668843703" stop="1556668843704" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "same_route_frontname_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668843704" stop="1556668843705" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "module_with_notallowed_attribute"</name>
+    </test-case>
+    <test-case start="1556668843705" stop="1556668843706" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_id_empty_value"</name>
+    </test-case>
+    <test-case start="1556668843707" stop="1556668843707" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_id_value_regexp1"</name>
+    </test-case>
+    <test-case start="1556668843708" stop="1556668843708" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_id_value_regexp2"</name>
+    </test-case>
+    <test-case start="1556668843709" stop="1556668843709" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_route_value_regexp1"</name>
+    </test-case>
+    <test-case start="1556668843710" stop="1556668843710" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_route_empty_before_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668843711" stop="1556668843711" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_route_before_attribute_value_regexp1"</name>
+    </test-case>
+    <test-case start="1556668843712" stop="1556668843713" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "router_route_before_attribute_value_regexp2"</name>
+    </test-case>
+    <test-case start="1556668843713" stop="1556668843714" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_module_without_required_name_atrribute"</name>
+    </test-case>
+    <test-case start="1556668843714" stop="1556668843715" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_module_name_attribute_value_regexp1"</name>
+    </test-case>
+    <test-case start="1556668843715" stop="1556668843716" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_module_name_attribute_value_regexp2"</name>
+    </test-case>
+    <test-case start="1556668843716" stop="1556668843717" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_module_before_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668843717" stop="1556668843718" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_module_before_attribute_value_regexp1"</name>
+    </test-case>
+    <test-case start="1556668843718" stop="1556668843719" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_module_before_attribute_value_regexp2"</name>
+    </test-case>
+    <test-case start="1556668843719" stop="1556668843720" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_module_after_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668843721" stop="1556668843721" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_module_after_attribute_value_regexp1"</name>
+    </test-case>
+    <test-case start="1556668843722" stop="1556668843722" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "route_module_after_attribute_value_regexp2"</name>
+    </test-case>
+    <test-case start="1556668843723" stop="1556668843723" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

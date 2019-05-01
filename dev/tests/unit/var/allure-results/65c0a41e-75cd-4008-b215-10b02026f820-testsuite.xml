@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843353" stop="1556668843361" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Config\Initial\ReaderTest</name>
+  <test-cases>
+    <test-case start="1556668843353" stop="1556668843355" status="passed">
+      <name>testConstructor</name>
+    </test-case>
+    <test-case start="1556668843355" stop="1556668843357" status="passed">
+      <name>testReadNoFiles</name>
+    </test-case>
+    <test-case start="1556668843357" stop="1556668843359" status="passed">
+      <name>testReadValidConfig</name>
+    </test-case>
+    <test-case start="1556668843359" stop="1556668843361" status="passed">
+      <name>testReadInvalidConfig</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

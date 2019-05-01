@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668831573" stop="1556668831604" version="1.4.0">
+  <name>Magento\Variable\Test\Unit\Model\VariableTest</name>
+  <test-cases>
+    <test-case start="1556668831574" stop="1556668831587" status="passed">
+      <name>testGetValueHtml</name>
+    </test-case>
+    <test-case start="1556668831587" stop="1556668831588" status="passed">
+      <name>testGetValueEmptyHtml</name>
+    </test-case>
+    <test-case start="1556668831589" stop="1556668831590" status="passed">
+      <name>testGetValueText</name>
+    </test-case>
+    <test-case start="1556668831590" stop="1556668831592" status="passed">
+      <name>testValidateMissingInfo with data set "Missing code"</name>
+    </test-case>
+    <test-case start="1556668831592" stop="1556668831593" status="passed">
+      <name>testValidateMissingInfo with data set "Missing name"</name>
+    </test-case>
+    <test-case start="1556668831594" stop="1556668831595" status="passed">
+      <name>testValidate with data set "Empty Variable"</name>
+    </test-case>
+    <test-case start="1556668831596" stop="1556668831597" status="passed">
+      <name>testValidate with data set "IDs match"</name>
+    </test-case>
+    <test-case start="1556668831597" stop="1556668831599" status="passed">
+      <name>testValidate with data set "IDs do not match"</name>
+    </test-case>
+    <test-case start="1556668831599" stop="1556668831601" status="passed">
+      <name>testGetVariablesOptionArrayNoGroup</name>
+    </test-case>
+    <test-case start="1556668831601" stop="1556668831604" status="passed">
+      <name>testGetVariablesOptionArrayWithGroup</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

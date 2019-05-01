@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668726405" stop="1556668726413" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Observer\BeforeAddressSaveObserverTest</name>
+  <test-cases>
+    <test-case start="1556668726406" stop="1556668726407" status="passed">
+      <name>testBeforeAddressSaveWithCustomerAddressId</name>
+    </test-case>
+    <test-case start="1556668726408" stop="1556668726410" status="passed">
+      <name>testBeforeAddressSaveWithoutCustomerAddressId with data set #0</name>
+    </test-case>
+    <test-case start="1556668726411" stop="1556668726413" status="passed">
+      <name>testBeforeAddressSaveWithoutCustomerAddressId with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

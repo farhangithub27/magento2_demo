@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668661429" stop="1556668661440" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\PayloadValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668661430" stop="1556668661431" status="passed">
+      <name>testValidatePayLoad with data set #0</name>
+    </test-case>
+    <test-case start="1556668661431" stop="1556668661431" status="passed">
+      <name>testValidatePayLoad with data set #1</name>
+    </test-case>
+    <test-case start="1556668661432" stop="1556668661432" status="passed">
+      <name>testValidatePayLoad with data set #2</name>
+    </test-case>
+    <test-case start="1556668661433" stop="1556668661433" status="passed">
+      <name>testValidatePayLoad with data set #3</name>
+    </test-case>
+    <test-case start="1556668661434" stop="1556668661434" status="passed">
+      <name>testValidatePayLoadNegativeCases with data set #0</name>
+    </test-case>
+    <test-case start="1556668661435" stop="1556668661435" status="passed">
+      <name>testValidatePayLoadNegativeCases with data set #1</name>
+    </test-case>
+    <test-case start="1556668661436" stop="1556668661436" status="passed">
+      <name>testValidatePayLoadNegativeCases with data set #2</name>
+    </test-case>
+    <test-case start="1556668661437" stop="1556668661437" status="passed">
+      <name>testValidatePayLoadNegativeCases with data set #3</name>
+    </test-case>
+    <test-case start="1556668661438" stop="1556668661438" status="passed">
+      <name>testValidatePayLoadNegativeCases with data set #4</name>
+    </test-case>
+    <test-case start="1556668661439" stop="1556668661439" status="passed">
+      <name>testValidatePayLoadNegativeCases with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

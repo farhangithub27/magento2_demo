@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668819519" stop="1556668819527" version="1.4.0">
+  <name>Magento\Swatches\Test\Unit\Controller\Adminhtml\Product\Attribute\Plugin\SaveTest</name>
+  <test-cases>
+    <test-case start="1556668819519" stop="1556668819522" status="passed">
+      <name>testBeforeDispatch with data set #0</name>
+    </test-case>
+    <test-case start="1556668819523" stop="1556668819524" status="passed">
+      <name>testBeforeDispatch with data set #1</name>
+    </test-case>
+    <test-case start="1556668819524" stop="1556668819525" status="passed">
+      <name>testBeforeDispatch with data set #2</name>
+    </test-case>
+    <test-case start="1556668819525" stop="1556668819526" status="passed">
+      <name>testBeforeDispatch with data set #3</name>
+    </test-case>
+    <test-case start="1556668819526" stop="1556668819526" status="passed">
+      <name>testBeforeDispatch with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864704" stop="1556668864707" version="1.4.0">
+  <name>Magento\Framework\Translate\Test\Unit\Inline\StateTest</name>
+  <test-cases>
+    <test-case start="1556668864704" stop="1556668864705" status="passed">
+      <name>testIsEnabled</name>
+    </test-case>
+    <test-case start="1556668864706" stop="1556668864706" status="passed">
+      <name>testSuspend</name>
+    </test-case>
+    <test-case start="1556668864706" stop="1556668864707" status="passed">
+      <name>testResume</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668853796" stop="1556668853804" version="1.4.0">
+  <name>Magento\Framework\Filesystem\Test\Unit\Driver\HttpTest</name>
+  <test-cases>
+    <test-case start="1556668853797" stop="1556668853797" status="passed">
+      <name>testIsExists with data set #0</name>
+    </test-case>
+    <test-case start="1556668853798" stop="1556668853798" status="passed">
+      <name>testIsExists with data set #1</name>
+    </test-case>
+    <test-case start="1556668853798" stop="1556668853799" status="passed">
+      <name>testStat with data set #0</name>
+    </test-case>
+    <test-case start="1556668853799" stop="1556668853800" status="passed">
+      <name>testStat with data set #1</name>
+    </test-case>
+    <test-case start="1556668853800" stop="1556668853800" status="passed">
+      <name>testFileGetContents</name>
+    </test-case>
+    <test-case start="1556668853800" stop="1556668853801" status="passed">
+      <name>testFileGetContentsNoContent</name>
+    </test-case>
+    <test-case start="1556668853801" stop="1556668853801" status="passed">
+      <name>testFilePutContents</name>
+    </test-case>
+    <test-case start="1556668853802" stop="1556668853802" status="passed">
+      <name>testFilePutContentsFail</name>
+    </test-case>
+    <test-case start="1556668853802" stop="1556668853803" status="passed">
+      <name>testFileOpenInvalidUrl</name>
+    </test-case>
+    <test-case start="1556668853803" stop="1556668853803" status="passed">
+      <name>testFileOpen</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

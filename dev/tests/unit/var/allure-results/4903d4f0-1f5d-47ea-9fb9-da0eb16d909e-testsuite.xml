@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668698855" stop="1556668698875" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\LinkTest</name>
+  <test-cases>
+    <test-case start="1556668698855" stop="1556668698860" status="passed">
+      <name>testUseRelatedLinks</name>
+    </test-case>
+    <test-case start="1556668698861" stop="1556668698862" status="passed">
+      <name>testUseUpSellLinks</name>
+    </test-case>
+    <test-case start="1556668698862" stop="1556668698864" status="passed">
+      <name>testUseCrossSellLinks</name>
+    </test-case>
+    <test-case start="1556668698864" stop="1556668698866" status="passed">
+      <name>testGetAttributeTypeTable</name>
+    </test-case>
+    <test-case start="1556668698866" stop="1556668698868" status="passed">
+      <name>testGetProductCollection</name>
+    </test-case>
+    <test-case start="1556668698868" stop="1556668698870" status="passed">
+      <name>testGetLinkCollection</name>
+    </test-case>
+    <test-case start="1556668698870" stop="1556668698872" status="passed">
+      <name>testGetAttributes</name>
+    </test-case>
+    <test-case start="1556668698872" stop="1556668698875" status="passed">
+      <name>testSaveProductRelations</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

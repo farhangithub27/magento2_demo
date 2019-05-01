@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668801479" stop="1556668801543" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Controller\Adminhtml\Invoice\AbstractInvoice\EmailTest</name>
+  <test-cases>
+    <test-case start="1556668801479" stop="1556668801518" status="passed">
+      <name>testEmail</name>
+    </test-case>
+    <test-case start="1556668801519" stop="1556668801530" status="passed">
+      <name>testEmailNoInvoiceId</name>
+    </test-case>
+    <test-case start="1556668801530" stop="1556668801542" status="passed">
+      <name>testEmailNoInvoice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

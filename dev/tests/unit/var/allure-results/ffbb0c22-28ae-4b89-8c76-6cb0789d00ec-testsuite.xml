@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668686375" stop="1556668686381" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\ResourceModel\EngineProviderTest</name>
+  <test-cases>
+    <test-case start="1556668686376" stop="1556668686378" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668686378" stop="1556668686379" status="passed">
+      <name>testGetWithoutEngines</name>
+    </test-case>
+    <test-case start="1556668686379" stop="1556668686380" status="passed">
+      <name>testGetWithWrongEngine</name>
+    </test-case>
+    <test-case start="1556668686380" stop="1556668686381" status="passed">
+      <name>testGetWithoutAvailableEngine</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

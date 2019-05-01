@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715508" stop="1556668715513" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\Quote\Item\QuantityValidator\Initializer\Option\Plugin\ConfigurableProductTest</name>
+  <test-cases>
+    <test-case start="1556668715509" stop="1556668715511" status="passed">
+      <name>testAfterGetStockItem with data set #0</name>
+    </test-case>
+    <test-case start="1556668715512" stop="1556668715512" status="passed">
+      <name>testAfterGetStockItem with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668660094" stop="1556668660106" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\CronScriptReadinessCheckTest</name>
+  <test-cases>
+    <test-case start="1556668660094" stop="1556668660096" status="passed">
+      <name>testCheckSetupNoStatusFile</name>
+    </test-case>
+    <test-case start="1556668660097" stop="1556668660097" status="passed">
+      <name>testCheckSetupNoCronConfigured</name>
+    </test-case>
+    <test-case start="1556668660097" stop="1556668660098" status="passed">
+      <name>testCheckSetupCronError</name>
+    </test-case>
+    <test-case start="1556668660098" stop="1556668660099" status="passed">
+      <name>testCheckSetupBadTime</name>
+    </test-case>
+    <test-case start="1556668660099" stop="1556668660100" status="passed">
+      <name>testCheckSetupUnknownTime</name>
+    </test-case>
+    <test-case start="1556668660100" stop="1556668660101" status="passed">
+      <name>testCheckSetup</name>
+    </test-case>
+    <test-case start="1556668660101" stop="1556668660102" status="passed">
+      <name>testCheckUpdaterNoStatusFile</name>
+    </test-case>
+    <test-case start="1556668660102" stop="1556668660102" status="passed">
+      <name>testCheckUpdaterNoCronConfigured</name>
+    </test-case>
+    <test-case start="1556668660103" stop="1556668660103" status="passed">
+      <name>testCheckUpdaterCronError</name>
+    </test-case>
+    <test-case start="1556668660103" stop="1556668660104" status="passed">
+      <name>testCheckUpdaterBadTime</name>
+    </test-case>
+    <test-case start="1556668660104" stop="1556668660105" status="passed">
+      <name>testCheckUpdaterUnknownTime</name>
+    </test-case>
+    <test-case start="1556668660105" stop="1556668660106" status="passed">
+      <name>testCheckUpdater</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

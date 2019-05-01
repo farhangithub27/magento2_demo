@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668656507" stop="1556668656514" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\Command\GenerateFixturesCommandTest</name>
+  <test-cases>
+    <test-case start="1556668656508" stop="1556668656511" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668656512" stop="1556668656513" status="passed">
+      <name>testExecuteInvalidLanguageArgument</name>
+    </test-case>
+    <test-case start="1556668656513" stop="1556668656514" status="passed">
+      <name>testSkipReindexOption</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

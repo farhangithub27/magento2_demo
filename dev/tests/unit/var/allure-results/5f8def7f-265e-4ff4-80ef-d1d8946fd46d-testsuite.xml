@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668780129" stop="1556668780237" version="1.4.0">
+  <name>Magento\Multishipping\Test\Unit\Model\Checkout\Type\MultishippingTest</name>
+  <test-cases>
+    <test-case start="1556668780130" stop="1556668780149" status="passed">
+      <name>testSetShippingItemsInformation</name>
+    </test-case>
+    <test-case start="1556668780150" stop="1556668780153" status="passed">
+      <name>testSetShippingItemsInformationForAddressLeak</name>
+    </test-case>
+    <test-case start="1556668780154" stop="1556668780156" status="passed">
+      <name>testUpdateQuoteCustomerShippingAddress</name>
+    </test-case>
+    <test-case start="1556668780157" stop="1556668780160" status="passed">
+      <name>testUpdateQuoteCustomerShippingAddressForAddressLeak</name>
+    </test-case>
+    <test-case start="1556668780160" stop="1556668780163" status="passed">
+      <name>testSetQuoteCustomerBillingAddress</name>
+    </test-case>
+    <test-case start="1556668780163" stop="1556668780166" status="passed">
+      <name>testSetQuoteCustomerBillingAddressForAddressLeak</name>
+    </test-case>
+    <test-case start="1556668780166" stop="1556668780179" status="passed">
+      <name>testGetQuoteShippingAddressesItems</name>
+    </test-case>
+    <test-case start="1556668780179" stop="1556668780185" status="passed">
+      <name>testSetShippingMethods</name>
+    </test-case>
+    <test-case start="1556668780186" stop="1556668780222" status="passed">
+      <name>testCreateOrders</name>
+    </test-case>
+    <test-case start="1556668780222" stop="1556668780227" status="passed">
+      <name>testCreateOrdersCountryNotPresentInAllowedListException</name>
+    </test-case>
+    <test-case start="1556668780228" stop="1556668780231" status="passed">
+      <name>testValidateMinimumAmountMultiAddressTrue</name>
+    </test-case>
+    <test-case start="1556668780231" stop="1556668780237" status="passed">
+      <name>testValidateMinimumAmountMultiAddressFalse</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

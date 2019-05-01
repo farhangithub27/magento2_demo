@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668828235" stop="1556668828299" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Component\MassAction\FilterTest</name>
+  <test-cases>
+    <test-case start="1556668828236" stop="1556668828240" status="passed">
+      <name>testApplySelectionOnTargetProvider with data set #0</name>
+    </test-case>
+    <test-case start="1556668828240" stop="1556668828244" status="passed">
+      <name>testApplySelectionOnTargetProvider with data set #1</name>
+    </test-case>
+    <test-case start="1556668828245" stop="1556668828249" status="passed">
+      <name>testApplySelectionOnTargetProvider with data set #2</name>
+    </test-case>
+    <test-case start="1556668828249" stop="1556668828251" status="passed">
+      <name>testApplySelectionOnTargetProvider with data set #3</name>
+    </test-case>
+    <test-case start="1556668828252" stop="1556668828255" status="passed">
+      <name>testApplySelectionOnTargetProviderException</name>
+    </test-case>
+    <test-case start="1556668828255" stop="1556668828259" status="passed">
+      <name>testGetCollection with data set #0</name>
+    </test-case>
+    <test-case start="1556668828259" stop="1556668828264" status="passed">
+      <name>testGetCollection with data set #1</name>
+    </test-case>
+    <test-case start="1556668828265" stop="1556668828269" status="passed">
+      <name>testGetCollection with data set #2</name>
+    </test-case>
+    <test-case start="1556668828270" stop="1556668828273" status="passed">
+      <name>testGetCollection with data set #3</name>
+    </test-case>
+    <test-case start="1556668828274" stop="1556668828279" status="passed">
+      <name>testGetCollectionWithCollection with data set #0</name>
+    </test-case>
+    <test-case start="1556668828279" stop="1556668828284" status="passed">
+      <name>testGetCollectionWithCollection with data set #1</name>
+    </test-case>
+    <test-case start="1556668828284" stop="1556668828289" status="passed">
+      <name>testGetCollectionWithCollection with data set #2</name>
+    </test-case>
+    <test-case start="1556668828290" stop="1556668828293" status="passed">
+      <name>testGetCollectionWithCollection with data set #3</name>
+    </test-case>
+    <test-case start="1556668828293" stop="1556668828294" status="passed">
+      <name>testPrepareComponent</name>
+    </test-case>
+    <test-case start="1556668828295" stop="1556668828296" status="passed">
+      <name>testGetComponent</name>
+    </test-case>
+    <test-case start="1556668828296" stop="1556668828297" status="passed">
+      <name>testGetComponentRefererUrlIsNotNull</name>
+    </test-case>
+    <test-case start="1556668828298" stop="1556668828299" status="passed">
+      <name>testGetComponentRefererUrlIsNull</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747180" stop="1556668747209" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\IntegrationConfigTest</name>
+  <test-cases>
+    <test-case start="1556668747181" stop="1556668747207" status="passed">
+      <name>testGetIntegrationsFromConfigCacheType</name>
+    </test-case>
+    <test-case start="1556668747207" stop="1556668747209" status="passed">
+      <name>testGetIntegrationsFromConfigReader</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

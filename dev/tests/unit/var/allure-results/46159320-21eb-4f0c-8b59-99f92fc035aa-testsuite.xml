@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668708897" stop="1556668708904" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Controller\Index\IndexTest</name>
+  <test-cases>
+    <test-case start="1556668708898" stop="1556668708902" status="passed">
+      <name>testExecuteResultPage</name>
+    </test-case>
+    <test-case start="1556668708902" stop="1556668708904" status="passed">
+      <name>testExecuteResultForward</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

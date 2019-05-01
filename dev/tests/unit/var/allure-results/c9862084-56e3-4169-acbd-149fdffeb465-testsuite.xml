@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668723683" stop="1556668723818" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\EmailNotificationTest</name>
+  <test-cases>
+    <test-case start="1556668723684" stop="1556668723707" status="passed">
+      <name>testCredentialsChanged with data set #0</name>
+    </test-case>
+    <test-case start="1556668723708" stop="1556668723748" status="passed">
+      <name>testCredentialsChanged with data set #1</name>
+    </test-case>
+    <test-case start="1556668723749" stop="1556668723790" status="passed">
+      <name>testCredentialsChanged with data set #2</name>
+    </test-case>
+    <test-case start="1556668723791" stop="1556668723797" status="passed">
+      <name>testPasswordReminder</name>
+    </test-case>
+    <test-case start="1556668723798" stop="1556668723805" status="passed">
+      <name>testPasswordReminderCustomerWithoutStoreId</name>
+    </test-case>
+    <test-case start="1556668723805" stop="1556668723811" status="passed">
+      <name>testPasswordResetConfirmation</name>
+    </test-case>
+    <test-case start="1556668723812" stop="1556668723818" status="passed">
+      <name>testNewAccount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

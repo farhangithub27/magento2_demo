@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668748575" stop="1556668748584" version="1.4.0">
+  <name>Magento\Marketplace\Test\Unit\Helper\CacheTest</name>
+  <test-cases>
+    <test-case start="1556668748576" stop="1556668748579" status="passed">
+      <name>testLoadPartnersFromCache</name>
+    </test-case>
+    <test-case start="1556668748579" stop="1556668748581" status="passed">
+      <name>testLoadPartnersFromCacheNoCachedData</name>
+    </test-case>
+    <test-case start="1556668748581" stop="1556668748584" status="passed">
+      <name>testSavePartnersToCache</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

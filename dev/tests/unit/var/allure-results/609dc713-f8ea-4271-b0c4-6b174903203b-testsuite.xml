@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668716813" stop="1556668717041" version="1.4.0">
+  <name>Magento\Cron\Test\Unit\Model\ScheduleTest</name>
+  <test-cases>
+    <test-case start="1556668716814" stop="1556668716817" status="passed">
+      <name>testSetCronExpr with data set #0</name>
+    </test-case>
+    <test-case start="1556668716818" stop="1556668716820" status="passed">
+      <name>testSetCronExpr with data set #1</name>
+    </test-case>
+    <test-case start="1556668716820" stop="1556668716822" status="passed">
+      <name>testSetCronExpr with data set #2</name>
+    </test-case>
+    <test-case start="1556668716822" stop="1556668716824" status="passed">
+      <name>testSetCronExpr with data set #3</name>
+    </test-case>
+    <test-case start="1556668716824" stop="1556668716826" status="passed">
+      <name>testSetCronExpr with data set #4</name>
+    </test-case>
+    <test-case start="1556668716826" stop="1556668716828" status="passed">
+      <name>testSetCronExpr with data set #5</name>
+    </test-case>
+    <test-case start="1556668716828" stop="1556668716830" status="passed">
+      <name>testSetCronExpr with data set #6</name>
+    </test-case>
+    <test-case start="1556668716830" stop="1556668716832" status="passed">
+      <name>testSetCronExpr with data set #7</name>
+    </test-case>
+    <test-case start="1556668716832" stop="1556668716834" status="passed">
+      <name>testSetCronExpr with data set #8</name>
+    </test-case>
+    <test-case start="1556668716834" stop="1556668716836" status="passed">
+      <name>testSetCronExpr with data set #9</name>
+    </test-case>
+    <test-case start="1556668716836" stop="1556668716838" status="passed">
+      <name>testSetCronExpr with data set #10</name>
+    </test-case>
+    <test-case start="1556668716838" stop="1556668716840" status="passed">
+      <name>testSetCronExpr with data set #11</name>
+    </test-case>
+    <test-case start="1556668716840" stop="1556668716842" status="passed">
+      <name>testSetCronExpr with data set #12</name>
+    </test-case>
+    <test-case start="1556668716842" stop="1556668716844" status="passed">
+      <name>testSetCronExpr with data set #13</name>
+    </test-case>
+    <test-case start="1556668716844" stop="1556668716845" status="passed">
+      <name>testSetCronExpr with data set #14</name>
+    </test-case>
+    <test-case start="1556668716846" stop="1556668716847" status="passed">
+      <name>testSetCronExpr with data set #15</name>
+    </test-case>
+    <test-case start="1556668716848" stop="1556668716849" status="passed">
+      <name>testSetCronExpr with data set #16</name>
+    </test-case>
+    <test-case start="1556668716850" stop="1556668716851" status="passed">
+      <name>testSetCronExpr with data set #17</name>
+    </test-case>
+    <test-case start="1556668716852" stop="1556668716853" status="passed">
+      <name>testSetCronExpr with data set #18</name>
+    </test-case>
+    <test-case start="1556668716854" stop="1556668716855" status="passed">
+      <name>testSetCronExpr with data set #19</name>
+    </test-case>
+    <test-case start="1556668716856" stop="1556668716857" status="passed">
+      <name>testSetCronExpr with data set #20</name>
+    </test-case>
+    <test-case start="1556668716858" stop="1556668716859" status="passed">
+      <name>testSetCronExpr with data set #21</name>
+    </test-case>
+    <test-case start="1556668716860" stop="1556668716861" status="passed">
+      <name>testSetCronExpr with data set #22</name>
+    </test-case>
+    <test-case start="1556668716862" stop="1556668716863" status="passed">
+      <name>testSetCronExpr with data set #23</name>
+    </test-case>
+    <test-case start="1556668716864" stop="1556668716865" status="passed">
+      <name>testSetCronExpr with data set #24</name>
+    </test-case>
+    <test-case start="1556668716866" stop="1556668716867" status="passed">
+      <name>testSetCronExpr with data set #25</name>
+    </test-case>
+    <test-case start="1556668716868" stop="1556668716869" status="passed">
+      <name>testSetCronExpr with data set #26</name>
+    </test-case>
+    <test-case start="1556668716870" stop="1556668716871" status="passed">
+      <name>testSetCronExpr with data set #27</name>
+    </test-case>
+    <test-case start="1556668716872" stop="1556668716873" status="passed">
+      <name>testSetCronExpr with data set #28</name>
+    </test-case>
+    <test-case start="1556668716874" stop="1556668716875" status="passed">
+      <name>testSetCronExpr with data set #29</name>
+    </test-case>
+    <test-case start="1556668716876" stop="1556668716877" status="passed">
+      <name>testSetCronExpr with data set #30</name>
+    </test-case>
+    <test-case start="1556668716877" stop="1556668716879" status="passed">
+      <name>testSetCronExpr with data set #31</name>
+    </test-case>
+    <test-case start="1556668716879" stop="1556668716881" status="passed">
+      <name>testSetCronExpr with data set #32</name>
+    </test-case>
+    <test-case start="1556668716881" stop="1556668716883" status="passed">
+      <name>testSetCronExpr with data set #33</name>
+    </test-case>
+    <test-case start="1556668716883" stop="1556668716885" status="passed">
+      <name>testSetCronExpr with data set #34</name>
+    </test-case>
+    <test-case start="1556668716885" stop="1556668716887" status="passed">
+      <name>testSetCronExpr with data set #35</name>
+    </test-case>
+    <test-case start="1556668716887" stop="1556668716889" status="passed">
+      <name>testSetCronExpr with data set #36</name>
+    </test-case>
+    <test-case start="1556668716889" stop="1556668716891" status="passed">
+      <name>testSetCronExpr with data set #37</name>
+    </test-case>
+    <test-case start="1556668716891" stop="1556668716893" status="passed">
+      <name>testSetCronExpr with data set #38</name>
+    </test-case>
+    <test-case start="1556668716893" stop="1556668716895" status="passed">
+      <name>testSetCronExpr with data set #39</name>
+    </test-case>
+    <test-case start="1556668716895" stop="1556668716897" status="passed">
+      <name>testSetCronExpr with data set #40</name>
+    </test-case>
+    <test-case start="1556668716897" stop="1556668716899" status="passed">
+      <name>testSetCronExpr with data set #41</name>
+    </test-case>
+    <test-case start="1556668716899" stop="1556668716901" status="passed">
+      <name>testSetCronExpr with data set #42</name>
+    </test-case>
+    <test-case start="1556668716901" stop="1556668716903" status="passed">
+      <name>testSetCronExpr with data set #43</name>
+    </test-case>
+    <test-case start="1556668716903" stop="1556668716905" status="passed">
+      <name>testSetCronExpr with data set #44</name>
+    </test-case>
+    <test-case start="1556668716905" stop="1556668716907" status="passed">
+      <name>testSetCronExpr with data set #45</name>
+    </test-case>
+    <test-case start="1556668716907" stop="1556668716909" status="passed">
+      <name>testSetCronExpr with data set #46</name>
+    </test-case>
+    <test-case start="1556668716909" stop="1556668716911" status="passed">
+      <name>testSetCronExprException with data set #0</name>
+    </test-case>
+    <test-case start="1556668716911" stop="1556668716913" status="passed">
+      <name>testSetCronExprException with data set #1</name>
+    </test-case>
+    <test-case start="1556668716913" stop="1556668716915" status="passed">
+      <name>testSetCronExprException with data set #2</name>
+    </test-case>
+    <test-case start="1556668716915" stop="1556668716917" status="passed">
+      <name>testSetCronExprException with data set #3</name>
+    </test-case>
+    <test-case start="1556668716917" stop="1556668716919" status="passed">
+      <name>testSetCronExprException with data set #4</name>
+    </test-case>
+    <test-case start="1556668716919" stop="1556668716921" status="passed">
+      <name>testTrySchedule with data set #0</name>
+    </test-case>
+    <test-case start="1556668716922" stop="1556668716923" status="passed">
+      <name>testTrySchedule with data set #1</name>
+    </test-case>
+    <test-case start="1556668716924" stop="1556668716925" status="passed">
+      <name>testTrySchedule with data set #2</name>
+    </test-case>
+    <test-case start="1556668716926" stop="1556668716927" status="passed">
+      <name>testTrySchedule with data set #3</name>
+    </test-case>
+    <test-case start="1556668716928" stop="1556668716929" status="passed">
+      <name>testTrySchedule with data set #4</name>
+    </test-case>
+    <test-case start="1556668716930" stop="1556668716931" status="passed">
+      <name>testTrySchedule with data set #5</name>
+    </test-case>
+    <test-case start="1556668716932" stop="1556668716933" status="passed">
+      <name>testTrySchedule with data set #6</name>
+    </test-case>
+    <test-case start="1556668716934" stop="1556668716935" status="passed">
+      <name>testTrySchedule with data set #7</name>
+    </test-case>
+    <test-case start="1556668716936" stop="1556668716938" status="passed">
+      <name>testTrySchedule with data set #8</name>
+    </test-case>
+    <test-case start="1556668716938" stop="1556668716940" status="passed">
+      <name>testTrySchedule with data set #9</name>
+    </test-case>
+    <test-case start="1556668716940" stop="1556668716942" status="passed">
+      <name>testTrySchedule with data set #10</name>
+    </test-case>
+    <test-case start="1556668716942" stop="1556668716944" status="passed">
+      <name>testTrySchedule with data set #11</name>
+    </test-case>
+    <test-case start="1556668716944" stop="1556668716945" status="passed">
+      <name>testTryScheduleWithConversionToAdminStoreTime</name>
+    </test-case>
+    <test-case start="1556668716946" stop="1556668716948" status="passed">
+      <name>testMatchCronExpression with data set #0</name>
+    </test-case>
+    <test-case start="1556668716948" stop="1556668716950" status="passed">
+      <name>testMatchCronExpression with data set #1</name>
+    </test-case>
+    <test-case start="1556668716950" stop="1556668716952" status="passed">
+      <name>testMatchCronExpression with data set #2</name>
+    </test-case>
+    <test-case start="1556668716952" stop="1556668716954" status="passed">
+      <name>testMatchCronExpression with data set #3</name>
+    </test-case>
+    <test-case start="1556668716954" stop="1556668716956" status="passed">
+      <name>testMatchCronExpression with data set #4</name>
+    </test-case>
+    <test-case start="1556668716956" stop="1556668716958" status="passed">
+      <name>testMatchCronExpression with data set #5</name>
+    </test-case>
+    <test-case start="1556668716958" stop="1556668716960" status="passed">
+      <name>testMatchCronExpression with data set #6</name>
+    </test-case>
+    <test-case start="1556668716960" stop="1556668716961" status="passed">
+      <name>testMatchCronExpression with data set #7</name>
+    </test-case>
+    <test-case start="1556668716962" stop="1556668716963" status="passed">
+      <name>testMatchCronExpression with data set #8</name>
+    </test-case>
+    <test-case start="1556668716964" stop="1556668716965" status="passed">
+      <name>testMatchCronExpression with data set #9</name>
+    </test-case>
+    <test-case start="1556668716966" stop="1556668716967" status="passed">
+      <name>testMatchCronExpression with data set #10</name>
+    </test-case>
+    <test-case start="1556668716968" stop="1556668716969" status="passed">
+      <name>testMatchCronExpression with data set #11</name>
+    </test-case>
+    <test-case start="1556668716970" stop="1556668716971" status="passed">
+      <name>testMatchCronExpression with data set #12</name>
+    </test-case>
+    <test-case start="1556668716972" stop="1556668716973" status="passed">
+      <name>testMatchCronExpression with data set #13</name>
+    </test-case>
+    <test-case start="1556668716974" stop="1556668716975" status="passed">
+      <name>testMatchCronExpression with data set #14</name>
+    </test-case>
+    <test-case start="1556668716976" stop="1556668716977" status="passed">
+      <name>testMatchCronExpression with data set #15</name>
+    </test-case>
+    <test-case start="1556668716978" stop="1556668716979" status="passed">
+      <name>testMatchCronExpression with data set #16</name>
+    </test-case>
+    <test-case start="1556668716980" stop="1556668716981" status="passed">
+      <name>testMatchCronExpression with data set #17</name>
+    </test-case>
+    <test-case start="1556668716982" stop="1556668716983" status="passed">
+      <name>testMatchCronExpression with data set #18</name>
+    </test-case>
+    <test-case start="1556668716984" stop="1556668716985" status="passed">
+      <name>testMatchCronExpression with data set #19</name>
+    </test-case>
+    <test-case start="1556668716986" stop="1556668716987" status="passed">
+      <name>testMatchCronExpression with data set #20</name>
+    </test-case>
+    <test-case start="1556668716988" stop="1556668716989" status="passed">
+      <name>testMatchCronExpression with data set #21</name>
+    </test-case>
+    <test-case start="1556668716990" stop="1556668716991" status="passed">
+      <name>testMatchCronExpression with data set #22</name>
+    </test-case>
+    <test-case start="1556668716992" stop="1556668716993" status="passed">
+      <name>testMatchCronExpression with data set #23</name>
+    </test-case>
+    <test-case start="1556668716994" stop="1556668716995" status="passed">
+      <name>testMatchCronExpression with data set #24</name>
+    </test-case>
+    <test-case start="1556668716996" stop="1556668716997" status="passed">
+      <name>testMatchCronExpressionException with data set #0</name>
+    </test-case>
+    <test-case start="1556668716997" stop="1556668716999" status="passed">
+      <name>testMatchCronExpressionException with data set #1</name>
+    </test-case>
+    <test-case start="1556668716999" stop="1556668717001" status="passed">
+      <name>testMatchCronExpressionException with data set #2</name>
+    </test-case>
+    <test-case start="1556668717001" stop="1556668717003" status="passed">
+      <name>testMatchCronExpressionException with data set #3</name>
+    </test-case>
+    <test-case start="1556668717004" stop="1556668717005" status="passed">
+      <name>testGetNumeric with data set #0</name>
+    </test-case>
+    <test-case start="1556668717006" stop="1556668717007" status="passed">
+      <name>testGetNumeric with data set #1</name>
+    </test-case>
+    <test-case start="1556668717007" stop="1556668717009" status="passed">
+      <name>testGetNumeric with data set #2</name>
+    </test-case>
+    <test-case start="1556668717009" stop="1556668717011" status="passed">
+      <name>testGetNumeric with data set #3</name>
+    </test-case>
+    <test-case start="1556668717011" stop="1556668717013" status="passed">
+      <name>testGetNumeric with data set #4</name>
+    </test-case>
+    <test-case start="1556668717013" stop="1556668717015" status="passed">
+      <name>testGetNumeric with data set #5</name>
+    </test-case>
+    <test-case start="1556668717015" stop="1556668717017" status="passed">
+      <name>testGetNumeric with data set #6</name>
+    </test-case>
+    <test-case start="1556668717017" stop="1556668717019" status="passed">
+      <name>testGetNumeric with data set #7</name>
+    </test-case>
+    <test-case start="1556668717019" stop="1556668717021" status="passed">
+      <name>testGetNumeric with data set #8</name>
+    </test-case>
+    <test-case start="1556668717021" stop="1556668717023" status="passed">
+      <name>testGetNumeric with data set #9</name>
+    </test-case>
+    <test-case start="1556668717023" stop="1556668717025" status="passed">
+      <name>testGetNumeric with data set #10</name>
+    </test-case>
+    <test-case start="1556668717025" stop="1556668717027" status="passed">
+      <name>testGetNumeric with data set #11</name>
+    </test-case>
+    <test-case start="1556668717027" stop="1556668717028" status="passed">
+      <name>testGetNumeric with data set #12</name>
+    </test-case>
+    <test-case start="1556668717029" stop="1556668717030" status="passed">
+      <name>testGetNumeric with data set #13</name>
+    </test-case>
+    <test-case start="1556668717031" stop="1556668717032" status="passed">
+      <name>testGetNumeric with data set #14</name>
+    </test-case>
+    <test-case start="1556668717033" stop="1556668717034" status="passed">
+      <name>testGetNumeric with data set #15</name>
+    </test-case>
+    <test-case start="1556668717035" stop="1556668717036" status="passed">
+      <name>testGetNumeric with data set #16</name>
+    </test-case>
+    <test-case start="1556668717036" stop="1556668717039" status="passed">
+      <name>testTryLockJobSuccess</name>
+    </test-case>
+    <test-case start="1556668717039" stop="1556668717041" status="passed">
+      <name>testTryLockJobFailure</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

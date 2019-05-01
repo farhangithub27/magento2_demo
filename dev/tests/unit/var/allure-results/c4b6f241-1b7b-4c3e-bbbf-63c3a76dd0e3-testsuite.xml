@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668748839" stop="1556668748872" version="1.4.0">
+  <name>Magento\MediaStorage\Test\Unit\Helper\File\StorageTest</name>
+  <test-cases>
+    <test-case start="1556668748839" stop="1556668748848" status="passed">
+      <name>testGetCurrentStorageCode</name>
+    </test-case>
+    <test-case start="1556668748848" stop="1556668748850" status="passed">
+      <name>testGetStorageFileModel</name>
+    </test-case>
+    <test-case start="1556668748851" stop="1556668748852" status="passed">
+      <name>testIsInternalStorage with data set "given external storage"</name>
+    </test-case>
+    <test-case start="1556668748853" stop="1556668748855" status="passed">
+      <name>testIsInternalStorage with data set "given internal storage"</name>
+    </test-case>
+    <test-case start="1556668748855" stop="1556668748857" status="passed">
+      <name>testIsInternalStorage with data set "not given storage"</name>
+    </test-case>
+    <test-case start="1556668748857" stop="1556668748859" status="passed">
+      <name>testGetStorageModel</name>
+    </test-case>
+    <test-case start="1556668748860" stop="1556668748863" status="passed">
+      <name>testProcessStorageFile with data set "internal storage"</name>
+    </test-case>
+    <test-case start="1556668748864" stop="1556668748866" status="passed">
+      <name>testProcessStorageFile with data set "external storage, no file"</name>
+    </test-case>
+    <test-case start="1556668748867" stop="1556668748870" status="passed">
+      <name>testProcessStorageFile with data set "external storage, with file"</name>
+    </test-case>
+    <test-case start="1556668748870" stop="1556668748872" status="passed">
+      <name>testSaveFileToFileSystem</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668834704" stop="1556668834792" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Pricing\Render\AdjustmentTest</name>
+  <test-cases>
+    <test-case start="1556668834704" stop="1556668834707" status="passed">
+      <name>testGetAdjustmentCode</name>
+    </test-case>
+    <test-case start="1556668834707" stop="1556668834710" status="passed">
+      <name>testGetFinalAmount</name>
+    </test-case>
+    <test-case start="1556668834710" stop="1556668834713" status="passed">
+      <name>testShowInclDescr with data set #0</name>
+    </test-case>
+    <test-case start="1556668834713" stop="1556668834716" status="passed">
+      <name>testShowInclDescr with data set #1</name>
+    </test-case>
+    <test-case start="1556668834716" stop="1556668834719" status="passed">
+      <name>testShowInclDescr with data set #2</name>
+    </test-case>
+    <test-case start="1556668834719" stop="1556668834722" status="passed">
+      <name>testShowInclDescr with data set #3</name>
+    </test-case>
+    <test-case start="1556668834722" stop="1556668834724" status="passed">
+      <name>testShowInclDescr with data set #4</name>
+    </test-case>
+    <test-case start="1556668834725" stop="1556668834727" status="passed">
+      <name>testShowInclDescr with data set #5</name>
+    </test-case>
+    <test-case start="1556668834727" stop="1556668834730" status="passed">
+      <name>testShowInclDescr with data set #6</name>
+    </test-case>
+    <test-case start="1556668834730" stop="1556668834733" status="passed">
+      <name>testShowInclDescr with data set #7</name>
+    </test-case>
+    <test-case start="1556668834733" stop="1556668834735" status="passed">
+      <name>testShowInclDescr with data set #8</name>
+    </test-case>
+    <test-case start="1556668834736" stop="1556668834738" status="passed">
+      <name>testShowInclDescr with data set #9</name>
+    </test-case>
+    <test-case start="1556668834738" stop="1556668834741" status="passed">
+      <name>testShowExclDescrIncl with data set #0</name>
+    </test-case>
+    <test-case start="1556668834741" stop="1556668834744" status="passed">
+      <name>testShowExclDescrIncl with data set #1</name>
+    </test-case>
+    <test-case start="1556668834744" stop="1556668834747" status="passed">
+      <name>testShowExclDescrIncl with data set #2</name>
+    </test-case>
+    <test-case start="1556668834748" stop="1556668834750" status="passed">
+      <name>testShowExclDescrIncl with data set #3</name>
+    </test-case>
+    <test-case start="1556668834750" stop="1556668834753" status="passed">
+      <name>testShowExclDescrIncl with data set #4</name>
+    </test-case>
+    <test-case start="1556668834753" stop="1556668834756" status="passed">
+      <name>testShowExclDescrIncl with data set #5</name>
+    </test-case>
+    <test-case start="1556668834756" stop="1556668834758" status="passed">
+      <name>testShowExclDescrIncl with data set #6</name>
+    </test-case>
+    <test-case start="1556668834759" stop="1556668834761" status="passed">
+      <name>testShowExclDescrIncl with data set #7</name>
+    </test-case>
+    <test-case start="1556668834762" stop="1556668834764" status="passed">
+      <name>testShowExclDescrIncl with data set #8</name>
+    </test-case>
+    <test-case start="1556668834765" stop="1556668834767" status="passed">
+      <name>testShowExclDescrIncl with data set #9</name>
+    </test-case>
+    <test-case start="1556668834767" stop="1556668834770" status="passed">
+      <name>testGetWeeeTaxAttributes with data set #0</name>
+    </test-case>
+    <test-case start="1556668834770" stop="1556668834773" status="passed">
+      <name>testGetWeeeTaxAttributes with data set #1</name>
+    </test-case>
+    <test-case start="1556668834773" stop="1556668834776" status="passed">
+      <name>testGetWeeeTaxAttributes with data set #2</name>
+    </test-case>
+    <test-case start="1556668834776" stop="1556668834779" status="passed">
+      <name>testGetWeeeTaxAttributes with data set #3</name>
+    </test-case>
+    <test-case start="1556668834779" stop="1556668834781" status="passed">
+      <name>testGetWeeeTaxAttributes with data set #4</name>
+    </test-case>
+    <test-case start="1556668834782" stop="1556668834783" status="passed">
+      <name>testRenderWeeeTaxAttributeAmount with data set #0</name>
+    </test-case>
+    <test-case start="1556668834784" stop="1556668834785" status="passed">
+      <name>testRenderWeeeTaxAttributeAmount with data set #1</name>
+    </test-case>
+    <test-case start="1556668834785" stop="1556668834787" status="passed">
+      <name>testRenderWeeeTaxAttributeName with data set #0</name>
+    </test-case>
+    <test-case start="1556668834787" stop="1556668834789" status="passed">
+      <name>testRenderWeeeTaxAttributeName with data set #1</name>
+    </test-case>
+    <test-case start="1556668834789" stop="1556668834790" status="passed">
+      <name>testRenderWeeeTaxAttributeWithTax with data set #0</name>
+    </test-case>
+    <test-case start="1556668834791" stop="1556668834792" status="passed">
+      <name>testRenderWeeeTaxAttributeWithTax with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

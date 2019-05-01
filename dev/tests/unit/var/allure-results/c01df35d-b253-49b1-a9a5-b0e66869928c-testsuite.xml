@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668871299" stop="1556668871321" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Design\Theme\ImageTest</name>
+  <test-cases>
+    <test-case start="1556668871300" stop="1556668871303" status="passed">
+      <name>testConstructor</name>
+    </test-case>
+    <test-case start="1556668871304" stop="1556668871306" status="passed">
+      <name>testCreatePreviewImage</name>
+    </test-case>
+    <test-case start="1556668871307" stop="1556668871310" status="passed">
+      <name>testCreatePreviewImageCopy</name>
+    </test-case>
+    <test-case start="1556668871310" stop="1556668871312" status="passed">
+      <name>testRemovePreviewImage</name>
+    </test-case>
+    <test-case start="1556668871312" stop="1556668871314" status="passed">
+      <name>testRemoveEmptyPreviewImage</name>
+    </test-case>
+    <test-case start="1556668871314" stop="1556668871317" status="passed">
+      <name>testUploadPreviewImage</name>
+    </test-case>
+    <test-case start="1556668871317" stop="1556668871319" status="passed">
+      <name>testGetPreviewImageUrl</name>
+    </test-case>
+    <test-case start="1556668871319" stop="1556668871321" status="passed">
+      <name>testGetDefaultPreviewImageUrl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

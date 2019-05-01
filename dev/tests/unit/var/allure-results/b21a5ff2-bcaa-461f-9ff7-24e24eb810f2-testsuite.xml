@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668700831" stop="1556668701124" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ProductRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668700831" stop="1556668700844" status="passed">
+      <name>testGetAbsentProduct</name>
+    </test-case>
+    <test-case start="1556668700844" stop="1556668700848" status="passed">
+      <name>testCreateCreatesProduct</name>
+    </test-case>
+    <test-case start="1556668700848" stop="1556668700853" status="passed">
+      <name>testGetProductInEditMode</name>
+    </test-case>
+    <test-case start="1556668700853" stop="1556668700857" status="passed">
+      <name>testGetBySkuWithSpace</name>
+    </test-case>
+    <test-case start="1556668700857" stop="1556668700861" status="passed">
+      <name>testGetWithSetStoreId</name>
+    </test-case>
+    <test-case start="1556668700862" stop="1556668700865" status="passed">
+      <name>testGetByIdAbsentProduct</name>
+    </test-case>
+    <test-case start="1556668700866" stop="1556668700871" status="passed">
+      <name>testGetByIdProductInEditMode</name>
+    </test-case>
+    <test-case start="1556668700871" stop="1556668700876" status="passed">
+      <name>testGetByIdForCacheKeyGenerate with data set #0</name>
+    </test-case>
+    <test-case start="1556668700876" stop="1556668700881" status="passed">
+      <name>testGetByIdForCacheKeyGenerate with data set #1</name>
+    </test-case>
+    <test-case start="1556668700881" stop="1556668700886" status="passed">
+      <name>testGetByIdForCacheKeyGenerate with data set #2</name>
+    </test-case>
+    <test-case start="1556668700886" stop="1556668700891" status="passed">
+      <name>testGetByIdForCacheKeyGenerate with data set #3</name>
+    </test-case>
+    <test-case start="1556668700891" stop="1556668700896" status="passed">
+      <name>testGetByIdForCacheKeyGenerate with data set #4</name>
+    </test-case>
+    <test-case start="1556668700897" stop="1556668700902" status="passed">
+      <name>testGetByIdForCacheKeyGenerate with data set #5</name>
+    </test-case>
+    <test-case start="1556668700903" stop="1556668700908" status="passed">
+      <name>testGetByIdForCacheKeyGenerate with data set #6</name>
+    </test-case>
+    <test-case start="1556668700908" stop="1556668700913" status="passed">
+      <name>testGetByIdForCacheKeyGenerate with data set #7</name>
+    </test-case>
+    <test-case start="1556668700913" stop="1556668700919" status="passed">
+      <name>testGetByIdForcedReload</name>
+    </test-case>
+    <test-case start="1556668700919" stop="1556668700928" status="passed">
+      <name>testGetByIdWhenCacheReduced</name>
+    </test-case>
+    <test-case start="1556668700928" stop="1556668700934" status="passed">
+      <name>testGetForcedReload</name>
+    </test-case>
+    <test-case start="1556668700934" stop="1556668700939" status="passed">
+      <name>testGetByIdWithSetStoreId</name>
+    </test-case>
+    <test-case start="1556668700939" stop="1556668700943" status="passed">
+      <name>testGetBySkuFromCacheInitializedInGetById</name>
+    </test-case>
+    <test-case start="1556668700944" stop="1556668700952" status="passed">
+      <name>testSaveExisting</name>
+    </test-case>
+    <test-case start="1556668700952" stop="1556668700959" status="passed">
+      <name>testSaveNew</name>
+    </test-case>
+    <test-case start="1556668700959" stop="1556668700965" status="passed">
+      <name>testSaveUnableToSaveException</name>
+    </test-case>
+    <test-case start="1556668700965" stop="1556668700971" status="passed">
+      <name>testSaveException</name>
+    </test-case>
+    <test-case start="1556668700972" stop="1556668700977" status="passed">
+      <name>testSaveInvalidProductException</name>
+    </test-case>
+    <test-case start="1556668700978" stop="1556668700984" status="passed">
+      <name>testSaveThrowsTemporaryStateExceptionIfDatabaseConnectionErrorOccurred</name>
+    </test-case>
+    <test-case start="1556668700984" stop="1556668700988" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668700988" stop="1556668700992" status="passed">
+      <name>testDeleteException</name>
+    </test-case>
+    <test-case start="1556668700992" stop="1556668700997" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668700997" stop="1556668701010" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668701011" stop="1556668701020" status="passed">
+      <name>testSaveExistingWithOptions with data set "scenario_1"</name>
+    </test-case>
+    <test-case start="1556668701020" stop="1556668701050" status="passed">
+      <name>testSaveWithLinks with data set "scenario_1"</name>
+    </test-case>
+    <test-case start="1556668701051" stop="1556668701061" status="passed">
+      <name>testSaveWithLinks with data set "scenario_2"</name>
+    </test-case>
+    <test-case start="1556668701061" stop="1556668701090" status="passed">
+      <name>testSaveWithLinks with data set "scenario_3"</name>
+    </test-case>
+    <test-case start="1556668701090" stop="1556668701104" status="passed">
+      <name>testSaveExistingWithNewMediaGalleryEntries</name>
+    </test-case>
+    <test-case start="1556668701105" stop="1556668701113" status="passed">
+      <name>testSaveWithDifferentWebsites</name>
+    </test-case>
+    <test-case start="1556668701113" stop="1556668701123" status="passed">
+      <name>testSaveExistingWithMediaGalleryEntries</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

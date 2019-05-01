@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668781091" stop="1556668781132" version="1.4.0">
+  <name>Magento\Newsletter\Test\Unit\Block\Adminhtml\Queue\PreviewTest</name>
+  <test-cases>
+    <test-case start="1556668781091" stop="1556668781118" status="passed">
+      <name>testToHtmlEmpty</name>
+    </test-case>
+    <test-case start="1556668781118" stop="1556668781132" status="passed">
+      <name>testToHtmlWithId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

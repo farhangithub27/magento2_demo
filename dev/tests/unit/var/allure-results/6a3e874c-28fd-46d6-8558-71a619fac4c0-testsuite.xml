@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668684499" stop="1556668684583" version="1.4.0">
+  <name>Magento\CatalogRule\Test\Unit\Model\RuleTest</name>
+  <test-cases>
+    <test-case start="1556668684499" stop="1556668684511" status="passed">
+      <name>testCallbackValidateProduct with data set #0</name>
+    </test-case>
+    <test-case start="1556668684512" stop="1556668684516" status="passed">
+      <name>testCallbackValidateProduct with data set #1</name>
+    </test-case>
+    <test-case start="1556668684517" stop="1556668684520" status="passed">
+      <name>testValidateData with data set #0</name>
+    </test-case>
+    <test-case start="1556668684520" stop="1556668684524" status="passed">
+      <name>testValidateData with data set #1</name>
+    </test-case>
+    <test-case start="1556668684524" stop="1556668684527" status="passed">
+      <name>testValidateData with data set #2</name>
+    </test-case>
+    <test-case start="1556668684528" stop="1556668684531" status="passed">
+      <name>testValidateData with data set #3</name>
+    </test-case>
+    <test-case start="1556668684532" stop="1556668684535" status="passed">
+      <name>testValidateData with data set #4</name>
+    </test-case>
+    <test-case start="1556668684535" stop="1556668684538" status="passed">
+      <name>testValidateData with data set #5</name>
+    </test-case>
+    <test-case start="1556668684539" stop="1556668684544" status="passed">
+      <name>testAfterDelete</name>
+    </test-case>
+    <test-case start="1556668684545" stop="1556668684548" status="passed">
+      <name>testAfterUpdate</name>
+    </test-case>
+    <test-case start="1556668684548" stop="1556668684552" status="passed">
+      <name>testIsRuleBehaviorChanged with data set #0</name>
+    </test-case>
+    <test-case start="1556668684552" stop="1556668684556" status="passed">
+      <name>testIsRuleBehaviorChanged with data set #1</name>
+    </test-case>
+    <test-case start="1556668684556" stop="1556668684560" status="passed">
+      <name>testIsRuleBehaviorChanged with data set #2</name>
+    </test-case>
+    <test-case start="1556668684560" stop="1556668684565" status="passed">
+      <name>testIsRuleBehaviorChanged with data set #3</name>
+    </test-case>
+    <test-case start="1556668684565" stop="1556668684569" status="passed">
+      <name>testIsRuleBehaviorChanged with data set #4</name>
+    </test-case>
+    <test-case start="1556668684570" stop="1556668684574" status="passed">
+      <name>testIsRuleBehaviorChanged with data set #5</name>
+    </test-case>
+    <test-case start="1556668684574" stop="1556668684579" status="passed">
+      <name>testGetConditionsFieldSetId</name>
+    </test-case>
+    <test-case start="1556668684579" stop="1556668684583" status="passed">
+      <name>testReindex</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

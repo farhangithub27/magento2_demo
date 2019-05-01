@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668699837" stop="1556668699844" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\PriceModifierTest</name>
+  <test-cases>
+    <test-case start="1556668699837" stop="1556668699839" status="passed">
+      <name>testRemoveWhenTierPricesNotExists</name>
+    </test-case>
+    <test-case start="1556668699840" stop="1556668699841" status="passed">
+      <name>testRemoveTierPriceForNonExistingCustomerGroup</name>
+    </test-case>
+    <test-case start="1556668699841" stop="1556668699842" status="passed">
+      <name>testSuccessfullyRemoveTierPriceSpecifiedForAllGroups</name>
+    </test-case>
+    <test-case start="1556668699843" stop="1556668699844" status="passed">
+      <name>testSuccessfullyRemoveTierPriceSpecifiedForSpecificGroups</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668740938" stop="1556668740961" version="1.4.0">
+  <name>Magento\GiftMessage\Test\Unit\Model\GiftMessageManagerTest</name>
+  <test-cases>
+    <test-case start="1556668740938" stop="1556668740944" status="passed">
+      <name>testAddWhenGiftMessagesIsNoArray</name>
+    </test-case>
+    <test-case start="1556668740944" stop="1556668740946" status="passed">
+      <name>testAddWithSaveMessageIdAndEmptyMessageException</name>
+    </test-case>
+    <test-case start="1556668740946" stop="1556668740950" status="passed">
+      <name>testAddWithSaveMessageIdException</name>
+    </test-case>
+    <test-case start="1556668740951" stop="1556668740955" status="passed">
+      <name>testAddWithQuoteAddress</name>
+    </test-case>
+    <test-case start="1556668740955" stop="1556668740959" status="passed">
+      <name>testAddWithQuoteAddressItem</name>
+    </test-case>
+    <test-case start="1556668740960" stop="1556668740961" status="passed">
+      <name>testSetMessageCouldNotAddGiftMessageException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856712" stop="1556668856805" version="1.4.0">
+  <name>Magento\Framework\Model\Test\Unit\ResourceModel\Db\AbstractDbTest</name>
+  <test-cases>
+    <test-case start="1556668856712" stop="1556668856714" status="passed">
+      <name>testAddUniqueField with data set #0</name>
+    </test-case>
+    <test-case start="1556668856715" stop="1556668856716" status="passed">
+      <name>testAddUniqueField with data set #1</name>
+    </test-case>
+    <test-case start="1556668856716" stop="1556668856718" status="passed">
+      <name>testAddUniqueField with data set #2</name>
+    </test-case>
+    <test-case start="1556668856718" stop="1556668856720" status="passed">
+      <name>testAddUniqueFieldArray</name>
+    </test-case>
+    <test-case start="1556668856720" stop="1556668856721" status="passed">
+      <name>testGetIdFieldNameException</name>
+    </test-case>
+    <test-case start="1556668856722" stop="1556668856723" status="passed">
+      <name>testGetIdFieldname</name>
+    </test-case>
+    <test-case start="1556668856723" stop="1556668856725" status="passed">
+      <name>testGetMainTableException</name>
+    </test-case>
+    <test-case start="1556668856725" stop="1556668856727" status="passed">
+      <name>testGetMainTable with data set #0</name>
+    </test-case>
+    <test-case start="1556668856727" stop="1556668856729" status="passed">
+      <name>testGetMainTable with data set #1</name>
+    </test-case>
+    <test-case start="1556668856729" stop="1556668856731" status="passed">
+      <name>testGetTable</name>
+    </test-case>
+    <test-case start="1556668856731" stop="1556668856732" status="passed">
+      <name>testGetChecksumNegative</name>
+    </test-case>
+    <test-case start="1556668856733" stop="1556668856734" status="passed">
+      <name>testGetChecksum with data set #0</name>
+    </test-case>
+    <test-case start="1556668856735" stop="1556668856737" status="passed">
+      <name>testGetChecksum with data set #1</name>
+    </test-case>
+    <test-case start="1556668856737" stop="1556668856738" status="passed">
+      <name>testResetUniqueField</name>
+    </test-case>
+    <test-case start="1556668856738" stop="1556668856740" status="passed">
+      <name>testGetUniqueFields</name>
+    </test-case>
+    <test-case start="1556668856740" stop="1556668856741" status="passed">
+      <name>testGetValidationRulesBeforeSave</name>
+    </test-case>
+    <test-case start="1556668856742" stop="1556668856744" status="passed">
+      <name>testLoad</name>
+    </test-case>
+    <test-case start="1556668856745" stop="1556668856751" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668856752" stop="1556668856754" status="passed">
+      <name>testHasDataChangedNegative</name>
+    </test-case>
+    <test-case start="1556668856754" stop="1556668856757" status="passed">
+      <name>testGetDataChanged with data set #0</name>
+    </test-case>
+    <test-case start="1556668856758" stop="1556668856760" status="passed">
+      <name>testGetDataChanged with data set #1</name>
+    </test-case>
+    <test-case start="1556668856761" stop="1556668856781" status="passed">
+      <name>testPrepareDataForUpdate</name>
+    </test-case>
+    <test-case start="1556668856782" stop="1556668856797" status="passed">
+      <name>testSaveNewObject with data set #0</name>
+    </test-case>
+    <test-case start="1556668856798" stop="1556668856801" status="passed">
+      <name>testSaveNewObject with data set #1</name>
+    </test-case>
+    <test-case start="1556668856801" stop="1556668856804" status="passed">
+      <name>testDuplicateExceptionProcessingOnSave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

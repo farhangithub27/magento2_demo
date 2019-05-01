@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668738689" stop="1556668738743" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\ResourceModel\IndexTest</name>
+  <test-cases>
+    <test-case start="1556668738689" stop="1556668738702" status="passed">
+      <name>testGetPriceIndexData</name>
+    </test-case>
+    <test-case start="1556668738702" stop="1556668738706" status="passed">
+      <name>testGetPriceIndexDataEmpty</name>
+    </test-case>
+    <test-case start="1556668738706" stop="1556668738710" status="passed">
+      <name>testGetCategoryProductIndexData</name>
+    </test-case>
+    <test-case start="1556668738711" stop="1556668738717" status="passed">
+      <name>testGetMovedCategoryProductIds</name>
+    </test-case>
+    <test-case start="1556668738717" stop="1556668738723" status="passed">
+      <name>testGetFullProductIndexData with data set #0</name>
+    </test-case>
+    <test-case start="1556668738723" stop="1556668738728" status="passed">
+      <name>testGetFullProductIndexData with data set #1</name>
+    </test-case>
+    <test-case start="1556668738728" stop="1556668738733" status="passed">
+      <name>testGetFullProductIndexData with data set #2</name>
+    </test-case>
+    <test-case start="1556668738734" stop="1556668738739" status="passed">
+      <name>testGetFullProductIndexData with data set #3</name>
+    </test-case>
+    <test-case start="1556668738739" stop="1556668738743" status="passed">
+      <name>testGetFullCategoryProductIndexData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

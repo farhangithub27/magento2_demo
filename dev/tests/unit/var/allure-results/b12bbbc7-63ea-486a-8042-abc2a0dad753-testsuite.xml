@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668704563" stop="1556668704594" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Ui\DataProvider\Product\Form\Modifier\CategoriesTest</name>
+  <test-cases>
+    <test-case start="1556668704563" stop="1556668704568" status="passed">
+      <name>testModifyData</name>
+    </test-case>
+    <test-case start="1556668704568" stop="1556668704572" status="passed">
+      <name>testModifyMeta</name>
+    </test-case>
+    <test-case start="1556668704572" stop="1556668704579" status="passed">
+      <name>testModifyMetaLocked with data set #0</name>
+    </test-case>
+    <test-case start="1556668704580" stop="1556668704587" status="passed">
+      <name>testModifyMetaLocked with data set #1</name>
+    </test-case>
+    <test-case start="1556668704587" stop="1556668704594" status="passed">
+      <name>testModifyMetaWithCaching</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

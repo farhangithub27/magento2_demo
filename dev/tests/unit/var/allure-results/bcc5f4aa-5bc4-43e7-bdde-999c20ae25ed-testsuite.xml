@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668853769" stop="1556668853774" version="1.4.0">
+  <name>Magento\Framework\Filesystem\Test\Unit\Driver\FileTest</name>
+  <test-cases>
+    <test-case start="1556668853769" stop="1556668853770" status="passed">
+      <name>testGetAbsolutePath with data set #0</name>
+    </test-case>
+    <test-case start="1556668853770" stop="1556668853770" status="passed">
+      <name>testGetAbsolutePath with data set #1</name>
+    </test-case>
+    <test-case start="1556668853771" stop="1556668853771" status="passed">
+      <name>testGetAbsolutePath with data set #2</name>
+    </test-case>
+    <test-case start="1556668853771" stop="1556668853772" status="passed">
+      <name>testGetAbsolutePath with data set #3</name>
+    </test-case>
+    <test-case start="1556668853772" stop="1556668853772" status="passed">
+      <name>testGetRelativePath with data set #0</name>
+    </test-case>
+    <test-case start="1556668853772" stop="1556668853773" status="passed">
+      <name>testGetRelativePath with data set #1</name>
+    </test-case>
+    <test-case start="1556668853773" stop="1556668853773" status="passed">
+      <name>testGetRelativePath with data set #2</name>
+    </test-case>
+    <test-case start="1556668853774" stop="1556668853774" status="passed">
+      <name>testGetRelativePath with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

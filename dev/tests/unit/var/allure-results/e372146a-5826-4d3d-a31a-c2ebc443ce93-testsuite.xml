@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668802945" stop="1556668802984" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Controller\Download\DownloadCustomOptionTest</name>
+  <test-cases>
+    <test-case start="1556668802945" stop="1556668802954" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668802955" stop="1556668802957" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668802958" stop="1556668802961" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668802962" stop="1556668802965" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+    <test-case start="1556668802966" stop="1556668802970" status="passed">
+      <name>testExecute with data set #4</name>
+    </test-case>
+    <test-case start="1556668802971" stop="1556668802975" status="passed">
+      <name>testExecute with data set #5</name>
+    </test-case>
+    <test-case start="1556668802975" stop="1556668802980" status="passed">
+      <name>testExecute with data set #6</name>
+    </test-case>
+    <test-case start="1556668802980" stop="1556668802984" status="passed">
+      <name>testExecuteBadSecretKey</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

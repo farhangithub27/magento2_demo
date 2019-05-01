@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668730981" stop="1556668730986" version="1.4.0">
+  <name>Magento\Developer\Test\Unit\Model\Config\Backend\WorkflowTypeTest</name>
+  <test-cases>
+    <test-case start="1556668730982" stop="1556668730984" status="passed">
+      <name>testBeforeSaveSwitchedToClientSideInProductionShouldThrowException</name>
+    </test-case>
+    <test-case start="1556668730984" stop="1556668730986" status="passed">
+      <name>testAfterSaveValueIsChangedShouldCleanViewFiles</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

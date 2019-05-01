@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668804056" stop="1556668804081" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\InvoiceRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668804056" stop="1556668804058" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668804059" stop="1556668804059" status="passed">
+      <name>testGetNoId</name>
+    </test-case>
+    <test-case start="1556668804060" stop="1556668804061" status="passed">
+      <name>testGetEntityNoId</name>
+    </test-case>
+    <test-case start="1556668804061" stop="1556668804062" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668804062" stop="1556668804073" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668804073" stop="1556668804078" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668804078" stop="1556668804080" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668804080" stop="1556668804081" status="passed">
+      <name>testSave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

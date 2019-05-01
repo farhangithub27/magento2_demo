@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822161" stop="1556668822211" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\TaxAddressManagerTest</name>
+  <test-cases>
+    <test-case start="1556668822162" stop="1556668822172" status="passed">
+      <name>testSetDefaultAddressAfterSave with data set #0</name>
+    </test-case>
+    <test-case start="1556668822172" stop="1556668822179" status="passed">
+      <name>testSetDefaultAddressAfterSave with data set #1</name>
+    </test-case>
+    <test-case start="1556668822179" stop="1556668822189" status="passed">
+      <name>testSetDefaultAddressAfterSave with data set #2</name>
+    </test-case>
+    <test-case start="1556668822190" stop="1556668822199" status="passed">
+      <name>testSetDefaultAddressAfterSave with data set #3</name>
+    </test-case>
+    <test-case start="1556668822200" stop="1556668822201" status="passed">
+      <name>testSetDefaultAddressAfterLogIn with data set #0</name>
+    </test-case>
+    <test-case start="1556668822201" stop="1556668822204" status="passed">
+      <name>testSetDefaultAddressAfterLogIn with data set #1</name>
+    </test-case>
+    <test-case start="1556668822204" stop="1556668822207" status="passed">
+      <name>testSetDefaultAddressAfterLogIn with data set #2</name>
+    </test-case>
+    <test-case start="1556668822207" stop="1556668822211" status="passed">
+      <name>testSetDefaultAddressAfterLogIn with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

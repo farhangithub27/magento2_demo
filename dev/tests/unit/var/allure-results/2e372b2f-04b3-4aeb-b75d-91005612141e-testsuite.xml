@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668693775" stop="1556668693801" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Category\Link\SaveHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668693776" stop="1556668693781" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668693781" stop="1556668693785" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668693785" stop="1556668693788" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668693789" stop="1556668693792" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+    <test-case start="1556668693793" stop="1556668693795" status="passed">
+      <name>testExecute with data set #4</name>
+    </test-case>
+    <test-case start="1556668693796" stop="1556668693799" status="passed">
+      <name>testExecute with data set #5</name>
+    </test-case>
+    <test-case start="1556668693799" stop="1556668693801" status="passed">
+      <name>testExecuteWithoutProcess</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

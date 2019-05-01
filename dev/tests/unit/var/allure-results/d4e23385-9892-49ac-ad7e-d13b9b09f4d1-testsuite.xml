@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668830749" stop="1556668830763" version="1.4.0">
+  <name>Magento\User\Test\Unit\Block\Role\Tab\EditTest</name>
+  <test-cases>
+    <test-case start="1556668830749" stop="1556668830754" status="passed">
+      <name>testGetTree</name>
+    </test-case>
+    <test-case start="1556668830755" stop="1556668830759" status="passed">
+      <name>testIsEverythingAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668830759" stop="1556668830763" status="passed">
+      <name>testIsEverythingAllowed with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

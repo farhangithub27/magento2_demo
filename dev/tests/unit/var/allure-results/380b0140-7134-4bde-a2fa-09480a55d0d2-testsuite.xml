@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838382" stop="1556668838410" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Observer\OrderSaveAfterObserverTest</name>
+  <test-cases>
+    <test-case start="1556668838382" stop="1556668838390" status="passed">
+      <name>testInvoiceNotSentIfConfigurationInvalid</name>
+    </test-case>
+    <test-case start="1556668838391" stop="1556668838393" status="passed">
+      <name>testInvoiceNotSentIfOrderAlreadyInvoiced</name>
+    </test-case>
+    <test-case start="1556668838393" stop="1556668838397" status="passed">
+      <name>testInvoiceNotSentIfOrderNotServiceable</name>
+    </test-case>
+    <test-case start="1556668838397" stop="1556668838401" status="passed">
+      <name>testInvoiceNotSentIfOrderStatusWrong</name>
+    </test-case>
+    <test-case start="1556668838401" stop="1556668838404" status="passed">
+      <name>testInvoiceNotSentIfVertexIsNotActive</name>
+    </test-case>
+    <test-case start="1556668838404" stop="1556668838410" status="passed">
+      <name>testInvoiceSentAndActionsOccur</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

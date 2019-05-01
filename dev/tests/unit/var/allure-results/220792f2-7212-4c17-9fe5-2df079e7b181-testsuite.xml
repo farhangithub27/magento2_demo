@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822440" stop="1556668822461" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\TaxClass\Source\ProductTest</name>
+  <test-cases>
+    <test-case start="1556668822440" stop="1556668822442" status="passed">
+      <name>testGetFlatColumns</name>
+    </test-case>
+    <test-case start="1556668822442" stop="1556668822445" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #0</name>
+    </test-case>
+    <test-case start="1556668822446" stop="1556668822448" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #1</name>
+    </test-case>
+    <test-case start="1556668822449" stop="1556668822451" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #2</name>
+    </test-case>
+    <test-case start="1556668822452" stop="1556668822454" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #3</name>
+    </test-case>
+    <test-case start="1556668822455" stop="1556668822458" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #4</name>
+    </test-case>
+    <test-case start="1556668822458" stop="1556668822461" status="passed">
+      <name>testGetAllOptionsNameIntegrity with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

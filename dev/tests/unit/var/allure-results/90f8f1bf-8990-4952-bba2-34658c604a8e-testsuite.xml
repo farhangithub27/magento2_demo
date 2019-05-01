@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668661762" stop="1556668661777" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\WebLoggerTest</name>
+  <test-cases>
+    <test-case start="1556668661762" stop="1556668661763" status="passed">
+      <name>testConstructorLogFileSpecified</name>
+    </test-case>
+    <test-case start="1556668661764" stop="1556668661765" status="passed">
+      <name>testLogSuccess</name>
+    </test-case>
+    <test-case start="1556668661765" stop="1556668661767" status="passed">
+      <name>testLogError</name>
+    </test-case>
+    <test-case start="1556668661767" stop="1556668661768" status="passed">
+      <name>testLog</name>
+    </test-case>
+    <test-case start="1556668661768" stop="1556668661770" status="passed">
+      <name>testLogAfterInline</name>
+    </test-case>
+    <test-case start="1556668661770" stop="1556668661771" status="passed">
+      <name>testLogInline</name>
+    </test-case>
+    <test-case start="1556668661771" stop="1556668661772" status="passed">
+      <name>testLogMeta</name>
+    </test-case>
+    <test-case start="1556668661773" stop="1556668661774" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668661774" stop="1556668661776" status="passed">
+      <name>testClear</name>
+    </test-case>
+    <test-case start="1556668661776" stop="1556668661777" status="passed">
+      <name>testClearNotExist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

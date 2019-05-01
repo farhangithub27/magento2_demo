@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856313" stop="1556668856320" version="1.4.0">
+  <name>Magento\Framework\Message\Test\Unit\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668856313" stop="1556668856314" status="passed">
+      <name>testAddMessage</name>
+    </test-case>
+    <test-case start="1556668856314" stop="1556668856315" status="passed">
+      <name>testGetItems</name>
+    </test-case>
+    <test-case start="1556668856316" stop="1556668856316" status="passed">
+      <name>testGetItemsByType</name>
+    </test-case>
+    <test-case start="1556668856317" stop="1556668856317" status="passed">
+      <name>testGetErrors</name>
+    </test-case>
+    <test-case start="1556668856318" stop="1556668856318" status="passed">
+      <name>testGetMessageByIdentifier</name>
+    </test-case>
+    <test-case start="1556668856318" stop="1556668856319" status="passed">
+      <name>testClear</name>
+    </test-case>
+    <test-case start="1556668856319" stop="1556668856320" status="passed">
+      <name>testClearWithSticky</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

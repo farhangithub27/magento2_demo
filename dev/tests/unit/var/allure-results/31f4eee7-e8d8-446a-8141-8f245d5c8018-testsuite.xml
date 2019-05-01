@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668669692" stop="1556668669728" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\App\Action\Plugin\AuthenticationTest</name>
+  <test-cases>
+    <test-case start="1556668669692" stop="1556668669699" status="passed">
+      <name>testAroundDispatchProlongStorage</name>
+    </test-case>
+    <test-case start="1556668669700" stop="1556668669708" status="passed">
+      <name>testProcessNotLoggedInUser with data set "iFrame"</name>
+    </test-case>
+    <test-case start="1556668669708" stop="1556668669716" status="passed">
+      <name>testProcessNotLoggedInUser with data set "Ajax"</name>
+    </test-case>
+    <test-case start="1556668669716" stop="1556668669724" status="passed">
+      <name>testProcessNotLoggedInUser with data set "Neither iFrame nor Ajax"</name>
+    </test-case>
+    <test-case start="1556668669724" stop="1556668669728" status="passed">
+      <name>testProcessNotLoggedInUser with data set "Forwarded request"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668851487" stop="1556668851494" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Form\Element\MultilineTest</name>
+  <test-cases>
+    <test-case start="1556668851488" stop="1556668851489" status="passed">
+      <name>testGetEscapedValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668851489" stop="1556668851490" status="passed">
+      <name>testGetEscapedValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668851490" stop="1556668851491" status="passed">
+      <name>testGetEscapedValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668851491" stop="1556668851492" status="passed">
+      <name>testGetEscapedValue with data set #3</name>
+    </test-case>
+    <test-case start="1556668851492" stop="1556668851493" status="passed">
+      <name>testGetEscapedValue with data set #4</name>
+    </test-case>
+    <test-case start="1556668851494" stop="1556668851494" status="passed">
+      <name>testGetEscapedValue with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

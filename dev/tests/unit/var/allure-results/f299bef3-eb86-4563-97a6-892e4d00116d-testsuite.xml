@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668833940" stop="1556668833942" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Model\ResourceModel\Attribute\Backend\Weee\TaxTest</name>
+  <test-cases>
+    <test-case start="1556668833941" stop="1556668833942" status="passed">
+      <name>testInsertProductData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

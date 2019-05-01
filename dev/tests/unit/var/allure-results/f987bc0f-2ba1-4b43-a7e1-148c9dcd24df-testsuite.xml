@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668846432" stop="1556668846469" version="1.4.0">
+  <name>Magento\Framework\Cache\Test\Unit\Backend\DatabaseTest</name>
+  <test-cases>
+    <test-case start="1556668846433" stop="1556668846434" status="passed">
+      <name>testInitializeWithException with data set "empty_adapter"</name>
+    </test-case>
+    <test-case start="1556668846434" stop="1556668846435" status="passed">
+      <name>testInitializeWithException with data set "empty_data_table"</name>
+    </test-case>
+    <test-case start="1556668846435" stop="1556668846435" status="passed">
+      <name>testInitializeWithException with data set "empty_tags_table"</name>
+    </test-case>
+    <test-case start="1556668846436" stop="1556668846437" status="passed">
+      <name>testLoad with data set "with_store_data"</name>
+    </test-case>
+    <test-case start="1556668846438" stop="1556668846438" status="passed">
+      <name>testLoad with data set "without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846439" stop="1556668846440" status="passed">
+      <name>testTest with data set "with_store_data"</name>
+    </test-case>
+    <test-case start="1556668846440" stop="1556668846441" status="passed">
+      <name>testTest with data set "without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846441" stop="1556668846442" status="passed">
+      <name>testSave with data set "major_case_with_store_data"</name>
+    </test-case>
+    <test-case start="1556668846443" stop="1556668846444" status="passed">
+      <name>testSave with data set "minor_case_with_store_data"</name>
+    </test-case>
+    <test-case start="1556668846444" stop="1556668846445" status="passed">
+      <name>testSave with data set "without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846445" stop="1556668846445" status="passed">
+      <name>testRemove with data set "with_store_data"</name>
+    </test-case>
+    <test-case start="1556668846446" stop="1556668846446" status="passed">
+      <name>testRemove with data set "without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846447" stop="1556668846447" status="passed">
+      <name>testClean with data set "mode_all_with_store_data"</name>
+    </test-case>
+    <test-case start="1556668846448" stop="1556668846448" status="passed">
+      <name>testClean with data set "mode_all_without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846449" stop="1556668846450" status="passed">
+      <name>testClean with data set "mode_old_with_store_data"</name>
+    </test-case>
+    <test-case start="1556668846450" stop="1556668846450" status="passed">
+      <name>testClean with data set "mode_old_without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846451" stop="1556668846451" status="passed">
+      <name>testClean with data set "mode_matching_tag_without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846452" stop="1556668846452" status="passed">
+      <name>testClean with data set "mode_not_matching_tag_without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846453" stop="1556668846453" status="passed">
+      <name>testClean with data set "mode_matching_any_tag_without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846454" stop="1556668846454" status="passed">
+      <name>testCleanException</name>
+    </test-case>
+    <test-case start="1556668846454" stop="1556668846455" status="passed">
+      <name>testGetIds with data set "with_store_data"</name>
+    </test-case>
+    <test-case start="1556668846456" stop="1556668846456" status="passed">
+      <name>testGetIds with data set "without_store_data"</name>
+    </test-case>
+    <test-case start="1556668846456" stop="1556668846458" status="passed">
+      <name>testGetTags</name>
+    </test-case>
+    <test-case start="1556668846458" stop="1556668846461" status="passed">
+      <name>testGetIdsMatchingTags</name>
+    </test-case>
+    <test-case start="1556668846461" stop="1556668846463" status="passed">
+      <name>testGetIdsNotMatchingTags</name>
+    </test-case>
+    <test-case start="1556668846463" stop="1556668846464" status="passed">
+      <name>testGetIdsMatchingAnyTags</name>
+    </test-case>
+    <test-case start="1556668846465" stop="1556668846467" status="passed">
+      <name>testGetMetadatas</name>
+    </test-case>
+    <test-case start="1556668846468" stop="1556668846468" status="passed">
+      <name>testTouch with data set "with_store_data"</name>
+    </test-case>
+    <test-case start="1556668846469" stop="1556668846469" status="passed">
+      <name>testTouch with data set "without_store_data"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

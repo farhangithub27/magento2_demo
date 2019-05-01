@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668706073" stop="1556668706089" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Block\Cart\Item\Renderer\ActionsTest</name>
+  <test-cases>
+    <test-case start="1556668706073" stop="1556668706076" status="passed">
+      <name>testGetItem</name>
+    </test-case>
+    <test-case start="1556668706076" stop="1556668706089" status="passed">
+      <name>testToHtml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

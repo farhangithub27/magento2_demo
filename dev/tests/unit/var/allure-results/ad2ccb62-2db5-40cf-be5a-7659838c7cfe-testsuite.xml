@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845496" stop="1556668845499" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Router\NoRouteHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668845496" stop="1556668845497" status="passed">
+      <name>testProcessDefault</name>
+    </test-case>
+    <test-case start="1556668845497" stop="1556668845499" status="passed">
+      <name>testProcessNoDefault</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

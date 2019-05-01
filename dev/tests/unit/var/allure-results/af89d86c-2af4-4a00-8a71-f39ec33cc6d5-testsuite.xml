@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856553" stop="1556668856565" version="1.4.0">
+  <name>Magento\Framework\Model\Test\Unit\AbstractExtensibleModelTest</name>
+  <test-cases>
+    <test-case start="1556668856553" stop="1556668856556" status="passed">
+      <name>testCustomAttributesWithEmptyCustomAttributes</name>
+    </test-case>
+    <test-case start="1556668856557" stop="1556668856559" status="passed">
+      <name>testCustomAttributesWithNonEmptyCustomAttributes</name>
+    </test-case>
+    <test-case start="1556668856559" stop="1556668856560" status="passed">
+      <name>testGetDataWithCustomAttributes</name>
+    </test-case>
+    <test-case start="1556668856561" stop="1556668856562" status="passed">
+      <name>testRestrictedCustomAttributesGet</name>
+    </test-case>
+    <test-case start="1556668856563" stop="1556668856564" status="passed">
+      <name>testSetCustomAttributesAsLiterals</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668801565" stop="1556668801617" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Controller\Adminhtml\Order\AddCommentTest</name>
+  <test-cases>
+    <test-case start="1556668801565" stop="1556668801583" status="passed">
+      <name>testExecuteWillNotifyCustomer with data set "User Has Access - Notify True"</name>
+    </test-case>
+    <test-case start="1556668801583" stop="1556668801590" status="passed">
+      <name>testExecuteWillNotifyCustomer with data set "User Has Access - Notify False"</name>
+    </test-case>
+    <test-case start="1556668801591" stop="1556668801597" status="passed">
+      <name>testExecuteWillNotifyCustomer with data set "User Has Access - Notify Unset"</name>
+    </test-case>
+    <test-case start="1556668801597" stop="1556668801604" status="passed">
+      <name>testExecuteWillNotifyCustomer with data set "User No Access - Notify True"</name>
+    </test-case>
+    <test-case start="1556668801604" stop="1556668801610" status="passed">
+      <name>testExecuteWillNotifyCustomer with data set "User No Access - Notify False"</name>
+    </test-case>
+    <test-case start="1556668801611" stop="1556668801617" status="passed">
+      <name>testExecuteWillNotifyCustomer with data set "User No Access - Notify Unset"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

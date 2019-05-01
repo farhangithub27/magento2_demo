@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668798456" stop="1556668798489" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Model\CouponRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668798457" stop="1556668798466" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668798467" stop="1556668798469" status="passed">
+      <name>testSaveWithExceptions with data set #0</name>
+    </test-case>
+    <test-case start="1556668798469" stop="1556668798471" status="passed">
+      <name>testSaveWithExceptions with data set #1</name>
+    </test-case>
+    <test-case start="1556668798471" stop="1556668798473" status="passed">
+      <name>testGetById</name>
+    </test-case>
+    <test-case start="1556668798473" stop="1556668798475" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668798475" stop="1556668798488" status="passed">
+      <name>testGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

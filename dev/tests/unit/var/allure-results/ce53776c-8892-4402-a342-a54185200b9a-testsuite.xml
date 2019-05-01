@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668748678" stop="1556668748694" version="1.4.0">
+  <name>Magento\MediaStorage\Test\Unit\Helper\File\MediaTest</name>
+  <test-cases>
+    <test-case start="1556668748679" stop="1556668748684" status="passed">
+      <name>testCollectFileInfo with data set "file only"</name>
+    </test-case>
+    <test-case start="1556668748684" stop="1556668748687" status="passed">
+      <name>testCollectFileInfo with data set "with dir"</name>
+    </test-case>
+    <test-case start="1556668748688" stop="1556668748690" status="passed">
+      <name>testCollectFileInfoNotFile</name>
+    </test-case>
+    <test-case start="1556668748691" stop="1556668748693" status="passed">
+      <name>testCollectFileInfoNotReadable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

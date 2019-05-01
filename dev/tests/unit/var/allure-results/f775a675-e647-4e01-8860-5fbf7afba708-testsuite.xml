@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668686830" stop="1556668686893" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Search\RequestGeneratorTest</name>
+  <test-cases>
+    <test-case start="1556668686830" stop="1556668686837" status="passed">
+      <name>testGenerate with data set #0</name>
+    </test-case>
+    <test-case start="1556668686838" stop="1556668686845" status="passed">
+      <name>testGenerate with data set #1</name>
+    </test-case>
+    <test-case start="1556668686845" stop="1556668686855" status="passed">
+      <name>testGenerate with data set #2</name>
+    </test-case>
+    <test-case start="1556668686855" stop="1556668686863" status="passed">
+      <name>testGenerate with data set #3</name>
+    </test-case>
+    <test-case start="1556668686864" stop="1556668686877" status="passed">
+      <name>testGenerate with data set #4</name>
+    </test-case>
+    <test-case start="1556668686877" stop="1556668686885" status="passed">
+      <name>testGenerate with data set #5</name>
+    </test-case>
+    <test-case start="1556668686886" stop="1556668686893" status="passed">
+      <name>testGenerate with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

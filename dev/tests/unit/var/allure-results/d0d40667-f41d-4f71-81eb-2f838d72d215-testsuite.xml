@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668673730" stop="1556668673771" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Config\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668673731" stop="1556668673732" status="passed">
+      <name>testGetCountrySpecificCardTypeConfig with data set "valid data"</name>
+    </test-case>
+    <test-case start="1556668673732" stop="1556668673733" status="passed">
+      <name>testGetCountrySpecificCardTypeConfig with data set "non-array value"</name>
+    </test-case>
+    <test-case start="1556668673734" stop="1556668673735" status="passed">
+      <name>testGetAvailableCardTypes with data set #0</name>
+    </test-case>
+    <test-case start="1556668673735" stop="1556668673736" status="passed">
+      <name>testGetAvailableCardTypes with data set #1</name>
+    </test-case>
+    <test-case start="1556668673736" stop="1556668673737" status="passed">
+      <name>testGetCcTypesMapper with data set #0</name>
+    </test-case>
+    <test-case start="1556668673738" stop="1556668673738" status="passed">
+      <name>testGetCcTypesMapper with data set #1</name>
+    </test-case>
+    <test-case start="1556668673739" stop="1556668673740" status="passed">
+      <name>testGetCcTypesMapper with data set #2</name>
+    </test-case>
+    <test-case start="1556668673740" stop="1556668673741" status="passed">
+      <name>testCountryAvailableCardTypes with data set "valid data"</name>
+    </test-case>
+    <test-case start="1556668673742" stop="1556668673743" status="passed">
+      <name>testCountryAvailableCardTypes with data set "non-array value"</name>
+    </test-case>
+    <test-case start="1556668673743" stop="1556668673744" status="passed">
+      <name>testUseCvv</name>
+    </test-case>
+    <test-case start="1556668673744" stop="1556668673745" status="passed">
+      <name>testIsVerify3DSecure with data set #0</name>
+    </test-case>
+    <test-case start="1556668673745" stop="1556668673746" status="passed">
+      <name>testIsVerify3DSecure with data set #1</name>
+    </test-case>
+    <test-case start="1556668673747" stop="1556668673747" status="passed">
+      <name>testIsVerify3DSecure with data set #2</name>
+    </test-case>
+    <test-case start="1556668673748" stop="1556668673749" status="passed">
+      <name>testIsVerify3DSecure with data set #3</name>
+    </test-case>
+    <test-case start="1556668673749" stop="1556668673750" status="passed">
+      <name>testIsVerify3DSecure with data set #4</name>
+    </test-case>
+    <test-case start="1556668673750" stop="1556668673751" status="passed">
+      <name>testIsVerify3DSecure with data set #5</name>
+    </test-case>
+    <test-case start="1556668673752" stop="1556668673752" status="passed">
+      <name>testGetThresholdAmount with data set #0</name>
+    </test-case>
+    <test-case start="1556668673753" stop="1556668673754" status="passed">
+      <name>testGetThresholdAmount with data set #1</name>
+    </test-case>
+    <test-case start="1556668673754" stop="1556668673755" status="passed">
+      <name>testGetThresholdAmount with data set #2</name>
+    </test-case>
+    <test-case start="1556668673755" stop="1556668673756" status="passed">
+      <name>testGetThresholdAmount with data set #3</name>
+    </test-case>
+    <test-case start="1556668673757" stop="1556668673757" status="passed">
+      <name>testGetThresholdAmount with data set #4</name>
+    </test-case>
+    <test-case start="1556668673758" stop="1556668673759" status="passed">
+      <name>testGetThresholdAmount with data set #5</name>
+    </test-case>
+    <test-case start="1556668673759" stop="1556668673760" status="passed">
+      <name>testGetThresholdAmount with data set #6</name>
+    </test-case>
+    <test-case start="1556668673760" stop="1556668673761" status="passed">
+      <name>testGetThresholdAmount with data set #7</name>
+    </test-case>
+    <test-case start="1556668673762" stop="1556668673762" status="passed">
+      <name>testGet3DSecureSpecificCountries with data set #0</name>
+    </test-case>
+    <test-case start="1556668673763" stop="1556668673764" status="passed">
+      <name>testGet3DSecureSpecificCountries with data set #1</name>
+    </test-case>
+    <test-case start="1556668673765" stop="1556668673766" status="passed">
+      <name>testGetDynamicDescriptors with data set #0</name>
+    </test-case>
+    <test-case start="1556668673766" stop="1556668673768" status="passed">
+      <name>testGetDynamicDescriptors with data set #1</name>
+    </test-case>
+    <test-case start="1556668673768" stop="1556668673769" status="passed">
+      <name>testGetDynamicDescriptors with data set #2</name>
+    </test-case>
+    <test-case start="1556668673770" stop="1556668673771" status="passed">
+      <name>testGetDynamicDescriptors with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

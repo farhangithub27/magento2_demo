@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668704875" stop="1556668704879" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Ui\DataProvider\Product\Form\Modifier\ImagesTest</name>
+  <test-cases>
+    <test-case start="1556668704876" stop="1556668704877" status="passed">
+      <name>testModifyData</name>
+    </test-case>
+    <test-case start="1556668704878" stop="1556668704879" status="passed">
+      <name>testModifyMeta</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

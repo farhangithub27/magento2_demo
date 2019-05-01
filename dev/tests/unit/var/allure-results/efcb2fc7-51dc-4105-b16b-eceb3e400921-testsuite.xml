@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657314" stop="1556668657341" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\Style\MagentoStyleTest</name>
+  <test-cases>
+    <test-case start="1556668657315" stop="1556668657318" status="passed">
+      <name>testBlockStyle</name>
+    </test-case>
+    <test-case start="1556668657318" stop="1556668657319" status="passed">
+      <name>testTitleStyle</name>
+    </test-case>
+    <test-case start="1556668657319" stop="1556668657320" status="passed">
+      <name>testSectionStyle</name>
+    </test-case>
+    <test-case start="1556668657320" stop="1556668657321" status="passed">
+      <name>testListingStyle</name>
+    </test-case>
+    <test-case start="1556668657321" stop="1556668657322" status="passed">
+      <name>testTextStyle</name>
+    </test-case>
+    <test-case start="1556668657322" stop="1556668657323" status="passed">
+      <name>testCommentStyle</name>
+    </test-case>
+    <test-case start="1556668657323" stop="1556668657324" status="passed">
+      <name>testSuccessStyle</name>
+    </test-case>
+    <test-case start="1556668657324" stop="1556668657325" status="passed">
+      <name>testErrorStyle</name>
+    </test-case>
+    <test-case start="1556668657326" stop="1556668657326" status="passed">
+      <name>testWarningStyle</name>
+    </test-case>
+    <test-case start="1556668657327" stop="1556668657327" status="passed">
+      <name>testNoteStyle</name>
+    </test-case>
+    <test-case start="1556668657328" stop="1556668657328" status="passed">
+      <name>testCautionStyle</name>
+    </test-case>
+    <test-case start="1556668657329" stop="1556668657333" status="passed">
+      <name>testTableStyle</name>
+    </test-case>
+    <test-case start="1556668657333" stop="1556668657340" status="passed">
+      <name>testAsk</name>
+    </test-case>
+    <test-case start="1556668657340" stop="1556668657341" status="passed">
+      <name>testProgress</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668737716" stop="1556668737781" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\Adapter\DataMapper\ProductDataMapperTest</name>
+  <test-cases>
+    <test-case start="1556668737717" stop="1556668737730" status="passed">
+      <name>testGetMap with data set #0</name>
+    </test-case>
+    <test-case start="1556668737731" stop="1556668737735" status="passed">
+      <name>testGetMap with data set #1</name>
+    </test-case>
+    <test-case start="1556668737736" stop="1556668737740" status="passed">
+      <name>testGetMap with data set #2</name>
+    </test-case>
+    <test-case start="1556668737741" stop="1556668737745" status="passed">
+      <name>testGetMap with data set #3</name>
+    </test-case>
+    <test-case start="1556668737745" stop="1556668737750" status="passed">
+      <name>testGetMap with data set #4</name>
+    </test-case>
+    <test-case start="1556668737751" stop="1556668737758" status="passed">
+      <name>testGetMap with data set #5</name>
+    </test-case>
+    <test-case start="1556668737759" stop="1556668737765" status="passed">
+      <name>testGetMap with data set #6</name>
+    </test-case>
+    <test-case start="1556668737766" stop="1556668737770" status="passed">
+      <name>testGetMap with data set #7</name>
+    </test-case>
+    <test-case start="1556668737771" stop="1556668737775" status="passed">
+      <name>testGetMap with data set #8</name>
+    </test-case>
+    <test-case start="1556668737776" stop="1556668737781" status="passed">
+      <name>testGetMap with data set #9</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

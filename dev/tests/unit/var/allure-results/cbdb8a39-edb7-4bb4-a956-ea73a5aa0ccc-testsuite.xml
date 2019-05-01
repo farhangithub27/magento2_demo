@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668736818" stop="1556668736853" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\ResourceModel\Entity\Attribute\SetTest</name>
+  <test-cases>
+    <test-case start="1556668736819" stop="1556668736832" status="passed">
+      <name>testBeforeDeleteStateException</name>
+    </test-case>
+    <test-case start="1556668736832" stop="1556668736844" status="passed">
+      <name>testBeforeDelete</name>
+    </test-case>
+    <test-case start="1556668736844" stop="1556668736850" status="passed">
+      <name>testGetSetInfoCacheMiss</name>
+    </test-case>
+    <test-case start="1556668736850" stop="1556668736853" status="passed">
+      <name>testGetSetInfoCacheHit</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848113" stop="1556668848118" version="1.4.0">
+  <name>Magento\Framework\Config\Test\Unit\Dom\NodePathMatcherTest</name>
+  <test-cases>
+    <test-case start="1556668848114" stop="1556668848114" status="passed">
+      <name>testMatch with data set "no match"</name>
+    </test-case>
+    <test-case start="1556668848115" stop="1556668848115" status="passed">
+      <name>testMatch with data set "partial match"</name>
+    </test-case>
+    <test-case start="1556668848115" stop="1556668848116" status="passed">
+      <name>testMatch with data set "exact match"</name>
+    </test-case>
+    <test-case start="1556668848116" stop="1556668848117" status="passed">
+      <name>testMatch with data set "regexp match"</name>
+    </test-case>
+    <test-case start="1556668848117" stop="1556668848117" status="passed">
+      <name>testMatch with data set "match with namespace"</name>
+    </test-case>
+    <test-case start="1556668848118" stop="1556668848118" status="passed">
+      <name>testMatch with data set "match with predicate"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

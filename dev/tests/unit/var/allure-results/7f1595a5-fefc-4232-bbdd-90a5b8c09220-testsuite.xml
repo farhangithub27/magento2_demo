@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668718005" stop="1556668718081" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Account\AuthenticationPopupTest</name>
+  <test-cases>
+    <test-case start="1556668718006" stop="1556668718017" status="passed">
+      <name>testGetConfig with data set #0</name>
+    </test-case>
+    <test-case start="1556668718018" stop="1556668718026" status="passed">
+      <name>testGetConfig with data set #1</name>
+    </test-case>
+    <test-case start="1556668718027" stop="1556668718034" status="passed">
+      <name>testGetConfig with data set #2</name>
+    </test-case>
+    <test-case start="1556668718035" stop="1556668718043" status="passed">
+      <name>testGetConfig with data set #3</name>
+    </test-case>
+    <test-case start="1556668718044" stop="1556668718052" status="passed">
+      <name>testGetSerializedConfig with data set #0</name>
+    </test-case>
+    <test-case start="1556668718053" stop="1556668718062" status="passed">
+      <name>testGetSerializedConfig with data set #1</name>
+    </test-case>
+    <test-case start="1556668718063" stop="1556668718071" status="passed">
+      <name>testGetSerializedConfig with data set #2</name>
+    </test-case>
+    <test-case start="1556668718072" stop="1556668718081" status="passed">
+      <name>testGetSerializedConfig with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

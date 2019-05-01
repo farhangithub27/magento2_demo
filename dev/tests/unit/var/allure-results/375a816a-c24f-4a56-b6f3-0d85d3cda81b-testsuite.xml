@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816190" stop="1556668816200" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\MessageGenerators\GeneratorFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668816191" stop="1556668816193" status="passed">
+      <name>testCreate with data set #0</name>
+    </test-case>
+    <test-case start="1556668816193" stop="1556668816194" status="passed">
+      <name>testCreate with data set #1</name>
+    </test-case>
+    <test-case start="1556668816194" stop="1556668816195" status="passed">
+      <name>testCreate with data set #2</name>
+    </test-case>
+    <test-case start="1556668816196" stop="1556668816197" status="passed">
+      <name>testCreate with data set #3</name>
+    </test-case>
+    <test-case start="1556668816197" stop="1556668816198" status="passed">
+      <name>testCreate with data set #4</name>
+    </test-case>
+    <test-case start="1556668816198" stop="1556668816199" status="passed">
+      <name>testCreate with data set #5</name>
+    </test-case>
+    <test-case start="1556668816199" stop="1556668816200" status="passed">
+      <name>testCreateWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

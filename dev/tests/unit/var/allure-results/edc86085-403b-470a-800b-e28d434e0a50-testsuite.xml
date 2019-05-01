@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668801771" stop="1556668801801" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Controller\Adminhtml\Order\Create\ReorderTest</name>
+  <test-cases>
+    <test-case start="1556668801771" stop="1556668801781" status="passed">
+      <name>testExecuteForward</name>
+    </test-case>
+    <test-case start="1556668801782" stop="1556668801787" status="passed">
+      <name>testExecuteRedirectOrderGrid</name>
+    </test-case>
+    <test-case start="1556668801787" stop="1556668801794" status="passed">
+      <name>testExecuteRedirectBack</name>
+    </test-case>
+    <test-case start="1556668801794" stop="1556668801801" status="passed">
+      <name>testExecuteRedirectNewOrder</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

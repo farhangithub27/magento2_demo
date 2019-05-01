@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668676625" stop="1556668676666" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Model\CartItemProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668676625" stop="1556668676659" status="passed">
+      <name>testConvertToBuyRequest</name>
+    </test-case>
+    <test-case start="1556668676659" stop="1556668676660" status="passed">
+      <name>testConvertToBuyRequestInvalidData</name>
+    </test-case>
+    <test-case start="1556668676660" stop="1556668676663" status="passed">
+      <name>testProcessProductOptions</name>
+    </test-case>
+    <test-case start="1556668676663" stop="1556668676664" status="passed">
+      <name>testProcessProductOptionsInvalidType</name>
+    </test-case>
+    <test-case start="1556668676665" stop="1556668676666" status="passed">
+      <name>testProcessProductOptionsifBundleOptionsNotExists</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

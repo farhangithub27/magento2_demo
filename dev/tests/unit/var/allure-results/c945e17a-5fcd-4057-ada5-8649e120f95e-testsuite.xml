@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668825861" stop="1556668825869" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Theme\Image\PathTest</name>
+  <test-cases>
+    <test-case start="1556668825861" stop="1556668825863" status="passed">
+      <name>testGetPreviewImageUrl</name>
+    </test-case>
+    <test-case start="1556668825864" stop="1556668825865" status="passed">
+      <name>testGetPreviewImagePath</name>
+    </test-case>
+    <test-case start="1556668825865" stop="1556668825866" status="passed">
+      <name>testDefaultPreviewImageUrlGetter</name>
+    </test-case>
+    <test-case start="1556668825866" stop="1556668825867" status="passed">
+      <name>testImagePreviewDirectoryGetter</name>
+    </test-case>
+    <test-case start="1556668825868" stop="1556668825869" status="passed">
+      <name>testTemporaryDirectoryGetter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

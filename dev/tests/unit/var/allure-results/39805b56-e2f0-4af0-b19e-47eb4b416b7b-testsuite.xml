@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668854597" stop="1556668854609" version="1.4.0">
+  <name>Magento\Framework\HTTP\Test\Unit\AuthenticationTest</name>
+  <test-cases>
+    <test-case start="1556668854597" stop="1556668854598" status="passed">
+      <name>testGetCredentials with data set #0</name>
+    </test-case>
+    <test-case start="1556668854598" stop="1556668854599" status="passed">
+      <name>testGetCredentials with data set #1</name>
+    </test-case>
+    <test-case start="1556668854599" stop="1556668854600" status="passed">
+      <name>testGetCredentials with data set #2</name>
+    </test-case>
+    <test-case start="1556668854600" stop="1556668854601" status="passed">
+      <name>testGetCredentials with data set #3</name>
+    </test-case>
+    <test-case start="1556668854602" stop="1556668854602" status="passed">
+      <name>testGetCredentials with data set #4</name>
+    </test-case>
+    <test-case start="1556668854603" stop="1556668854603" status="passed">
+      <name>testGetCredentials with data set #5</name>
+    </test-case>
+    <test-case start="1556668854604" stop="1556668854605" status="passed">
+      <name>testGetCredentials with data set #6</name>
+    </test-case>
+    <test-case start="1556668854605" stop="1556668854609" status="passed">
+      <name>testSetAuthenticationFailed</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

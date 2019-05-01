@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666671" stop="1556668666674" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\ReportXml\DB\NameResolverTest</name>
+  <test-cases>
+    <test-case start="1556668666671" stop="1556668666672" status="passed">
+      <name>testGetName</name>
+    </test-case>
+    <test-case start="1556668666672" stop="1556668666673" status="passed">
+      <name>testGetAlias with data set "ElementConfigWithAliases"</name>
+    </test-case>
+    <test-case start="1556668666673" stop="1556668666674" status="passed">
+      <name>testGetAlias with data set "ElementConfigWithoutAliases"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668877280" stop="1556668877284" version="1.4.0">
+  <name>Magento\Test\EventManagerTest</name>
+  <test-cases>
+    <test-case start="1556668877281" stop="1556668877282" status="passed">
+      <name>testFireEvent with data set "straight order"</name>
+    </test-case>
+    <test-case start="1556668877282" stop="1556668877283" status="passed">
+      <name>testFireEvent with data set "reverse order"</name>
+    </test-case>
+    <test-case start="1556668877283" stop="1556668877283" status="passed">
+      <name>testFireEventParameters</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

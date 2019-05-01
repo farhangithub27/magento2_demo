@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668852401" stop="1556668852432" version="1.4.0">
+  <name>Magento\Framework\Encryption\Test\Unit\CryptTest</name>
+  <test-cases>
+    <test-case start="1556668852401" stop="1556668852402" status="passed">
+      <name>testConstructor with data set "blowfish-ecb"</name>
+    </test-case>
+    <test-case start="1556668852402" stop="1556668852403" status="passed">
+      <name>testConstructor with data set "rijndael-128-ecb"</name>
+    </test-case>
+    <test-case start="1556668852403" stop="1556668852404" status="passed">
+      <name>testConstructor with data set "rijndael-256-cbc"</name>
+    </test-case>
+    <test-case start="1556668852404" stop="1556668852405" status="passed">
+      <name>testConstructorException with data set "tooLongKey-blowfish-ecb-false"</name>
+    </test-case>
+    <test-case start="1556668852405" stop="1556668852406" status="passed">
+      <name>testConstructorException with data set "key-blowfish-ecb-tooShortInitVector"</name>
+    </test-case>
+    <test-case start="1556668852406" stop="1556668852407" status="passed">
+      <name>testConstructorException with data set "key-blowfish-ecb-tooLongInitVector"</name>
+    </test-case>
+    <test-case start="1556668852407" stop="1556668852407" status="passed">
+      <name>testConstructorException with data set "tooLongKey-rijndael-128-ecb-false"</name>
+    </test-case>
+    <test-case start="1556668852408" stop="1556668852408" status="passed">
+      <name>testConstructorException with data set "key-rijndael-128-ecb-tooShortInitVector"</name>
+    </test-case>
+    <test-case start="1556668852409" stop="1556668852409" status="passed">
+      <name>testConstructorException with data set "key-rijndael-128-ecb-tooLongInitVector"</name>
+    </test-case>
+    <test-case start="1556668852409" stop="1556668852410" status="passed">
+      <name>testConstructorException with data set "tooLongKey-rijndael-256-cbc-false"</name>
+    </test-case>
+    <test-case start="1556668852410" stop="1556668852411" status="passed">
+      <name>testConstructorException with data set "key-rijndael-256-cbc-tooShortInitVector"</name>
+    </test-case>
+    <test-case start="1556668852411" stop="1556668852412" status="passed">
+      <name>testConstructorException with data set "key-rijndael-256-cbc-tooLongInitVector"</name>
+    </test-case>
+    <test-case start="1556668852412" stop="1556668852413" status="passed">
+      <name>testConstructorDefaults</name>
+    </test-case>
+    <test-case start="1556668852413" stop="1556668852414" status="passed">
+      <name>testEncrypt with data set #0</name>
+    </test-case>
+    <test-case start="1556668852414" stop="1556668852415" status="passed">
+      <name>testEncrypt with data set #1</name>
+    </test-case>
+    <test-case start="1556668852415" stop="1556668852416" status="passed">
+      <name>testEncrypt with data set #2</name>
+    </test-case>
+    <test-case start="1556668852416" stop="1556668852416" status="passed">
+      <name>testEncrypt with data set #3</name>
+    </test-case>
+    <test-case start="1556668852417" stop="1556668852417" status="passed">
+      <name>testEncrypt with data set #4</name>
+    </test-case>
+    <test-case start="1556668852418" stop="1556668852419" status="passed">
+      <name>testEncrypt with data set #5</name>
+    </test-case>
+    <test-case start="1556668852419" stop="1556668852420" status="passed">
+      <name>testDecrypt with data set #0</name>
+    </test-case>
+    <test-case start="1556668852420" stop="1556668852421" status="passed">
+      <name>testDecrypt with data set #1</name>
+    </test-case>
+    <test-case start="1556668852421" stop="1556668852422" status="passed">
+      <name>testDecrypt with data set #2</name>
+    </test-case>
+    <test-case start="1556668852422" stop="1556668852423" status="passed">
+      <name>testDecrypt with data set #3</name>
+    </test-case>
+    <test-case start="1556668852423" stop="1556668852423" status="passed">
+      <name>testDecrypt with data set #4</name>
+    </test-case>
+    <test-case start="1556668852424" stop="1556668852425" status="passed">
+      <name>testDecrypt with data set #5</name>
+    </test-case>
+    <test-case start="1556668852425" stop="1556668852426" status="passed">
+      <name>testInitVectorRandom with data set "blowfish-ecb"</name>
+    </test-case>
+    <test-case start="1556668852427" stop="1556668852428" status="passed">
+      <name>testInitVectorRandom with data set "rijndael-128-ecb"</name>
+    </test-case>
+    <test-case start="1556668852428" stop="1556668852429" status="passed">
+      <name>testInitVectorRandom with data set "rijndael-256-cbc"</name>
+    </test-case>
+    <test-case start="1556668852430" stop="1556668852430" status="passed">
+      <name>testInitVectorNone with data set "blowfish-ecb"</name>
+    </test-case>
+    <test-case start="1556668852431" stop="1556668852431" status="passed">
+      <name>testInitVectorNone with data set "rijndael-128-ecb"</name>
+    </test-case>
+    <test-case start="1556668852432" stop="1556668852432" status="passed">
+      <name>testInitVectorNone with data set "rijndael-256-cbc"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

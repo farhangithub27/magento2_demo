@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848225" stop="1556668848227" version="1.4.0">
+  <name>Magento\Framework\Config\Test\Unit\File\ConfigFilePoolTest</name>
+  <test-cases>
+    <test-case start="1556668848225" stop="1556668848226" status="passed">
+      <name>testGetPaths</name>
+    </test-case>
+    <test-case start="1556668848226" stop="1556668848227" status="passed">
+      <name>testGetPath</name>
+    </test-case>
+    <test-case start="1556668848227" stop="1556668848227" status="passed">
+      <name>testGetPathException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668741075" stop="1556668741111" version="1.4.0">
+  <name>Magento\GiftMessage\Test\Unit\Model\OrderItemRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668741075" stop="1556668741089" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668741090" stop="1556668741091" status="passed">
+      <name>testGetNoSuchEntityExceptionOnGetItemById</name>
+    </test-case>
+    <test-case start="1556668741091" stop="1556668741093" status="passed">
+      <name>testGetNoSuchEntityExceptionOnIsMessageAllowed</name>
+    </test-case>
+    <test-case start="1556668741094" stop="1556668741096" status="passed">
+      <name>testGetNoSuchEntityExceptionOnGetGiftMessageId</name>
+    </test-case>
+    <test-case start="1556668741096" stop="1556668741101" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668741101" stop="1556668741103" status="passed">
+      <name>testSaveNoSuchEntityException</name>
+    </test-case>
+    <test-case start="1556668741103" stop="1556668741105" status="passed">
+      <name>testSaveInvalidTransitionException</name>
+    </test-case>
+    <test-case start="1556668741105" stop="1556668741108" status="passed">
+      <name>testSaveCouldNotSaveException</name>
+    </test-case>
+    <test-case start="1556668741108" stop="1556668741111" status="passed">
+      <name>testSaveCouldNotSaveExceptionOnSaveAllInOrder</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

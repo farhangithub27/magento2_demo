@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668873549" stop="1556668873581" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Layout\ScheduledStructure\HelperTest</name>
+  <test-cases>
+    <test-case start="1556668873550" stop="1556668873555" status="passed">
+      <name>testScheduleStructure with data set #0</name>
+    </test-case>
+    <test-case start="1556668873556" stop="1556668873560" status="passed">
+      <name>testScheduleStructure with data set #1</name>
+    </test-case>
+    <test-case start="1556668873561" stop="1556668873562" status="passed">
+      <name>testScheduleNonExistentElement</name>
+    </test-case>
+    <test-case start="1556668873563" stop="1556668873565" status="passed">
+      <name>testScheduleElementLog with data set #0</name>
+    </test-case>
+    <test-case start="1556668873565" stop="1556668873567" status="passed">
+      <name>testScheduleElementLog with data set #1</name>
+    </test-case>
+    <test-case start="1556668873568" stop="1556668873569" status="passed">
+      <name>testScheduleElementLog with data set #2</name>
+    </test-case>
+    <test-case start="1556668873570" stop="1556668873575" status="passed">
+      <name>testScheduleElement with data set #0</name>
+    </test-case>
+    <test-case start="1556668873576" stop="1556668873580" status="passed">
+      <name>testScheduleElement with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668703846" stop="1556668704167" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Pricing\Render\FinalPriceBoxTest</name>
+  <test-cases>
+    <test-case start="1556668703846" stop="1556668703886" status="passed">
+      <name>testRenderMsrpDisabled</name>
+    </test-case>
+    <test-case start="1556668703886" stop="1556668703902" status="passed">
+      <name>testNotSalableItem</name>
+    </test-case>
+    <test-case start="1556668703902" stop="1556668703921" status="passed">
+      <name>testRenderMsrpEnabled</name>
+    </test-case>
+    <test-case start="1556668703921" stop="1556668703937" status="passed">
+      <name>testRenderMsrpNotRegisteredException</name>
+    </test-case>
+    <test-case start="1556668703938" stop="1556668703956" status="passed">
+      <name>testRenderAmountMinimal</name>
+    </test-case>
+    <test-case start="1556668703957" stop="1556668703973" status="passed">
+      <name>testHasSpecialPrice with data set #0</name>
+    </test-case>
+    <test-case start="1556668703973" stop="1556668703990" status="passed">
+      <name>testHasSpecialPrice with data set #1</name>
+    </test-case>
+    <test-case start="1556668703990" stop="1556668704007" status="passed">
+      <name>testHasSpecialPrice with data set #2</name>
+    </test-case>
+    <test-case start="1556668704008" stop="1556668704024" status="passed">
+      <name>testShowMinimalPrice</name>
+    </test-case>
+    <test-case start="1556668704024" stop="1556668704040" status="passed">
+      <name>testHidePrice</name>
+    </test-case>
+    <test-case start="1556668704040" stop="1556668704056" status="passed">
+      <name>testGetCacheKey</name>
+    </test-case>
+    <test-case start="1556668704056" stop="1556668704071" status="passed">
+      <name>testGetCacheKeyInfoContainsDisplayMinimalPrice</name>
+    </test-case>
+    <test-case start="1556668704072" stop="1556668704087" status="passed">
+      <name>testGetCacheKeyInfoContainsIsProductListFlagByDefault</name>
+    </test-case>
+    <test-case start="1556668704087" stop="1556668704103" status="passed">
+      <name>testGetCacheKeyInfoContainsIsProductListFlag with data set "is_not_product_list"</name>
+    </test-case>
+    <test-case start="1556668704104" stop="1556668704120" status="passed">
+      <name>testGetCacheKeyInfoContainsIsProductListFlag with data set "is_product_list"</name>
+    </test-case>
+    <test-case start="1556668704121" stop="1556668704136" status="passed">
+      <name>testIsProductListByDefault</name>
+    </test-case>
+    <test-case start="1556668704136" stop="1556668704152" status="passed">
+      <name>testIsProductList with data set "is_not_product_list"</name>
+    </test-case>
+    <test-case start="1556668704152" stop="1556668704167" status="passed">
+      <name>testIsProductList with data set "is_product_list"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

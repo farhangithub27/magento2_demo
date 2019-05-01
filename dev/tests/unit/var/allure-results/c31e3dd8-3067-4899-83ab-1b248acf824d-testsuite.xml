@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668702541" stop="1556668702618" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ResourceModel\Product\ImageTest</name>
+  <test-cases>
+    <test-case start="1556668702541" stop="1556668702545" status="passed">
+      <name>testGetCountAllProductImages with data set #0</name>
+    </test-case>
+    <test-case start="1556668702546" stop="1556668702549" status="passed">
+      <name>testGetCountAllProductImages with data set #1</name>
+    </test-case>
+    <test-case start="1556668702550" stop="1556668702553" status="passed">
+      <name>testGetCountAllProductImages with data set #2</name>
+    </test-case>
+    <test-case start="1556668702553" stop="1556668702557" status="passed">
+      <name>testGetCountAllProductImages with data set #3</name>
+    </test-case>
+    <test-case start="1556668702557" stop="1556668702561" status="passed">
+      <name>testGetCountAllProductImages with data set #4</name>
+    </test-case>
+    <test-case start="1556668702561" stop="1556668702566" status="passed">
+      <name>testGetCountAllProductImages with data set #5</name>
+    </test-case>
+    <test-case start="1556668702566" stop="1556668702574" status="passed">
+      <name>testGetAllProductImages with data set #0</name>
+    </test-case>
+    <test-case start="1556668702575" stop="1556668702583" status="passed">
+      <name>testGetAllProductImages with data set #1</name>
+    </test-case>
+    <test-case start="1556668702583" stop="1556668702592" status="passed">
+      <name>testGetAllProductImages with data set #2</name>
+    </test-case>
+    <test-case start="1556668702592" stop="1556668702601" status="passed">
+      <name>testGetAllProductImages with data set #3</name>
+    </test-case>
+    <test-case start="1556668702601" stop="1556668702611" status="passed">
+      <name>testGetAllProductImages with data set #4</name>
+    </test-case>
+    <test-case start="1556668702611" stop="1556668702618" status="passed">
+      <name>testGetAllProductImages with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

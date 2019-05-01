@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668688079" stop="1556668688120" version="1.4.0">
+  <name>Magento\CatalogUrlRewrite\Test\Unit\Observer\CategoryUrlPathAutogeneratorObserverTest</name>
+  <test-cases>
+    <test-case start="1556668688079" stop="1556668688091" status="passed">
+      <name>testSetCategoryUrlAndCategoryPath</name>
+    </test-case>
+    <test-case start="1556668688092" stop="1556668688094" status="passed">
+      <name>testExecuteWithoutUrlKeyAndUrlPathUpdating</name>
+    </test-case>
+    <test-case start="1556668688094" stop="1556668688096" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+    <test-case start="1556668688096" stop="1556668688099" status="passed">
+      <name>testUrlKeyAndUrlPathUpdating</name>
+    </test-case>
+    <test-case start="1556668688100" stop="1556668688102" status="passed">
+      <name>testUrlPathAttributeNoUpdatingIfCategoryIsNew</name>
+    </test-case>
+    <test-case start="1556668688103" stop="1556668688107" status="passed">
+      <name>testUrlPathAttributeUpdating</name>
+    </test-case>
+    <test-case start="1556668688107" stop="1556668688112" status="passed">
+      <name>testChildrenUrlPathAttributeNoUpdatingIfParentUrlPathIsNotChanged</name>
+    </test-case>
+    <test-case start="1556668688112" stop="1556668688120" status="passed">
+      <name>testChildrenUrlPathAttributeUpdatingForSpecificStore</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

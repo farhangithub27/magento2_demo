@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668836331" stop="1556668836339" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Controller\WishlistProviderTest</name>
+  <test-cases>
+    <test-case start="1556668836331" stop="1556668836332" status="passed">
+      <name>testGetWishlist</name>
+    </test-case>
+    <test-case start="1556668836333" stop="1556668836335" status="passed">
+      <name>testGetWishlistWithCustomer</name>
+    </test-case>
+    <test-case start="1556668836335" stop="1556668836337" status="passed">
+      <name>testGetWishlistWithIdAndCustomer</name>
+    </test-case>
+    <test-case start="1556668836338" stop="1556668836339" status="passed">
+      <name>testGetWishlistWithIdWithoutCustomer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

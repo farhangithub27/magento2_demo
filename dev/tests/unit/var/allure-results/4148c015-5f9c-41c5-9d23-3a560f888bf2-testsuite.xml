@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668794212" stop="1556668794224" version="1.4.0">
+  <name>Magento\ReleaseNotification\Test\Unit\Controller\Notification\MarkUserNotifiedTest</name>
+  <test-cases>
+    <test-case start="1556668794212" stop="1556668794217" status="passed">
+      <name>testExecuteSuccess</name>
+    </test-case>
+    <test-case start="1556668794217" stop="1556668794220" status="passed">
+      <name>testExecuteFailedWithLocalizedException</name>
+    </test-case>
+    <test-case start="1556668794221" stop="1556668794224" status="passed">
+      <name>testExecuteFailedWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

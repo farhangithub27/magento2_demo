@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657274" stop="1556668657293" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\CompilerPreparationTest</name>
+  <test-cases>
+    <test-case start="1556668657274" stop="1556668657283" status="passed">
+      <name>testClearGenerationDirWhenNeeded with data set "ST compiler, directory exists"</name>
+    </test-case>
+    <test-case start="1556668657284" stop="1556668657286" status="passed">
+      <name>testClearGenerationDirWhenNeeded with data set "ST compiler, directory does not exist"</name>
+    </test-case>
+    <test-case start="1556668657286" stop="1556668657287" status="passed">
+      <name>testClearGenerationDirWhenNeeded with data set "ST compiler, help option"</name>
+    </test-case>
+    <test-case start="1556668657288" stop="1556668657289" status="passed">
+      <name>testClearGenerationDirWhenNeeded with data set "Other command"</name>
+    </test-case>
+    <test-case start="1556668657289" stop="1556668657291" status="passed">
+      <name>testGenerationDirectoryFromInitParams</name>
+    </test-case>
+    <test-case start="1556668657291" stop="1556668657293" status="passed">
+      <name>testGenerationDirectoryFromCliOption</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

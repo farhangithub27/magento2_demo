@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667265" stop="1556668667272" version="1.4.0">
+  <name>Magento\AsynchronousOperations\Test\Unit\Model\OperationManagementTest</name>
+  <test-cases>
+    <test-case start="1556668667265" stop="1556668667269" status="passed">
+      <name>testChangeOperationStatus</name>
+    </test-case>
+    <test-case start="1556668667269" stop="1556668667272" status="passed">
+      <name>testChangeOperationStatusIfExceptionWasThrown</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

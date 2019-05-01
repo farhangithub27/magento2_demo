@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668735237" stop="1556668735278" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\AttributeManagementTest</name>
+  <test-cases>
+    <test-case start="1556668735238" stop="1556668735250" status="passed">
+      <name>testAssignNoSuchEntityException</name>
+    </test-case>
+    <test-case start="1556668735250" stop="1556668735252" status="passed">
+      <name>testAssignInputException</name>
+    </test-case>
+    <test-case start="1556668735252" stop="1556668735255" status="passed">
+      <name>testAssignInputExceptionGroupInSet</name>
+    </test-case>
+    <test-case start="1556668735255" stop="1556668735259" status="passed">
+      <name>testAssign</name>
+    </test-case>
+    <test-case start="1556668735260" stop="1556668735264" status="passed">
+      <name>testUnassign</name>
+    </test-case>
+    <test-case start="1556668735264" stop="1556668735267" status="passed">
+      <name>testUnassignInputException</name>
+    </test-case>
+    <test-case start="1556668735268" stop="1556668735269" status="passed">
+      <name>testUnassignWithWrongAttributeSet</name>
+    </test-case>
+    <test-case start="1556668735269" stop="1556668735272" status="passed">
+      <name>testUnassignStateException</name>
+    </test-case>
+    <test-case start="1556668735273" stop="1556668735276" status="passed">
+      <name>testGetAttributes</name>
+    </test-case>
+    <test-case start="1556668735276" stop="1556668735278" status="passed">
+      <name>testGetAttributesNoSuchEntityException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

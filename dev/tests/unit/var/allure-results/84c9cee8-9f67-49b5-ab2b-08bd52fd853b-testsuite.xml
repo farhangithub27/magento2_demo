@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668682547" stop="1556668683022" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Model\Spi\StockStateProviderTest</name>
+  <test-cases>
+    <test-case start="1556668682548" stop="1556668682557" status="passed">
+      <name>testVerifyStock with data set #0</name>
+    </test-case>
+    <test-case start="1556668682557" stop="1556668682564" status="passed">
+      <name>testVerifyStock with data set #1</name>
+    </test-case>
+    <test-case start="1556668682565" stop="1556668682572" status="passed">
+      <name>testVerifyStock with data set #2</name>
+    </test-case>
+    <test-case start="1556668682572" stop="1556668682581" status="passed">
+      <name>testVerifyNotification with data set #0</name>
+    </test-case>
+    <test-case start="1556668682582" stop="1556668682588" status="passed">
+      <name>testVerifyNotification with data set #1</name>
+    </test-case>
+    <test-case start="1556668682589" stop="1556668682595" status="passed">
+      <name>testVerifyNotification with data set #2</name>
+    </test-case>
+    <test-case start="1556668682596" stop="1556668682606" status="passed">
+      <name>testCheckQty with data set #0</name>
+    </test-case>
+    <test-case start="1556668682607" stop="1556668682619" status="passed">
+      <name>testCheckQty with data set #1</name>
+    </test-case>
+    <test-case start="1556668682619" stop="1556668682631" status="passed">
+      <name>testCheckQty with data set #2</name>
+    </test-case>
+    <test-case start="1556668682632" stop="1556668682650" status="passed">
+      <name>testSuggestQty with data set #0</name>
+    </test-case>
+    <test-case start="1556668682650" stop="1556668682657" status="passed">
+      <name>testSuggestQty with data set #1</name>
+    </test-case>
+    <test-case start="1556668682657" stop="1556668682798" status="passed">
+      <name>testSuggestQty with data set #2</name>
+    </test-case>
+    <test-case start="1556668682798" stop="1556668682821" status="passed">
+      <name>testGetStockQty with data set #0</name>
+    </test-case>
+    <test-case start="1556668682821" stop="1556668682845" status="passed">
+      <name>testGetStockQty with data set #1</name>
+    </test-case>
+    <test-case start="1556668682845" stop="1556668682866" status="passed">
+      <name>testGetStockQty with data set #2</name>
+    </test-case>
+    <test-case start="1556668682867" stop="1556668682874" status="passed">
+      <name>testCheckQtyIncrements with data set #0</name>
+    </test-case>
+    <test-case start="1556668682874" stop="1556668682881" status="passed">
+      <name>testCheckQtyIncrements with data set #1</name>
+    </test-case>
+    <test-case start="1556668682881" stop="1556668682888" status="passed">
+      <name>testCheckQtyIncrements with data set #2</name>
+    </test-case>
+    <test-case start="1556668682888" stop="1556668682940" status="passed">
+      <name>testCheckQuoteItemQty with data set #0</name>
+    </test-case>
+    <test-case start="1556668682940" stop="1556668682978" status="passed">
+      <name>testCheckQuoteItemQty with data set #1</name>
+    </test-case>
+    <test-case start="1556668682978" stop="1556668683016" status="passed">
+      <name>testCheckQuoteItemQty with data set #2</name>
+    </test-case>
+    <test-case start="1556668683017" stop="1556668683019" status="passed">
+      <name>testCheckQtyIncrementsMsg with data set #0</name>
+    </test-case>
+    <test-case start="1556668683020" stop="1556668683022" status="passed">
+      <name>testCheckQtyIncrementsMsg with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

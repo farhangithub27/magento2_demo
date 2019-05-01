@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668871413" stop="1556668871421" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\DesignExceptionsTest</name>
+  <test-cases>
+    <test-case start="1556668871414" stop="1556668871414" status="passed">
+      <name>testGetThemeByRequest with data set #0</name>
+    </test-case>
+    <test-case start="1556668871415" stop="1556668871416" status="passed">
+      <name>testGetThemeByRequest with data set #1</name>
+    </test-case>
+    <test-case start="1556668871417" stop="1556668871418" status="passed">
+      <name>testGetThemeByRequest with data set #2</name>
+    </test-case>
+    <test-case start="1556668871418" stop="1556668871419" status="passed">
+      <name>testGetThemeByRequest with data set #3</name>
+    </test-case>
+    <test-case start="1556668871420" stop="1556668871421" status="passed">
+      <name>testGetThemeByRequest with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

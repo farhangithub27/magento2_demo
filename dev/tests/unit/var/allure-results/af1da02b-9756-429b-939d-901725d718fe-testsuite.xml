@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668732048" stop="1556668732057" version="1.4.0">
+  <name>Magento\Directory\Test\Unit\Model\Currency\Import\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668732049" stop="1556668732049" status="passed">
+      <name>testConstructorException with data set "numeric name"</name>
+    </test-case>
+    <test-case start="1556668732050" stop="1556668732050" status="passed">
+      <name>testConstructorException with data set "empty name"</name>
+    </test-case>
+    <test-case start="1556668732051" stop="1556668732051" status="passed">
+      <name>testConstructorException with data set "missing class"</name>
+    </test-case>
+    <test-case start="1556668732051" stop="1556668732052" status="passed">
+      <name>testConstructorException with data set "empty class"</name>
+    </test-case>
+    <test-case start="1556668732052" stop="1556668732053" status="passed">
+      <name>testConstructorException with data set "missing label"</name>
+    </test-case>
+    <test-case start="1556668732053" stop="1556668732053" status="passed">
+      <name>testConstructorException with data set "empty label"</name>
+    </test-case>
+    <test-case start="1556668732054" stop="1556668732054" status="passed">
+      <name>testGetAvailableServices</name>
+    </test-case>
+    <test-case start="1556668732054" stop="1556668732055" status="passed">
+      <name>testGetServiceClass with data set "known"</name>
+    </test-case>
+    <test-case start="1556668732055" stop="1556668732056" status="passed">
+      <name>testGetServiceClass with data set "unknown"</name>
+    </test-case>
+    <test-case start="1556668732056" stop="1556668732056" status="passed">
+      <name>testGetServiceLabel with data set "known"</name>
+    </test-case>
+    <test-case start="1556668732057" stop="1556668732057" status="passed">
+      <name>testGetServiceLabel with data set "unknown"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

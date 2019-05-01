@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668797493" stop="1556668797512" version="1.4.0">
+  <name>Magento\Rule\Test\Unit\Model\Condition\CombineTest</name>
+  <test-cases>
+    <test-case start="1556668797494" stop="1556668797503" status="passed">
+      <name>testGetValueName with data set #0</name>
+    </test-case>
+    <test-case start="1556668797503" stop="1556668797505" status="passed">
+      <name>testGetValueName with data set #1</name>
+    </test-case>
+    <test-case start="1556668797505" stop="1556668797506" status="passed">
+      <name>testGetValueName with data set #2</name>
+    </test-case>
+    <test-case start="1556668797507" stop="1556668797508" status="passed">
+      <name>testGetValueName with data set #3</name>
+    </test-case>
+    <test-case start="1556668797508" stop="1556668797510" status="passed">
+      <name>testLoadArray</name>
+    </test-case>
+    <test-case start="1556668797510" stop="1556668797512" status="passed">
+      <name>testLoadArrayLoggerCatchException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

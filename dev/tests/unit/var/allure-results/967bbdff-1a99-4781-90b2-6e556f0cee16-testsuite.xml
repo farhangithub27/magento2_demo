@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668803848" stop="1556668803851" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\CustomerGroupRetrieverTest</name>
+  <test-cases>
+    <test-case start="1556668803848" stop="1556668803850" status="passed">
+      <name>testGetCustomerGroupIdQuote</name>
+    </test-case>
+    <test-case start="1556668803850" stop="1556668803851" status="passed">
+      <name>testGetCustomerGroupIdDefault</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

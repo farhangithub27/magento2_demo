@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668735826" stop="1556668735857" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Entity\Attribute\Frontend\DefaultFrontendTest</name>
+  <test-cases>
+    <test-case start="1556668735826" stop="1556668735830" status="passed">
+      <name>testGetClassEmpty</name>
+    </test-case>
+    <test-case start="1556668735831" stop="1556668735833" status="passed">
+      <name>testGetClass with data set #0</name>
+    </test-case>
+    <test-case start="1556668735834" stop="1556668735836" status="passed">
+      <name>testGetClass with data set #1</name>
+    </test-case>
+    <test-case start="1556668735837" stop="1556668735839" status="passed">
+      <name>testGetClass with data set #2</name>
+    </test-case>
+    <test-case start="1556668735840" stop="1556668735842" status="passed">
+      <name>testGetClass with data set #3</name>
+    </test-case>
+    <test-case start="1556668735843" stop="1556668735845" status="passed">
+      <name>testGetClass with data set #4</name>
+    </test-case>
+    <test-case start="1556668735846" stop="1556668735848" status="passed">
+      <name>testGetClass with data set #5</name>
+    </test-case>
+    <test-case start="1556668735849" stop="1556668735851" status="passed">
+      <name>testGetClass with data set #6</name>
+    </test-case>
+    <test-case start="1556668735852" stop="1556668735854" status="passed">
+      <name>testGetClassLength</name>
+    </test-case>
+    <test-case start="1556668735854" stop="1556668735857" status="passed">
+      <name>testGetSelectOptions</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

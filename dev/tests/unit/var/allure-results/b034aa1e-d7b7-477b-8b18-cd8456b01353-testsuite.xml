@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668850642" stop="1556668850681" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Collection\FilesystemTest</name>
+  <test-cases>
+    <test-case start="1556668850643" stop="1556668850643" status="passed">
+      <name>testFilterCallbackLike with data set #0</name>
+    </test-case>
+    <test-case start="1556668850644" stop="1556668850644" status="passed">
+      <name>testFilterCallbackLike with data set #1</name>
+    </test-case>
+    <test-case start="1556668850645" stop="1556668850645" status="passed">
+      <name>testFilterCallbackLike with data set #2</name>
+    </test-case>
+    <test-case start="1556668850646" stop="1556668850646" status="passed">
+      <name>testFilterCallbackLike with data set #3</name>
+    </test-case>
+    <test-case start="1556668850647" stop="1556668850647" status="passed">
+      <name>testFilterCallbackLike with data set #4</name>
+    </test-case>
+    <test-case start="1556668850648" stop="1556668850648" status="passed">
+      <name>testFilterCallbackLike with data set #5</name>
+    </test-case>
+    <test-case start="1556668850649" stop="1556668850649" status="passed">
+      <name>testFilterCallbackLike with data set #6</name>
+    </test-case>
+    <test-case start="1556668850650" stop="1556668850650" status="passed">
+      <name>testFilterCallbackLike with data set #7</name>
+    </test-case>
+    <test-case start="1556668850651" stop="1556668850652" status="passed">
+      <name>testFilterCallbackLike with data set #8</name>
+    </test-case>
+    <test-case start="1556668850652" stop="1556668850652" status="passed">
+      <name>testFilterCallbackLike with data set #9</name>
+    </test-case>
+    <test-case start="1556668850653" stop="1556668850654" status="passed">
+      <name>testFilterCallbackLike with data set #10</name>
+    </test-case>
+    <test-case start="1556668850654" stop="1556668850655" status="passed">
+      <name>testFilterCallbackLike with data set #11</name>
+    </test-case>
+    <test-case start="1556668850655" stop="1556668850655" status="passed">
+      <name>testFilterCallbackLike with data set #12</name>
+    </test-case>
+    <test-case start="1556668850656" stop="1556668850656" status="passed">
+      <name>testFilterCallbackLike with data set #13</name>
+    </test-case>
+    <test-case start="1556668850657" stop="1556668850657" status="passed">
+      <name>testFilterCallbackLike with data set #14</name>
+    </test-case>
+    <test-case start="1556668850658" stop="1556668850658" status="passed">
+      <name>testFilterCallbackLike with data set #15</name>
+    </test-case>
+    <test-case start="1556668850659" stop="1556668850659" status="passed">
+      <name>testFilterCallbackLike with data set #16</name>
+    </test-case>
+    <test-case start="1556668850659" stop="1556668850660" status="passed">
+      <name>testFilterCallbackLike with data set #17</name>
+    </test-case>
+    <test-case start="1556668850660" stop="1556668850661" status="passed">
+      <name>testFilterCallbackLike with data set #18</name>
+    </test-case>
+    <test-case start="1556668850661" stop="1556668850662" status="passed">
+      <name>testFilterCallbackLike with data set #19</name>
+    </test-case>
+    <test-case start="1556668850662" stop="1556668850663" status="passed">
+      <name>testFilterCallbackLike with data set #20</name>
+    </test-case>
+    <test-case start="1556668850663" stop="1556668850664" status="passed">
+      <name>testFilterCallbackLike with data set #21</name>
+    </test-case>
+    <test-case start="1556668850664" stop="1556668850665" status="passed">
+      <name>testFilterCallbackLike with data set #22</name>
+    </test-case>
+    <test-case start="1556668850665" stop="1556668850666" status="passed">
+      <name>testFilterCallbackLike with data set #23</name>
+    </test-case>
+    <test-case start="1556668850666" stop="1556668850667" status="passed">
+      <name>testFilterCallbackLike with data set #24</name>
+    </test-case>
+    <test-case start="1556668850667" stop="1556668850668" status="passed">
+      <name>testFilterCallbackLike with data set #25</name>
+    </test-case>
+    <test-case start="1556668850668" stop="1556668850669" status="passed">
+      <name>testFilterCallbackLike with data set #26</name>
+    </test-case>
+    <test-case start="1556668850669" stop="1556668850670" status="passed">
+      <name>testFilterCallbackLike with data set #27</name>
+    </test-case>
+    <test-case start="1556668850670" stop="1556668850671" status="passed">
+      <name>testFilterCallbackLike with data set #28</name>
+    </test-case>
+    <test-case start="1556668850671" stop="1556668850672" status="passed">
+      <name>testFilterCallbackLike with data set #29</name>
+    </test-case>
+    <test-case start="1556668850672" stop="1556668850673" status="passed">
+      <name>testFilterCallbackLike with data set #30</name>
+    </test-case>
+    <test-case start="1556668850673" stop="1556668850674" status="passed">
+      <name>testFilterCallbackLike with data set #31</name>
+    </test-case>
+    <test-case start="1556668850674" stop="1556668850675" status="passed">
+      <name>testFilterCallbackLike with data set #32</name>
+    </test-case>
+    <test-case start="1556668850675" stop="1556668850676" status="passed">
+      <name>testFilterCallbackLike with data set #33</name>
+    </test-case>
+    <test-case start="1556668850676" stop="1556668850681" status="passed">
+      <name>testFilterCallbackLikeDataProvider</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

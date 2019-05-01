@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668744098" stop="1556668744172" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Model\Import\EntityAbstractTest</name>
+  <test-cases>
+    <test-case start="1556668744098" stop="1556668744100" status="passed">
+      <name>testPrepareRowForDb</name>
+    </test-case>
+    <test-case start="1556668744100" stop="1556668744101" status="passed">
+      <name>testAddRowError</name>
+    </test-case>
+    <test-case start="1556668744101" stop="1556668744102" status="passed">
+      <name>testImportData</name>
+    </test-case>
+    <test-case start="1556668744103" stop="1556668744104" status="passed">
+      <name>testIsAttributeParticular</name>
+    </test-case>
+    <test-case start="1556668744104" stop="1556668744105" status="passed">
+      <name>testAddMessageTemplate</name>
+    </test-case>
+    <test-case start="1556668744105" stop="1556668744107" status="passed">
+      <name>testIsRowAllowedToImport</name>
+    </test-case>
+    <test-case start="1556668744107" stop="1556668744108" status="passed">
+      <name>testGetBehaviorWithoutRowData</name>
+    </test-case>
+    <test-case start="1556668744109" stop="1556668744110" status="passed">
+      <name>testGetBehaviorWithRowData with data set "add/update behavior and row with delete in action column"</name>
+    </test-case>
+    <test-case start="1556668744110" stop="1556668744111" status="passed">
+      <name>testGetBehaviorWithRowData with data set "delete behavior and row with delete in action column"</name>
+    </test-case>
+    <test-case start="1556668744112" stop="1556668744113" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and row with delete in action column"</name>
+    </test-case>
+    <test-case start="1556668744114" stop="1556668744115" status="passed">
+      <name>testGetBehaviorWithRowData with data set "add/update behavior and row with update in action column"</name>
+    </test-case>
+    <test-case start="1556668744115" stop="1556668744116" status="passed">
+      <name>testGetBehaviorWithRowData with data set "delete behavior and row with update in action column"</name>
+    </test-case>
+    <test-case start="1556668744117" stop="1556668744118" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and row with update in action column"</name>
+    </test-case>
+    <test-case start="1556668744118" stop="1556668744119" status="passed">
+      <name>testGetBehaviorWithRowData with data set "add/update behavior and row with bogus string in action column"</name>
+    </test-case>
+    <test-case start="1556668744120" stop="1556668744121" status="passed">
+      <name>testGetBehaviorWithRowData with data set "delete behavior and row with bogus string in action column"</name>
+    </test-case>
+    <test-case start="1556668744121" stop="1556668744122" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and row with bogus string in action column"</name>
+    </test-case>
+    <test-case start="1556668744123" stop="1556668744124" status="passed">
+      <name>testGetBehaviorWithRowData with data set "add/update behavior and row with null in action column"</name>
+    </test-case>
+    <test-case start="1556668744124" stop="1556668744125" status="passed">
+      <name>testGetBehaviorWithRowData with data set "delete behavior and row with null in action column"</name>
+    </test-case>
+    <test-case start="1556668744126" stop="1556668744127" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and row with null in action column"</name>
+    </test-case>
+    <test-case start="1556668744127" stop="1556668744128" status="passed">
+      <name>testGetBehaviorWithRowData with data set "add/update behavior and empty row"</name>
+    </test-case>
+    <test-case start="1556668744129" stop="1556668744130" status="passed">
+      <name>testGetBehaviorWithRowData with data set "delete behavior and empty row"</name>
+    </test-case>
+    <test-case start="1556668744130" stop="1556668744131" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and empty row"</name>
+    </test-case>
+    <test-case start="1556668744132" stop="1556668744133" status="passed">
+      <name>testGetBehaviorWithRowData with data set "add/update behavior and row is empty array"</name>
+    </test-case>
+    <test-case start="1556668744133" stop="1556668744134" status="passed">
+      <name>testGetBehaviorWithRowData with data set "delete behavior and empty row is empty array"</name>
+    </test-case>
+    <test-case start="1556668744135" stop="1556668744136" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and empty row is empty array"</name>
+    </test-case>
+    <test-case start="1556668744136" stop="1556668744138" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and row with delete in action column and empty available behaviors"</name>
+    </test-case>
+    <test-case start="1556668744138" stop="1556668744139" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and row with update in action column and empty available behaviors"</name>
+    </test-case>
+    <test-case start="1556668744140" stop="1556668744141" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and row with bogus string in action column and empty available behaviors"</name>
+    </test-case>
+    <test-case start="1556668744141" stop="1556668744142" status="passed">
+      <name>testGetBehaviorWithRowData with data set "custom behavior and row with null in action column and empty available behaviors"</name>
+    </test-case>
+    <test-case start="1556668744143" stop="1556668744144" status="passed">
+      <name>testIsAttributeValid with data set #0</name>
+    </test-case>
+    <test-case start="1556668744144" stop="1556668744145" status="passed">
+      <name>testIsAttributeValid with data set #1</name>
+    </test-case>
+    <test-case start="1556668744146" stop="1556668744147" status="passed">
+      <name>testIsAttributeValid with data set #2</name>
+    </test-case>
+    <test-case start="1556668744147" stop="1556668744148" status="passed">
+      <name>testIsAttributeValid with data set #3</name>
+    </test-case>
+    <test-case start="1556668744149" stop="1556668744150" status="passed">
+      <name>testIsAttributeValid with data set #4</name>
+    </test-case>
+    <test-case start="1556668744150" stop="1556668744151" status="passed">
+      <name>testIsAttributeValid with data set #5</name>
+    </test-case>
+    <test-case start="1556668744152" stop="1556668744153" status="passed">
+      <name>testIsAttributeValid with data set #6</name>
+    </test-case>
+    <test-case start="1556668744154" stop="1556668744155" status="passed">
+      <name>testIsAttributeValid with data set #7</name>
+    </test-case>
+    <test-case start="1556668744155" stop="1556668744156" status="passed">
+      <name>testIsAttributeValid with data set #8</name>
+    </test-case>
+    <test-case start="1556668744157" stop="1556668744158" status="passed">
+      <name>testIsAttributeValid with data set #9</name>
+    </test-case>
+    <test-case start="1556668744158" stop="1556668744159" status="passed">
+      <name>testIsAttributeValid with data set #10</name>
+    </test-case>
+    <test-case start="1556668744160" stop="1556668744161" status="passed">
+      <name>testIsAttributeValid with data set #11</name>
+    </test-case>
+    <test-case start="1556668744161" stop="1556668744162" status="passed">
+      <name>testIsAttributeValid with data set #12</name>
+    </test-case>
+    <test-case start="1556668744162" stop="1556668744163" status="passed">
+      <name>testIsAttributeValid with data set #13</name>
+    </test-case>
+    <test-case start="1556668744164" stop="1556668744165" status="passed">
+      <name>testIsAttributeValid with data set #14</name>
+    </test-case>
+    <test-case start="1556668744165" stop="1556668744167" status="passed">
+      <name>testValidateDataPermanentAttributes</name>
+    </test-case>
+    <test-case start="1556668744167" stop="1556668744168" status="passed">
+      <name>testValidateDataEmptyColumnName</name>
+    </test-case>
+    <test-case start="1556668744168" stop="1556668744170" status="passed">
+      <name>testValidateDataColumnNameWithWhitespaces</name>
+    </test-case>
+    <test-case start="1556668744170" stop="1556668744171" status="passed">
+      <name>testValidateDataAttributeNames</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

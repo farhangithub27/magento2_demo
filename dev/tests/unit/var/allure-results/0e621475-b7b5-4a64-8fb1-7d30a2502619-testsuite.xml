@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668697623" stop="1556668697649" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Attribute\Backend\TierpriceTest</name>
+  <test-cases>
+    <test-case start="1556668697624" stop="1556668697631" status="passed">
+      <name>testValidate</name>
+    </test-case>
+    <test-case start="1556668697631" stop="1556668697633" status="passed">
+      <name>testValidateWithException</name>
+    </test-case>
+    <test-case start="1556668697634" stop="1556668697649" status="passed">
+      <name>testSetPriceData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668849487" stop="1556668849502" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\FieldDataConverterTest</name>
+  <test-cases>
+    <test-case start="1556668849488" stop="1556668849490" status="passed">
+      <name>testConvert with data set #0</name>
+    </test-case>
+    <test-case start="1556668849491" stop="1556668849493" status="passed">
+      <name>testConvert with data set #1</name>
+    </test-case>
+    <test-case start="1556668849494" stop="1556668849495" status="passed">
+      <name>testConvertBatchSizeFromEnv with data set #0</name>
+    </test-case>
+    <test-case start="1556668849496" stop="1556668849498" status="passed">
+      <name>testConvertBatchSizeFromEnv with data set #1</name>
+    </test-case>
+    <test-case start="1556668849498" stop="1556668849500" status="passed">
+      <name>testConvertBatchSizeFromEnvInvalid with data set #0</name>
+    </test-case>
+    <test-case start="1556668849500" stop="1556668849502" status="passed">
+      <name>testConvertBatchSizeFromEnvInvalid with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

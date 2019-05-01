@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838267" stop="1556668838271" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Vertex\SendRequestTest</name>
+  <test-cases>
+    <test-case start="1556668838267" stop="1556668838269" status="passed">
+      <name>testHappyTaxCalculation</name>
+    </test-case>
+    <test-case start="1556668838269" stop="1556668838271" status="passed">
+      <name>testHappyTaxAreaLookup</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

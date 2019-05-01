@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668669021" stop="1556668669068" version="1.4.0">
+  <name>Magento\Authorizenet\Test\Unit\Helper\DataTest</name>
+  <test-cases>
+    <test-case start="1556668669022" stop="1556668669029" status="passed">
+      <name>testGetTransactionMessage with data set #0</name>
+    </test-case>
+    <test-case start="1556668669029" stop="1556668669032" status="passed">
+      <name>testGetTransactionMessage with data set #1</name>
+    </test-case>
+    <test-case start="1556668669032" stop="1556668669034" status="passed">
+      <name>testGetTransactionMessage with data set #2</name>
+    </test-case>
+    <test-case start="1556668669034" stop="1556668669036" status="passed">
+      <name>testGetRelayUrl</name>
+    </test-case>
+    <test-case start="1556668669037" stop="1556668669039" status="passed">
+      <name>testGetFdsFilterActionLabel with data set #0</name>
+    </test-case>
+    <test-case start="1556668669039" stop="1556668669041" status="passed">
+      <name>testGetFdsFilterActionLabel with data set #1</name>
+    </test-case>
+    <test-case start="1556668669041" stop="1556668669043" status="passed">
+      <name>testGetFdsFilterActionLabel with data set #2</name>
+    </test-case>
+    <test-case start="1556668669043" stop="1556668669045" status="passed">
+      <name>testGetFdsFilterActionLabel with data set #3</name>
+    </test-case>
+    <test-case start="1556668669045" stop="1556668669047" status="passed">
+      <name>testGetFdsFilterActionLabel with data set #4</name>
+    </test-case>
+    <test-case start="1556668669047" stop="1556668669049" status="passed">
+      <name>testGetTransactionStatusLabel with data set #0</name>
+    </test-case>
+    <test-case start="1556668669049" stop="1556668669051" status="passed">
+      <name>testGetTransactionStatusLabel with data set #1</name>
+    </test-case>
+    <test-case start="1556668669051" stop="1556668669053" status="passed">
+      <name>testGetTransactionStatusLabel with data set #2</name>
+    </test-case>
+    <test-case start="1556668669054" stop="1556668669055" status="passed">
+      <name>testGetTransactionStatusLabel with data set #3</name>
+    </test-case>
+    <test-case start="1556668669056" stop="1556668669057" status="passed">
+      <name>testGetTransactionStatusLabel with data set #4</name>
+    </test-case>
+    <test-case start="1556668669058" stop="1556668669059" status="passed">
+      <name>testGetTransactionStatusLabel with data set #5</name>
+    </test-case>
+    <test-case start="1556668669060" stop="1556668669061" status="passed">
+      <name>testGetTransactionStatusLabel with data set #6</name>
+    </test-case>
+    <test-case start="1556668669062" stop="1556668669063" status="passed">
+      <name>testGetTransactionStatusLabel with data set #7</name>
+    </test-case>
+    <test-case start="1556668669064" stop="1556668669066" status="passed">
+      <name>testGetTransactionStatusLabel with data set #8</name>
+    </test-case>
+    <test-case start="1556668669066" stop="1556668669068" status="passed">
+      <name>testGetTransactionStatusLabel with data set #9</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668743406" stop="1556668743440" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Controller\Adminhtml\Import\ValidateTest</name>
+  <test-cases>
+    <test-case start="1556668743406" stop="1556668743433" status="passed">
+      <name>testNoDataWasPosted</name>
+    </test-case>
+    <test-case start="1556668743434" stop="1556668743440" status="passed">
+      <name>testFileWasNotUploaded</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

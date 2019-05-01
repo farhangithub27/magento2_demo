@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668722731" stop="1556668722763" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\AuthenticationTest</name>
+  <test-cases>
+    <test-case start="1556668722731" stop="1556668722736" status="passed">
+      <name>testProcessAuthenticationFailureLockingIsDisabled</name>
+    </test-case>
+    <test-case start="1556668722737" stop="1556668722741" status="passed">
+      <name>testProcessAuthenticationFailureFirstAttempt with data set "first attempt"</name>
+    </test-case>
+    <test-case start="1556668722741" stop="1556668722745" status="passed">
+      <name>testProcessAuthenticationFailureFirstAttempt with data set "not locked"</name>
+    </test-case>
+    <test-case start="1556668722745" stop="1556668722749" status="passed">
+      <name>testProcessAuthenticationFailureFirstAttempt with data set "lock expired"</name>
+    </test-case>
+    <test-case start="1556668722750" stop="1556668722753" status="passed">
+      <name>testProcessAuthenticationFailureFirstAttempt with data set "max attempt"</name>
+    </test-case>
+    <test-case start="1556668722754" stop="1556668722756" status="passed">
+      <name>testUnlock</name>
+    </test-case>
+    <test-case start="1556668722756" stop="1556668722757" status="passed">
+      <name>testIsLocked</name>
+    </test-case>
+    <test-case start="1556668722758" stop="1556668722759" status="passed">
+      <name>testAuthenticate with data set #0</name>
+    </test-case>
+    <test-case start="1556668722759" stop="1556668722763" status="passed">
+      <name>testAuthenticate with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

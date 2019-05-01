@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843168" stop="1556668843172" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Config\ConfigPathResolverTest</name>
+  <test-cases>
+    <test-case start="1556668843169" stop="1556668843169" status="passed">
+      <name>testResolve with data set #0</name>
+    </test-case>
+    <test-case start="1556668843170" stop="1556668843170" status="passed">
+      <name>testResolve with data set #1</name>
+    </test-case>
+    <test-case start="1556668843171" stop="1556668843171" status="passed">
+      <name>testResolve with data set #2</name>
+    </test-case>
+    <test-case start="1556668843172" stop="1556668843172" status="passed">
+      <name>testResolve with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

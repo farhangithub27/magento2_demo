@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668804226" stop="1556668804242" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\AddressTest</name>
+  <test-cases>
+    <test-case start="1556668804226" stop="1556668804228" status="passed">
+      <name>testSetOrder</name>
+    </test-case>
+    <test-case start="1556668804229" stop="1556668804231" status="passed">
+      <name>testGetRegionCodeRegionIsSet</name>
+    </test-case>
+    <test-case start="1556668804231" stop="1556668804234" status="passed">
+      <name>testGetRegionCodeRegion with data set #0</name>
+    </test-case>
+    <test-case start="1556668804234" stop="1556668804237" status="passed">
+      <name>testGetRegionCodeRegion with data set #1</name>
+    </test-case>
+    <test-case start="1556668804237" stop="1556668804240" status="passed">
+      <name>testGetRegionCodeRegionFailure</name>
+    </test-case>
+    <test-case start="1556668804240" stop="1556668804242" status="passed">
+      <name>testGetName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

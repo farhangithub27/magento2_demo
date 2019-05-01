@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668850415" stop="1556668850418" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Argument\Interpreter\ConstantTest</name>
+  <test-cases>
+    <test-case start="1556668850415" stop="1556668850415" status="passed">
+      <name>testEvaluate</name>
+    </test-case>
+    <test-case start="1556668850416" stop="1556668850416" status="passed">
+      <name>testEvaluateBadValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668850417" stop="1556668850417" status="passed">
+      <name>testEvaluateBadValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668850417" stop="1556668850418" status="passed">
+      <name>testEvaluateBadValue with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

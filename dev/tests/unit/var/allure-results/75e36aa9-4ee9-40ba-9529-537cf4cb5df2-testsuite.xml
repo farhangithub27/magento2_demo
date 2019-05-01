@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668842412" stop="1556668842672" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\BootstrapTest</name>
+  <test-cases>
+    <test-case start="1556668842412" stop="1556668842416" status="passed">
+      <name>testCreateObjectManagerFactory</name>
+    </test-case>
+    <test-case start="1556668842416" stop="1556668842418" status="passed">
+      <name>testCreateFilesystemDirectoryList</name>
+    </test-case>
+    <test-case start="1556668842418" stop="1556668842420" status="passed">
+      <name>testCreateFilesystemDriverPool</name>
+    </test-case>
+    <test-case start="1556668842420" stop="1556668842421" status="passed">
+      <name>testGetParams</name>
+    </test-case>
+    <test-case start="1556668842422" stop="1556668842423" status="passed">
+      <name>testCreateApplication</name>
+    </test-case>
+    <test-case start="1556668842423" stop="1556668842425" status="passed">
+      <name>testGetObjectManager</name>
+    </test-case>
+    <test-case start="1556668842425" stop="1556668842427" status="passed">
+      <name>testIsDeveloperMode with data set #0</name>
+    </test-case>
+    <test-case start="1556668842427" stop="1556668842429" status="passed">
+      <name>testIsDeveloperMode with data set #1</name>
+    </test-case>
+    <test-case start="1556668842429" stop="1556668842431" status="passed">
+      <name>testIsDeveloperMode with data set #2</name>
+    </test-case>
+    <test-case start="1556668842431" stop="1556668842433" status="passed">
+      <name>testIsDeveloperMode with data set #3</name>
+    </test-case>
+    <test-case start="1556668842433" stop="1556668842435" status="passed">
+      <name>testIsDeveloperMode with data set #4</name>
+    </test-case>
+    <test-case start="1556668842435" stop="1556668842439" status="passed">
+      <name>testIsDeveloperModeDataProvider</name>
+    </test-case>
+    <test-case start="1556668842439" stop="1556668842441" status="passed">
+      <name>testRunNoErrors</name>
+    </test-case>
+    <test-case start="1556668842441" stop="1556668842443" status="passed">
+      <name>testRunWithMaintenanceErrors</name>
+    </test-case>
+    <test-case start="1556668842443" stop="1556668842445" status="passed">
+      <name>testRunWithInstallErrors</name>
+    </test-case>
+    <test-case start="1556668842446" stop="1556668842448" status="passed">
+      <name>testRunWithBothErrors</name>
+    </test-case>
+    <test-case start="1556668842448" stop="1556668842450" status="passed">
+      <name>testAssertMaintenance with data set #0</name>
+    </test-case>
+    <test-case start="1556668842450" stop="1556668842453" status="passed">
+      <name>testAssertMaintenance with data set #1</name>
+    </test-case>
+    <test-case start="1556668842453" stop="1556668842455" status="passed">
+      <name>testAssertInstalled with data set #0</name>
+    </test-case>
+    <test-case start="1556668842456" stop="1556668842672" status="passed">
+      <name>testAssertInstalled with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

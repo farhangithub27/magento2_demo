@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668786197" stop="1556668786233" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Block\Bml\ShortcutTest</name>
+  <test-cases>
+    <test-case start="1556668786197" stop="1556668786202" status="passed">
+      <name>testIsOrPositionBefore</name>
+    </test-case>
+    <test-case start="1556668786203" stop="1556668786206" status="passed">
+      <name>testIsOrPositionAfter</name>
+    </test-case>
+    <test-case start="1556668786206" stop="1556668786209" status="passed">
+      <name>testGetAlias</name>
+    </test-case>
+    <test-case start="1556668786210" stop="1556668786213" status="passed">
+      <name>testToHtmlWrongValidation</name>
+    </test-case>
+    <test-case start="1556668786213" stop="1556668786229" status="passed">
+      <name>testToHtmlMethodNotAvailable</name>
+    </test-case>
+    <test-case start="1556668786229" stop="1556668786233" status="passed">
+      <name>testToHtmlMethodSetBmlData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

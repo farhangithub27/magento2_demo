@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668731309" stop="1556668731535" version="1.4.0">
+  <name>Magento\Dhl\Test\Unit\Model\CarrierTest</name>
+  <test-cases>
+    <test-case start="1556668731309" stop="1556668731334" status="passed">
+      <name>testPrepareShippingLabelContent</name>
+    </test-case>
+    <test-case start="1556668731334" stop="1556668731341" status="passed">
+      <name>testPrepareShippingLabelContentException with data set #0</name>
+    </test-case>
+    <test-case start="1556668731342" stop="1556668731349" status="passed">
+      <name>testPrepareShippingLabelContentException with data set #1</name>
+    </test-case>
+    <test-case start="1556668731349" stop="1556668731356" status="passed">
+      <name>testPrepareShippingLabelContentException with data set #2</name>
+    </test-case>
+    <test-case start="1556668731357" stop="1556668731403" status="passed">
+      <name>testCollectRates</name>
+    </test-case>
+    <test-case start="1556668731404" stop="1556668731410" status="passed">
+      <name>testCollectRatesErrorMessage</name>
+    </test-case>
+    <test-case start="1556668731410" stop="1556668731451" status="passed">
+      <name>testRequestToShipment with data set #0</name>
+    </test-case>
+    <test-case start="1556668731451" stop="1556668731479" status="passed">
+      <name>testRequestToShipment with data set #1</name>
+    </test-case>
+    <test-case start="1556668731480" stop="1556668731487" status="passed">
+      <name>testGetDhlProducts with data set "doc"</name>
+    </test-case>
+    <test-case start="1556668731487" stop="1556668731493" status="passed">
+      <name>testGetDhlProducts with data set "non-doc"</name>
+    </test-case>
+    <test-case start="1556668731494" stop="1556668731498" status="passed">
+      <name>testBuildMessageReference with data set "quote_prefix"</name>
+    </test-case>
+    <test-case start="1556668731499" stop="1556668731503" status="passed">
+      <name>testBuildMessageReference with data set "shipval_prefix"</name>
+    </test-case>
+    <test-case start="1556668731504" stop="1556668731509" status="passed">
+      <name>testBuildMessageReference with data set "tracking_prefix"</name>
+    </test-case>
+    <test-case start="1556668731509" stop="1556668731514" status="passed">
+      <name>testBuildMessageReferenceInvalidPrefix</name>
+    </test-case>
+    <test-case start="1556668731514" stop="1556668731519" status="passed">
+      <name>testBuildSoftwareName with data set "valid_length"</name>
+    </test-case>
+    <test-case start="1556668731519" stop="1556668731524" status="passed">
+      <name>testBuildSoftwareName with data set "exceeds_length"</name>
+    </test-case>
+    <test-case start="1556668731525" stop="1556668731529" status="passed">
+      <name>testBuildSoftwareVersion with data set "valid_length"</name>
+    </test-case>
+    <test-case start="1556668731530" stop="1556668731535" status="passed">
+      <name>testBuildSoftwareVersion with data set "exceeds_length"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

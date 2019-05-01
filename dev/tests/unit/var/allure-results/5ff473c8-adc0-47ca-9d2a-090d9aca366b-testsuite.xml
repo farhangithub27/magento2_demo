@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668742690" stop="1556668742701" version="1.4.0">
+  <name>Magento\GroupedProduct\Test\Unit\Model\Product\CatalogPriceTest</name>
+  <test-cases>
+    <test-case start="1556668742690" stop="1556668742693" status="passed">
+      <name>testGetCatalogPriceWithDefaultStoreAndWhenProductDoesNotHaveAssociatedProducts</name>
+    </test-case>
+    <test-case start="1556668742693" stop="1556668742696" status="passed">
+      <name>testGetCatalogPriceWithDefaultStoreAndSubProductIsNotSalable</name>
+    </test-case>
+    <test-case start="1556668742696" stop="1556668742700" status="passed">
+      <name>testGetCatalogPriceWithCustomStoreAndSubProductIsSalable</name>
+    </test-case>
+    <test-case start="1556668742701" stop="1556668742701" status="passed">
+      <name>testGetCatalogRegularPrice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

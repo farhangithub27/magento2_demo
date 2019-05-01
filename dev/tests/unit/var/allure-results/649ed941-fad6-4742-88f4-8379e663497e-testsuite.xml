@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668817173" stop="1556668817197" version="1.4.0">
+  <name>Magento\Store\Test\Unit\App\Action\Plugin\ContextTest</name>
+  <test-cases>
+    <test-case start="1556668817173" stop="1556668817183" status="passed">
+      <name>testBeforeDispatchCurrencyFromSession</name>
+    </test-case>
+    <test-case start="1556668817184" stop="1556668817187" status="passed">
+      <name>testDispatchCurrentStoreCurrency</name>
+    </test-case>
+    <test-case start="1556668817187" stop="1556668817190" status="passed">
+      <name>testDispatchStoreParameterIsArray</name>
+    </test-case>
+    <test-case start="1556668817191" stop="1556668817193" status="passed">
+      <name>testDispatchStoreParameterIsInvalidArray</name>
+    </test-case>
+    <test-case start="1556668817194" stop="1556668817197" status="passed">
+      <name>testDispatchNonExistingStore</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

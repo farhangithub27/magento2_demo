@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668809977" stop="1556668809989" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Status\HistoryTest</name>
+  <test-cases>
+    <test-case start="1556668809977" stop="1556668809979" status="passed">
+      <name>testSetOrder</name>
+    </test-case>
+    <test-case start="1556668809979" stop="1556668809981" status="passed">
+      <name>testSetIsCustomerNotified</name>
+    </test-case>
+    <test-case start="1556668809981" stop="1556668809983" status="passed">
+      <name>testSetIsCustomerNotifiedNotApplicable</name>
+    </test-case>
+    <test-case start="1556668809983" stop="1556668809985" status="passed">
+      <name>testGetStatusLabel</name>
+    </test-case>
+    <test-case start="1556668809985" stop="1556668809987" status="passed">
+      <name>testGetStoreFromStoreManager</name>
+    </test-case>
+    <test-case start="1556668809987" stop="1556668809989" status="passed">
+      <name>testGetStoreFromOrder</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

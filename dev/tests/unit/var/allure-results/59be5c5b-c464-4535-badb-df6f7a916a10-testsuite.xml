@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848164" stop="1556668848199" version="1.4.0">
+  <name>Magento\Framework\Config\Test\Unit\DomTest</name>
+  <test-cases>
+    <test-case start="1556668848165" stop="1556668848167" status="passed">
+      <name>testMerge with data set #0</name>
+    </test-case>
+    <test-case start="1556668848168" stop="1556668848169" status="passed">
+      <name>testMerge with data set #1</name>
+    </test-case>
+    <test-case start="1556668848170" stop="1556668848171" status="passed">
+      <name>testMerge with data set #2</name>
+    </test-case>
+    <test-case start="1556668848172" stop="1556668848173" status="passed">
+      <name>testMerge with data set #3</name>
+    </test-case>
+    <test-case start="1556668848173" stop="1556668848175" status="passed">
+      <name>testMerge with data set #4</name>
+    </test-case>
+    <test-case start="1556668848175" stop="1556668848176" status="passed">
+      <name>testMerge with data set #5</name>
+    </test-case>
+    <test-case start="1556668848177" stop="1556668848178" status="passed">
+      <name>testMerge with data set #6</name>
+    </test-case>
+    <test-case start="1556668848178" stop="1556668848182" status="passed">
+      <name>testMerge with data set #7</name>
+    </test-case>
+    <test-case start="1556668848183" stop="1556668848186" status="passed">
+      <name>testMerge with data set #8</name>
+    </test-case>
+    <test-case start="1556668848186" stop="1556668848188" status="passed">
+      <name>testMerge with data set #9</name>
+    </test-case>
+    <test-case start="1556668848189" stop="1556668848190" status="passed">
+      <name>testMerge with data set #10</name>
+    </test-case>
+    <test-case start="1556668848191" stop="1556668848192" status="passed">
+      <name>testMergeException</name>
+    </test-case>
+    <test-case start="1556668848192" stop="1556668848193" status="passed">
+      <name>testValidate with data set "valid"</name>
+    </test-case>
+    <test-case start="1556668848193" stop="1556668848194" status="passed">
+      <name>testValidate with data set "invalid"</name>
+    </test-case>
+    <test-case start="1556668848194" stop="1556668848195" status="passed">
+      <name>testValidateCustomErrorFormat</name>
+    </test-case>
+    <test-case start="1556668848195" stop="1556668848196" status="passed">
+      <name>testValidateCustomErrorFormatInvalid</name>
+    </test-case>
+    <test-case start="1556668848196" stop="1556668848198" status="passed">
+      <name>testValidateUnknownError</name>
+    </test-case>
+    <test-case start="1556668848198" stop="1556668848199" status="passed">
+      <name>testValidateDomDocumentThrowsException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668808006" stop="1556668808029" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Payment\State\AuthorizeCommandTest</name>
+  <test-cases>
+    <test-case start="1556668808007" stop="1556668808019" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668808020" stop="1556668808023" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668808023" stop="1556668808026" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668808026" stop="1556668808029" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

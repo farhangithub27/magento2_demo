@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816431" stop="1556668816448" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\SignifydGateway\Client\ResponseHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668816431" stop="1556668816434" status="passed">
+      <name>testHandleFailureMessage with data set #0</name>
+    </test-case>
+    <test-case start="1556668816435" stop="1556668816436" status="passed">
+      <name>testHandleFailureMessage with data set #1</name>
+    </test-case>
+    <test-case start="1556668816436" stop="1556668816438" status="passed">
+      <name>testHandleFailureMessage with data set #2</name>
+    </test-case>
+    <test-case start="1556668816438" stop="1556668816439" status="passed">
+      <name>testHandleFailureMessage with data set #3</name>
+    </test-case>
+    <test-case start="1556668816440" stop="1556668816441" status="passed">
+      <name>testHandleFailureMessage with data set #4</name>
+    </test-case>
+    <test-case start="1556668816441" stop="1556668816443" status="passed">
+      <name>testHandleFailureMessage with data set #5</name>
+    </test-case>
+    <test-case start="1556668816443" stop="1556668816444" status="passed">
+      <name>testHandleEmptyJsonException</name>
+    </test-case>
+    <test-case start="1556668816445" stop="1556668816446" status="passed">
+      <name>testHandleInvalidJson</name>
+    </test-case>
+    <test-case start="1556668816446" stop="1556668816448" status="passed">
+      <name>testHandle</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

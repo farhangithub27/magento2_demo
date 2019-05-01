@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668699078" stop="1556668699108" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Option\Type\FileTest</name>
+  <test-cases>
+    <test-case start="1556668699078" stop="1556668699084" status="passed">
+      <name>testGetCustomizedView</name>
+    </test-case>
+    <test-case start="1556668699085" stop="1556668699088" status="passed">
+      <name>testCopyQuoteToOrderWithDbUsage</name>
+    </test-case>
+    <test-case start="1556668699088" stop="1556668699091" status="passed">
+      <name>testCopyQuoteToOrderWithoutUsage</name>
+    </test-case>
+    <test-case start="1556668699091" stop="1556668699093" status="passed">
+      <name>testGetFormattedOptionValue</name>
+    </test-case>
+    <test-case start="1556668699094" stop="1556668699095" status="passed">
+      <name>testGetFormattedOptionValueInvalid</name>
+    </test-case>
+    <test-case start="1556668699096" stop="1556668699098" status="passed">
+      <name>testGetEditableOptionValue</name>
+    </test-case>
+    <test-case start="1556668699098" stop="1556668699100" status="passed">
+      <name>testGetEditableOptionValueInvalid</name>
+    </test-case>
+    <test-case start="1556668699100" stop="1556668699102" status="passed">
+      <name>testParseOptionValue</name>
+    </test-case>
+    <test-case start="1556668699102" stop="1556668699104" status="passed">
+      <name>testParseOptionValueNoId</name>
+    </test-case>
+    <test-case start="1556668699104" stop="1556668699106" status="passed">
+      <name>testParseOptionValueInvalid</name>
+    </test-case>
+    <test-case start="1556668699106" stop="1556668699108" status="passed">
+      <name>testPrepareOptionValueForRequest</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

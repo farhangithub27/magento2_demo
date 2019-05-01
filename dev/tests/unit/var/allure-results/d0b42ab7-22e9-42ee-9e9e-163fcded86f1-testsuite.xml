@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668673260" stop="1556668673268" version="1.4.0">
+  <name>Magento\Backup\Test\Unit\Helper\DataTest</name>
+  <test-cases>
+    <test-case start="1556668673261" stop="1556668673264" status="passed">
+      <name>testGetBackupIgnorePaths</name>
+    </test-case>
+    <test-case start="1556668673264" stop="1556668673267" status="passed">
+      <name>testGetRollbackIgnorePaths</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

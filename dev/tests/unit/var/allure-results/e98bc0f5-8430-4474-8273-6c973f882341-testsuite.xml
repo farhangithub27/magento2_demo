@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668849206" stop="1556668849299" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\Adapter\Pdo\MysqlTest</name>
+  <test-cases>
+    <test-case start="1556668849206" stop="1556668849213" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #0</name>
+    </test-case>
+    <test-case start="1556668849213" stop="1556668849215" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #1</name>
+    </test-case>
+    <test-case start="1556668849215" stop="1556668849216" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #2</name>
+    </test-case>
+    <test-case start="1556668849216" stop="1556668849218" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #3</name>
+    </test-case>
+    <test-case start="1556668849218" stop="1556668849219" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #4</name>
+    </test-case>
+    <test-case start="1556668849220" stop="1556668849221" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #5</name>
+    </test-case>
+    <test-case start="1556668849221" stop="1556668849222" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #6</name>
+    </test-case>
+    <test-case start="1556668849223" stop="1556668849224" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #7</name>
+    </test-case>
+    <test-case start="1556668849224" stop="1556668849225" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #8</name>
+    </test-case>
+    <test-case start="1556668849226" stop="1556668849227" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #9</name>
+    </test-case>
+    <test-case start="1556668849227" stop="1556668849228" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #10</name>
+    </test-case>
+    <test-case start="1556668849229" stop="1556668849230" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #11</name>
+    </test-case>
+    <test-case start="1556668849230" stop="1556668849231" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #12</name>
+    </test-case>
+    <test-case start="1556668849232" stop="1556668849233" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #13</name>
+    </test-case>
+    <test-case start="1556668849233" stop="1556668849234" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #14</name>
+    </test-case>
+    <test-case start="1556668849235" stop="1556668849236" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #15</name>
+    </test-case>
+    <test-case start="1556668849236" stop="1556668849237" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #16</name>
+    </test-case>
+    <test-case start="1556668849238" stop="1556668849239" status="passed">
+      <name>testPrepareColumnValueForBigint with data set #17</name>
+    </test-case>
+    <test-case start="1556668849239" stop="1556668849241" status="passed">
+      <name>testCheckNotDdlTransaction with data set #0</name>
+    </test-case>
+    <test-case start="1556668849241" stop="1556668849243" status="passed">
+      <name>testCheckNotDdlTransaction with data set #1</name>
+    </test-case>
+    <test-case start="1556668849243" stop="1556668849245" status="passed">
+      <name>testCheckNotDdlTransaction with data set #2</name>
+    </test-case>
+    <test-case start="1556668849245" stop="1556668849247" status="passed">
+      <name>testCheckNotDdlTransaction with data set #3</name>
+    </test-case>
+    <test-case start="1556668849247" stop="1556668849249" status="passed">
+      <name>testCheckDdlTransaction with data set #0</name>
+    </test-case>
+    <test-case start="1556668849249" stop="1556668849251" status="passed">
+      <name>testCheckDdlTransaction with data set #1</name>
+    </test-case>
+    <test-case start="1556668849251" stop="1556668849253" status="passed">
+      <name>testCheckDdlTransaction with data set #2</name>
+    </test-case>
+    <test-case start="1556668849253" stop="1556668849254" status="passed">
+      <name>testCheckDdlTransaction with data set #3</name>
+    </test-case>
+    <test-case start="1556668849255" stop="1556668849256" status="passed">
+      <name>testCheckDdlTransaction with data set #4</name>
+    </test-case>
+    <test-case start="1556668849256" stop="1556668849258" status="passed">
+      <name>testCheckDdlTransaction with data set #5</name>
+    </test-case>
+    <test-case start="1556668849258" stop="1556668849260" status="passed">
+      <name>testMultipleQueryException</name>
+    </test-case>
+    <test-case start="1556668849260" stop="1556668849261" status="passed">
+      <name>testAsymmetricRollBackFailure</name>
+    </test-case>
+    <test-case start="1556668849261" stop="1556668849263" status="passed">
+      <name>testAsymmetricCommitFailure</name>
+    </test-case>
+    <test-case start="1556668849263" stop="1556668849264" status="passed">
+      <name>testAsymmetricCommitSuccess</name>
+    </test-case>
+    <test-case start="1556668849265" stop="1556668849266" status="passed">
+      <name>testAsymmetricRollBackSuccess</name>
+    </test-case>
+    <test-case start="1556668849267" stop="1556668849269" status="passed">
+      <name>testNestedTransactionCommitSuccess</name>
+    </test-case>
+    <test-case start="1556668849269" stop="1556668849271" status="passed">
+      <name>testNestedTransactionRollBackSuccess</name>
+    </test-case>
+    <test-case start="1556668849272" stop="1556668849274" status="passed">
+      <name>testNestedTransactionLastRollBack</name>
+    </test-case>
+    <test-case start="1556668849274" stop="1556668849276" status="passed">
+      <name>testIncompleteRollBackFailureOnCommit</name>
+    </test-case>
+    <test-case start="1556668849276" stop="1556668849278" status="passed">
+      <name>testIncompleteRollBackFailureOnBeginTransaction</name>
+    </test-case>
+    <test-case start="1556668849278" stop="1556668849282" status="passed">
+      <name>testSequentialTransactionsSuccess</name>
+    </test-case>
+    <test-case start="1556668849282" stop="1556668849284" status="passed">
+      <name>testInsertOnDuplicateWithQuotedColumnName</name>
+    </test-case>
+    <test-case start="1556668849285" stop="1556668849289" status="passed">
+      <name>testAddColumn with data set #0</name>
+    </test-case>
+    <test-case start="1556668849289" stop="1556668849290" status="passed">
+      <name>testGetIndexName with data set #0</name>
+    </test-case>
+    <test-case start="1556668849291" stop="1556668849292" status="passed">
+      <name>testGetIndexName with data set #1</name>
+    </test-case>
+    <test-case start="1556668849292" stop="1556668849293" status="passed">
+      <name>testGetIndexName with data set #2</name>
+    </test-case>
+    <test-case start="1556668849294" stop="1556668849295" status="passed">
+      <name>testGetIndexName with data set #3</name>
+    </test-case>
+    <test-case start="1556668849295" stop="1556668849297" status="passed">
+      <name>testConfigValidation</name>
+    </test-case>
+    <test-case start="1556668849297" stop="1556668849299" status="passed">
+      <name>testConfigValidationByPortWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

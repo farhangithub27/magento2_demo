@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668693285" stop="1556668693288" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Attribute\LockValidatorCompositeTest</name>
+  <test-cases>
+    <test-case start="1556668693285" stop="1556668693286" status="passed">
+      <name>testCompositionsWithInvalidValidatorInstance</name>
+    </test-case>
+    <test-case start="1556668693286" stop="1556668693288" status="passed">
+      <name>testValidateWithValidValidatorInstance</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

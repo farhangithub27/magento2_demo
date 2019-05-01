@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668787525" stop="1556668787545" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\Config\Rules\ReaderTest</name>
+  <test-cases>
+    <test-case start="1556668787526" stop="1556668787528" status="passed">
+      <name>testReadExistingCountryConfig with data set #0</name>
+    </test-case>
+    <test-case start="1556668787529" stop="1556668787530" status="passed">
+      <name>testReadExistingCountryConfig with data set #1</name>
+    </test-case>
+    <test-case start="1556668787530" stop="1556668787531" status="passed">
+      <name>testReadExistingCountryConfig with data set #2</name>
+    </test-case>
+    <test-case start="1556668787532" stop="1556668787533" status="passed">
+      <name>testReadExistingCountryConfig with data set #3</name>
+    </test-case>
+    <test-case start="1556668787533" stop="1556668787534" status="passed">
+      <name>testReadExistingCountryConfig with data set #4</name>
+    </test-case>
+    <test-case start="1556668787535" stop="1556668787536" status="passed">
+      <name>testReadExistingCountryConfig with data set #5</name>
+    </test-case>
+    <test-case start="1556668787536" stop="1556668787537" status="passed">
+      <name>testReadExistingCountryConfig with data set #6</name>
+    </test-case>
+    <test-case start="1556668787538" stop="1556668787539" status="passed">
+      <name>testReadExistingCountryConfig with data set #7</name>
+    </test-case>
+    <test-case start="1556668787539" stop="1556668787540" status="passed">
+      <name>testReadExistingCountryConfig with data set #8</name>
+    </test-case>
+    <test-case start="1556668787541" stop="1556668787542" status="passed">
+      <name>testReadExistingCountryConfig with data set #9</name>
+    </test-case>
+    <test-case start="1556668787542" stop="1556668787543" status="passed">
+      <name>testReadExistingCountryConfig with data set #10</name>
+    </test-case>
+    <test-case start="1556668787544" stop="1556668787545" status="passed">
+      <name>testReadOtherCountryConfig with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

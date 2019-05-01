@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668695431" stop="1556668695439" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Indexer\Category\Flat\StateTest</name>
+  <test-cases>
+    <test-case start="1556668695432" stop="1556668695433" status="passed">
+      <name>testIsFlatEnabled</name>
+    </test-case>
+    <test-case start="1556668695433" stop="1556668695434" status="passed">
+      <name>testIsAvailable with data set #0</name>
+    </test-case>
+    <test-case start="1556668695435" stop="1556668695436" status="passed">
+      <name>testIsAvailable with data set #1</name>
+    </test-case>
+    <test-case start="1556668695436" stop="1556668695437" status="passed">
+      <name>testIsAvailable with data set #2</name>
+    </test-case>
+    <test-case start="1556668695438" stop="1556668695439" status="passed">
+      <name>testIsAvailable with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

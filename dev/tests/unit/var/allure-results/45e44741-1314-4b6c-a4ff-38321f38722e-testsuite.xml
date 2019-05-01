@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668731942" stop="1556668731945" version="1.4.0">
+  <name>Magento\Directory\Test\Unit\Model\Country\Postcode\ValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668731942" stop="1556668731943" status="passed">
+      <name>testValidatePositive</name>
+    </test-case>
+    <test-case start="1556668731944" stop="1556668731944" status="passed">
+      <name>testValidateNegative</name>
+    </test-case>
+    <test-case start="1556668731945" stop="1556668731945" status="passed">
+      <name>testValidateThrowExceptionIfCountryDoesNotExist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

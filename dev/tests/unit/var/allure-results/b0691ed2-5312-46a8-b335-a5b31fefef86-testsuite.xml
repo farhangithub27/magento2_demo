@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668721253" stop="1556668721255" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Helper\Session\CurrentCustomerAddressTest</name>
+  <test-cases>
+    <test-case start="1556668721253" stop="1556668721254" status="passed">
+      <name>testGetDefaultBillingAddress</name>
+    </test-case>
+    <test-case start="1556668721254" stop="1556668721255" status="passed">
+      <name>testGetDefaultShippingAddress</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

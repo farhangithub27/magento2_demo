@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837283" stop="1556668837288" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Pricing\Render\ConfiguredPriceBoxTest</name>
+  <test-cases>
+    <test-case start="1556668837283" stop="1556668837287" status="passed">
+      <name>testSetLayout</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

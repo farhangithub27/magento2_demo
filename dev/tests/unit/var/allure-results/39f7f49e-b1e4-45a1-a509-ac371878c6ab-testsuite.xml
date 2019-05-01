@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668870829" stop="1556668870832" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Design\Fallback\Rule\SimpleTest</name>
+  <test-cases>
+    <test-case start="1556668870829" stop="1556668870830" status="passed">
+      <name>testGetPatternDirsException</name>
+    </test-case>
+    <test-case start="1556668870830" stop="1556668870830" status="passed">
+      <name>testGetPatternDirs with data set "no optional param passed"</name>
+    </test-case>
+    <test-case start="1556668870831" stop="1556668870831" status="passed">
+      <name>testGetPatternDirs with data set "no optional param in pattern"</name>
+    </test-case>
+    <test-case start="1556668870831" stop="1556668870832" status="passed">
+      <name>testGetPatternDirs with data set "optional params in pattern and passed"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

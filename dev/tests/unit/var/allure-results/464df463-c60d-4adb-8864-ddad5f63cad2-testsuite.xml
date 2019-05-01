@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668661692" stop="1556668661696" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\UninstallDependencyCheckTest</name>
+  <test-cases>
+    <test-case start="1556668661692" stop="1556668661695" status="passed">
+      <name>testRunUninstallReadinessCheck</name>
+    </test-case>
+    <test-case start="1556668661695" stop="1556668661696" status="passed">
+      <name>testRunUninstallReadinessCheckWithError</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

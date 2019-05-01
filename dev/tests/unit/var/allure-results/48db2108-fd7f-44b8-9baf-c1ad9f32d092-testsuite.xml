@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668689196" stop="1556668689202" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Adminhtml\Product\Edit\Button\SaveTest</name>
+  <test-cases>
+    <test-case start="1556668689196" stop="1556668689198" status="passed">
+      <name>testGetButtonData</name>
+    </test-case>
+    <test-case start="1556668689198" stop="1556668689199" status="passed">
+      <name>testGetButtonDataToBeEmpty</name>
+    </test-case>
+    <test-case start="1556668689200" stop="1556668689201" status="passed">
+      <name>testGetUrl</name>
+    </test-case>
+    <test-case start="1556668689201" stop="1556668689202" status="passed">
+      <name>testGetProduct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

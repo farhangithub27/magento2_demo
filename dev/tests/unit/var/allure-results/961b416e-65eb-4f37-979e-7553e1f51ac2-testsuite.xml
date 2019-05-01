@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668818138" stop="1556668818147" version="1.4.0">
+  <name>Magento\Store\Test\Unit\Model\HeaderProvider\HstsTest</name>
+  <test-cases>
+    <test-case start="1556668818138" stop="1556668818139" status="passed">
+      <name>testGetName</name>
+    </test-case>
+    <test-case start="1556668818139" stop="1556668818139" status="passed">
+      <name>testGetValue</name>
+    </test-case>
+    <test-case start="1556668818140" stop="1556668818140" status="passed">
+      <name>testCanApply with data set #0</name>
+    </test-case>
+    <test-case start="1556668818141" stop="1556668818141" status="passed">
+      <name>testCanApply with data set #1</name>
+    </test-case>
+    <test-case start="1556668818142" stop="1556668818142" status="passed">
+      <name>testCanApply with data set #2</name>
+    </test-case>
+    <test-case start="1556668818142" stop="1556668818143" status="passed">
+      <name>testCanApply with data set #3</name>
+    </test-case>
+    <test-case start="1556668818143" stop="1556668818144" status="passed">
+      <name>testCanApply with data set #4</name>
+    </test-case>
+    <test-case start="1556668818144" stop="1556668818145" status="passed">
+      <name>testCanApply with data set #5</name>
+    </test-case>
+    <test-case start="1556668818145" stop="1556668818146" status="passed">
+      <name>testCanApply with data set #6</name>
+    </test-case>
+    <test-case start="1556668818146" stop="1556668818146" status="passed">
+      <name>testCanApply with data set #7</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668727040" stop="1556668727046" version="1.4.0">
+  <name>Magento\Deploy\Test\Unit\Console\Command\App\SensitiveConfigSet\SimpleCollectorTest</name>
+  <test-cases>
+    <test-case start="1556668727040" stop="1556668727042" status="passed">
+      <name>testGetValues</name>
+    </test-case>
+    <test-case start="1556668727042" stop="1556668727044" status="passed">
+      <name>testWrongConfigPath</name>
+    </test-case>
+    <test-case start="1556668727044" stop="1556668727046" status="passed">
+      <name>testEmptyValue</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

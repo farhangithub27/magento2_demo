@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668725558" stop="1556668725592" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\ResourceModel\Address\DeleteRelationTest</name>
+  <test-cases>
+    <test-case start="1556668725559" stop="1556668725575" status="passed">
+      <name>testDeleteRelation with data set #0</name>
+    </test-case>
+    <test-case start="1556668725575" stop="1556668725579" status="passed">
+      <name>testDeleteRelation with data set #1</name>
+    </test-case>
+    <test-case start="1556668725580" stop="1556668725584" status="passed">
+      <name>testDeleteRelation with data set #2</name>
+    </test-case>
+    <test-case start="1556668725585" stop="1556668725589" status="passed">
+      <name>testDeleteRelation with data set #3</name>
+    </test-case>
+    <test-case start="1556668725590" stop="1556668725592" status="passed">
+      <name>testDeleteRelation with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

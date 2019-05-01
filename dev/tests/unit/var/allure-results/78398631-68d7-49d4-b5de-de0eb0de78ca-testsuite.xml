@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666118" stop="1556668666126" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Model\FileInfoManagerTest</name>
+  <test-cases>
+    <test-case start="1556668666118" stop="1556668666121" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668666121" stop="1556668666122" status="passed">
+      <name>testSaveWithLocalizedException with data set "Empty FileInfo"</name>
+    </test-case>
+    <test-case start="1556668666123" stop="1556668666124" status="passed">
+      <name>testSaveWithLocalizedException with data set "FileInfo without IV"</name>
+    </test-case>
+    <test-case start="1556668666124" stop="1556668666125" status="passed">
+      <name>testLoad with data set "Empty flag data"</name>
+    </test-case>
+    <test-case start="1556668666125" stop="1556668666126" status="passed">
+      <name>testLoad with data set "Correct flag data"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

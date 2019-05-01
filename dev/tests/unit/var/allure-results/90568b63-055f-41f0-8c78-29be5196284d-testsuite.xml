@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668672652" stop="1556668672707" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\UrlTest</name>
+  <test-cases>
+    <test-case start="1556668672652" stop="1556668672677" status="passed">
+      <name>testFindFirstAvailableMenuDenied</name>
+    </test-case>
+    <test-case start="1556668672677" stop="1556668672680" status="passed">
+      <name>testFindFirstAvailableMenu</name>
+    </test-case>
+    <test-case start="1556668672680" stop="1556668672684" status="passed">
+      <name>testGetStartupPageUrl</name>
+    </test-case>
+    <test-case start="1556668672684" stop="1556668672690" status="passed">
+      <name>testGetAreaFrontName</name>
+    </test-case>
+    <test-case start="1556668672690" stop="1556668672693" status="passed">
+      <name>testGetSecretKeyGenerationWithRouteNameAsParamNotEquals</name>
+    </test-case>
+    <test-case start="1556668672693" stop="1556668672696" status="passed">
+      <name>testGetSecretKeyGenerationWithRouteNameAsParamEquals</name>
+    </test-case>
+    <test-case start="1556668672696" stop="1556668672700" status="passed">
+      <name>testGetSecretKeyGenerationWithRouteNameInRequest</name>
+    </test-case>
+    <test-case start="1556668672701" stop="1556668672704" status="passed">
+      <name>testGetSecretKeyGenerationWithRouteNameInForwardInfo</name>
+    </test-case>
+    <test-case start="1556668672704" stop="1556668672707" status="passed">
+      <name>testGetUrlWithUrlInRoutePath</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

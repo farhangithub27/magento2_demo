@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855679" stop="1556668855737" version="1.4.0">
+  <name>Magento\Framework\Locale\Test\Unit\CurrencyTest</name>
+  <test-cases>
+    <test-case start="1556668855679" stop="1556668855680" status="passed">
+      <name>testGetDefaultCurrency</name>
+    </test-case>
+    <test-case start="1556668855680" stop="1556668855692" status="passed">
+      <name>testGetCurrencyNonCached</name>
+    </test-case>
+    <test-case start="1556668855692" stop="1556668855703" status="passed">
+      <name>testGetCurrencyCached</name>
+    </test-case>
+    <test-case start="1556668855704" stop="1556668855721" status="passed">
+      <name>testGetNonExistantCurrency</name>
+    </test-case>
+    <test-case start="1556668855721" stop="1556668855737" status="passed">
+      <name>testExceptionCase</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

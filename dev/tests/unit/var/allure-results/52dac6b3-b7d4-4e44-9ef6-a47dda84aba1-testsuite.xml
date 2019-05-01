@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668743903" stop="1556668743905" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Model\Import\Config\SchemaLocatorTest</name>
+  <test-cases>
+    <test-case start="1556668743903" stop="1556668743904" status="passed">
+      <name>testGetSchema</name>
+    </test-case>
+    <test-case start="1556668743904" stop="1556668743905" status="passed">
+      <name>testGetPerFileSchema</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

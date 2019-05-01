@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668741485" stop="1556668741544" version="1.4.0">
+  <name>Magento\GoogleAdwords\Test\Unit\Helper\DataTest</name>
+  <test-cases>
+    <test-case start="1556668741485" stop="1556668741488" status="passed">
+      <name>testIsGoogleAdwordsActive with data set #0</name>
+    </test-case>
+    <test-case start="1556668741489" stop="1556668741490" status="passed">
+      <name>testIsGoogleAdwordsActive with data set #1</name>
+    </test-case>
+    <test-case start="1556668741491" stop="1556668741493" status="passed">
+      <name>testIsGoogleAdwordsActive with data set #2</name>
+    </test-case>
+    <test-case start="1556668741493" stop="1556668741495" status="passed">
+      <name>testIsGoogleAdwordsActive with data set #3</name>
+    </test-case>
+    <test-case start="1556668741495" stop="1556668741497" status="passed">
+      <name>testGetLanguageCodes</name>
+    </test-case>
+    <test-case start="1556668741497" stop="1556668741499" status="passed">
+      <name>testConvertLanguageCodeToLocaleCode with data set #0</name>
+    </test-case>
+    <test-case start="1556668741499" stop="1556668741501" status="passed">
+      <name>testConvertLanguageCodeToLocaleCode with data set #1</name>
+    </test-case>
+    <test-case start="1556668741502" stop="1556668741504" status="passed">
+      <name>testConvertLanguageCodeToLocaleCode with data set #2</name>
+    </test-case>
+    <test-case start="1556668741504" stop="1556668741507" status="passed">
+      <name>testConvertLanguageCodeToLocaleCode with data set #3</name>
+    </test-case>
+    <test-case start="1556668741507" stop="1556668741509" status="passed">
+      <name>testGetConversionImgSrc</name>
+    </test-case>
+    <test-case start="1556668741510" stop="1556668741512" status="passed">
+      <name>testGetConversionJsSrc</name>
+    </test-case>
+    <test-case start="1556668741513" stop="1556668741515" status="passed">
+      <name>testGetStoreConfigValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668741516" stop="1556668741518" status="passed">
+      <name>testGetStoreConfigValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668741519" stop="1556668741521" status="passed">
+      <name>testGetStoreConfigValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668741522" stop="1556668741524" status="passed">
+      <name>testGetStoreConfigValue with data set #3</name>
+    </test-case>
+    <test-case start="1556668741525" stop="1556668741527" status="passed">
+      <name>testGetStoreConfigValue with data set #4</name>
+    </test-case>
+    <test-case start="1556668741527" stop="1556668741529" status="passed">
+      <name>testGetStoreConfigValue with data set #5</name>
+    </test-case>
+    <test-case start="1556668741530" stop="1556668741532" status="passed">
+      <name>testGetStoreConfigValue with data set #6</name>
+    </test-case>
+    <test-case start="1556668741532" stop="1556668741534" status="passed">
+      <name>testHasSendConversionValueCurrency</name>
+    </test-case>
+    <test-case start="1556668741534" stop="1556668741536" status="passed">
+      <name>testGetConversionValueDynamic</name>
+    </test-case>
+    <test-case start="1556668741537" stop="1556668741538" status="passed">
+      <name>testGetConversionValueCurrency</name>
+    </test-case>
+    <test-case start="1556668741539" stop="1556668741541" status="passed">
+      <name>testGetConversionValueConstant with data set #0</name>
+    </test-case>
+    <test-case start="1556668741541" stop="1556668741544" status="passed">
+      <name>testGetConversionValueConstant with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

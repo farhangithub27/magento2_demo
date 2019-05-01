@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838431" stop="1556668838452" version="1.4.0">
+  <name>WebShopApps\MatrixRate\Test\Unit\Block\Adminhtml\Carrier\Matrixrate\GridTest</name>
+  <test-cases>
+    <test-case start="1556668838432" stop="1556668838444" status="passed">
+      <name>testSetWebsiteId</name>
+    </test-case>
+    <test-case start="1556668838445" stop="1556668838448" status="passed">
+      <name>testGetWebsiteId</name>
+    </test-case>
+    <test-case start="1556668838449" stop="1556668838452" status="passed">
+      <name>testSetAndGetConditionName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

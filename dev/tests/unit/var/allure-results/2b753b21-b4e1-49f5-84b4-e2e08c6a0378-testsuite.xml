@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668707505" stop="1556668707535" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Model\GuestPaymentInformationManagementTest</name>
+  <test-cases>
+    <test-case start="1556668707505" stop="1556668707516" status="passed">
+      <name>testSavePaymentInformationAndPlaceOrder</name>
+    </test-case>
+    <test-case start="1556668707516" stop="1556668707523" status="passed">
+      <name>testSavePaymentInformationAndPlaceOrderException</name>
+    </test-case>
+    <test-case start="1556668707523" stop="1556668707527" status="passed">
+      <name>testSavePaymentInformation</name>
+    </test-case>
+    <test-case start="1556668707527" stop="1556668707530" status="passed">
+      <name>testSavePaymentInformationWithoutBillingAddress</name>
+    </test-case>
+    <test-case start="1556668707530" stop="1556668707535" status="passed">
+      <name>testSavePaymentInformationAndPlaceOrderWithLocalizedException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

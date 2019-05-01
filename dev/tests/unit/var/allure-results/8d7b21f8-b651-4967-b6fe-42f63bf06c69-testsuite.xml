@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668852248" stop="1556668852265" version="1.4.0">
+  <name>Magento\Framework\DataObject\Test\Unit\CopyTest</name>
+  <test-cases>
+    <test-case start="1556668852248" stop="1556668852250" status="passed">
+      <name>testCopyFieldsetToTargetWhenFieldsetInputInvalid</name>
+    </test-case>
+    <test-case start="1556668852250" stop="1556668852251" status="passed">
+      <name>testCopyFieldsetToTargetWhenFieldIsNotExists</name>
+    </test-case>
+    <test-case start="1556668852251" stop="1556668852253" status="passed">
+      <name>testCopyFieldsetToTargetWhenFieldExists</name>
+    </test-case>
+    <test-case start="1556668852253" stop="1556668852254" status="passed">
+      <name>testCopyFieldsetToTargetWhenTargetNotArray</name>
+    </test-case>
+    <test-case start="1556668852254" stop="1556668852256" status="passed">
+      <name>testGetCopyFieldsetToTargetWhenTargetIsArray</name>
+    </test-case>
+    <test-case start="1556668852256" stop="1556668852258" status="passed">
+      <name>testGetCopyFieldsetToTargetWhenTargetIsExtensibleDataInterface</name>
+    </test-case>
+    <test-case start="1556668852259" stop="1556668852261" status="passed">
+      <name>testGetCopyFieldsetToTargetWhenTargetIsAbstractSimpleObject</name>
+    </test-case>
+    <test-case start="1556668852261" stop="1556668852262" status="passed">
+      <name>testGetDataFromFieldsetWhenSourceIsInvalid</name>
+    </test-case>
+    <test-case start="1556668852262" stop="1556668852263" status="passed">
+      <name>testGetDataFromFieldsetWhenFieldsetDoesNotExist</name>
+    </test-case>
+    <test-case start="1556668852263" stop="1556668852264" status="passed">
+      <name>testGetDataFromFieldsetWhenFieldExists</name>
+    </test-case>
+    <test-case start="1556668852264" stop="1556668852265" status="passed">
+      <name>testGetDataFromFieldsetWhenFieldDoesNotExists</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

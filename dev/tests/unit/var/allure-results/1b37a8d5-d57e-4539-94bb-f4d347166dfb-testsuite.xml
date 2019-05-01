@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838129" stop="1556668838140" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\TaxRegistryTest</name>
+  <test-cases>
+    <test-case start="1556668838129" stop="1556668838131" status="passed">
+      <name>testScalarDataRegistration with data set "data"</name>
+    </test-case>
+    <test-case start="1556668838132" stop="1556668838132" status="passed">
+      <name>testArrayDataRegistration with data set "data"</name>
+    </test-case>
+    <test-case start="1556668838133" stop="1556668838134" status="passed">
+      <name>testTaxDataPresenceCheck with data set #0</name>
+    </test-case>
+    <test-case start="1556668838134" stop="1556668838135" status="passed">
+      <name>testTaxDataLookupInterface with data set #0</name>
+    </test-case>
+    <test-case start="1556668838136" stop="1556668838136" status="passed">
+      <name>testTaxDataRegistrationInterface with data set #0</name>
+    </test-case>
+    <test-case start="1556668838137" stop="1556668838138" status="passed">
+      <name>testErrorRegistrationInterface</name>
+    </test-case>
+    <test-case start="1556668838138" stop="1556668838139" status="passed">
+      <name>testDataDeregistration</name>
+    </test-case>
+    <test-case start="1556668838139" stop="1556668838140" status="passed">
+      <name>testTaxDataDeregistrationInterface with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

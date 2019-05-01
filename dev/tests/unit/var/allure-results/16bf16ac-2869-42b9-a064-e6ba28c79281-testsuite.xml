@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668813322" stop="1556668813324" version="1.4.0">
+  <name>Magento\Search\Test\Unit\Model\EngineResolverTest</name>
+  <test-cases>
+    <test-case start="1556668813322" stop="1556668813323" status="passed">
+      <name>testGetCurrentSearchEngine</name>
+    </test-case>
+    <test-case start="1556668813323" stop="1556668813324" status="passed">
+      <name>testGetCurrentSearchEngineWithoutEngine</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

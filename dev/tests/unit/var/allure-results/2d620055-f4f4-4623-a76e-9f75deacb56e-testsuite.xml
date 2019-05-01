@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668834998" stop="1556668835038" version="1.4.0">
+  <name>Magento\Widget\Test\Unit\Block\Adminhtml\Widget\Instance\Edit\Chooser\ContainerTest</name>
+  <test-cases>
+    <test-case start="1556668834998" stop="1556668835006" status="passed">
+      <name>testToHtmlCatalogProductsListGroupedProduct</name>
+    </test-case>
+    <test-case start="1556668835007" stop="1556668835018" status="passed">
+      <name>testToHtmlCatalogCategoryLinkSimpleProduct</name>
+    </test-case>
+    <test-case start="1556668835019" stop="1556668835032" status="passed">
+      <name>testToHtmlCmsStaticBlockAllProductTypes</name>
+    </test-case>
+    <test-case start="1556668835033" stop="1556668835038" status="passed">
+      <name>testToHtmlOrderBySkuAllPages</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

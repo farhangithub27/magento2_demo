@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668844121" stop="1556668844125" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Filesystem\DirectoryListTest</name>
+  <test-cases>
+    <test-case start="1556668844121" stop="1556668844122" status="passed">
+      <name>testRoot</name>
+    </test-case>
+    <test-case start="1556668844122" stop="1556668844123" status="passed">
+      <name>testDirectoriesCustomization</name>
+    </test-case>
+    <test-case start="1556668844124" stop="1556668844124" status="passed">
+      <name>testUnknownDirectory</name>
+    </test-case>
+    <test-case start="1556668844124" stop="1556668844125" status="passed">
+      <name>testGetDefaultConfig</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

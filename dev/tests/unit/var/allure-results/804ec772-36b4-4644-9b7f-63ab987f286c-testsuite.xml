@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668815693" stop="1556668815725" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\CaseServices\UpdatingServiceTest</name>
+  <test-cases>
+    <test-case start="1556668815694" stop="1556668815699" status="passed">
+      <name>testUpdateWithEmptyCaseEntity</name>
+    </test-case>
+    <test-case start="1556668815700" stop="1556668815701" status="passed">
+      <name>testUpdateWithEmptyCaseId</name>
+    </test-case>
+    <test-case start="1556668815702" stop="1556668815707" status="passed">
+      <name>testUpdateWithFailedCaseSaving</name>
+    </test-case>
+    <test-case start="1556668815708" stop="1556668815714" status="passed">
+      <name>testUpdateWithExceptionFromMessageGenerator</name>
+    </test-case>
+    <test-case start="1556668815714" stop="1556668815719" status="passed">
+      <name>testUpdateWithFailedCommentSaving</name>
+    </test-case>
+    <test-case start="1556668815719" stop="1556668815725" status="passed">
+      <name>testUpdate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

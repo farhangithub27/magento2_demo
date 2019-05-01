@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668710455" stop="1556668710459" version="1.4.0">
+  <name>Magento\Cms\Test\Unit\Ui\Component\Listing\DataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668710455" stop="1556668710459" status="passed">
+      <name>testPrepareMetadata</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

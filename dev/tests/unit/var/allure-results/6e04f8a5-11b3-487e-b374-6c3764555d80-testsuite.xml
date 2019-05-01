@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668865284" stop="1556668865292" version="1.4.0">
+  <name>Magento\Framework\Validator\Test\Unit\Constraint\PropertyTest</name>
+  <test-cases>
+    <test-case start="1556668865284" stop="1556668865285" status="passed">
+      <name>testGetAlias</name>
+    </test-case>
+    <test-case start="1556668865285" stop="1556668865286" status="passed">
+      <name>testIsValid with data set #0</name>
+    </test-case>
+    <test-case start="1556668865286" stop="1556668865287" status="passed">
+      <name>testIsValid with data set #1</name>
+    </test-case>
+    <test-case start="1556668865287" stop="1556668865288" status="passed">
+      <name>testIsValid with data set #2</name>
+    </test-case>
+    <test-case start="1556668865289" stop="1556668865289" status="passed">
+      <name>testIsValid with data set #3</name>
+    </test-case>
+    <test-case start="1556668865290" stop="1556668865291" status="passed">
+      <name>testIsValid with data set #4</name>
+    </test-case>
+    <test-case start="1556668865291" stop="1556668865292" status="passed">
+      <name>testIsValid with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

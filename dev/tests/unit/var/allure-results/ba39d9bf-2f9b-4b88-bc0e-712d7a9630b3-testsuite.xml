@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668748895" stop="1556668748898" version="1.4.0">
+  <name>Magento\MediaStorage\Test\Unit\Model\Asset\Plugin\CleanMergedJsCssTest</name>
+  <test-cases>
+    <test-case start="1556668748895" stop="1556668748898" status="passed">
+      <name>testAfterCleanMergedJsCss</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

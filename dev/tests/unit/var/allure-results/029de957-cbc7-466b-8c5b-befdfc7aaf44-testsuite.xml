@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668718770" stop="1556668718780" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\CustomerScopeDataTest</name>
+  <test-cases>
+    <test-case start="1556668718771" stop="1556668718775" status="passed">
+      <name>testGetWebsiteId</name>
+    </test-case>
+    <test-case start="1556668718776" stop="1556668718780" status="passed">
+      <name>testEncodeConfiguration</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

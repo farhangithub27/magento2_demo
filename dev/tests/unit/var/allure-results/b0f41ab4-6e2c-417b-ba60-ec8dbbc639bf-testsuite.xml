@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668792164" stop="1556668792187" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\Item\ProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668792164" stop="1556668792170" status="passed">
+      <name>testInitWithQtyModification</name>
+    </test-case>
+    <test-case start="1556668792170" stop="1556668792172" status="passed">
+      <name>testInitWithoutModification</name>
+    </test-case>
+    <test-case start="1556668792172" stop="1556668792174" status="passed">
+      <name>testInitWithoutModificationAdminhtmlAreaCode</name>
+    </test-case>
+    <test-case start="1556668792175" stop="1556668792177" status="passed">
+      <name>testPrepare</name>
+    </test-case>
+    <test-case start="1556668792177" stop="1556668792180" status="passed">
+      <name>testPrepareWithResetCountAndStick</name>
+    </test-case>
+    <test-case start="1556668792180" stop="1556668792183" status="passed">
+      <name>testPrepareWithResetCountAndNotStickAndOtherItemId</name>
+    </test-case>
+    <test-case start="1556668792183" stop="1556668792187" status="passed">
+      <name>testPrepareWithResetCountAndNotStickAndSameItemId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

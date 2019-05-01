@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668672756" stop="1556668672783" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\View\Result\PageTest</name>
+  <test-cases>
+    <test-case start="1556668672757" stop="1556668672778" status="passed">
+      <name>testAddBreadcrumb</name>
+    </test-case>
+    <test-case start="1556668672779" stop="1556668672782" status="passed">
+      <name>testAddBreadcrumbNoBlock</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

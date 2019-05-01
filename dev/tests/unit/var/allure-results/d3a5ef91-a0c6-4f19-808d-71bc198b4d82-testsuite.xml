@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668780328" stop="1556668780358" version="1.4.0">
+  <name>Magento\MysqlMq\Test\Unit\Model\QueueManagementTest</name>
+  <test-cases>
+    <test-case start="1556668780328" stop="1556668780334" status="passed">
+      <name>testAddMessageToQueues</name>
+    </test-case>
+    <test-case start="1556668780334" stop="1556668780335" status="passed">
+      <name>testAddMessagesToQueues</name>
+    </test-case>
+    <test-case start="1556668780336" stop="1556668780357" status="passed">
+      <name>testMarkMessagesForDelete</name>
+    </test-case>
+    <test-case start="1556668780357" stop="1556668780358" status="passed">
+      <name>testChangeStatus</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

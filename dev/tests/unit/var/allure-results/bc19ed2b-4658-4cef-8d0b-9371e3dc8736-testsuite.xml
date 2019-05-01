@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668810009" stop="1556668810012" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\StatusResolverTest</name>
+  <test-cases>
+    <test-case start="1556668810010" stop="1556668810011" status="passed">
+      <name>testGetOrderStatusByState with data set #0</name>
+    </test-case>
+    <test-case start="1556668810011" stop="1556668810012" status="passed">
+      <name>testGetOrderStatusByState with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

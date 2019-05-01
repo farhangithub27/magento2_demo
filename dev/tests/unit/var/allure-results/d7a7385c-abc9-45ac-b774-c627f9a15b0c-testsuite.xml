@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668875279" stop="1556668875288" version="1.4.0">
+  <name>Magento\Framework\Webapi\Test\Unit\Rest\ResponseTest</name>
+  <test-cases>
+    <test-case start="1556668875280" stop="1556668875281" status="passed">
+      <name>testSetWebapiExceptionException</name>
+    </test-case>
+    <test-case start="1556668875281" stop="1556668875283" status="passed">
+      <name>testSendResponseRenderMessagesException</name>
+    </test-case>
+    <test-case start="1556668875283" stop="1556668875284" status="passed">
+      <name>testSendResponseRenderMessagesHttpNotAcceptable</name>
+    </test-case>
+    <test-case start="1556668875284" stop="1556668875285" status="passed">
+      <name>testSendResponseWithException</name>
+    </test-case>
+    <test-case start="1556668875285" stop="1556668875286" status="passed">
+      <name>testSendResponseSuccessHandling</name>
+    </test-case>
+    <test-case start="1556668875286" stop="1556668875287" status="passed">
+      <name>testHasExceptionOfType</name>
+    </test-case>
+    <test-case start="1556668875287" stop="1556668875288" status="passed">
+      <name>testHasExceptionOfTypeIfExceptionsIsEmpty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

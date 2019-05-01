@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668857441" stop="1556668857448" version="1.4.0">
+  <name>Magento\Framework\Module\Test\Unit\ManagerTest</name>
+  <test-cases>
+    <test-case start="1556668857441" stop="1556668857442" status="passed">
+      <name>testIsEnabled</name>
+    </test-case>
+    <test-case start="1556668857442" stop="1556668857443" status="passed">
+      <name>testIsOutputEnabledReturnsFalseForDisabledModule</name>
+    </test-case>
+    <test-case start="1556668857443" stop="1556668857444" status="passed">
+      <name>testIsOutputEnabledGenericConfigPath with data set "output disabled"</name>
+    </test-case>
+    <test-case start="1556668857445" stop="1556668857445" status="passed">
+      <name>testIsOutputEnabledGenericConfigPath with data set "output enabled"</name>
+    </test-case>
+    <test-case start="1556668857446" stop="1556668857447" status="passed">
+      <name>testIsOutputEnabledCustomConfigPath with data set "path literal, output disabled"</name>
+    </test-case>
+    <test-case start="1556668857447" stop="1556668857448" status="passed">
+      <name>testIsOutputEnabledCustomConfigPath with data set "path literal, output enabled"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

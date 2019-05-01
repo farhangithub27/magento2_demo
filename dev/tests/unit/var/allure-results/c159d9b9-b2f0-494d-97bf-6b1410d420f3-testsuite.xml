@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668699327" stop="1556668699364" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Option\ValueTest</name>
+  <test-cases>
+    <test-case start="1556668699327" stop="1556668699337" status="passed">
+      <name>testSaveProduct</name>
+    </test-case>
+    <test-case start="1556668699337" stop="1556668699340" status="passed">
+      <name>testGetPrice</name>
+    </test-case>
+    <test-case start="1556668699341" stop="1556668699345" status="passed">
+      <name>testGetValuesCollection</name>
+    </test-case>
+    <test-case start="1556668699345" stop="1556668699349" status="passed">
+      <name>testGetValuesByOption</name>
+    </test-case>
+    <test-case start="1556668699349" stop="1556668699352" status="passed">
+      <name>testGetProduct</name>
+    </test-case>
+    <test-case start="1556668699352" stop="1556668699356" status="passed">
+      <name>testDuplicate</name>
+    </test-case>
+    <test-case start="1556668699356" stop="1556668699360" status="passed">
+      <name>testDeleteValues</name>
+    </test-case>
+    <test-case start="1556668699360" stop="1556668699364" status="passed">
+      <name>testDeleteValue</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

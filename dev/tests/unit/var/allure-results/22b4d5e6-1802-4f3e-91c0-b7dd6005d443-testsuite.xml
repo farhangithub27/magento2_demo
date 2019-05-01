@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668687400" stop="1556668687440" version="1.4.0">
+  <name>Magento\CatalogUrlRewrite\Test\Unit\Model\CategoryUrlPathGeneratorTest</name>
+  <test-cases>
+    <test-case start="1556668687401" stop="1556668687403" status="passed">
+      <name>testGetUrlPath with data set #0</name>
+    </test-case>
+    <test-case start="1556668687404" stop="1556668687406" status="passed">
+      <name>testGetUrlPath with data set #1</name>
+    </test-case>
+    <test-case start="1556668687407" stop="1556668687410" status="passed">
+      <name>testGetUrlPath with data set #2</name>
+    </test-case>
+    <test-case start="1556668687411" stop="1556668687414" status="passed">
+      <name>testGetUrlPath with data set #3</name>
+    </test-case>
+    <test-case start="1556668687415" stop="1556668687419" status="passed">
+      <name>testGetUrlPathWithParent with data set #0</name>
+    </test-case>
+    <test-case start="1556668687420" stop="1556668687423" status="passed">
+      <name>testGetUrlPathWithParent with data set #1</name>
+    </test-case>
+    <test-case start="1556668687424" stop="1556668687427" status="passed">
+      <name>testGetUrlPathWithParent with data set #2</name>
+    </test-case>
+    <test-case start="1556668687428" stop="1556668687430" status="passed">
+      <name>testGetUrlPathWithSuffixAndStore with data set #0</name>
+    </test-case>
+    <test-case start="1556668687430" stop="1556668687432" status="passed">
+      <name>testGetUrlPathWithSuffixAndStore with data set #1</name>
+    </test-case>
+    <test-case start="1556668687433" stop="1556668687435" status="passed">
+      <name>testGetUrlPathWithSuffixWithoutStore</name>
+    </test-case>
+    <test-case start="1556668687435" stop="1556668687436" status="passed">
+      <name>testGetCanonicalUrlPath</name>
+    </test-case>
+    <test-case start="1556668687437" stop="1556668687438" status="passed">
+      <name>testGetUrlKey with data set #0</name>
+    </test-case>
+    <test-case start="1556668687438" stop="1556668687440" status="passed">
+      <name>testGetUrlKey with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668842131" stop="1556668842151" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\AclResourceTest</name>
+  <test-cases>
+    <test-case start="1556668842131" stop="1556668842133" status="passed">
+      <name>testGetConnectionFail</name>
+    </test-case>
+    <test-case start="1556668842134" stop="1556668842135" status="passed">
+      <name>testGetConnectionInitConnection</name>
+    </test-case>
+    <test-case start="1556668842136" stop="1556668842137" status="passed">
+      <name>testGetTableName with data set #0</name>
+    </test-case>
+    <test-case start="1556668842138" stop="1556668842140" status="passed">
+      <name>testGetTableName with data set #1</name>
+    </test-case>
+    <test-case start="1556668842140" stop="1556668842142" status="passed">
+      <name>testGetTableNameMapped with data set #0</name>
+    </test-case>
+    <test-case start="1556668842142" stop="1556668842144" status="passed">
+      <name>testGetTableNameMapped with data set #1</name>
+    </test-case>
+    <test-case start="1556668842144" stop="1556668842146" status="passed">
+      <name>testGetIdxName</name>
+    </test-case>
+    <test-case start="1556668842146" stop="1556668842149" status="passed">
+      <name>testGetFkName</name>
+    </test-case>
+    <test-case start="1556668842149" stop="1556668842151" status="passed">
+      <name>testGetTriggerName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

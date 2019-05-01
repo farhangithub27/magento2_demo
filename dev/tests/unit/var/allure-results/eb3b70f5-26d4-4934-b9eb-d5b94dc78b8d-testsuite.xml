@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790740" stop="1556668790776" version="1.4.0">
+  <name>Magento\ProductVideo\Test\Unit\Controller\Adminhtml\Product\Gallery\RetrieveImageTest</name>
+  <test-cases>
+    <test-case start="1556668790741" stop="1556668790762" status="failed">
+      <name>testExecute</name>
+      <failure>
+        <message>Expectation failed for method name is equal to 'getDirectoryWrite' when invoked 1 time(s).
+Method was expected to be called 1 times, actually called 0 times.
+</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/InvocationMocker.php(182): PHPUnit\Framework\MockObject\Matcher-&gt;verify()
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit-mock-objects/src/Generator.php(264) : eval()'d code(133): PHPUnit\Framework\MockObject\InvocationMocker-&gt;verify()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1170): Mock_Filesystem_1da8d79c-&gt;__phpunit_verify(true)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(940): PHPUnit\Framework\TestCase-&gt;verifyMockObjects()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\ProductVideo\Test\Unit\Controller\Adminhtml\Product\Gallery\RetrieveImageTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668790762" stop="1556668790769" status="passed">
+      <name>testExecuteInvalidFileImage</name>
+    </test-case>
+    <test-case start="1556668790770" stop="1556668790776" status="passed">
+      <name>testExecuteInvalidFileType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

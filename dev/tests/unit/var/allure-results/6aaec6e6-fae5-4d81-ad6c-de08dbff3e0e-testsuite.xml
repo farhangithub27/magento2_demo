@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668704399" stop="1556668704423" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Ui\Component\Product\MassActionTest</name>
+  <test-cases>
+    <test-case start="1556668704399" stop="1556668704401" status="passed">
+      <name>testGetComponentName</name>
+    </test-case>
+    <test-case start="1556668704401" stop="1556668704403" status="passed">
+      <name>testPrepare with data set #0</name>
+    </test-case>
+    <test-case start="1556668704403" stop="1556668704404" status="passed">
+      <name>testPrepare with data set #1</name>
+    </test-case>
+    <test-case start="1556668704405" stop="1556668704406" status="passed">
+      <name>testPrepare with data set #2</name>
+    </test-case>
+    <test-case start="1556668704406" stop="1556668704408" status="passed">
+      <name>testPrepare with data set #3</name>
+    </test-case>
+    <test-case start="1556668704408" stop="1556668704409" status="passed">
+      <name>testPrepare with data set #4</name>
+    </test-case>
+    <test-case start="1556668704410" stop="1556668704411" status="passed">
+      <name>testPrepare with data set #5</name>
+    </test-case>
+    <test-case start="1556668704411" stop="1556668704412" status="passed">
+      <name>testPrepare with data set #6</name>
+    </test-case>
+    <test-case start="1556668704413" stop="1556668704414" status="passed">
+      <name>testPrepare with data set #7</name>
+    </test-case>
+    <test-case start="1556668704415" stop="1556668704416" status="passed">
+      <name>testIsActionAllowed with data set "other"</name>
+    </test-case>
+    <test-case start="1556668704416" stop="1556668704417" status="passed">
+      <name>testIsActionAllowed with data set "delete-allowed"</name>
+    </test-case>
+    <test-case start="1556668704417" stop="1556668704418" status="passed">
+      <name>testIsActionAllowed with data set "delete-not-allowed"</name>
+    </test-case>
+    <test-case start="1556668704419" stop="1556668704419" status="passed">
+      <name>testIsActionAllowed with data set "status-allowed"</name>
+    </test-case>
+    <test-case start="1556668704420" stop="1556668704421" status="passed">
+      <name>testIsActionAllowed with data set "status-not-allowed"</name>
+    </test-case>
+    <test-case start="1556668704421" stop="1556668704422" status="passed">
+      <name>testIsActionAllowed with data set "attributes-allowed"</name>
+    </test-case>
+    <test-case start="1556668704422" stop="1556668704423" status="passed">
+      <name>testIsActionAllowed with data set "attributes-not-allowed"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

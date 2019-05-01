@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668682090" stop="1556668682126" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Model\Quote\Item\QuantityValidator\Initializer\OptionTest</name>
+  <test-cases>
+    <test-case start="1556668682091" stop="1556668682114" status="passed">
+      <name>testInitializeWhenResultIsDecimalGetBackordersMessageHasOptionQtyUpdate</name>
+    </test-case>
+    <test-case start="1556668682114" stop="1556668682122" status="passed">
+      <name>testInitializeWhenResultNotDecimalGetBackordersMessageHasOptionQtyUpdate</name>
+    </test-case>
+    <test-case start="1556668682122" stop="1556668682126" status="passed">
+      <name>testInitializeWithInvalidOptionQty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

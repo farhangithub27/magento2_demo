@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668844231" stop="1556668844235" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Http\ContextTest</name>
+  <test-cases>
+    <test-case start="1556668844231" stop="1556668844231" status="passed">
+      <name>testGetValue</name>
+    </test-case>
+    <test-case start="1556668844232" stop="1556668844232" status="passed">
+      <name>testSetGetValue</name>
+    </test-case>
+    <test-case start="1556668844232" stop="1556668844233" status="passed">
+      <name>testSetUnsetGetValue</name>
+    </test-case>
+    <test-case start="1556668844233" stop="1556668844234" status="passed">
+      <name>testGetData</name>
+    </test-case>
+    <test-case start="1556668844234" stop="1556668844234" status="passed">
+      <name>testGetVaryString</name>
+    </test-case>
+    <test-case start="1556668844235" stop="1556668844235" status="passed">
+      <name>testToArray</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

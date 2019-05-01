@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657983" stop="1556668657985" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\ReadinessCheckInstallerTest</name>
+  <test-cases>
+    <test-case start="1556668657983" stop="1556668657984" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+    <test-case start="1556668657984" stop="1556668657985" status="passed">
+      <name>testProgressAction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

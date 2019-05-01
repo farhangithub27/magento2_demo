@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668783257" stop="1556668783281" version="1.4.0">
+  <name>Magento\PageCache\Test\Unit\Observer\ProcessLayoutRenderElementTest</name>
+  <test-cases>
+    <test-case start="1556668783258" stop="1556668783263" status="passed">
+      <name>testExecute with data set "full_page type and Varnish enabled, public scope, ttl is set"</name>
+    </test-case>
+    <test-case start="1556668783264" stop="1556668783266" status="passed">
+      <name>testExecute with data set "full_page type and Varnish enabled, public scope, ttl is not set"</name>
+    </test-case>
+    <test-case start="1556668783267" stop="1556668783269" status="passed">
+      <name>testExecute with data set "full_page type enabled, Varnish disabled, public scope, ttl is set"</name>
+    </test-case>
+    <test-case start="1556668783270" stop="1556668783272" status="passed">
+      <name>testExecute with data set "full_page type enabled, Varnish disabled, public scope, ttl is not set"</name>
+    </test-case>
+    <test-case start="1556668783273" stop="1556668783275" status="passed">
+      <name>testExecute with data set "full_page type enabled, Varnish disabled, private scope, ttl is not set"</name>
+    </test-case>
+    <test-case start="1556668783276" stop="1556668783277" status="passed">
+      <name>testExecute with data set "full_page type is disabled, Varnish enabled"</name>
+    </test-case>
+    <test-case start="1556668783277" stop="1556668783281" status="passed">
+      <name>testExecuteWithBase64Encode</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668875095" stop="1556668875128" version="1.4.0">
+  <name>Magento\Framework\Webapi\Test\Unit\Rest\RequestTest</name>
+  <test-cases>
+    <test-case start="1556668875095" stop="1556668875098" status="passed">
+      <name>testGetAcceptTypes with data set #0</name>
+    </test-case>
+    <test-case start="1556668875099" stop="1556668875100" status="passed">
+      <name>testGetAcceptTypes with data set #1</name>
+    </test-case>
+    <test-case start="1556668875101" stop="1556668875102" status="passed">
+      <name>testGetAcceptTypes with data set #2</name>
+    </test-case>
+    <test-case start="1556668875103" stop="1556668875105" status="passed">
+      <name>testGetAcceptTypes with data set #3</name>
+    </test-case>
+    <test-case start="1556668875105" stop="1556668875107" status="passed">
+      <name>testGetBodyParams</name>
+    </test-case>
+    <test-case start="1556668875108" stop="1556668875110" status="passed">
+      <name>testGetContentType with data set #0</name>
+    </test-case>
+    <test-case start="1556668875110" stop="1556668875112" status="passed">
+      <name>testGetContentType with data set #1</name>
+    </test-case>
+    <test-case start="1556668875113" stop="1556668875114" status="passed">
+      <name>testGetContentType with data set #2</name>
+    </test-case>
+    <test-case start="1556668875115" stop="1556668875117" status="passed">
+      <name>testGetContentType with data set #3</name>
+    </test-case>
+    <test-case start="1556668875117" stop="1556668875119" status="passed">
+      <name>testGetContentType with data set #4</name>
+    </test-case>
+    <test-case start="1556668875119" stop="1556668875121" status="passed">
+      <name>testGetContentType with data set #5</name>
+    </test-case>
+    <test-case start="1556668875122" stop="1556668875123" status="passed">
+      <name>testGetContentType with data set #6</name>
+    </test-case>
+    <test-case start="1556668875124" stop="1556668875125" status="passed">
+      <name>testGetContentType with data set #7</name>
+    </test-case>
+    <test-case start="1556668875126" stop="1556668875128" status="passed">
+      <name>testGetContentType with data set #8</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

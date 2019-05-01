@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668876633" stop="1556668876649" version="1.4.0">
+  <name>Magento\Test\Annotation\AdminConfigFixtureTest</name>
+  <test-cases>
+    <test-case start="1556668876635" stop="1556668876647" status="passed">
+      <name>testConfig</name>
+    </test-case>
+    <test-case start="1556668876647" stop="1556668876648" status="passed">
+      <name>testInitStoreAfterOfScope</name>
+    </test-case>
+    <test-case start="1556668876648" stop="1556668876649" status="passed">
+      <name>testInitStoreAfter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

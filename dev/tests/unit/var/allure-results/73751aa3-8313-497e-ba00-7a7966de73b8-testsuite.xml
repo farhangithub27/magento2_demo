@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668705293" stop="1556668705306" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\ViewModel\Product\BreadcrumbsTest</name>
+  <test-cases>
+    <test-case start="1556668705293" stop="1556668705295" status="passed">
+      <name>testGetCategoryUrlSuffix</name>
+    </test-case>
+    <test-case start="1556668705295" stop="1556668705296" status="passed">
+      <name>testIsCategoryUsedInProductUrl</name>
+    </test-case>
+    <test-case start="1556668705297" stop="1556668705298" status="passed">
+      <name>testGetProductName with data set #0</name>
+    </test-case>
+    <test-case start="1556668705298" stop="1556668705299" status="passed">
+      <name>testGetProductName with data set #1</name>
+    </test-case>
+    <test-case start="1556668705299" stop="1556668705301" status="passed">
+      <name>testGetJsonConfiguration with data set #0</name>
+    </test-case>
+    <test-case start="1556668705301" stop="1556668705302" status="passed">
+      <name>testGetJsonConfiguration with data set #1</name>
+    </test-case>
+    <test-case start="1556668705303" stop="1556668705304" status="passed">
+      <name>testGetJsonConfiguration with data set #2</name>
+    </test-case>
+    <test-case start="1556668705304" stop="1556668705306" status="passed">
+      <name>testGetJsonConfiguration with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

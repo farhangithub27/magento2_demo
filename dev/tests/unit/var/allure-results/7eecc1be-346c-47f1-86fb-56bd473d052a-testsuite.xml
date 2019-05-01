@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668851515" stop="1556668851521" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Form\Element\MultiselectTest</name>
+  <test-cases>
+    <test-case start="1556668851515" stop="1556668851517" status="passed">
+      <name>testHiddenFieldPresentInMultiSelect</name>
+    </test-case>
+    <test-case start="1556668851517" stop="1556668851518" status="passed">
+      <name>testHiddenDisabledFieldPresentInMultiSelect</name>
+    </test-case>
+    <test-case start="1556668851518" stop="1556668851520" status="passed">
+      <name>testHiddenDisabledFieldNotPresentInMultiSelect</name>
+    </test-case>
+    <test-case start="1556668851520" stop="1556668851521" status="passed">
+      <name>testGetAfterElementJs</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

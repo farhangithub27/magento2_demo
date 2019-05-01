@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668718492" stop="1556668718518" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Adminhtml\Edit\Tab\NewsletterTest</name>
+  <test-cases>
+    <test-case start="1556668718492" stop="1556668718499" status="passed">
+      <name>testInitFormCanNotShowTab</name>
+    </test-case>
+    <test-case start="1556668718499" stop="1556668718509" status="passed">
+      <name>testInitForm</name>
+    </test-case>
+    <test-case start="1556668718509" stop="1556668718517" status="passed">
+      <name>testInitFormWithCustomerFormData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

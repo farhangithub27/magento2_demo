@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715301" stop="1556668715324" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\Product\Validator\PluginTest</name>
+  <test-cases>
+    <test-case start="1556668715302" stop="1556668715305" status="passed">
+      <name>testBeforeValidate</name>
+    </test-case>
+    <test-case start="1556668715305" stop="1556668715308" status="passed">
+      <name>testAfterValidateWithVariationsValid</name>
+    </test-case>
+    <test-case start="1556668715308" stop="1556668715310" status="passed">
+      <name>testAfterValidateWithVariationsInvalid</name>
+    </test-case>
+    <test-case start="1556668715311" stop="1556668715312" status="passed">
+      <name>testAfterValidateIfVariationsNotExist</name>
+    </test-case>
+    <test-case start="1556668715312" stop="1556668715324" status="passed">
+      <name>testAfterValidateWithVariationsAndRequiredAttributes</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

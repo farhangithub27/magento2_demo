@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668731238" stop="1556668731243" version="1.4.0">
+  <name>Magento\Developer\Test\Unit\Model\View\Asset\PreProcessor\PreprocessorStrategyTest</name>
+  <test-cases>
+    <test-case start="1556668731238" stop="1556668731240" status="passed">
+      <name>testProcessClientSideCompilation</name>
+    </test-case>
+    <test-case start="1556668731240" stop="1556668731242" status="passed">
+      <name>testProcessClientSideCompilationWithDefaultMode</name>
+    </test-case>
+    <test-case start="1556668731242" stop="1556668731243" status="passed">
+      <name>testProcessAlternativeSource</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

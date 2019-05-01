@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790085" stop="1556668790100" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Observer\EmulateQuoteObserverTest</name>
+  <test-cases>
+    <test-case start="1556668790085" stop="1556668790087" status="passed">
+      <name>testExecuteWhenCannotProcess</name>
+    </test-case>
+    <test-case start="1556668790088" stop="1556668790089" status="passed">
+      <name>testExecuteWhenSessionIsNotPersistent</name>
+    </test-case>
+    <test-case start="1556668790089" stop="1556668790091" status="passed">
+      <name>testExecuteWhenCustomerLoggedIn</name>
+    </test-case>
+    <test-case start="1556668790091" stop="1556668790092" status="passed">
+      <name>testExecuteWhenActionIsStop</name>
+    </test-case>
+    <test-case start="1556668790093" stop="1556668790096" status="passed">
+      <name>testExecuteWhenShoppingCartIsPersistent</name>
+    </test-case>
+    <test-case start="1556668790096" stop="1556668790098" status="passed">
+      <name>testExecuteWhenShoppingCartIsNotPersistent</name>
+    </test-case>
+    <test-case start="1556668790098" stop="1556668790100" status="passed">
+      <name>testExecuteWhenShoppingCartIsPersistentAndQuoteExist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

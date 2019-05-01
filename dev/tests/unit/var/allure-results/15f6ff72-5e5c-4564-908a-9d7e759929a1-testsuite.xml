@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668664749" stop="1556668664920" version="1.4.0">
+  <name>Magento\AdvancedPricingImportExport\Test\Unit\Model\Import\AdvancedPricingTest</name>
+  <test-cases>
+    <test-case start="1556668664749" stop="1556668664775" status="passed">
+      <name>testGetEntityTypeCode</name>
+    </test-case>
+    <test-case start="1556668664776" stop="1556668664781" status="passed">
+      <name>testValidateRowResult with data set #0</name>
+    </test-case>
+    <test-case start="1556668664781" stop="1556668664785" status="passed">
+      <name>testValidateRowResult with data set #1</name>
+    </test-case>
+    <test-case start="1556668664786" stop="1556668664790" status="passed">
+      <name>testValidateRowResult with data set #2</name>
+    </test-case>
+    <test-case start="1556668664790" stop="1556668664795" status="passed">
+      <name>testValidateRowAddRowErrorCall with data set #0</name>
+    </test-case>
+    <test-case start="1556668664795" stop="1556668664800" status="passed">
+      <name>testValidateRowAddRowErrorCall with data set #1</name>
+    </test-case>
+    <test-case start="1556668664800" stop="1556668664805" status="passed">
+      <name>testValidateRowValidatorCall</name>
+    </test-case>
+    <test-case start="1556668664805" stop="1556668664810" status="passed">
+      <name>testSaveAndReplaceAdvancedPricesAddRowErrorCall</name>
+    </test-case>
+    <test-case start="1556668664810" stop="1556668664813" status="passed">
+      <name>testSaveAdvancedPricing</name>
+    </test-case>
+    <test-case start="1556668664814" stop="1556668664824" status="passed">
+      <name>testSaveAndReplaceAdvancedPricesAppendBehaviourDataAndCalls with data set #0</name>
+    </test-case>
+    <test-case start="1556668664825" stop="1556668664832" status="passed">
+      <name>testSaveAndReplaceAdvancedPricesAppendBehaviourDataAndCalls with data set #1</name>
+    </test-case>
+    <test-case start="1556668664833" stop="1556668664841" status="passed">
+      <name>testSaveAndReplaceAdvancedPricesAppendBehaviourDataAndCalls with data set #2</name>
+    </test-case>
+    <test-case start="1556668664842" stop="1556668664850" status="passed">
+      <name>testSaveAndReplaceAdvancedPricesAppendBehaviourDataAndCalls with data set #3</name>
+    </test-case>
+    <test-case start="1556668664851" stop="1556668664857" status="passed">
+      <name>testSaveAndReplaceAdvancedPricesAppendBehaviourDataAndCallsWithoutTierPrice</name>
+    </test-case>
+    <test-case start="1556668664857" stop="1556668664863" status="passed">
+      <name>testSaveAndReplaceAdvancedPricesReplaceBehaviourInternalCalls</name>
+    </test-case>
+    <test-case start="1556668664863" stop="1556668664867" status="passed">
+      <name>testDeleteAdvancedPricingFormListSkuToDelete</name>
+    </test-case>
+    <test-case start="1556668664868" stop="1556668664871" status="passed">
+      <name>testDeleteAdvancedPricingResetCachedSkuToDelete</name>
+    </test-case>
+    <test-case start="1556668664871" stop="1556668664875" status="passed">
+      <name>testReplaceAdvancedPricing</name>
+    </test-case>
+    <test-case start="1556668664875" stop="1556668664880" status="passed">
+      <name>testSaveProductPrices with data set #0</name>
+    </test-case>
+    <test-case start="1556668664880" stop="1556668664885" status="passed">
+      <name>testSaveProductPrices with data set #1</name>
+    </test-case>
+    <test-case start="1556668664885" stop="1556668664890" status="passed">
+      <name>testDeleteProductTierPrices with data set #0</name>
+    </test-case>
+    <test-case start="1556668664891" stop="1556668664896" status="passed">
+      <name>testDeleteProductTierPrices with data set #1</name>
+    </test-case>
+    <test-case start="1556668664897" stop="1556668664902" status="passed">
+      <name>testDeleteProductTierPrices with data set #2</name>
+    </test-case>
+    <test-case start="1556668664903" stop="1556668664908" status="passed">
+      <name>testDeleteProductTierPrices with data set #3</name>
+    </test-case>
+    <test-case start="1556668664909" stop="1556668664915" status="passed">
+      <name>testProcessCountExistingPrices with data set #0</name>
+    </test-case>
+    <test-case start="1556668664915" stop="1556668664920" status="passed">
+      <name>testProcessCountExistingPrices with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

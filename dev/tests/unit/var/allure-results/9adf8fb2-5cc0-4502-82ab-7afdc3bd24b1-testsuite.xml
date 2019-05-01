@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855111" stop="1556668855115" version="1.4.0">
+  <name>Magento\Framework\Indexer\Test\Unit\Config\DependencyInfoProviderTest</name>
+  <test-cases>
+    <test-case start="1556668855112" stop="1556668855112" status="passed">
+      <name>testGetDependencies</name>
+    </test-case>
+    <test-case start="1556668855112" stop="1556668855113" status="passed">
+      <name>testGetDependenciesNonExistentIndexer</name>
+    </test-case>
+    <test-case start="1556668855114" stop="1556668855114" status="passed">
+      <name>testGetDependentIndexerIds with data set #0</name>
+    </test-case>
+    <test-case start="1556668855115" stop="1556668855115" status="passed">
+      <name>testGetDependentIndexerIdsNonExistentIndexer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

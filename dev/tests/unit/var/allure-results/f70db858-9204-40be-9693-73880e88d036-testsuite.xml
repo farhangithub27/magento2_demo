@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668815101" stop="1556668815112" version="1.4.0">
+  <name>Magento\Shipping\Test\Unit\Helper\CarrierTest</name>
+  <test-cases>
+    <test-case start="1556668815101" stop="1556668815103" status="passed">
+      <name>testGetOnlineCarrierCodes with data set #0</name>
+    </test-case>
+    <test-case start="1556668815104" stop="1556668815105" status="passed">
+      <name>testGetOnlineCarrierCodes with data set #1</name>
+    </test-case>
+    <test-case start="1556668815106" stop="1556668815107" status="passed">
+      <name>testGetOnlineCarrierCodes with data set #2</name>
+    </test-case>
+    <test-case start="1556668815108" stop="1556668815109" status="passed">
+      <name>testGetCarrierConfigValue</name>
+    </test-case>
+    <test-case start="1556668815110" stop="1556668815111" status="passed">
+      <name>testIsCountryInEU</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

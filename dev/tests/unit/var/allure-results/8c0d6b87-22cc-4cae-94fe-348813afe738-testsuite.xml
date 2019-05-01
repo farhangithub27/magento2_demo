@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667544" stop="1556668667559" version="1.4.0">
+  <name>Magento\Authorization\Test\Unit\Model\Acl\Loader\RoleTest</name>
+  <test-cases>
+    <test-case start="1556668667544" stop="1556668667553" status="passed">
+      <name>testPopulateAclAddsRolesAndTheirChildren</name>
+    </test-case>
+    <test-case start="1556668667553" stop="1556668667556" status="passed">
+      <name>testPopulateAclAddsMultipleParents</name>
+    </test-case>
+    <test-case start="1556668667556" stop="1556668667558" status="passed">
+      <name>testPopulateAclFromCache</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

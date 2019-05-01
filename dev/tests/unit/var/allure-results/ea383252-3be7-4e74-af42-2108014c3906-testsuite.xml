@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668701161" stop="1556668701716" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ProductTest</name>
+  <test-cases>
+    <test-case start="1556668701161" stop="1556668701183" status="passed">
+      <name>testGetAttributes</name>
+    </test-case>
+    <test-case start="1556668701183" stop="1556668701190" status="passed">
+      <name>testGetStoreIds</name>
+    </test-case>
+    <test-case start="1556668701190" stop="1556668701197" status="passed">
+      <name>testGetStoreId</name>
+    </test-case>
+    <test-case start="1556668701197" stop="1556668701203" status="passed">
+      <name>testGetCategoryCollection</name>
+    </test-case>
+    <test-case start="1556668701204" stop="1556668701212" status="passed">
+      <name>testGetCategoryCollectionCollectionNull with data set #0</name>
+    </test-case>
+    <test-case start="1556668701212" stop="1556668701220" status="passed">
+      <name>testGetCategoryCollectionCollectionNull with data set #1</name>
+    </test-case>
+    <test-case start="1556668701220" stop="1556668701227" status="passed">
+      <name>testSetCategoryCollection</name>
+    </test-case>
+    <test-case start="1556668701227" stop="1556668701233" status="passed">
+      <name>testGetCategory</name>
+    </test-case>
+    <test-case start="1556668701234" stop="1556668701240" status="passed">
+      <name>testGetCategoryId</name>
+    </test-case>
+    <test-case start="1556668701240" stop="1556668701247" status="passed">
+      <name>testGetIdBySku</name>
+    </test-case>
+    <test-case start="1556668701247" stop="1556668701253" status="passed">
+      <name>testGetCategoryIds</name>
+    </test-case>
+    <test-case start="1556668701254" stop="1556668701260" status="passed">
+      <name>testGetStatusInitial</name>
+    </test-case>
+    <test-case start="1556668701260" stop="1556668701266" status="passed">
+      <name>testGetStatus</name>
+    </test-case>
+    <test-case start="1556668701266" stop="1556668701273" status="passed">
+      <name>testIsInStock</name>
+    </test-case>
+    <test-case start="1556668701273" stop="1556668701280" status="passed">
+      <name>testIndexerAfterDeleteCommitProduct</name>
+    </test-case>
+    <test-case start="1556668701280" stop="1556668701287" status="passed">
+      <name>testReindex with data set "set 1"</name>
+    </test-case>
+    <test-case start="1556668701287" stop="1556668701294" status="passed">
+      <name>testReindex with data set "set 2"</name>
+    </test-case>
+    <test-case start="1556668701295" stop="1556668701300" status="passed">
+      <name>testReindex with data set "set 3"</name>
+    </test-case>
+    <test-case start="1556668701301" stop="1556668701311" status="passed">
+      <name>testPriceReindexCallback</name>
+    </test-case>
+    <test-case start="1556668701311" stop="1556668701317" status="passed">
+      <name>testGetIdentities with data set "no changes"</name>
+    </test-case>
+    <test-case start="1556668701318" stop="1556668701325" status="passed">
+      <name>testGetIdentities with data set "new product"</name>
+    </test-case>
+    <test-case start="1556668701325" stop="1556668701331" status="passed">
+      <name>testGetIdentities with data set "status and category change"</name>
+    </test-case>
+    <test-case start="1556668701332" stop="1556668701338" status="passed">
+      <name>testGetIdentities with data set "status change only"</name>
+    </test-case>
+    <test-case start="1556668701339" stop="1556668701345" status="passed">
+      <name>testGetIdentities with data set "status changed, category unassigned"</name>
+    </test-case>
+    <test-case start="1556668701345" stop="1556668701352" status="passed">
+      <name>testGetIdentities with data set "no status changes"</name>
+    </test-case>
+    <test-case start="1556668701352" stop="1556668701359" status="passed">
+      <name>testGetIdentities with data set "no stock status changes"</name>
+    </test-case>
+    <test-case start="1556668701359" stop="1556668701365" status="passed">
+      <name>testGetIdentities with data set "no stock status data 1"</name>
+    </test-case>
+    <test-case start="1556668701366" stop="1556668701373" status="passed">
+      <name>testGetIdentities with data set "no stock status data 2"</name>
+    </test-case>
+    <test-case start="1556668701373" stop="1556668701380" status="passed">
+      <name>testGetIdentities with data set "stock status changes"</name>
+    </test-case>
+    <test-case start="1556668701380" stop="1556668701387" status="passed">
+      <name>testGetPriceInfo</name>
+    </test-case>
+    <test-case start="1556668701387" stop="1556668701393" status="passed">
+      <name>testSetQty</name>
+    </test-case>
+    <test-case start="1556668701394" stop="1556668701401" status="passed">
+      <name>testReloadPriceInfo</name>
+    </test-case>
+    <test-case start="1556668701401" stop="1556668701407" status="passed">
+      <name>testGetQty</name>
+    </test-case>
+    <test-case start="1556668701407" stop="1556668701416" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668701416" stop="1556668701424" status="passed">
+      <name>testSaveIfAreaEmulated</name>
+    </test-case>
+    <test-case start="1556668701424" stop="1556668701432" status="passed">
+      <name>testSaveAndDuplicate</name>
+    </test-case>
+    <test-case start="1556668701432" stop="1556668701439" status="passed">
+      <name>testGetIsSalableSimple</name>
+    </test-case>
+    <test-case start="1556668701440" stop="1556668701446" status="passed">
+      <name>testGetIsSalableHasDataIsSaleable</name>
+    </test-case>
+    <test-case start="1556668701446" stop="1556668701454" status="passed">
+      <name>testFromArray</name>
+    </test-case>
+    <test-case start="1556668701454" stop="1556668701462" status="passed">
+      <name>testGetProductLinks</name>
+    </test-case>
+    <test-case start="1556668701462" stop="1556668701469" status="passed">
+      <name>testSetProductLinks</name>
+    </test-case>
+    <test-case start="1556668701470" stop="1556668701476" status="passed">
+      <name>testGetMediaAttributeValues</name>
+    </test-case>
+    <test-case start="1556668701476" stop="1556668701482" status="passed">
+      <name>testGetMediaGalleryEntriesNone</name>
+    </test-case>
+    <test-case start="1556668701483" stop="1556668701642" status="passed">
+      <name>testGetMediaGalleryEntries</name>
+    </test-case>
+    <test-case start="1556668701642" stop="1556668701650" status="passed">
+      <name>testSetMediaGalleryEntries</name>
+    </test-case>
+    <test-case start="1556668701651" stop="1556668701659" status="passed">
+      <name>testGetMediaGalleryImagesMerging</name>
+    </test-case>
+    <test-case start="1556668701659" stop="1556668701666" status="passed">
+      <name>testGetCustomAttributes</name>
+    </test-case>
+    <test-case start="1556668701666" stop="1556668701673" status="passed">
+      <name>testGetOptions</name>
+    </test-case>
+    <test-case start="1556668701674" stop="1556668701681" status="passed">
+      <name>testGetFinalPrice</name>
+    </test-case>
+    <test-case start="1556668701681" stop="1556668701688" status="passed">
+      <name>testGetFinalPricePreset</name>
+    </test-case>
+    <test-case start="1556668701688" stop="1556668701695" status="passed">
+      <name>testGetTypeId</name>
+    </test-case>
+    <test-case start="1556668701695" stop="1556668701702" status="passed">
+      <name>testGetOptionById</name>
+    </test-case>
+    <test-case start="1556668701702" stop="1556668701709" status="passed">
+      <name>testGetOptionByIdWithWrongOptionId</name>
+    </test-case>
+    <test-case start="1556668701709" stop="1556668701716" status="passed">
+      <name>testGetOptionByIdForProductWithoutOptions</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668827277" stop="1556668827284" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Component\Filters\FilterModifierTest</name>
+  <test-cases>
+    <test-case start="1556668827277" stop="1556668827278" status="passed">
+      <name>testNotApplyFilterModifier</name>
+    </test-case>
+    <test-case start="1556668827278" stop="1556668827279" status="passed">
+      <name>testApplyFilterModifierWithNotAllowedCondition</name>
+    </test-case>
+    <test-case start="1556668827280" stop="1556668827282" status="passed">
+      <name>testApplyFilterModifierWith with data set #0</name>
+    </test-case>
+    <test-case start="1556668827282" stop="1556668827284" status="passed">
+      <name>testApplyFilterModifierWith with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

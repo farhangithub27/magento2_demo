@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668854815" stop="1556668854828" version="1.4.0">
+  <name>Magento\Framework\HTTP\Test\Unit\PhpEnvironment\ResponseTest</name>
+  <test-cases>
+    <test-case start="1556668854815" stop="1556668854817" status="passed">
+      <name>testGetHeader</name>
+    </test-case>
+    <test-case start="1556668854818" stop="1556668854818" status="passed">
+      <name>testGetHeaderWithoutHeader</name>
+    </test-case>
+    <test-case start="1556668854819" stop="1556668854819" status="passed">
+      <name>testAppendBody</name>
+    </test-case>
+    <test-case start="1556668854819" stop="1556668854820" status="passed">
+      <name>testSendResponseWithException</name>
+    </test-case>
+    <test-case start="1556668854820" stop="1556668854821" status="passed">
+      <name>testSetHeaderWithoutReplacing</name>
+    </test-case>
+    <test-case start="1556668854821" stop="1556668854822" status="passed">
+      <name>testSetHeaderWithReplacing</name>
+    </test-case>
+    <test-case start="1556668854822" stop="1556668854824" status="passed">
+      <name>testClearHeaderIfHeaderExistsAndWasFound</name>
+    </test-case>
+    <test-case start="1556668854824" stop="1556668854825" status="passed">
+      <name>testClearHeaderAndHeaderNotExists</name>
+    </test-case>
+    <test-case start="1556668854826" stop="1556668854826" status="passed">
+      <name>testHttpResponseCodeWithException</name>
+    </test-case>
+    <test-case start="1556668854827" stop="1556668854828" status="passed">
+      <name>testSetRedirect</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

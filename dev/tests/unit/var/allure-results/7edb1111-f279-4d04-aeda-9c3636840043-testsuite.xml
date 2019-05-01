@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668789431" stop="1556668789440" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Observer\AddBillingAgreementToSessionObserverTest</name>
+  <test-cases>
+    <test-case start="1556668789431" stop="1556668789432" status="passed">
+      <name>testAddBillingAgreementToSessionNoData</name>
+    </test-case>
+    <test-case start="1556668789433" stop="1556668789437" status="passed">
+      <name>testAddBillingAgreementToSession with data set #0</name>
+    </test-case>
+    <test-case start="1556668789438" stop="1556668789440" status="passed">
+      <name>testAddBillingAgreementToSession with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

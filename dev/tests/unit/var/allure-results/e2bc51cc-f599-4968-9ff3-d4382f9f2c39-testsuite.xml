@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668720785" stop="1556668720816" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Controller\Adminhtml\Index\ValidateTest</name>
+  <test-cases>
+    <test-case start="1556668720785" stop="1556668720795" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668720795" stop="1556668720802" status="passed">
+      <name>testExecuteWithoutAddresses</name>
+    </test-case>
+    <test-case start="1556668720802" stop="1556668720810" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+    <test-case start="1556668720810" stop="1556668720816" status="passed">
+      <name>testExecuteWithNewCustomerAndNoEntityId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

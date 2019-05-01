@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668799644" stop="1556668799658" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Observer\SalesOrderAfterPlaceObserverTest</name>
+  <test-cases>
+    <test-case start="1556668799644" stop="1556668799647" status="passed">
+      <name>testSalesOrderAfterPlaceWithoutOrder</name>
+    </test-case>
+    <test-case start="1556668799647" stop="1556668799648" status="passed">
+      <name>testSalesOrderAfterPlaceWithoutRuleId</name>
+    </test-case>
+    <test-case start="1556668799649" stop="1556668799653" status="passed">
+      <name>testSalesOrderAfterPlace with data set "With customer rule id"</name>
+    </test-case>
+    <test-case start="1556668799653" stop="1556668799657" status="passed">
+      <name>testSalesOrderAfterPlace with data set "Without customer rule id"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668686540" stop="1556668686549" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Search\CustomAttributeFilterCheckTest</name>
+  <test-cases>
+    <test-case start="1556668686540" stop="1556668686543" status="passed">
+      <name>testIsCustomPositive with data set #0</name>
+    </test-case>
+    <test-case start="1556668686543" stop="1556668686544" status="passed">
+      <name>testIsCustomPositive with data set #1</name>
+    </test-case>
+    <test-case start="1556668686544" stop="1556668686545" status="passed">
+      <name>testIsCustomNegative1</name>
+    </test-case>
+    <test-case start="1556668686546" stop="1556668686547" status="passed">
+      <name>testIsCustomNegative2</name>
+    </test-case>
+    <test-case start="1556668686547" stop="1556668686548" status="passed">
+      <name>testIsCustomNegative3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

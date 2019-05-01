@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668870500" stop="1556668870535" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Asset\RepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668870501" stop="1556668870504" status="passed">
+      <name>testUpdateDesignParamsWrongTheme</name>
+    </test-case>
+    <test-case start="1556668870505" stop="1556668870507" status="passed">
+      <name>testUpdateDesignParams with data set #0</name>
+    </test-case>
+    <test-case start="1556668870507" stop="1556668870509" status="passed">
+      <name>testUpdateDesignParams with data set #1</name>
+    </test-case>
+    <test-case start="1556668870509" stop="1556668870511" status="passed">
+      <name>testUpdateDesignParamsWithThemePath</name>
+    </test-case>
+    <test-case start="1556668870511" stop="1556668870513" status="passed">
+      <name>testUpdateDesignParamsWithThemeId</name>
+    </test-case>
+    <test-case start="1556668870513" stop="1556668870516" status="passed">
+      <name>testCreateAsset</name>
+    </test-case>
+    <test-case start="1556668870517" stop="1556668870519" status="passed">
+      <name>testGetStaticViewFileContext</name>
+    </test-case>
+    <test-case start="1556668870520" stop="1556668870522" status="passed">
+      <name>testCreateRelated with data set #0</name>
+    </test-case>
+    <test-case start="1556668870523" stop="1556668870525" status="passed">
+      <name>testCreateRelated with data set #1</name>
+    </test-case>
+    <test-case start="1556668870525" stop="1556668870528" status="passed">
+      <name>testCreateArbitrary</name>
+    </test-case>
+    <test-case start="1556668870528" stop="1556668870529" status="passed">
+      <name>testCreateRemoteAsset</name>
+    </test-case>
+    <test-case start="1556668870530" stop="1556668870533" status="passed">
+      <name>testGetUrl</name>
+    </test-case>
+    <test-case start="1556668870534" stop="1556668870535" status="passed">
+      <name>testExtractModuleException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

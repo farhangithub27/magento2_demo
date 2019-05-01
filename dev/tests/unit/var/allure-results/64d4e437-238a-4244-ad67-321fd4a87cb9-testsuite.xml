@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855780" stop="1556668855807" version="1.4.0">
+  <name>Magento\Framework\Locale\Test\Unit\Deployed\OptionsTest</name>
+  <test-cases>
+    <test-case start="1556668855781" stop="1556668855784" status="passed">
+      <name>testGetOptionLocalesFull with data set #0</name>
+    </test-case>
+    <test-case start="1556668855784" stop="1556668855786" status="passed">
+      <name>testGetOptionLocalesFull with data set #1</name>
+    </test-case>
+    <test-case start="1556668855786" stop="1556668855787" status="passed">
+      <name>testGetOptionLocalesFull with data set #2</name>
+    </test-case>
+    <test-case start="1556668855788" stop="1556668855789" status="passed">
+      <name>testGetOptionLocalesFull with data set #3</name>
+    </test-case>
+    <test-case start="1556668855789" stop="1556668855790" status="passed">
+      <name>testGetOptionLocalesFull with data set #4</name>
+    </test-case>
+    <test-case start="1556668855791" stop="1556668855792" status="passed">
+      <name>testGetTranslatedOptionLocalesFull with data set #0</name>
+    </test-case>
+    <test-case start="1556668855792" stop="1556668855793" status="passed">
+      <name>testGetTranslatedOptionLocalesFull with data set #1</name>
+    </test-case>
+    <test-case start="1556668855794" stop="1556668855795" status="passed">
+      <name>testGetTranslatedOptionLocalesFull with data set #2</name>
+    </test-case>
+    <test-case start="1556668855795" stop="1556668855796" status="passed">
+      <name>testGetTranslatedOptionLocalesFull with data set #3</name>
+    </test-case>
+    <test-case start="1556668855797" stop="1556668855798" status="passed">
+      <name>testGetTranslatedOptionLocalesFull with data set #4</name>
+    </test-case>
+    <test-case start="1556668855799" stop="1556668855800" status="passed">
+      <name>testGetOptionLocalesLimited with data set #0</name>
+    </test-case>
+    <test-case start="1556668855801" stop="1556668855803" status="passed">
+      <name>testGetOptionLocalesLimited with data set #1</name>
+    </test-case>
+    <test-case start="1556668855803" stop="1556668855805" status="passed">
+      <name>testGetTranslatedOptionLocalesLimited with data set #0</name>
+    </test-case>
+    <test-case start="1556668855806" stop="1556668855807" status="passed">
+      <name>testGetTranslatedOptionLocalesLimited with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

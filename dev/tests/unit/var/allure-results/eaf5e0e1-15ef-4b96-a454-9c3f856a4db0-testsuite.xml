@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848015" stop="1556668848024" version="1.4.0">
+  <name>Magento\Framework\Config\Test\Unit\Data\ScopedTest</name>
+  <test-cases>
+    <test-case start="1556668848015" stop="1556668848016" status="passed">
+      <name>testGetConfigByPath with data set #0</name>
+    </test-case>
+    <test-case start="1556668848017" stop="1556668848018" status="passed">
+      <name>testGetConfigByPath with data set #1</name>
+    </test-case>
+    <test-case start="1556668848018" stop="1556668848019" status="passed">
+      <name>testGetConfigByPath with data set #2</name>
+    </test-case>
+    <test-case start="1556668848020" stop="1556668848021" status="passed">
+      <name>testGetConfigByPath with data set #3</name>
+    </test-case>
+    <test-case start="1556668848021" stop="1556668848022" status="passed">
+      <name>testGetScopeSwitchingWithNonCachedData</name>
+    </test-case>
+    <test-case start="1556668848023" stop="1556668848024" status="passed">
+      <name>testGetScopeSwitchingWithCachedData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

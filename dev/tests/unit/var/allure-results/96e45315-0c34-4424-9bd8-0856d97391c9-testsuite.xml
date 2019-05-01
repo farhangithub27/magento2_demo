@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668836043" stop="1556668836088" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Controller\Index\RemoveTest</name>
+  <test-cases>
+    <test-case start="1556668836043" stop="1556668836052" status="passed">
+      <name>testExecuteWithInvalidFormKey</name>
+    </test-case>
+    <test-case start="1556668836052" stop="1556668836060" status="passed">
+      <name>testExecuteWithoutItem</name>
+    </test-case>
+    <test-case start="1556668836060" stop="1556668836068" status="passed">
+      <name>testExecuteWithoutWishlist</name>
+    </test-case>
+    <test-case start="1556668836068" stop="1556668836078" status="passed">
+      <name>testExecuteCanNotSaveWishlist</name>
+    </test-case>
+    <test-case start="1556668836078" stop="1556668836088" status="passed">
+      <name>testExecuteCanNotSaveWishlistAndWithRedirect</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

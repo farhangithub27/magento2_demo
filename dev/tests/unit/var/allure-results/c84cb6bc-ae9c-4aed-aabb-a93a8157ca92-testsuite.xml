@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838077" stop="1556668838080" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\TaxQuote\TaxQuoteResponseTest</name>
+  <test-cases>
+    <test-case start="1556668838077" stop="1556668838078" status="passed">
+      <name>testConstructorThrowsNoErrors</name>
+    </test-case>
+    <test-case start="1556668838078" stop="1556668838080" status="passed">
+      <name>testPrepareQuoteTaxedItems</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

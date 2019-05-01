@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668857240" stop="1556668857259" version="1.4.0">
+  <name>Magento\Framework\Module\Test\Unit\DbVersionInfoTest</name>
+  <test-cases>
+    <test-case start="1556668857241" stop="1556668857243" status="passed">
+      <name>testIsDbSchemaUpToDate with data set "version in config == version in db"</name>
+    </test-case>
+    <test-case start="1556668857244" stop="1556668857245" status="passed">
+      <name>testIsDbSchemaUpToDate with data set "version in config &lt; version in db"</name>
+    </test-case>
+    <test-case start="1556668857245" stop="1556668857246" status="passed">
+      <name>testIsDbSchemaUpToDate with data set "version in config &gt; version in db"</name>
+    </test-case>
+    <test-case start="1556668857247" stop="1556668857248" status="passed">
+      <name>testIsDbSchemaUpToDate with data set "no version in db"</name>
+    </test-case>
+    <test-case start="1556668857248" stop="1556668857249" status="passed">
+      <name>testIsDbDataUpToDate with data set "version in config == version in db"</name>
+    </test-case>
+    <test-case start="1556668857250" stop="1556668857251" status="passed">
+      <name>testIsDbDataUpToDate with data set "version in config &lt; version in db"</name>
+    </test-case>
+    <test-case start="1556668857251" stop="1556668857252" status="passed">
+      <name>testIsDbDataUpToDate with data set "version in config &gt; version in db"</name>
+    </test-case>
+    <test-case start="1556668857253" stop="1556668857254" status="passed">
+      <name>testIsDbDataUpToDate with data set "no version in db"</name>
+    </test-case>
+    <test-case start="1556668857254" stop="1556668857257" status="passed">
+      <name>testGetDbVersionErrors</name>
+    </test-case>
+    <test-case start="1556668857257" stop="1556668857258" status="passed">
+      <name>testIsDbSchemaUpToDateException</name>
+    </test-case>
+    <test-case start="1556668857258" stop="1556668857259" status="passed">
+      <name>testIsDbDataUpToDateException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

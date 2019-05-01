@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668746828" stop="1556668746863" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\Config\Consolidated\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668746828" stop="1556668746830" status="passed">
+      <name>testExemplarXml with data set "valid"</name>
+    </test-case>
+    <test-case start="1556668746830" stop="1556668746831" status="passed">
+      <name>testExemplarXml with data set "valid with several entities"</name>
+    </test-case>
+    <test-case start="1556668746831" stop="1556668746832" status="passed">
+      <name>testExemplarXml with data set "empty root node"</name>
+    </test-case>
+    <test-case start="1556668746833" stop="1556668746833" status="passed">
+      <name>testExemplarXml with data set "empty integration"</name>
+    </test-case>
+    <test-case start="1556668746834" stop="1556668746835" status="passed">
+      <name>testExemplarXml with data set "integration without email"</name>
+    </test-case>
+    <test-case start="1556668746835" stop="1556668746836" status="passed">
+      <name>testExemplarXml with data set "empty resources"</name>
+    </test-case>
+    <test-case start="1556668746836" stop="1556668746837" status="passed">
+      <name>testExemplarXml with data set "empty email"</name>
+    </test-case>
+    <test-case start="1556668746838" stop="1556668746839" status="passed">
+      <name>testExemplarXml with data set "endpoint_url is empty"</name>
+    </test-case>
+    <test-case start="1556668746839" stop="1556668746840" status="passed">
+      <name>testExemplarXml with data set "identity_link_url is empty"</name>
+    </test-case>
+    <test-case start="1556668746840" stop="1556668746841" status="passed">
+      <name>testExemplarXml with data set "irrelevant root node"</name>
+    </test-case>
+    <test-case start="1556668746841" stop="1556668746842" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in root"</name>
+    </test-case>
+    <test-case start="1556668746843" stop="1556668746844" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in integration"</name>
+    </test-case>
+    <test-case start="1556668746844" stop="1556668746845" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in resources"</name>
+    </test-case>
+    <test-case start="1556668746845" stop="1556668746846" status="passed">
+      <name>testExemplarXml with data set "irrelevant node in resource"</name>
+    </test-case>
+    <test-case start="1556668746846" stop="1556668746847" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in root"</name>
+    </test-case>
+    <test-case start="1556668746848" stop="1556668746849" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in integration"</name>
+    </test-case>
+    <test-case start="1556668746849" stop="1556668746850" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in email"</name>
+    </test-case>
+    <test-case start="1556668746850" stop="1556668746851" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in resources"</name>
+    </test-case>
+    <test-case start="1556668746852" stop="1556668746852" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in resource"</name>
+    </test-case>
+    <test-case start="1556668746853" stop="1556668746854" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in endpoint_url"</name>
+    </test-case>
+    <test-case start="1556668746854" stop="1556668746855" status="passed">
+      <name>testExemplarXml with data set "invalid attribute in identity_link_url"</name>
+    </test-case>
+    <test-case start="1556668746855" stop="1556668746856" status="passed">
+      <name>testExemplarXml with data set "integration without name"</name>
+    </test-case>
+    <test-case start="1556668746857" stop="1556668746858" status="passed">
+      <name>testExemplarXml with data set "integration with empty name"</name>
+    </test-case>
+    <test-case start="1556668746858" stop="1556668746859" status="passed">
+      <name>testExemplarXml with data set "resource without name"</name>
+    </test-case>
+    <test-case start="1556668746859" stop="1556668746860" status="passed">
+      <name>testExemplarXml with data set "resource with empty name"</name>
+    </test-case>
+    <test-case start="1556668746861" stop="1556668746862" status="passed">
+      <name>testExemplarXml with data set "invalid email"</name>
+    </test-case>
+    <test-case start="1556668746862" stop="1556668746863" status="passed">
+      <name>testExemplarXml with data set "resource with invalid name"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

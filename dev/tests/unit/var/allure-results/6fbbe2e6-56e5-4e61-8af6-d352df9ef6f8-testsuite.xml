@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668734857" stop="1556668734875" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest</name>
+  <test-cases>
+    <test-case start="1556668734859" stop="1556668734859" status="canceled">
+      <name>testValidateValue with data set #0</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668734861" stop="1556668734861" status="canceled">
+      <name>testValidateValue with data set #1</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668734862" stop="1556668734862" status="canceled">
+      <name>testValidateValue with data set #2</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668734864" stop="1556668734864" status="canceled">
+      <name>testValidateValue with data set #3</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668734866" stop="1556668734866" status="canceled">
+      <name>testValidateValue with data set #4</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668734868" stop="1556668734868" status="canceled">
+      <name>testValidateValue with data set #5</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668734869" stop="1556668734869" status="canceled">
+      <name>testValidateValue with data set #6</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668734871" stop="1556668734871" status="canceled">
+      <name>testValidateValue with data set #7</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668734873" stop="1556668734873" status="canceled">
+      <name>testValidateValue with data set #8</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668734874" stop="1556668734874" status="canceled">
+      <name>testValidateValue with data set #9</name>
+      <failure>
+        <message>MAGETWO-34751: Test fails after being moved.  Might have hidden dependency.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-eav/Test/Unit/Model/Attribute/Data/ImageTest.php(18): PHPUnit\Framework\Assert::markTestSkipped('MAGETWO-34751: ...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Eav\Test\Unit\Model\Attribute\Data\ImageTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#12 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

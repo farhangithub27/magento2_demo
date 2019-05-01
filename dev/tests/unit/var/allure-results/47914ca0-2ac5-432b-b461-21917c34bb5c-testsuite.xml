@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668670535" stop="1556668670611" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Block\Widget\Grid\ColumnSetTest</name>
+  <test-cases>
+    <test-case start="1556668670535" stop="1556668670543" status="passed">
+      <name>testSetSortablePropagatesSortabilityToChildren</name>
+    </test-case>
+    <test-case start="1556668670543" stop="1556668670546" status="passed">
+      <name>testSetSortablePropagatesSortabilityToChildrenOnlyIfSortabilityIsFalse</name>
+    </test-case>
+    <test-case start="1556668670547" stop="1556668670550" status="passed">
+      <name>testSetRendererTypePropagatesRendererTypeToColumns</name>
+    </test-case>
+    <test-case start="1556668670550" stop="1556668670553" status="passed">
+      <name>testSetFilterTypePropagatesFilterTypeToColumns</name>
+    </test-case>
+    <test-case start="1556668670554" stop="1556668670557" status="passed">
+      <name>testGetRowUrlIfUrlPathNotSet</name>
+    </test-case>
+    <test-case start="1556668670557" stop="1556668670569" status="passed">
+      <name>testGetRowUrl</name>
+    </test-case>
+    <test-case start="1556668670570" stop="1556668670574" status="passed">
+      <name>testItemHasMultipleRows</name>
+    </test-case>
+    <test-case start="1556668670574" stop="1556668670579" status="passed">
+      <name>testShouldRenderTotalWithNotEmptyCollection</name>
+    </test-case>
+    <test-case start="1556668670579" stop="1556668670583" status="passed">
+      <name>testShouldRenderTotalWithEmptyCollection</name>
+    </test-case>
+    <test-case start="1556668670584" stop="1556668670587" status="passed">
+      <name>testShouldRenderTotalWithFlagFalse</name>
+    </test-case>
+    <test-case start="1556668670587" stop="1556668670590" status="passed">
+      <name>testShouldRenderSubtotalWithFlagFalse</name>
+    </test-case>
+    <test-case start="1556668670590" stop="1556668670595" status="passed">
+      <name>testShouldRenderSubtotalWithEmptySubData</name>
+    </test-case>
+    <test-case start="1556668670595" stop="1556668670598" status="passed">
+      <name>testShouldRenderSubtotalWithNotEmptySubData</name>
+    </test-case>
+    <test-case start="1556668670599" stop="1556668670602" status="passed">
+      <name>testUpdateItemByFirstMultiRow</name>
+    </test-case>
+    <test-case start="1556668670602" stop="1556668670606" status="passed">
+      <name>testGetSubTotals</name>
+    </test-case>
+    <test-case start="1556668670607" stop="1556668670611" status="passed">
+      <name>testGetTotals</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

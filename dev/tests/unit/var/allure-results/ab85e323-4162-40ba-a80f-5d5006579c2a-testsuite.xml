@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668812040" stop="1556668812054" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Service\InvoiceServiceTest</name>
+  <test-cases>
+    <test-case start="1556668812041" stop="1556668812047" status="passed">
+      <name>testSetCapture</name>
+    </test-case>
+    <test-case start="1556668812047" stop="1556668812050" status="passed">
+      <name>testGetCommentsList</name>
+    </test-case>
+    <test-case start="1556668812050" stop="1556668812052" status="passed">
+      <name>testNotify</name>
+    </test-case>
+    <test-case start="1556668812052" stop="1556668812054" status="passed">
+      <name>testSetVoid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

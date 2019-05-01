@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668732381" stop="1556668732394" version="1.4.0">
+  <name>Magento\Directory\Test\Unit\Model\PriceCurrencyTest</name>
+  <test-cases>
+    <test-case start="1556668732382" stop="1556668732384" status="passed">
+      <name>testConvert</name>
+    </test-case>
+    <test-case start="1556668732384" stop="1556668732385" status="passed">
+      <name>testConvertWithStoreCode</name>
+    </test-case>
+    <test-case start="1556668732385" stop="1556668732387" status="passed">
+      <name>testConvertWithCurrencyString</name>
+    </test-case>
+    <test-case start="1556668732387" stop="1556668732389" status="passed">
+      <name>testConvertWithStoreCurrency</name>
+    </test-case>
+    <test-case start="1556668732389" stop="1556668732390" status="passed">
+      <name>testFormat</name>
+    </test-case>
+    <test-case start="1556668732390" stop="1556668732392" status="passed">
+      <name>testConvertAndFormat</name>
+    </test-case>
+    <test-case start="1556668732392" stop="1556668732393" status="passed">
+      <name>testGetCurrencySymbol</name>
+    </test-case>
+    <test-case start="1556668732393" stop="1556668732394" status="passed">
+      <name>testConvertAndRound</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668805313" stop="1556668805344" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Creditmemo\Total\TaxTest</name>
+  <test-cases>
+    <test-case start="1556668805313" stop="1556668805321" status="passed">
+      <name>testCollect with data set "partial_invoice_partial_creditmemo"</name>
+    </test-case>
+    <test-case start="1556668805322" stop="1556668805328" status="passed">
+      <name>testCollect with data set "partial_invoice_partial_creditmemo_different_currencies"</name>
+    </test-case>
+    <test-case start="1556668805328" stop="1556668805332" status="passed">
+      <name>testCollect with data set "tax_amount_not_over_invoiced_tax_amount"</name>
+    </test-case>
+    <test-case start="1556668805333" stop="1556668805336" status="passed">
+      <name>testCollect with data set "last_partial_creditmemo"</name>
+    </test-case>
+    <test-case start="1556668805337" stop="1556668805340" status="passed">
+      <name>testCollect with data set "partial_invoice_partial_creditmemo_price_incl_tax"</name>
+    </test-case>
+    <test-case start="1556668805340" stop="1556668805344" status="passed">
+      <name>testCollect with data set "last_partial_creditmemo_with_partial_shipping_refund"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

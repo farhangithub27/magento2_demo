@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668853445" stop="1556668853451" version="1.4.0">
+  <name>Magento\Framework\Exception\Test\Unit\LocalizedExceptionTest</name>
+  <test-cases>
+    <test-case start="1556668853445" stop="1556668853446" status="passed">
+      <name>testConstructor with data set "withNoNameParameters"</name>
+    </test-case>
+    <test-case start="1556668853446" stop="1556668853447" status="passed">
+      <name>testConstructor with data set "withNamedParameters"</name>
+    </test-case>
+    <test-case start="1556668853447" stop="1556668853448" status="passed">
+      <name>testConstructor with data set "withoutParameters"</name>
+    </test-case>
+    <test-case start="1556668853448" stop="1556668853449" status="passed">
+      <name>testGetRawMessage</name>
+    </test-case>
+    <test-case start="1556668853449" stop="1556668853449" status="passed">
+      <name>testGetParameters</name>
+    </test-case>
+    <test-case start="1556668853450" stop="1556668853450" status="passed">
+      <name>testGetLogMessage</name>
+    </test-case>
+    <test-case start="1556668853451" stop="1556668853451" status="passed">
+      <name>testGetCode</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

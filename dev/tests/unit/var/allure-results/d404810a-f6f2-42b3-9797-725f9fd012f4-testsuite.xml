@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668731999" stop="1556668732003" version="1.4.0">
+  <name>Magento\Directory\Test\Unit\Model\CountryTest</name>
+  <test-cases>
+    <test-case start="1556668731999" stop="1556668732001" status="passed">
+      <name>testGetName</name>
+    </test-case>
+    <test-case start="1556668732001" stop="1556668732003" status="passed">
+      <name>testGetNameWithLocale</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

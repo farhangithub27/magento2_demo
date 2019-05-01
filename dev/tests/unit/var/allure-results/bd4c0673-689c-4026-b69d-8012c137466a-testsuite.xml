@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668660597" stop="1556668660602" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\Grid\ExtensionTest</name>
+  <test-cases>
+    <test-case start="1556668660598" stop="1556668660602" status="passed">
+      <name>testGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

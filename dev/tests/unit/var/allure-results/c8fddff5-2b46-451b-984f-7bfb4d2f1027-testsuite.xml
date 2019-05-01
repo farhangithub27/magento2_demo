@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668693843" stop="1556668693889" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Category\TreeTest</name>
+  <test-cases>
+    <test-case start="1556668693843" stop="1556668693855" status="passed">
+      <name>testGetNode</name>
+    </test-case>
+    <test-case start="1556668693855" stop="1556668693858" status="passed">
+      <name>testGetRootNode</name>
+    </test-case>
+    <test-case start="1556668693858" stop="1556668693879" status="passed">
+      <name>testGetTree</name>
+    </test-case>
+    <test-case start="1556668693880" stop="1556668693889" status="passed">
+      <name>testGetTreeWhenChildrenAreNotExist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

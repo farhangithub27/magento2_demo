@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864114" stop="1556668864137" version="1.4.0">
+  <name>Magento\Framework\Stdlib\Test\Unit\Cookie\PhpCookieManagerTest</name>
+  <test-cases>
+    <test-case start="1556668864115" stop="1556668864117" status="passed">
+      <name>testGetUnknownCookie</name>
+    </test-case>
+    <test-case start="1556668864117" stop="1556668864118" status="passed">
+      <name>testGetCookie</name>
+    </test-case>
+    <test-case start="1556668864118" stop="1556668864119" status="passed">
+      <name>testDeleteCookie</name>
+    </test-case>
+    <test-case start="1556668864119" stop="1556668864121" status="passed">
+      <name>testDeleteCookieWithNoCookieMetadata</name>
+    </test-case>
+    <test-case start="1556668864121" stop="1556668864122" status="passed">
+      <name>testDeleteCookieWithFailureToSendException</name>
+    </test-case>
+    <test-case start="1556668864122" stop="1556668864124" status="passed">
+      <name>testSetSensitiveCookieNoMetadata with data set #0</name>
+    </test-case>
+    <test-case start="1556668864124" stop="1556668864125" status="passed">
+      <name>testSetSensitiveCookieNoMetadata with data set #1</name>
+    </test-case>
+    <test-case start="1556668864125" stop="1556668864127" status="passed">
+      <name>testSetSensitiveCookieNullDomainAndPath</name>
+    </test-case>
+    <test-case start="1556668864127" stop="1556668864128" status="passed">
+      <name>testSetSensitiveCookieWithPathAndDomain</name>
+    </test-case>
+    <test-case start="1556668864128" stop="1556668864129" status="passed">
+      <name>testSetPublicCookieNoMetadata</name>
+    </test-case>
+    <test-case start="1556668864129" stop="1556668864130" status="passed">
+      <name>testSetPublicCookieDefaultValues</name>
+    </test-case>
+    <test-case start="1556668864131" stop="1556668864132" status="passed">
+      <name>testSetPublicCookieSomeFieldsSet</name>
+    </test-case>
+    <test-case start="1556668864132" stop="1556668864133" status="passed">
+      <name>testSetCookieBadName</name>
+    </test-case>
+    <test-case start="1556668864133" stop="1556668864135" status="passed">
+      <name>testSetCookieSizeTooLarge</name>
+    </test-case>
+    <test-case start="1556668864136" stop="1556668864137" status="passed">
+      <name>testSetTooManyCookies</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

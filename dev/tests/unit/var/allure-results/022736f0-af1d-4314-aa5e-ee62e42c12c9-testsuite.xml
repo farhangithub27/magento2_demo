@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668800627" stop="1556668800657" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Block\Adminhtml\Order\Totals\TaxTest</name>
+  <test-cases>
+    <test-case start="1556668800628" stop="1556668800643" status="passed">
+      <name>testGetFullTaxInfo with data set "source is not an instance of \Magento\Sales\Model\Order"</name>
+    </test-case>
+    <test-case start="1556668800644" stop="1556668800648" status="passed">
+      <name>testGetFullTaxInfo with data set "source is an instance of \Magento\Sales\Model\Order and has reasonable data"</name>
+    </test-case>
+    <test-case start="1556668800648" stop="1556668800652" status="passed">
+      <name>testGetFullTaxInfoWithCreditAndInvoice with data set "invoice"</name>
+    </test-case>
+    <test-case start="1556668800653" stop="1556668800657" status="passed">
+      <name>testGetFullTaxInfoWithCreditAndInvoice with data set "creditMemo"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

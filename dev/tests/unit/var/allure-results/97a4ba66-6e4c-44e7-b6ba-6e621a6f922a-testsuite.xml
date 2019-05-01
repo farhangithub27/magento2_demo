@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668849885" stop="1556668849891" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\Select\FromRendererTest</name>
+  <test-cases>
+    <test-case start="1556668849886" stop="1556668849887" status="passed">
+      <name>testRenderNoPart</name>
+    </test-case>
+    <test-case start="1556668849887" stop="1556668849888" status="passed">
+      <name>testRender with data set #0</name>
+    </test-case>
+    <test-case start="1556668849889" stop="1556668849890" status="passed">
+      <name>testRender with data set #1</name>
+    </test-case>
+    <test-case start="1556668849890" stop="1556668849891" status="passed">
+      <name>testRender with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

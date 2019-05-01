@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668870322" stop="1556668870329" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Asset\PreProcessor\ChainTest</name>
+  <test-cases>
+    <test-case start="1556668870322" stop="1556668870323" status="passed">
+      <name>testGetAsset</name>
+    </test-case>
+    <test-case start="1556668870323" stop="1556668870324" status="passed">
+      <name>testGettersAndSetters</name>
+    </test-case>
+    <test-case start="1556668870324" stop="1556668870325" status="passed">
+      <name>testAssertValid</name>
+    </test-case>
+    <test-case start="1556668870325" stop="1556668870326" status="passed">
+      <name>testIsChanged with data set #0</name>
+    </test-case>
+    <test-case start="1556668870326" stop="1556668870327" status="passed">
+      <name>testIsChanged with data set #1</name>
+    </test-case>
+    <test-case start="1556668870328" stop="1556668870328" status="passed">
+      <name>testIsChanged with data set #2</name>
+    </test-case>
+    <test-case start="1556668870329" stop="1556668870329" status="passed">
+      <name>testIsChanged with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

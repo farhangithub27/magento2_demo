@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668780977" stop="1556668780979" version="1.4.0">
+  <name>Magento\NewRelicReporting\Test\Unit\Model\Observer\ReportProductDeletedToNewRelicTest</name>
+  <test-cases>
+    <test-case start="1556668780977" stop="1556668780978" status="passed">
+      <name>testReportProductDeletedToNewRelicModuleDisabledFromConfig</name>
+    </test-case>
+    <test-case start="1556668780978" stop="1556668780979" status="passed">
+      <name>testReportProductDeletedToNewRelic</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

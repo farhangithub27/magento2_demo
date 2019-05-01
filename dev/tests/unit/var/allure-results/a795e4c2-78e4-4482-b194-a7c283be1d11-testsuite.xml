@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668799454" stop="1556668799548" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Model\ValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668799454" stop="1556668799474" status="passed">
+      <name>testCanApplyRules</name>
+    </test-case>
+    <test-case start="1556668799474" stop="1556668799477" status="passed">
+      <name>testProcess</name>
+    </test-case>
+    <test-case start="1556668799477" stop="1556668799479" status="passed">
+      <name>testProcessWhenItemPriceIsNegativeDiscountsAreZeroed</name>
+    </test-case>
+    <test-case start="1556668799479" stop="1556668799484" status="passed">
+      <name>testApplyRulesThatAppliedRuleIdsAreCollected</name>
+    </test-case>
+    <test-case start="1556668799484" stop="1556668799487" status="passed">
+      <name>testInit</name>
+    </test-case>
+    <test-case start="1556668799487" stop="1556668799489" status="passed">
+      <name>testCanApplyDiscount</name>
+    </test-case>
+    <test-case start="1556668799490" stop="1556668799499" status="passed">
+      <name>testInitTotalsCanApplyDiscount</name>
+    </test-case>
+    <test-case start="1556668799499" stop="1556668799501" status="passed">
+      <name>testInitTotalsNoItems</name>
+    </test-case>
+    <test-case start="1556668799502" stop="1556668799507" status="passed">
+      <name>testProcessShippingAmountNoRules</name>
+    </test-case>
+    <test-case start="1556668799507" stop="1556668799512" status="passed">
+      <name>testProcessShippingAmountProcessDisabled</name>
+    </test-case>
+    <test-case start="1556668799512" stop="1556668799519" status="passed">
+      <name>testProcessShippingAmountActions with data set #0</name>
+    </test-case>
+    <test-case start="1556668799519" stop="1556668799525" status="passed">
+      <name>testProcessShippingAmountActions with data set #1</name>
+    </test-case>
+    <test-case start="1556668799525" stop="1556668799532" status="passed">
+      <name>testProcessShippingAmountActions with data set #2</name>
+    </test-case>
+    <test-case start="1556668799532" stop="1556668799538" status="passed">
+      <name>testProcessShippingAmountActions with data set #3</name>
+    </test-case>
+    <test-case start="1556668799539" stop="1556668799545" status="passed">
+      <name>testProcessShippingAmountActions with data set #4</name>
+    </test-case>
+    <test-case start="1556668799545" stop="1556668799547" status="passed">
+      <name>testReset</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

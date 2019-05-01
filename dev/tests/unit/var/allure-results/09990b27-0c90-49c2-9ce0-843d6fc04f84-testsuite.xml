@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668722269" stop="1556668722319" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Address\Validator\GeneralTest</name>
+  <test-cases>
+    <test-case start="1556668722270" stop="1556668722278" status="passed">
+      <name>testValidate with data set "firstname"</name>
+    </test-case>
+    <test-case start="1556668722278" stop="1556668722285" status="passed">
+      <name>testValidate with data set "lastname"</name>
+    </test-case>
+    <test-case start="1556668722285" stop="1556668722292" status="passed">
+      <name>testValidate with data set "street"</name>
+    </test-case>
+    <test-case start="1556668722292" stop="1556668722299" status="passed">
+      <name>testValidate with data set "city"</name>
+    </test-case>
+    <test-case start="1556668722299" stop="1556668722305" status="passed">
+      <name>testValidate with data set "telephone"</name>
+    </test-case>
+    <test-case start="1556668722306" stop="1556668722312" status="passed">
+      <name>testValidate with data set "postcode"</name>
+    </test-case>
+    <test-case start="1556668722313" stop="1556668722319" status="passed">
+      <name>testValidate with data set "validated"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

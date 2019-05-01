@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668726126" stop="1556668726159" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\ResourceModel\GroupTest</name>
+  <test-cases>
+    <test-case start="1556668726126" stop="1556668726153" status="passed">
+      <name>testSaveWithReservedId</name>
+    </test-case>
+    <test-case start="1556668726153" stop="1556668726159" status="passed">
+      <name>testDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

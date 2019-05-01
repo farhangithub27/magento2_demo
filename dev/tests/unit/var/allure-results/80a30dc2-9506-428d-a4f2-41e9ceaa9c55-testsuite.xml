@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845155" stop="1556668845159" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Response\HeaderProvider\XssProtectionTest</name>
+  <test-cases>
+    <test-case start="1556668845156" stop="1556668845157" status="passed">
+      <name>testGetValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668845158" stop="1556668845158" status="passed">
+      <name>testGetValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668845158" stop="1556668845159" status="passed">
+      <name>testGetValue with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668781313" stop="1556668781335" version="1.4.0">
+  <name>Magento\Newsletter\Test\Unit\Model\ProblemTest</name>
+  <test-cases>
+    <test-case start="1556668781314" stop="1556668781319" status="passed">
+      <name>testAddSubscriberData</name>
+    </test-case>
+    <test-case start="1556668781319" stop="1556668781327" status="passed">
+      <name>testAddQueueData</name>
+    </test-case>
+    <test-case start="1556668781328" stop="1556668781329" status="passed">
+      <name>testAddErrorData</name>
+    </test-case>
+    <test-case start="1556668781329" stop="1556668781330" status="passed">
+      <name>testGetSubscriberWithNoSubscriberId</name>
+    </test-case>
+    <test-case start="1556668781330" stop="1556668781331" status="passed">
+      <name>testGetSubscriber</name>
+    </test-case>
+    <test-case start="1556668781332" stop="1556668781333" status="passed">
+      <name>testUnsubscribeWithNoSubscriber</name>
+    </test-case>
+    <test-case start="1556668781333" stop="1556668781335" status="passed">
+      <name>testUnsubscribe</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

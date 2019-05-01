@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668683592" stop="1556668683597" version="1.4.0">
+  <name>Magento\CatalogRuleConfigurable\Test\Unit\Plugin\CatalogRule\Model\Rule\ConfigurableProductHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668683592" stop="1556668683595" status="passed">
+      <name>testAfterGetMatchingProductIdsWithSimpleProduct</name>
+    </test-case>
+    <test-case start="1556668683595" stop="1556668683597" status="passed">
+      <name>testAfterGetMatchingProductIdsWithConfigurableProduct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

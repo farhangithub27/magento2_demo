@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668793106" stop="1556668793253" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\QuoteManagementTest</name>
+  <test-cases>
+    <test-case start="1556668793106" stop="1556668793126" status="passed">
+      <name>testCreateEmptyCartAnonymous</name>
+    </test-case>
+    <test-case start="1556668793126" stop="1556668793130" status="passed">
+      <name>testCreateEmptyCartForCustomer</name>
+    </test-case>
+    <test-case start="1556668793130" stop="1556668793134" status="passed">
+      <name>testCreateEmptyCartForCustomerReturnExistsQuote</name>
+    </test-case>
+    <test-case start="1556668793134" stop="1556668793138" status="passed">
+      <name>testAssignCustomerFromAnotherStore</name>
+    </test-case>
+    <test-case start="1556668793138" stop="1556668793142" status="passed">
+      <name>testAssignCustomerToNonanonymousCart</name>
+    </test-case>
+    <test-case start="1556668793143" stop="1556668793146" status="passed">
+      <name>testAssignCustomerNoSuchCustomer</name>
+    </test-case>
+    <test-case start="1556668793147" stop="1556668793152" status="passed">
+      <name>testAssignCustomer</name>
+    </test-case>
+    <test-case start="1556668793152" stop="1556668793195" status="passed">
+      <name>testSubmit</name>
+    </test-case>
+    <test-case start="1556668793195" stop="1556668793207" status="passed">
+      <name>testPlaceOrderIfCustomerIsGuest</name>
+    </test-case>
+    <test-case start="1556668793207" stop="1556668793215" status="passed">
+      <name>testPlaceOrder</name>
+    </test-case>
+    <test-case start="1556668793215" stop="1556668793218" status="passed">
+      <name>testGetCartForCustomer</name>
+    </test-case>
+    <test-case start="1556668793218" stop="1556668793253" status="passed">
+      <name>testSubmitForCustomer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

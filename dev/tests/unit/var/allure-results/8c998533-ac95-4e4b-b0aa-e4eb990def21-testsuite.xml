@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668794286" stop="1556668794319" version="1.4.0">
+  <name>Magento\ReleaseNotification\Test\Unit\Model\ContentProvider\Http\HttpContentProviderTest</name>
+  <test-cases>
+    <test-case start="1556668794287" stop="1556668794291" status="passed">
+      <name>testGetContentSuccess</name>
+    </test-case>
+    <test-case start="1556668794291" stop="1556668794293" status="passed">
+      <name>testGetContentFailure</name>
+    </test-case>
+    <test-case start="1556668794293" stop="1556668794296" status="passed">
+      <name>testGetContentSuccessOnLocaleDefault</name>
+    </test-case>
+    <test-case start="1556668794297" stop="1556668794302" status="passed">
+      <name>testGetContentSuccessOnDefaultOrEmpty with data set "default-fr_FR"</name>
+    </test-case>
+    <test-case start="1556668794303" stop="1556668794308" status="passed">
+      <name>testGetContentSuccessOnDefaultOrEmpty with data set "default-en_US"</name>
+    </test-case>
+    <test-case start="1556668794308" stop="1556668794313" status="passed">
+      <name>testGetContentSuccessOnDefaultOrEmpty with data set "empty-fr_FR"</name>
+    </test-case>
+    <test-case start="1556668794314" stop="1556668794319" status="passed">
+      <name>testGetContentSuccessOnDefaultOrEmpty with data set "empty-en_US"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668782883" stop="1556668782885" version="1.4.0">
+  <name>Magento\PageCache\Test\Unit\Model\App\Response\HttpPluginTest</name>
+  <test-cases>
+    <test-case start="1556668782883" stop="1556668782884" status="passed">
+      <name>testBeforeSendResponse with data set #0</name>
+    </test-case>
+    <test-case start="1556668782885" stop="1556668782885" status="passed">
+      <name>testBeforeSendResponse with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

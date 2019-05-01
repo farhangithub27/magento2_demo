@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747966" stop="1556668747978" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\ResourceModel\Oauth\Token\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668747966" stop="1556668747969" status="passed">
+      <name>testJoinConsumerAsApplication</name>
+    </test-case>
+    <test-case start="1556668747969" stop="1556668747970" status="passed">
+      <name>testAddFilterByCustomerId</name>
+    </test-case>
+    <test-case start="1556668747971" stop="1556668747972" status="passed">
+      <name>testAddFilterByConsumerId</name>
+    </test-case>
+    <test-case start="1556668747972" stop="1556668747974" status="passed">
+      <name>testAddFilterByType</name>
+    </test-case>
+    <test-case start="1556668747974" stop="1556668747976" status="passed">
+      <name>testAddFilterById</name>
+    </test-case>
+    <test-case start="1556668747976" stop="1556668747977" status="passed">
+      <name>testAddFilterByRevoked</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

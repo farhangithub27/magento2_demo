@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845133" stop="1556668845136" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Response\HeaderProvider\XFrameOptionsTest</name>
+  <test-cases>
+    <test-case start="1556668845134" stop="1556668845134" status="passed">
+      <name>testGetName</name>
+    </test-case>
+    <test-case start="1556668845134" stop="1556668845135" status="passed">
+      <name>testGetValue</name>
+    </test-case>
+    <test-case start="1556668845135" stop="1556668845136" status="passed">
+      <name>testCanApply</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

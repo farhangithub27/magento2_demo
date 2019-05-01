@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668671485" stop="1556668671504" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Controller\Adminhtml\Dashboard\TunnelTest</name>
+  <test-cases>
+    <test-case start="1556668671485" stop="1556668671496" status="passed">
+      <name>testTunnelAction</name>
+    </test-case>
+    <test-case start="1556668671496" stop="1556668671499" status="passed">
+      <name>testTunnelAction400</name>
+    </test-case>
+    <test-case start="1556668671499" stop="1556668671504" status="passed">
+      <name>testTunnelAction503</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

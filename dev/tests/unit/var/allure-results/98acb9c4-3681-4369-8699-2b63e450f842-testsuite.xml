@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668871909" stop="1556668871940" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Element\Js\CookieTest</name>
+  <test-cases>
+    <test-case start="1556668871910" stop="1556668871919" status="passed">
+      <name>testInstanceOf</name>
+    </test-case>
+    <test-case start="1556668871919" stop="1556668871923" status="passed">
+      <name>testGetDomain with data set #0</name>
+    </test-case>
+    <test-case start="1556668871923" stop="1556668871927" status="passed">
+      <name>testGetDomain with data set #1</name>
+    </test-case>
+    <test-case start="1556668871928" stop="1556668871932" status="passed">
+      <name>testGetDomain with data set #2</name>
+    </test-case>
+    <test-case start="1556668871932" stop="1556668871936" status="passed">
+      <name>testGetPath</name>
+    </test-case>
+    <test-case start="1556668871936" stop="1556668871940" status="passed">
+      <name>testGetLifetime</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

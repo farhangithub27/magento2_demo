@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668662166" stop="1556668662168" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\Dependency\Report\Framework\Data\DependencyTest</name>
+  <test-cases>
+    <test-case start="1556668662166" stop="1556668662167" status="passed">
+      <name>testGetLib</name>
+    </test-case>
+    <test-case start="1556668662167" stop="1556668662168" status="passed">
+      <name>testGetCount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

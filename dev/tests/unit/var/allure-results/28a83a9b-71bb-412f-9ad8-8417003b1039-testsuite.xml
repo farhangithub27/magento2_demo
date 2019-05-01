@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668711753" stop="1556668711759" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Console\Command\ConfigShowCommandTest</name>
+  <test-cases>
+    <test-case start="1556668711753" stop="1556668711756" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668711756" stop="1556668711758" status="passed">
+      <name>testNotValidScopeOrScopeCode</name>
+    </test-case>
+    <test-case start="1556668711758" stop="1556668711759" status="passed">
+      <name>testConfigPathNotExist</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668844562" stop="1556668844618" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\PageCache\KernelTest</name>
+  <test-cases>
+    <test-case start="1556668844562" stop="1556668844571" status="passed">
+      <name>testLoadWithCachedData with data set #0</name>
+    </test-case>
+    <test-case start="1556668844571" stop="1556668844574" status="passed">
+      <name>testLoadWithCachedData with data set #1</name>
+    </test-case>
+    <test-case start="1556668844574" stop="1556668844576" status="passed">
+      <name>testLoadWithoutCachedData with data set #0</name>
+    </test-case>
+    <test-case start="1556668844576" stop="1556668844578" status="passed">
+      <name>testLoadWithoutCachedData with data set #1</name>
+    </test-case>
+    <test-case start="1556668844578" stop="1556668844580" status="passed">
+      <name>testLoadWithoutCachedData with data set #2</name>
+    </test-case>
+    <test-case start="1556668844580" stop="1556668844586" status="passed">
+      <name>testProcessSaveCache with data set #0</name>
+    </test-case>
+    <test-case start="1556668844586" stop="1556668844590" status="passed">
+      <name>testProcessSaveCache with data set #1</name>
+    </test-case>
+    <test-case start="1556668844591" stop="1556668844593" status="passed">
+      <name>testProcessSaveCacheDataProvider</name>
+    </test-case>
+    <test-case start="1556668844594" stop="1556668844596" status="passed">
+      <name>testProcessNotSaveCache with data set #0</name>
+    </test-case>
+    <test-case start="1556668844596" stop="1556668844598" status="passed">
+      <name>testProcessNotSaveCache with data set #1</name>
+    </test-case>
+    <test-case start="1556668844598" stop="1556668844600" status="passed">
+      <name>testProcessNotSaveCache with data set #2</name>
+    </test-case>
+    <test-case start="1556668844600" stop="1556668844602" status="passed">
+      <name>testProcessNotSaveCache with data set #3</name>
+    </test-case>
+    <test-case start="1556668844603" stop="1556668844606" status="passed">
+      <name>testProcessNotSaveCache with data set #4</name>
+    </test-case>
+    <test-case start="1556668844606" stop="1556668844608" status="passed">
+      <name>testProcessNotSaveCache with data set #5</name>
+    </test-case>
+    <test-case start="1556668844609" stop="1556668844611" status="passed">
+      <name>testProcessNotSaveCache with data set #6</name>
+    </test-case>
+    <test-case start="1556668844612" stop="1556668844615" status="passed">
+      <name>testProcessNotSaveCache with data set #7</name>
+    </test-case>
+    <test-case start="1556668844615" stop="1556668844618" status="passed">
+      <name>testProcessNotSaveCache with data set #8</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

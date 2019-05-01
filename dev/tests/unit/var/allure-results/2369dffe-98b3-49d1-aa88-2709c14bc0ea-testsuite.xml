@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668674113" stop="1556668674118" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Request\PaymentDataBuilderTest</name>
+  <test-cases>
+    <test-case start="1556668674113" stop="1556668674114" status="passed">
+      <name>testBuildReadPaymentException</name>
+    </test-case>
+    <test-case start="1556668674115" stop="1556668674116" status="passed">
+      <name>testBuildReadAmountException</name>
+    </test-case>
+    <test-case start="1556668674116" stop="1556668674118" status="passed">
+      <name>testBuild</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

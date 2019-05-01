@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843825" stop="1556668843829" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Console\ResponseTest</name>
+  <test-cases>
+    <test-case start="1556668843825" stop="1556668843826" status="passed">
+      <name>testSendResponseDefaultBehaviour</name>
+    </test-case>
+    <test-case start="1556668843826" stop="1556668843826" status="passed">
+      <name>testSetCode with data set #0</name>
+    </test-case>
+    <test-case start="1556668843827" stop="1556668843827" status="passed">
+      <name>testSetCode with data set #1</name>
+    </test-case>
+    <test-case start="1556668843827" stop="1556668843828" status="passed">
+      <name>testSetCode with data set #2</name>
+    </test-case>
+    <test-case start="1556668843828" stop="1556668843828" status="passed">
+      <name>testSetBody</name>
+    </test-case>
+    <test-case start="1556668843828" stop="1556668843829" status="passed">
+      <name>testSetBodyNoOutput</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

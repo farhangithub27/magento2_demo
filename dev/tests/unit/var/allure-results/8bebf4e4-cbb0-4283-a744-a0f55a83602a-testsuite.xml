@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668854553" stop="1556668854555" version="1.4.0">
+  <name>Magento\Framework\Filter\Test\Unit\TruncateTest</name>
+  <test-cases>
+    <test-case start="1556668854553" stop="1556668854554" status="passed">
+      <name>testTruncate with data set #0</name>
+    </test-case>
+    <test-case start="1556668854555" stop="1556668854555" status="passed">
+      <name>testTruncate with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

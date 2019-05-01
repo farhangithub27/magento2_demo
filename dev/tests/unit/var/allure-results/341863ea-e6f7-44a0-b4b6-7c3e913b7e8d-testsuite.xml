@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668801897" stop="1556668801929" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Controller\Adminhtml\Order\Creditmemo\CancelTest</name>
+  <test-cases>
+    <test-case start="1556668801898" stop="1556668801910" status="passed">
+      <name>testExecuteModelException</name>
+    </test-case>
+    <test-case start="1556668801910" stop="1556668801917" status="passed">
+      <name>testExecuteException</name>
+    </test-case>
+    <test-case start="1556668801917" stop="1556668801923" status="passed">
+      <name>testExecuteNoCreditmemo</name>
+    </test-case>
+    <test-case start="1556668801923" stop="1556668801929" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

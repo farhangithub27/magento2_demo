@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668858908" stop="1556668858918" version="1.4.0">
+  <name>Magento\Framework\ObjectManager\Test\Unit\Factory\FactoryTest</name>
+  <test-cases>
+    <test-case start="1556668858908" stop="1556668858909" status="passed">
+      <name>testCreateNoArgs</name>
+    </test-case>
+    <test-case start="1556668858909" stop="1556668858911" status="passed">
+      <name>testResolveArgumentsException</name>
+    </test-case>
+    <test-case start="1556668858911" stop="1556668858912" status="passed">
+      <name>testCreateOneArg</name>
+    </test-case>
+    <test-case start="1556668858912" stop="1556668858913" status="passed">
+      <name>testCreateWithInjectable</name>
+    </test-case>
+    <test-case start="1556668858914" stop="1556668858915" status="passed">
+      <name>testCircular with data set #0</name>
+    </test-case>
+    <test-case start="1556668858915" stop="1556668858916" status="passed">
+      <name>testCircular with data set #1</name>
+    </test-case>
+    <test-case start="1556668858916" stop="1556668858917" status="passed">
+      <name>testCircular with data set #2</name>
+    </test-case>
+    <test-case start="1556668858917" stop="1556668858918" status="passed">
+      <name>testCreateUsingReflection</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668839610" stop="1556668839645" version="1.4.0">
+  <name>Magento\Framework\Test\Unit\ProfilerTest</name>
+  <test-cases>
+    <test-case start="1556668839610" stop="1556668839611" status="passed">
+      <name>testEnable</name>
+    </test-case>
+    <test-case start="1556668839611" stop="1556668839611" status="passed">
+      <name>testDisable</name>
+    </test-case>
+    <test-case start="1556668839611" stop="1556668839612" status="passed">
+      <name>testSetDefaultTags</name>
+    </test-case>
+    <test-case start="1556668839612" stop="1556668839613" status="passed">
+      <name>testAddTagFilter</name>
+    </test-case>
+    <test-case start="1556668839613" stop="1556668839614" status="passed">
+      <name>testAdd</name>
+    </test-case>
+    <test-case start="1556668839615" stop="1556668839615" status="passed">
+      <name>testStartException</name>
+    </test-case>
+    <test-case start="1556668839615" stop="1556668839616" status="passed">
+      <name>testDisabledProfiler</name>
+    </test-case>
+    <test-case start="1556668839616" stop="1556668839617" status="passed">
+      <name>testStartStopSimple</name>
+    </test-case>
+    <test-case start="1556668839617" stop="1556668839619" status="passed">
+      <name>testStartNested</name>
+    </test-case>
+    <test-case start="1556668839619" stop="1556668839619" status="passed">
+      <name>testStopExceptionUnknown</name>
+    </test-case>
+    <test-case start="1556668839620" stop="1556668839622" status="passed">
+      <name>testStopOrder</name>
+    </test-case>
+    <test-case start="1556668839623" stop="1556668839624" status="passed">
+      <name>testStopSameName</name>
+    </test-case>
+    <test-case start="1556668839624" stop="1556668839625" status="passed">
+      <name>testStopLatest</name>
+    </test-case>
+    <test-case start="1556668839625" stop="1556668839626" status="passed">
+      <name>testTags</name>
+    </test-case>
+    <test-case start="1556668839627" stop="1556668839627" status="passed">
+      <name>testClearTimer</name>
+    </test-case>
+    <test-case start="1556668839628" stop="1556668839628" status="passed">
+      <name>testClearException</name>
+    </test-case>
+    <test-case start="1556668839628" stop="1556668839629" status="passed">
+      <name>testResetProfiler</name>
+    </test-case>
+    <test-case start="1556668839630" stop="1556668839630" status="passed">
+      <name>testTagFilterSkip with data set "no tags"</name>
+    </test-case>
+    <test-case start="1556668839631" stop="1556668839631" status="passed">
+      <name>testTagFilterSkip with data set "no expected tags"</name>
+    </test-case>
+    <test-case start="1556668839632" stop="1556668839632" status="passed">
+      <name>testTagFilterSkip with data set "no expected tag value"</name>
+    </test-case>
+    <test-case start="1556668839633" stop="1556668839633" status="passed">
+      <name>testTagFilterPass with data set "one expected tag"</name>
+    </test-case>
+    <test-case start="1556668839634" stop="1556668839634" status="passed">
+      <name>testTagFilterPass with data set "more than one tag with expected"</name>
+    </test-case>
+    <test-case start="1556668839635" stop="1556668839637" status="passed">
+      <name>testApplyConfig</name>
+    </test-case>
+    <test-case start="1556668839637" stop="1556668839638" status="passed">
+      <name>testParseConfig with data set "Empty configuration"</name>
+    </test-case>
+    <test-case start="1556668839638" stop="1556668839639" status="passed">
+      <name>testParseConfig with data set "Full configuration"</name>
+    </test-case>
+    <test-case start="1556668839639" stop="1556668839640" status="passed">
+      <name>testParseConfig with data set "Driver configuration with type in index"</name>
+    </test-case>
+    <test-case start="1556668839641" stop="1556668839642" status="passed">
+      <name>testParseConfig with data set "Driver configuration with type in value"</name>
+    </test-case>
+    <test-case start="1556668839642" stop="1556668839643" status="passed">
+      <name>testParseConfig with data set "Driver ignored configuration"</name>
+    </test-case>
+    <test-case start="1556668839643" stop="1556668839644" status="passed">
+      <name>testParseConfig with data set "Non ajax call"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

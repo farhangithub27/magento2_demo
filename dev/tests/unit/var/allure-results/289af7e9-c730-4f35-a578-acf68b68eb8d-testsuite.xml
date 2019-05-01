@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837626" stop="1556668837640" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\TaxAddressResolverTest</name>
+  <test-cases>
+    <test-case start="1556668837626" stop="1556668837633" status="passed">
+      <name>testResolveToGivenAddress</name>
+    </test-case>
+    <test-case start="1556668837633" stop="1556668837637" status="passed">
+      <name>testResolveToFallbackAddress</name>
+    </test-case>
+    <test-case start="1556668837637" stop="1556668837639" status="passed">
+      <name>testAddressDataValidationAsValid</name>
+    </test-case>
+    <test-case start="1556668837639" stop="1556668837640" status="passed">
+      <name>testAddressDataValidationAsInvalid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

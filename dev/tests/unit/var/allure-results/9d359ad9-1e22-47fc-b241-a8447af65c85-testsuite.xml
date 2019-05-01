@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668820805" stop="1556668820829" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Controller\Adminhtml\Rate\AjaxLoadTest</name>
+  <test-cases>
+    <test-case start="1556668820805" stop="1556668820821" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668820822" stop="1556668820825" status="passed">
+      <name>testExecuteLocalizedException</name>
+    </test-case>
+    <test-case start="1556668820825" stop="1556668820829" status="passed">
+      <name>testExecuteException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

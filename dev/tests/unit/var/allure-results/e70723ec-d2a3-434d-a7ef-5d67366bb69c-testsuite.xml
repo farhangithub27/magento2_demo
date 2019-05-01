@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668710883" stop="1556668710896" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Block\System\Config\Form\Field\Select\AllowspecificTest</name>
+  <test-cases>
+    <test-case start="1556668710883" stop="1556668710885" status="passed">
+      <name>testGetAfterElementHtml</name>
+    </test-case>
+    <test-case start="1556668710886" stop="1556668710888" status="passed">
+      <name>testGetHtmlWhenValueIsEmpty with data set "zero"</name>
+    </test-case>
+    <test-case start="1556668710889" stop="1556668710891" status="passed">
+      <name>testGetHtmlWhenValueIsEmpty with data set "null"</name>
+    </test-case>
+    <test-case start="1556668710891" stop="1556668710893" status="passed">
+      <name>testGetHtmlWhenValueIsEmpty with data set "false"</name>
+    </test-case>
+    <test-case start="1556668710893" stop="1556668710895" status="passed">
+      <name>testGetHtmlWhenValueIsEmpty with data set "negative"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

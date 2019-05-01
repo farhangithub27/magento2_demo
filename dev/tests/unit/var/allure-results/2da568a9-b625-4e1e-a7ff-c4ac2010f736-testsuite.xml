@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668783879" stop="1556668783882" version="1.4.0">
+  <name>Magento\Payment\Test\Unit\Gateway\Data\PaymentDataObjectTest</name>
+  <test-cases>
+    <test-case start="1556668783879" stop="1556668783881" status="passed">
+      <name>testGetOrder</name>
+    </test-case>
+    <test-case start="1556668783881" stop="1556668783882" status="passed">
+      <name>testGetPayment</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

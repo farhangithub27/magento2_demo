@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668689064" stop="1556668689077" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Adminhtml\Product\Edit\Action\Attribute\Tab\InventoryTest</name>
+  <test-cases>
+    <test-case start="1556668689064" stop="1556668689066" status="passed">
+      <name>testGetBackordersOption</name>
+    </test-case>
+    <test-case start="1556668689067" stop="1556668689068" status="passed">
+      <name>testGetFieldSuffix</name>
+    </test-case>
+    <test-case start="1556668689068" stop="1556668689069" status="passed">
+      <name>testGetStoreId</name>
+    </test-case>
+    <test-case start="1556668689069" stop="1556668689070" status="passed">
+      <name>testGetDefaultConfigValue</name>
+    </test-case>
+    <test-case start="1556668689071" stop="1556668689072" status="passed">
+      <name>testGetTabLabel</name>
+    </test-case>
+    <test-case start="1556668689072" stop="1556668689073" status="passed">
+      <name>testGetTabTitle</name>
+    </test-case>
+    <test-case start="1556668689073" stop="1556668689074" status="passed">
+      <name>testCanShowTab</name>
+    </test-case>
+    <test-case start="1556668689075" stop="1556668689076" status="passed">
+      <name>testIsHidden</name>
+    </test-case>
+    <test-case start="1556668689076" stop="1556668689077" status="passed">
+      <name>testIsEnabled</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

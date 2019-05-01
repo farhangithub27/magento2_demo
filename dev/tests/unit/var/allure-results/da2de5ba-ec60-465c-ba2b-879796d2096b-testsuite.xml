@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668813059" stop="1556668813070" version="1.4.0">
+  <name>Magento\Search\Test\Unit\Controller\Adminhtml\Term\MassDeleteTest</name>
+  <test-cases>
+    <test-case start="1556668813059" stop="1556668813070" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

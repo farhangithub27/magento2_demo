@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837954" stop="1556668837980" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Repository\LogEntryRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668837954" stop="1556668837961" status="passed">
+      <name>testConstructorThrowsNoErrors</name>
+    </test-case>
+    <test-case start="1556668837962" stop="1556668837965" status="passed">
+      <name>testModelPassedToResourceDuringSaveContainsSameData</name>
+    </test-case>
+    <test-case start="1556668837965" stop="1556668837967" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668837968" stop="1556668837971" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668837971" stop="1556668837980" status="passed">
+      <name>testGetListReturnsResultFromCollection</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

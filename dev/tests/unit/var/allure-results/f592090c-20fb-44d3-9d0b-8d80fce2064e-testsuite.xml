@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668793445" stop="1556668793728" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\QuoteTest</name>
+  <test-cases>
+    <test-case start="1556668793445" stop="1556668793466" status="passed">
+      <name>testIsMultipleShippingAddresses with data set #0</name>
+    </test-case>
+    <test-case start="1556668793467" stop="1556668793472" status="passed">
+      <name>testIsMultipleShippingAddresses with data set #1</name>
+    </test-case>
+    <test-case start="1556668793472" stop="1556668793477" status="passed">
+      <name>testGetCustomerGroupIdNotSet</name>
+    </test-case>
+    <test-case start="1556668793477" stop="1556668793481" status="passed">
+      <name>testGetCustomerGroupId</name>
+    </test-case>
+    <test-case start="1556668793482" stop="1556668793486" status="passed">
+      <name>testGetStoreIdNoId</name>
+    </test-case>
+    <test-case start="1556668793487" stop="1556668793491" status="passed">
+      <name>testGetStoreId</name>
+    </test-case>
+    <test-case start="1556668793491" stop="1556668793496" status="passed">
+      <name>testGetStore</name>
+    </test-case>
+    <test-case start="1556668793496" stop="1556668793501" status="passed">
+      <name>testSetStore</name>
+    </test-case>
+    <test-case start="1556668793501" stop="1556668793506" status="passed">
+      <name>testGetSharedWebsiteStoreIds</name>
+    </test-case>
+    <test-case start="1556668793506" stop="1556668793511" status="passed">
+      <name>testGetSharedStoreIds</name>
+    </test-case>
+    <test-case start="1556668793511" stop="1556668793516" status="passed">
+      <name>testLoadActive</name>
+    </test-case>
+    <test-case start="1556668793516" stop="1556668793521" status="passed">
+      <name>testloadByIdWithoutStore</name>
+    </test-case>
+    <test-case start="1556668793522" stop="1556668793533" status="passed">
+      <name>testSetCustomerAddressData</name>
+    </test-case>
+    <test-case start="1556668793533" stop="1556668793538" status="passed">
+      <name>testGetCustomerTaxClassId</name>
+    </test-case>
+    <test-case start="1556668793538" stop="1556668793543" status="passed">
+      <name>testGetAllAddresses</name>
+    </test-case>
+    <test-case start="1556668793544" stop="1556668793549" status="passed">
+      <name>testGetAddressById with data set #0</name>
+    </test-case>
+    <test-case start="1556668793549" stop="1556668793555" status="passed">
+      <name>testGetAddressById with data set #1</name>
+    </test-case>
+    <test-case start="1556668793555" stop="1556668793561" status="passed">
+      <name>testGetAddressByCustomerAddressId with data set #0</name>
+    </test-case>
+    <test-case start="1556668793561" stop="1556668793567" status="passed">
+      <name>testGetAddressByCustomerAddressId with data set #1</name>
+    </test-case>
+    <test-case start="1556668793567" stop="1556668793574" status="passed">
+      <name>testGetShippingAddressByCustomerAddressId with data set #0</name>
+    </test-case>
+    <test-case start="1556668793574" stop="1556668793582" status="passed">
+      <name>testGetShippingAddressByCustomerAddressId with data set #1</name>
+    </test-case>
+    <test-case start="1556668793582" stop="1556668793589" status="passed">
+      <name>testRemoveAddress</name>
+    </test-case>
+    <test-case start="1556668793589" stop="1556668793601" status="passed">
+      <name>testRemoveAllAddresses</name>
+    </test-case>
+    <test-case start="1556668793601" stop="1556668793607" status="passed">
+      <name>testAddProductException</name>
+    </test-case>
+    <test-case start="1556668793607" stop="1556668793613" status="passed">
+      <name>testAddProductNoCandidates</name>
+    </test-case>
+    <test-case start="1556668793614" stop="1556668793628" status="passed">
+      <name>testAddProductItemPreparation</name>
+    </test-case>
+    <test-case start="1556668793629" stop="1556668793637" status="passed">
+      <name>testAddProductItemNew</name>
+    </test-case>
+    <test-case start="1556668793637" stop="1556668793643" status="passed">
+      <name>testValidateMinimumAmount</name>
+    </test-case>
+    <test-case start="1556668793643" stop="1556668793648" status="passed">
+      <name>testValidateMinimumAmountNegative</name>
+    </test-case>
+    <test-case start="1556668793648" stop="1556668793655" status="passed">
+      <name>testGetPaymentIsNotDeleted</name>
+    </test-case>
+    <test-case start="1556668793655" stop="1556668793662" status="passed">
+      <name>testGetPaymentIsDeleted</name>
+    </test-case>
+    <test-case start="1556668793662" stop="1556668793668" status="passed">
+      <name>testAddItem</name>
+    </test-case>
+    <test-case start="1556668793669" stop="1556668793676" status="passed">
+      <name>testBeforeSaveIsVirtualQuote with data set #0</name>
+    </test-case>
+    <test-case start="1556668793676" stop="1556668793684" status="passed">
+      <name>testBeforeSaveIsVirtualQuote with data set #1</name>
+    </test-case>
+    <test-case start="1556668793684" stop="1556668793691" status="passed">
+      <name>testBeforeSaveIsVirtualQuote with data set #2</name>
+    </test-case>
+    <test-case start="1556668793692" stop="1556668793699" status="passed">
+      <name>testBeforeSaveIsVirtualQuote with data set #3</name>
+    </test-case>
+    <test-case start="1556668793700" stop="1556668793707" status="passed">
+      <name>testBeforeSaveIsVirtualQuote with data set #4</name>
+    </test-case>
+    <test-case start="1556668793707" stop="1556668793713" status="passed">
+      <name>testGetItemsCollection</name>
+    </test-case>
+    <test-case start="1556668793713" stop="1556668793718" status="passed">
+      <name>testGetAllItems</name>
+    </test-case>
+    <test-case start="1556668793718" stop="1556668793723" status="passed">
+      <name>testReserveOrderId with data set "id_already_in_use"</name>
+    </test-case>
+    <test-case start="1556668793724" stop="1556668793728" status="passed">
+      <name>testReserveOrderId with data set "id_not_in_use"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

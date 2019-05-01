@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668876924" stop="1556668876946" version="1.4.0">
+  <name>Magento\Test\ApplicationTest</name>
+  <test-cases>
+    <test-case start="1556668876925" stop="1556668876928" status="passed">
+      <name>testConstructor</name>
+    </test-case>
+    <test-case start="1556668876929" stop="1556668876935" status="passed">
+      <name>testPartialLoadArea with data set #0</name>
+    </test-case>
+    <test-case start="1556668876935" stop="1556668876937" status="passed">
+      <name>testPartialLoadArea with data set #1</name>
+    </test-case>
+    <test-case start="1556668876938" stop="1556668876940" status="passed">
+      <name>testPartialLoadArea with data set #2</name>
+    </test-case>
+    <test-case start="1556668876941" stop="1556668876943" status="passed">
+      <name>testPartialLoadArea with data set #3</name>
+    </test-case>
+    <test-case start="1556668876943" stop="1556668876945" status="passed">
+      <name>testPartialLoadArea with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

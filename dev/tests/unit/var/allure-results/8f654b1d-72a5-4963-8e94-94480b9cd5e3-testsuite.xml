@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668723048" stop="1556668723052" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Customer\Attribute\Backend\WebsiteTest</name>
+  <test-cases>
+    <test-case start="1556668723049" stop="1556668723049" status="passed">
+      <name>testBeforeSaveWithId</name>
+    </test-case>
+    <test-case start="1556668723050" stop="1556668723051" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

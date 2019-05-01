@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864162" stop="1556668864168" version="1.4.0">
+  <name>Magento\Framework\Stdlib\Test\Unit\Cookie\PublicCookieMetadataTest</name>
+  <test-cases>
+    <test-case start="1556668864163" stop="1556668864163" status="passed">
+      <name>testGetters with data set "getDomain"</name>
+    </test-case>
+    <test-case start="1556668864164" stop="1556668864164" status="passed">
+      <name>testGetters with data set "getPath"</name>
+    </test-case>
+    <test-case start="1556668864165" stop="1556668864165" status="passed">
+      <name>testGetters with data set "getDuration"</name>
+    </test-case>
+    <test-case start="1556668864165" stop="1556668864166" status="passed">
+      <name>testGetters with data set "getHttpOnly"</name>
+    </test-case>
+    <test-case start="1556668864166" stop="1556668864167" status="passed">
+      <name>testGetters with data set "getSecure"</name>
+    </test-case>
+    <test-case start="1556668864167" stop="1556668864168" status="passed">
+      <name>testGetters with data set "getDurationOneYear"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

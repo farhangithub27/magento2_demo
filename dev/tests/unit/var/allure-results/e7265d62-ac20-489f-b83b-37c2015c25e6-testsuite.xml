@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668797158" stop="1556668797161" version="1.4.0">
+  <name>Magento\Rss\Test\Unit\Model\RssManagerTest</name>
+  <test-cases>
+    <test-case start="1556668797158" stop="1556668797159" status="passed">
+      <name>testGetProvider</name>
+    </test-case>
+    <test-case start="1556668797159" stop="1556668797160" status="passed">
+      <name>testGetProviderFirstException</name>
+    </test-case>
+    <test-case start="1556668797160" stop="1556668797160" status="passed">
+      <name>testGetProviderSecondException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

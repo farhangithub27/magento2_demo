@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668808241" stop="1556668808254" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Payment\Transaction\ManagerTest</name>
+  <test-cases>
+    <test-case start="1556668808241" stop="1556668808243" status="passed">
+      <name>testGetAuthorizationTransaction with data set "withParentId"</name>
+    </test-case>
+    <test-case start="1556668808243" stop="1556668808244" status="passed">
+      <name>testGetAuthorizationTransaction with data set "withoutParentId"</name>
+    </test-case>
+    <test-case start="1556668808244" stop="1556668808245" status="passed">
+      <name>testIsTransactionExists with data set "withTransactionIdAndTransaction"</name>
+    </test-case>
+    <test-case start="1556668808245" stop="1556668808246" status="passed">
+      <name>testIsTransactionExists with data set "withoutTransactionIdAndWithTransaction"</name>
+    </test-case>
+    <test-case start="1556668808246" stop="1556668808247" status="passed">
+      <name>testIsTransactionExists with data set "withTransactionIdAndWithoutTransaction"</name>
+    </test-case>
+    <test-case start="1556668808247" stop="1556668808248" status="passed">
+      <name>testIsTransactionExists with data set "withoutTransactionIdAndWithoutTransaction"</name>
+    </test-case>
+    <test-case start="1556668808248" stop="1556668808250" status="passed">
+      <name>testGenerateTransactionId with data set "withoutTransactionId"</name>
+    </test-case>
+    <test-case start="1556668808251" stop="1556668808252" status="passed">
+      <name>testGenerateTransactionId with data set "withTransactionId"</name>
+    </test-case>
+    <test-case start="1556668808252" stop="1556668808254" status="passed">
+      <name>testGenerateTransactionId with data set "withBasedTransactionId"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

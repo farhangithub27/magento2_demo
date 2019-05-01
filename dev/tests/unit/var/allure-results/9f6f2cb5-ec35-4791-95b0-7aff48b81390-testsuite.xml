@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668671775" stop="1556668671778" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\Authorization\RoleLocatorTest</name>
+  <test-cases>
+    <test-case start="1556668671776" stop="1556668671777" status="passed">
+      <name>testGetAclRoleIdReturnsCurrentUserAclRoleId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668850569" stop="1556668850614" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Collection\DbTest</name>
+  <test-cases>
+    <test-case start="1556668850569" stop="1556668850571" status="passed">
+      <name>testSetAddOrder</name>
+    </test-case>
+    <test-case start="1556668850572" stop="1556668850573" status="passed">
+      <name>testUnshiftOrder</name>
+    </test-case>
+    <test-case start="1556668850573" stop="1556668850575" status="passed">
+      <name>testAddFieldToFilter</name>
+    </test-case>
+    <test-case start="1556668850575" stop="1556668850578" status="passed">
+      <name>testAddFieldToFilterWithMultipleParams</name>
+    </test-case>
+    <test-case start="1556668850579" stop="1556668850581" status="passed">
+      <name>testAddFieldToFilterValueContainsQuestionMark</name>
+    </test-case>
+    <test-case start="1556668850581" stop="1556668850583" status="passed">
+      <name>testAddFieldToFilterFieldIsQuoted</name>
+    </test-case>
+    <test-case start="1556668850584" stop="1556668850585" status="passed">
+      <name>testClone</name>
+    </test-case>
+    <test-case start="1556668850585" stop="1556668850586" status="passed">
+      <name>testPrintLogQueryPrinting with data set #0</name>
+    </test-case>
+    <test-case start="1556668850586" stop="1556668850587" status="passed">
+      <name>testPrintLogQueryPrinting with data set #1</name>
+    </test-case>
+    <test-case start="1556668850588" stop="1556668850588" status="passed">
+      <name>testPrintLogQueryPrinting with data set #2</name>
+    </test-case>
+    <test-case start="1556668850589" stop="1556668850589" status="passed">
+      <name>testPrintLogQueryLogging with data set #0</name>
+    </test-case>
+    <test-case start="1556668850590" stop="1556668850590" status="passed">
+      <name>testPrintLogQueryLogging with data set #1</name>
+    </test-case>
+    <test-case start="1556668850591" stop="1556668850591" status="passed">
+      <name>testPrintLogQueryLogging with data set #2</name>
+    </test-case>
+    <test-case start="1556668850592" stop="1556668850594" status="passed">
+      <name>testFetchItem</name>
+    </test-case>
+    <test-case start="1556668850595" stop="1556668850603" status="passed">
+      <name>testGetSize</name>
+    </test-case>
+    <test-case start="1556668850603" stop="1556668850605" status="passed">
+      <name>testGetSelectSql</name>
+    </test-case>
+    <test-case start="1556668850605" stop="1556668850607" status="passed">
+      <name>testGetData</name>
+    </test-case>
+    <test-case start="1556668850607" stop="1556668850609" status="passed">
+      <name>testDistinct with data set #0</name>
+    </test-case>
+    <test-case start="1556668850609" stop="1556668850610" status="passed">
+      <name>testDistinct with data set #1</name>
+    </test-case>
+    <test-case start="1556668850611" stop="1556668850613" status="passed">
+      <name>testToOptionHash</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

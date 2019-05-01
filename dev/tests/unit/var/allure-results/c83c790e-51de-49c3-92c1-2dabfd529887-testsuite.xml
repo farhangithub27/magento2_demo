@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668864959" stop="1556668864964" version="1.4.0">
+  <name>Magento\Framework\Url\Test\Unit\ScopeResolverTest</name>
+  <test-cases>
+    <test-case start="1556668864960" stop="1556668864961" status="passed">
+      <name>testGetScope with data set #0</name>
+    </test-case>
+    <test-case start="1556668864961" stop="1556668864962" status="passed">
+      <name>testGetScope with data set #1</name>
+    </test-case>
+    <test-case start="1556668864962" stop="1556668864963" status="passed">
+      <name>testGetScopeException</name>
+    </test-case>
+    <test-case start="1556668864963" stop="1556668864964" status="passed">
+      <name>testGetScopes</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

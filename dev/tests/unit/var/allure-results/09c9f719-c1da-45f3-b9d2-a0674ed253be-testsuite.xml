@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843066" stop="1556668843079" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Cache\TypeListTest</name>
+  <test-cases>
+    <test-case start="1556668843066" stop="1556668843070" status="passed">
+      <name>testGetTypes</name>
+    </test-case>
+    <test-case start="1556668843070" stop="1556668843071" status="passed">
+      <name>testGetTypeLabels</name>
+    </test-case>
+    <test-case start="1556668843072" stop="1556668843073" status="passed">
+      <name>testGetInvalidated</name>
+    </test-case>
+    <test-case start="1556668843074" stop="1556668843075" status="passed">
+      <name>testInvalidate</name>
+    </test-case>
+    <test-case start="1556668843075" stop="1556668843077" status="passed">
+      <name>testInvalidateList</name>
+    </test-case>
+    <test-case start="1556668843077" stop="1556668843079" status="passed">
+      <name>testCleanType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

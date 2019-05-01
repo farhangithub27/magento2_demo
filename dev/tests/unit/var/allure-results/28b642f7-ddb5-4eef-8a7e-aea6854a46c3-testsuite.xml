@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668732416" stop="1556668732436" version="1.4.0">
+  <name>Magento\Directory\Test\Unit\Model\ResourceModel\Country\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668732417" stop="1556668732421" status="passed">
+      <name>testToOptionArray with data set #0</name>
+    </test-case>
+    <test-case start="1556668732422" stop="1556668732425" status="passed">
+      <name>testToOptionArray with data set #1</name>
+    </test-case>
+    <test-case start="1556668732426" stop="1556668732429" status="passed">
+      <name>testToOptionArray with data set #2</name>
+    </test-case>
+    <test-case start="1556668732429" stop="1556668732432" status="passed">
+      <name>testToOptionArray with data set #3</name>
+    </test-case>
+    <test-case start="1556668732433" stop="1556668732436" status="passed">
+      <name>testToOptionArray with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

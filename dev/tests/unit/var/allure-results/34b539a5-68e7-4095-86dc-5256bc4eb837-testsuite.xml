@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860690" stop="1556668860699" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Adapter\Mysql\Aggregation\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668860691" stop="1556668860695" status="passed">
+      <name>testBuild</name>
+    </test-case>
+    <test-case start="1556668860696" stop="1556668860698" status="passed">
+      <name>testBuildWithoutPassedDocuments</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

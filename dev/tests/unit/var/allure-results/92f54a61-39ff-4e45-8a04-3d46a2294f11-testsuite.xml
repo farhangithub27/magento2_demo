@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668735032" stop="1556668735112" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Attribute\Data\TextTest</name>
+  <test-cases>
+    <test-case start="1556668735032" stop="1556668735036" status="passed">
+      <name>testValidateValueString</name>
+    </test-case>
+    <test-case start="1556668735036" stop="1556668735039" status="passed">
+      <name>testValidateValueInteger</name>
+    </test-case>
+    <test-case start="1556668735039" stop="1556668735048" status="passed">
+      <name>testWithoutLengthValidation</name>
+    </test-case>
+    <test-case start="1556668735048" stop="1556668735054" status="passed">
+      <name>testAlphanumericValidation with data set #0</name>
+    </test-case>
+    <test-case start="1556668735055" stop="1556668735060" status="passed">
+      <name>testAlphanumericValidation with data set #1</name>
+    </test-case>
+    <test-case start="1556668735061" stop="1556668735067" status="passed">
+      <name>testAlphanumericValidation with data set #2</name>
+    </test-case>
+    <test-case start="1556668735067" stop="1556668735073" status="passed">
+      <name>testAlphanumericValidation with data set #3</name>
+    </test-case>
+    <test-case start="1556668735074" stop="1556668735080" status="passed">
+      <name>testAlphanumericValidation with data set #4</name>
+    </test-case>
+    <test-case start="1556668735080" stop="1556668735086" status="passed">
+      <name>testAlphanumericValidationWithSpaces with data set #0</name>
+    </test-case>
+    <test-case start="1556668735087" stop="1556668735092" status="passed">
+      <name>testAlphanumericValidationWithSpaces with data set #1</name>
+    </test-case>
+    <test-case start="1556668735093" stop="1556668735099" status="passed">
+      <name>testAlphanumericValidationWithSpaces with data set #2</name>
+    </test-case>
+    <test-case start="1556668735099" stop="1556668735105" status="passed">
+      <name>testAlphanumericValidationWithSpaces with data set #3</name>
+    </test-case>
+    <test-case start="1556668735106" stop="1556668735112" status="passed">
+      <name>testAlphanumericValidationWithSpaces with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

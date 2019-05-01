@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668826044" stop="1556668826060" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Theme\ThemeDependencyCheckerTest</name>
+  <test-cases>
+    <test-case start="1556668826044" stop="1556668826046" status="passed">
+      <name>testCheckChildThemeByPackagesName</name>
+    </test-case>
+    <test-case start="1556668826046" stop="1556668826048" status="passed">
+      <name>testExecuteFailedChildThemeCheck with data set #0</name>
+    </test-case>
+    <test-case start="1556668826048" stop="1556668826050" status="passed">
+      <name>testExecuteFailedChildThemeCheck with data set #1</name>
+    </test-case>
+    <test-case start="1556668826051" stop="1556668826053" status="passed">
+      <name>testExecuteFailedChildThemeCheck with data set #2</name>
+    </test-case>
+    <test-case start="1556668826053" stop="1556668826055" status="passed">
+      <name>testExecuteFailedChildThemeCheck with data set #3</name>
+    </test-case>
+    <test-case start="1556668826056" stop="1556668826058" status="passed">
+      <name>testExecuteFailedChildThemeCheck with data set #4</name>
+    </test-case>
+    <test-case start="1556668826058" stop="1556668826060" status="passed">
+      <name>testExecuteFailedChildThemeCheck with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

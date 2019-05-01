@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668779423" stop="1556668779459" version="1.4.0">
+  <name>Magento\Multishipping\Test\Unit\Block\Checkout\Address\SelectTest</name>
+  <test-cases>
+    <test-case start="1556668779423" stop="1556668779428" status="passed">
+      <name>testIsAddressDefaultBilling with data set "yes"</name>
+    </test-case>
+    <test-case start="1556668779429" stop="1556668779432" status="passed">
+      <name>testIsAddressDefaultBilling with data set "no"</name>
+    </test-case>
+    <test-case start="1556668779433" stop="1556668779436" status="passed">
+      <name>testIsAddressDefaultShipping with data set "yes"</name>
+    </test-case>
+    <test-case start="1556668779437" stop="1556668779441" status="passed">
+      <name>testIsAddressDefaultShipping with data set "no"</name>
+    </test-case>
+    <test-case start="1556668779441" stop="1556668779447" status="passed">
+      <name>testGetAddress</name>
+    </test-case>
+    <test-case start="1556668779447" stop="1556668779453" status="passed">
+      <name>testGetAlreadyExistingAddress</name>
+    </test-case>
+    <test-case start="1556668779454" stop="1556668779459" status="passed">
+      <name>testGetAddressWhenItNotExistInCustomer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

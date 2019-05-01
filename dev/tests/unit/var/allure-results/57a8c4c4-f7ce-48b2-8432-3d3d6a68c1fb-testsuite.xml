@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668661225" stop="1556668661235" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\ModuleStatusTest</name>
+  <test-cases>
+    <test-case start="1556668661225" stop="1556668661227" status="passed">
+      <name>testGetAllModules with data set #0</name>
+    </test-case>
+    <test-case start="1556668661227" stop="1556668661228" status="passed">
+      <name>testGetAllModules with data set #1</name>
+    </test-case>
+    <test-case start="1556668661229" stop="1556668661230" status="passed">
+      <name>testGetAllModulesWithInputs with data set #0</name>
+    </test-case>
+    <test-case start="1556668661230" stop="1556668661232" status="passed">
+      <name>testGetAllModulesWithInputs with data set #1</name>
+    </test-case>
+    <test-case start="1556668661232" stop="1556668661233" status="passed">
+      <name>testSetIsEnabled with data set #0</name>
+    </test-case>
+    <test-case start="1556668661234" stop="1556668661235" status="passed">
+      <name>testSetIsEnabled with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

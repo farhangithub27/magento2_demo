@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668681270" stop="1556668681280" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Api\StockConfigurationTest</name>
+  <test-cases>
+    <test-case start="1556668681270" stop="1556668681274" status="passed">
+      <name>testGetConfigItemOptions</name>
+    </test-case>
+    <test-case start="1556668681274" stop="1556668681276" status="passed">
+      <name>testIsShowOutOfStock</name>
+    </test-case>
+    <test-case start="1556668681276" stop="1556668681278" status="passed">
+      <name>testIsAutoReturnEnabled</name>
+    </test-case>
+    <test-case start="1556668681278" stop="1556668681279" status="passed">
+      <name>testIsDisplayProductStockStatus</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

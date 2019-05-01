@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668748397" stop="1556668748406" version="1.4.0">
+  <name>Magento\Inventory\Test\Unit\Model\Source\Validator\CodeValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668748398" stop="1556668748403" status="passed">
+      <name>testValidateCodeNotEmpty</name>
+    </test-case>
+    <test-case start="1556668748404" stop="1556668748405" status="passed">
+      <name>testValidateCodeNotWithWhiteSpaces</name>
+    </test-case>
+    <test-case start="1556668748405" stop="1556668748406" status="passed">
+      <name>testValidateCodeSuccessfully</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

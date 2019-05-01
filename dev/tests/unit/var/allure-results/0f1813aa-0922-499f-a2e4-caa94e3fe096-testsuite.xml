@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668820901" stop="1556668820979" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\GetterSetterTest</name>
+  <test-cases>
+    <test-case start="1556668820902" stop="1556668820907" status="passed">
+      <name>testGettersSetters with data set #0</name>
+    </test-case>
+    <test-case start="1556668820908" stop="1556668820910" status="passed">
+      <name>testGettersSetters with data set #1</name>
+    </test-case>
+    <test-case start="1556668820911" stop="1556668820914" status="passed">
+      <name>testGettersSetters with data set #2</name>
+    </test-case>
+    <test-case start="1556668820914" stop="1556668820920" status="passed">
+      <name>testGettersSetters with data set #3</name>
+    </test-case>
+    <test-case start="1556668820920" stop="1556668820924" status="passed">
+      <name>testGettersSetters with data set #4</name>
+    </test-case>
+    <test-case start="1556668820924" stop="1556668820932" status="passed">
+      <name>testGettersSetters with data set #5</name>
+    </test-case>
+    <test-case start="1556668820932" stop="1556668820938" status="passed">
+      <name>testGettersSetters with data set #6</name>
+    </test-case>
+    <test-case start="1556668820938" stop="1556668820943" status="passed">
+      <name>testGettersSetters with data set #7</name>
+    </test-case>
+    <test-case start="1556668820943" stop="1556668820946" status="passed">
+      <name>testGettersSetters with data set #8</name>
+    </test-case>
+    <test-case start="1556668820946" stop="1556668820952" status="passed">
+      <name>testGettersSetters with data set #9</name>
+    </test-case>
+    <test-case start="1556668820952" stop="1556668820957" status="passed">
+      <name>testGettersSetters with data set #10</name>
+    </test-case>
+    <test-case start="1556668820957" stop="1556668820962" status="passed">
+      <name>testGettersSetters with data set #11</name>
+    </test-case>
+    <test-case start="1556668820962" stop="1556668820965" status="passed">
+      <name>testGettersSetters with data set #12</name>
+    </test-case>
+    <test-case start="1556668820965" stop="1556668820979" status="passed">
+      <name>testGettersSetters with data set #13</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

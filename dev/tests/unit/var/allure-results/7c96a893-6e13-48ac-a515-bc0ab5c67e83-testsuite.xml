@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838608" stop="1556668838807" version="1.4.0">
+  <name>Magento\Framework\Test\Unit\ArchiveTest</name>
+  <test-cases>
+    <test-case start="1556668838608" stop="1556668838609" status="passed">
+      <name>testIsArchive with data set #0</name>
+    </test-case>
+    <test-case start="1556668838609" stop="1556668838610" status="passed">
+      <name>testIsArchive with data set #1</name>
+    </test-case>
+    <test-case start="1556668838610" stop="1556668838610" status="passed">
+      <name>testIsArchive with data set #2</name>
+    </test-case>
+    <test-case start="1556668838611" stop="1556668838612" status="passed">
+      <name>testIsArchive with data set #3</name>
+    </test-case>
+    <test-case start="1556668838612" stop="1556668838612" status="passed">
+      <name>testIsArchive with data set #4</name>
+    </test-case>
+    <test-case start="1556668838613" stop="1556668838613" status="passed">
+      <name>testIsArchive with data set #5</name>
+    </test-case>
+    <test-case start="1556668838614" stop="1556668838614" status="passed">
+      <name>testIsArchive with data set #6</name>
+    </test-case>
+    <test-case start="1556668838615" stop="1556668838615" status="passed">
+      <name>testIsArchive with data set #7</name>
+    </test-case>
+    <test-case start="1556668838616" stop="1556668838616" status="passed">
+      <name>testIsArchive with data set #8</name>
+    </test-case>
+    <test-case start="1556668838616" stop="1556668838617" status="passed">
+      <name>testIsArchive with data set #9</name>
+    </test-case>
+    <test-case start="1556668838617" stop="1556668838618" status="passed">
+      <name>testIsArchive with data set #10</name>
+    </test-case>
+    <test-case start="1556668838618" stop="1556668838618" status="passed">
+      <name>testIsArchive with data set #11</name>
+    </test-case>
+    <test-case start="1556668838619" stop="1556668838619" status="passed">
+      <name>testIsArchive with data set #12</name>
+    </test-case>
+    <test-case start="1556668838619" stop="1556668838620" status="passed">
+      <name>testIsArchive with data set #13</name>
+    </test-case>
+    <test-case start="1556668838620" stop="1556668838621" status="passed">
+      <name>testIsArchive with data set #14</name>
+    </test-case>
+    <test-case start="1556668838621" stop="1556668838621" status="passed">
+      <name>testIsArchive with data set #15</name>
+    </test-case>
+    <test-case start="1556668838622" stop="1556668838622" status="passed">
+      <name>testIsArchive with data set #16</name>
+    </test-case>
+    <test-case start="1556668838622" stop="1556668838623" status="passed">
+      <name>testIsArchive with data set #17</name>
+    </test-case>
+    <test-case start="1556668838623" stop="1556668838624" status="passed">
+      <name>testIsTar with data set #0</name>
+    </test-case>
+    <test-case start="1556668838624" stop="1556668838624" status="passed">
+      <name>testIsTar with data set #1</name>
+    </test-case>
+    <test-case start="1556668838625" stop="1556668838625" status="passed">
+      <name>testIsTar with data set #2</name>
+    </test-case>
+    <test-case start="1556668838625" stop="1556668838626" status="passed">
+      <name>testIsTar with data set #3</name>
+    </test-case>
+    <test-case start="1556668838626" stop="1556668838627" status="passed">
+      <name>testIsTar with data set #4</name>
+    </test-case>
+    <test-case start="1556668838627" stop="1556668838627" status="passed">
+      <name>testIsTar with data set #5</name>
+    </test-case>
+    <test-case start="1556668838628" stop="1556668838628" status="passed">
+      <name>testIsTar with data set #6</name>
+    </test-case>
+    <test-case start="1556668838628" stop="1556668838629" status="passed">
+      <name>testIsTar with data set #7</name>
+    </test-case>
+    <test-case start="1556668838629" stop="1556668838630" status="passed">
+      <name>testIsTar with data set #8</name>
+    </test-case>
+    <test-case start="1556668838630" stop="1556668838630" status="passed">
+      <name>testIsTar with data set #9</name>
+    </test-case>
+    <test-case start="1556668838631" stop="1556668838631" status="passed">
+      <name>testIsTar with data set #10</name>
+    </test-case>
+    <test-case start="1556668838631" stop="1556668838632" status="passed">
+      <name>testIsTar with data set #11</name>
+    </test-case>
+    <test-case start="1556668838632" stop="1556668838632" status="passed">
+      <name>testIsTar with data set #12</name>
+    </test-case>
+    <test-case start="1556668838633" stop="1556668838633" status="passed">
+      <name>testIsTar with data set #13</name>
+    </test-case>
+    <test-case start="1556668838634" stop="1556668838634" status="passed">
+      <name>testIsTar with data set #14</name>
+    </test-case>
+    <test-case start="1556668838634" stop="1556668838635" status="passed">
+      <name>testIsTar with data set #15</name>
+    </test-case>
+    <test-case start="1556668838635" stop="1556668838635" status="passed">
+      <name>testIsTar with data set #16</name>
+    </test-case>
+    <test-case start="1556668838636" stop="1556668838636" status="passed">
+      <name>testIsTar with data set #17</name>
+    </test-case>
+    <test-case start="1556668838637" stop="1556668838639" status="passed">
+      <name>testPackUnpackGzBz with data set #0</name>
+    </test-case>
+    <test-case start="1556668838640" stop="1556668838641" status="passed">
+      <name>testPackUnpackGzBz with data set #1</name>
+    </test-case>
+    <test-case start="1556668838641" stop="1556668838642" status="passed">
+      <name>testPackUnpackGzBz with data set #2</name>
+    </test-case>
+    <test-case start="1556668838643" stop="1556668838644" status="passed">
+      <name>testPackUnpackGzBz with data set #3</name>
+    </test-case>
+    <test-case start="1556668838644" stop="1556668838645" status="passed">
+      <name>testPackUnpackGzBz with data set #4</name>
+    </test-case>
+    <test-case start="1556668838645" stop="1556668838646" status="passed">
+      <name>testPackUnpackGzBz with data set #5</name>
+    </test-case>
+    <test-case start="1556668838647" stop="1556668838666" status="passed">
+      <name>testPackUnpackTar with data set #0</name>
+    </test-case>
+    <test-case start="1556668838666" stop="1556668838685" status="passed">
+      <name>testPackUnpackTar with data set #1</name>
+    </test-case>
+    <test-case start="1556668838685" stop="1556668838703" status="passed">
+      <name>testPackUnpackTar with data set #2</name>
+    </test-case>
+    <test-case start="1556668838703" stop="1556668838721" status="passed">
+      <name>testPackUnpackTar with data set #3</name>
+    </test-case>
+    <test-case start="1556668838721" stop="1556668838740" status="passed">
+      <name>testPackUnpackTar with data set #4</name>
+    </test-case>
+    <test-case start="1556668838740" stop="1556668838758" status="passed">
+      <name>testPackUnpackTar with data set #5</name>
+    </test-case>
+    <test-case start="1556668838759" stop="1556668838777" status="passed">
+      <name>testPackUnpackTar with data set #6</name>
+    </test-case>
+    <test-case start="1556668838777" stop="1556668838781" status="passed">
+      <name>testExtract with data set #0</name>
+    </test-case>
+    <test-case start="1556668838781" stop="1556668838785" status="passed">
+      <name>testExtract with data set #1</name>
+    </test-case>
+    <test-case start="1556668838785" stop="1556668838789" status="passed">
+      <name>testExtract with data set #2</name>
+    </test-case>
+    <test-case start="1556668838790" stop="1556668838793" status="passed">
+      <name>testExtract with data set #3</name>
+    </test-case>
+    <test-case start="1556668838794" stop="1556668838798" status="passed">
+      <name>testExtract with data set #4</name>
+    </test-case>
+    <test-case start="1556668838798" stop="1556668838802" status="passed">
+      <name>testExtract with data set #5</name>
+    </test-case>
+    <test-case start="1556668838802" stop="1556668838806" status="passed">
+      <name>testExtract with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

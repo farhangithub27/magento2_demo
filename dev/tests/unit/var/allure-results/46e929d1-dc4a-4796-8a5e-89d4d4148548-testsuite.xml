@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668808116" stop="1556668808132" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Payment\State\RegisterCaptureNotificationCommandTest</name>
+  <test-cases>
+    <test-case start="1556668808117" stop="1556668808120" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668808121" stop="1556668808123" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668808124" stop="1556668808126" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668808127" stop="1556668808129" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+    <test-case start="1556668808130" stop="1556668808132" status="passed">
+      <name>testExecute with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

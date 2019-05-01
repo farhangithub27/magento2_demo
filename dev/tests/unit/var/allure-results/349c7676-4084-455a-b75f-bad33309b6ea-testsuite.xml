@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668872090" stop="1556668872093" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Element\Message\Renderer\EscapeRendererTest</name>
+  <test-cases>
+    <test-case start="1556668872091" stop="1556668872092" status="passed">
+      <name>testInterpret</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

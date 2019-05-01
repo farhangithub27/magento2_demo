@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668842974" stop="1556668842989" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Cache\Type\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668842974" stop="1556668842975" status="passed">
+      <name>testProxyMethod with data set #0</name>
+    </test-case>
+    <test-case start="1556668842975" stop="1556668842976" status="passed">
+      <name>testProxyMethod with data set #1</name>
+    </test-case>
+    <test-case start="1556668842977" stop="1556668842977" status="passed">
+      <name>testProxyMethod with data set #2</name>
+    </test-case>
+    <test-case start="1556668842978" stop="1556668842979" status="passed">
+      <name>testProxyMethod with data set #3</name>
+    </test-case>
+    <test-case start="1556668842979" stop="1556668842980" status="passed">
+      <name>testProxyMethod with data set #4</name>
+    </test-case>
+    <test-case start="1556668842980" stop="1556668842981" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668842982" stop="1556668842982" status="passed">
+      <name>testCleanModeAll</name>
+    </test-case>
+    <test-case start="1556668842983" stop="1556668842983" status="passed">
+      <name>testCleanModeMatchingTag</name>
+    </test-case>
+    <test-case start="1556668842984" stop="1556668842985" status="passed">
+      <name>testCleanModeMatchingAnyTag with data set "failure, failure"</name>
+    </test-case>
+    <test-case start="1556668842985" stop="1556668842986" status="passed">
+      <name>testCleanModeMatchingAnyTag with data set "failure, success"</name>
+    </test-case>
+    <test-case start="1556668842987" stop="1556668842988" status="passed">
+      <name>testCleanModeMatchingAnyTag with data set "success, failure"</name>
+    </test-case>
+    <test-case start="1556668842988" stop="1556668842989" status="passed">
+      <name>testCleanModeMatchingAnyTag with data set "success, success"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668679861" stop="1556668680239" version="1.4.0">
+  <name>Magento\CatalogImportExport\Test\Unit\Model\Import\Product\Type\OptionTest</name>
+  <test-cases>
+    <test-case start="1556668679862" stop="1556668679878" status="passed">
+      <name>testGetEntityTypeCode</name>
+    </test-case>
+    <test-case start="1556668679879" stop="1556668679892" status="passed">
+      <name>testImportDataAppendBehavior</name>
+    </test-case>
+    <test-case start="1556668679893" stop="1556668679903" status="passed">
+      <name>testImportDataDeleteBehavior</name>
+    </test-case>
+    <test-case start="1556668679904" stop="1556668679912" status="passed">
+      <name>testValidateRowNoCustomOption</name>
+    </test-case>
+    <test-case start="1556668679913" stop="1556668679921" status="passed">
+      <name>testValidateRow with data set "main_valid"</name>
+    </test-case>
+    <test-case start="1556668679922" stop="1556668679930" status="passed">
+      <name>testValidateRow with data set "main_invalid_store"</name>
+    </test-case>
+    <test-case start="1556668679931" stop="1556668679939" status="passed">
+      <name>testValidateRow with data set "main_incorrect_type"</name>
+    </test-case>
+    <test-case start="1556668679940" stop="1556668679948" status="passed">
+      <name>testValidateRow with data set "main_no_title"</name>
+    </test-case>
+    <test-case start="1556668679949" stop="1556668679957" status="passed">
+      <name>testValidateRow with data set "main_empty_title"</name>
+    </test-case>
+    <test-case start="1556668679958" stop="1556668679966" status="passed">
+      <name>testValidateRow with data set "main_invalid_price"</name>
+    </test-case>
+    <test-case start="1556668679967" stop="1556668679975" status="passed">
+      <name>testValidateRow with data set "main_invalid_max_characters"</name>
+    </test-case>
+    <test-case start="1556668679975" stop="1556668679984" status="passed">
+      <name>testValidateRow with data set "main_max_characters_less_zero"</name>
+    </test-case>
+    <test-case start="1556668679984" stop="1556668679992" status="passed">
+      <name>testValidateRow with data set "main_invalid_sort_order"</name>
+    </test-case>
+    <test-case start="1556668679993" stop="1556668680001" status="passed">
+      <name>testValidateRow with data set "main_sort_order_less_zero"</name>
+    </test-case>
+    <test-case start="1556668680002" stop="1556668680010" status="passed">
+      <name>testValidateRow with data set "secondary_valid"</name>
+    </test-case>
+    <test-case start="1556668680011" stop="1556668680019" status="passed">
+      <name>testValidateRow with data set "secondary_invalid_store"</name>
+    </test-case>
+    <test-case start="1556668680020" stop="1556668680028" status="passed">
+      <name>testValidateRow with data set "secondary_incorrect_price"</name>
+    </test-case>
+    <test-case start="1556668680029" stop="1556668680163" status="passed">
+      <name>testValidateRow with data set "secondary_incorrect_row_sort"</name>
+    </test-case>
+    <test-case start="1556668680164" stop="1556668680173" status="passed">
+      <name>testValidateRow with data set "secondary_row_sort_less_zero"</name>
+    </test-case>
+    <test-case start="1556668680174" stop="1556668680189" status="passed">
+      <name>testValidateAmbiguousData with data set "ambiguity_several_input_rows"</name>
+    </test-case>
+    <test-case start="1556668680189" stop="1556668680204" status="passed">
+      <name>testValidateAmbiguousData with data set "ambiguity_different_type"</name>
+    </test-case>
+    <test-case start="1556668680205" stop="1556668680220" status="passed">
+      <name>testValidateAmbiguousData with data set "ambiguity_several_db_rows"</name>
+    </test-case>
+    <test-case start="1556668680221" stop="1556668680231" status="passed">
+      <name>testParseRequiredData</name>
+    </test-case>
+    <test-case start="1556668680231" stop="1556668680239" status="passed">
+      <name>testClearProductsSkuToId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

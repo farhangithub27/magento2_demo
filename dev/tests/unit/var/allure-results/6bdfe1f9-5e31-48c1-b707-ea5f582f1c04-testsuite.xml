@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668685356" stop="1556668685455" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\AdvancedTest</name>
+  <test-cases>
+    <test-case start="1556668685357" stop="1556668685373" status="passed">
+      <name>testAddFiltersVerifyAddConditionsToRegistry with data set "sku"</name>
+    </test-case>
+    <test-case start="1556668685373" stop="1556668685383" status="passed">
+      <name>testAddFiltersVerifyAddConditionsToRegistry with data set "color_multiselect"</name>
+    </test-case>
+    <test-case start="1556668685383" stop="1556668685392" status="passed">
+      <name>testAddFiltersVerifyAddConditionsToRegistry with data set "color_select"</name>
+    </test-case>
+    <test-case start="1556668685393" stop="1556668685402" status="passed">
+      <name>testAddFiltersVerifyAddConditionsToRegistry with data set "boolean"</name>
+    </test-case>
+    <test-case start="1556668685403" stop="1556668685413" status="passed">
+      <name>testAddFiltersVerifyAddConditionsToRegistry with data set "price_without_currency"</name>
+    </test-case>
+    <test-case start="1556668685413" stop="1556668685424" status="passed">
+      <name>testAddFiltersVerifyAddConditionsToRegistry with data set "price_without_to"</name>
+    </test-case>
+    <test-case start="1556668685424" stop="1556668685435" status="passed">
+      <name>testAddFiltersVerifyAddConditionsToRegistry with data set "price_without_from"</name>
+    </test-case>
+    <test-case start="1556668685435" stop="1556668685444" status="passed">
+      <name>testAddFiltersVerifyAddConditionsToRegistry with data set "price_empty"</name>
+    </test-case>
+    <test-case start="1556668685444" stop="1556668685454" status="passed">
+      <name>testAddFiltersVerifyAddConditionsToRegistry with data set "price_with_currency"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

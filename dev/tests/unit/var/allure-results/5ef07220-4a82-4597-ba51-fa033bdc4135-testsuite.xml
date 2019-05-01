@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668847699" stop="1556668847704" version="1.4.0">
+  <name>Magento\Framework\Component\Test\Unit\DirSearchTest</name>
+  <test-cases>
+    <test-case start="1556668847699" stop="1556668847700" status="passed">
+      <name>testCollectFilesNothingFound</name>
+    </test-case>
+    <test-case start="1556668847700" stop="1556668847702" status="passed">
+      <name>testCollectFiles</name>
+    </test-case>
+    <test-case start="1556668847702" stop="1556668847704" status="passed">
+      <name>testCollectFilesWithContext</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

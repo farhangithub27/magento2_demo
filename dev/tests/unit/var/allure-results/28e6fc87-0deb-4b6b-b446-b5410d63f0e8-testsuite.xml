@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790607" stop="1556668790651" version="1.4.0">
+  <name>Magento\ProductAlert\Test\Unit\Model\ObserverTest</name>
+  <test-cases>
+    <test-case start="1556668790608" stop="1556668790626" status="passed">
+      <name>testGetWebsitesThrowsException</name>
+    </test-case>
+    <test-case start="1556668790626" stop="1556668790629" status="passed">
+      <name>testProcessPriceThrowsException</name>
+    </test-case>
+    <test-case start="1556668790629" stop="1556668790632" status="passed">
+      <name>testProcessPriceCustomerRepositoryThrowsException</name>
+    </test-case>
+    <test-case start="1556668790633" stop="1556668790638" status="passed">
+      <name>testProcessPriceEmailThrowsException</name>
+    </test-case>
+    <test-case start="1556668790638" stop="1556668790641" status="passed">
+      <name>testProcessStockThrowsException</name>
+    </test-case>
+    <test-case start="1556668790641" stop="1556668790645" status="passed">
+      <name>testProcessStockCustomerRepositoryThrowsException</name>
+    </test-case>
+    <test-case start="1556668790646" stop="1556668790651" status="passed">
+      <name>testProcessStockEmailThrowsException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

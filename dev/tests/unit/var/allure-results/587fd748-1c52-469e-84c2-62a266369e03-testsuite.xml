@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668819813" stop="1556668819817" version="1.4.0">
+  <name>Magento\Swatches\Test\Unit\Model\Plugin\ConfigurableTest</name>
+  <test-cases>
+    <test-case start="1556668819813" stop="1556668819817" status="passed">
+      <name>testAfterGetUsedProductCollection</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668805430" stop="1556668805445" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\CreditmemoDocumentFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668805430" stop="1556668805440" status="passed">
+      <name>testCreateFromOrder</name>
+    </test-case>
+    <test-case start="1556668805440" stop="1556668805445" status="passed">
+      <name>testCreateFromInvoice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

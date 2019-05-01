@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668717135" stop="1556668717248" version="1.4.0">
+  <name>Magento\Cron\Test\Unit\Observer\ProcessCronQueueObserverTest</name>
+  <test-cases>
+    <test-case start="1556668717135" stop="1556668717154" status="passed">
+      <name>testDispatchNoJobConfig</name>
+    </test-case>
+    <test-case start="1556668717154" stop="1556668717160" status="passed">
+      <name>testDispatchCanNotLock</name>
+    </test-case>
+    <test-case start="1556668717160" stop="1556668717171" status="passed">
+      <name>testDispatchExceptionTooLate</name>
+    </test-case>
+    <test-case start="1556668717172" stop="1556668717181" status="passed">
+      <name>testDispatchExceptionNoCallback</name>
+    </test-case>
+    <test-case start="1556668717182" stop="1556668717191" status="passed">
+      <name>testDispatchExceptionInCallback with data set "non-callable callback"</name>
+    </test-case>
+    <test-case start="1556668717192" stop="1556668717201" status="passed">
+      <name>testDispatchExceptionInCallback with data set "exception in execution"</name>
+    </test-case>
+    <test-case start="1556668717202" stop="1556668717212" status="passed">
+      <name>testDispatchExceptionInCallback with data set "throwable in execution"</name>
+    </test-case>
+    <test-case start="1556668717212" stop="1556668717222" status="passed">
+      <name>testDispatchRunJob</name>
+    </test-case>
+    <test-case start="1556668717222" stop="1556668717227" status="passed">
+      <name>testDispatchNotGenerate</name>
+    </test-case>
+    <test-case start="1556668717228" stop="1556668717237" status="passed">
+      <name>testDispatchGenerate</name>
+    </test-case>
+    <test-case start="1556668717238" stop="1556668717243" status="passed">
+      <name>testDispatchCleanup</name>
+    </test-case>
+    <test-case start="1556668717243" stop="1556668717248" status="passed">
+      <name>testMissedJobsCleanedInTime</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

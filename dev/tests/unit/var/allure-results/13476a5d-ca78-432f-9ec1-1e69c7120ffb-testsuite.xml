@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668674402" stop="1556668674410" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Response\RiskDataHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668674403" stop="1556668674406" status="passed">
+      <name>testHandle with data set #0</name>
+    </test-case>
+    <test-case start="1556668674406" stop="1556668674408" status="passed">
+      <name>testHandle with data set #1</name>
+    </test-case>
+    <test-case start="1556668674408" stop="1556668674410" status="passed">
+      <name>testHandle with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

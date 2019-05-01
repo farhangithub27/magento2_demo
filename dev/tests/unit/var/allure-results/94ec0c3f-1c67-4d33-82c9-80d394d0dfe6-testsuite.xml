@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668671211" stop="1556668671212" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Console\Command\CacheStatusCommandTest</name>
+  <test-cases>
+    <test-case start="1556668671211" stop="1556668671212" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

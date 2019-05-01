@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668785653" stop="1556668785876" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Block\Adminhtml\System\Config\Fieldset\PaymentTest</name>
+  <test-cases>
+    <test-case start="1556668785654" stop="1556668785659" status="passed">
+      <name>testIsPaymentEnabled with data set #0</name>
+    </test-case>
+    <test-case start="1556668785659" stop="1556668785665" status="passed">
+      <name>testIsPaymentEnabled with data set #1</name>
+    </test-case>
+    <test-case start="1556668785665" stop="1556668785670" status="passed">
+      <name>testIsPaymentEnabled with data set #2</name>
+    </test-case>
+    <test-case start="1556668785670" stop="1556668785675" status="passed">
+      <name>testIsPaymentEnabled with data set #3</name>
+    </test-case>
+    <test-case start="1556668785676" stop="1556668785681" status="passed">
+      <name>testIsPaymentEnabled with data set #4</name>
+    </test-case>
+    <test-case start="1556668785681" stop="1556668785686" status="passed">
+      <name>testIsPaymentEnabled with data set #5</name>
+    </test-case>
+    <test-case start="1556668785686" stop="1556668785691" status="passed">
+      <name>testIsPaymentEnabled with data set #6</name>
+    </test-case>
+    <test-case start="1556668785692" stop="1556668785697" status="passed">
+      <name>testIsPaymentEnabled with data set #7</name>
+    </test-case>
+    <test-case start="1556668785697" stop="1556668785702" status="passed">
+      <name>testIsPaymentEnabled with data set #8</name>
+    </test-case>
+    <test-case start="1556668785702" stop="1556668785707" status="passed">
+      <name>testIsPaymentEnabled with data set #9</name>
+    </test-case>
+    <test-case start="1556668785708" stop="1556668785870" status="passed">
+      <name>testIsPaymentEnabled with data set #10</name>
+    </test-case>
+    <test-case start="1556668785870" stop="1556668785876" status="passed">
+      <name>testIsPaymentEnabled with data set #11</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

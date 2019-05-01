@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667967" stop="1556668667983" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Gateway\Http\ClientTest</name>
+  <test-cases>
+    <test-case start="1556668667967" stop="1556668667978" status="passed">
+      <name>testCanSendRequest</name>
+    </test-case>
+    <test-case start="1556668667978" stop="1556668667981" status="passed">
+      <name>testExceptionIsThrownWhenEmptyResponseIsReceived</name>
+    </test-case>
+    <test-case start="1556668667981" stop="1556668667983" status="passed">
+      <name>testExceptionIsThrownWhenInvalidResponseIsReceived</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

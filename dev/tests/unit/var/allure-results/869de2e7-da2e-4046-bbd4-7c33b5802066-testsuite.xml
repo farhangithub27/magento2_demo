@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860872" stop="1556668860936" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Adapter\Mysql\Filter\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668860873" stop="1556668860877" status="passed">
+      <name>testBuildFilter with data set "termFilter"</name>
+    </test-case>
+    <test-case start="1556668860877" stop="1556668860879" status="passed">
+      <name>testBuildFilter with data set "termFilterNegative"</name>
+    </test-case>
+    <test-case start="1556668860879" stop="1556668860882" status="passed">
+      <name>testBuildFilter with data set "rangeFilter"</name>
+    </test-case>
+    <test-case start="1556668860882" stop="1556668860885" status="passed">
+      <name>testBuildFilter with data set "rangeFilterNegative"</name>
+    </test-case>
+    <test-case start="1556668860886" stop="1556668860891" status="passed">
+      <name>testBuildFilter with data set "boolFilterWithMust"</name>
+    </test-case>
+    <test-case start="1556668860891" stop="1556668860896" status="passed">
+      <name>testBuildFilter with data set "boolFilterWithShould"</name>
+    </test-case>
+    <test-case start="1556668860896" stop="1556668860902" status="passed">
+      <name>testBuildFilter with data set "boolFilterWithMustNot"</name>
+    </test-case>
+    <test-case start="1556668860902" stop="1556668860912" status="passed">
+      <name>testBuildFilter with data set "boolFilterWithAllFields"</name>
+    </test-case>
+    <test-case start="1556668860912" stop="1556668860931" status="passed">
+      <name>testBuildFilter with data set "boolFilterInBoolFilter"</name>
+    </test-case>
+    <test-case start="1556668860931" stop="1556668860934" status="passed">
+      <name>testBuildFilter with data set "boolEmpty"</name>
+    </test-case>
+    <test-case start="1556668860934" stop="1556668860936" status="passed">
+      <name>testUnknownFilterType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

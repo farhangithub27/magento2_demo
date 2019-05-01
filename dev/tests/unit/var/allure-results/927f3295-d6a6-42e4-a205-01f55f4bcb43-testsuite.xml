@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668726851" stop="1556668726852" version="1.4.0">
+  <name>Magento\Deploy\Test\Unit\App\Mode\ConfigProviderTest</name>
+  <test-cases>
+    <test-case start="1556668726851" stop="1556668726852" status="passed">
+      <name>testGetConfigs</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

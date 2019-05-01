@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668853208" stop="1556668853237" version="1.4.0">
+  <name>Magento\Framework\Event\Test\Unit\Observer\CronTest</name>
+  <test-cases>
+    <test-case start="1556668853209" stop="1556668853209" status="passed">
+      <name>testGetNumeric with data set #0</name>
+    </test-case>
+    <test-case start="1556668853210" stop="1556668853210" status="passed">
+      <name>testGetNumeric with data set #1</name>
+    </test-case>
+    <test-case start="1556668853211" stop="1556668853211" status="passed">
+      <name>testGetNumeric with data set #2</name>
+    </test-case>
+    <test-case start="1556668853211" stop="1556668853212" status="passed">
+      <name>testGetNumeric with data set #3</name>
+    </test-case>
+    <test-case start="1556668853212" stop="1556668853213" status="passed">
+      <name>testGetNumeric with data set #4</name>
+    </test-case>
+    <test-case start="1556668853213" stop="1556668853213" status="passed">
+      <name>testGetNumeric with data set #5</name>
+    </test-case>
+    <test-case start="1556668853214" stop="1556668853214" status="passed">
+      <name>testGetNumeric with data set #6</name>
+    </test-case>
+    <test-case start="1556668853214" stop="1556668853215" status="passed">
+      <name>testGetNumeric with data set #7</name>
+    </test-case>
+    <test-case start="1556668853215" stop="1556668853216" status="passed">
+      <name>testGetNumeric with data set #8</name>
+    </test-case>
+    <test-case start="1556668853216" stop="1556668853216" status="passed">
+      <name>testGetNumeric with data set #9</name>
+    </test-case>
+    <test-case start="1556668853217" stop="1556668853217" status="passed">
+      <name>testGetNumeric with data set #10</name>
+    </test-case>
+    <test-case start="1556668853218" stop="1556668853218" status="passed">
+      <name>testGetNumeric with data set #11</name>
+    </test-case>
+    <test-case start="1556668853218" stop="1556668853219" status="passed">
+      <name>testGetNumeric with data set #12</name>
+    </test-case>
+    <test-case start="1556668853219" stop="1556668853219" status="passed">
+      <name>testGetNumeric with data set #13</name>
+    </test-case>
+    <test-case start="1556668853220" stop="1556668853220" status="passed">
+      <name>testGetNumeric with data set #14</name>
+    </test-case>
+    <test-case start="1556668853221" stop="1556668853221" status="passed">
+      <name>testGetNumeric with data set #15</name>
+    </test-case>
+    <test-case start="1556668853221" stop="1556668853222" status="passed">
+      <name>testGetNumeric with data set #16</name>
+    </test-case>
+    <test-case start="1556668853222" stop="1556668853222" status="passed">
+      <name>testGetNumeric with data set #17</name>
+    </test-case>
+    <test-case start="1556668853223" stop="1556668853223" status="passed">
+      <name>testGetNumeric with data set #18</name>
+    </test-case>
+    <test-case start="1556668853224" stop="1556668853224" status="passed">
+      <name>testGetNumeric with data set #19</name>
+    </test-case>
+    <test-case start="1556668853224" stop="1556668853225" status="passed">
+      <name>testGetNumeric with data set #20</name>
+    </test-case>
+    <test-case start="1556668853225" stop="1556668853226" status="passed">
+      <name>testGetNumeric with data set #21</name>
+    </test-case>
+    <test-case start="1556668853226" stop="1556668853226" status="passed">
+      <name>testGetNumeric with data set #22</name>
+    </test-case>
+    <test-case start="1556668853227" stop="1556668853227" status="passed">
+      <name>testGetNumeric with data set #23</name>
+    </test-case>
+    <test-case start="1556668853228" stop="1556668853228" status="passed">
+      <name>testMatchCronExpression with data set #0</name>
+    </test-case>
+    <test-case start="1556668853228" stop="1556668853229" status="passed">
+      <name>testMatchCronExpression with data set #1</name>
+    </test-case>
+    <test-case start="1556668853229" stop="1556668853230" status="passed">
+      <name>testMatchCronExpression with data set #2</name>
+    </test-case>
+    <test-case start="1556668853230" stop="1556668853230" status="passed">
+      <name>testMatchCronExpression with data set #3</name>
+    </test-case>
+    <test-case start="1556668853231" stop="1556668853231" status="passed">
+      <name>testMatchCronExpression with data set #4</name>
+    </test-case>
+    <test-case start="1556668853232" stop="1556668853232" status="passed">
+      <name>testMatchCronExpression with data set #5</name>
+    </test-case>
+    <test-case start="1556668853232" stop="1556668853233" status="passed">
+      <name>testMatchCronExpression with data set #6</name>
+    </test-case>
+    <test-case start="1556668853233" stop="1556668853234" status="passed">
+      <name>testIsValidFor with data set #0</name>
+    </test-case>
+    <test-case start="1556668853234" stop="1556668853235" status="passed">
+      <name>testIsValidFor with data set #1</name>
+    </test-case>
+    <test-case start="1556668853235" stop="1556668853236" status="passed">
+      <name>testIsValidFor with data set #2</name>
+    </test-case>
+    <test-case start="1556668853236" stop="1556668853236" status="passed">
+      <name>testIsValidFor with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

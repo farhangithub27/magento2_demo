@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668819837" stop="1556668819938" version="1.4.0">
+  <name>Magento\Swatches\Test\Unit\Model\Plugin\EavAttributeTest</name>
+  <test-cases>
+    <test-case start="1556668819837" stop="1556668819848" status="passed">
+      <name>testBeforeSaveVisualSwatch</name>
+    </test-case>
+    <test-case start="1556668819848" stop="1556668819855" status="passed">
+      <name>testBeforeSaveTextSwatch</name>
+    </test-case>
+    <test-case start="1556668819855" stop="1556668819858" status="passed">
+      <name>testBeforeSaveWithFailedValidation</name>
+    </test-case>
+    <test-case start="1556668819859" stop="1556668819862" status="passed">
+      <name>testBeforeSaveWithDeletedOption</name>
+    </test-case>
+    <test-case start="1556668819862" stop="1556668819865" status="passed">
+      <name>testBeforeSaveNotSwatch</name>
+    </test-case>
+    <test-case start="1556668819866" stop="1556668819874" status="passed">
+      <name>testAfterAfterSaveVisualSwatch with data set #0</name>
+    </test-case>
+    <test-case start="1556668819874" stop="1556668819882" status="passed">
+      <name>testAfterAfterSaveVisualSwatch with data set #1</name>
+    </test-case>
+    <test-case start="1556668819882" stop="1556668819890" status="passed">
+      <name>testAfterAfterSaveVisualSwatch with data set #2</name>
+    </test-case>
+    <test-case start="1556668819890" stop="1556668819907" status="passed">
+      <name>testDefaultTextualSwatchAfterSave</name>
+    </test-case>
+    <test-case start="1556668819908" stop="1556668819916" status="passed">
+      <name>testAfterAfterSaveTextualSwatch</name>
+    </test-case>
+    <test-case start="1556668819916" stop="1556668819920" status="passed">
+      <name>testAfterAfterSaveVisualSwatchIsDelete</name>
+    </test-case>
+    <test-case start="1556668819920" stop="1556668819923" status="passed">
+      <name>testAfterAfterSaveTextualSwatchIsDelete</name>
+    </test-case>
+    <test-case start="1556668819924" stop="1556668819931" status="passed">
+      <name>testAfterAfterSaveIsSwatchExists</name>
+    </test-case>
+    <test-case start="1556668819931" stop="1556668819938" status="passed">
+      <name>testAfterAfterSaveNotSwatchAttribute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

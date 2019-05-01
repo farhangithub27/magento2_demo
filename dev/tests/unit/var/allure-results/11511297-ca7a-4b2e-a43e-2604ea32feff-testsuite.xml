@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668821467" stop="1556668821493" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\Calculation\UnitBaseCalculatorTest</name>
+  <test-cases>
+    <test-case start="1556668821467" stop="1556668821484" status="passed">
+      <name>testCalculateWithTaxInPrice</name>
+    </test-case>
+    <test-case start="1556668821484" stop="1556668821492" status="passed">
+      <name>testCalculateWithTaxNotInPrice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

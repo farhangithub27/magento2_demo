@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657679" stop="1556668657680" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\IndexTest</name>
+  <test-cases>
+    <test-case start="1556668657680" stop="1556668657680" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

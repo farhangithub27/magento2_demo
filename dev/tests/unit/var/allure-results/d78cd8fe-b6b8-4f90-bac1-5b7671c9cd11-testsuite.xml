@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668714369" stop="1556668714372" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Helper\Product\Configuration\PluginTest</name>
+  <test-cases>
+    <test-case start="1556668714369" stop="1556668714371" status="passed">
+      <name>testAroundGetOptionsWhenProductTypeIsConfigurable</name>
+    </test-case>
+    <test-case start="1556668714371" stop="1556668714372" status="passed">
+      <name>testAroundGetOptionsWhenProductTypeIsSimple</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

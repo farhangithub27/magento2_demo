@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668695990" stop="1556668696003" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Indexer\Product\Eav\Plugin\StoreViewTest</name>
+  <test-cases>
+    <test-case start="1556668695990" stop="1556668695992" status="passed">
+      <name>testBeforeSave with data set #0</name>
+    </test-case>
+    <test-case start="1556668695993" stop="1556668695994" status="passed">
+      <name>testBeforeSave with data set #1</name>
+    </test-case>
+    <test-case start="1556668695994" stop="1556668695995" status="passed">
+      <name>testBeforeSave with data set #2</name>
+    </test-case>
+    <test-case start="1556668695996" stop="1556668695997" status="passed">
+      <name>testBeforeSave with data set #3</name>
+    </test-case>
+    <test-case start="1556668695997" stop="1556668695998" status="passed">
+      <name>testBeforeSave with data set #4</name>
+    </test-case>
+    <test-case start="1556668695998" stop="1556668696000" status="passed">
+      <name>testBeforeSave with data set #5</name>
+    </test-case>
+    <test-case start="1556668696000" stop="1556668696001" status="passed">
+      <name>testBeforeSave with data set #6</name>
+    </test-case>
+    <test-case start="1556668696002" stop="1556668696003" status="passed">
+      <name>testBeforeSave with data set #7</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

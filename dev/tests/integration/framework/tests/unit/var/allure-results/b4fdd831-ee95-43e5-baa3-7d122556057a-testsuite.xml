@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668876875" stop="1556668876879" version="1.4.0">
+  <name>Magento\Test\Annotation\DbIsolationTest</name>
+  <test-cases>
+    <test-case start="1556668876876" stop="1556668876876" status="passed">
+      <name>testStartTestTransactionRequestClassIsolationEnabled</name>
+    </test-case>
+    <test-case start="1556668876876" stop="1556668876876" status="passed">
+      <name>testStartTestTransactionRequestMethodIsolationEnabled</name>
+    </test-case>
+    <test-case start="1556668876877" stop="1556668876877" status="passed">
+      <name>testStartTestTransactionRequestMethodIsolationDisabled</name>
+    </test-case>
+    <test-case start="1556668876877" stop="1556668876877" status="passed">
+      <name>testStartTestTransactionRequestInvalidAnnotation</name>
+    </test-case>
+    <test-case start="1556668876878" stop="1556668876878" status="passed">
+      <name>testStartTestTransactionRequestAmbiguousAnnotation</name>
+    </test-case>
+    <test-case start="1556668876878" stop="1556668876879" status="passed">
+      <name>testEndTestTransactionRequestMethodIsolationEnabled</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

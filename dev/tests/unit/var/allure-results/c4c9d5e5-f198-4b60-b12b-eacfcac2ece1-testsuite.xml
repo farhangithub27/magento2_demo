@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668665431" stop="1556668665438" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Cron\SignUpTest</name>
+  <test-cases>
+    <test-case start="1556668665431" stop="1556668665435" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668665436" stop="1556668665437" status="passed">
+      <name>testExecuteFlagNotExist</name>
+    </test-case>
+    <test-case start="1556668665437" stop="1556668665438" status="passed">
+      <name>testExecuteZeroAttempts</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

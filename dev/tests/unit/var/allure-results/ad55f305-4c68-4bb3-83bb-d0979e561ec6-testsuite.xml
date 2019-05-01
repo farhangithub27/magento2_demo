@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668726670" stop="1556668726683" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Ui\Component\Listing\Column\AccountLockTest</name>
+  <test-cases>
+    <test-case start="1556668726671" stop="1556668726673" status="passed">
+      <name>testPrepareDataSource with data set #0</name>
+    </test-case>
+    <test-case start="1556668726673" stop="1556668726674" status="passed">
+      <name>testPrepareDataSource with data set #1</name>
+    </test-case>
+    <test-case start="1556668726675" stop="1556668726676" status="passed">
+      <name>testPrepareDataSource with data set #2</name>
+    </test-case>
+    <test-case start="1556668726676" stop="1556668726677" status="passed">
+      <name>testPrepareDataSource with data set #3</name>
+    </test-case>
+    <test-case start="1556668726678" stop="1556668726683" status="passed">
+      <name>testPrepareDataSourceDataProvider</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

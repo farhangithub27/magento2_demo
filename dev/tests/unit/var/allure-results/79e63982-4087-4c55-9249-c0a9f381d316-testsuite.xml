@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859999" stop="1556668860005" version="1.4.0">
+  <name>Magento\Framework\Profiler\Test\Unit\Driver\Standard\Output\FactoryTest</name>
+  <test-cases>
+    <test-case start="1556668859999" stop="1556668860000" status="passed">
+      <name>testConstructor</name>
+    </test-case>
+    <test-case start="1556668860000" stop="1556668860000" status="passed">
+      <name>testDefaultConstructor</name>
+    </test-case>
+    <test-case start="1556668860001" stop="1556668860001" status="passed">
+      <name>testCreate with data set "Prefix and concrete type"</name>
+    </test-case>
+    <test-case start="1556668860002" stop="1556668860002" status="passed">
+      <name>testCreate with data set "Prefix and default type"</name>
+    </test-case>
+    <test-case start="1556668860003" stop="1556668860003" status="passed">
+      <name>testCreate with data set "Concrete class"</name>
+    </test-case>
+    <test-case start="1556668860003" stop="1556668860004" status="passed">
+      <name>testCreateUndefinedClass</name>
+    </test-case>
+    <test-case start="1556668860004" stop="1556668860005" status="passed">
+      <name>testCreateInvalidClass</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

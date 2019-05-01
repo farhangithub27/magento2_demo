@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668789086" stop="1556668789274" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\ProTest</name>
+  <test-cases>
+    <test-case start="1556668789086" stop="1556668789092" status="passed">
+      <name>testCanReviewPayment with data set #0</name>
+    </test-case>
+    <test-case start="1556668789093" stop="1556668789095" status="passed">
+      <name>testCanReviewPayment with data set #1</name>
+    </test-case>
+    <test-case start="1556668789095" stop="1556668789098" status="passed">
+      <name>testCanReviewPayment with data set #2</name>
+    </test-case>
+    <test-case start="1556668789098" stop="1556668789101" status="passed">
+      <name>testCanReviewPayment with data set #3</name>
+    </test-case>
+    <test-case start="1556668789101" stop="1556668789273" status="passed">
+      <name>testCapture</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

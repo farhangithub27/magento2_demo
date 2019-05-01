@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668671043" stop="1556668671087" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Block\Widget\TabTest</name>
+  <test-cases>
+    <test-case start="1556668671044" stop="1556668671047" status="passed">
+      <name>testGetters with data set "getTabLabel"</name>
+    </test-case>
+    <test-case start="1556668671048" stop="1556668671051" status="passed">
+      <name>testGetters with data set "getTabLabel (default)"</name>
+    </test-case>
+    <test-case start="1556668671051" stop="1556668671054" status="passed">
+      <name>testGetters with data set "getTabTitle"</name>
+    </test-case>
+    <test-case start="1556668671055" stop="1556668671058" status="passed">
+      <name>testGetters with data set "getTabTitle (default)"</name>
+    </test-case>
+    <test-case start="1556668671059" stop="1556668671062" status="passed">
+      <name>testGetters with data set "canShowTab"</name>
+    </test-case>
+    <test-case start="1556668671062" stop="1556668671065" status="passed">
+      <name>testGetters with data set "canShowTab (default)"</name>
+    </test-case>
+    <test-case start="1556668671066" stop="1556668671069" status="passed">
+      <name>testGetters with data set "isHidden"</name>
+    </test-case>
+    <test-case start="1556668671069" stop="1556668671072" status="passed">
+      <name>testGetters with data set "isHidden (default)"</name>
+    </test-case>
+    <test-case start="1556668671073" stop="1556668671076" status="passed">
+      <name>testGetters with data set "getTabClass"</name>
+    </test-case>
+    <test-case start="1556668671077" stop="1556668671080" status="passed">
+      <name>testGetters with data set "getTabClass (default)"</name>
+    </test-case>
+    <test-case start="1556668671080" stop="1556668671083" status="passed">
+      <name>testGetters with data set "getTabUrl"</name>
+    </test-case>
+    <test-case start="1556668671084" stop="1556668671087" status="passed">
+      <name>testGetters with data set "getTabUrl (default)"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

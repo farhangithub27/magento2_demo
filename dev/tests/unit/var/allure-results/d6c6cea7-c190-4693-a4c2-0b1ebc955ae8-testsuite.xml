@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668689650" stop="1556668689671" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Category\Rss\LinkTest</name>
+  <test-cases>
+    <test-case start="1556668689650" stop="1556668689654" status="passed">
+      <name>testIsRssAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668689654" stop="1556668689657" status="passed">
+      <name>testIsRssAllowed with data set #1</name>
+    </test-case>
+    <test-case start="1556668689657" stop="1556668689660" status="passed">
+      <name>testGetLabel</name>
+    </test-case>
+    <test-case start="1556668689661" stop="1556668689664" status="passed">
+      <name>testIsTopCategory with data set #0</name>
+    </test-case>
+    <test-case start="1556668689664" stop="1556668689667" status="passed">
+      <name>testIsTopCategory with data set #1</name>
+    </test-case>
+    <test-case start="1556668689668" stop="1556668689671" status="passed">
+      <name>testGetLink</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

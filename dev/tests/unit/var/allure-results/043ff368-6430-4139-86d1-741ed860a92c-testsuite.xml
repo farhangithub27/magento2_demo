@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668743811" stop="1556668743813" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Model\Export\EntityAbstractTest</name>
+  <test-cases>
+    <test-case start="1556668743811" stop="1556668743812" status="passed">
+      <name>testGetFileNameAndSetFileName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

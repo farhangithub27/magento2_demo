@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668874654" stop="1556668874685" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Result\PageTest</name>
+  <test-cases>
+    <test-case start="1556668874654" stop="1556668874660" status="passed">
+      <name>testInitLayout</name>
+    </test-case>
+    <test-case start="1556668874660" stop="1556668874664" status="passed">
+      <name>testInitLayoutLayoutDefined</name>
+    </test-case>
+    <test-case start="1556668874664" stop="1556668874668" status="passed">
+      <name>testGetConfig</name>
+    </test-case>
+    <test-case start="1556668874668" stop="1556668874672" status="passed">
+      <name>testGetDefaultLayoutHandle</name>
+    </test-case>
+    <test-case start="1556668874672" stop="1556668874676" status="passed">
+      <name>testAddPageLayoutHandles</name>
+    </test-case>
+    <test-case start="1556668874677" stop="1556668874681" status="passed">
+      <name>testAddPageLayoutHandlesNotEntitySpecific</name>
+    </test-case>
+    <test-case start="1556668874681" stop="1556668874685" status="passed">
+      <name>testAddPageLayoutHandlesWithDefaultHandle</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

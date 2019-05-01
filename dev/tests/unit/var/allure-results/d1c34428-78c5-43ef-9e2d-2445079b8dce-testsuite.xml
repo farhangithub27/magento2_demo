@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668692713" stop="1556668692810" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Helper\ImageTest</name>
+  <test-cases>
+    <test-case start="1556668692714" stop="1556668692741" status="passed">
+      <name>testInit with data set #0</name>
+    </test-case>
+    <test-case start="1556668692742" stop="1556668692744" status="passed">
+      <name>testGetType</name>
+    </test-case>
+    <test-case start="1556668692744" stop="1556668692747" status="passed">
+      <name>testGetWidth</name>
+    </test-case>
+    <test-case start="1556668692747" stop="1556668692750" status="passed">
+      <name>testGetHeight with data set "data"</name>
+    </test-case>
+    <test-case start="1556668692750" stop="1556668692753" status="passed">
+      <name>testGetFrame with data set "data"</name>
+    </test-case>
+    <test-case start="1556668692753" stop="1556668692756" status="passed">
+      <name>testGetLabel with data set #0</name>
+    </test-case>
+    <test-case start="1556668692756" stop="1556668692759" status="passed">
+      <name>testGetLabel with data set #1</name>
+    </test-case>
+    <test-case start="1556668692760" stop="1556668692769" status="passed">
+      <name>testGetResizedImageInfo with data set #0</name>
+    </test-case>
+    <test-case start="1556668692770" stop="1556668692780" status="passed">
+      <name>testGetResizedImageInfo with data set #1</name>
+    </test-case>
+    <test-case start="1556668692781" stop="1556668692790" status="passed">
+      <name>testGetResizedImageInfo with data set #2</name>
+    </test-case>
+    <test-case start="1556668692791" stop="1556668692799" status="passed">
+      <name>testGetResizedImageInfo with data set #3</name>
+    </test-case>
+    <test-case start="1556668692800" stop="1556668692809" status="passed">
+      <name>testGetResizedImageInfo with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

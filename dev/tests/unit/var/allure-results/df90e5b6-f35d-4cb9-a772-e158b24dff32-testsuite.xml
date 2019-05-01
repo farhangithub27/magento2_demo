@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668675553" stop="1556668675640" version="1.4.0">
+  <name>Magento\BundleImportExport\Test\Unit\Model\Import\Product\Type\BundleTest</name>
+  <test-cases>
+    <test-case start="1556668675554" stop="1556668675577" status="passed">
+      <name>testSaveData with data set #0</name>
+    </test-case>
+    <test-case start="1556668675578" stop="1556668675584" status="passed">
+      <name>testSaveData with data set #1</name>
+    </test-case>
+    <test-case start="1556668675584" stop="1556668675591" status="passed">
+      <name>testSaveData with data set #2</name>
+    </test-case>
+    <test-case start="1556668675591" stop="1556668675597" status="passed">
+      <name>testSaveData with data set #3</name>
+    </test-case>
+    <test-case start="1556668675598" stop="1556668675603" status="passed">
+      <name>testSaveData with data set "Import without bundle values"</name>
+    </test-case>
+    <test-case start="1556668675604" stop="1556668675616" status="passed">
+      <name>testSaveData with data set #4</name>
+    </test-case>
+    <test-case start="1556668675616" stop="1556668675630" status="passed">
+      <name>testSaveDataDelete</name>
+    </test-case>
+    <test-case start="1556668675631" stop="1556668675636" status="passed">
+      <name>testPrepareAttributesWithDefaultValueForSaveInsideCall</name>
+    </test-case>
+    <test-case start="1556668675636" stop="1556668675640" status="passed">
+      <name>testIsRowValid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668731755" stop="1556668731758" version="1.4.0">
+  <name>Magento\Directory\Test\Unit\Model\AllowedCountriesTest</name>
+  <test-cases>
+    <test-case start="1556668731755" stop="1556668731756" status="passed">
+      <name>testGetAllowedCountriesWithEmptyFilter</name>
+    </test-case>
+    <test-case start="1556668731756" stop="1556668731757" status="passed">
+      <name>testGetAllowedCountries</name>
+    </test-case>
+    <test-case start="1556668731757" stop="1556668731758" status="passed">
+      <name>testGetAllowedCountriesDefaultScope</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

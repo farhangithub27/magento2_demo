@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668846792" stop="1556668846804" version="1.4.0">
+  <name>Magento\Framework\Cache\Test\Unit\Frontend\Adapter\ZendTest</name>
+  <test-cases>
+    <test-case start="1556668846792" stop="1556668846793" status="passed">
+      <name>testProxyMethod with data set "test"</name>
+    </test-case>
+    <test-case start="1556668846793" stop="1556668846794" status="passed">
+      <name>testProxyMethod with data set "load"</name>
+    </test-case>
+    <test-case start="1556668846795" stop="1556668846796" status="passed">
+      <name>testProxyMethod with data set "save"</name>
+    </test-case>
+    <test-case start="1556668846796" stop="1556668846797" status="passed">
+      <name>testProxyMethod with data set "remove"</name>
+    </test-case>
+    <test-case start="1556668846797" stop="1556668846798" status="passed">
+      <name>testProxyMethod with data set "clean mode "all""</name>
+    </test-case>
+    <test-case start="1556668846798" stop="1556668846799" status="passed">
+      <name>testProxyMethod with data set "clean mode "matching tag""</name>
+    </test-case>
+    <test-case start="1556668846799" stop="1556668846800" status="passed">
+      <name>testProxyMethod with data set "clean mode "matching any tag""</name>
+    </test-case>
+    <test-case start="1556668846800" stop="1556668846801" status="passed">
+      <name>testProxyMethod with data set "getBackend"</name>
+    </test-case>
+    <test-case start="1556668846801" stop="1556668846802" status="passed">
+      <name>testCleanException with data set "cleaning mode "expired""</name>
+    </test-case>
+    <test-case start="1556668846802" stop="1556668846803" status="passed">
+      <name>testCleanException with data set "cleaning mode "not matching tag""</name>
+    </test-case>
+    <test-case start="1556668846803" stop="1556668846804" status="passed">
+      <name>testCleanException with data set "non-existing cleaning mode"</name>
+    </test-case>
+    <test-case start="1556668846804" stop="1556668846804" status="passed">
+      <name>testGetLowLevelFrontend</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

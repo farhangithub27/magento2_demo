@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668806079" stop="1556668806102" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Email\Sender\InvoiceCommentSenderTest</name>
+  <test-cases>
+    <test-case start="1556668806080" stop="1556668806087" status="passed">
+      <name>testSendFalse</name>
+    </test-case>
+    <test-case start="1556668806087" stop="1556668806092" status="passed">
+      <name>testSendTrueWithCustomerCopy</name>
+    </test-case>
+    <test-case start="1556668806092" stop="1556668806098" status="passed">
+      <name>testSendTrueWithoutCustomerCopy</name>
+    </test-case>
+    <test-case start="1556668806098" stop="1556668806102" status="passed">
+      <name>testSendVirtualOrder</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668724163" stop="1556668724174" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Metadata\AttributeMetadataCacheTest</name>
+  <test-cases>
+    <test-case start="1556668724163" stop="1556668724165" status="passed">
+      <name>testLoadCacheDisabled</name>
+    </test-case>
+    <test-case start="1556668724165" stop="1556668724166" status="passed">
+      <name>testLoadNoCache</name>
+    </test-case>
+    <test-case start="1556668724166" stop="1556668724168" status="passed">
+      <name>testLoad</name>
+    </test-case>
+    <test-case start="1556668724168" stop="1556668724169" status="passed">
+      <name>testSaveCacheDisabled</name>
+    </test-case>
+    <test-case start="1556668724169" stop="1556668724171" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668724171" stop="1556668724172" status="passed">
+      <name>testCleanCacheDisabled</name>
+    </test-case>
+    <test-case start="1556668724173" stop="1556668724174" status="passed">
+      <name>testClean</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

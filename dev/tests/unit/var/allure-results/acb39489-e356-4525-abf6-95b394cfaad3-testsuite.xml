@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668656902" stop="1556668656909" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Console\Command\MaintenanceStatusCommandTest</name>
+  <test-cases>
+    <test-case start="1556668656903" stop="1556668656904" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668656905" stop="1556668656906" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668656906" stop="1556668656907" status="passed">
+      <name>testExecute with data set #2</name>
+    </test-case>
+    <test-case start="1556668656907" stop="1556668656908" status="passed">
+      <name>testExecute with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

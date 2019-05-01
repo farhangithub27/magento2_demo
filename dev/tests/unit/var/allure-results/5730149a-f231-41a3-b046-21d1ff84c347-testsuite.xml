@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668663015" stop="1556668663029" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\I18n\Dictionary\GeneratorTest</name>
+  <test-cases>
+    <test-case start="1556668663015" stop="1556668663022" status="passed">
+      <name>testCreatingDictionaryWriter</name>
+    </test-case>
+    <test-case start="1556668663022" stop="1556668663024" status="passed">
+      <name>testUsingRightParserWhileWithoutContextParsing</name>
+    </test-case>
+    <test-case start="1556668663024" stop="1556668663026" status="passed">
+      <name>testUsingRightParserWhileWithContextParsing</name>
+    </test-case>
+    <test-case start="1556668663026" stop="1556668663027" status="passed">
+      <name>testWritingPhrases</name>
+    </test-case>
+    <test-case start="1556668663028" stop="1556668663029" status="passed">
+      <name>testGenerateWithNoPhrases</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

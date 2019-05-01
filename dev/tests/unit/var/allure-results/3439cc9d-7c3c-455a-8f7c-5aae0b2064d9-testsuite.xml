@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668739010" stop="1556668739023" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\SearchAdapter\Dynamic\DataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668739010" stop="1556668739013" status="passed">
+      <name>testGetRange</name>
+    </test-case>
+    <test-case start="1556668739013" stop="1556668739015" status="passed">
+      <name>testGetAggregations</name>
+    </test-case>
+    <test-case start="1556668739015" stop="1556668739018" status="passed">
+      <name>testGetInterval</name>
+    </test-case>
+    <test-case start="1556668739018" stop="1556668739021" status="passed">
+      <name>testGetAggregation</name>
+    </test-case>
+    <test-case start="1556668739021" stop="1556668739022" status="passed">
+      <name>testPrepareData</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

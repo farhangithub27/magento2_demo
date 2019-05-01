@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841904" stop="1556668841915" version="1.4.0">
+  <name>Magento\Framework\Api\Test\Unit\ExtensionAttribute\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668841904" stop="1556668841905" status="passed">
+      <name>testExemplarXml with data set "valid with empty extension attributes"</name>
+    </test-case>
+    <test-case start="1556668841906" stop="1556668841906" status="passed">
+      <name>testExemplarXml with data set "valid with one attribute code"</name>
+    </test-case>
+    <test-case start="1556668841907" stop="1556668841908" status="passed">
+      <name>testExemplarXml with data set "valid with multiple attribute codes"</name>
+    </test-case>
+    <test-case start="1556668841908" stop="1556668841909" status="passed">
+      <name>testExemplarXml with data set "valid with multiple attribute codes with permissions"</name>
+    </test-case>
+    <test-case start="1556668841909" stop="1556668841910" status="passed">
+      <name>testExemplarXml with data set "valid with attribute code with join"</name>
+    </test-case>
+    <test-case start="1556668841910" stop="1556668841911" status="passed">
+      <name>testExemplarXml with data set "valid with attribute code with permissions and join"</name>
+    </test-case>
+    <test-case start="1556668841912" stop="1556668841912" status="passed">
+      <name>testExemplarXml with data set "invalid missing extension_attributes"</name>
+    </test-case>
+    <test-case start="1556668841913" stop="1556668841913" status="passed">
+      <name>testExemplarXml with data set "invalid with attribute code with resources without single resource"</name>
+    </test-case>
+    <test-case start="1556668841914" stop="1556668841915" status="passed">
+      <name>testExemplarXml with data set "invalid with attribute code without join attributes"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

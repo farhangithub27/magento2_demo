@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668668751" stop="1556668668762" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Gateway\Validator\TransactionResponseValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668668751" stop="1556668668752" status="passed">
+      <name>testValidateScenarios with data set #0</name>
+    </test-case>
+    <test-case start="1556668668753" stop="1556668668754" status="passed">
+      <name>testValidateScenarios with data set #1</name>
+    </test-case>
+    <test-case start="1556668668754" stop="1556668668755" status="passed">
+      <name>testValidateScenarios with data set #2</name>
+    </test-case>
+    <test-case start="1556668668755" stop="1556668668756" status="passed">
+      <name>testValidateScenarios with data set #3</name>
+    </test-case>
+    <test-case start="1556668668756" stop="1556668668757" status="passed">
+      <name>testValidateScenarios with data set #4</name>
+    </test-case>
+    <test-case start="1556668668757" stop="1556668668758" status="passed">
+      <name>testValidateScenarios with data set #5</name>
+    </test-case>
+    <test-case start="1556668668759" stop="1556668668759" status="passed">
+      <name>testValidateScenarios with data set #6</name>
+    </test-case>
+    <test-case start="1556668668760" stop="1556668668760" status="passed">
+      <name>testValidateScenarios with data set #7</name>
+    </test-case>
+    <test-case start="1556668668761" stop="1556668668762" status="passed">
+      <name>testValidateScenarios with data set #8</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

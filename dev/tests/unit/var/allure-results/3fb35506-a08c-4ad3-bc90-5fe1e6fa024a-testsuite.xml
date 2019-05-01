@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668791899" stop="1556668791914" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\Address\TotalTest</name>
+  <test-cases>
+    <test-case start="1556668791900" stop="1556668791900" status="passed">
+      <name>testSetTotalAmount with data set "Subtotal"</name>
+    </test-case>
+    <test-case start="1556668791901" stop="1556668791901" status="passed">
+      <name>testSetTotalAmount with data set "Other total"</name>
+    </test-case>
+    <test-case start="1556668791902" stop="1556668791903" status="passed">
+      <name>testSetBaseTotalAmount with data set "Subtotal"</name>
+    </test-case>
+    <test-case start="1556668791903" stop="1556668791904" status="passed">
+      <name>testSetBaseTotalAmount with data set "Other total"</name>
+    </test-case>
+    <test-case start="1556668791904" stop="1556668791905" status="passed">
+      <name>testAddTotalAmount with data set "Zero"</name>
+    </test-case>
+    <test-case start="1556668791905" stop="1556668791906" status="passed">
+      <name>testAddTotalAmount with data set "Non-zero"</name>
+    </test-case>
+    <test-case start="1556668791906" stop="1556668791907" status="passed">
+      <name>testAddBaseTotalAmount with data set "Zero"</name>
+    </test-case>
+    <test-case start="1556668791907" stop="1556668791908" status="passed">
+      <name>testAddBaseTotalAmount with data set "Non-zero"</name>
+    </test-case>
+    <test-case start="1556668791908" stop="1556668791908" status="passed">
+      <name>testGetTotalAmount</name>
+    </test-case>
+    <test-case start="1556668791908" stop="1556668791909" status="passed">
+      <name>testGetTotalAmountAbsent</name>
+    </test-case>
+    <test-case start="1556668791909" stop="1556668791910" status="passed">
+      <name>testGetBaseTotalAmount</name>
+    </test-case>
+    <test-case start="1556668791910" stop="1556668791910" status="passed">
+      <name>testGetBaseTotalAmountAbsent</name>
+    </test-case>
+    <test-case start="1556668791911" stop="1556668791911" status="passed">
+      <name>testGetFullInfo with data set "simple array"</name>
+    </test-case>
+    <test-case start="1556668791912" stop="1556668791912" status="passed">
+      <name>testGetFullInfo with data set "serialized array"</name>
+    </test-case>
+    <test-case start="1556668791913" stop="1556668791913" status="passed">
+      <name>testGetFullInfo with data set "null input/output"</name>
+    </test-case>
+    <test-case start="1556668791914" stop="1556668791914" status="passed">
+      <name>testGetFullInfo with data set "float input"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

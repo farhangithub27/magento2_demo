@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668723414" stop="1556668723417" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Customer\NotificationStorageTest</name>
+  <test-cases>
+    <test-case start="1556668723414" stop="1556668723415" status="passed">
+      <name>testAdd</name>
+    </test-case>
+    <test-case start="1556668723415" stop="1556668723416" status="passed">
+      <name>testIsExists</name>
+    </test-case>
+    <test-case start="1556668723416" stop="1556668723417" status="passed">
+      <name>testRemove</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

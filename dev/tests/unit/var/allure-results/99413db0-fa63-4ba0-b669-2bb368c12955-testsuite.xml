@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668873605" stop="1556668873630" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Layout\ScheduledStructureTest</name>
+  <test-cases>
+    <test-case start="1556668873605" stop="1556668873606" status="passed">
+      <name>testGetListToMove</name>
+    </test-case>
+    <test-case start="1556668873606" stop="1556668873607" status="passed">
+      <name>testGetListToRemove</name>
+    </test-case>
+    <test-case start="1556668873607" stop="1556668873607" status="passed">
+      <name>testGetElements</name>
+    </test-case>
+    <test-case start="1556668873608" stop="1556668873608" status="passed">
+      <name>testGetElement</name>
+    </test-case>
+    <test-case start="1556668873608" stop="1556668873609" status="passed">
+      <name>testIsElementsEmpty</name>
+    </test-case>
+    <test-case start="1556668873609" stop="1556668873609" status="passed">
+      <name>testSetElement</name>
+    </test-case>
+    <test-case start="1556668873610" stop="1556668873610" status="passed">
+      <name>testHasElement</name>
+    </test-case>
+    <test-case start="1556668873610" stop="1556668873611" status="passed">
+      <name>testUnsetElement</name>
+    </test-case>
+    <test-case start="1556668873611" stop="1556668873612" status="passed">
+      <name>testGetElementToMove</name>
+    </test-case>
+    <test-case start="1556668873612" stop="1556668873613" status="passed">
+      <name>testSetElementToMove</name>
+    </test-case>
+    <test-case start="1556668873614" stop="1556668873614" status="passed">
+      <name>testUnsetElementFromListToRemove</name>
+    </test-case>
+    <test-case start="1556668873614" stop="1556668873615" status="passed">
+      <name>testSetElementToRemoveList</name>
+    </test-case>
+    <test-case start="1556668873615" stop="1556668873616" status="passed">
+      <name>testGetStructure</name>
+    </test-case>
+    <test-case start="1556668873616" stop="1556668873616" status="passed">
+      <name>testGetStructureElement</name>
+    </test-case>
+    <test-case start="1556668873617" stop="1556668873617" status="passed">
+      <name>testIsStructureEmpty</name>
+    </test-case>
+    <test-case start="1556668873618" stop="1556668873618" status="passed">
+      <name>testHasStructureElement</name>
+    </test-case>
+    <test-case start="1556668873618" stop="1556668873619" status="passed">
+      <name>testSetStructureElement</name>
+    </test-case>
+    <test-case start="1556668873619" stop="1556668873619" status="passed">
+      <name>testUnsetStructureElement</name>
+    </test-case>
+    <test-case start="1556668873620" stop="1556668873620" status="passed">
+      <name>testGetPaths</name>
+    </test-case>
+    <test-case start="1556668873620" stop="1556668873621" status="passed">
+      <name>testGetPath</name>
+    </test-case>
+    <test-case start="1556668873621" stop="1556668873621" status="passed">
+      <name>testHasPath</name>
+    </test-case>
+    <test-case start="1556668873622" stop="1556668873622" status="passed">
+      <name>testSetPathElement</name>
+    </test-case>
+    <test-case start="1556668873622" stop="1556668873623" status="passed">
+      <name>testUnsetPathElement</name>
+    </test-case>
+    <test-case start="1556668873623" stop="1556668873624" status="passed">
+      <name>testFlushPaths</name>
+    </test-case>
+    <test-case start="1556668873624" stop="1556668873625" status="passed">
+      <name>testFlushScheduledStructure</name>
+    </test-case>
+    <test-case start="1556668873625" stop="1556668873626" status="passed">
+      <name>testSetElementToBrokenParentList</name>
+    </test-case>
+    <test-case start="1556668873626" stop="1556668873627" status="passed">
+      <name>testSetElementToSortList</name>
+    </test-case>
+    <test-case start="1556668873627" stop="1556668873628" status="passed">
+      <name>testGetElementToSortEmpty</name>
+    </test-case>
+    <test-case start="1556668873628" stop="1556668873628" status="passed">
+      <name>testGetElementToSort</name>
+    </test-case>
+    <test-case start="1556668873629" stop="1556668873629" status="passed">
+      <name>testUnsetElementToSort</name>
+    </test-case>
+    <test-case start="1556668873629" stop="1556668873630" status="passed">
+      <name>testIsListToSortEmpty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856445" stop="1556668856471" version="1.4.0">
+  <name>Magento\Framework\Message\Test\Unit\ManagerTest</name>
+  <test-cases>
+    <test-case start="1556668856445" stop="1556668856447" status="passed">
+      <name>testGetDefaultGroup</name>
+    </test-case>
+    <test-case start="1556668856448" stop="1556668856449" status="passed">
+      <name>testGetMessages</name>
+    </test-case>
+    <test-case start="1556668856450" stop="1556668856452" status="passed">
+      <name>testGetMessagesWithClear</name>
+    </test-case>
+    <test-case start="1556668856452" stop="1556668856454" status="passed">
+      <name>testAddExceptionWithAlternativeText</name>
+    </test-case>
+    <test-case start="1556668856454" stop="1556668856456" status="passed">
+      <name>testAddExceptionRenderable</name>
+    </test-case>
+    <test-case start="1556668856456" stop="1556668856458" status="passed">
+      <name>testAddMessage with data set "error"</name>
+    </test-case>
+    <test-case start="1556668856458" stop="1556668856460" status="passed">
+      <name>testAddMessage with data set "warning"</name>
+    </test-case>
+    <test-case start="1556668856460" stop="1556668856461" status="passed">
+      <name>testAddMessage with data set "notice"</name>
+    </test-case>
+    <test-case start="1556668856462" stop="1556668856463" status="passed">
+      <name>testAddMessage with data set "success"</name>
+    </test-case>
+    <test-case start="1556668856463" stop="1556668856465" status="passed">
+      <name>testAddUniqueMessagesWhenMessagesImplementMessageInterface with data set "message_text_is_unique"</name>
+    </test-case>
+    <test-case start="1556668856466" stop="1556668856467" status="passed">
+      <name>testAddUniqueMessagesWhenMessagesImplementMessageInterface with data set "message_text_already_exists"</name>
+    </test-case>
+    <test-case start="1556668856467" stop="1556668856468" status="passed">
+      <name>testAddUniqueMessages with data set "messages_are_text"</name>
+    </test-case>
+    <test-case start="1556668856469" stop="1556668856470" status="passed">
+      <name>testAddUniqueMessages with data set "messages_are_empty"</name>
+    </test-case>
+    <test-case start="1556668856470" stop="1556668856471" status="passed">
+      <name>testAddMessages</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668819376" stop="1556668819406" version="1.4.0">
+  <name>Magento\Swatches\Test\Unit\Block\LayeredNavigation\RenderLayeredTest</name>
+  <test-cases>
+    <test-case start="1556668819376" stop="1556668819385" status="passed">
+      <name>testSetSwatchFilter</name>
+    </test-case>
+    <test-case start="1556668819385" stop="1556668819397" status="passed">
+      <name>testGetSwatchData</name>
+    </test-case>
+    <test-case start="1556668819398" stop="1556668819402" status="passed">
+      <name>testGetSwatchDataException</name>
+    </test-case>
+    <test-case start="1556668819402" stop="1556668819406" status="passed">
+      <name>testGetSwatchPath</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

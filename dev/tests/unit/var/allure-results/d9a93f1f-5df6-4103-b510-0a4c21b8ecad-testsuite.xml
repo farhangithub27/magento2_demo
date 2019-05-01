@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668842899" stop="1556668842904" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Cache\Tag\Strategy\FactoryTest</name>
+  <test-cases>
+    <test-case start="1556668842899" stop="1556668842901" status="passed">
+      <name>testGetStrategyWithScalar</name>
+    </test-case>
+    <test-case start="1556668842901" stop="1556668842902" status="passed">
+      <name>testGetStrategyWithObject</name>
+    </test-case>
+    <test-case start="1556668842902" stop="1556668842902" status="passed">
+      <name>testGetStrategyWithIdentityInterface</name>
+    </test-case>
+    <test-case start="1556668842903" stop="1556668842904" status="passed">
+      <name>testGetStrategyForCustomClass</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

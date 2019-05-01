@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668676517" stop="1556668676580" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Helper\Catalog\Product\ConfigurationTest</name>
+  <test-cases>
+    <test-case start="1556668676517" stop="1556668676523" status="passed">
+      <name>testGetSelectionQty</name>
+    </test-case>
+    <test-case start="1556668676523" stop="1556668676525" status="passed">
+      <name>testGetSelectionQtyIfCustomOptionIsNotSet</name>
+    </test-case>
+    <test-case start="1556668676525" stop="1556668676534" status="passed">
+      <name>testGetSelectionFinalPrice</name>
+    </test-case>
+    <test-case start="1556668676534" stop="1556668676542" status="passed">
+      <name>testGetBundleOptionsEmptyBundleOptionsIds</name>
+    </test-case>
+    <test-case start="1556668676542" stop="1556668676554" status="passed">
+      <name>testGetBundleOptionsEmptyBundleSelectionIds</name>
+    </test-case>
+    <test-case start="1556668676554" stop="1556668676580" status="passed">
+      <name>testGetOptions</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668735906" stop="1556668735935" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Entity\Attribute\OptionManagementTest</name>
+  <test-cases>
+    <test-case start="1556668735906" stop="1556668735914" status="passed">
+      <name>testAdd</name>
+    </test-case>
+    <test-case start="1556668735914" stop="1556668735915" status="passed">
+      <name>testAddWithEmptyAttributeCode</name>
+    </test-case>
+    <test-case start="1556668735915" stop="1556668735916" status="passed">
+      <name>testAddWithWrongOptions</name>
+    </test-case>
+    <test-case start="1556668735917" stop="1556668735920" status="passed">
+      <name>testAddWithCannotSaveException</name>
+    </test-case>
+    <test-case start="1556668735921" stop="1556668735924" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668735924" stop="1556668735926" status="passed">
+      <name>testDeleteWithCannotSaveException</name>
+    </test-case>
+    <test-case start="1556668735927" stop="1556668735929" status="passed">
+      <name>testDeleteWithWrongOption</name>
+    </test-case>
+    <test-case start="1556668735929" stop="1556668735930" status="passed">
+      <name>testDeleteWithAbsentOption</name>
+    </test-case>
+    <test-case start="1556668735930" stop="1556668735931" status="passed">
+      <name>testDeleteWithEmptyAttributeCode</name>
+    </test-case>
+    <test-case start="1556668735931" stop="1556668735933" status="passed">
+      <name>testGetItems</name>
+    </test-case>
+    <test-case start="1556668735933" stop="1556668735934" status="passed">
+      <name>testGetItemsWithCannotLoadException</name>
+    </test-case>
+    <test-case start="1556668735934" stop="1556668735935" status="passed">
+      <name>testGetItemsWithEmptyAttributeCode</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

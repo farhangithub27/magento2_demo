@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668744436" stop="1556668744442" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Model\Import\SourceAbstractTest</name>
+  <test-cases>
+    <test-case start="1556668744437" stop="1556668744437" status="passed">
+      <name>testConstructException with data set "empty column names"</name>
+    </test-case>
+    <test-case start="1556668744438" stop="1556668744438" status="passed">
+      <name>testConstructException with data set "duplicate column names"</name>
+    </test-case>
+    <test-case start="1556668744439" stop="1556668744439" status="passed">
+      <name>testGetColNames</name>
+    </test-case>
+    <test-case start="1556668744439" stop="1556668744440" status="passed">
+      <name>testIteratorInterface</name>
+    </test-case>
+    <test-case start="1556668744440" stop="1556668744441" status="passed">
+      <name>testSeekableInterface</name>
+    </test-case>
+    <test-case start="1556668744441" stop="1556668744442" status="passed">
+      <name>testSeekableInterfaceException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

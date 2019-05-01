@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668693934" stop="1556668693950" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\CategoryLinkRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668693934" stop="1556668693937" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668693937" stop="1556668693941" status="passed">
+      <name>testSaveWithCouldNotSaveException</name>
+    </test-case>
+    <test-case start="1556668693941" stop="1556668693943" status="passed">
+      <name>testDeleteByIds</name>
+    </test-case>
+    <test-case start="1556668693943" stop="1556668693945" status="passed">
+      <name>testDeleteByIdsWithCouldNotSaveException</name>
+    </test-case>
+    <test-case start="1556668693946" stop="1556668693947" status="passed">
+      <name>testDeleteWithInputException</name>
+    </test-case>
+    <test-case start="1556668693948" stop="1556668693949" status="passed">
+      <name>testDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668691418" stop="1556668691440" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\SaveTest</name>
+  <test-cases>
+    <test-case start="1556668691423" stop="1556668691423" status="canceled">
+      <name>testExecute with data set #0</name>
+      <failure>
+        <message>Due to MAGETWO-48956</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-catalog/Test/Unit/Controller/Adminhtml/Category/SaveTest.php(134): PHPUnit\Framework\Assert::markTestSkipped('Due to MAGETWO-...')
+#1 [internal function]: Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\SaveTest-&gt;testExecute(false, 7, 123)
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\SaveTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\SaveTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#14 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668691426" stop="1556668691426" status="canceled">
+      <name>testExecute with data set #1</name>
+      <failure>
+        <message>Due to MAGETWO-48956</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/magento/module-catalog/Test/Unit/Controller/Adminhtml/Category/SaveTest.php(134): PHPUnit\Framework\Assert::markTestSkipped('Due to MAGETWO-...')
+#1 [internal function]: Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\SaveTest-&gt;testExecute(false, 7, NULL)
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\SaveTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Magento\Catalog\Test\Unit\Controller\Adminhtml\Category\SaveTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#13 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#14 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668691427" stop="1556668691434" status="passed">
+      <name>testImagePreprocessing with data set "categoryPostData contains image"</name>
+    </test-case>
+    <test-case start="1556668691435" stop="1556668691440" status="passed">
+      <name>testImagePreprocessing with data set "categoryPostData doesn't contain image"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

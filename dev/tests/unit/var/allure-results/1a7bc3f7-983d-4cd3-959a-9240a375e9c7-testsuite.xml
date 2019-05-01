@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790436" stop="1556668790457" version="1.4.0">
+  <name>Magento\ProductAlert\Test\Unit\Block\Email\StockTest</name>
+  <test-cases>
+    <test-case start="1556668790436" stop="1556668790441" status="passed">
+      <name>testGetFilteredContent with data set "normal desc"</name>
+    </test-case>
+    <test-case start="1556668790441" stop="1556668790444" status="passed">
+      <name>testGetFilteredContent with data set "malicious desc 1"</name>
+    </test-case>
+    <test-case start="1556668790445" stop="1556668790457" status="passed">
+      <name>testGetImage</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

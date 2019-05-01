@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668831221" stop="1556668831239" version="1.4.0">
+  <name>Magento\Usps\Test\Unit\Helper\DataTest</name>
+  <test-cases>
+    <test-case start="1556668831222" stop="1556668831223" status="passed">
+      <name>testDisplayGirthValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668831223" stop="1556668831224" status="passed">
+      <name>testDisplayGirthValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668831224" stop="1556668831225" status="passed">
+      <name>testDisplayGirthValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668831225" stop="1556668831225" status="passed">
+      <name>testDisplayGirthValue with data set #3</name>
+    </test-case>
+    <test-case start="1556668831226" stop="1556668831226" status="passed">
+      <name>testDisplayGirthValue with data set #4</name>
+    </test-case>
+    <test-case start="1556668831227" stop="1556668831227" status="passed">
+      <name>testDisplayGirthValue with data set #5</name>
+    </test-case>
+    <test-case start="1556668831227" stop="1556668831228" status="passed">
+      <name>testDisplayGirthValue with data set #6</name>
+    </test-case>
+    <test-case start="1556668831228" stop="1556668831229" status="passed">
+      <name>testDisplayGirthValue with data set #7</name>
+    </test-case>
+    <test-case start="1556668831229" stop="1556668831230" status="passed">
+      <name>testDisplayGirthValue with data set #8</name>
+    </test-case>
+    <test-case start="1556668831230" stop="1556668831231" status="passed">
+      <name>testDisplayGirthValue with data set #9</name>
+    </test-case>
+    <test-case start="1556668831231" stop="1556668831232" status="passed">
+      <name>testDisplayGirthValue with data set #10</name>
+    </test-case>
+    <test-case start="1556668831232" stop="1556668831233" status="passed">
+      <name>testDisplayGirthValue with data set #11</name>
+    </test-case>
+    <test-case start="1556668831233" stop="1556668831234" status="passed">
+      <name>testDisplayGirthValue with data set #12</name>
+    </test-case>
+    <test-case start="1556668831234" stop="1556668831235" status="passed">
+      <name>testDisplayGirthValue with data set #13</name>
+    </test-case>
+    <test-case start="1556668831235" stop="1556668831235" status="passed">
+      <name>testDisplayGirthValue with data set #14</name>
+    </test-case>
+    <test-case start="1556668831236" stop="1556668831236" status="passed">
+      <name>testDisplayGirthValue with data set #15</name>
+    </test-case>
+    <test-case start="1556668831237" stop="1556668831237" status="passed">
+      <name>testDisplayGirthValue with data set #16</name>
+    </test-case>
+    <test-case start="1556668831238" stop="1556668831238" status="passed">
+      <name>testDisplayGirthValue with data set #17</name>
+    </test-case>
+    <test-case start="1556668831239" stop="1556668831239" status="passed">
+      <name>testDisplayGirthValueFalse</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

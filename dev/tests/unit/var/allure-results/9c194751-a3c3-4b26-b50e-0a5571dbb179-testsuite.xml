@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668808386" stop="1556668808399" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\PaymentAdapterTest</name>
+  <test-cases>
+    <test-case start="1556668808386" stop="1556668808399" status="passed">
+      <name>testPay</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

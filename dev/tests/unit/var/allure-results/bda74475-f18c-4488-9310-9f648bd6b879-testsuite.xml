@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668678650" stop="1556668678660" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Pricing\Price\SpecialPriceTest</name>
+  <test-cases>
+    <test-case start="1556668678651" stop="1556668678655" status="passed">
+      <name>testGetValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668678655" stop="1556668678658" status="passed">
+      <name>testGetValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668678658" stop="1556668678660" status="passed">
+      <name>testGetValue with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668675806" stop="1556668675936" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Block\Adminhtml\Sales\Order\Items\RendererTest</name>
+  <test-cases>
+    <test-case start="1556668675807" stop="1556668675819" status="passed">
+      <name>testGetChildrenEmptyItems with data set #0</name>
+    </test-case>
+    <test-case start="1556668675819" stop="1556668675826" status="passed">
+      <name>testGetChildrenEmptyItems with data set #1</name>
+    </test-case>
+    <test-case start="1556668675826" stop="1556668675832" status="passed">
+      <name>testGetChildrenEmptyItems with data set #2</name>
+    </test-case>
+    <test-case start="1556668675833" stop="1556668675839" status="passed">
+      <name>testGetChildren with data set #0</name>
+    </test-case>
+    <test-case start="1556668675839" stop="1556668675845" status="passed">
+      <name>testGetChildren with data set #1</name>
+    </test-case>
+    <test-case start="1556668675845" stop="1556668675849" status="passed">
+      <name>testIsShipmentSeparatelyWithoutItem with data set #0</name>
+    </test-case>
+    <test-case start="1556668675849" stop="1556668675853" status="passed">
+      <name>testIsShipmentSeparatelyWithoutItem with data set #1</name>
+    </test-case>
+    <test-case start="1556668675853" stop="1556668675857" status="passed">
+      <name>testIsShipmentSeparatelyWithoutItem with data set #2</name>
+    </test-case>
+    <test-case start="1556668675857" stop="1556668675861" status="passed">
+      <name>testIsShipmentSeparatelyWithItem with data set #0</name>
+    </test-case>
+    <test-case start="1556668675862" stop="1556668675866" status="passed">
+      <name>testIsShipmentSeparatelyWithItem with data set #1</name>
+    </test-case>
+    <test-case start="1556668675866" stop="1556668675871" status="passed">
+      <name>testIsShipmentSeparatelyWithItem with data set #2</name>
+    </test-case>
+    <test-case start="1556668675871" stop="1556668675875" status="passed">
+      <name>testIsShipmentSeparatelyWithItem with data set #3</name>
+    </test-case>
+    <test-case start="1556668675876" stop="1556668675879" status="passed">
+      <name>testIsChildCalculatedWithoutItem with data set #0</name>
+    </test-case>
+    <test-case start="1556668675880" stop="1556668675883" status="passed">
+      <name>testIsChildCalculatedWithoutItem with data set #1</name>
+    </test-case>
+    <test-case start="1556668675884" stop="1556668675887" status="passed">
+      <name>testIsChildCalculatedWithoutItem with data set #2</name>
+    </test-case>
+    <test-case start="1556668675888" stop="1556668675892" status="passed">
+      <name>testIsChildCalculatedWithItem with data set #0</name>
+    </test-case>
+    <test-case start="1556668675892" stop="1556668675896" status="passed">
+      <name>testIsChildCalculatedWithItem with data set #1</name>
+    </test-case>
+    <test-case start="1556668675897" stop="1556668675901" status="passed">
+      <name>testIsChildCalculatedWithItem with data set #2</name>
+    </test-case>
+    <test-case start="1556668675901" stop="1556668675905" status="passed">
+      <name>testIsChildCalculatedWithItem with data set #3</name>
+    </test-case>
+    <test-case start="1556668675906" stop="1556668675909" status="passed">
+      <name>testGetSelectionAttributes</name>
+    </test-case>
+    <test-case start="1556668675909" stop="1556668675913" status="passed">
+      <name>testGetSelectionAttributesWithBundle</name>
+    </test-case>
+    <test-case start="1556668675913" stop="1556668675917" status="passed">
+      <name>testGetOrderOptions</name>
+    </test-case>
+    <test-case start="1556668675917" stop="1556668675921" status="passed">
+      <name>testGetOrderItem</name>
+    </test-case>
+    <test-case start="1556668675921" stop="1556668675925" status="passed">
+      <name>testCanShowPriceInfo with data set #0</name>
+    </test-case>
+    <test-case start="1556668675926" stop="1556668675930" status="passed">
+      <name>testCanShowPriceInfo with data set #1</name>
+    </test-case>
+    <test-case start="1556668675930" stop="1556668675935" status="passed">
+      <name>testCanShowPriceInfo with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

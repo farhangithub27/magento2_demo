@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668851561" stop="1556668851564" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Form\Element\ObscureTest</name>
+  <test-cases>
+    <test-case start="1556668851561" stop="1556668851562" status="passed">
+      <name>testConstruct</name>
+    </test-case>
+    <test-case start="1556668851562" stop="1556668851563" status="passed">
+      <name>testGetEscapedValue</name>
+    </test-case>
+    <test-case start="1556668851563" stop="1556668851564" status="passed">
+      <name>testGetHtmlAttributes</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

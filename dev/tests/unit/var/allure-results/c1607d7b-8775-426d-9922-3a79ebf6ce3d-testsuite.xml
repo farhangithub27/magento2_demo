@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822957" stop="1556668822996" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Pricing\Render\AdjustmentTest</name>
+  <test-cases>
+    <test-case start="1556668822957" stop="1556668822962" status="passed">
+      <name>testGetAdjustmentCode</name>
+    </test-case>
+    <test-case start="1556668822962" stop="1556668822963" status="passed">
+      <name>testGetDefaultExclusions</name>
+    </test-case>
+    <test-case start="1556668822964" stop="1556668822965" status="passed">
+      <name>testDisplayBothPrices</name>
+    </test-case>
+    <test-case start="1556668822965" stop="1556668822967" status="passed">
+      <name>testGetDisplayAmountExclTax</name>
+    </test-case>
+    <test-case start="1556668822968" stop="1556668822970" status="passed">
+      <name>testGetDisplayAmount with data set #0</name>
+    </test-case>
+    <test-case start="1556668822970" stop="1556668822972" status="passed">
+      <name>testGetDisplayAmount with data set #1</name>
+    </test-case>
+    <test-case start="1556668822973" stop="1556668822975" status="passed">
+      <name>testBuildIdWithPrefix with data set #0</name>
+    </test-case>
+    <test-case start="1556668822975" stop="1556668822977" status="passed">
+      <name>testBuildIdWithPrefix with data set #1</name>
+    </test-case>
+    <test-case start="1556668822977" stop="1556668822979" status="passed">
+      <name>testBuildIdWithPrefix with data set #2</name>
+    </test-case>
+    <test-case start="1556668822980" stop="1556668822982" status="passed">
+      <name>testBuildIdWithPrefix with data set #3</name>
+    </test-case>
+    <test-case start="1556668822982" stop="1556668822984" status="passed">
+      <name>testBuildIdWithPrefix with data set #4</name>
+    </test-case>
+    <test-case start="1556668822985" stop="1556668822986" status="passed">
+      <name>testDisplayPriceIncludingTax</name>
+    </test-case>
+    <test-case start="1556668822986" stop="1556668822988" status="passed">
+      <name>testDisplayPriceExcludingTax</name>
+    </test-case>
+    <test-case start="1556668822988" stop="1556668822993" status="passed">
+      <name>testGetHtmlExcluding</name>
+    </test-case>
+    <test-case start="1556668822993" stop="1556668822996" status="passed">
+      <name>testGetHtmlBoth</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

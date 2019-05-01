@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668824032" stop="1556668824043" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Controller\Adminhtml\System\Design\Theme\UploadCssTest</name>
+  <test-cases>
+    <test-case start="1556668824032" stop="1556668824036" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668824036" stop="1556668824039" status="passed">
+      <name>testExecuteWithLocalizedException</name>
+    </test-case>
+    <test-case start="1556668824039" stop="1556668824043" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

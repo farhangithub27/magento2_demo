@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668862686" stop="1556668862688" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Declaration\Schema\Db\MySQL\Definition\Columns\DateTest</name>
+  <test-cases>
+    <test-case start="1556668862686" stop="1556668862688" status="passed">
+      <name>testToDefinition</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

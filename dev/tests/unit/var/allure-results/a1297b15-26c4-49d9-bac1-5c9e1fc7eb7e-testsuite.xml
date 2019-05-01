@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668695199" stop="1556668695214" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\CustomOptions\CustomOptionTest</name>
+  <test-cases>
+    <test-case start="1556668695199" stop="1556668695209" status="passed">
+      <name>testGetSetOptionId</name>
+    </test-case>
+    <test-case start="1556668695209" stop="1556668695210" status="passed">
+      <name>testGetOptionValue</name>
+    </test-case>
+    <test-case start="1556668695210" stop="1556668695213" status="passed">
+      <name>testGetOptionValueWithFileInfo</name>
+    </test-case>
+    <test-case start="1556668695213" stop="1556668695214" status="passed">
+      <name>testSetOptionValue</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

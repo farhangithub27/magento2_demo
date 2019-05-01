@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668779588" stop="1556668779615" version="1.4.0">
+  <name>Magento\Multishipping\Test\Unit\Block\Checkout\ShippingTest</name>
+  <test-cases>
+    <test-case start="1556668779589" stop="1556668779594" status="passed">
+      <name>testGetAddresses</name>
+    </test-case>
+    <test-case start="1556668779594" stop="1556668779598" status="passed">
+      <name>testGetAddressShippingMethod</name>
+    </test-case>
+    <test-case start="1556668779598" stop="1556668779601" status="passed">
+      <name>testGetShippingRates</name>
+    </test-case>
+    <test-case start="1556668779602" stop="1556668779605" status="passed">
+      <name>testGetCarrierName</name>
+    </test-case>
+    <test-case start="1556668779605" stop="1556668779609" status="passed">
+      <name>testGetCarrierNameWithEmptyName</name>
+    </test-case>
+    <test-case start="1556668779609" stop="1556668779614" status="passed">
+      <name>testGetShippingPrice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

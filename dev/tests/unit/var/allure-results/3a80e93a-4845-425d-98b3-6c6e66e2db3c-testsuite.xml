@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668731074" stop="1556668731089" version="1.4.0">
+  <name>Magento\Developer\Test\Unit\Model\Logger\Handler\DebugTest</name>
+  <test-cases>
+    <test-case start="1556668731074" stop="1556668731082" status="passed">
+      <name>testHandleEnabledInDeveloperMode</name>
+    </test-case>
+    <test-case start="1556668731083" stop="1556668731084" status="passed">
+      <name>testHandleEnabledInDefaultMode</name>
+    </test-case>
+    <test-case start="1556668731084" stop="1556668731086" status="passed">
+      <name>testHandleDisabledByProduction</name>
+    </test-case>
+    <test-case start="1556668731086" stop="1556668731087" status="passed">
+      <name>testHandleDisabledByLevel</name>
+    </test-case>
+    <test-case start="1556668731087" stop="1556668731089" status="passed">
+      <name>testDeploymentConfigIsNotAvailable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

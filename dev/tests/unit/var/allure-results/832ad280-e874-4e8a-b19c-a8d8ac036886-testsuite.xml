@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843998" stop="1556668844006" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\DeploymentConfig\WriterTest</name>
+  <test-cases>
+    <test-case start="1556668843998" stop="1556668844001" status="passed">
+      <name>testSaveConfig</name>
+    </test-case>
+    <test-case start="1556668844001" stop="1556668844004" status="passed">
+      <name>testSaveConfigOverride</name>
+    </test-case>
+    <test-case start="1556668844004" stop="1556668844006" status="passed">
+      <name>testSaveConfigException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

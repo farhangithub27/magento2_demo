@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668803104" stop="1556668803192" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Helper\AdminTest</name>
+  <test-cases>
+    <test-case start="1556668803105" stop="1556668803109" status="passed">
+      <name>testDisplayPrices with data set #0</name>
+    </test-case>
+    <test-case start="1556668803110" stop="1556668803112" status="passed">
+      <name>testDisplayPrices with data set #1</name>
+    </test-case>
+    <test-case start="1556668803113" stop="1556668803114" status="passed">
+      <name>testDisplayPrices with data set #2</name>
+    </test-case>
+    <test-case start="1556668803115" stop="1556668803117" status="passed">
+      <name>testDisplayPrices with data set #3</name>
+    </test-case>
+    <test-case start="1556668803117" stop="1556668803119" status="passed">
+      <name>testDisplayPrices with data set #4</name>
+    </test-case>
+    <test-case start="1556668803119" stop="1556668803121" status="passed">
+      <name>testDisplayPrices with data set #5</name>
+    </test-case>
+    <test-case start="1556668803122" stop="1556668803123" status="passed">
+      <name>testDisplayPrices with data set #6</name>
+    </test-case>
+    <test-case start="1556668803124" stop="1556668803125" status="passed">
+      <name>testDisplayPrices with data set #7</name>
+    </test-case>
+    <test-case start="1556668803126" stop="1556668803127" status="passed">
+      <name>testDisplayPrices with data set #8</name>
+    </test-case>
+    <test-case start="1556668803128" stop="1556668803131" status="passed">
+      <name>testDisplayPriceAttribute with data set #0</name>
+    </test-case>
+    <test-case start="1556668803131" stop="1556668803134" status="passed">
+      <name>testDisplayPriceAttribute with data set #1</name>
+    </test-case>
+    <test-case start="1556668803134" stop="1556668803137" status="passed">
+      <name>testDisplayPriceAttribute with data set #2</name>
+    </test-case>
+    <test-case start="1556668803137" stop="1556668803139" status="passed">
+      <name>testDisplayPriceAttribute with data set #3</name>
+    </test-case>
+    <test-case start="1556668803140" stop="1556668803142" status="passed">
+      <name>testDisplayPriceAttribute with data set #4</name>
+    </test-case>
+    <test-case start="1556668803143" stop="1556668803145" status="passed">
+      <name>testDisplayPriceAttribute with data set #5</name>
+    </test-case>
+    <test-case start="1556668803146" stop="1556668803148" status="passed">
+      <name>testDisplayPriceAttribute with data set #6</name>
+    </test-case>
+    <test-case start="1556668803149" stop="1556668803151" status="passed">
+      <name>testDisplayPriceAttribute with data set #7</name>
+    </test-case>
+    <test-case start="1556668803151" stop="1556668803153" status="passed">
+      <name>testDisplayPriceAttribute with data set #8</name>
+    </test-case>
+    <test-case start="1556668803153" stop="1556668803163" status="passed">
+      <name>testApplySalableProductTypesFilter with data set #0</name>
+    </test-case>
+    <test-case start="1556668803164" stop="1556668803165" status="passed">
+      <name>testApplySalableProductTypesFilter with data set #1</name>
+    </test-case>
+    <test-case start="1556668803166" stop="1556668803168" status="passed">
+      <name>testApplySalableProductTypesFilter with data set #2</name>
+    </test-case>
+    <test-case start="1556668803168" stop="1556668803170" status="passed">
+      <name>testApplySalableProductTypesFilter with data set #3</name>
+    </test-case>
+    <test-case start="1556668803170" stop="1556668803172" status="passed">
+      <name>testApplySalableProductTypesFilter with data set #4</name>
+    </test-case>
+    <test-case start="1556668803173" stop="1556668803174" status="passed">
+      <name>testApplySalableProductTypesFilter with data set #5</name>
+    </test-case>
+    <test-case start="1556668803175" stop="1556668803176" status="passed">
+      <name>testApplySalableProductTypesFilter with data set #6</name>
+    </test-case>
+    <test-case start="1556668803177" stop="1556668803178" status="passed">
+      <name>testEscapeHtmlWithLinks with data set #0</name>
+    </test-case>
+    <test-case start="1556668803179" stop="1556668803180" status="passed">
+      <name>testEscapeHtmlWithLinks with data set #1</name>
+    </test-case>
+    <test-case start="1556668803180" stop="1556668803182" status="passed">
+      <name>testEscapeHtmlWithLinks with data set #2</name>
+    </test-case>
+    <test-case start="1556668803182" stop="1556668803183" status="passed">
+      <name>testEscapeHtmlWithLinks with data set "Not replacement with placeholders"</name>
+    </test-case>
+    <test-case start="1556668803184" stop="1556668803185" status="passed">
+      <name>testEscapeHtmlWithLinks with data set "Normal usage, url escaped"</name>
+    </test-case>
+    <test-case start="1556668803185" stop="1556668803187" status="passed">
+      <name>testEscapeHtmlWithLinks with data set "Normal usage, url not escaped"</name>
+    </test-case>
+    <test-case start="1556668803187" stop="1556668803188" status="passed">
+      <name>testEscapeHtmlWithLinks with data set "XSS test"</name>
+    </test-case>
+    <test-case start="1556668803189" stop="1556668803190" status="passed">
+      <name>testEscapeHtmlWithLinks with data set "Additional regex test"</name>
+    </test-case>
+    <test-case start="1556668803190" stop="1556668803191" status="passed">
+      <name>testEscapeHtmlWithLinks with data set "Break of valid urls"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

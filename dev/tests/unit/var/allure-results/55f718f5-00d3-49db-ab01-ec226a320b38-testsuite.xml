@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668818531" stop="1556668818535" version="1.4.0">
+  <name>Magento\Store\Test\Unit\Model\ScopeValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668818531" stop="1556668818532" status="passed">
+      <name>testScopeDefault</name>
+    </test-case>
+    <test-case start="1556668818532" stop="1556668818533" status="passed">
+      <name>testInvalidScope</name>
+    </test-case>
+    <test-case start="1556668818534" stop="1556668818534" status="passed">
+      <name>testInvalidScopeInvalidArgumentException</name>
+    </test-case>
+    <test-case start="1556668818534" stop="1556668818535" status="passed">
+      <name>testInvalidScopeNoSuchEntityException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

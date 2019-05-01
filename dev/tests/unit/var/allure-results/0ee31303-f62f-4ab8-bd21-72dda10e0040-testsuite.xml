@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856669" stop="1556668856686" version="1.4.0">
+  <name>Magento\Framework\Model\Test\Unit\ResourceModel\AbstractResourceTest</name>
+  <test-cases>
+    <test-case start="1556668856669" stop="1556668856671" status="passed">
+      <name>testSerializeFields with data set #0</name>
+    </test-case>
+    <test-case start="1556668856671" stop="1556668856672" status="passed">
+      <name>testSerializeFields with data set #1</name>
+    </test-case>
+    <test-case start="1556668856672" stop="1556668856673" status="passed">
+      <name>testSerializeFields with data set #2</name>
+    </test-case>
+    <test-case start="1556668856674" stop="1556668856674" status="passed">
+      <name>testSerializeFields with data set #3</name>
+    </test-case>
+    <test-case start="1556668856675" stop="1556668856675" status="passed">
+      <name>testSerializeFields with data set #4</name>
+    </test-case>
+    <test-case start="1556668856676" stop="1556668856677" status="passed">
+      <name>testUnserializeFields with data set #0</name>
+    </test-case>
+    <test-case start="1556668856677" stop="1556668856678" status="passed">
+      <name>testUnserializeFields with data set #1</name>
+    </test-case>
+    <test-case start="1556668856678" stop="1556668856679" status="passed">
+      <name>testUnserializeFields with data set #2</name>
+    </test-case>
+    <test-case start="1556668856679" stop="1556668856680" status="passed">
+      <name>testUnserializeFields with data set #3</name>
+    </test-case>
+    <test-case start="1556668856680" stop="1556668856681" status="passed">
+      <name>testUnserializeFields with data set #4</name>
+    </test-case>
+    <test-case start="1556668856681" stop="1556668856682" status="passed">
+      <name>testUnserializeFields with data set #5</name>
+    </test-case>
+    <test-case start="1556668856682" stop="1556668856684" status="passed">
+      <name>testCommitZeroLevel</name>
+    </test-case>
+    <test-case start="1556668856684" stop="1556668856685" status="passed">
+      <name>testCommitZeroLevelCallbackException</name>
+    </test-case>
+    <test-case start="1556668856685" stop="1556668856686" status="passed">
+      <name>testCommitNotCompletedTransaction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

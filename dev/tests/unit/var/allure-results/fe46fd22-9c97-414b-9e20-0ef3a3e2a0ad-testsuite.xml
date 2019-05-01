@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668823048" stop="1556668823059" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Ui\DataProvider\Product\Listing\Collector\TaxTest</name>
+  <test-cases>
+    <test-case start="1556668823048" stop="1556668823059" status="passed">
+      <name>testCollect</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668858179" stop="1556668858226" version="1.4.0">
+  <name>Magento\Framework\Mview\Test\Unit\View\SubscriptionTest</name>
+  <test-cases>
+    <test-case start="1556668858179" stop="1556668858184" status="passed">
+      <name>testGetView</name>
+    </test-case>
+    <test-case start="1556668858184" stop="1556668858185" status="passed">
+      <name>testGetTableName</name>
+    </test-case>
+    <test-case start="1556668858185" stop="1556668858186" status="passed">
+      <name>testGetColumnName</name>
+    </test-case>
+    <test-case start="1556668858187" stop="1556668858208" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668858208" stop="1556668858226" status="passed">
+      <name>testRemove</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

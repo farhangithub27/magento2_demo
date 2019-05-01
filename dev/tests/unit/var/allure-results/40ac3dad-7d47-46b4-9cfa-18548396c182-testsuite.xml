@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668668687" stop="1556668668692" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Gateway\Validator\GeneralResponseValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668668687" stop="1556668668689" status="passed">
+      <name>testValidateParsesSuccess</name>
+    </test-case>
+    <test-case start="1556668668689" stop="1556668668690" status="passed">
+      <name>testValidateParsesErrors</name>
+    </test-case>
+    <test-case start="1556668668690" stop="1556668668691" status="passed">
+      <name>testValidateParsesMessages</name>
+    </test-case>
+    <test-case start="1556668668691" stop="1556668668692" status="passed">
+      <name>testValidateParsesErrorsWhenOnlyOneIsReturned</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

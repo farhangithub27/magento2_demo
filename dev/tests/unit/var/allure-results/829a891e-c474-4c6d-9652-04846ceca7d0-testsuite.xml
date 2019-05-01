@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845347" stop="1556668845354" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Route\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668845347" stop="1556668845348" status="passed">
+      <name>testGetRouteFrontNameIfCacheIfRouterIdNotExist</name>
+    </test-case>
+    <test-case start="1556668845349" stop="1556668845350" status="passed">
+      <name>testGetRouteByFrontName</name>
+    </test-case>
+    <test-case start="1556668845350" stop="1556668845351" status="passed">
+      <name>testGetRouteByFrontNameNoRoutes</name>
+    </test-case>
+    <test-case start="1556668845351" stop="1556668845353" status="passed">
+      <name>testGetRouteByFrontNameNoCache</name>
+    </test-case>
+    <test-case start="1556668845353" stop="1556668845354" status="passed">
+      <name>testGetModulesByFrontName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

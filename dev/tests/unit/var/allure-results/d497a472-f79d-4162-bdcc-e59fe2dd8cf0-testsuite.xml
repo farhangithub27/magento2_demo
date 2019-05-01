@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832344" stop="1556668832346" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Controller\Rest\ParamOverriderCustomerIdTest</name>
+  <test-cases>
+    <test-case start="1556668832344" stop="1556668832345" status="passed">
+      <name>testGetOverriddenValueIsCustomer</name>
+    </test-case>
+    <test-case start="1556668832346" stop="1556668832346" status="passed">
+      <name>testGetOverriddenValueIsNotCustomer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

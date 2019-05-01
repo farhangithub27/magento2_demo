@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668699437" stop="1556668699467" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Price\BasePriceStorageTest</name>
+  <test-cases>
+    <test-case start="1556668699437" stop="1556668699449" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668699449" stop="1556668699453" status="passed">
+      <name>testUpdate</name>
+    </test-case>
+    <test-case start="1556668699454" stop="1556668699467" status="passed">
+      <name>testUpdateWithoutSkuAndWithNegativePrice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

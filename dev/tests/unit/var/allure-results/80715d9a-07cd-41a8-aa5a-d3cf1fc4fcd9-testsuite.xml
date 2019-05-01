@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668674684" stop="1556668674702" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Model\Adminhtml\System\Config\CountryCreditCardTest</name>
+  <test-cases>
+    <test-case start="1556668674684" stop="1556668674687" status="passed">
+      <name>testBeforeSave with data set "empty_value"</name>
+    </test-case>
+    <test-case start="1556668674687" stop="1556668674689" status="passed">
+      <name>testBeforeSave with data set "not_array"</name>
+    </test-case>
+    <test-case start="1556668674689" stop="1556668674691" status="passed">
+      <name>testBeforeSave with data set "array_with_invalid_format"</name>
+    </test-case>
+    <test-case start="1556668674692" stop="1556668674693" status="passed">
+      <name>testBeforeSave with data set "array_with_two_countries"</name>
+    </test-case>
+    <test-case start="1556668674694" stop="1556668674695" status="passed">
+      <name>testBeforeSave with data set "array_with_two_same_countries"</name>
+    </test-case>
+    <test-case start="1556668674696" stop="1556668674698" status="passed">
+      <name>testAfterLoad with data set "empty"</name>
+    </test-case>
+    <test-case start="1556668674698" stop="1556668674700" status="passed">
+      <name>testAfterLoad with data set "null"</name>
+    </test-case>
+    <test-case start="1556668674700" stop="1556668674702" status="passed">
+      <name>testAfterLoad with data set "valid data"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

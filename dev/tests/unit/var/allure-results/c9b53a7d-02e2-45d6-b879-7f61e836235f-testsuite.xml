@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668717480" stop="1556668717484" version="1.4.0">
+  <name>Magento\CurrencySymbol\Test\Unit\Observer\CurrencyDisplayOptionsTest</name>
+  <test-cases>
+    <test-case start="1556668717480" stop="1556668717482" status="passed">
+      <name>testCurrencyDisplayOptionsEmpty</name>
+    </test-case>
+    <test-case start="1556668717483" stop="1556668717484" status="passed">
+      <name>testCurrencyDisplayOptions</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668683134" stop="1556668683187" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Model\Stock\StockItemRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668683134" stop="1556668683147" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668683148" stop="1556668683150" status="passed">
+      <name>testDeleteException</name>
+    </test-case>
+    <test-case start="1556668683150" stop="1556668683153" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668683153" stop="1556668683156" status="passed">
+      <name>testDeleteByIdException</name>
+    </test-case>
+    <test-case start="1556668683156" stop="1556668683170" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668683170" stop="1556668683173" status="passed">
+      <name>testSaveWithoutProductId</name>
+    </test-case>
+    <test-case start="1556668683173" stop="1556668683179" status="passed">
+      <name>testSaveException</name>
+    </test-case>
+    <test-case start="1556668683179" stop="1556668683187" status="passed">
+      <name>testGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

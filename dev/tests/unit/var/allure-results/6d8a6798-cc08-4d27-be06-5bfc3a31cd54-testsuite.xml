@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668821855" stop="1556668821879" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\Sales\Total\Quote\CommonTaxCollectorTest</name>
+  <test-cases>
+    <test-case start="1556668821856" stop="1556668821867" status="passed">
+      <name>testGetShippingDataObject with data set "free_shipping"</name>
+    </test-case>
+    <test-case start="1556668821868" stop="1556668821873" status="passed">
+      <name>testGetShippingDataObject with data set "none_zero_none_base"</name>
+    </test-case>
+    <test-case start="1556668821874" stop="1556668821879" status="passed">
+      <name>testGetShippingDataObject with data set "none_zero_base"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

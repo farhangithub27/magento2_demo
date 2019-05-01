@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668714929" stop="1556668714942" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Model\Product\Configuration\Item\ItemProductResolverTest</name>
+  <test-cases>
+    <test-case start="1556668714929" stop="1556668714931" status="passed">
+      <name>testGetFinalProductChildIsNull</name>
+    </test-case>
+    <test-case start="1556668714931" stop="1556668714933" status="passed">
+      <name>testGetFinalProductChild with data set #0</name>
+    </test-case>
+    <test-case start="1556668714933" stop="1556668714935" status="passed">
+      <name>testGetFinalProductChild with data set #1</name>
+    </test-case>
+    <test-case start="1556668714935" stop="1556668714936" status="passed">
+      <name>testGetFinalProductChild with data set #2</name>
+    </test-case>
+    <test-case start="1556668714937" stop="1556668714938" status="passed">
+      <name>testGetFinalProductChild with data set #3</name>
+    </test-case>
+    <test-case start="1556668714939" stop="1556668714940" status="passed">
+      <name>testGetFinalProductChild with data set #4</name>
+    </test-case>
+    <test-case start="1556668714940" stop="1556668714942" status="passed">
+      <name>testGetFinalProductChild with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

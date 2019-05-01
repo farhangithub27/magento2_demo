@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668824398" stop="1556668824420" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Controller\Result\MessagePluginTest</name>
+  <test-cases>
+    <test-case start="1556668824398" stop="1556668824402" status="passed">
+      <name>testAfterRenderResultJson</name>
+    </test-case>
+    <test-case start="1556668824402" stop="1556668824406" status="passed">
+      <name>testAfterRenderResult</name>
+    </test-case>
+    <test-case start="1556668824406" stop="1556668824408" status="passed">
+      <name>testAfterRenderResultWithNoMessages</name>
+    </test-case>
+    <test-case start="1556668824408" stop="1556668824411" status="passed">
+      <name>testAfterRenderResultWithoutExisting</name>
+    </test-case>
+    <test-case start="1556668824411" stop="1556668824414" status="passed">
+      <name>testAfterRenderResultWithWrongJson</name>
+    </test-case>
+    <test-case start="1556668824414" stop="1556668824417" status="passed">
+      <name>testAfterRenderResultWithWrongArray</name>
+    </test-case>
+    <test-case start="1556668824417" stop="1556668824420" status="passed">
+      <name>testAfterRenderResultWithAllowedInlineTranslate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

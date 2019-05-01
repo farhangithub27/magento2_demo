@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668863196" stop="1556668863211" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Declaration\Schema\Diff\DiffManagerTest</name>
+  <test-cases>
+    <test-case start="1556668863196" stop="1556668863197" status="passed">
+      <name>testShouldBeCreated</name>
+    </test-case>
+    <test-case start="1556668863198" stop="1556668863200" status="passed">
+      <name>testRegisterModification</name>
+    </test-case>
+    <test-case start="1556668863200" stop="1556668863202" status="passed">
+      <name>testRegisterIndexModification</name>
+    </test-case>
+    <test-case start="1556668863203" stop="1556668863205" status="passed">
+      <name>testRegisterRemovalReference</name>
+    </test-case>
+    <test-case start="1556668863206" stop="1556668863208" status="passed">
+      <name>testRegisterCreation</name>
+    </test-case>
+    <test-case start="1556668863208" stop="1556668863210" status="passed">
+      <name>testRegisterTableModificationWhenChangeResource</name>
+    </test-case>
+    <test-case start="1556668863210" stop="1556668863211" status="passed">
+      <name>testRegisterTableModificationWhenChangeEngine</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

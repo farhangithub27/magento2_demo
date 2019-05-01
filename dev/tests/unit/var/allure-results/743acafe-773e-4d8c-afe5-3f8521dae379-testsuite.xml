@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668800966" stop="1556668800971" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Block\Adminhtml\Rss\Order\Grid\LinkTest</name>
+  <test-cases>
+    <test-case start="1556668800967" stop="1556668800968" status="passed">
+      <name>testGetLink</name>
+    </test-case>
+    <test-case start="1556668800968" stop="1556668800969" status="passed">
+      <name>testGetLabel</name>
+    </test-case>
+    <test-case start="1556668800970" stop="1556668800971" status="passed">
+      <name>testIsRssAllowed</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

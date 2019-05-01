@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668872244" stop="1556668872252" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Element\Template\File\ValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668872244" stop="1556668872246" status="passed">
+      <name>testIsValid with data set "empty"</name>
+    </test-case>
+    <test-case start="1556668872246" stop="1556668872247" status="passed">
+      <name>testIsValid with data set "/magento/var/compiled/template.phtml"</name>
+    </test-case>
+    <test-case start="1556668872248" stop="1556668872249" status="passed">
+      <name>testIsValid with data set "/magento/themes/default/template.phtml"</name>
+    </test-case>
+    <test-case start="1556668872249" stop="1556668872251" status="passed">
+      <name>testIsValid with data set "/magento/app/code/Some/Module/template.phtml"</name>
+    </test-case>
+    <test-case start="1556668872251" stop="1556668872252" status="passed">
+      <name>testIsValid with data set "/magento/x"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

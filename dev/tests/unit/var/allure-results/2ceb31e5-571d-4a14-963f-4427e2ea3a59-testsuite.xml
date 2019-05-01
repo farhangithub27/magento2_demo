@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668692611" stop="1556668692641" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\CustomerData\CompareProductsTest</name>
+  <test-cases>
+    <test-case start="1556668692612" stop="1556668692636" status="passed">
+      <name>testGetSectionData</name>
+    </test-case>
+    <test-case start="1556668692636" stop="1556668692638" status="passed">
+      <name>testGetSectionDataNoItems</name>
+    </test-case>
+    <test-case start="1556668692638" stop="1556668692641" status="passed">
+      <name>testGetSectionDataSingleItem</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

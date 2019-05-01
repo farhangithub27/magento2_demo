@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668853072" stop="1556668853082" version="1.4.0">
+  <name>Magento\Framework\Event\Test\Unit\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668853072" stop="1556668853073" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "event_without_required_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668853073" stop="1556668853074" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "event_with_notallowed_attribute"</name>
+    </test-case>
+    <test-case start="1556668853074" stop="1556668853075" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "event_with_same_name_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668853075" stop="1556668853076" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "event_without_required_observer_handle"</name>
+    </test-case>
+    <test-case start="1556668853076" stop="1556668853077" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "event_without_required_observer_name_attribute"</name>
+    </test-case>
+    <test-case start="1556668853077" stop="1556668853078" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "event_with_same_observer_handle_name"</name>
+    </test-case>
+    <test-case start="1556668853078" stop="1556668853079" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "event_observer_with_invalid_disabled_value"</name>
+    </test-case>
+    <test-case start="1556668853079" stop="1556668853080" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "event_observer_with_invalid_shared_value"</name>
+    </test-case>
+    <test-case start="1556668853080" stop="1556668853081" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "event_observer_with_invalid_method_value"</name>
+    </test-case>
+    <test-case start="1556668853081" stop="1556668853082" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

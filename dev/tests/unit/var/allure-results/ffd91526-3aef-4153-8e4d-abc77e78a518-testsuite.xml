@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668795351" stop="1556668795364" version="1.4.0">
+  <name>Magento\Reports\Test\Unit\Model\ResourceModel\HelperTest</name>
+  <test-cases>
+    <test-case start="1556668795351" stop="1556668795352" status="passed">
+      <name>testMergeVisitorProductIndex</name>
+    </test-case>
+    <test-case start="1556668795353" stop="1556668795355" status="passed">
+      <name>testUpdateReportRatingPos with data set #0</name>
+    </test-case>
+    <test-case start="1556668795356" stop="1556668795358" status="passed">
+      <name>testUpdateReportRatingPos with data set #1</name>
+    </test-case>
+    <test-case start="1556668795359" stop="1556668795361" status="passed">
+      <name>testUpdateReportRatingPos with data set #2</name>
+    </test-case>
+    <test-case start="1556668795361" stop="1556668795364" status="passed">
+      <name>testUpdateReportRatingPos with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

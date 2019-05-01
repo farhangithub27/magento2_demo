@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668797711" stop="1556668797725" version="1.4.0">
+  <name>Magento\Rule\Test\Unit\Model\ResourceModel\Rule\Collection\AbstractCollectionTest</name>
+  <test-cases>
+    <test-case start="1556668797711" stop="1556668797713" status="passed">
+      <name>testAddWebsitesToResult with data set #0</name>
+    </test-case>
+    <test-case start="1556668797714" stop="1556668797715" status="passed">
+      <name>testAddWebsitesToResult with data set #1</name>
+    </test-case>
+    <test-case start="1556668797715" stop="1556668797716" status="passed">
+      <name>testAddWebsitesToResult with data set #2</name>
+    </test-case>
+    <test-case start="1556668797716" stop="1556668797719" status="passed">
+      <name>testAddWebsiteFilter</name>
+    </test-case>
+    <test-case start="1556668797719" stop="1556668797722" status="passed">
+      <name>testAddWebsiteFilterArray</name>
+    </test-case>
+    <test-case start="1556668797722" stop="1556668797724" status="passed">
+      <name>testAddFieldToFilter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

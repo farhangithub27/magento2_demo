@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668669967" stop="1556668669988" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Block\Cache\AdditionalTest</name>
+  <test-cases>
+    <test-case start="1556668669967" stop="1556668669970" status="passed">
+      <name>testGetCleanImagesUrl</name>
+    </test-case>
+    <test-case start="1556668669971" stop="1556668669974" status="passed">
+      <name>testGetCleanMediaUrl</name>
+    </test-case>
+    <test-case start="1556668669974" stop="1556668669977" status="passed">
+      <name>testGetCleanStaticFiles</name>
+    </test-case>
+    <test-case start="1556668669978" stop="1556668669981" status="passed">
+      <name>testIsInProductionMode with data set #0</name>
+    </test-case>
+    <test-case start="1556668669981" stop="1556668669984" status="passed">
+      <name>testIsInProductionMode with data set #1</name>
+    </test-case>
+    <test-case start="1556668669985" stop="1556668669988" status="passed">
+      <name>testIsInProductionMode with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

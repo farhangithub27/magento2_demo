@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668665128" stop="1556668665145" version="1.4.0">
+  <name>Magento\AdvancedSearch\Test\Unit\Model\ResourceModel\IndexTest</name>
+  <test-cases>
+    <test-case start="1556668665128" stop="1556668665145" status="passed">
+      <name>testGetPriceIndexDataUsesFrontendPriceIndexerTable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

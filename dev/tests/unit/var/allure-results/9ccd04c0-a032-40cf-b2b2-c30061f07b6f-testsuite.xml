@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668842098" stop="1556668842107" version="1.4.0">
+  <name>Magento\Framework\Api\Test\Unit\SortOrderTest</name>
+  <test-cases>
+    <test-case start="1556668842098" stop="1556668842098" status="passed">
+      <name>testItReturnsNullIfNoOrderIsSet</name>
+    </test-case>
+    <test-case start="1556668842099" stop="1556668842099" status="passed">
+      <name>testItReturnsTheCorrectValuesIfSortOrderIsSet with data set #0</name>
+    </test-case>
+    <test-case start="1556668842099" stop="1556668842100" status="passed">
+      <name>testItReturnsTheCorrectValuesIfSortOrderIsSet with data set #1</name>
+    </test-case>
+    <test-case start="1556668842100" stop="1556668842101" status="passed">
+      <name>testItThrowsAnExceptionIfAnInvalidSortOrderIsSet with data set #0</name>
+    </test-case>
+    <test-case start="1556668842101" stop="1556668842102" status="passed">
+      <name>testItThrowsAnExceptionIfAnInvalidSortOrderIsSet with data set #1</name>
+    </test-case>
+    <test-case start="1556668842102" stop="1556668842102" status="passed">
+      <name>testItThrowsAnExceptionIfAnInvalidSortOrderIsSet with data set #2</name>
+    </test-case>
+    <test-case start="1556668842103" stop="1556668842103" status="passed">
+      <name>testItThrowsAnExceptionIfAnInvalidSortOrderIsSet with data set #3</name>
+    </test-case>
+    <test-case start="1556668842103" stop="1556668842104" status="passed">
+      <name>testItThrowsAnExceptionIfAnInvalidSortOrderIsSet with data set #4</name>
+    </test-case>
+    <test-case start="1556668842104" stop="1556668842105" status="passed">
+      <name>testItThrowsAnExceptionIfAnInvalidSortOrderIsSet with data set #5</name>
+    </test-case>
+    <test-case start="1556668842105" stop="1556668842105" status="passed">
+      <name>testTheSortDirectionCanBeSpecifiedCaseInsensitive</name>
+    </test-case>
+    <test-case start="1556668842106" stop="1556668842106" status="passed">
+      <name>testItValidatesADirectionAssignedDuringInstantiation</name>
+    </test-case>
+    <test-case start="1556668842106" stop="1556668842107" status="passed">
+      <name>testValidateField</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

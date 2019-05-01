@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668786541" stop="1556668786548" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Controller\Ipn\IndexTest</name>
+  <test-cases>
+    <test-case start="1556668786542" stop="1556668786545" status="passed">
+      <name>testIndexActionException</name>
+    </test-case>
+    <test-case start="1556668786545" stop="1556668786548" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

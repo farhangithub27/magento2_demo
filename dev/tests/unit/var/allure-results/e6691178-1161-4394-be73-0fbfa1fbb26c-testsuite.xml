@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668673673" stop="1556668673689" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Command\GetPaymentNonceCommandTest</name>
+  <test-cases>
+    <test-case start="1556668673673" stop="1556668673680" status="passed">
+      <name>testExecuteWithExceptionForPublicHash</name>
+    </test-case>
+    <test-case start="1556668673680" stop="1556668673682" status="passed">
+      <name>testExecuteWithExceptionForCustomerId</name>
+    </test-case>
+    <test-case start="1556668673682" stop="1556668673683" status="passed">
+      <name>testExecuteWithExceptionForTokenManagement</name>
+    </test-case>
+    <test-case start="1556668673684" stop="1556668673686" status="passed">
+      <name>testExecuteWithFailedValidation</name>
+    </test-case>
+    <test-case start="1556668673686" stop="1556668673689" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

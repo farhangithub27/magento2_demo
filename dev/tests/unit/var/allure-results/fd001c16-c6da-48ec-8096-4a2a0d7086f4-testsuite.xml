@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668706267" stop="1556668706282" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Block\Cart\SidebarTest</name>
+  <test-cases>
+    <test-case start="1556668706267" stop="1556668706271" status="passed">
+      <name>testGetTotalsHtml</name>
+    </test-case>
+    <test-case start="1556668706272" stop="1556668706276" status="passed">
+      <name>testGetConfig</name>
+    </test-case>
+    <test-case start="1556668706276" stop="1556668706279" status="passed">
+      <name>testGetIsNeedToDisplaySideBar</name>
+    </test-case>
+    <test-case start="1556668706279" stop="1556668706282" status="passed">
+      <name>testGetTotalsCache</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

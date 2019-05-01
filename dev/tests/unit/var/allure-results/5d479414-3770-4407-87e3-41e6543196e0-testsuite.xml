@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668851925" stop="1556668851937" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\SearchResultProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668851925" stop="1556668851929" status="passed">
+      <name>testGetCurrentPage</name>
+    </test-case>
+    <test-case start="1556668851929" stop="1556668851930" status="passed">
+      <name>testGetPageSize</name>
+    </test-case>
+    <test-case start="1556668851930" stop="1556668851931" status="passed">
+      <name>testGetFirstItem</name>
+    </test-case>
+    <test-case start="1556668851931" stop="1556668851932" status="passed">
+      <name>testGetLastItem</name>
+    </test-case>
+    <test-case start="1556668851932" stop="1556668851933" status="passed">
+      <name>testGetAllIds</name>
+    </test-case>
+    <test-case start="1556668851933" stop="1556668851934" status="passed">
+      <name>testGetItemById</name>
+    </test-case>
+    <test-case start="1556668851934" stop="1556668851935" status="passed">
+      <name>testGetColumnValues</name>
+    </test-case>
+    <test-case start="1556668851935" stop="1556668851936" status="passed">
+      <name>testGetItemsByColumnValue</name>
+    </test-case>
+    <test-case start="1556668851936" stop="1556668851937" status="passed">
+      <name>testGetItemByColumnValue</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

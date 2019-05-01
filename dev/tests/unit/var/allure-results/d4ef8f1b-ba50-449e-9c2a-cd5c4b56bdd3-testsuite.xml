@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843212" stop="1556668843216" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Config\Data\ProcessorFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668843212" stop="1556668843213" status="passed">
+      <name>testGetModelWithCorrectInterface</name>
+    </test-case>
+    <test-case start="1556668843213" stop="1556668843215" status="passed">
+      <name>testGetModelWithWrongInterface</name>
+    </test-case>
+    <test-case start="1556668843215" stop="1556668843215" status="passed">
+      <name>testGetMemoryCache</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

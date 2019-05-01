@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668687338" stop="1556668687344" version="1.4.0">
+  <name>Magento\CatalogUrlRewrite\Test\Unit\Model\CategoryBasedProductRewriteGeneratorTest</name>
+  <test-cases>
+    <test-case start="1556668687338" stop="1556668687341" status="passed">
+      <name>testGenerationWithGlobalScope</name>
+    </test-case>
+    <test-case start="1556668687342" stop="1556668687344" status="passed">
+      <name>testGenerationWithSpecificStore</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

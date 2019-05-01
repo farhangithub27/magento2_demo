@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668799004" stop="1556668799069" version="1.4.0">
+  <name>Magento\SalesRule\Test\Unit\Model\Rule\Condition\ProductTest</name>
+  <test-cases>
+    <test-case start="1556668799005" stop="1556668799020" status="passed">
+      <name>testGetValueElementChooserUrl with data set "category_ids_without_js_object"</name>
+    </test-case>
+    <test-case start="1556668799020" stop="1556668799023" status="passed">
+      <name>testGetValueElementChooserUrl with data set "category_ids_with_js_object"</name>
+    </test-case>
+    <test-case start="1556668799024" stop="1556668799026" status="passed">
+      <name>testGetValueElementChooserUrl with data set "sku_without_js_object"</name>
+    </test-case>
+    <test-case start="1556668799027" stop="1556668799030" status="passed">
+      <name>testGetValueElementChooserUrl with data set "sku_without_with_js_object"</name>
+    </test-case>
+    <test-case start="1556668799030" stop="1556668799033" status="passed">
+      <name>testGetValueElementChooserUrl with data set "none"</name>
+    </test-case>
+    <test-case start="1556668799033" stop="1556668799039" status="passed">
+      <name>testValidateCategoriesIgnoresVisibility</name>
+    </test-case>
+    <test-case start="1556668799039" stop="1556668799046" status="passed">
+      <name>testQuoteLocaleFormatPrice with data set "number"</name>
+    </test-case>
+    <test-case start="1556668799046" stop="1556668799052" status="passed">
+      <name>testQuoteLocaleFormatPrice with data set "locale"</name>
+    </test-case>
+    <test-case start="1556668799052" stop="1556668799057" status="passed">
+      <name>testQuoteLocaleFormatPrice with data set "operation"</name>
+    </test-case>
+    <test-case start="1556668799058" stop="1556668799063" status="passed">
+      <name>testQuoteLocaleFormatPrice with data set "stringOperation"</name>
+    </test-case>
+    <test-case start="1556668799063" stop="1556668799068" status="passed">
+      <name>testQuoteLocaleFormatPrice with data set "smallPrice"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

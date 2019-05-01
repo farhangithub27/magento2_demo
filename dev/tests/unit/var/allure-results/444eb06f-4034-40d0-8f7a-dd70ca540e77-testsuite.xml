@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790929" stop="1556668790938" version="1.4.0">
+  <name>Magento\ProductVideo\Test\Unit\Model\Product\Attribute\Media\VideoEntryTest</name>
+  <test-cases>
+    <test-case start="1556668790929" stop="1556668790930" status="passed">
+      <name>testGetMediaType</name>
+    </test-case>
+    <test-case start="1556668790930" stop="1556668790931" status="passed">
+      <name>testSetMediaType</name>
+    </test-case>
+    <test-case start="1556668790931" stop="1556668790931" status="passed">
+      <name>testGetVideoProvider</name>
+    </test-case>
+    <test-case start="1556668790932" stop="1556668790932" status="passed">
+      <name>testSetVideoProvider</name>
+    </test-case>
+    <test-case start="1556668790932" stop="1556668790933" status="passed">
+      <name>testGetVideoUrl</name>
+    </test-case>
+    <test-case start="1556668790933" stop="1556668790934" status="passed">
+      <name>testSetVideoUrl</name>
+    </test-case>
+    <test-case start="1556668790934" stop="1556668790934" status="passed">
+      <name>testGetVideoTitle</name>
+    </test-case>
+    <test-case start="1556668790935" stop="1556668790935" status="passed">
+      <name>testSetVideoTitle</name>
+    </test-case>
+    <test-case start="1556668790935" stop="1556668790936" status="passed">
+      <name>testGetVideoDescription</name>
+    </test-case>
+    <test-case start="1556668790936" stop="1556668790936" status="passed">
+      <name>testSetVideoDescription</name>
+    </test-case>
+    <test-case start="1556668790937" stop="1556668790937" status="passed">
+      <name>testGetVideoMetadata</name>
+    </test-case>
+    <test-case start="1556668790937" stop="1556668790938" status="passed">
+      <name>testSetVideoMetadata</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

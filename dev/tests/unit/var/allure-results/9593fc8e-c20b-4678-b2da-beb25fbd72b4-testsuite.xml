@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668691013" stop="1556668691041" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Rss\Product\NewProductsTest</name>
+  <test-cases>
+    <test-case start="1556668691013" stop="1556668691018" status="passed">
+      <name>testIsAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668691019" stop="1556668691022" status="passed">
+      <name>testIsAllowed with data set #1</name>
+    </test-case>
+    <test-case start="1556668691022" stop="1556668691033" status="passed">
+      <name>testGetRssData</name>
+    </test-case>
+    <test-case start="1556668691033" stop="1556668691036" status="passed">
+      <name>testGetCacheLifetime</name>
+    </test-case>
+    <test-case start="1556668691037" stop="1556668691040" status="passed">
+      <name>testGetFeeds</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

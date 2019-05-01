@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668807495" stop="1556668807555" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\InvoiceQuantityValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668807496" stop="1556668807531" status="passed">
+      <name>testValidate</name>
+    </test-case>
+    <test-case start="1556668807531" stop="1556668807539" status="passed">
+      <name>testValidateInvoiceQtyBiggerThanOrder</name>
+    </test-case>
+    <test-case start="1556668807539" stop="1556668807543" status="passed">
+      <name>testValidateNoOrderItems</name>
+    </test-case>
+    <test-case start="1556668807544" stop="1556668807547" status="passed">
+      <name>testValidateNoOrder</name>
+    </test-case>
+    <test-case start="1556668807547" stop="1556668807555" status="passed">
+      <name>testValidateNoInvoiceItems</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

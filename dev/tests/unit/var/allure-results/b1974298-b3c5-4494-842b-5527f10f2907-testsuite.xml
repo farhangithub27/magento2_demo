@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668716407" stop="1556668716414" version="1.4.0">
+  <name>Magento\Cookie\Test\Unit\Controller\Index\NoCookiesTest</name>
+  <test-cases>
+    <test-case start="1556668716407" stop="1556668716410" status="passed">
+      <name>testExecuteRedirectUrl</name>
+    </test-case>
+    <test-case start="1556668716410" stop="1556668716412" status="passed">
+      <name>testExecuteRedirectPath</name>
+    </test-case>
+    <test-case start="1556668716412" stop="1556668716414" status="passed">
+      <name>testExecuteDefault</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

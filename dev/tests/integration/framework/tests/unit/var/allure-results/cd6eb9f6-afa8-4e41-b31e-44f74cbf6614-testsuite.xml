@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668877252" stop="1556668877260" version="1.4.0">
+  <name>Magento\Test\Event\TransactionTest</name>
+  <test-cases>
+    <test-case start="1556668877252" stop="1556668877254" status="passed">
+      <name>testStartAndRollbackTransaction with data set "method "startTest""</name>
+    </test-case>
+    <test-case start="1556668877255" stop="1556668877256" status="passed">
+      <name>testStartAndRollbackTransaction with data set "method "endTest""</name>
+    </test-case>
+    <test-case start="1556668877257" stop="1556668877257" status="passed">
+      <name>testDoNotStartAndRollbackTransaction with data set "method "startTest""</name>
+    </test-case>
+    <test-case start="1556668877257" stop="1556668877258" status="passed">
+      <name>testDoNotStartAndRollbackTransaction with data set "method "endTest""</name>
+    </test-case>
+    <test-case start="1556668877258" stop="1556668877259" status="passed">
+      <name>testEndTestSuiteDoNothing</name>
+    </test-case>
+    <test-case start="1556668877259" stop="1556668877260" status="passed">
+      <name>testEndTestSuiteRollbackTransaction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

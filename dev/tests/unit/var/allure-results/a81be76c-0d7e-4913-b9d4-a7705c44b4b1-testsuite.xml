@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667605" stop="1556668667612" version="1.4.0">
+  <name>Magento\Authorization\Test\Unit\Model\CompositeUserContextTest</name>
+  <test-cases>
+    <test-case start="1556668667605" stop="1556668667607" status="passed">
+      <name>testConstructor</name>
+    </test-case>
+    <test-case start="1556668667607" stop="1556668667608" status="passed">
+      <name>testGetUserId</name>
+    </test-case>
+    <test-case start="1556668667608" stop="1556668667609" status="passed">
+      <name>testGetUserType</name>
+    </test-case>
+    <test-case start="1556668667609" stop="1556668667611" status="passed">
+      <name>testUserContextCaching</name>
+    </test-case>
+    <test-case start="1556668667611" stop="1556668667612" status="passed">
+      <name>testEmptyUserContext</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

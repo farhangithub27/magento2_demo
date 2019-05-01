@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668800759" stop="1556668800766" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Block\Adminhtml\Order\View\Tab\HistoryTest</name>
+  <test-cases>
+    <test-case start="1556668800759" stop="1556668800761" status="passed">
+      <name>testGetItemComment</name>
+    </test-case>
+    <test-case start="1556668800761" stop="1556668800762" status="passed">
+      <name>testGetItemCommentIsNotSet</name>
+    </test-case>
+    <test-case start="1556668800762" stop="1556668800763" status="passed">
+      <name>testGetItemCreatedAtDate</name>
+    </test-case>
+    <test-case start="1556668800763" stop="1556668800765" status="passed">
+      <name>testGetItemCreatedAtTime</name>
+    </test-case>
+    <test-case start="1556668800765" stop="1556668800766" status="passed">
+      <name>testGetItemCreatedAtEmpty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

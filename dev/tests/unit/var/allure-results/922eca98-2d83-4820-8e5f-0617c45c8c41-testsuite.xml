@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668834564" stop="1556668834574" version="1.4.0">
+  <name>Magento\Weee\Test\Unit\Observer\GetPriceConfigurationObserverTest</name>
+  <test-cases>
+    <test-case start="1556668834564" stop="1556668834570" status="passed">
+      <name>testGetPriceConfiguration with data set "basic"</name>
+    </test-case>
+    <test-case start="1556668834570" stop="1556668834572" status="passed">
+      <name>testGetPriceConfiguration with data set "layered, with extra keys"</name>
+    </test-case>
+    <test-case start="1556668834573" stop="1556668834574" status="passed">
+      <name>testGetPriceConfiguration with data set "no Weee attributes, expect WeeePrice to be same as FinalPrice"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

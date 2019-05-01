@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838001" stop="1556668838014" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Repository\OrderInvoiceStatusRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668838001" stop="1556668838005" status="passed">
+      <name>testSaveHappyPath</name>
+    </test-case>
+    <test-case start="1556668838005" stop="1556668838006" status="passed">
+      <name>testSaveAlreadyExists</name>
+    </test-case>
+    <test-case start="1556668838006" stop="1556668838007" status="passed">
+      <name>testSaveOtherException</name>
+    </test-case>
+    <test-case start="1556668838007" stop="1556668838008" status="passed">
+      <name>testDeleteHappyPath</name>
+    </test-case>
+    <test-case start="1556668838008" stop="1556668838009" status="passed">
+      <name>testDeleteException</name>
+    </test-case>
+    <test-case start="1556668838009" stop="1556668838010" status="passed">
+      <name>testDeleteOrderByIdHappyPath</name>
+    </test-case>
+    <test-case start="1556668838010" stop="1556668838011" status="passed">
+      <name>testDeleteOrderByIdException</name>
+    </test-case>
+    <test-case start="1556668838012" stop="1556668838013" status="passed">
+      <name>testGetByOrderIdHappyPath</name>
+    </test-case>
+    <test-case start="1556668838013" stop="1556668838014" status="passed">
+      <name>testGetByOrderIdException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837501" stop="1556668837512" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Cache\SerializerTest</name>
+  <test-cases>
+    <test-case start="1556668837501" stop="1556668837502" status="passed">
+      <name>testStringType</name>
+    </test-case>
+    <test-case start="1556668837502" stop="1556668837502" status="passed">
+      <name>testDoubleType</name>
+    </test-case>
+    <test-case start="1556668837503" stop="1556668837503" status="passed">
+      <name>testIntegerType</name>
+    </test-case>
+    <test-case start="1556668837504" stop="1556668837504" status="passed">
+      <name>testBooleanType</name>
+    </test-case>
+    <test-case start="1556668837504" stop="1556668837505" status="passed">
+      <name>testArrayType</name>
+    </test-case>
+    <test-case start="1556668837505" stop="1556668837505" status="passed">
+      <name>testNullType</name>
+    </test-case>
+    <test-case start="1556668837506" stop="1556668837506" status="passed">
+      <name>testUnsupportedInputType with data set #0</name>
+    </test-case>
+    <test-case start="1556668837507" stop="1556668837507" status="passed">
+      <name>testUnsupportedInputType with data set #1</name>
+    </test-case>
+    <test-case start="1556668837507" stop="1556668837508" status="passed">
+      <name>testUnsupportedInputType with data set #2</name>
+    </test-case>
+    <test-case start="1556668837508" stop="1556668837512" status="canceled">
+      <name>testArrayRecursion</name>
+      <failure>
+        <message>Could not set high enough nesting level.</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/vertex/module-tax/Test/Unit/Model/Cache/SerializerTest.php(159): PHPUnit\Framework\Assert::markTestSkipped('Could not set h...')
+#1 [internal function]: Vertex\Tax\Test\Unit\Model\Cache\SerializerTest-&gt;testArrayRecursion()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(1071): ReflectionMethod-&gt;invokeArgs(Object(Vertex\Tax\Test\Unit\Model\Cache\SerializerTest), Array)
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(939): PHPUnit\Framework\TestCase-&gt;runTest()
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Vertex\Tax\Test\Unit\Model\Cache\SerializerTest))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#11 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#12 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#13 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

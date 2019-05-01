@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668737896" stop="1556668737901" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Model\Adapter\FieldMapper\FieldMapperResolverTest</name>
+  <test-cases>
+    <test-case start="1556668737896" stop="1556668737897" status="passed">
+      <name>testGetFieldNameEmpty</name>
+    </test-case>
+    <test-case start="1556668737897" stop="1556668737898" status="passed">
+      <name>testGetFieldNameWrongType</name>
+    </test-case>
+    <test-case start="1556668737898" stop="1556668737899" status="passed">
+      <name>testGetFieldNameFailure</name>
+    </test-case>
+    <test-case start="1556668737899" stop="1556668737900" status="passed">
+      <name>testGetFieldName</name>
+    </test-case>
+    <test-case start="1556668737900" stop="1556668737901" status="passed">
+      <name>testGetAllAttributesTypes</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

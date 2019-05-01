@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668702491" stop="1556668702519" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ResourceModel\Product\GalleryTest</name>
+  <test-cases>
+    <test-case start="1556668702491" stop="1556668702494" status="passed">
+      <name>testLoadDataFromTableByValueId</name>
+    </test-case>
+    <test-case start="1556668702494" stop="1556668702497" status="passed">
+      <name>testLoadDataFromTableByValueIdNoColsWithWhere</name>
+    </test-case>
+    <test-case start="1556668702497" stop="1556668702498" status="passed">
+      <name>testBindValueToEntityRecordExists</name>
+    </test-case>
+    <test-case start="1556668702499" stop="1556668702507" status="passed">
+      <name>testLoadGallery</name>
+    </test-case>
+    <test-case start="1556668702508" stop="1556668702512" status="passed">
+      <name>testInsertGalleryValueInStore</name>
+    </test-case>
+    <test-case start="1556668702512" stop="1556668702516" status="passed">
+      <name>testDeleteGalleryValueInStore</name>
+    </test-case>
+    <test-case start="1556668702516" stop="1556668702519" status="passed">
+      <name>testCountImageUses</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

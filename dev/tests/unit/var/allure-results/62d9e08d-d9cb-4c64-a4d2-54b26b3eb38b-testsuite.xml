@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668792321" stop="1556668792396" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\Item\UpdaterTest</name>
+  <test-cases>
+    <test-case start="1556668792321" stop="1556668792326" status="passed">
+      <name>testUpdateNoQty</name>
+    </test-case>
+    <test-case start="1556668792326" stop="1556668792330" status="passed">
+      <name>testUpdateNotQtyDecimal with data set #0</name>
+    </test-case>
+    <test-case start="1556668792330" stop="1556668792333" status="passed">
+      <name>testUpdateNotQtyDecimal with data set #1</name>
+    </test-case>
+    <test-case start="1556668792333" stop="1556668792336" status="passed">
+      <name>testUpdateNotQtyDecimal with data set #2</name>
+    </test-case>
+    <test-case start="1556668792337" stop="1556668792340" status="passed">
+      <name>testUpdateNotQtyDecimal with data set #3</name>
+    </test-case>
+    <test-case start="1556668792340" stop="1556668792343" status="passed">
+      <name>testUpdateNotQtyDecimal with data set #4</name>
+    </test-case>
+    <test-case start="1556668792343" stop="1556668792347" status="passed">
+      <name>testUpdateNotQtyDecimal with data set #5</name>
+    </test-case>
+    <test-case start="1556668792347" stop="1556668792351" status="passed">
+      <name>testUpdateQtyDecimal with data set #0</name>
+    </test-case>
+    <test-case start="1556668792351" stop="1556668792355" status="passed">
+      <name>testUpdateQtyDecimal with data set #1</name>
+    </test-case>
+    <test-case start="1556668792355" stop="1556668792359" status="passed">
+      <name>testUpdateQtyDecimal with data set #2</name>
+    </test-case>
+    <test-case start="1556668792360" stop="1556668792364" status="passed">
+      <name>testUpdateQtyDecimal with data set #3</name>
+    </test-case>
+    <test-case start="1556668792364" stop="1556668792368" status="passed">
+      <name>testUpdateQtyDecimal with data set #4</name>
+    </test-case>
+    <test-case start="1556668792368" stop="1556668792372" status="passed">
+      <name>testUpdateQtyDecimal with data set #5</name>
+    </test-case>
+    <test-case start="1556668792372" stop="1556668792374" status="passed">
+      <name>testUpdateQtyDecimalWithConfiguredOption</name>
+    </test-case>
+    <test-case start="1556668792375" stop="1556668792383" status="passed">
+      <name>testUpdateCustomPrice</name>
+    </test-case>
+    <test-case start="1556668792383" stop="1556668792396" status="passed">
+      <name>testUpdateUnsetCustomPrice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

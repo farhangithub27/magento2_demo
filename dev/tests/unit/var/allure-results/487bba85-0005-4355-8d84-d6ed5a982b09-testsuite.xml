@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668736715" stop="1556668736730" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\ResourceModel\Attribute\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668736715" stop="1556668736724" status="passed">
+      <name>testInitSelect with data set "main_table_expression"</name>
+    </test-case>
+    <test-case start="1556668736724" stop="1556668736729" status="passed">
+      <name>testInitSelect with data set "additional_table_expression"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

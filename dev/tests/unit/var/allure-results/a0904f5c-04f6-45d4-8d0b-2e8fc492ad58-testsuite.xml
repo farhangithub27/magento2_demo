@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668678396" stop="1556668678442" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Pricing\Price\BundleOptionsTest</name>
+  <test-cases>
+    <test-case start="1556668678396" stop="1556668678404" status="passed">
+      <name>testGetOptions with data set #0</name>
+    </test-case>
+    <test-case start="1556668678404" stop="1556668678408" status="passed">
+      <name>testGetOptionSelectionAmount with data set #0</name>
+    </test-case>
+    <test-case start="1556668678409" stop="1556668678412" status="passed">
+      <name>testGetOptionSelectionAmount with data set #1</name>
+    </test-case>
+    <test-case start="1556668678413" stop="1556668678442" status="passed">
+      <name>testCalculation with data set "first case"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

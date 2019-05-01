@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668876990" stop="1556668876994" version="1.4.0">
+  <name>Magento\Test\Bootstrap\MemoryTest</name>
+  <test-cases>
+    <test-case start="1556668876991" stop="1556668876992" status="passed">
+      <name>testConstructorException</name>
+    </test-case>
+    <test-case start="1556668876993" stop="1556668876993" status="passed">
+      <name>testDisplayStats</name>
+    </test-case>
+    <test-case start="1556668876993" stop="1556668876994" status="passed">
+      <name>testActivateStatsDisplaying</name>
+    </test-case>
+    <test-case start="1556668876994" stop="1556668876994" status="passed">
+      <name>testActivateLimitValidation</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

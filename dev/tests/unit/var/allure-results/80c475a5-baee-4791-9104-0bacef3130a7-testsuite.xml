@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816648" stop="1556668816667" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Observer\PlaceOrderTest</name>
+  <test-cases>
+    <test-case start="1556668816648" stop="1556668816651" status="passed">
+      <name>testExecuteWithDisabledModule</name>
+    </test-case>
+    <test-case start="1556668816651" stop="1556668816653" status="passed">
+      <name>testExecuteWithoutOrder</name>
+    </test-case>
+    <test-case start="1556668816654" stop="1556668816656" status="passed">
+      <name>testExecuteWithOfflinePayment</name>
+    </test-case>
+    <test-case start="1556668816657" stop="1556668816660" status="passed">
+      <name>testExecuteWithFailedCaseCreation</name>
+    </test-case>
+    <test-case start="1556668816660" stop="1556668816663" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668816664" stop="1556668816667" status="passed">
+      <name>testExecuteWithOrderPendingPayment</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

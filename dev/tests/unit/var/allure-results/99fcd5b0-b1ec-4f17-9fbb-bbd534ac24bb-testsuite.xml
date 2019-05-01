@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747605" stop="1556668747676" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\Oauth\Token\ProviderTest</name>
+  <test-cases>
+    <test-case start="1556668747605" stop="1556668747610" status="passed">
+      <name>testValidateConsumer</name>
+    </test-case>
+    <test-case start="1556668747610" stop="1556668747612" status="passed">
+      <name>testValidateConsumerException</name>
+    </test-case>
+    <test-case start="1556668747612" stop="1556668747614" status="passed">
+      <name>testGetIntegrationTokenByConsumerId</name>
+    </test-case>
+    <test-case start="1556668747614" stop="1556668747615" status="passed">
+      <name>testGetIntegrationTokenByConsumerIdException</name>
+    </test-case>
+    <test-case start="1556668747616" stop="1556668747619" status="passed">
+      <name>testCreateRequestToken</name>
+    </test-case>
+    <test-case start="1556668747619" stop="1556668747621" status="passed">
+      <name>testCreateRequestTokenIncorrectType</name>
+    </test-case>
+    <test-case start="1556668747621" stop="1556668747624" status="passed">
+      <name>testGetAccessToken</name>
+    </test-case>
+    <test-case start="1556668747625" stop="1556668747626" status="passed">
+      <name>testGetAccessTokenIsNotRequestToken</name>
+    </test-case>
+    <test-case start="1556668747626" stop="1556668747629" status="passed">
+      <name>testValidateRequestToken</name>
+    </test-case>
+    <test-case start="1556668747630" stop="1556668747631" status="passed">
+      <name>testValidateRequestTokenNotExistentToken</name>
+    </test-case>
+    <test-case start="1556668747632" stop="1556668747632" status="passed">
+      <name>testValidateRequestTokenIncorrectLengthToken</name>
+    </test-case>
+    <test-case start="1556668747633" stop="1556668747636" status="passed">
+      <name>testValidateRequestTokenInvalidVerifier</name>
+    </test-case>
+    <test-case start="1556668747636" stop="1556668747639" status="passed">
+      <name>testValidateRequestTokenIncorrectLengthVerifier</name>
+    </test-case>
+    <test-case start="1556668747639" stop="1556668747642" status="passed">
+      <name>testValidateRequestTokenNotMatchedVerifier</name>
+    </test-case>
+    <test-case start="1556668747642" stop="1556668747644" status="passed">
+      <name>testValidateRequestTokenNotAssociatedToken</name>
+    </test-case>
+    <test-case start="1556668747644" stop="1556668747646" status="passed">
+      <name>testValidateRequestTokenAlreadyUsedToken</name>
+    </test-case>
+    <test-case start="1556668747647" stop="1556668747650" status="passed">
+      <name>testValidateAccessTokenRequest</name>
+    </test-case>
+    <test-case start="1556668747650" stop="1556668747652" status="passed">
+      <name>testValidateAccessTokenRequestNotAssociatedToken</name>
+    </test-case>
+    <test-case start="1556668747652" stop="1556668747655" status="passed">
+      <name>testValidateAccessTokenRequestNotAccessToken</name>
+    </test-case>
+    <test-case start="1556668747655" stop="1556668747658" status="passed">
+      <name>testValidateAccessTokenRequestRevokedToken</name>
+    </test-case>
+    <test-case start="1556668747659" stop="1556668747663" status="passed">
+      <name>testValidateAccessToken</name>
+    </test-case>
+    <test-case start="1556668747663" stop="1556668747665" status="passed">
+      <name>testValidateAccessTokenNotExistentConsumer</name>
+    </test-case>
+    <test-case start="1556668747665" stop="1556668747668" status="passed">
+      <name>testValidateAccessTokenNotAccessToken</name>
+    </test-case>
+    <test-case start="1556668747668" stop="1556668747671" status="passed">
+      <name>testValidateAccessTokenRevoked</name>
+    </test-case>
+    <test-case start="1556668747671" stop="1556668747672" status="passed">
+      <name>testValidateOauthToken</name>
+    </test-case>
+    <test-case start="1556668747672" stop="1556668747674" status="passed">
+      <name>testGetConsumerByKey</name>
+    </test-case>
+    <test-case start="1556668747674" stop="1556668747675" status="passed">
+      <name>testGetConsumerByKeyWrongConsumerKey</name>
+    </test-case>
+    <test-case start="1556668747675" stop="1556668747676" status="passed">
+      <name>testGetConsumerByKeyNonExistentConsumer</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

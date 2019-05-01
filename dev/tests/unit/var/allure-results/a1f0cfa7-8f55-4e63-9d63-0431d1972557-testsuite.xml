@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816483" stop="1556668816532" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\SignifydGateway\GatewayTest</name>
+  <test-cases>
+    <test-case start="1556668816483" stop="1556668816494" status="passed">
+      <name>testCreateCaseForSpecifiedOrder</name>
+    </test-case>
+    <test-case start="1556668816494" stop="1556668816496" status="passed">
+      <name>testCreateCaseCallsValidApiMethod</name>
+    </test-case>
+    <test-case start="1556668816496" stop="1556668816498" status="passed">
+      <name>testCreateCaseNormalFlow</name>
+    </test-case>
+    <test-case start="1556668816498" stop="1556668816500" status="passed">
+      <name>testCreateCaseWithFailedApiCall</name>
+    </test-case>
+    <test-case start="1556668816500" stop="1556668816501" status="passed">
+      <name>testCreateCaseWithMissedResponseRequiredData</name>
+    </test-case>
+    <test-case start="1556668816502" stop="1556668816503" status="passed">
+      <name>testCreateCaseWithAdditionalResponseData</name>
+    </test-case>
+    <test-case start="1556668816503" stop="1556668816505" status="passed">
+      <name>testSubmitCaseForGuaranteeCallsValidApiMethod</name>
+    </test-case>
+    <test-case start="1556668816506" stop="1556668816507" status="passed">
+      <name>testSubmitCaseForGuaranteeWithFailedApiCall</name>
+    </test-case>
+    <test-case start="1556668816508" stop="1556668816509" status="passed">
+      <name>testSubmitCaseForGuaranteeReturnsDisposition</name>
+    </test-case>
+    <test-case start="1556668816510" stop="1556668816512" status="passed">
+      <name>testSubmitCaseForGuaranteeWithMissedDisposition</name>
+    </test-case>
+    <test-case start="1556668816512" stop="1556668816514" status="passed">
+      <name>testSubmitCaseForGuaranteeWithUnexpectedDisposition</name>
+    </test-case>
+    <test-case start="1556668816514" stop="1556668816516" status="passed">
+      <name>testSubmitCaseForGuaranteeWithExpectedDisposition with data set "APPROVED"</name>
+    </test-case>
+    <test-case start="1556668816516" stop="1556668816518" status="passed">
+      <name>testSubmitCaseForGuaranteeWithExpectedDisposition with data set "DECLINED"</name>
+    </test-case>
+    <test-case start="1556668816518" stop="1556668816520" status="passed">
+      <name>testSubmitCaseForGuaranteeWithExpectedDisposition with data set "PENDING"</name>
+    </test-case>
+    <test-case start="1556668816520" stop="1556668816522" status="passed">
+      <name>testSubmitCaseForGuaranteeWithExpectedDisposition with data set "CANCELED"</name>
+    </test-case>
+    <test-case start="1556668816522" stop="1556668816524" status="passed">
+      <name>testSubmitCaseForGuaranteeWithExpectedDisposition with data set "IN_REVIEW"</name>
+    </test-case>
+    <test-case start="1556668816524" stop="1556668816526" status="passed">
+      <name>testSubmitCaseForGuaranteeWithExpectedDisposition with data set "UNREQUESTED"</name>
+    </test-case>
+    <test-case start="1556668816527" stop="1556668816529" status="passed">
+      <name>testCancelGuarantee</name>
+    </test-case>
+    <test-case start="1556668816529" stop="1556668816531" status="passed">
+      <name>testCancelGuaranteeWithUnexpectedDisposition</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

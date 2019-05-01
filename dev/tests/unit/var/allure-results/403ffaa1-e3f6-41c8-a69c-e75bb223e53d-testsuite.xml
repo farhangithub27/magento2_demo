@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668664517" stop="1556668664527" version="1.4.0">
+  <name>Magento\AdminNotification\Test\Unit\Model\System\Message\SecurityTest</name>
+  <test-cases>
+    <test-case start="1556668664517" stop="1556668664521" status="passed">
+      <name>testIsDisplayed with data set "cached_case"</name>
+    </test-case>
+    <test-case start="1556668664522" stop="1556668664524" status="passed">
+      <name>testIsDisplayed with data set "accessible_file"</name>
+    </test-case>
+    <test-case start="1556668664524" stop="1556668664526" status="passed">
+      <name>testIsDisplayed with data set "inaccessible_file"</name>
+    </test-case>
+    <test-case start="1556668664526" stop="1556668664527" status="passed">
+      <name>testGetText</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832681" stop="1556668832733" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Model\Authorization\TokenUserContextTest</name>
+  <test-cases>
+    <test-case start="1556668832681" stop="1556668832684" status="passed">
+      <name>testNoAuthorizationHeader</name>
+    </test-case>
+    <test-case start="1556668832684" stop="1556668832685" status="passed">
+      <name>testNoTokenInHeader</name>
+    </test-case>
+    <test-case start="1556668832685" stop="1556668832686" status="passed">
+      <name>testNotBearerToken</name>
+    </test-case>
+    <test-case start="1556668832687" stop="1556668832689" status="passed">
+      <name>testNoTokenInDatabase</name>
+    </test-case>
+    <test-case start="1556668832689" stop="1556668832691" status="passed">
+      <name>testRevokedToken</name>
+    </test-case>
+    <test-case start="1556668832691" stop="1556668832695" status="passed">
+      <name>testValidToken with data set "admin token"</name>
+    </test-case>
+    <test-case start="1556668832695" stop="1556668832698" status="passed">
+      <name>testValidToken with data set "customer token"</name>
+    </test-case>
+    <test-case start="1556668832699" stop="1556668832701" status="passed">
+      <name>testValidToken with data set "integration token"</name>
+    </test-case>
+    <test-case start="1556668832701" stop="1556668832704" status="passed">
+      <name>testValidToken with data set "guest user type"</name>
+    </test-case>
+    <test-case start="1556668832705" stop="1556668832708" status="passed">
+      <name>testExpiredToken with data set "token_expired_admin"</name>
+    </test-case>
+    <test-case start="1556668832709" stop="1556668832712" status="passed">
+      <name>testExpiredToken with data set "token_vigent_admin"</name>
+    </test-case>
+    <test-case start="1556668832713" stop="1556668832716" status="passed">
+      <name>testExpiredToken with data set "token_expired_customer"</name>
+    </test-case>
+    <test-case start="1556668832716" stop="1556668832720" status="passed">
+      <name>testExpiredToken with data set "token_vigent_customer"</name>
+    </test-case>
+    <test-case start="1556668832721" stop="1556668832723" status="passed">
+      <name>testExpiredToken with data set "token_expired_integration"</name>
+    </test-case>
+    <test-case start="1556668832724" stop="1556668832727" status="passed">
+      <name>testExpiredToken with data set "token_vigent_integration"</name>
+    </test-case>
+    <test-case start="1556668832727" stop="1556668832730" status="passed">
+      <name>testExpiredToken with data set "token_expired_guest"</name>
+    </test-case>
+    <test-case start="1556668832730" stop="1556668832733" status="passed">
+      <name>testExpiredToken with data set "token_vigent_guest"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668667109" stop="1556668667143" version="1.4.0">
+  <name>Magento\AsynchronousOperations\Test\Unit\Model\BulkManagementTest</name>
+  <test-cases>
+    <test-case start="1556668667109" stop="1556668667121" status="passed">
+      <name>testScheduleBulk</name>
+    </test-case>
+    <test-case start="1556668667121" stop="1556668667123" status="passed">
+      <name>testScheduleBulkWithException</name>
+    </test-case>
+    <test-case start="1556668667124" stop="1556668667136" status="passed">
+      <name>testRetryBulk</name>
+    </test-case>
+    <test-case start="1556668667136" stop="1556668667141" status="passed">
+      <name>testRetryBulkWithException</name>
+    </test-case>
+    <test-case start="1556668667141" stop="1556668667143" status="passed">
+      <name>testDeleteBulk</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

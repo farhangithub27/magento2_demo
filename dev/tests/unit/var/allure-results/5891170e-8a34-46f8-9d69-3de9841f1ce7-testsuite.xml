@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657803" stop="1556668657806" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\LicenseTest</name>
+  <test-cases>
+    <test-case start="1556668657803" stop="1556668657805" status="passed">
+      <name>testIndexActionWithLicense</name>
+    </test-case>
+    <test-case start="1556668657805" stop="1556668657806" status="passed">
+      <name>testIndexActionNoLicense</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

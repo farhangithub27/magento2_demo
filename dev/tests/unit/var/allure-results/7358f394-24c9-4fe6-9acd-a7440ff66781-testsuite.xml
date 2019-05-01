@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860102" stop="1556668860110" version="1.4.0">
+  <name>Magento\Framework\Profiler\Test\Unit\Driver\StandardTest</name>
+  <test-cases>
+    <test-case start="1556668860102" stop="1556668860103" status="passed">
+      <name>testDefaultConstructor</name>
+    </test-case>
+    <test-case start="1556668860103" stop="1556668860104" status="passed">
+      <name>testClear</name>
+    </test-case>
+    <test-case start="1556668860104" stop="1556668860105" status="passed">
+      <name>testStart</name>
+    </test-case>
+    <test-case start="1556668860106" stop="1556668860107" status="passed">
+      <name>testStop</name>
+    </test-case>
+    <test-case start="1556668860107" stop="1556668860109" status="passed">
+      <name>testInitOutputs</name>
+    </test-case>
+    <test-case start="1556668860109" stop="1556668860110" status="passed">
+      <name>testDisplayAndRegisterOutput</name>
+    </test-case>
+    <test-case start="1556668860110" stop="1556668860110" status="passed">
+      <name>testDefaultOutputFactory</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

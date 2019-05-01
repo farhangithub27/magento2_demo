@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668673849" stop="1556668673853" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Http\Client\TransactionSubmitForSettlementTest</name>
+  <test-cases>
+    <test-case start="1556668673850" stop="1556668673852" status="passed">
+      <name>testPlaceRequestWithException</name>
+    </test-case>
+    <test-case start="1556668673852" stop="1556668673853" status="passed">
+      <name>testPlaceRequest</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668722227" stop="1556668722248" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Address\Validator\CountryTest</name>
+  <test-cases>
+    <test-case start="1556668722227" stop="1556668722231" status="passed">
+      <name>testValidate with data set "country_id1"</name>
+    </test-case>
+    <test-case start="1556668722231" stop="1556668722233" status="passed">
+      <name>testValidate with data set "country_id2"</name>
+    </test-case>
+    <test-case start="1556668722234" stop="1556668722236" status="passed">
+      <name>testValidate with data set "region"</name>
+    </test-case>
+    <test-case start="1556668722237" stop="1556668722239" status="passed">
+      <name>testValidate with data set "region_id1"</name>
+    </test-case>
+    <test-case start="1556668722240" stop="1556668722242" status="passed">
+      <name>testValidate with data set "region_id2"</name>
+    </test-case>
+    <test-case start="1556668722242" stop="1556668722245" status="passed">
+      <name>testValidate with data set "region_id3"</name>
+    </test-case>
+    <test-case start="1556668722246" stop="1556668722248" status="passed">
+      <name>testValidate with data set "validated"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

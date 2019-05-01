@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668744600" stop="1556668744611" version="1.4.0">
+  <name>Magento\ImportExport\Test\Unit\Model\Report\CsvTest</name>
+  <test-cases>
+    <test-case start="1556668744601" stop="1556668744611" status="passed">
+      <name>testCreateReport</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

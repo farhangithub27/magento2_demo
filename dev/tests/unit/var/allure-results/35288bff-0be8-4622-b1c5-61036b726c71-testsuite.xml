@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668783135" stop="1556668783150" version="1.4.0">
+  <name>Magento\PageCache\Test\Unit\Model\System\Config\Backend\AccessListTest</name>
+  <test-cases>
+    <test-case start="1556668783136" stop="1556668783138" status="passed">
+      <name>testBeforeSave with data set #0</name>
+    </test-case>
+    <test-case start="1556668783138" stop="1556668783140" status="passed">
+      <name>testBeforeSave with data set #1</name>
+    </test-case>
+    <test-case start="1556668783140" stop="1556668783142" status="passed">
+      <name>testBeforeSave with data set #2</name>
+    </test-case>
+    <test-case start="1556668783142" stop="1556668783144" status="passed">
+      <name>testBeforeSave with data set #3</name>
+    </test-case>
+    <test-case start="1556668783144" stop="1556668783146" status="passed">
+      <name>testBeforeSaveInvalid with data set #0</name>
+    </test-case>
+    <test-case start="1556668783146" stop="1556668783148" status="passed">
+      <name>testBeforeSaveInvalid with data set #1</name>
+    </test-case>
+    <test-case start="1556668783148" stop="1556668783150" status="passed">
+      <name>testBeforeSaveInvalid with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

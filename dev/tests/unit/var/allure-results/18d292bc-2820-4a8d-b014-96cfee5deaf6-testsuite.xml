@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668736936" stop="1556668736949" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\ResourceModel\ReadHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668736937" stop="1556668736940" status="passed">
+      <name>testExecute with data set "null entity type"</name>
+    </test-case>
+    <test-case start="1556668736940" stop="1556668736943" status="passed">
+      <name>testExecute with data set "static attribute"</name>
+    </test-case>
+    <test-case start="1556668736943" stop="1556668736948" status="passed">
+      <name>testExecute with data set "non-static attribute"</name>
+    </test-case>
+    <test-case start="1556668736948" stop="1556668736949" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

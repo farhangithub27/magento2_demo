@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657546" stop="1556668657558" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\DataOptionTest</name>
+  <test-cases>
+    <test-case start="1556668657546" stop="1556668657547" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+    <test-case start="1556668657548" stop="1556668657551" status="passed">
+      <name>testNoHasUninstallAction</name>
+    </test-case>
+    <test-case start="1556668657551" stop="1556668657554" status="passed">
+      <name>testHasUninstallAction with data set "module has uninstall class"</name>
+    </test-case>
+    <test-case start="1556668657555" stop="1556668657558" status="passed">
+      <name>testHasUninstallAction with data set "module does not have uninstall class"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

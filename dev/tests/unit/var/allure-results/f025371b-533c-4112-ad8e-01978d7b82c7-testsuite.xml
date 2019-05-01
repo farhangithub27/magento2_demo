@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668818221" stop="1556668818236" version="1.4.0">
+  <name>Magento\Store\Test\Unit\Model\Message\EmptyGroupCategoryTest</name>
+  <test-cases>
+    <test-case start="1556668818221" stop="1556668818231" status="passed">
+      <name>testIsDisplayed with data set #0</name>
+    </test-case>
+    <test-case start="1556668818231" stop="1556668818232" status="passed">
+      <name>testIsDisplayed with data set #1</name>
+    </test-case>
+    <test-case start="1556668818232" stop="1556668818233" status="passed">
+      <name>testGetIdentity</name>
+    </test-case>
+    <test-case start="1556668818233" stop="1556668818235" status="passed">
+      <name>testGetText</name>
+    </test-case>
+    <test-case start="1556668818235" stop="1556668818236" status="passed">
+      <name>testGetSeverity</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

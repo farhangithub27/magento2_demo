@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668734072" stop="1556668734120" version="1.4.0">
+  <name>Magento\Downloadable\Test\Unit\Model\SampleRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668734072" stop="1556668734085" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668734085" stop="1556668734088" status="passed">
+      <name>testCreateThrowsExceptionIfTitleIsEmpty</name>
+    </test-case>
+    <test-case start="1556668734089" stop="1556668734096" status="passed">
+      <name>testUpdate</name>
+    </test-case>
+    <test-case start="1556668734096" stop="1556668734104" status="passed">
+      <name>testUpdateWithExistingFile</name>
+    </test-case>
+    <test-case start="1556668734105" stop="1556668734109" status="passed">
+      <name>testUpdateThrowsExceptionIfTitleIsEmptyAndScopeIsGlobal</name>
+    </test-case>
+    <test-case start="1556668734109" stop="1556668734111" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668734111" stop="1556668734113" status="passed">
+      <name>testDeleteThrowsExceptionIfSampleIdIsNotValid</name>
+    </test-case>
+    <test-case start="1556668734114" stop="1556668734120" status="passed">
+      <name>testGetList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

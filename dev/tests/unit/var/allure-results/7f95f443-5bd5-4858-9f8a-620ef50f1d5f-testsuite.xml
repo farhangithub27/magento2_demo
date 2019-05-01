@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668685177" stop="1556668685282" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Adapter\Mysql\Filter\PreprocessorTest</name>
+  <test-cases>
+    <test-case start="1556668685178" stop="1556668685200" status="passed">
+      <name>testProcessPrice</name>
+    </test-case>
+    <test-case start="1556668685200" stop="1556668685204" status="passed">
+      <name>testProcessCategoryIds with data set #0</name>
+    </test-case>
+    <test-case start="1556668685204" stop="1556668685207" status="passed">
+      <name>testProcessCategoryIds with data set #1</name>
+    </test-case>
+    <test-case start="1556668685208" stop="1556668685211" status="passed">
+      <name>testProcessCategoryIds with data set #2</name>
+    </test-case>
+    <test-case start="1556668685211" stop="1556668685215" status="passed">
+      <name>testProcessStaticAttribute</name>
+    </test-case>
+    <test-case start="1556668685215" stop="1556668685220" status="passed">
+      <name>testProcessTermFilter with data set "selectPositiveEqual"</name>
+    </test-case>
+    <test-case start="1556668685220" stop="1556668685226" status="passed">
+      <name>testProcessTermFilter with data set "selectPositiveArray"</name>
+    </test-case>
+    <test-case start="1556668685227" stop="1556668685232" status="passed">
+      <name>testProcessTermFilter with data set "selectNegativeEqual"</name>
+    </test-case>
+    <test-case start="1556668685233" stop="1556668685238" status="passed">
+      <name>testProcessTermFilter with data set "selectNegativeArray"</name>
+    </test-case>
+    <test-case start="1556668685238" stop="1556668685243" status="passed">
+      <name>testProcessTermFilter with data set "multiSelectPositiveEqual"</name>
+    </test-case>
+    <test-case start="1556668685243" stop="1556668685248" status="passed">
+      <name>testProcessTermFilter with data set "multiSelectPositiveArray"</name>
+    </test-case>
+    <test-case start="1556668685248" stop="1556668685253" status="passed">
+      <name>testProcessTermFilter with data set "multiSelectNegativeEqual"</name>
+    </test-case>
+    <test-case start="1556668685253" stop="1556668685258" status="passed">
+      <name>testProcessTermFilter with data set "multiSelectNegativeArray"</name>
+    </test-case>
+    <test-case start="1556668685258" stop="1556668685267" status="passed">
+      <name>testTermFilterDataProvider</name>
+    </test-case>
+    <test-case start="1556668685268" stop="1556668685275" status="passed">
+      <name>testProcessNotStaticAttribute</name>
+    </test-case>
+    <test-case start="1556668685276" stop="1556668685282" status="passed">
+      <name>testProcessRangeFilter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

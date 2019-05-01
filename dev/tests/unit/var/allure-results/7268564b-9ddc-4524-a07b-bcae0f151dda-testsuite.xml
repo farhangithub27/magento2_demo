@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668674310" stop="1556668674315" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Response\CardDetailsHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668674310" stop="1556668674315" status="passed">
+      <name>testHandle</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

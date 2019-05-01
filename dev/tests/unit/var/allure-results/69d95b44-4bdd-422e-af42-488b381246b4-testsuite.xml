@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668741455" stop="1556668741464" version="1.4.0">
+  <name>Magento\GiftMessage\Test\Unit\Ui\DataProvider\Product\Modifier\GiftMessageTest</name>
+  <test-cases>
+    <test-case start="1556668741456" stop="1556668741458" status="passed">
+      <name>testModifyData</name>
+    </test-case>
+    <test-case start="1556668741458" stop="1556668741460" status="passed">
+      <name>testModifyMeta</name>
+    </test-case>
+    <test-case start="1556668741460" stop="1556668741462" status="passed">
+      <name>testModifyDataUsesConfigurationValuesWhenProductDoesNotContainValidValue</name>
+    </test-case>
+    <test-case start="1556668741462" stop="1556668741464" status="passed">
+      <name>testModifyDataUsesConfigurationValuesForNewProduct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

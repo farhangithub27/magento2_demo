@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668742643" stop="1556668742650" version="1.4.0">
+  <name>Magento\GroupedProduct\Test\Unit\Helper\Product\Configuration\Plugin\GroupedTest</name>
+  <test-cases>
+    <test-case start="1556668742643" stop="1556668742646" status="passed">
+      <name>testAroundGetOptionsGroupedProductWithAssociated</name>
+    </test-case>
+    <test-case start="1556668742647" stop="1556668742648" status="passed">
+      <name>testAroundGetOptionsGroupedProductWithoutAssociated</name>
+    </test-case>
+    <test-case start="1556668742648" stop="1556668742649" status="passed">
+      <name>testAroundGetOptionsAnotherProductType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

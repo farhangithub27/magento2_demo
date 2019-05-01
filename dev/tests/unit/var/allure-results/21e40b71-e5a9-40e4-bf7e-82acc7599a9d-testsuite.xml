@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668788266" stop="1556668788273" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\Payflow\CvvEmsCodeMapperTest</name>
+  <test-cases>
+    <test-case start="1556668788267" stop="1556668788268" status="passed">
+      <name>testGetCode with data set #0</name>
+    </test-case>
+    <test-case start="1556668788268" stop="1556668788269" status="passed">
+      <name>testGetCode with data set #1</name>
+    </test-case>
+    <test-case start="1556668788269" stop="1556668788270" status="passed">
+      <name>testGetCode with data set #2</name>
+    </test-case>
+    <test-case start="1556668788270" stop="1556668788271" status="passed">
+      <name>testGetCode with data set #3</name>
+    </test-case>
+    <test-case start="1556668788271" stop="1556668788272" status="passed">
+      <name>testGetCode with data set #4</name>
+    </test-case>
+    <test-case start="1556668788273" stop="1556668788273" status="passed">
+      <name>testGetCodeWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668725727" stop="1556668725791" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\ResourceModel\AddressTest</name>
+  <test-cases>
+    <test-case start="1556668725727" stop="1556668725743" status="passed">
+      <name>testSave with data set #0</name>
+    </test-case>
+    <test-case start="1556668725743" stop="1556668725754" status="passed">
+      <name>testSave with data set #1</name>
+    </test-case>
+    <test-case start="1556668725755" stop="1556668725765" status="passed">
+      <name>testSave with data set #2</name>
+    </test-case>
+    <test-case start="1556668725766" stop="1556668725777" status="passed">
+      <name>testSave with data set #3</name>
+    </test-case>
+    <test-case start="1556668725777" stop="1556668725788" status="passed">
+      <name>testSave with data set #4</name>
+    </test-case>
+    <test-case start="1556668725788" stop="1556668725791" status="passed">
+      <name>testGetType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

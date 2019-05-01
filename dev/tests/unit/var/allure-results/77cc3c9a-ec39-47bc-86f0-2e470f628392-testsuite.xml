@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668872974" stop="1556668872977" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Layout\Argument\Interpreter\NamedParamsTest</name>
+  <test-cases>
+    <test-case start="1556668872975" stop="1556668872975" status="passed">
+      <name>testEvaluate</name>
+    </test-case>
+    <test-case start="1556668872976" stop="1556668872976" status="passed">
+      <name>testEvaluateWrongParam with data set "root param is non-array"</name>
+    </test-case>
+    <test-case start="1556668872977" stop="1556668872977" status="passed">
+      <name>testEvaluateWrongParam with data set "individual param is non-array"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

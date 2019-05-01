@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668862965" stop="1556668862978" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Declaration\Schema\Db\MySQL\Definition\Constraints\ForeignKeyTest</name>
+  <test-cases>
+    <test-case start="1556668862965" stop="1556668862973" status="passed">
+      <name>testToDefinition</name>
+    </test-case>
+    <test-case start="1556668862974" stop="1556668862974" status="passed">
+      <name>testFromDefinition with data set #0</name>
+    </test-case>
+    <test-case start="1556668862975" stop="1556668862975" status="passed">
+      <name>testFromDefinition with data set #1</name>
+    </test-case>
+    <test-case start="1556668862976" stop="1556668862976" status="passed">
+      <name>testFromDefinition with data set #2</name>
+    </test-case>
+    <test-case start="1556668862977" stop="1556668862977" status="passed">
+      <name>testFromDefinition with data set #3</name>
+    </test-case>
+    <test-case start="1556668862977" stop="1556668862978" status="passed">
+      <name>testFromDefinition with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838922" stop="1556668838933" version="1.4.0">
+  <name>Magento\Framework\Test\Unit\CurrencyTest</name>
+  <test-cases>
+    <test-case start="1556668838922" stop="1556668838933" status="passed">
+      <name>testConstruct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668863027" stop="1556668863038" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\Declaration\Schema\Db\MySQL\Definition\IndexTest</name>
+  <test-cases>
+    <test-case start="1556668863028" stop="1556668863030" status="passed">
+      <name>testToDefinition with data set #0</name>
+    </test-case>
+    <test-case start="1556668863031" stop="1556668863032" status="passed">
+      <name>testToDefinition with data set #1</name>
+    </test-case>
+    <test-case start="1556668863032" stop="1556668863034" status="passed">
+      <name>testToDefinition with data set #2</name>
+    </test-case>
+    <test-case start="1556668863034" stop="1556668863035" status="passed">
+      <name>testToDefinition with data set #3</name>
+    </test-case>
+    <test-case start="1556668863036" stop="1556668863036" status="passed">
+      <name>testFromDefinition with data set #0</name>
+    </test-case>
+    <test-case start="1556668863037" stop="1556668863037" status="passed">
+      <name>testFromDefinition with data set #1</name>
+    </test-case>
+    <test-case start="1556668863037" stop="1556668863038" status="passed">
+      <name>testFromDefinition with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

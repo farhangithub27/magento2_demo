@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668713630" stop="1556668713650" version="1.4.0">
+  <name>Magento\ConfigurableImportExport\Test\Unit\Model\Export\RowCustomizerTest</name>
+  <test-cases>
+    <test-case start="1556668713630" stop="1556668713640" status="passed">
+      <name>testAddHeaderColumns</name>
+    </test-case>
+    <test-case start="1556668713640" stop="1556668713642" status="passed">
+      <name>testAddData with data set #0</name>
+    </test-case>
+    <test-case start="1556668713642" stop="1556668713644" status="passed">
+      <name>testAddData with data set #1</name>
+    </test-case>
+    <test-case start="1556668713644" stop="1556668713646" status="passed">
+      <name>testGetAdditionalRowsCount with data set #0</name>
+    </test-case>
+    <test-case start="1556668713646" stop="1556668713648" status="passed">
+      <name>testGetAdditionalRowsCount with data set #1</name>
+    </test-case>
+    <test-case start="1556668713648" stop="1556668713650" status="passed">
+      <name>testGetAdditionalRowsCount with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

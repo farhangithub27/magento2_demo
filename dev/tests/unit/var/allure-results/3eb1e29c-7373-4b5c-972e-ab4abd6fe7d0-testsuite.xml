@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668685938" stop="1556668685969" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Layer\Filter\AttributeTest</name>
+  <test-cases>
+    <test-case start="1556668685938" stop="1556668685951" status="passed">
+      <name>testApplyFilter</name>
+    </test-case>
+    <test-case start="1556668685952" stop="1556668685955" status="passed">
+      <name>testGetItemsWithApply</name>
+    </test-case>
+    <test-case start="1556668685956" stop="1556668685962" status="passed">
+      <name>testGetItemsWithoutApply</name>
+    </test-case>
+    <test-case start="1556668685963" stop="1556668685967" status="passed">
+      <name>testGetItemsOnlyWithResults</name>
+    </test-case>
+    <test-case start="1556668685967" stop="1556668685969" status="passed">
+      <name>testGetItemsIfFacetedDataIsEmpty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

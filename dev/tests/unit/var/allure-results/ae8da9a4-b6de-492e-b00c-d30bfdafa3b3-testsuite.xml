@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668681727" stop="1556668681734" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Model\Adminhtml\Stock\ItemTest</name>
+  <test-cases>
+    <test-case start="1556668681728" stop="1556668681731" status="passed">
+      <name>testGetCustomerGroupId</name>
+    </test-case>
+    <test-case start="1556668681732" stop="1556668681734" status="passed">
+      <name>testGetIdentities</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

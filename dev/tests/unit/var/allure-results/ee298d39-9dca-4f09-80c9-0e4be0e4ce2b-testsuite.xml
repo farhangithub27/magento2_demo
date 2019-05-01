@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837331" stop="1556668837340" version="1.4.0">
+  <name>Temando\Shipping\ViewModel\Carrier\CarrierRegistrationTest</name>
+  <test-cases>
+    <test-case start="1556668837331" stop="1556668837335" status="passed">
+      <name>extractVersionNumberFromString with data set "dist"</name>
+    </test-case>
+    <test-case start="1556668837336" stop="1556668837337" status="passed">
+      <name>extractVersionNumberFromString with data set "src 2.2"</name>
+    </test-case>
+    <test-case start="1556668837337" stop="1556668837338" status="passed">
+      <name>extractVersionNumberFromString with data set "src 2.3"</name>
+    </test-case>
+    <test-case start="1556668837338" stop="1556668837339" status="passed">
+      <name>extractVersionNumberFromString with data set "src PR"</name>
+    </test-case>
+    <test-case start="1556668837339" stop="1556668837340" status="passed">
+      <name>extractVersionNumberFromString with data set "unknown"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

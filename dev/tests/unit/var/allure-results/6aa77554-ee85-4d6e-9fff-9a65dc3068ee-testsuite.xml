@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657583" stop="1556668657629" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\EnvironmentTest</name>
+  <test-cases>
+    <test-case start="1556668657583" stop="1556668657591" status="passed">
+      <name>testFilePermissionsInstaller</name>
+    </test-case>
+    <test-case start="1556668657591" stop="1556668657595" status="passed">
+      <name>testPhpVersionActionInstaller</name>
+    </test-case>
+    <test-case start="1556668657595" stop="1556668657600" status="passed">
+      <name>testPhpVersionActionUpdater</name>
+    </test-case>
+    <test-case start="1556668657601" stop="1556668657604" status="passed">
+      <name>testPhpSettingsActionInstaller</name>
+    </test-case>
+    <test-case start="1556668657604" stop="1556668657607" status="passed">
+      <name>testPhpSettingsActionUpdater</name>
+    </test-case>
+    <test-case start="1556668657608" stop="1556668657611" status="passed">
+      <name>testPhpExtensionsActionInstaller</name>
+    </test-case>
+    <test-case start="1556668657611" stop="1556668657614" status="passed">
+      <name>testPhpExtensionsActionUpdater</name>
+    </test-case>
+    <test-case start="1556668657615" stop="1556668657616" status="passed">
+      <name>testCronScriptAction</name>
+    </test-case>
+    <test-case start="1556668657616" stop="1556668657618" status="passed">
+      <name>testCronScriptActionSetupFailed</name>
+    </test-case>
+    <test-case start="1556668657618" stop="1556668657620" status="passed">
+      <name>testCronScriptActionUpdaterFailed</name>
+    </test-case>
+    <test-case start="1556668657620" stop="1556668657622" status="passed">
+      <name>testCronScriptActionBothFailed</name>
+    </test-case>
+    <test-case start="1556668657622" stop="1556668657624" status="passed">
+      <name>testCronScriptActionSetupNotice</name>
+    </test-case>
+    <test-case start="1556668657624" stop="1556668657626" status="passed">
+      <name>testCronScriptActionUpdaterNotice</name>
+    </test-case>
+    <test-case start="1556668657626" stop="1556668657628" status="passed">
+      <name>testCronScriptActionBothNotice</name>
+    </test-case>
+    <test-case start="1556668657628" stop="1556668657629" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

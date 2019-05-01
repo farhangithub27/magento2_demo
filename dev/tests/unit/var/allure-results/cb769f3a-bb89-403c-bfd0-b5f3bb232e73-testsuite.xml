@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668824998" stop="1556668825005" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Design\Config\DataProvider\MetadataLoaderTest</name>
+  <test-cases>
+    <test-case start="1556668824999" stop="1556668825002" status="passed">
+      <name>testGetData with data set #0</name>
+    </test-case>
+    <test-case start="1556668825002" stop="1556668825005" status="passed">
+      <name>testGetData with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

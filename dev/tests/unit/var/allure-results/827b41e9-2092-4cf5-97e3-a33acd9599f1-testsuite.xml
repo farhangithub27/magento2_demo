@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668828688" stop="1556668828747" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\Controller\Adminhtml\Index\RenderTest</name>
+  <test-cases>
+    <test-case start="1556668828688" stop="1556668828701" status="passed">
+      <name>testExecuteAjaxRequestException</name>
+    </test-case>
+    <test-case start="1556668828702" stop="1556668828713" status="passed">
+      <name>testExecuteAjaxRequest</name>
+    </test-case>
+    <test-case start="1556668828714" stop="1556668828725" status="passed">
+      <name>testExecuteAjaxRequestWithoutPermissions with data set #0</name>
+    </test-case>
+    <test-case start="1556668828725" stop="1556668828736" status="passed">
+      <name>testExecuteAjaxRequestWithoutPermissions with data set #1</name>
+    </test-case>
+    <test-case start="1556668828736" stop="1556668828747" status="passed">
+      <name>testExecuteAjaxRequestWithoutPermissions with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

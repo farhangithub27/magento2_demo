@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668788564" stop="1556668788570" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\Payflow\Service\Response\Validator\ResponseValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668788564" stop="1556668788565" status="passed">
+      <name>testValidate with data set #0</name>
+    </test-case>
+    <test-case start="1556668788566" stop="1556668788567" status="passed">
+      <name>testValidate with data set #1</name>
+    </test-case>
+    <test-case start="1556668788567" stop="1556668788567" status="passed">
+      <name>testValidate with data set #2</name>
+    </test-case>
+    <test-case start="1556668788568" stop="1556668788569" status="passed">
+      <name>testValidateFail</name>
+    </test-case>
+    <test-case start="1556668788569" stop="1556668788570" status="passed">
+      <name>testValidateUnknownCode</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

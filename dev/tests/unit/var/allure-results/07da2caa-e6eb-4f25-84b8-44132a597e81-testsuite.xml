@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668663209" stop="1556668663211" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\I18n\DictionaryTest</name>
+  <test-cases>
+    <test-case start="1556668663209" stop="1556668663210" status="passed">
+      <name>testPhraseCollecting</name>
+    </test-case>
+    <test-case start="1556668663210" stop="1556668663211" status="passed">
+      <name>testGetDuplicates</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

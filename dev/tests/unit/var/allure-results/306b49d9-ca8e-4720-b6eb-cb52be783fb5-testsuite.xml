@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668719055" stop="1556668719220" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Widget\DobTest</name>
+  <test-cases>
+    <test-case start="1556668719055" stop="1556668719074" status="passed">
+      <name>testIsEnabled with data set #0</name>
+    </test-case>
+    <test-case start="1556668719075" stop="1556668719080" status="passed">
+      <name>testIsEnabled with data set #1</name>
+    </test-case>
+    <test-case start="1556668719080" stop="1556668719086" status="passed">
+      <name>testIsEnabledWithException</name>
+    </test-case>
+    <test-case start="1556668719086" stop="1556668719092" status="passed">
+      <name>testIsRequired with data set #0</name>
+    </test-case>
+    <test-case start="1556668719092" stop="1556668719097" status="passed">
+      <name>testIsRequired with data set #1</name>
+    </test-case>
+    <test-case start="1556668719098" stop="1556668719103" status="passed">
+      <name>testIsRequiredWithException</name>
+    </test-case>
+    <test-case start="1556668719104" stop="1556668719109" status="passed">
+      <name>testSetDate with data set #0</name>
+    </test-case>
+    <test-case start="1556668719110" stop="1556668719115" status="passed">
+      <name>testSetDate with data set #1</name>
+    </test-case>
+    <test-case start="1556668719115" stop="1556668719122" status="passed">
+      <name>testSetDateWithFilter</name>
+    </test-case>
+    <test-case start="1556668719122" stop="1556668719128" status="passed">
+      <name>testGetDay with data set #0</name>
+    </test-case>
+    <test-case start="1556668719128" stop="1556668719134" status="passed">
+      <name>testGetDay with data set #1</name>
+    </test-case>
+    <test-case start="1556668719134" stop="1556668719139" status="passed">
+      <name>testGetMonth with data set #0</name>
+    </test-case>
+    <test-case start="1556668719140" stop="1556668719145" status="passed">
+      <name>testGetMonth with data set #1</name>
+    </test-case>
+    <test-case start="1556668719145" stop="1556668719151" status="passed">
+      <name>testGetYear with data set #0</name>
+    </test-case>
+    <test-case start="1556668719151" stop="1556668719156" status="passed">
+      <name>testGetYear with data set #1</name>
+    </test-case>
+    <test-case start="1556668719157" stop="1556668719162" status="passed">
+      <name>testGetDateFormat</name>
+    </test-case>
+    <test-case start="1556668719162" stop="1556668719168" status="passed">
+      <name>testGetSortedDateInputs</name>
+    </test-case>
+    <test-case start="1556668719168" stop="1556668719173" status="passed">
+      <name>testGetSortedDateInputsWithoutStrippingNonInputChars</name>
+    </test-case>
+    <test-case start="1556668719174" stop="1556668719179" status="passed">
+      <name>testGetMinDateRange with data set #0</name>
+    </test-case>
+    <test-case start="1556668719180" stop="1556668719185" status="passed">
+      <name>testGetMinDateRange with data set #1</name>
+    </test-case>
+    <test-case start="1556668719185" stop="1556668719191" status="passed">
+      <name>testGetMinDateRangeWithException</name>
+    </test-case>
+    <test-case start="1556668719191" stop="1556668719197" status="passed">
+      <name>testGetMaxDateRange with data set #0</name>
+    </test-case>
+    <test-case start="1556668719197" stop="1556668719203" status="passed">
+      <name>testGetMaxDateRange with data set #1</name>
+    </test-case>
+    <test-case start="1556668719203" stop="1556668719208" status="passed">
+      <name>testGetMaxDateRangeWithException</name>
+    </test-case>
+    <test-case start="1556668719209" stop="1556668719214" status="passed">
+      <name>testGetHtmlExtraParamsWithoutRequiredOption</name>
+    </test-case>
+    <test-case start="1556668719214" stop="1556668719220" status="passed">
+      <name>testGetHtmlExtraParamsWithRequiredOption</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

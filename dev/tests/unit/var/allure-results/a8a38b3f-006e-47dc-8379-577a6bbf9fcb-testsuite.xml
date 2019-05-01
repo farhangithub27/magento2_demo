@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668813549" stop="1556668813552" version="1.4.0">
+  <name>Magento\Search\Test\Unit\Model\SearchEngine\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668813549" stop="1556668813551" status="passed">
+      <name>testGetDeclaredFeatures</name>
+    </test-case>
+    <test-case start="1556668813551" stop="1556668813552" status="passed">
+      <name>testIsFeatureSupported</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

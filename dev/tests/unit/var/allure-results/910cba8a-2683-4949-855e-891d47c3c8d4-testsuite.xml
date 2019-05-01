@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668791203" stop="1556668791228" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\CustomerManagementTest</name>
+  <test-cases>
+    <test-case start="1556668791204" stop="1556668791216" status="passed">
+      <name>testPopulateCustomerInfo</name>
+    </test-case>
+    <test-case start="1556668791217" stop="1556668791221" status="passed">
+      <name>testPopulateCustomerInfoForExistingCustomer</name>
+    </test-case>
+    <test-case start="1556668791221" stop="1556668791225" status="passed">
+      <name>testValidateAddresses</name>
+    </test-case>
+    <test-case start="1556668791226" stop="1556668791228" status="passed">
+      <name>testValidateAddressesNotSavedInAddressBook</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

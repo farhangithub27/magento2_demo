@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668843630" stop="1556668843632" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Config\ValueFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668843630" stop="1556668843631" status="passed">
+      <name>testCreateWithException</name>
+    </test-case>
+    <test-case start="1556668843631" stop="1556668843632" status="passed">
+      <name>testCreate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

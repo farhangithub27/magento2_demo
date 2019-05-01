@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715810" stop="1556668715816" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Plugin\Model\ResourceModel\ProductTest</name>
+  <test-cases>
+    <test-case start="1556668715810" stop="1556668715813" status="passed">
+      <name>testBeforeSaveConfigurable</name>
+    </test-case>
+    <test-case start="1556668715813" stop="1556668715814" status="passed">
+      <name>testBeforeSaveSimple</name>
+    </test-case>
+    <test-case start="1556668715814" stop="1556668715816" status="passed">
+      <name>testAroundDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

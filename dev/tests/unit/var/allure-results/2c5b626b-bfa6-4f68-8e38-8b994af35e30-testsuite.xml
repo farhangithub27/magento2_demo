@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668810092" stop="1556668810181" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Validation\CanInvoiceTest</name>
+  <test-cases>
+    <test-case start="1556668810093" stop="1556668810136" status="passed">
+      <name>testCanInvoiceWrongState with data set #0</name>
+    </test-case>
+    <test-case start="1556668810136" stop="1556668810141" status="passed">
+      <name>testCanInvoiceWrongState with data set #1</name>
+    </test-case>
+    <test-case start="1556668810141" stop="1556668810146" status="passed">
+      <name>testCanInvoiceWrongState with data set #2</name>
+    </test-case>
+    <test-case start="1556668810146" stop="1556668810151" status="passed">
+      <name>testCanInvoiceWrongState with data set #3</name>
+    </test-case>
+    <test-case start="1556668810151" stop="1556668810156" status="passed">
+      <name>testCanInvoiceWrongState with data set #4</name>
+    </test-case>
+    <test-case start="1556668810156" stop="1556668810161" status="passed">
+      <name>testCanInvoiceNoItems</name>
+    </test-case>
+    <test-case start="1556668810161" stop="1556668810166" status="passed">
+      <name>testCanInvoice with data set #0</name>
+    </test-case>
+    <test-case start="1556668810166" stop="1556668810171" status="passed">
+      <name>testCanInvoice with data set #1</name>
+    </test-case>
+    <test-case start="1556668810171" stop="1556668810176" status="passed">
+      <name>testCanInvoice with data set #2</name>
+    </test-case>
+    <test-case start="1556668810176" stop="1556668810180" status="passed">
+      <name>testCanInvoice with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

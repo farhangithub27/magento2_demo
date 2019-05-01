@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668822102" stop="1556668822117" version="1.4.0">
+  <name>Magento\Tax\Test\Unit\Model\System\Message\Notification\RoundingErrorsTest</name>
+  <test-cases>
+    <test-case start="1556668822102" stop="1556668822105" status="passed">
+      <name>testIsDisplayedNotDisplayedUnitBased</name>
+    </test-case>
+    <test-case start="1556668822105" stop="1556668822112" status="passed">
+      <name>testIsDisplayedNotDisplayed</name>
+    </test-case>
+    <test-case start="1556668822112" stop="1556668822114" status="passed">
+      <name>testIsDisplayedIgnoreWrongConfiguration</name>
+    </test-case>
+    <test-case start="1556668822114" stop="1556668822117" status="passed">
+      <name>testGetText</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

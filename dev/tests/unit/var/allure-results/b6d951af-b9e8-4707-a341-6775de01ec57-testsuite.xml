@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668797533" stop="1556668797563" version="1.4.0">
+  <name>Magento\Rule\Test\Unit\Model\Condition\Product\AbstractProductTest</name>
+  <test-cases>
+    <test-case start="1556668797533" stop="1556668797534" status="passed">
+      <name>testValidateAttributeEqualCategoryId</name>
+    </test-case>
+    <test-case start="1556668797535" stop="1556668797536" status="passed">
+      <name>testValidateEmptyEntityAttributeValues</name>
+    </test-case>
+    <test-case start="1556668797536" stop="1556668797538" status="passed">
+      <name>testValidateEmptyEntityAttributeValuesWithResource</name>
+    </test-case>
+    <test-case start="1556668797539" stop="1556668797540" status="passed">
+      <name>testValidateSetEntityAttributeValuesWithResource</name>
+    </test-case>
+    <test-case start="1556668797540" stop="1556668797542" status="passed">
+      <name>testValidateSetEntityAttributeValuesWithoutResource</name>
+    </test-case>
+    <test-case start="1556668797543" stop="1556668797543" status="passed">
+      <name>testGetjointTables</name>
+    </test-case>
+    <test-case start="1556668797543" stop="1556668797544" status="passed">
+      <name>testGetMappedSqlField</name>
+    </test-case>
+    <test-case start="1556668797545" stop="1556668797548" status="passed">
+      <name>testPrepareValueOptions with data set #0</name>
+    </test-case>
+    <test-case start="1556668797549" stop="1556668797551" status="passed">
+      <name>testPrepareValueOptions with data set #1</name>
+    </test-case>
+    <test-case start="1556668797551" stop="1556668797553" status="passed">
+      <name>testPrepareValueOptions with data set #2</name>
+    </test-case>
+    <test-case start="1556668797553" stop="1556668797555" status="passed">
+      <name>testPrepareValueOptions with data set #3</name>
+    </test-case>
+    <test-case start="1556668797555" stop="1556668797557" status="passed">
+      <name>testPrepareValueOptions with data set #4</name>
+    </test-case>
+    <test-case start="1556668797558" stop="1556668797560" status="passed">
+      <name>testPrepareValueOptions with data set #5</name>
+    </test-case>
+    <test-case start="1556668797561" stop="1556668797563" status="passed">
+      <name>testPrepareValueOptions with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

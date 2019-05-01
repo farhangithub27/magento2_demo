@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668713405" stop="1556668713437" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668713405" stop="1556668713411" status="passed">
+      <name>testSaveDoesNotDoAnythingIfGroupsAreNotPassed</name>
+    </test-case>
+    <test-case start="1556668713411" stop="1556668713413" status="passed">
+      <name>testSaveEmptiesNonSetArguments</name>
+    </test-case>
+    <test-case start="1556668713413" stop="1556668713417" status="passed">
+      <name>testSaveToCheckAdminSystemConfigChangedSectionEvent</name>
+    </test-case>
+    <test-case start="1556668713417" stop="1556668713421" status="passed">
+      <name>testDoNotSaveReadOnlyFields</name>
+    </test-case>
+    <test-case start="1556668713421" stop="1556668713428" status="passed">
+      <name>testSaveToCheckScopeDataSet</name>
+    </test-case>
+    <test-case start="1556668713428" stop="1556668713430" status="passed">
+      <name>testSetDataByPath with data set "depth 3"</name>
+    </test-case>
+    <test-case start="1556668713430" stop="1556668713432" status="passed">
+      <name>testSetDataByPath with data set "depth 5"</name>
+    </test-case>
+    <test-case start="1556668713432" stop="1556668713434" status="passed">
+      <name>testSetDataByPathEmpty</name>
+    </test-case>
+    <test-case start="1556668713434" stop="1556668713435" status="passed">
+      <name>testSetDataByPathWrongDepth with data set "depth 2"</name>
+    </test-case>
+    <test-case start="1556668713436" stop="1556668713437" status="passed">
+      <name>testSetDataByPathWrongDepth with data set "depth 1"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668743105" stop="1556668743138" version="1.4.0">
+  <name>Magento\GroupedProduct\Test\Unit\Pricing\Price\FinalPriceTest</name>
+  <test-cases>
+    <test-case start="1556668743106" stop="1556668743133" status="passed">
+      <name>testGetMinProduct</name>
+    </test-case>
+    <test-case start="1556668743134" stop="1556668743136" status="passed">
+      <name>testGetValue</name>
+    </test-case>
+    <test-case start="1556668743136" stop="1556668743137" status="passed">
+      <name>testGetValueWithoutMinProduct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

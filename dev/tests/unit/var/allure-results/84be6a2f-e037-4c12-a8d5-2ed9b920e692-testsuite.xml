@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668703236" stop="1556668703248" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\View\Asset\ImageTest</name>
+  <test-cases>
+    <test-case start="1556668703237" stop="1556668703239" status="passed">
+      <name>testModuleAndContentAndContentType</name>
+    </test-case>
+    <test-case start="1556668703239" stop="1556668703240" status="passed">
+      <name>testGetFilePath</name>
+    </test-case>
+    <test-case start="1556668703240" stop="1556668703241" status="passed">
+      <name>testGetSoureFile</name>
+    </test-case>
+    <test-case start="1556668703241" stop="1556668703242" status="passed">
+      <name>testGetContext</name>
+    </test-case>
+    <test-case start="1556668703242" stop="1556668703243" status="passed">
+      <name>testGetPath with data set #0</name>
+    </test-case>
+    <test-case start="1556668703244" stop="1556668703245" status="passed">
+      <name>testGetPath with data set #1</name>
+    </test-case>
+    <test-case start="1556668703245" stop="1556668703246" status="passed">
+      <name>testGetUrl with data set #0</name>
+    </test-case>
+    <test-case start="1556668703246" stop="1556668703248" status="passed">
+      <name>testGetUrl with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

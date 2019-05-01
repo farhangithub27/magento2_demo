@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668851076" stop="1556668851314" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Form\Element\FactoryTest</name>
+  <test-cases>
+    <test-case start="1556668851077" stop="1556668851085" status="passed">
+      <name>testCreatePositive with data set "button"</name>
+    </test-case>
+    <test-case start="1556668851085" stop="1556668851093" status="passed">
+      <name>testCreatePositive with data set "checkbox"</name>
+    </test-case>
+    <test-case start="1556668851093" stop="1556668851101" status="passed">
+      <name>testCreatePositive with data set "checkboxes"</name>
+    </test-case>
+    <test-case start="1556668851101" stop="1556668851108" status="passed">
+      <name>testCreatePositive with data set "column"</name>
+    </test-case>
+    <test-case start="1556668851109" stop="1556668851116" status="passed">
+      <name>testCreatePositive with data set "date"</name>
+    </test-case>
+    <test-case start="1556668851116" stop="1556668851124" status="passed">
+      <name>testCreatePositive with data set "editablemultiselect"</name>
+    </test-case>
+    <test-case start="1556668851124" stop="1556668851131" status="passed">
+      <name>testCreatePositive with data set "editor"</name>
+    </test-case>
+    <test-case start="1556668851132" stop="1556668851133" status="passed">
+      <name>testCreatePositive with data set "fieldset"</name>
+    </test-case>
+    <test-case start="1556668851133" stop="1556668851140" status="passed">
+      <name>testCreatePositive with data set "file"</name>
+    </test-case>
+    <test-case start="1556668851140" stop="1556668851148" status="passed">
+      <name>testCreatePositive with data set "gallery"</name>
+    </test-case>
+    <test-case start="1556668851148" stop="1556668851155" status="passed">
+      <name>testCreatePositive with data set "hidden"</name>
+    </test-case>
+    <test-case start="1556668851156" stop="1556668851163" status="passed">
+      <name>testCreatePositive with data set "image"</name>
+    </test-case>
+    <test-case start="1556668851163" stop="1556668851171" status="passed">
+      <name>testCreatePositive with data set "imagefile"</name>
+    </test-case>
+    <test-case start="1556668851171" stop="1556668851179" status="passed">
+      <name>testCreatePositive with data set "label"</name>
+    </test-case>
+    <test-case start="1556668851179" stop="1556668851186" status="passed">
+      <name>testCreatePositive with data set "link"</name>
+    </test-case>
+    <test-case start="1556668851187" stop="1556668851194" status="passed">
+      <name>testCreatePositive with data set "multiline"</name>
+    </test-case>
+    <test-case start="1556668851194" stop="1556668851202" status="passed">
+      <name>testCreatePositive with data set "multiselect"</name>
+    </test-case>
+    <test-case start="1556668851202" stop="1556668851209" status="passed">
+      <name>testCreatePositive with data set "note"</name>
+    </test-case>
+    <test-case start="1556668851210" stop="1556668851217" status="passed">
+      <name>testCreatePositive with data set "obscure"</name>
+    </test-case>
+    <test-case start="1556668851218" stop="1556668851225" status="passed">
+      <name>testCreatePositive with data set "password"</name>
+    </test-case>
+    <test-case start="1556668851225" stop="1556668851232" status="passed">
+      <name>testCreatePositive with data set "radio"</name>
+    </test-case>
+    <test-case start="1556668851233" stop="1556668851240" status="passed">
+      <name>testCreatePositive with data set "radios"</name>
+    </test-case>
+    <test-case start="1556668851240" stop="1556668851247" status="passed">
+      <name>testCreatePositive with data set "reset"</name>
+    </test-case>
+    <test-case start="1556668851248" stop="1556668851249" status="passed">
+      <name>testCreatePositive with data set "select"</name>
+    </test-case>
+    <test-case start="1556668851249" stop="1556668851257" status="passed">
+      <name>testCreatePositive with data set "submit"</name>
+    </test-case>
+    <test-case start="1556668851257" stop="1556668851264" status="passed">
+      <name>testCreatePositive with data set "text"</name>
+    </test-case>
+    <test-case start="1556668851264" stop="1556668851272" status="passed">
+      <name>testCreatePositive with data set "textarea"</name>
+    </test-case>
+    <test-case start="1556668851272" stop="1556668851279" status="passed">
+      <name>testCreatePositive with data set "time"</name>
+    </test-case>
+    <test-case start="1556668851280" stop="1556668851281" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "button"</name>
+    </test-case>
+    <test-case start="1556668851281" stop="1556668851282" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "checkbox"</name>
+    </test-case>
+    <test-case start="1556668851282" stop="1556668851283" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "checkboxes"</name>
+    </test-case>
+    <test-case start="1556668851283" stop="1556668851284" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "column"</name>
+    </test-case>
+    <test-case start="1556668851284" stop="1556668851285" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "date"</name>
+    </test-case>
+    <test-case start="1556668851285" stop="1556668851286" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "editablemultiselect"</name>
+    </test-case>
+    <test-case start="1556668851286" stop="1556668851287" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "editor"</name>
+    </test-case>
+    <test-case start="1556668851287" stop="1556668851288" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "fieldset"</name>
+    </test-case>
+    <test-case start="1556668851288" stop="1556668851289" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "file"</name>
+    </test-case>
+    <test-case start="1556668851289" stop="1556668851290" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "gallery"</name>
+    </test-case>
+    <test-case start="1556668851290" stop="1556668851291" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "hidden"</name>
+    </test-case>
+    <test-case start="1556668851291" stop="1556668851292" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "image"</name>
+    </test-case>
+    <test-case start="1556668851292" stop="1556668851293" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "imagefile"</name>
+    </test-case>
+    <test-case start="1556668851293" stop="1556668851294" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "label"</name>
+    </test-case>
+    <test-case start="1556668851294" stop="1556668851295" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "link"</name>
+    </test-case>
+    <test-case start="1556668851295" stop="1556668851296" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "multiline"</name>
+    </test-case>
+    <test-case start="1556668851296" stop="1556668851297" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "multiselect"</name>
+    </test-case>
+    <test-case start="1556668851297" stop="1556668851298" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "note"</name>
+    </test-case>
+    <test-case start="1556668851298" stop="1556668851299" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "obscure"</name>
+    </test-case>
+    <test-case start="1556668851299" stop="1556668851300" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "password"</name>
+    </test-case>
+    <test-case start="1556668851300" stop="1556668851301" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "radio"</name>
+    </test-case>
+    <test-case start="1556668851302" stop="1556668851302" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "radios"</name>
+    </test-case>
+    <test-case start="1556668851303" stop="1556668851303" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "reset"</name>
+    </test-case>
+    <test-case start="1556668851304" stop="1556668851304" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "select"</name>
+    </test-case>
+    <test-case start="1556668851305" stop="1556668851305" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "submit"</name>
+    </test-case>
+    <test-case start="1556668851306" stop="1556668851306" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "text"</name>
+    </test-case>
+    <test-case start="1556668851306" stop="1556668851307" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "textarea"</name>
+    </test-case>
+    <test-case start="1556668851307" stop="1556668851308" status="passed">
+      <name>testCreatePositiveWithNotEmptyConfig with data set "time"</name>
+    </test-case>
+    <test-case start="1556668851308" stop="1556668851309" status="passed">
+      <name>testCreateExceptionReflectionException with data set "factory"</name>
+    </test-case>
+    <test-case start="1556668851309" stop="1556668851310" status="passed">
+      <name>testCreateExceptionReflectionException with data set "collection"</name>
+    </test-case>
+    <test-case start="1556668851310" stop="1556668851311" status="passed">
+      <name>testCreateExceptionReflectionException with data set "abstract"</name>
+    </test-case>
+    <test-case start="1556668851312" stop="1556668851312" status="passed">
+      <name>testCreateExceptionInvalidArgument with data set "Magento\Framework\Data\Form\Element\Factory"</name>
+    </test-case>
+    <test-case start="1556668851313" stop="1556668851313" status="passed">
+      <name>testCreateExceptionInvalidArgument with data set "Magento\Framework\Data\Form\Element\Collection"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

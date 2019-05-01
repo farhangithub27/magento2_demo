@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668828816" stop="1556668828823" version="1.4.0">
+  <name>Magento\Ui\Test\Unit\DataProvider\Modifier\PoolTest</name>
+  <test-cases>
+    <test-case start="1556668828816" stop="1556668828818" status="passed">
+      <name>testWithOneDataProvider</name>
+    </test-case>
+    <test-case start="1556668828818" stop="1556668828818" status="passed">
+      <name>testWithFewmodifiers</name>
+    </test-case>
+    <test-case start="1556668828819" stop="1556668828820" status="passed">
+      <name>testWithSortOrderException</name>
+    </test-case>
+    <test-case start="1556668828820" stop="1556668828821" status="passed">
+      <name>testWithClassException</name>
+    </test-case>
+    <test-case start="1556668828821" stop="1556668828822" status="passed">
+      <name>testGetModifiers with data set #0</name>
+    </test-case>
+    <test-case start="1556668828822" stop="1556668828823" status="passed">
+      <name>testGetModifiers with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

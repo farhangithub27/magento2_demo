@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668673709" stop="1556668673711" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Config\CanVoidHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668673709" stop="1556668673710" status="passed">
+      <name>testHandleNotOrderPayment</name>
+    </test-case>
+    <test-case start="1556668673710" stop="1556668673711" status="passed">
+      <name>testHandleSomeAmountWasPaid</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

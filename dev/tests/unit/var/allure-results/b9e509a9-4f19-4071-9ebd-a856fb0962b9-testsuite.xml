@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668746014" stop="1556668746025" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Block\Adminhtml\Integration\Edit\Tab\InfoTest</name>
+  <test-cases>
+    <test-case start="1556668746014" stop="1556668746018" status="passed">
+      <name>testGetTabLabelAndTitle</name>
+    </test-case>
+    <test-case start="1556668746018" stop="1556668746022" status="passed">
+      <name>testCanShowTab</name>
+    </test-case>
+    <test-case start="1556668746022" stop="1556668746025" status="passed">
+      <name>testIsHidden</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

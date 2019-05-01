@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668850482" stop="1556668850500" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\Argument\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668850483" stop="1556668850484" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "no arguments"</name>
+    </test-case>
+    <test-case start="1556668850484" stop="1556668850485" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "argument without type"</name>
+    </test-case>
+    <test-case start="1556668850485" stop="1556668850486" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "forbidden type used"</name>
+    </test-case>
+    <test-case start="1556668850486" stop="1556668850487" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "abstract type argumentType used"</name>
+    </test-case>
+    <test-case start="1556668850487" stop="1556668850488" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "no name attribute"</name>
+    </test-case>
+    <test-case start="1556668850488" stop="1556668850489" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "forbidden attribute"</name>
+    </test-case>
+    <test-case start="1556668850490" stop="1556668850490" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "forbidden translate attribute value for string"</name>
+    </test-case>
+    <test-case start="1556668850491" stop="1556668850491" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "attribute translate for non-string"</name>
+    </test-case>
+    <test-case start="1556668850492" stop="1556668850492" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "null type should be empty"</name>
+    </test-case>
+    <test-case start="1556668850493" stop="1556668850493" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "forbidden child node"</name>
+    </test-case>
+    <test-case start="1556668850494" stop="1556668850494" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "array with forbidden child"</name>
+    </test-case>
+    <test-case start="1556668850495" stop="1556668850496" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "array with 2 same items"</name>
+    </test-case>
+    <test-case start="1556668850496" stop="1556668850497" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "array item without name"</name>
+    </test-case>
+    <test-case start="1556668850497" stop="1556668850498" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "array item with forbidden child"</name>
+    </test-case>
+    <test-case start="1556668850498" stop="1556668850499" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidTypesXml with data set "nested array with same named items"</name>
+    </test-case>
+    <test-case start="1556668850499" stop="1556668850500" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

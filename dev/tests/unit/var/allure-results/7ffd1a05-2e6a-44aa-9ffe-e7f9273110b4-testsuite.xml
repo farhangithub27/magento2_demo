@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841571" stop="1556668841576" version="1.4.0">
+  <name>Magento\Framework\Acl\Test\Unit\Role\RegistryTest</name>
+  <test-cases>
+    <test-case start="1556668841571" stop="1556668841573" status="passed">
+      <name>testAddParent</name>
+    </test-case>
+    <test-case start="1556668841573" stop="1556668841574" status="passed">
+      <name>testAddParentByIds</name>
+    </test-case>
+    <test-case start="1556668841574" stop="1556668841575" status="passed">
+      <name>testAddParentWrongChildId</name>
+    </test-case>
+    <test-case start="1556668841576" stop="1556668841576" status="passed">
+      <name>testAddParentWrongParentId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

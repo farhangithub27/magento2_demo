@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668836973" stop="1556668837017" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Model\Rss\WishlistTest</name>
+  <test-cases>
+    <test-case start="1556668836973" stop="1556668837002" status="passed">
+      <name>testGetRssData</name>
+    </test-case>
+    <test-case start="1556668837002" stop="1556668837005" status="passed">
+      <name>testIsAllowed</name>
+    </test-case>
+    <test-case start="1556668837005" stop="1556668837007" status="passed">
+      <name>testGetCacheKey</name>
+    </test-case>
+    <test-case start="1556668837007" stop="1556668837009" status="passed">
+      <name>testGetCacheLifetime</name>
+    </test-case>
+    <test-case start="1556668837009" stop="1556668837011" status="passed">
+      <name>testIsAuthRequired</name>
+    </test-case>
+    <test-case start="1556668837011" stop="1556668837014" status="passed">
+      <name>testGetProductPriceHtmlBlockDoesntExists</name>
+    </test-case>
+    <test-case start="1556668837014" stop="1556668837017" status="passed">
+      <name>testGetProductPriceHtmlBlockExists</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

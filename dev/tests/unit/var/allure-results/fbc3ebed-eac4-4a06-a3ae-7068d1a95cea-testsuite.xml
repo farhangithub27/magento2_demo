@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666077" stop="1556668666099" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Model\ExportDataHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668666077" stop="1556668666089" status="passed">
+      <name>testPrepareExportData with data set "Data source for archive is directory"</name>
+    </test-case>
+    <test-case start="1556668666089" stop="1556668666095" status="passed">
+      <name>testPrepareExportData with data set "Data source for archive isn't directory"</name>
+    </test-case>
+    <test-case start="1556668666096" stop="1556668666098" status="passed">
+      <name>testPrepareExportDataWithLocalizedException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668713275" stop="1556668713309" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\StructureTest</name>
+  <test-cases>
+    <test-case start="1556668713275" stop="1556668713279" status="passed">
+      <name>testGetTabsBuildsSectionTree</name>
+    </test-case>
+    <test-case start="1556668713279" stop="1556668713280" status="passed">
+      <name>testGetSectionList</name>
+    </test-case>
+    <test-case start="1556668713280" stop="1556668713282" status="passed">
+      <name>testGetElementReturnsEmptyElementIfNotExistingElementIsRequested with data set #0</name>
+    </test-case>
+    <test-case start="1556668713283" stop="1556668713284" status="passed">
+      <name>testGetElementReturnsEmptyElementIfNotExistingElementIsRequested with data set #1</name>
+    </test-case>
+    <test-case start="1556668713284" stop="1556668713286" status="passed">
+      <name>testGetElementReturnsEmptyElementIfNotExistingElementIsRequested with data set #2</name>
+    </test-case>
+    <test-case start="1556668713286" stop="1556668713288" status="passed">
+      <name>testGetElementReturnsEmptyElementIfNotExistingElementIsRequested with data set #3</name>
+    </test-case>
+    <test-case start="1556668713288" stop="1556668713289" status="passed">
+      <name>testGetElementReturnsEmptyByConfigPathElementIfNotExistingElementIsRequested with data set #0</name>
+    </test-case>
+    <test-case start="1556668713290" stop="1556668713291" status="passed">
+      <name>testGetElementReturnsEmptyByConfigPathElementIfNotExistingElementIsRequested with data set #1</name>
+    </test-case>
+    <test-case start="1556668713292" stop="1556668713293" status="passed">
+      <name>testGetElementReturnsEmptyByConfigPathElementIfNotExistingElementIsRequested with data set #2</name>
+    </test-case>
+    <test-case start="1556668713293" stop="1556668713295" status="passed">
+      <name>testGetElementReturnsEmptyByConfigPathElementIfNotExistingElementIsRequested with data set #3</name>
+    </test-case>
+    <test-case start="1556668713295" stop="1556668713296" status="passed">
+      <name>testGetElementReturnsProperElementByPath</name>
+    </test-case>
+    <test-case start="1556668713296" stop="1556668713298" status="passed">
+      <name>testGetElementByConfigPathReturnsProperElementByPath</name>
+    </test-case>
+    <test-case start="1556668713298" stop="1556668713299" status="passed">
+      <name>testGetElementByPathPartsIfSectionDataIsEmpty</name>
+    </test-case>
+    <test-case start="1556668713299" stop="1556668713303" status="passed">
+      <name>testGetFirstSectionReturnsFirstAllowedSection</name>
+    </test-case>
+    <test-case start="1556668713303" stop="1556668713304" status="passed">
+      <name>testGetElementReturnsProperElementByPathCachesObject</name>
+    </test-case>
+    <test-case start="1556668713304" stop="1556668713306" status="passed">
+      <name>testGetElementByConfigPathReturnsProperElementByPathCachesObject</name>
+    </test-case>
+    <test-case start="1556668713306" stop="1556668713307" status="passed">
+      <name>testGetFieldPathsByAttribute with data set #0</name>
+    </test-case>
+    <test-case start="1556668713307" stop="1556668713308" status="passed">
+      <name>testGetFieldPathsByAttribute with data set #1</name>
+    </test-case>
+    <test-case start="1556668713308" stop="1556668713309" status="passed">
+      <name>testGetFieldPaths</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

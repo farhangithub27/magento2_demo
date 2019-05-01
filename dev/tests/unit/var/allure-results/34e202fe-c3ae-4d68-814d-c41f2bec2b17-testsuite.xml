@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668812779" stop="1556668812813" version="1.4.0">
+  <name>Magento\SampleData\Test\Unit\Console\Command\SampleDataDeployCommandTest</name>
+  <test-cases>
+    <test-case start="1556668812780" stop="1556668812788" status="passed">
+      <name>testExecute with data set "No sample data found"</name>
+    </test-case>
+    <test-case start="1556668812789" stop="1556668812793" status="passed">
+      <name>testExecute with data set "No auth.json found"</name>
+    </test-case>
+    <test-case start="1556668812794" stop="1556668812798" status="passed">
+      <name>testExecute with data set "Successful sample data installation"</name>
+    </test-case>
+    <test-case start="1556668812798" stop="1556668812800" status="passed">
+      <name>testExecuteWithNoUpdate with data set "No sample data found"</name>
+    </test-case>
+    <test-case start="1556668812801" stop="1556668812806" status="passed">
+      <name>testExecuteWithNoUpdate with data set "No auth.json found"</name>
+    </test-case>
+    <test-case start="1556668812806" stop="1556668812810" status="passed">
+      <name>testExecuteWithNoUpdate with data set "Successful sample data installation"</name>
+    </test-case>
+    <test-case start="1556668812811" stop="1556668812813" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

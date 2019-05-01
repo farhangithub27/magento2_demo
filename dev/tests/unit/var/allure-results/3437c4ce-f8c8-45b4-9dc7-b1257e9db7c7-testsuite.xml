@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668797888" stop="1556668797893" version="1.4.0">
+  <name>Magento\SalesInventory\Test\Unit\Model\Plugin\Order\Validation\InvoiceRefundCreationArgumentsTest</name>
+  <test-cases>
+    <test-case start="1556668797888" stop="1556668797892" status="passed">
+      <name>testAfterValidation with data set "withErrors"</name>
+    </test-case>
+    <test-case start="1556668797892" stop="1556668797893" status="passed">
+      <name>testAfterValidation with data set "withoutErrors"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

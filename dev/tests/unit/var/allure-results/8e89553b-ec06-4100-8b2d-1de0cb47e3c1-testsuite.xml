@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668814357" stop="1556668814364" version="1.4.0">
+  <name>Magento\Security\Test\Unit\Model\SecurityCookieTest</name>
+  <test-cases>
+    <test-case start="1556668814358" stop="1556668814361" status="passed">
+      <name>testGetLogoutReasonCookie</name>
+    </test-case>
+    <test-case start="1556668814361" stop="1556668814362" status="passed">
+      <name>testSetLogoutReasonCookie</name>
+    </test-case>
+    <test-case start="1556668814363" stop="1556668814364" status="passed">
+      <name>testDeleteLogoutReasonCookie</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

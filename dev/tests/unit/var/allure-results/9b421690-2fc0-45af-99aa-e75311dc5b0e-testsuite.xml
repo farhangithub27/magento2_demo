@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668673444" stop="1556668673455" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Controller\Payment\GetNonceTest</name>
+  <test-cases>
+    <test-case start="1556668673445" stop="1556668673452" status="passed">
+      <name>testExecuteWithException</name>
+    </test-case>
+    <test-case start="1556668673452" stop="1556668673455" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

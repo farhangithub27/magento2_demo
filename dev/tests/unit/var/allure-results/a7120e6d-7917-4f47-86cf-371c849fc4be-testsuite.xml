@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816968" stop="1556668817138" version="1.4.0">
+  <name>Magento\Sitemap\Test\Unit\Model\SitemapTest</name>
+  <test-cases>
+    <test-case start="1556668816968" stop="1556668816988" status="passed">
+      <name>testNotAllowedPath</name>
+    </test-case>
+    <test-case start="1556668816988" stop="1556668816992" status="passed">
+      <name>testPathNotExists</name>
+    </test-case>
+    <test-case start="1556668816992" stop="1556668816996" status="passed">
+      <name>testPathNotWritable</name>
+    </test-case>
+    <test-case start="1556668816996" stop="1556668817000" status="passed">
+      <name>testFilenameInvalidChars</name>
+    </test-case>
+    <test-case start="1556668817001" stop="1556668817011" status="passed">
+      <name>testGenerateXml with data set #0</name>
+    </test-case>
+    <test-case start="1556668817011" stop="1556668817028" status="passed">
+      <name>testGenerateXml with data set #1</name>
+    </test-case>
+    <test-case start="1556668817029" stop="1556668817045" status="passed">
+      <name>testGenerateXml with data set #2</name>
+    </test-case>
+    <test-case start="1556668817045" stop="1556668817054" status="passed">
+      <name>testAddSitemapToRobotsTxt with data set #0</name>
+    </test-case>
+    <test-case start="1556668817054" stop="1556668817064" status="passed">
+      <name>testAddSitemapToRobotsTxt with data set #1</name>
+    </test-case>
+    <test-case start="1556668817064" stop="1556668817080" status="passed">
+      <name>testAddSitemapToRobotsTxt with data set #2</name>
+    </test-case>
+    <test-case start="1556668817081" stop="1556668817096" status="passed">
+      <name>testAddSitemapToRobotsTxt with data set #3</name>
+    </test-case>
+    <test-case start="1556668817097" stop="1556668817105" status="passed">
+      <name>testAddSitemapToRobotsTxt with data set #4</name>
+    </test-case>
+    <test-case start="1556668817106" stop="1556668817112" status="passed">
+      <name>testGetSitemapUrl with data set #0</name>
+    </test-case>
+    <test-case start="1556668817112" stop="1556668817116" status="passed">
+      <name>testGetSitemapUrl with data set #1</name>
+    </test-case>
+    <test-case start="1556668817117" stop="1556668817121" status="passed">
+      <name>testGetSitemapUrl with data set #2</name>
+    </test-case>
+    <test-case start="1556668817121" stop="1556668817125" status="passed">
+      <name>testGetSitemapUrl with data set #3</name>
+    </test-case>
+    <test-case start="1556668817126" stop="1556668817130" status="passed">
+      <name>testGetSitemapUrl with data set #4</name>
+    </test-case>
+    <test-case start="1556668817130" stop="1556668817134" status="passed">
+      <name>testGetSitemapUrl with data set #5</name>
+    </test-case>
+    <test-case start="1556668817134" stop="1556668817138" status="passed">
+      <name>testGetSitemapUrl with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

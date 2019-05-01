@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668685569" stop="1556668685585" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Indexer\Fulltext\Plugin\AttributeTest</name>
+  <test-cases>
+    <test-case start="1556668685569" stop="1556668685578" status="passed">
+      <name>testBeforeSave</name>
+    </test-case>
+    <test-case start="1556668685578" stop="1556668685579" status="passed">
+      <name>testAfterSaveNoInvalidation</name>
+    </test-case>
+    <test-case start="1556668685579" stop="1556668685581" status="passed">
+      <name>testAfterSaveWithInvalidation</name>
+    </test-case>
+    <test-case start="1556668685581" stop="1556668685582" status="passed">
+      <name>testBeforeDelete</name>
+    </test-case>
+    <test-case start="1556668685582" stop="1556668685583" status="passed">
+      <name>testAfterDeleteNoInvalidation</name>
+    </test-case>
+    <test-case start="1556668685583" stop="1556668685585" status="passed">
+      <name>testAfterDeleteWithInvalidation</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

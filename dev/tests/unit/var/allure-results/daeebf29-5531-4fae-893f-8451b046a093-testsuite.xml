@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668726280" stop="1556668726381" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Observer\AfterAddressSaveObserverTest</name>
+  <test-cases>
+    <test-case start="1556668726281" stop="1556668726288" status="passed">
+      <name>testAfterAddressSaveRestricted with data set #0</name>
+    </test-case>
+    <test-case start="1556668726288" stop="1556668726292" status="passed">
+      <name>testAfterAddressSaveRestricted with data set #1</name>
+    </test-case>
+    <test-case start="1556668726292" stop="1556668726296" status="passed">
+      <name>testAfterAddressSaveRestricted with data set #2</name>
+    </test-case>
+    <test-case start="1556668726296" stop="1556668726303" status="passed">
+      <name>testAfterAddressSaveRestricted with data set #3</name>
+    </test-case>
+    <test-case start="1556668726304" stop="1556668726310" status="passed">
+      <name>testAfterAddressSaveRestricted with data set #4</name>
+    </test-case>
+    <test-case start="1556668726310" stop="1556668726314" status="passed">
+      <name>testAfterAddressSaveException</name>
+    </test-case>
+    <test-case start="1556668726314" stop="1556668726320" status="passed">
+      <name>testAfterAddressSaveDefaultGroup with data set #0</name>
+    </test-case>
+    <test-case start="1556668726321" stop="1556668726326" status="passed">
+      <name>testAfterAddressSaveDefaultGroup with data set #1</name>
+    </test-case>
+    <test-case start="1556668726327" stop="1556668726337" status="passed">
+      <name>testAfterAddressSaveNewGroup with data set #0</name>
+    </test-case>
+    <test-case start="1556668726338" stop="1556668726348" status="passed">
+      <name>testAfterAddressSaveNewGroup with data set #1</name>
+    </test-case>
+    <test-case start="1556668726349" stop="1556668726359" status="passed">
+      <name>testAfterAddressSaveNewGroup with data set #2</name>
+    </test-case>
+    <test-case start="1556668726360" stop="1556668726370" status="passed">
+      <name>testAfterAddressSaveNewGroup with data set #3</name>
+    </test-case>
+    <test-case start="1556668726371" stop="1556668726381" status="passed">
+      <name>testAfterAddressSaveNewGroup with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

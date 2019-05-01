@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668830985" stop="1556668831053" version="1.4.0">
+  <name>Magento\User\Test\Unit\Model\ResourceModel\UserTest</name>
+  <test-cases>
+    <test-case start="1556668830985" stop="1556668830988" status="passed">
+      <name>testIsUserUnique</name>
+    </test-case>
+    <test-case start="1556668830988" stop="1556668830990" status="passed">
+      <name>testRecordLogin</name>
+    </test-case>
+    <test-case start="1556668830990" stop="1556668830992" status="passed">
+      <name>testLoadByUsername</name>
+    </test-case>
+    <test-case start="1556668830992" stop="1556668830994" status="passed">
+      <name>testHasAssigned2Role</name>
+    </test-case>
+    <test-case start="1556668830994" stop="1556668830997" status="passed">
+      <name>testHasAssigned2RolePassAnObject</name>
+    </test-case>
+    <test-case start="1556668830997" stop="1556668830999" status="passed">
+      <name>testClearUserRoles</name>
+    </test-case>
+    <test-case start="1556668830999" stop="1556668831001" status="passed">
+      <name>testDeleteSuccess</name>
+    </test-case>
+    <test-case start="1556668831001" stop="1556668831002" status="passed">
+      <name>testGetRolesEmptyId</name>
+    </test-case>
+    <test-case start="1556668831003" stop="1556668831005" status="passed">
+      <name>testGetRolesReturnFilledArray</name>
+    </test-case>
+    <test-case start="1556668831005" stop="1556668831008" status="passed">
+      <name>testGetRolesFetchRowFailure</name>
+    </test-case>
+    <test-case start="1556668831008" stop="1556668831009" status="passed">
+      <name>testSaveExtraEmptyId</name>
+    </test-case>
+    <test-case start="1556668831009" stop="1556668831011" status="passed">
+      <name>testSaveExtraFilledId</name>
+    </test-case>
+    <test-case start="1556668831011" stop="1556668831013" status="passed">
+      <name>testCountAll</name>
+    </test-case>
+    <test-case start="1556668831013" stop="1556668831015" status="passed">
+      <name>testUpdateRoleUsersAclWithUsers</name>
+    </test-case>
+    <test-case start="1556668831015" stop="1556668831016" status="passed">
+      <name>testUpdateRoleUsersAclNoUsers</name>
+    </test-case>
+    <test-case start="1556668831017" stop="1556668831018" status="passed">
+      <name>testUpdateRoleUsersAclUpdateFail</name>
+    </test-case>
+    <test-case start="1556668831019" stop="1556668831020" status="passed">
+      <name>testUnlock</name>
+    </test-case>
+    <test-case start="1556668831020" stop="1556668831022" status="passed">
+      <name>testUnlockWithInteger</name>
+    </test-case>
+    <test-case start="1556668831022" stop="1556668831024" status="passed">
+      <name>testLock</name>
+    </test-case>
+    <test-case start="1556668831024" stop="1556668831026" status="passed">
+      <name>testLockWithInteger</name>
+    </test-case>
+    <test-case start="1556668831026" stop="1556668831029" status="passed">
+      <name>testGetOldPassword</name>
+    </test-case>
+    <test-case start="1556668831029" stop="1556668831031" status="passed">
+      <name>testDeleteFromRole</name>
+    </test-case>
+    <test-case start="1556668831031" stop="1556668831034" status="passed">
+      <name>testRoleUserExists</name>
+    </test-case>
+    <test-case start="1556668831034" stop="1556668831036" status="passed">
+      <name>testGetValidationBeforeSave</name>
+    </test-case>
+    <test-case start="1556668831036" stop="1556668831038" status="passed">
+      <name>testUpdateFailure</name>
+    </test-case>
+    <test-case start="1556668831038" stop="1556668831040" status="passed">
+      <name>testTrackPassword</name>
+    </test-case>
+    <test-case start="1556668831040" stop="1556668831043" status="passed">
+      <name>testGetLatestPassword</name>
+    </test-case>
+    <test-case start="1556668831043" stop="1556668831044" status="passed">
+      <name>testInitUniqueFields</name>
+    </test-case>
+    <test-case start="1556668831044" stop="1556668831049" status="passed">
+      <name>testAfterSave</name>
+    </test-case>
+    <test-case start="1556668831049" stop="1556668831051" status="passed">
+      <name>testAfterLoad</name>
+    </test-case>
+    <test-case start="1556668831052" stop="1556668831053" status="passed">
+      <name>testAfterLoadNoExtra</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

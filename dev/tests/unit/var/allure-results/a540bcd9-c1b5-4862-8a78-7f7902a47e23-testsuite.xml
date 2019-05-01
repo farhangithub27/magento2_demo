@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668720975" stop="1556668720985" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Controller\Plugin\AccountTest</name>
+  <test-cases>
+    <test-case start="1556668720975" stop="1556668720978" status="passed">
+      <name>testBeforeDispatch with data set #0</name>
+    </test-case>
+    <test-case start="1556668720978" stop="1556668720979" status="passed">
+      <name>testBeforeDispatch with data set #1</name>
+    </test-case>
+    <test-case start="1556668720980" stop="1556668720981" status="passed">
+      <name>testBeforeDispatch with data set #2</name>
+    </test-case>
+    <test-case start="1556668720981" stop="1556668720982" status="passed">
+      <name>testBeforeDispatch with data set #3</name>
+    </test-case>
+    <test-case start="1556668720983" stop="1556668720984" status="passed">
+      <name>testBeforeDispatch with data set #4</name>
+    </test-case>
+    <test-case start="1556668720984" stop="1556668720985" status="passed">
+      <name>testAfterDispatch</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

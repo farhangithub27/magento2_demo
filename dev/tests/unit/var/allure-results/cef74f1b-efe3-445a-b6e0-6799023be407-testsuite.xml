@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668697307" stop="1556668697315" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Plugin\ProductRepository\TransactionWrapperTest</name>
+  <test-cases>
+    <test-case start="1556668697307" stop="1556668697309" status="passed">
+      <name>testAroundSaveCommit</name>
+    </test-case>
+    <test-case start="1556668697309" stop="1556668697310" status="passed">
+      <name>testAroundSaveRollBack</name>
+    </test-case>
+    <test-case start="1556668697310" stop="1556668697311" status="passed">
+      <name>testAroundDeleteCommit</name>
+    </test-case>
+    <test-case start="1556668697311" stop="1556668697312" status="passed">
+      <name>testAroundDeleteRollBack</name>
+    </test-case>
+    <test-case start="1556668697312" stop="1556668697313" status="passed">
+      <name>testAroundDeleteByIdCommit</name>
+    </test-case>
+    <test-case start="1556668697313" stop="1556668697314" status="passed">
+      <name>testAroundDeleteByIdRollBack</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668856623" stop="1556668856627" version="1.4.0">
+  <name>Magento\Framework\Model\Test\Unit\ActionValidator\RemoveActionTest</name>
+  <test-cases>
+    <test-case start="1556668856623" stop="1556668856624" status="passed">
+      <name>testIsAllowed with data set #0</name>
+    </test-case>
+    <test-case start="1556668856625" stop="1556668856625" status="passed">
+      <name>testIsAllowed with data set #1</name>
+    </test-case>
+    <test-case start="1556668856626" stop="1556668856626" status="passed">
+      <name>testIsAllowed with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668685918" stop="1556668685920" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Layer\Catalog\ItemCollectionProviderTest</name>
+  <test-cases>
+    <test-case start="1556668685919" stop="1556668685920" status="passed">
+      <name>testGetCollection</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

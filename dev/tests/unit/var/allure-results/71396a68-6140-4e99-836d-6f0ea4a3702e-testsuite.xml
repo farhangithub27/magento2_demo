@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668658081" stop="1556668658104" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\StartUpdaterTest</name>
+  <test-cases>
+    <test-case start="1556668658081" stop="1556668658084" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+    <test-case start="1556668658084" stop="1556668658087" status="passed">
+      <name>testUpdateInvalidRequest with data set "NoParmas"</name>
+    </test-case>
+    <test-case start="1556668658088" stop="1556668658091" status="passed">
+      <name>testUpdateInvalidRequest with data set "NoArray"</name>
+    </test-case>
+    <test-case start="1556668658091" stop="1556668658094" status="passed">
+      <name>testUpdateInvalidRequest with data set "NoVersion"</name>
+    </test-case>
+    <test-case start="1556668658094" stop="1556668658098" status="passed">
+      <name>testUpdateInvalidRequest with data set "NoDataOption"</name>
+    </test-case>
+    <test-case start="1556668658098" stop="1556668658101" status="passed">
+      <name>testUpdateInvalidRequest with data set "NoPackageInfo"</name>
+    </test-case>
+    <test-case start="1556668658101" stop="1556668658104" status="passed">
+      <name>testUpdateActionSuccess</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

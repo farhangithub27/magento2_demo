@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668671872" stop="1556668671875" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\Menu\Builder\Command\AddTest</name>
+  <test-cases>
+    <test-case start="1556668671872" stop="1556668671873" status="passed">
+      <name>testExecuteFillsEmptyItemWithData</name>
+    </test-case>
+    <test-case start="1556668671873" stop="1556668671874" status="passed">
+      <name>testExecuteDoesntRewriteDataInFilledItem</name>
+    </test-case>
+    <test-case start="1556668671874" stop="1556668671875" status="passed">
+      <name>testChainWithAnotherAddCommandTrowsException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

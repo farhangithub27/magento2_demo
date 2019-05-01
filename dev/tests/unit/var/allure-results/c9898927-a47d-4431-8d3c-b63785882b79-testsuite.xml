@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668683454" stop="1556668683457" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Observer\CheckoutAllSubmitAfterObserverTest</name>
+  <test-cases>
+    <test-case start="1556668683454" stop="1556668683457" status="passed">
+      <name>testCheckoutAllSubmitAfter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

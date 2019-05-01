@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668871105" stop="1556668871121" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Design\Theme\Customization\AbstractFileTest</name>
+  <test-cases>
+    <test-case start="1556668871105" stop="1556668871106" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668871107" stop="1556668871108" status="passed">
+      <name>testGetFullPath</name>
+    </test-case>
+    <test-case start="1556668871108" stop="1556668871111" status="passed">
+      <name>testPrepareFile with data set "first_condition"</name>
+    </test-case>
+    <test-case start="1556668871112" stop="1556668871115" status="passed">
+      <name>testPrepareFile with data set "second_condition"</name>
+    </test-case>
+    <test-case start="1556668871115" stop="1556668871118" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668871118" stop="1556668871120" status="passed">
+      <name>testDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

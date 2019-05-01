@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668706950" stop="1556668706986" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\CustomerData\CartTest</name>
+  <test-cases>
+    <test-case start="1556668706950" stop="1556668706953" status="passed">
+      <name>testIsGuestCheckoutAllowed</name>
+    </test-case>
+    <test-case start="1556668706953" stop="1556668706971" status="passed">
+      <name>testGetSectionData</name>
+    </test-case>
+    <test-case start="1556668706971" stop="1556668706986" status="passed">
+      <name>testGetSectionDataWithCompositeProduct</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

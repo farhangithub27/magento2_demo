@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668678204" stop="1556668678259" version="1.4.0">
+  <name>Magento\Bundle\Test\Unit\Pricing\Adjustment\CalculatorTest</name>
+  <test-cases>
+    <test-case start="1556668678204" stop="1556668678213" status="passed">
+      <name>testEmptySelectionPriceList</name>
+    </test-case>
+    <test-case start="1556668678214" stop="1556668678221" status="passed">
+      <name>testGetterAmount with data set "case with getting minimal amount"</name>
+    </test-case>
+    <test-case start="1556668678221" stop="1556668678229" status="passed">
+      <name>testGetterAmount with data set "case with getting maximum amount"</name>
+    </test-case>
+    <test-case start="1556668678229" stop="1556668678232" status="passed">
+      <name>testGetterAmount with data set "case without saleable items"</name>
+    </test-case>
+    <test-case start="1556668678232" stop="1556668678236" status="passed">
+      <name>testGetterAmount with data set "case without required options"</name>
+    </test-case>
+    <test-case start="1556668678236" stop="1556668678239" status="passed">
+      <name>testGetAmountWithoutOption</name>
+    </test-case>
+    <test-case start="1556668678239" stop="1556668678242" status="passed">
+      <name>testGetMinRegularAmount</name>
+    </test-case>
+    <test-case start="1556668678242" stop="1556668678245" status="passed">
+      <name>testGetMaxRegularAmount</name>
+    </test-case>
+    <test-case start="1556668678245" stop="1556668678249" status="passed">
+      <name>testGetOptionsAmount with data set "true, true"</name>
+    </test-case>
+    <test-case start="1556668678250" stop="1556668678252" status="passed">
+      <name>testGetOptionsAmount with data set "true, false"</name>
+    </test-case>
+    <test-case start="1556668678253" stop="1556668678256" status="passed">
+      <name>testGetOptionsAmount with data set "false, true"</name>
+    </test-case>
+    <test-case start="1556668678256" stop="1556668678259" status="passed">
+      <name>testGetOptionsAmount with data set "false, false"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

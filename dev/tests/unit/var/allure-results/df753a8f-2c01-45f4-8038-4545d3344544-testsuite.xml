@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668800442" stop="1556668800455" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Block\Adminhtml\Order\Create\Sidebar\AbstractSidebarTest</name>
+  <test-cases>
+    <test-case start="1556668800443" stop="1556668800447" status="passed">
+      <name>testGetItemQty with data set "whenQtyIsset"</name>
+    </test-case>
+    <test-case start="1556668800447" stop="1556668800451" status="passed">
+      <name>testGetItemQty with data set "whenQtyNotIsset"</name>
+    </test-case>
+    <test-case start="1556668800451" stop="1556668800455" status="passed">
+      <name>testIsConfigurationRequired</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

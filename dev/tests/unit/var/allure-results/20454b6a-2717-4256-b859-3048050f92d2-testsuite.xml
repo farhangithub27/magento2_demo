@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668813828" stop="1556668813845" version="1.4.0">
+  <name>Magento\Security\Test\Unit\Model\AdminSessionInfoTest</name>
+  <test-cases>
+    <test-case start="1556668813829" stop="1556668813830" status="passed">
+      <name>testIsLoggedInStatus</name>
+    </test-case>
+    <test-case start="1556668813831" stop="1556668813832" status="passed">
+      <name>testIsLoggedInStatusExpired</name>
+    </test-case>
+    <test-case start="1556668813833" stop="1556668813834" status="passed">
+      <name>testSessionExpired with data set #0</name>
+    </test-case>
+    <test-case start="1556668813835" stop="1556668813836" status="passed">
+      <name>testSessionExpired with data set #1</name>
+    </test-case>
+    <test-case start="1556668813837" stop="1556668813838" status="passed">
+      <name>testSessionExpired with data set #2</name>
+    </test-case>
+    <test-case start="1556668813838" stop="1556668813840" status="passed">
+      <name>testGetFormattedIp</name>
+    </test-case>
+    <test-case start="1556668813840" stop="1556668813841" status="passed">
+      <name>testIsOtherSessionsTerminated</name>
+    </test-case>
+    <test-case start="1556668813842" stop="1556668813843" status="passed">
+      <name>testSetIsOtherSessionsTerminated with data set #0</name>
+    </test-case>
+    <test-case start="1556668813843" stop="1556668813845" status="passed">
+      <name>testSetIsOtherSessionsTerminated with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

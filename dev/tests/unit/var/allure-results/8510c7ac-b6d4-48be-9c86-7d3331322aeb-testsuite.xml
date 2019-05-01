@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668697538" stop="1556668697573" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Attribute\Backend\PriceTest</name>
+  <test-cases>
+    <test-case start="1556668697538" stop="1556668697541" status="passed">
+      <name>testValidate with data set "US simple"</name>
+    </test-case>
+    <test-case start="1556668697541" stop="1556668697543" status="passed">
+      <name>testValidate with data set "US full"</name>
+    </test-case>
+    <test-case start="1556668697543" stop="1556668697545" status="passed">
+      <name>testValidate with data set "Brazil"</name>
+    </test-case>
+    <test-case start="1556668697545" stop="1556668697547" status="passed">
+      <name>testValidate with data set "India"</name>
+    </test-case>
+    <test-case start="1556668697547" stop="1556668697549" status="passed">
+      <name>testValidate with data set "Lebanon"</name>
+    </test-case>
+    <test-case start="1556668697549" stop="1556668697550" status="passed">
+      <name>testValidate with data set "zero"</name>
+    </test-case>
+    <test-case start="1556668697551" stop="1556668697552" status="passed">
+      <name>testValidate with data set "NaN becomes zero"</name>
+    </test-case>
+    <test-case start="1556668697553" stop="1556668697555" status="passed">
+      <name>testValidateForFailure with data set "negative US simple"</name>
+    </test-case>
+    <test-case start="1556668697555" stop="1556668697557" status="passed">
+      <name>testValidateForFailure with data set "negative US full"</name>
+    </test-case>
+    <test-case start="1556668697557" stop="1556668697559" status="passed">
+      <name>testValidateForFailure with data set "negative Brazil"</name>
+    </test-case>
+    <test-case start="1556668697559" stop="1556668697561" status="passed">
+      <name>testValidateForFailure with data set "negative India"</name>
+    </test-case>
+    <test-case start="1556668697561" stop="1556668697564" status="passed">
+      <name>testValidateForFailure with data set "negative Lebanon"</name>
+    </test-case>
+    <test-case start="1556668697564" stop="1556668697568" status="passed">
+      <name>testAfterSaveWithDifferentStores</name>
+    </test-case>
+    <test-case start="1556668697568" stop="1556668697570" status="passed">
+      <name>testAfterSaveWithOldPrice</name>
+    </test-case>
+    <test-case start="1556668697570" stop="1556668697573" status="passed">
+      <name>testAfterSaveWithGlobalPrice</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668712276" stop="1556668712294" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\LoaderTest</name>
+  <test-cases>
+    <test-case start="1556668712276" stop="1556668712292" status="passed">
+      <name>testGetConfigByPathInFullMode</name>
+    </test-case>
+    <test-case start="1556668712292" stop="1556668712294" status="passed">
+      <name>testGetConfigByPath</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

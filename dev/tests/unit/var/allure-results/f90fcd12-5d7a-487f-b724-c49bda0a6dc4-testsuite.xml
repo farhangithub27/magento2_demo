@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668668563" stop="1556668668572" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Gateway\Response\PaymentReviewStatusHandlerTest</name>
+  <test-cases>
+    <test-case start="1556668668564" stop="1556668668565" status="passed">
+      <name>testApprovesPayment</name>
+    </test-case>
+    <test-case start="1556668668566" stop="1556668668567" status="passed">
+      <name>testDeniesPayment with data set #0</name>
+    </test-case>
+    <test-case start="1556668668568" stop="1556668668570" status="passed">
+      <name>testDeniesPayment with data set #1</name>
+    </test-case>
+    <test-case start="1556668668570" stop="1556668668571" status="passed">
+      <name>testDoesNothingWhenPending with data set #0</name>
+    </test-case>
+    <test-case start="1556668668571" stop="1556668668572" status="passed">
+      <name>testDoesNothingWhenPending with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668825382" stop="1556668825386" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Indexer\Design\Config\Plugin\WebsiteTest</name>
+  <test-cases>
+    <test-case start="1556668825382" stop="1556668825384" status="passed">
+      <name>testAroundSave</name>
+    </test-case>
+    <test-case start="1556668825384" stop="1556668825385" status="passed">
+      <name>testAroundSaveWithExistentSubject</name>
+    </test-case>
+    <test-case start="1556668825385" stop="1556668825386" status="passed">
+      <name>testAfterDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

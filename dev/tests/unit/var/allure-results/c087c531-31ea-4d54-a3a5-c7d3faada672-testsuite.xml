@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668872033" stop="1556668872037" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Element\Message\Renderer\BlockRenderer\TemplateTest</name>
+  <test-cases>
+    <test-case start="1556668872033" stop="1556668872037" status="passed">
+      <name>testGetCacheKeyInfo</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747844" stop="1556668747857" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\Plugin\IntegrationTest</name>
+  <test-cases>
+    <test-case start="1556668747844" stop="1556668747848" status="passed">
+      <name>testAfterDelete</name>
+    </test-case>
+    <test-case start="1556668747848" stop="1556668747849" status="passed">
+      <name>testAfterCreateAllResources</name>
+    </test-case>
+    <test-case start="1556668747850" stop="1556668747851" status="passed">
+      <name>testAfterCreateSomeResources</name>
+    </test-case>
+    <test-case start="1556668747852" stop="1556668747853" status="passed">
+      <name>testAfterCreateNoResource</name>
+    </test-case>
+    <test-case start="1556668747853" stop="1556668747855" status="passed">
+      <name>testAfterUpdateAllResources</name>
+    </test-case>
+    <test-case start="1556668747855" stop="1556668747857" status="passed">
+      <name>testAfterGet</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

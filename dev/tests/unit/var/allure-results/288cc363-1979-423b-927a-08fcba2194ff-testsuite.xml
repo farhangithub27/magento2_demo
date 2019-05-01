@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668784468" stop="1556668784473" version="1.4.0">
+  <name>Magento\Payment\Test\Unit\Model\CcConfigTest</name>
+  <test-cases>
+    <test-case start="1556668784468" stop="1556668784469" status="passed">
+      <name>testGetCcAvailableTypes</name>
+    </test-case>
+    <test-case start="1556668784469" stop="1556668784470" status="passed">
+      <name>testGetCcMonths</name>
+    </test-case>
+    <test-case start="1556668784470" stop="1556668784471" status="passed">
+      <name>testGetCcYears</name>
+    </test-case>
+    <test-case start="1556668784471" stop="1556668784472" status="passed">
+      <name>testHasVerification</name>
+    </test-case>
+    <test-case start="1556668784472" stop="1556668784473" status="passed">
+      <name>testGetCvvImageUrl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

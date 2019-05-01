@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668737397" stop="1556668737411" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\Elasticsearch5\Model\Adapter\FieldMapper\Product\FieldProvider\FieldType\Resolver\KeywordTypeTest</name>
+  <test-cases>
+    <test-case start="1556668737398" stop="1556668737400" status="passed">
+      <name>testGetFieldType with data set #0</name>
+    </test-case>
+    <test-case start="1556668737400" stop="1556668737401" status="passed">
+      <name>testGetFieldType with data set #1</name>
+    </test-case>
+    <test-case start="1556668737402" stop="1556668737403" status="passed">
+      <name>testGetFieldType with data set #2</name>
+    </test-case>
+    <test-case start="1556668737403" stop="1556668737405" status="passed">
+      <name>testGetFieldType with data set #3</name>
+    </test-case>
+    <test-case start="1556668737405" stop="1556668737407" status="passed">
+      <name>testGetFieldType with data set #4</name>
+    </test-case>
+    <test-case start="1556668737407" stop="1556668737409" status="passed">
+      <name>testGetFieldType with data set #5</name>
+    </test-case>
+    <test-case start="1556668737409" stop="1556668737411" status="passed">
+      <name>testGetFieldType with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

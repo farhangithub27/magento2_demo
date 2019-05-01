@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668870240" stop="1556668870246" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Asset\NotationResolver\ModuleTest</name>
+  <test-cases>
+    <test-case start="1556668870240" stop="1556668870241" status="passed">
+      <name>testConvertModuleNotationToPathNoModularSeparator</name>
+    </test-case>
+    <test-case start="1556668870242" stop="1556668870243" status="passed">
+      <name>testConvertModuleNotationToPathModularSeparator with data set "same module"</name>
+    </test-case>
+    <test-case start="1556668870243" stop="1556668870244" status="passed">
+      <name>testConvertModuleNotationToPathModularSeparator with data set "non-modular refers to modular"</name>
+    </test-case>
+    <test-case start="1556668870245" stop="1556668870246" status="passed">
+      <name>testConvertModuleNotationToPathModularSeparator with data set "different modules"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

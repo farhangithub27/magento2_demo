@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668685509" stop="1556668685514" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Autocomplete\DataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668685509" stop="1556668685514" status="passed">
+      <name>testGetItems</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

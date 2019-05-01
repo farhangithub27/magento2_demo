@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668790147" stop="1556668790151" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Observer\PreventClearCheckoutSessionObserverTest</name>
+  <test-cases>
+    <test-case start="1556668790147" stop="1556668790149" status="passed">
+      <name>testExecuteWhenSessionIsPersist</name>
+    </test-case>
+    <test-case start="1556668790149" stop="1556668790150" status="passed">
+      <name>testExecuteWhenShoppingCartIsPersist</name>
+    </test-case>
+    <test-case start="1556668790150" stop="1556668790151" status="passed">
+      <name>testExecuteWhenActionIsNotPersistent</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

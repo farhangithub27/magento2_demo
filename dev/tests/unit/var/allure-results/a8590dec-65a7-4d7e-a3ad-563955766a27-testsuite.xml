@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668850716" stop="1556668850740" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668850716" stop="1556668850717" status="passed">
+      <name>testRemoveAllItems</name>
+    </test-case>
+    <test-case start="1556668850717" stop="1556668850718" status="passed">
+      <name>testLoadWithFilter</name>
+    </test-case>
+    <test-case start="1556668850718" stop="1556668850718" status="passed">
+      <name>testSetItemObjectClass with data set #0</name>
+    </test-case>
+    <test-case start="1556668850719" stop="1556668850719" status="passed">
+      <name>testSetItemObjectClass with data set #1</name>
+    </test-case>
+    <test-case start="1556668850720" stop="1556668850720" status="passed">
+      <name>testSetItemObjectClassException</name>
+    </test-case>
+    <test-case start="1556668850720" stop="1556668850721" status="passed">
+      <name>testAddFilter</name>
+    </test-case>
+    <test-case start="1556668850721" stop="1556668850722" status="passed">
+      <name>testGetFilters</name>
+    </test-case>
+    <test-case start="1556668850722" stop="1556668850722" status="passed">
+      <name>testGetNonExistingFilters</name>
+    </test-case>
+    <test-case start="1556668850723" stop="1556668850723" status="passed">
+      <name>testFlag</name>
+    </test-case>
+    <test-case start="1556668850723" stop="1556668850724" status="passed">
+      <name>testGetCurPage</name>
+    </test-case>
+    <test-case start="1556668850724" stop="1556668850730" status="passed">
+      <name>testPossibleFlowWithItem</name>
+    </test-case>
+    <test-case start="1556668850730" stop="1556668850731" status="passed">
+      <name>testEachCallsMethodOnEachItemWithNoArgs</name>
+    </test-case>
+    <test-case start="1556668850731" stop="1556668850733" status="passed">
+      <name>testEachCallsMethodOnEachItemWithArgs</name>
+    </test-case>
+    <test-case start="1556668850733" stop="1556668850734" status="passed">
+      <name>testCallsClosureWithEachItemAndNoArgs</name>
+    </test-case>
+    <test-case start="1556668850734" stop="1556668850736" status="passed">
+      <name>testCallsClosureWithEachItemAndArgs</name>
+    </test-case>
+    <test-case start="1556668850737" stop="1556668850738" status="passed">
+      <name>testCallsCallableArrayWithEachItemNoArgs</name>
+    </test-case>
+    <test-case start="1556668850738" stop="1556668850740" status="passed">
+      <name>testCallsCallableArrayWithEachItemAndArgs</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

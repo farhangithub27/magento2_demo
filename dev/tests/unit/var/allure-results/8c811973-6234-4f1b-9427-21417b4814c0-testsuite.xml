@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668724218" stop="1556668724221" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Metadata\AttributeResolverTest</name>
+  <test-cases>
+    <test-case start="1556668724218" stop="1556668724219" status="passed">
+      <name>testGetModelByAttribute</name>
+    </test-case>
+    <test-case start="1556668724220" stop="1556668724221" status="passed">
+      <name>testGetModelByAttributeWithoutModel</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

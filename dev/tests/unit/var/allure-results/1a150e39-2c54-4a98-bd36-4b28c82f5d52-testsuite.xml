@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668825274" stop="1556668825287" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\DesignTest</name>
+  <test-cases>
+    <test-case start="1556668825274" stop="1556668825280" status="passed">
+      <name>testLoadChange</name>
+    </test-case>
+    <test-case start="1556668825280" stop="1556668825283" status="passed">
+      <name>testLoadChangeFromCache</name>
+    </test-case>
+    <test-case start="1556668825283" stop="1556668825284" status="passed">
+      <name>testGetIdentities</name>
+    </test-case>
+    <test-case start="1556668825285" stop="1556668825286" status="passed">
+      <name>testChangeDesign</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

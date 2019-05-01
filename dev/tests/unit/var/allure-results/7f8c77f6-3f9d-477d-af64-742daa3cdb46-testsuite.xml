@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668665343" stop="1556668665360" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Controller\Adminhtml\Reports\ShowTest</name>
+  <test-cases>
+    <test-case start="1556668665344" stop="1556668665350" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668665351" stop="1556668665353" status="passed">
+      <name>testExecuteWithException with data set "ExecuteWithLocalizedException"</name>
+    </test-case>
+    <test-case start="1556668665354" stop="1556668665357" status="passed">
+      <name>testExecuteWithException with data set "ExecuteWithException"</name>
+    </test-case>
+    <test-case start="1556668665357" stop="1556668665360" status="passed">
+      <name>testExecuteWithSubscriptionUpdateException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

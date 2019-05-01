@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668863727" stop="1556668863735" version="1.4.0">
+  <name>Magento\Framework\Setup\Test\Unit\SchemaListenerTest</name>
+  <test-cases>
+    <test-case start="1556668863727" stop="1556668863729" status="passed">
+      <name>testRenameTable</name>
+    </test-case>
+    <test-case start="1556668863729" stop="1556668863730" status="passed">
+      <name>testDropIndex</name>
+    </test-case>
+    <test-case start="1556668863730" stop="1556668863733" status="passed">
+      <name>testCreateTable</name>
+    </test-case>
+    <test-case start="1556668863733" stop="1556668863734" status="passed">
+      <name>testDropTable</name>
+    </test-case>
+    <test-case start="1556668863734" stop="1556668863735" status="passed">
+      <name>testDropTableInSameModule</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

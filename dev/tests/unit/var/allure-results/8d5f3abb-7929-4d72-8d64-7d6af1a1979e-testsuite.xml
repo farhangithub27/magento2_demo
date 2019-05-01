@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668699670" stop="1556668699688" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\Product\Price\TierPriceStorageTest</name>
+  <test-cases>
+    <test-case start="1556668699670" stop="1556668699679" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668699679" stop="1556668699680" status="passed">
+      <name>testGetWithoutTierPrices</name>
+    </test-case>
+    <test-case start="1556668699681" stop="1556668699683" status="passed">
+      <name>testUpdate</name>
+    </test-case>
+    <test-case start="1556668699684" stop="1556668699686" status="passed">
+      <name>testReplace</name>
+    </test-case>
+    <test-case start="1556668699686" stop="1556668699688" status="passed">
+      <name>testDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

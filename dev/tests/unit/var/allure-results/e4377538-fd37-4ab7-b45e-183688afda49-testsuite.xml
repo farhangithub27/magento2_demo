@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668721006" stop="1556668721020" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Controller\Section\LoadTest</name>
+  <test-cases>
+    <test-case start="1556668721006" stop="1556668721011" status="passed">
+      <name>testExecute with data set #0</name>
+    </test-case>
+    <test-case start="1556668721012" stop="1556668721015" status="passed">
+      <name>testExecute with data set #1</name>
+    </test-case>
+    <test-case start="1556668721016" stop="1556668721019" status="passed">
+      <name>testExecuteWithThrowException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

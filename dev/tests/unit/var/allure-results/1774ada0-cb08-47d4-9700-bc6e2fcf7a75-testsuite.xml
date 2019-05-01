@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668808362" stop="1556668808368" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Payment\TransactionTest</name>
+  <test-cases>
+    <test-case start="1556668808362" stop="1556668808366" status="passed">
+      <name>testGetHtmlTxnId</name>
+    </test-case>
+    <test-case start="1556668808366" stop="1556668808368" status="passed">
+      <name>testGetHtmlTxnIdIsNull</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

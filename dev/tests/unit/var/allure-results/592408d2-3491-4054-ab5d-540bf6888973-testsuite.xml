@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668664124" stop="1556668664142" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Validator\DbValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668664125" stop="1556668664129" status="passed">
+      <name>testCheckDatabaseConnection</name>
+    </test-case>
+    <test-case start="1556668664129" stop="1556668664132" status="passed">
+      <name>testCheckDatabaseConnectionNotEnoughPrivileges</name>
+    </test-case>
+    <test-case start="1556668664132" stop="1556668664134" status="passed">
+      <name>testCheckDatabaseConnectionDbNotAccessible</name>
+    </test-case>
+    <test-case start="1556668664134" stop="1556668664135" status="passed">
+      <name>testCheckDatabaseTablePrefix</name>
+    </test-case>
+    <test-case start="1556668664135" stop="1556668664137" status="passed">
+      <name>testCheckDatabaseTablePrefixWrongFormat</name>
+    </test-case>
+    <test-case start="1556668664137" stop="1556668664138" status="passed">
+      <name>testCheckDatabaseTablePrefixWrongLength</name>
+    </test-case>
+    <test-case start="1556668664139" stop="1556668664140" status="passed">
+      <name>testCheckDatabaseConnectionFailed</name>
+    </test-case>
+    <test-case start="1556668664140" stop="1556668664142" status="passed">
+      <name>testCheckDatabaseConnectionIncompatible</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

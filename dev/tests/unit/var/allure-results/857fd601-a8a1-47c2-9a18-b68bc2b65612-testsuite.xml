@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668669241" stop="1556668669522" version="1.4.0">
+  <name>Magento\Authorizenet\Test\Unit\Model\DirectpostTest</name>
+  <test-cases>
+    <test-case start="1556668669241" stop="1556668669257" status="passed">
+      <name>testGetConfigInterface</name>
+    </test-case>
+    <test-case start="1556668669257" stop="1556668669261" status="passed">
+      <name>testGetConfigValue</name>
+    </test-case>
+    <test-case start="1556668669261" stop="1556668669267" status="passed">
+      <name>testSetDataHelper</name>
+    </test-case>
+    <test-case start="1556668669267" stop="1556668669271" status="passed">
+      <name>testAuthorize</name>
+    </test-case>
+    <test-case start="1556668669271" stop="1556668669275" status="passed">
+      <name>testGetCgiUrl</name>
+    </test-case>
+    <test-case start="1556668669276" stop="1556668669280" status="passed">
+      <name>testGetCgiUrlWithEmptyConfigValue</name>
+    </test-case>
+    <test-case start="1556668669280" stop="1556668669284" status="passed">
+      <name>testGetRelayUrl</name>
+    </test-case>
+    <test-case start="1556668669284" stop="1556668669288" status="passed">
+      <name>testGetResponse</name>
+    </test-case>
+    <test-case start="1556668669288" stop="1556668669292" status="passed">
+      <name>testSetResponseData</name>
+    </test-case>
+    <test-case start="1556668669292" stop="1556668669297" status="passed">
+      <name>testValidateResponseSuccess</name>
+    </test-case>
+    <test-case start="1556668669297" stop="1556668669302" status="passed">
+      <name>testValidateResponseFailure</name>
+    </test-case>
+    <test-case start="1556668669302" stop="1556668669307" status="passed">
+      <name>testCheckTransIdSuccess</name>
+    </test-case>
+    <test-case start="1556668669307" stop="1556668669312" status="passed">
+      <name>testCheckTransIdFailure</name>
+    </test-case>
+    <test-case start="1556668669312" stop="1556668669316" status="passed">
+      <name>testCheckResponseCodeSuccess with data set #0</name>
+    </test-case>
+    <test-case start="1556668669317" stop="1556668669321" status="passed">
+      <name>testCheckResponseCodeSuccess with data set #1</name>
+    </test-case>
+    <test-case start="1556668669322" stop="1556668669328" status="passed">
+      <name>testCheckResponseCodeFailure with data set #0</name>
+    </test-case>
+    <test-case start="1556668669328" stop="1556668669334" status="passed">
+      <name>testCheckResponseCodeFailure with data set #1</name>
+    </test-case>
+    <test-case start="1556668669334" stop="1556668669339" status="passed">
+      <name>testCheckResponseCodeFailure with data set #2</name>
+    </test-case>
+    <test-case start="1556668669339" stop="1556668669343" status="passed">
+      <name>testSetIsInitializeNeeded with data set #0</name>
+    </test-case>
+    <test-case start="1556668669343" stop="1556668669347" status="passed">
+      <name>testSetIsInitializeNeeded with data set #1</name>
+    </test-case>
+    <test-case start="1556668669348" stop="1556668669351" status="passed">
+      <name>testCanCapture with data set #0</name>
+    </test-case>
+    <test-case start="1556668669352" stop="1556668669477" status="passed">
+      <name>testCanCapture with data set #1</name>
+    </test-case>
+    <test-case start="1556668669478" stop="1556668669495" status="passed">
+      <name>testFetchVoidedTransactionInfo with data set #0</name>
+    </test-case>
+    <test-case start="1556668669495" stop="1556668669522" status="passed">
+      <name>testSuccessRefund</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668789776" stop="1556668789816" version="1.4.0">
+  <name>Magento\Persistent\Test\Unit\Model\QuoteManagerTest</name>
+  <test-cases>
+    <test-case start="1556668789776" stop="1556668789779" status="passed">
+      <name>testSetGuestWithEmptyQuote</name>
+    </test-case>
+    <test-case start="1556668789779" stop="1556668789781" status="passed">
+      <name>testSetGuestWithEmptyQuoteId</name>
+    </test-case>
+    <test-case start="1556668789781" stop="1556668789783" status="passed">
+      <name>testSetGuestWhenShoppingCartAndQuoteAreNotPersistent</name>
+    </test-case>
+    <test-case start="1556668789783" stop="1556668789797" status="passed">
+      <name>testSetGuest</name>
+    </test-case>
+    <test-case start="1556668789798" stop="1556668789800" status="passed">
+      <name>testExpireWithActiveQuoteAndCustomerId</name>
+    </test-case>
+    <test-case start="1556668789800" stop="1556668789803" status="passed">
+      <name>testExpire</name>
+    </test-case>
+    <test-case start="1556668789803" stop="1556668789813" status="passed">
+      <name>testConvertCustomerCartToGuest</name>
+    </test-case>
+    <test-case start="1556668789813" stop="1556668789815" status="passed">
+      <name>testConvertCustomerCartToGuestWithEmptyQuote</name>
+    </test-case>
+    <test-case start="1556668789815" stop="1556668789816" status="passed">
+      <name>testConvertCustomerCartToGuestWithEmptyQuoteId</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

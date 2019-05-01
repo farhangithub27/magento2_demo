@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668873125" stop="1556668873129" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Layout\BuilderTest</name>
+  <test-cases>
+    <test-case start="1556668873125" stop="1556668873128" status="passed">
+      <name>testBuild</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

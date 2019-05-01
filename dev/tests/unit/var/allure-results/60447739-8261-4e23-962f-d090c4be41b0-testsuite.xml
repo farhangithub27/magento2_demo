@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668747103" stop="1556668747106" version="1.4.0">
+  <name>Magento\Integration\Test\Unit\Model\CredentialsValidatorTest</name>
+  <test-cases>
+    <test-case start="1556668747104" stop="1556668747104" status="passed">
+      <name>testValidateNoUsername</name>
+    </test-case>
+    <test-case start="1556668747104" stop="1556668747105" status="passed">
+      <name>testValidateNoPassword</name>
+    </test-case>
+    <test-case start="1556668747105" stop="1556668747106" status="passed">
+      <name>testValidateValidCredentials</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

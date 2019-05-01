@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668871230" stop="1556668871238" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Design\Theme\FlyweightFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668871231" stop="1556668871232" status="passed">
+      <name>testCreateById with data set #0</name>
+    </test-case>
+    <test-case start="1556668871233" stop="1556668871234" status="passed">
+      <name>testCreateById with data set #1</name>
+    </test-case>
+    <test-case start="1556668871234" stop="1556668871236" status="passed">
+      <name>testCreateByPath</name>
+    </test-case>
+    <test-case start="1556668871236" stop="1556668871237" status="passed">
+      <name>testCreateDummy</name>
+    </test-case>
+    <test-case start="1556668871237" stop="1556668871238" status="passed">
+      <name>testNegativeCreate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

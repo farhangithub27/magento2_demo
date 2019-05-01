@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668803407" stop="1556668803437" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\AdminOrder\CreateTest</name>
+  <test-cases>
+    <test-case start="1556668803407" stop="1556668803416" status="passed">
+      <name>testSetAccountData</name>
+    </test-case>
+    <test-case start="1556668803416" stop="1556668803420" status="passed">
+      <name>testUpdateQuoteItemsNotArray</name>
+    </test-case>
+    <test-case start="1556668803420" stop="1556668803424" status="passed">
+      <name>testUpdateQuoteItemsEmptyConfiguredOption</name>
+    </test-case>
+    <test-case start="1556668803424" stop="1556668803428" status="passed">
+      <name>testUpdateQuoteItemsWithConfiguredOption</name>
+    </test-case>
+    <test-case start="1556668803428" stop="1556668803433" status="passed">
+      <name>testApplyCoupon</name>
+    </test-case>
+    <test-case start="1556668803433" stop="1556668803437" status="passed">
+      <name>testGetCustomerCart</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

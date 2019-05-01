@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668715768" stop="1556668715771" version="1.4.0">
+  <name>Magento\ConfigurableProduct\Test\Unit\Plugin\Catalog\Model\Product\Pricing\Renderer\SalableResolverTest</name>
+  <test-cases>
+    <test-case start="1556668715768" stop="1556668715770" status="passed">
+      <name>testAfterIsSalable with data set #0</name>
+    </test-case>
+    <test-case start="1556668715770" stop="1556668715771" status="passed">
+      <name>testAfterIsSalable with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668871209" stop="1556668871211" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Design\Theme\Domain\FactoryTest</name>
+  <test-cases>
+    <test-case start="1556668871209" stop="1556668871210" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668871211" stop="1556668871211" status="passed">
+      <name>testCreateWithWrongThemeType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

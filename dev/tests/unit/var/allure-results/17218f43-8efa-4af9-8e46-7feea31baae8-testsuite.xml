@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668815589" stop="1556668815637" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Controller\Webhooks\HandlerTest</name>
+  <test-cases>
+    <test-case start="1556668815590" stop="1556668815612" status="passed">
+      <name>testExecuteSuccessfully</name>
+    </test-case>
+    <test-case start="1556668815612" stop="1556668815618" status="passed">
+      <name>testExecuteCaseUpdatingServiceException</name>
+    </test-case>
+    <test-case start="1556668815618" stop="1556668815621" status="passed">
+      <name>testExecuteRequestValidationFails</name>
+    </test-case>
+    <test-case start="1556668815622" stop="1556668815626" status="passed">
+      <name>testExecuteWithTestEventTopic</name>
+    </test-case>
+    <test-case start="1556668815627" stop="1556668815632" status="passed">
+      <name>testExecuteWithMissedCaseId</name>
+    </test-case>
+    <test-case start="1556668815633" stop="1556668815637" status="passed">
+      <name>testExecuteWithNotFoundCaseEntity</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

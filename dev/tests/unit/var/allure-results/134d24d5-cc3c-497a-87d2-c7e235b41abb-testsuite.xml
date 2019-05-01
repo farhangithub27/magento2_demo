@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668741042" stop="1556668741054" version="1.4.0">
+  <name>Magento\GiftMessage\Test\Unit\Model\ItemRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668741042" stop="1556668741043" status="passed">
+      <name>testGetWithNoSuchEntityException</name>
+    </test-case>
+    <test-case start="1556668741044" stop="1556668741045" status="passed">
+      <name>testGetWithoutMessageId</name>
+    </test-case>
+    <test-case start="1556668741045" stop="1556668741047" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668741047" stop="1556668741048" status="passed">
+      <name>testSaveWithNoSuchEntityException</name>
+    </test-case>
+    <test-case start="1556668741049" stop="1556668741050" status="passed">
+      <name>testSaveWithInvalidTransitionException</name>
+    </test-case>
+    <test-case start="1556668741050" stop="1556668741054" status="passed">
+      <name>testSave</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

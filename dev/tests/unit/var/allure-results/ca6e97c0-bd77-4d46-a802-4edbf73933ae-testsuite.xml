@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668850017" stop="1556668850021" version="1.4.0">
+  <name>Magento\Framework\DB\Test\Unit\Select\QueryModifierFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668850017" stop="1556668850019" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668850019" stop="1556668850020" status="passed">
+      <name>testCreateUnknownQueryModifierType</name>
+    </test-case>
+    <test-case start="1556668850020" stop="1556668850021" status="passed">
+      <name>testCreateDoesNotImplementInterface</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

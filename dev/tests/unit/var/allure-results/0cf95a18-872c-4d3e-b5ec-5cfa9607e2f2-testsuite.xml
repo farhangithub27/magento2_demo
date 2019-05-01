@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668846578" stop="1556668846619" version="1.4.0">
+  <name>Magento\Framework\Cache\Test\Unit\Backend\MongoDbTest</name>
+  <test-cases>
+    <test-case start="1556668846578" stop="1556668846580" status="passed">
+      <name>testGetIds with data set "empty db"</name>
+    </test-case>
+    <test-case start="1556668846581" stop="1556668846581" status="passed">
+      <name>testGetIds with data set "multiple records"</name>
+    </test-case>
+    <test-case start="1556668846582" stop="1556668846583" status="passed">
+      <name>testGetTags with data set "no tags"</name>
+    </test-case>
+    <test-case start="1556668846583" stop="1556668846584" status="passed">
+      <name>testGetTags with data set "multiple tags"</name>
+    </test-case>
+    <test-case start="1556668846585" stop="1556668846586" status="passed">
+      <name>testGetIdsMatchingTags with data set "getIdsMatchingTags() - one tag"</name>
+    </test-case>
+    <test-case start="1556668846586" stop="1556668846587" status="passed">
+      <name>testGetIdsMatchingTags with data set "getIdsMatchingTags() - multiple tags"</name>
+    </test-case>
+    <test-case start="1556668846587" stop="1556668846588" status="passed">
+      <name>testGetIdsMatchingTags with data set "getIdsNotMatchingTags() - one tag"</name>
+    </test-case>
+    <test-case start="1556668846588" stop="1556668846589" status="passed">
+      <name>testGetIdsMatchingTags with data set "getIdsNotMatchingTags() - multiple tags"</name>
+    </test-case>
+    <test-case start="1556668846589" stop="1556668846590" status="passed">
+      <name>testGetIdsMatchingTags with data set "getIdsMatchingAnyTags() - one tag"</name>
+    </test-case>
+    <test-case start="1556668846590" stop="1556668846591" status="passed">
+      <name>testGetIdsMatchingTags with data set "getIdsMatchingAnyTags() - multiple tags"</name>
+    </test-case>
+    <test-case start="1556668846592" stop="1556668846592" status="passed">
+      <name>testGetIdsMatchingTagsNoInputTags</name>
+    </test-case>
+    <test-case start="1556668846592" stop="1556668846593" status="passed">
+      <name>testGetFillingPercentage</name>
+    </test-case>
+    <test-case start="1556668846594" stop="1556668846594" status="passed">
+      <name>testGetMetadatas with data set "existing record"</name>
+    </test-case>
+    <test-case start="1556668846595" stop="1556668846595" status="passed">
+      <name>testGetMetadatas with data set "non-existing record"</name>
+    </test-case>
+    <test-case start="1556668846596" stop="1556668846597" status="passed">
+      <name>testGetMetadatas with data set "non-string id"</name>
+    </test-case>
+    <test-case start="1556668846597" stop="1556668846598" status="passed">
+      <name>testTouch</name>
+    </test-case>
+    <test-case start="1556668846598" stop="1556668846598" status="passed">
+      <name>testGetCapabilities</name>
+    </test-case>
+    <test-case start="1556668846599" stop="1556668846600" status="passed">
+      <name>testLoad with data set "test validity"</name>
+    </test-case>
+    <test-case start="1556668846600" stop="1556668846601" status="passed">
+      <name>testLoad with data set "do not test validity"</name>
+    </test-case>
+    <test-case start="1556668846601" stop="1556668846602" status="passed">
+      <name>testLoadNoRecord</name>
+    </test-case>
+    <test-case start="1556668846602" stop="1556668846603" status="passed">
+      <name>testTest</name>
+    </test-case>
+    <test-case start="1556668846603" stop="1556668846604" status="passed">
+      <name>testTestNotFound</name>
+    </test-case>
+    <test-case start="1556668846604" stop="1556668846605" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668846605" stop="1556668846606" status="passed">
+      <name>testRemove</name>
+    </test-case>
+    <test-case start="1556668846606" stop="1556668846607" status="passed">
+      <name>testClean with data set "clean expired"</name>
+    </test-case>
+    <test-case start="1556668846607" stop="1556668846608" status="passed">
+      <name>testClean with data set "clean cache matching all tags (string)"</name>
+    </test-case>
+    <test-case start="1556668846608" stop="1556668846609" status="passed">
+      <name>testClean with data set "clean cache matching all tags (one tag)"</name>
+    </test-case>
+    <test-case start="1556668846609" stop="1556668846610" status="passed">
+      <name>testClean with data set "clean cache matching all tags (multiple tags)"</name>
+    </test-case>
+    <test-case start="1556668846611" stop="1556668846611" status="passed">
+      <name>testClean with data set "clean cache not matching tags (string)"</name>
+    </test-case>
+    <test-case start="1556668846612" stop="1556668846612" status="passed">
+      <name>testClean with data set "clean cache not matching tags (one tag)"</name>
+    </test-case>
+    <test-case start="1556668846613" stop="1556668846613" status="passed">
+      <name>testClean with data set "clean cache not matching tags (multiple tags)"</name>
+    </test-case>
+    <test-case start="1556668846614" stop="1556668846615" status="passed">
+      <name>testClean with data set "clean cache matching any tags (string)"</name>
+    </test-case>
+    <test-case start="1556668846615" stop="1556668846616" status="passed">
+      <name>testClean with data set "clean cache matching any tags (one tag)"</name>
+    </test-case>
+    <test-case start="1556668846616" stop="1556668846617" status="passed">
+      <name>testClean with data set "clean cache matching any tags (multiple tags)"</name>
+    </test-case>
+    <test-case start="1556668846618" stop="1556668846619" status="passed">
+      <name>testCleanInvalidMode</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668860781" stop="1556668860800" version="1.4.0">
+  <name>Magento\Framework\Search\Test\Unit\Adapter\Mysql\Filter\Builder\RangeTest</name>
+  <test-cases>
+    <test-case start="1556668860781" stop="1556668860784" status="passed">
+      <name>testBuildQuery with data set "rangeWithStrings"</name>
+    </test-case>
+    <test-case start="1556668860784" stop="1556668860786" status="passed">
+      <name>testBuildQuery with data set "rangeWithIntegers"</name>
+    </test-case>
+    <test-case start="1556668860786" stop="1556668860787" status="passed">
+      <name>testBuildQuery with data set "rangeWithFloats"</name>
+    </test-case>
+    <test-case start="1556668860788" stop="1556668860789" status="passed">
+      <name>testBuildQuery with data set "rangeWithStringsNegative"</name>
+    </test-case>
+    <test-case start="1556668860790" stop="1556668860791" status="passed">
+      <name>testBuildQuery with data set "rangeWithoutFromValue"</name>
+    </test-case>
+    <test-case start="1556668860792" stop="1556668860793" status="passed">
+      <name>testBuildQuery with data set "rangeWithoutFromValueNegative"</name>
+    </test-case>
+    <test-case start="1556668860793" stop="1556668860795" status="passed">
+      <name>testBuildQuery with data set "rangeWithoutToValue"</name>
+    </test-case>
+    <test-case start="1556668860795" stop="1556668860797" status="passed">
+      <name>testBuildQuery with data set "rangeWithoutToValueNegative"</name>
+    </test-case>
+    <test-case start="1556668860797" stop="1556668860798" status="passed">
+      <name>testBuildQuery with data set "rangeWithEmptyValues"</name>
+    </test-case>
+    <test-case start="1556668860799" stop="1556668860800" status="passed">
+      <name>testBuildQuery with data set "rangeWithEmptyValuesNegative"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

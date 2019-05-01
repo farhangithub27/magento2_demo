@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668674957" stop="1556668674964" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Model\LocaleResolverTest</name>
+  <test-cases>
+    <test-case start="1556668674957" stop="1556668674959" status="passed">
+      <name>testGetDefaultLocalePath</name>
+    </test-case>
+    <test-case start="1556668674959" stop="1556668674960" status="passed">
+      <name>testSetDefaultLocale</name>
+    </test-case>
+    <test-case start="1556668674960" stop="1556668674961" status="passed">
+      <name>testGetDefaultLocale</name>
+    </test-case>
+    <test-case start="1556668674961" stop="1556668674962" status="passed">
+      <name>testSetLocale</name>
+    </test-case>
+    <test-case start="1556668674962" stop="1556668674963" status="passed">
+      <name>testGetLocale</name>
+    </test-case>
+    <test-case start="1556668674963" stop="1556668674964" status="passed">
+      <name>testEmulate</name>
+    </test-case>
+    <test-case start="1556668674964" stop="1556668674964" status="passed">
+      <name>testRevert</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

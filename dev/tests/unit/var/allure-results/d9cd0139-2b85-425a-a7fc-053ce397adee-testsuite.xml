@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668702980" stop="1556668702991" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Model\ResourceModel\Product\Website\LinkTest</name>
+  <test-cases>
+    <test-case start="1556668702980" stop="1556668702987" status="passed">
+      <name>testGetWebsiteIdByProductId</name>
+    </test-case>
+    <test-case start="1556668702988" stop="1556668702991" status="passed">
+      <name>testSaveWebsiteIds</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

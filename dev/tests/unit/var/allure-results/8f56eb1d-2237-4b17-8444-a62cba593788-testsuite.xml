@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668670451" stop="1556668670470" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Block\Widget\Grid\Column\Renderer\CurrencyTest</name>
+  <test-cases>
+    <test-case start="1556668670452" stop="1556668670469" status="passed">
+      <name>testRenderWithDefaultCurrency</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

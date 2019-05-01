@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668782493" stop="1556668782505" version="1.4.0">
+  <name>Magento\OfflineShipping\Test\Unit\Model\ResourceModel\Carrier\Tablerate\ImportTest</name>
+  <test-cases>
+    <test-case start="1556668782494" stop="1556668782497" status="passed">
+      <name>testGetColumns</name>
+    </test-case>
+    <test-case start="1556668782498" stop="1556668782501" status="passed">
+      <name>testGetData</name>
+    </test-case>
+    <test-case start="1556668782501" stop="1556668782503" status="passed">
+      <name>testGetDataWithDuplicatedLine</name>
+    </test-case>
+    <test-case start="1556668782504" stop="1556668782505" status="passed">
+      <name>testGetDataFromEmptyFile</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

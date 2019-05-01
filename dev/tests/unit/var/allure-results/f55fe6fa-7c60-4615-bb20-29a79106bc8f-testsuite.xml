@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668685477" stop="1556668685489" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Attribute\SearchWeightTest</name>
+  <test-cases>
+    <test-case start="1556668685477" stop="1556668685485" status="passed">
+      <name>testSaveNewAttribute</name>
+    </test-case>
+    <test-case start="1556668685485" stop="1556668685486" status="passed">
+      <name>testSaveNewAttributeWithChangedProperty</name>
+    </test-case>
+    <test-case start="1556668685487" stop="1556668685488" status="passed">
+      <name>testSaveNotNewAttributeWithChangedProperty</name>
+    </test-case>
+    <test-case start="1556668685488" stop="1556668685489" status="passed">
+      <name>testSaveNotNewAttributeWithNotChangedProperty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

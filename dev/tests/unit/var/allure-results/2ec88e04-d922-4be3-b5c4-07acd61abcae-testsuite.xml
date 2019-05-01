@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668812216" stop="1556668812219" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Status\ListStatusTest</name>
+  <test-cases>
+    <test-case start="1556668812216" stop="1556668812217" status="passed">
+      <name>testAddAndGetItem</name>
+    </test-case>
+    <test-case start="1556668812217" stop="1556668812217" status="passed">
+      <name>testRemovePresentAndAbsentItems</name>
+    </test-case>
+    <test-case start="1556668812218" stop="1556668812218" status="passed">
+      <name>testRemoveItemsByPresentAndAbsentParams</name>
+    </test-case>
+    <test-case start="1556668812218" stop="1556668812219" status="passed">
+      <name>testClear</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

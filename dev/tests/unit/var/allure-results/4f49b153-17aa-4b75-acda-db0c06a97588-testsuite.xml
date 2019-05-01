@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668839186" stop="1556668839205" version="1.4.0">
+  <name>Magento\Framework\Test\Unit\DataObjectTest</name>
+  <test-cases>
+    <test-case start="1556668839187" stop="1556668839187" status="passed">
+      <name>testConstruct</name>
+    </test-case>
+    <test-case start="1556668839187" stop="1556668839188" status="passed">
+      <name>testAddData</name>
+    </test-case>
+    <test-case start="1556668839188" stop="1556668839188" status="passed">
+      <name>testSetData</name>
+    </test-case>
+    <test-case start="1556668839188" stop="1556668839189" status="passed">
+      <name>testUnsetData</name>
+    </test-case>
+    <test-case start="1556668839189" stop="1556668839190" status="passed">
+      <name>testGetData</name>
+    </test-case>
+    <test-case start="1556668839190" stop="1556668839190" status="passed">
+      <name>testGetDataByPath</name>
+    </test-case>
+    <test-case start="1556668839190" stop="1556668839191" status="passed">
+      <name>testGetDataByKey</name>
+    </test-case>
+    <test-case start="1556668839191" stop="1556668839192" status="passed">
+      <name>testSetGetDataUsingMethod</name>
+    </test-case>
+    <test-case start="1556668839192" stop="1556668839193" status="passed">
+      <name>testGetDataUsingMethodWithoutUnderscore</name>
+    </test-case>
+    <test-case start="1556668839193" stop="1556668839194" status="passed">
+      <name>testHasData</name>
+    </test-case>
+    <test-case start="1556668839194" stop="1556668839194" status="passed">
+      <name>testToArray</name>
+    </test-case>
+    <test-case start="1556668839194" stop="1556668839195" status="passed">
+      <name>testToXml</name>
+    </test-case>
+    <test-case start="1556668839195" stop="1556668839195" status="passed">
+      <name>testToJson</name>
+    </test-case>
+    <test-case start="1556668839196" stop="1556668839196" status="passed">
+      <name>testToString</name>
+    </test-case>
+    <test-case start="1556668839196" stop="1556668839197" status="passed">
+      <name>testCall</name>
+    </test-case>
+    <test-case start="1556668839197" stop="1556668839197" status="passed">
+      <name>testGetSet</name>
+    </test-case>
+    <test-case start="1556668839198" stop="1556668839198" status="passed">
+      <name>testIsEmpty</name>
+    </test-case>
+    <test-case start="1556668839198" stop="1556668839199" status="passed">
+      <name>testSerialize</name>
+    </test-case>
+    <test-case start="1556668839199" stop="1556668839199" status="passed">
+      <name>testDebug</name>
+    </test-case>
+    <test-case start="1556668839199" stop="1556668839200" status="passed">
+      <name>testOffset</name>
+    </test-case>
+    <test-case start="1556668839200" stop="1556668839201" status="passed">
+      <name>testUnderscore with data set "Test 1"</name>
+    </test-case>
+    <test-case start="1556668839201" stop="1556668839201" status="passed">
+      <name>testUnderscore with data set "Test 2"</name>
+    </test-case>
+    <test-case start="1556668839202" stop="1556668839202" status="passed">
+      <name>testUnderscore with data set "Test 3"</name>
+    </test-case>
+    <test-case start="1556668839202" stop="1556668839203" status="passed">
+      <name>testUnderscore with data set "Test 4"</name>
+    </test-case>
+    <test-case start="1556668839203" stop="1556668839203" status="passed">
+      <name>testUnderscore with data set "Test 5"</name>
+    </test-case>
+    <test-case start="1556668839204" stop="1556668839204" status="passed">
+      <name>testUnderscore with data set "Test 6"</name>
+    </test-case>
+    <test-case start="1556668839204" stop="1556668839205" status="passed">
+      <name>testUnderscore with data set "Test 7"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

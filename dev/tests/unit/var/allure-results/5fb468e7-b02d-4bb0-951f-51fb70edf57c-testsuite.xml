@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668799934" stop="1556668799943" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Block\Adminhtml\Items\Column\DefaultColumnTest</name>
+  <test-cases>
+    <test-case start="1556668799934" stop="1556668799939" status="passed">
+      <name>testGetTotalAmount</name>
+    </test-case>
+    <test-case start="1556668799939" stop="1556668799943" status="passed">
+      <name>testGetBaseTotalAmount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

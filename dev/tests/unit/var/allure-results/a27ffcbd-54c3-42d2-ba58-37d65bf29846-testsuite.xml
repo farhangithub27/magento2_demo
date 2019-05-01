@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816127" stop="1556668816140" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\Guarantee\CreationServiceTest</name>
+  <test-cases>
+    <test-case start="1556668816128" stop="1556668816131" status="passed">
+      <name>testCreateForOrderWithNotEligibleCase</name>
+    </test-case>
+    <test-case start="1556668816131" stop="1556668816135" status="passed">
+      <name>testCreateForOrderWitCase</name>
+    </test-case>
+    <test-case start="1556668816135" stop="1556668816137" status="passed">
+      <name>testCreateForOrderWithGatewayFailure</name>
+    </test-case>
+    <test-case start="1556668816137" stop="1556668816139" status="passed">
+      <name>testCreateForOrderWithGatewaySuccess</name>
+    </test-case>
+    <test-case start="1556668816139" stop="1556668816140" status="passed">
+      <name>testCreateForOrderWithCaseUpdate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668691150" stop="1556668691184" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Widget\LinkTest</name>
+  <test-cases>
+    <test-case start="1556668691150" stop="1556668691158" status="passed">
+      <name>testGetHrefWithoutSetIdPath</name>
+    </test-case>
+    <test-case start="1556668691158" stop="1556668691161" status="passed">
+      <name>testGetHrefIfSetWrongIdPath</name>
+    </test-case>
+    <test-case start="1556668691161" stop="1556668691164" status="passed">
+      <name>testGetHrefWithSetStoreId</name>
+    </test-case>
+    <test-case start="1556668691164" stop="1556668691167" status="passed">
+      <name>testGetHrefIfRewriteIsNotFound</name>
+    </test-case>
+    <test-case start="1556668691167" stop="1556668691172" status="passed">
+      <name>testGetHrefWithoutUrlStoreSuffix with data set #0</name>
+    </test-case>
+    <test-case start="1556668691172" stop="1556668691175" status="passed">
+      <name>testGetHrefWithoutUrlStoreSuffix with data set #1</name>
+    </test-case>
+    <test-case start="1556668691176" stop="1556668691178" status="passed">
+      <name>testGetLabelWithCustomText</name>
+    </test-case>
+    <test-case start="1556668691178" stop="1556668691181" status="passed">
+      <name>testGetLabelWithoutCustomText</name>
+    </test-case>
+    <test-case start="1556668691182" stop="1556668691184" status="passed">
+      <name>testGetHrefWithForProductWithCategoryIdParameter</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

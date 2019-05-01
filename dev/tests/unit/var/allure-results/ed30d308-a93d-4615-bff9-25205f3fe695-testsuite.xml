@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668796664" stop="1556668796714" version="1.4.0">
+  <name>Magento\Review\Test\Unit\Model\ReviewTest</name>
+  <test-cases>
+    <test-case start="1556668796665" stop="1556668796679" status="passed">
+      <name>testGetProductCollection</name>
+    </test-case>
+    <test-case start="1556668796679" stop="1556668796688" status="passed">
+      <name>testGetStatusCollection</name>
+    </test-case>
+    <test-case start="1556668796688" stop="1556668796690" status="passed">
+      <name>testGetTotalReviews</name>
+    </test-case>
+    <test-case start="1556668796690" stop="1556668796692" status="passed">
+      <name>testAggregate</name>
+    </test-case>
+    <test-case start="1556668796692" stop="1556668796695" status="passed">
+      <name>testGetEntitySummary</name>
+    </test-case>
+    <test-case start="1556668796696" stop="1556668796697" status="passed">
+      <name>testGetPendingStatus</name>
+    </test-case>
+    <test-case start="1556668796697" stop="1556668796699" status="passed">
+      <name>testGetReviewUrl</name>
+    </test-case>
+    <test-case start="1556668796699" stop="1556668796701" status="passed">
+      <name>testGetProductUrl with data set "store id specified"</name>
+    </test-case>
+    <test-case start="1556668796702" stop="1556668796703" status="passed">
+      <name>testGetProductUrl with data set "store id is not specified"</name>
+    </test-case>
+    <test-case start="1556668796704" stop="1556668796705" status="passed">
+      <name>testIsApproved</name>
+    </test-case>
+    <test-case start="1556668796705" stop="1556668796707" status="passed">
+      <name>testIsAvailableOnStore with data set "store id is set and not in list"</name>
+    </test-case>
+    <test-case start="1556668796708" stop="1556668796709" status="passed">
+      <name>testIsAvailableOnStore with data set "store id is set"</name>
+    </test-case>
+    <test-case start="1556668796709" stop="1556668796711" status="passed">
+      <name>testIsAvailableOnStore with data set "store id is not set"</name>
+    </test-case>
+    <test-case start="1556668796711" stop="1556668796712" status="passed">
+      <name>testGetEntityIdByCode</name>
+    </test-case>
+    <test-case start="1556668796713" stop="1556668796714" status="passed">
+      <name>testGetIdentities</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

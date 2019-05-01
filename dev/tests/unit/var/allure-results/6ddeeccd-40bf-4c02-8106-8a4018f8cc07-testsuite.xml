@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668781625" stop="1556668781699" version="1.4.0">
+  <name>Magento\Newsletter\Test\Unit\Model\SubscriberTest</name>
+  <test-cases>
+    <test-case start="1556668781625" stop="1556668781636" status="passed">
+      <name>testSubscribe</name>
+    </test-case>
+    <test-case start="1556668781636" stop="1556668781643" status="passed">
+      <name>testSubscribeNotLoggedIn</name>
+    </test-case>
+    <test-case start="1556668781643" stop="1556668781649" status="passed">
+      <name>testUpdateSubscription</name>
+    </test-case>
+    <test-case start="1556668781649" stop="1556668781656" status="passed">
+      <name>testUnsubscribeCustomerById</name>
+    </test-case>
+    <test-case start="1556668781657" stop="1556668781664" status="passed">
+      <name>testSubscribeCustomerById</name>
+    </test-case>
+    <test-case start="1556668781664" stop="1556668781672" status="passed">
+      <name>testSubscribeCustomerById1</name>
+    </test-case>
+    <test-case start="1556668781673" stop="1556668781681" status="passed">
+      <name>testSubscribeCustomerByIdAfterConfirmation</name>
+    </test-case>
+    <test-case start="1556668781682" stop="1556668781687" status="passed">
+      <name>testUnsubscribe</name>
+    </test-case>
+    <test-case start="1556668781687" stop="1556668781689" status="passed">
+      <name>testUnsubscribeException</name>
+    </test-case>
+    <test-case start="1556668781690" stop="1556668781692" status="passed">
+      <name>testGetSubscriberFullName</name>
+    </test-case>
+    <test-case start="1556668781692" stop="1556668781694" status="passed">
+      <name>testConfirm</name>
+    </test-case>
+    <test-case start="1556668781694" stop="1556668781697" status="passed">
+      <name>testConfirmWrongCode</name>
+    </test-case>
+    <test-case start="1556668781697" stop="1556668781699" status="passed">
+      <name>testReceived</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668826904" stop="1556668826915" version="1.4.0">
+  <name>Magento\Translation\Test\Unit\Model\Js\DataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668826905" stop="1556668826913" status="passed">
+      <name>testGetData</name>
+    </test-case>
+    <test-case start="1556668826913" stop="1556668826915" status="passed">
+      <name>testGetDataThrowingException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

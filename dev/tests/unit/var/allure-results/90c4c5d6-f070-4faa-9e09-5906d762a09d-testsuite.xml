@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668730747" stop="1556668730761" version="1.4.0">
+  <name>Magento\Developer\Test\Unit\Console\Command\ProfilerEnableCommandTest</name>
+  <test-cases>
+    <test-case start="1556668730747" stop="1556668730749" status="passed">
+      <name>testCommand with data set #0</name>
+    </test-case>
+    <test-case start="1556668730749" stop="1556668730750" status="passed">
+      <name>testCommand with data set #1</name>
+    </test-case>
+    <test-case start="1556668730751" stop="1556668730752" status="passed">
+      <name>testCommand with data set #2</name>
+    </test-case>
+    <test-case start="1556668730752" stop="1556668730753" status="passed">
+      <name>testCommand with data set #3</name>
+    </test-case>
+    <test-case start="1556668730754" stop="1556668730756" status="passed">
+      <name>testCommand with data set #4</name>
+    </test-case>
+    <test-case start="1556668730756" stop="1556668730757" status="passed">
+      <name>testCommand with data set #5</name>
+    </test-case>
+    <test-case start="1556668730758" stop="1556668730759" status="passed">
+      <name>testCommand with data set #6</name>
+    </test-case>
+    <test-case start="1556668730759" stop="1556668730761" status="passed">
+      <name>testCommand with data set #7</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

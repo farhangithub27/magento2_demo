@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668734747" stop="1556668734768" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Attribute\Data\DateTest</name>
+  <test-cases>
+    <test-case start="1556668734747" stop="1556668734749" status="passed">
+      <name>testOutputValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668734750" stop="1556668734750" status="passed">
+      <name>testOutputValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668734751" stop="1556668734753" status="passed">
+      <name>testValidateValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668734754" stop="1556668734755" status="passed">
+      <name>testValidateValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668734756" stop="1556668734757" status="passed">
+      <name>testValidateValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668734757" stop="1556668734759" status="passed">
+      <name>testValidateValue with data set #3</name>
+    </test-case>
+    <test-case start="1556668734760" stop="1556668734761" status="passed">
+      <name>testValidateValue with data set #4</name>
+    </test-case>
+    <test-case start="1556668734762" stop="1556668734764" status="passed">
+      <name>testValidateValue with data set #5</name>
+    </test-case>
+    <test-case start="1556668734764" stop="1556668734765" status="passed">
+      <name>testCompactValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668734766" stop="1556668734766" status="passed">
+      <name>testCompactValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668734767" stop="1556668734767" status="passed">
+      <name>testCompactValueWithFalseValue</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

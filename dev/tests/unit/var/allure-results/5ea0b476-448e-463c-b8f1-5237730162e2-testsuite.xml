@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668726542" stop="1556668726550" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Ui\Component\DataProvider\DocumentTest</name>
+  <test-cases>
+    <test-case start="1556668726542" stop="1556668726544" status="passed">
+      <name>testGetGenderAttribute</name>
+    </test-case>
+    <test-case start="1556668726544" stop="1556668726546" status="passed">
+      <name>testGetGroupAttribute</name>
+    </test-case>
+    <test-case start="1556668726546" stop="1556668726547" status="passed">
+      <name>testGetWebsiteAttribute</name>
+    </test-case>
+    <test-case start="1556668726548" stop="1556668726549" status="passed">
+      <name>testGetConfirmationAttribute</name>
+    </test-case>
+    <test-case start="1556668726549" stop="1556668726550" status="passed">
+      <name>testGetAccountLockValue</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

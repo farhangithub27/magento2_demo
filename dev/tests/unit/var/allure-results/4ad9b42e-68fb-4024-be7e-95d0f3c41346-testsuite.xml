@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668816313" stop="1556668816321" version="1.4.0">
+  <name>Magento\Signifyd\Test\Unit\Model\PaymentVerificationFactoryTest</name>
+  <test-cases>
+    <test-case start="1556668816313" stop="1556668816316" status="passed">
+      <name>testCreatePaymentCvv</name>
+    </test-case>
+    <test-case start="1556668816316" stop="1556668816317" status="passed">
+      <name>testCreateDefaultCvvMapper</name>
+    </test-case>
+    <test-case start="1556668816317" stop="1556668816319" status="passed">
+      <name>testCreateWithUnsupportedImplementation</name>
+    </test-case>
+    <test-case start="1556668816319" stop="1556668816320" status="passed">
+      <name>testCreatePaymentAvs</name>
+    </test-case>
+    <test-case start="1556668816320" stop="1556668816321" status="passed">
+      <name>testCreateDefaultAvsMapper</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

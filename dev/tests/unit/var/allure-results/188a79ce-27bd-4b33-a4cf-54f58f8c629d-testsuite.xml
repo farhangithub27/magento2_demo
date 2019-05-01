@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668803940" stop="1556668803943" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Grid\CollectionUpdaterTest</name>
+  <test-cases>
+    <test-case start="1556668803941" stop="1556668803942" status="passed">
+      <name>testUpdateIfOrderNotExists</name>
+    </test-case>
+    <test-case start="1556668803942" stop="1556668803943" status="passed">
+      <name>testUpdateIfOrderExists</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

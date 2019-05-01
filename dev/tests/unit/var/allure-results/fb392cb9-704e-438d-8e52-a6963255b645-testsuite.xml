@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668737149" stop="1556668737251" version="1.4.0">
+  <name>Magento\Elasticsearch6\Test\Unit\Model\Client\ElasticsearchTest</name>
+  <test-cases>
+    <test-case start="1556668737149" stop="1556668737155" status="passed">
+      <name>testConstructorOptionsException</name>
+    </test-case>
+    <test-case start="1556668737155" stop="1556668737226" status="passed">
+      <name>testConstructorWithOptions</name>
+    </test-case>
+    <test-case start="1556668737226" stop="1556668737227" status="passed">
+      <name>testPing</name>
+    </test-case>
+    <test-case start="1556668737227" stop="1556668737228" status="passed">
+      <name>testTestConnection</name>
+    </test-case>
+    <test-case start="1556668737228" stop="1556668737229" status="passed">
+      <name>testTestConnectionFalse</name>
+    </test-case>
+    <test-case start="1556668737229" stop="1556668737230" status="passed">
+      <name>testTestConnectionPing</name>
+    </test-case>
+    <test-case start="1556668737231" stop="1556668737231" status="passed">
+      <name>testBulkQuery</name>
+    </test-case>
+    <test-case start="1556668737232" stop="1556668737233" status="passed">
+      <name>testCreateIndexExists</name>
+    </test-case>
+    <test-case start="1556668737233" stop="1556668737234" status="passed">
+      <name>testDeleteIndex</name>
+    </test-case>
+    <test-case start="1556668737234" stop="1556668737235" status="passed">
+      <name>testIsEmptyIndex</name>
+    </test-case>
+    <test-case start="1556668737235" stop="1556668737236" status="passed">
+      <name>testIsEmptyIndexFalse</name>
+    </test-case>
+    <test-case start="1556668737236" stop="1556668737237" status="passed">
+      <name>testUpdateAlias</name>
+    </test-case>
+    <test-case start="1556668737237" stop="1556668737238" status="passed">
+      <name>testUpdateAliasRemoveOldIndex</name>
+    </test-case>
+    <test-case start="1556668737239" stop="1556668737239" status="passed">
+      <name>testIndexExists</name>
+    </test-case>
+    <test-case start="1556668737240" stop="1556668737241" status="passed">
+      <name>testExistsAlias</name>
+    </test-case>
+    <test-case start="1556668737241" stop="1556668737242" status="passed">
+      <name>testExistsAliasWithIndex</name>
+    </test-case>
+    <test-case start="1556668737242" stop="1556668737243" status="passed">
+      <name>testGetAlias</name>
+    </test-case>
+    <test-case start="1556668737243" stop="1556668737244" status="passed">
+      <name>testCreateIndexFailure</name>
+    </test-case>
+    <test-case start="1556668737244" stop="1556668737245" status="passed">
+      <name>testAddFieldsMapping</name>
+    </test-case>
+    <test-case start="1556668737246" stop="1556668737247" status="passed">
+      <name>testAddFieldsMappingFailure</name>
+    </test-case>
+    <test-case start="1556668737247" stop="1556668737248" status="passed">
+      <name>testDeleteMapping</name>
+    </test-case>
+    <test-case start="1556668737248" stop="1556668737249" status="passed">
+      <name>testDeleteMappingFailure</name>
+    </test-case>
+    <test-case start="1556668737249" stop="1556668737250" status="passed">
+      <name>testQuery</name>
+    </test-case>
+    <test-case start="1556668737250" stop="1556668737251" status="passed">
+      <name>testSuggest</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

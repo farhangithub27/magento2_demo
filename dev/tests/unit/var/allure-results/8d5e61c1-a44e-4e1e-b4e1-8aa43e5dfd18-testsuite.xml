@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668662054" stop="1556668662059" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Module\Dependency\Report\Dependency\Data\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668662054" stop="1556668662057" status="passed">
+      <name>testGetDependenciesCount</name>
+    </test-case>
+    <test-case start="1556668662057" stop="1556668662058" status="passed">
+      <name>testGetHardDependenciesCount</name>
+    </test-case>
+    <test-case start="1556668662058" stop="1556668662059" status="passed">
+      <name>testGetSoftDependenciesCount</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

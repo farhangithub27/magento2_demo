@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668877141" stop="1556668877149" version="1.4.0">
+  <name>Magento\Test\EntityTest</name>
+  <test-cases>
+    <test-case start="1556668877141" stop="1556668877143" status="passed">
+      <name>testConstructorIrrelevantModelClass</name>
+    </test-case>
+    <test-case start="1556668877144" stop="1556668877147" status="passed">
+      <name>testTestCrud with data set "successful CRUD"</name>
+    </test-case>
+    <test-case start="1556668877147" stop="1556668877149" status="passed">
+      <name>testTestCrud with data set "cleanup on update error"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

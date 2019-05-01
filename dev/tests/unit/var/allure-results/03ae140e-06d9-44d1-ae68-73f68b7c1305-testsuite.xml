@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668819696" stop="1556668819745" version="1.4.0">
+  <name>Magento\Swatches\Test\Unit\Helper\MediaTest</name>
+  <test-cases>
+    <test-case start="1556668819696" stop="1556668819715" status="passed">
+      <name>testGetSwatchAttributeImage with data set #0</name>
+    </test-case>
+    <test-case start="1556668819715" stop="1556668819723" status="passed">
+      <name>testGetSwatchAttributeImage with data set #1</name>
+    </test-case>
+    <test-case start="1556668819723" stop="1556668819725" status="passed">
+      <name>testMoveImageFromTmp</name>
+    </test-case>
+    <test-case start="1556668819725" stop="1556668819727" status="passed">
+      <name>testMoveImageFromTmpNoDb</name>
+    </test-case>
+    <test-case start="1556668819727" stop="1556668819731" status="passed">
+      <name>testGenerateSwatchVariations</name>
+    </test-case>
+    <test-case start="1556668819732" stop="1556668819733" status="passed">
+      <name>testGetSwatchMediaUrl</name>
+    </test-case>
+    <test-case start="1556668819733" stop="1556668819735" status="passed">
+      <name>testGetFolderNameSize with data set #0</name>
+    </test-case>
+    <test-case start="1556668819735" stop="1556668819736" status="passed">
+      <name>testGetFolderNameSize with data set #1</name>
+    </test-case>
+    <test-case start="1556668819736" stop="1556668819738" status="passed">
+      <name>testGetFolderNameSize with data set #2</name>
+    </test-case>
+    <test-case start="1556668819738" stop="1556668819739" status="passed">
+      <name>testGetImageConfig</name>
+    </test-case>
+    <test-case start="1556668819739" stop="1556668819741" status="passed">
+      <name>testGetAttributeSwatchPath</name>
+    </test-case>
+    <test-case start="1556668819741" stop="1556668819742" status="passed">
+      <name>testGetSwatchMediaPath</name>
+    </test-case>
+    <test-case start="1556668819742" stop="1556668819744" status="passed">
+      <name>testGetSwatchCachePath with data set #0</name>
+    </test-case>
+    <test-case start="1556668819744" stop="1556668819745" status="passed">
+      <name>testGetSwatchCachePath with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

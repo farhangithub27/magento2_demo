@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668781247" stop="1556668781289" version="1.4.0">
+  <name>Magento\Newsletter\Test\Unit\Model\Plugin\CustomerPluginTest</name>
+  <test-cases>
+    <test-case start="1556668781247" stop="1556668781260" status="passed">
+      <name>testAfterSave with data set #0</name>
+    </test-case>
+    <test-case start="1556668781260" stop="1556668781263" status="passed">
+      <name>testAfterSave with data set #1</name>
+    </test-case>
+    <test-case start="1556668781263" stop="1556668781266" status="passed">
+      <name>testAfterSave with data set #2</name>
+    </test-case>
+    <test-case start="1556668781267" stop="1556668781270" status="passed">
+      <name>testAfterSave with data set #3</name>
+    </test-case>
+    <test-case start="1556668781270" stop="1556668781272" status="passed">
+      <name>testAfterDelete</name>
+    </test-case>
+    <test-case start="1556668781272" stop="1556668781274" status="passed">
+      <name>testAroundDeleteById</name>
+    </test-case>
+    <test-case start="1556668781275" stop="1556668781277" status="passed">
+      <name>testAfterGetByIdCreatesExtensionAttributesIfItIsNotSet with data set #0</name>
+    </test-case>
+    <test-case start="1556668781277" stop="1556668781279" status="passed">
+      <name>testAfterGetByIdCreatesExtensionAttributesIfItIsNotSet with data set #1</name>
+    </test-case>
+    <test-case start="1556668781280" stop="1556668781282" status="passed">
+      <name>testAfterGetByIdCreatesExtensionAttributesIfItIsNotSet with data set #2</name>
+    </test-case>
+    <test-case start="1556668781282" stop="1556668781284" status="passed">
+      <name>testAfterGetByIdCreatesExtensionAttributesIfItIsNotSet with data set #3</name>
+    </test-case>
+    <test-case start="1556668781285" stop="1556668781287" status="passed">
+      <name>testAfterGetByIdCreatesExtensionAttributesIfItIsNotSet with data set #4</name>
+    </test-case>
+    <test-case start="1556668781287" stop="1556668781289" status="passed">
+      <name>testAfterGetByIdSetsIsSubscribedFlagIfItIsNotSet</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

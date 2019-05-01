@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668817448" stop="1556668817464" version="1.4.0">
+  <name>Magento\Store\Test\Unit\Block\SwitcherTest</name>
+  <test-cases>
+    <test-case start="1556668817448" stop="1556668817454" status="passed">
+      <name>testGetTargetStorePostData</name>
+    </test-case>
+    <test-case start="1556668817455" stop="1556668817459" status="passed">
+      <name>testIsStoreInUrl with data set #0</name>
+    </test-case>
+    <test-case start="1556668817459" stop="1556668817464" status="passed">
+      <name>testIsStoreInUrl with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

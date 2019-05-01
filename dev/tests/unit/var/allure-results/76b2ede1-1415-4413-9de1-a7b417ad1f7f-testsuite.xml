@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668719703" stop="1556668719770" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Controller\Account\LoginPostTest</name>
+  <test-cases>
+    <test-case start="1556668719703" stop="1556668719712" status="passed">
+      <name>testExecuteInvalidFormKey with data set #0</name>
+    </test-case>
+    <test-case start="1556668719712" stop="1556668719716" status="passed">
+      <name>testExecuteInvalidFormKey with data set #1</name>
+    </test-case>
+    <test-case start="1556668719717" stop="1556668719721" status="passed">
+      <name>testExecuteInvalidFormKey with data set #2</name>
+    </test-case>
+    <test-case start="1556668719721" stop="1556668719726" status="passed">
+      <name>testExecuteNoPostData</name>
+    </test-case>
+    <test-case start="1556668719726" stop="1556668719731" status="passed">
+      <name>testExecuteEmptyLoginData</name>
+    </test-case>
+    <test-case start="1556668719731" stop="1556668719738" status="passed">
+      <name>testExecuteSuccessCustomRedirect</name>
+    </test-case>
+    <test-case start="1556668719738" stop="1556668719745" status="passed">
+      <name>testExecuteSuccess</name>
+    </test-case>
+    <test-case start="1556668719746" stop="1556668719752" status="passed">
+      <name>testExecuteWithException with data set #0</name>
+    </test-case>
+    <test-case start="1556668719752" stop="1556668719758" status="passed">
+      <name>testExecuteWithException with data set #1</name>
+    </test-case>
+    <test-case start="1556668719758" stop="1556668719763" status="passed">
+      <name>testExecuteWithException with data set #2</name>
+    </test-case>
+    <test-case start="1556668719764" stop="1556668719770" status="passed">
+      <name>testExecuteWithException with data set #3</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

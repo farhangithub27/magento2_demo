@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668740070" stop="1556668740112" version="1.4.0">
+  <name>Magento\Email\Test\Unit\Model\Template\FilterTest</name>
+  <test-cases>
+    <test-case start="1556668740071" stop="1556668740073" status="passed">
+      <name>testTransDirective with data set "empty directive"</name>
+    </test-case>
+    <test-case start="1556668740074" stop="1556668740075" status="passed">
+      <name>testTransDirective with data set "empty string"</name>
+    </test-case>
+    <test-case start="1556668740076" stop="1556668740077" status="passed">
+      <name>testTransDirective with data set "no padding"</name>
+    </test-case>
+    <test-case start="1556668740077" stop="1556668740079" status="passed">
+      <name>testTransDirective with data set "multi-line padding"</name>
+    </test-case>
+    <test-case start="1556668740079" stop="1556668740080" status="passed">
+      <name>testTransDirective with data set "capture escaped double-quotes inside text"</name>
+    </test-case>
+    <test-case start="1556668740081" stop="1556668740082" status="passed">
+      <name>testTransDirective with data set "capture escaped single-quotes inside text"</name>
+    </test-case>
+    <test-case start="1556668740083" stop="1556668740084" status="passed">
+      <name>testTransDirective with data set "basic var"</name>
+    </test-case>
+    <test-case start="1556668740085" stop="1556668740086" status="passed">
+      <name>testTransDirective with data set "auto-escaped output"</name>
+    </test-case>
+    <test-case start="1556668740087" stop="1556668740089" status="passed">
+      <name>testTransDirective with data set "unescaped modifier"</name>
+    </test-case>
+    <test-case start="1556668740089" stop="1556668740091" status="passed">
+      <name>testTransDirective with data set "variable replacement"</name>
+    </test-case>
+    <test-case start="1556668740092" stop="1556668740095" status="passed">
+      <name>testApplyInlineCss with data set "Ensure styles get inlined"</name>
+    </test-case>
+    <test-case start="1556668740095" stop="1556668740097" status="passed">
+      <name>testApplyInlineCss with data set "CSS with error does not get inlined"</name>
+    </test-case>
+    <test-case start="1556668740098" stop="1556668740100" status="passed">
+      <name>testApplyInlineCss with data set "Ensure disableStyleBlocksParsing option is working"</name>
+    </test-case>
+    <test-case start="1556668740100" stop="1556668740103" status="passed">
+      <name>testGetCssFilesContent</name>
+    </test-case>
+    <test-case start="1556668740103" stop="1556668740105" status="passed">
+      <name>testApplyInlineCssThrowsExceptionWhenDesignParamsNotSet</name>
+    </test-case>
+    <test-case start="1556668740105" stop="1556668740108" status="passed">
+      <name>testAfterFilterCallbackGetsResetWhenExceptionTriggered</name>
+    </test-case>
+    <test-case start="1556668740108" stop="1556668740110" status="passed">
+      <name>testConfigDirectiveAvailable</name>
+    </test-case>
+    <test-case start="1556668740110" stop="1556668740112" status="passed">
+      <name>testConfigDirectiveUnavailable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

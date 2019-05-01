@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668848139" stop="1556668848143" version="1.4.0">
+  <name>Magento\Framework\Config\Test\Unit\Dom\UrnResolverTest</name>
+  <test-cases>
+    <test-case start="1556668848139" stop="1556668848140" status="passed">
+      <name>testGetRealPathNoUrn</name>
+    </test-case>
+    <test-case start="1556668848140" stop="1556668848140" status="passed">
+      <name>testGetRealPathWithFrameworkUrn</name>
+    </test-case>
+    <test-case start="1556668848141" stop="1556668848141" status="passed">
+      <name>testGetRealPathWithModuleUrn</name>
+    </test-case>
+    <test-case start="1556668848141" stop="1556668848142" status="passed">
+      <name>testGetRealPathWithSetupUrn</name>
+    </test-case>
+    <test-case start="1556668848142" stop="1556668848142" status="passed">
+      <name>testGetRealPathWrongSection</name>
+    </test-case>
+    <test-case start="1556668848143" stop="1556668848143" status="passed">
+      <name>testGetRealPathWrongModule</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668739946" stop="1556668739962" version="1.4.0">
+  <name>Magento\Email\Test\Unit\Model\Template\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668739946" stop="1556668739947" status="passed">
+      <name>testMergedXml with data set "valid"</name>
+    </test-case>
+    <test-case start="1556668739948" stop="1556668739949" status="passed">
+      <name>testMergedXml with data set "empty root node"</name>
+    </test-case>
+    <test-case start="1556668739949" stop="1556668739950" status="passed">
+      <name>testMergedXml with data set "irrelevant root node"</name>
+    </test-case>
+    <test-case start="1556668739950" stop="1556668739951" status="passed">
+      <name>testMergedXml with data set "invalid node"</name>
+    </test-case>
+    <test-case start="1556668739951" stop="1556668739952" status="passed">
+      <name>testMergedXml with data set "node "template" with value"</name>
+    </test-case>
+    <test-case start="1556668739952" stop="1556668739953" status="passed">
+      <name>testMergedXml with data set "node "template" with children"</name>
+    </test-case>
+    <test-case start="1556668739953" stop="1556668739954" status="passed">
+      <name>testMergedXml with data set "node "template" without attribute "id""</name>
+    </test-case>
+    <test-case start="1556668739955" stop="1556668739955" status="passed">
+      <name>testMergedXml with data set "node "template" without attribute "label""</name>
+    </test-case>
+    <test-case start="1556668739956" stop="1556668739956" status="passed">
+      <name>testMergedXml with data set "node "template" without attribute "file""</name>
+    </test-case>
+    <test-case start="1556668739957" stop="1556668739958" status="passed">
+      <name>testMergedXml with data set "node "template" without attribute "type""</name>
+    </test-case>
+    <test-case start="1556668739958" stop="1556668739959" status="passed">
+      <name>testMergedXml with data set "node "template" with invalid attribute "type""</name>
+    </test-case>
+    <test-case start="1556668739959" stop="1556668739960" status="passed">
+      <name>testMergedXml with data set "node "template" without attribute "area""</name>
+    </test-case>
+    <test-case start="1556668739960" stop="1556668739961" status="passed">
+      <name>testMergedXml with data set "node "template" with invalid attribute "area""</name>
+    </test-case>
+    <test-case start="1556668739961" stop="1556668739962" status="passed">
+      <name>testMergedXml with data set "node "template" with unknown attribute"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

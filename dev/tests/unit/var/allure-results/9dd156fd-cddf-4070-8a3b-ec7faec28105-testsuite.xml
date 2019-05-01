@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668716491" stop="1556668716501" version="1.4.0">
+  <name>Magento\Cookie\Test\Unit\Model\Config\Backend\LifetimeTest</name>
+  <test-cases>
+    <test-case start="1556668716491" stop="1556668716497" status="passed">
+      <name>testBeforeSaveException</name>
+    </test-case>
+    <test-case start="1556668716498" stop="1556668716499" status="passed">
+      <name>testBeforeSaveNoException</name>
+    </test-case>
+    <test-case start="1556668716499" stop="1556668716501" status="passed">
+      <name>testBeforeEmptyString</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

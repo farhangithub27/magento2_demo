@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668850243" stop="1556668850263" version="1.4.0">
+  <name>Magento\Framework\Data\Test\Unit\AbstractCriteriaTest</name>
+  <test-cases>
+    <test-case start="1556668850244" stop="1556668850246" status="passed">
+      <name>testAddField with data set #0</name>
+    </test-case>
+    <test-case start="1556668850246" stop="1556668850247" status="passed">
+      <name>testAddField with data set #1</name>
+    </test-case>
+    <test-case start="1556668850247" stop="1556668850247" status="passed">
+      <name>testAddField with data set #2</name>
+    </test-case>
+    <test-case start="1556668850248" stop="1556668850248" status="passed">
+      <name>testAddField with data set #3</name>
+    </test-case>
+    <test-case start="1556668850249" stop="1556668850249" status="passed">
+      <name>testAddField with data set #4</name>
+    </test-case>
+    <test-case start="1556668850250" stop="1556668850250" status="passed">
+      <name>testAddField with data set #5</name>
+    </test-case>
+    <test-case start="1556668850251" stop="1556668850252" status="passed">
+      <name>testAddFilter with data set #0</name>
+    </test-case>
+    <test-case start="1556668850252" stop="1556668850253" status="passed">
+      <name>testAddOrder with data set #0</name>
+    </test-case>
+    <test-case start="1556668850253" stop="1556668850254" status="passed">
+      <name>testAddOrder with data set #1</name>
+    </test-case>
+    <test-case start="1556668850254" stop="1556668850255" status="passed">
+      <name>testAddOrder with data set #2</name>
+    </test-case>
+    <test-case start="1556668850256" stop="1556668850256" status="passed">
+      <name>testSetLimit with data set #0</name>
+    </test-case>
+    <test-case start="1556668850257" stop="1556668850257" status="passed">
+      <name>testRemoveField with data set #0</name>
+    </test-case>
+    <test-case start="1556668850258" stop="1556668850258" status="passed">
+      <name>testRemoveField with data set #1</name>
+    </test-case>
+    <test-case start="1556668850259" stop="1556668850259" status="passed">
+      <name>testRemoveField with data set #2</name>
+    </test-case>
+    <test-case start="1556668850260" stop="1556668850260" status="passed">
+      <name>testRemoveAllFields with data set #0</name>
+    </test-case>
+    <test-case start="1556668850261" stop="1556668850261" status="passed">
+      <name>testRemoveFilter with data set #0</name>
+    </test-case>
+    <test-case start="1556668850261" stop="1556668850262" status="passed">
+      <name>testRemoveAllFilters with data set #0</name>
+    </test-case>
+    <test-case start="1556668850262" stop="1556668850263" status="passed">
+      <name>testReset with data set #0</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

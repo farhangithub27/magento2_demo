@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668805509" stop="1556668805539" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\CreditmemoRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668805509" stop="1556668805512" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668805513" stop="1556668805514" status="passed">
+      <name>testGetNoId</name>
+    </test-case>
+    <test-case start="1556668805514" stop="1556668805516" status="passed">
+      <name>testGetEntityNoId</name>
+    </test-case>
+    <test-case start="1556668805516" stop="1556668805517" status="passed">
+      <name>testCreate</name>
+    </test-case>
+    <test-case start="1556668805518" stop="1556668805532" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668805532" stop="1556668805534" status="passed">
+      <name>testDelete</name>
+    </test-case>
+    <test-case start="1556668805534" stop="1556668805536" status="passed">
+      <name>testDeleteWithException</name>
+    </test-case>
+    <test-case start="1556668805536" stop="1556668805537" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668805538" stop="1556668805539" status="passed">
+      <name>testSaveWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

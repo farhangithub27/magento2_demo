@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668819237" stop="1556668819244" version="1.4.0">
+  <name>Magento\Swagger\Test\Unit\Block\IndexTest</name>
+  <test-cases>
+    <test-case start="1556668819237" stop="1556668819241" status="passed">
+      <name>testGetSchemaUrlValidType</name>
+    </test-case>
+    <test-case start="1556668819241" stop="1556668819244" status="passed">
+      <name>testGetSchemaUrlInvalidType</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

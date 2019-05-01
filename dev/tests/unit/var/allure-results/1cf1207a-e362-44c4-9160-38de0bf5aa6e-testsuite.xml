@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668672007" stop="1556668672101" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\Menu\Config\XsdTest</name>
+  <test-cases>
+    <test-case start="1556668672008" stop="1556668672010" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_action_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672010" stop="1556668672011" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_action_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672011" stop="1556668672012" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_action_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672012" stop="1556668672013" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_dependsOnConfig_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672014" stop="1556668672014" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_dependsOnConfig_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672015" stop="1556668672015" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_dependsOnConfig_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672016" stop="1556668672016" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_dependsOnModule_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672017" stop="1556668672018" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_dependsOnModule_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672018" stop="1556668672019" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_dependsOnModule_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672019" stop="1556668672020" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_id_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672020" stop="1556668672021" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_id_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672021" stop="1556668672022" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_id_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672023" stop="1556668672023" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_module_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672024" stop="1556668672024" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_module_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672025" stop="1556668672026" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_module_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672026" stop="1556668672027" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_parent_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672027" stop="1556668672028" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_parent_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672028" stop="1556668672029" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_parent_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672029" stop="1556668672030" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_resource_attribute_notvalid_regexp_value1"</name>
+    </test-case>
+    <test-case start="1556668672030" stop="1556668672031" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_resource_attribute_notvalid_regexp_value2"</name>
+    </test-case>
+    <test-case start="1556668672032" stop="1556668672032" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_resource_attribute_notvalid_regexp_value3"</name>
+    </test-case>
+    <test-case start="1556668672033" stop="1556668672033" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_resource_attribute_notvalid_regexp_value4"</name>
+    </test-case>
+    <test-case start="1556668672034" stop="1556668672035" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_resource_attribute_notvalid_regexp_value5"</name>
+    </test-case>
+    <test-case start="1556668672035" stop="1556668672036" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_resource_attribute_notvalid_regexp_value6"</name>
+    </test-case>
+    <test-case start="1556668672036" stop="1556668672037" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_resource_attribute_notvalid_regexp_value7"</name>
+    </test-case>
+    <test-case start="1556668672037" stop="1556668672038" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_sortOrder_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672038" stop="1556668672039" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_sortOrder_attribute_wrong_value_type"</name>
+    </test-case>
+    <test-case start="1556668672039" stop="1556668672040" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_title_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672041" stop="1556668672041" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_title_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672042" stop="1556668672043" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_title_attribute_more_maxLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672043" stop="1556668672044" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_toolTip_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672044" stop="1556668672045" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_toolTip_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672045" stop="1556668672046" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_toolTip_attribute_more_maxLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672046" stop="1556668672047" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_with_notallowed_atrribute"</name>
+    </test-case>
+    <test-case start="1556668672047" stop="1556668672048" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_with_same_id_attribute_value"</name>
+    </test-case>
+    <test-case start="1556668672049" stop="1556668672049" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_without_req_attr"</name>
+    </test-case>
+    <test-case start="1556668672050" stop="1556668672050" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_without_required_attribute_id"</name>
+    </test-case>
+    <test-case start="1556668672051" stop="1556668672052" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_without_required_attribute_module"</name>
+    </test-case>
+    <test-case start="1556668672052" stop="1556668672053" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "add_without_required_attribute_resource"</name>
+    </test-case>
+    <test-case start="1556668672053" stop="1556668672054" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "double_menu"</name>
+    </test-case>
+    <test-case start="1556668672054" stop="1556668672055" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "remove_id_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672055" stop="1556668672056" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "remove_id_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672056" stop="1556668672057" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "remove_id_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672058" stop="1556668672058" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "remove_with_notallowed_atrribute"</name>
+    </test-case>
+    <test-case start="1556668672059" stop="1556668672059" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "remove_without_required_attribute_id"</name>
+    </test-case>
+    <test-case start="1556668672060" stop="1556668672060" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_action_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672061" stop="1556668672062" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_action_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672062" stop="1556668672063" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_action_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672063" stop="1556668672064" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_dependsOnConfig_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672064" stop="1556668672065" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_dependsOnConfig_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672065" stop="1556668672066" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_dependsOnConfig_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672066" stop="1556668672067" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_dependsOnModule_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672068" stop="1556668672068" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_dependsOnModule_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672069" stop="1556668672069" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_dependsOnModule_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672070" stop="1556668672071" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_id_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672071" stop="1556668672072" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_id_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672072" stop="1556668672073" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_id_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672073" stop="1556668672074" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_module_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672074" stop="1556668672075" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_module_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672075" stop="1556668672076" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_module_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672077" stop="1556668672077" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_parent_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672078" stop="1556668672078" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_parent_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672079" stop="1556668672080" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_parent_attribute_notallowed_symbols_value"</name>
+    </test-case>
+    <test-case start="1556668672080" stop="1556668672081" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_resource_attribute_notvalid_regexp_value1"</name>
+    </test-case>
+    <test-case start="1556668672081" stop="1556668672082" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_resource_attribute_notvalid_regexp_value2"</name>
+    </test-case>
+    <test-case start="1556668672082" stop="1556668672083" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_resource_attribute_notvalid_regexp_value3"</name>
+    </test-case>
+    <test-case start="1556668672083" stop="1556668672084" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_resource_attribute_notvalid_regexp_value4"</name>
+    </test-case>
+    <test-case start="1556668672084" stop="1556668672085" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_resource_attribute_notvalid_regexp_value5"</name>
+    </test-case>
+    <test-case start="1556668672086" stop="1556668672086" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_resource_attribute_notvalid_regexp_value6"</name>
+    </test-case>
+    <test-case start="1556668672087" stop="1556668672087" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_resource_attribute_notvalid_regexp_value7"</name>
+    </test-case>
+    <test-case start="1556668672088" stop="1556668672088" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_sortOrder_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672089" stop="1556668672090" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_sortOrder_attribute_wrong_value_type"</name>
+    </test-case>
+    <test-case start="1556668672090" stop="1556668672091" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_title_attribute_empty_value"</name>
+    </test-case>
+    <test-case start="1556668672091" stop="1556668672092" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_title_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672092" stop="1556668672093" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_title_attribute_more_maxLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672093" stop="1556668672094" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_toolTip_attribute_empty_value "</name>
+    </test-case>
+    <test-case start="1556668672094" stop="1556668672095" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_toolTip_attribute_less_minLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672096" stop="1556668672096" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_toolTip_attribute_more_maxLenght_value"</name>
+    </test-case>
+    <test-case start="1556668672097" stop="1556668672098" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_with_notallowed_atrribute"</name>
+    </test-case>
+    <test-case start="1556668672098" stop="1556668672099" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "update_without_required_attribute_id"</name>
+    </test-case>
+    <test-case start="1556668672099" stop="1556668672100" status="passed">
+      <name>testSchemaCorrectlyIdentifiesInvalidXml with data set "without_menu"</name>
+    </test-case>
+    <test-case start="1556668672100" stop="1556668672101" status="passed">
+      <name>testSchemaCorrectlyIdentifiesValidXml</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

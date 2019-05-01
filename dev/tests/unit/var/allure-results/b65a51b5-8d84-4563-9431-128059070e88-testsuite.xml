@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668692931" stop="1556668692946" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Helper\Product\Flat\IndexerTest</name>
+  <test-cases>
+    <test-case start="1556668692931" stop="1556668692936" status="passed">
+      <name>testGetFlatColumnsDdlDefinition</name>
+    </test-case>
+    <test-case start="1556668692936" stop="1556668692937" status="passed">
+      <name>testGetFlatTableName</name>
+    </test-case>
+    <test-case start="1556668692937" stop="1556668692941" status="passed">
+      <name>testDeleteAbandonedStoreFlatTables</name>
+    </test-case>
+    <test-case start="1556668692941" stop="1556668692943" status="passed">
+      <name>testDeleteNoStoresTables</name>
+    </test-case>
+    <test-case start="1556668692944" stop="1556668692946" status="passed">
+      <name>testDeleteCl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

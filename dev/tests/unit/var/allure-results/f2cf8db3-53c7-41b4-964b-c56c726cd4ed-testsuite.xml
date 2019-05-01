@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668814092" stop="1556668814103" version="1.4.0">
+  <name>Magento\Security\Test\Unit\Model\ResourceModel\AdminSessionInfo\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668814092" stop="1556668814096" status="passed">
+      <name>testFilterByUser</name>
+    </test-case>
+    <test-case start="1556668814097" stop="1556668814098" status="passed">
+      <name>testFilterExpiredSessions</name>
+    </test-case>
+    <test-case start="1556668814099" stop="1556668814100" status="passed">
+      <name>testDeleteSessionsOlderThen</name>
+    </test-case>
+    <test-case start="1556668814101" stop="1556668814103" status="passed">
+      <name>testUpdateActiveSessionsStatus</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

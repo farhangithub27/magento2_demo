@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668779503" stop="1556668779536" version="1.4.0">
+  <name>Magento\Multishipping\Test\Unit\Block\Checkout\OverviewTest</name>
+  <test-cases>
+    <test-case start="1556668779504" stop="1556668779516" status="passed">
+      <name>testGetShippingRateByCode</name>
+    </test-case>
+    <test-case start="1556668779516" stop="1556668779520" status="passed">
+      <name>testGetShippingRateByCodeWithEmptyRate</name>
+    </test-case>
+    <test-case start="1556668779520" stop="1556668779524" status="passed">
+      <name>testGetShippingAddressItems</name>
+    </test-case>
+    <test-case start="1556668779524" stop="1556668779528" status="passed">
+      <name>testGetShippingAddressTotals</name>
+    </test-case>
+    <test-case start="1556668779529" stop="1556668779533" status="passed">
+      <name>testGetShippingAddressTotalsWithNotBillingAddress</name>
+    </test-case>
+    <test-case start="1556668779533" stop="1556668779536" status="passed">
+      <name>testGetVirtualProductEditUrl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

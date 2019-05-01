@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668837537" stop="1556668837539" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\GwItemKeyManagerTest</name>
+  <test-cases>
+    <test-case start="1556668837537" stop="1556668837537" status="canceled">
+      <name>testItemDataExistsInStorage</name>
+      <failure>
+        <message>Test only applicable to Magento 2 Commerce</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/vertex/module-tax/Test/Unit/Model/Calculation/VertexCalculator/GwItemKeyManagerTest.php(39): PHPUnit\Framework\Assert::markTestSkipped('Test only appli...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\GwItemKeyManagerTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\GwItemKeyManagerTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#11 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668837538" stop="1556668837538" status="canceled">
+      <name>testItemDataDoesNotExistInStorage</name>
+      <failure>
+        <message>Test only applicable to Magento 2 Commerce</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/vertex/module-tax/Test/Unit/Model/Calculation/VertexCalculator/GwItemKeyManagerTest.php(39): PHPUnit\Framework\Assert::markTestSkipped('Test only appli...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\GwItemKeyManagerTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\GwItemKeyManagerTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#11 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668837538" stop="1556668837539" status="canceled">
+      <name>testGwItemMapCodeEquality</name>
+      <failure>
+        <message>Test only applicable to Magento 2 Commerce</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/vertex/module-tax/Test/Unit/Model/Calculation/VertexCalculator/GwItemKeyManagerTest.php(39): PHPUnit\Framework\Assert::markTestSkipped('Test only appli...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\GwItemKeyManagerTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\GwItemKeyManagerTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#11 {main}</stack-trace>
+      </failure>
+    </test-case>
+    <test-case start="1556668837539" stop="1556668837539" status="canceled">
+      <name>testGwItemMapCodeInequality</name>
+      <failure>
+        <message>Test only applicable to Magento 2 Commerce</message>
+        <stack-trace>#0 /var/www/html/magento23demo/vendor/vertex/module-tax/Test/Unit/Model/Calculation/VertexCalculator/GwItemKeyManagerTest.php(39): PHPUnit\Framework\Assert::markTestSkipped('Test only appli...')
+#1 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(935): Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\GwItemKeyManagerTest-&gt;setUp()
+#2 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestResult.php(698): PHPUnit\Framework\TestCase-&gt;runBare()
+#3 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(Vertex\Tax\Test\Unit\Model\Calculation\VertexCalculator\GwItemKeyManagerTest))
+#4 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#5 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#6 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#7 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#8 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#9 /var/www/html/magento23demo/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#10 /var/www/html/magento23demo/vendor/phpunit/phpunit/phpunit(53): PHPUnit\TextUI\Command::main()
+#11 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

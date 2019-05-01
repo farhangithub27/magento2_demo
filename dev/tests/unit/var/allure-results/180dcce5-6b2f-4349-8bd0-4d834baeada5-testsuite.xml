@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668659721" stop="1556668659725" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\Cron\JobDbRollbackTest</name>
+  <test-cases>
+    <test-case start="1556668659721" stop="1556668659723" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668659723" stop="1556668659725" status="passed">
+      <name>testExceptionOnExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668668837" stop="1556668668848" version="1.4.0">
+  <name>Magento\AuthorizenetAcceptjs\Test\Unit\Setup\Patch\Data\CopyCurrentConfigTest</name>
+  <test-cases>
+    <test-case start="1556668668837" stop="1556668668846" status="passed">
+      <name>testMigrateData</name>
+    </test-case>
+    <test-case start="1556668668846" stop="1556668668848" status="passed">
+      <name>testMigrateDataNullFields</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

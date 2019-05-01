@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668707200" stop="1556668707219" version="1.4.0">
+  <name>Magento\Checkout\Test\Unit\Helper\ExpressRedirectTest</name>
+  <test-cases>
+    <test-case start="1556668707201" stop="1556668707211" status="passed">
+      <name>testRedirectLogin with data set #0</name>
+    </test-case>
+    <test-case start="1556668707212" stop="1556668707215" status="passed">
+      <name>testRedirectLogin with data set #1</name>
+    </test-case>
+    <test-case start="1556668707216" stop="1556668707218" status="passed">
+      <name>testRedirectLogin with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

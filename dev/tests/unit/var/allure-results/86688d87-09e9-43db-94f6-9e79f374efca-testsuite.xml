@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668796504" stop="1556668796511" version="1.4.0">
+  <name>Magento\Review\Test\Unit\Helper\Action\PagerTest</name>
+  <test-cases>
+    <test-case start="1556668796505" stop="1556668796507" status="passed">
+      <name>testStorageSet</name>
+    </test-case>
+    <test-case start="1556668796507" stop="1556668796508" status="passed">
+      <name>testGetNextItem</name>
+    </test-case>
+    <test-case start="1556668796508" stop="1556668796509" status="passed">
+      <name>testGetNextItemNotFound</name>
+    </test-case>
+    <test-case start="1556668796509" stop="1556668796510" status="passed">
+      <name>testGetPreviousItem</name>
+    </test-case>
+    <test-case start="1556668796510" stop="1556668796511" status="passed">
+      <name>testGetPreviousItemNotFound</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

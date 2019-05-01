@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668674830" stop="1556668674841" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Model\CvvEmsCodeMapperTest</name>
+  <test-cases>
+    <test-case start="1556668674830" stop="1556668674831" status="passed">
+      <name>testGetCode with data set #0</name>
+    </test-case>
+    <test-case start="1556668674832" stop="1556668674832" status="passed">
+      <name>testGetCode with data set #1</name>
+    </test-case>
+    <test-case start="1556668674833" stop="1556668674834" status="passed">
+      <name>testGetCode with data set #2</name>
+    </test-case>
+    <test-case start="1556668674834" stop="1556668674835" status="passed">
+      <name>testGetCode with data set #3</name>
+    </test-case>
+    <test-case start="1556668674835" stop="1556668674836" status="passed">
+      <name>testGetCode with data set #4</name>
+    </test-case>
+    <test-case start="1556668674836" stop="1556668674837" status="passed">
+      <name>testGetCode with data set #5</name>
+    </test-case>
+    <test-case start="1556668674837" stop="1556668674838" status="passed">
+      <name>testGetCode with data set #6</name>
+    </test-case>
+    <test-case start="1556668674838" stop="1556668674839" status="passed">
+      <name>testGetCode with data set #7</name>
+    </test-case>
+    <test-case start="1556668674840" stop="1556668674840" status="passed">
+      <name>testGetCode with data set #8</name>
+    </test-case>
+    <test-case start="1556668674841" stop="1556668674841" status="passed">
+      <name>testGetCodeWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

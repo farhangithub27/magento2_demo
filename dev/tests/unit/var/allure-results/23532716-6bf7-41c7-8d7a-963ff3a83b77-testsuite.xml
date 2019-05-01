@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841692" stop="1556668841696" version="1.4.0">
+  <name>Magento\Framework\Api\Test\Unit\Code\Generator\ExtensionAttributesInterfaceGeneratorTest</name>
+  <test-cases>
+    <test-case start="1556668841693" stop="1556668841695" status="passed">
+      <name>testGenerate</name>
+    </test-case>
+    <test-case start="1556668841695" stop="1556668841696" status="passed">
+      <name>testValidateException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

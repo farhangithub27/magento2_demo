@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668674217" stop="1556668674230" version="1.4.0">
+  <name>Magento\Braintree\Test\Unit\Gateway\Request\VaultCaptureDataBuilderTest</name>
+  <test-cases>
+    <test-case start="1556668674217" stop="1556668674228" status="passed">
+      <name>testBuild</name>
+    </test-case>
+    <test-case start="1556668674229" stop="1556668674230" status="passed">
+      <name>testBuildWithoutPaymentToken</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

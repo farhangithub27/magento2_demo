@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668725836" stop="1556668725907" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\ResourceModel\CustomerRepositoryTest</name>
+  <test-cases>
+    <test-case start="1556668725837" stop="1556668725869" status="passed">
+      <name>testSave</name>
+    </test-case>
+    <test-case start="1556668725870" stop="1556668725888" status="passed">
+      <name>testSaveWithPasswordHash</name>
+    </test-case>
+    <test-case start="1556668725889" stop="1556668725900" status="passed">
+      <name>testGetList</name>
+    </test-case>
+    <test-case start="1556668725900" stop="1556668725903" status="passed">
+      <name>testDeleteById</name>
+    </test-case>
+    <test-case start="1556668725904" stop="1556668725907" status="passed">
+      <name>testDelete</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

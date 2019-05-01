@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855542" stop="1556668855546" version="1.4.0">
+  <name>Magento\Framework\Interception\Test\Unit\ObjectManager\Config\DeveloperTest</name>
+  <test-cases>
+    <test-case start="1556668855542" stop="1556668855544" status="passed">
+      <name>testGetInstanceTypeReturnsInterceptorClass</name>
+    </test-case>
+    <test-case start="1556668855544" stop="1556668855544" status="passed">
+      <name>testGetInstanceTypeReturnsSimpleClassIfNoPluginsAreDeclared</name>
+    </test-case>
+    <test-case start="1556668855544" stop="1556668855545" status="passed">
+      <name>testGetInstanceTypeReturnsSimpleClassIfInterceptionConfigIsNotSet</name>
+    </test-case>
+    <test-case start="1556668855545" stop="1556668855546" status="passed">
+      <name>testGetOriginalInstanceTypeReturnsInterceptedClass</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

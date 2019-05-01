@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668859429" stop="1556668859433" version="1.4.0">
+  <name>Magento\Framework\Pricing\Test\Unit\Price\CollectionTest</name>
+  <test-cases>
+    <test-case start="1556668859429" stop="1556668859432" status="passed">
+      <name>testGet</name>
+    </test-case>
+    <test-case start="1556668859432" stop="1556668859433" status="passed">
+      <name>testCurrent</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

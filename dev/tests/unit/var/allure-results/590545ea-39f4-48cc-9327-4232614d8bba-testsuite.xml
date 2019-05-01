@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668788531" stop="1556668788543" version="1.4.0">
+  <name>Magento\Paypal\Test\Unit\Model\Payflow\Service\Response\Validator\IAVSResponseTest</name>
+  <test-cases>
+    <test-case start="1556668788532" stop="1556668788539" status="passed">
+      <name>testValidate with data set #0</name>
+    </test-case>
+    <test-case start="1556668788539" stop="1556668788540" status="passed">
+      <name>testValidate with data set #1</name>
+    </test-case>
+    <test-case start="1556668788540" stop="1556668788541" status="passed">
+      <name>testValidate with data set #2</name>
+    </test-case>
+    <test-case start="1556668788541" stop="1556668788542" status="passed">
+      <name>testValidate with data set #3</name>
+    </test-case>
+    <test-case start="1556668788542" stop="1556668788543" status="passed">
+      <name>testValidate with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

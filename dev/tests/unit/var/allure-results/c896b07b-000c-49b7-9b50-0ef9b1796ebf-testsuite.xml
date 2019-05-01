@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668814485" stop="1556668814491" version="1.4.0">
+  <name>Magento\SendFriend\Test\Unit\Model\SendFriendTest</name>
+  <test-cases>
+    <test-case start="1556668814485" stop="1556668814489" status="passed">
+      <name>testGetSentCountWithCheckCookie</name>
+    </test-case>
+    <test-case start="1556668814489" stop="1556668814491" status="passed">
+      <name>testSentCountByCookies</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

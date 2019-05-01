@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668854933" stop="1556668854938" version="1.4.0">
+  <name>Magento\Framework\Image\Test\Unit\Adapter\ImageMagickTest</name>
+  <test-cases>
+    <test-case start="1556668854934" stop="1556668854934" status="passed">
+      <name>testWatermark with data set #0</name>
+    </test-case>
+    <test-case start="1556668854935" stop="1556668854936" status="passed">
+      <name>testWatermark with data set #1</name>
+    </test-case>
+    <test-case start="1556668854936" stop="1556668854937" status="passed">
+      <name>testWatermark with data set #2</name>
+    </test-case>
+    <test-case start="1556668854937" stop="1556668854938" status="passed">
+      <name>testSaveWithException</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

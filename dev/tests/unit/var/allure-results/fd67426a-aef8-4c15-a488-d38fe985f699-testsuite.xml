@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668661593" stop="1556668661623" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Model\SystemPackageTest</name>
+  <test-cases>
+    <test-case start="1556668661593" stop="1556668661612" status="passed">
+      <name>testGetPackageVersions</name>
+    </test-case>
+    <test-case start="1556668661612" stop="1556668661614" status="passed">
+      <name>testGetPackageVersionGitCloned</name>
+    </test-case>
+    <test-case start="1556668661614" stop="1556668661617" status="passed">
+      <name>testGetPackageVersionsFailed</name>
+    </test-case>
+    <test-case start="1556668661617" stop="1556668661621" status="passed">
+      <name>testGetAllowedEnterpriseVersions with data set #0</name>
+    </test-case>
+    <test-case start="1556668661621" stop="1556668661623" status="passed">
+      <name>testGetAllowedEnterpriseVersions with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

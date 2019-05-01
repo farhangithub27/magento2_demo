@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668835979" stop="1556668835995" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Controller\Index\IndexTest</name>
+  <test-cases>
+    <test-case start="1556668835980" stop="1556668835988" status="passed">
+      <name>testExecuteWithoutWishlist</name>
+    </test-case>
+    <test-case start="1556668835988" stop="1556668835995" status="passed">
+      <name>testExecutePassed</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

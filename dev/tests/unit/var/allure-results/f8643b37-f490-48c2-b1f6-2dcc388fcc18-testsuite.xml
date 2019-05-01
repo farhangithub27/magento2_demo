@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668718346" stop="1556668718384" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Block\Address\EditTest</name>
+  <test-cases>
+    <test-case start="1556668718346" stop="1556668718359" status="passed">
+      <name>testSetLayoutWithOwnAddressAndPostedData</name>
+    </test-case>
+    <test-case start="1556668718359" stop="1556668718368" status="passed">
+      <name>testSetLayoutWithAlienAddress</name>
+    </test-case>
+    <test-case start="1556668718368" stop="1556668718376" status="passed">
+      <name>testSetLayoutWithoutAddressId</name>
+    </test-case>
+    <test-case start="1556668718376" stop="1556668718384" status="passed">
+      <name>testSetLayoutWithoutAddress</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

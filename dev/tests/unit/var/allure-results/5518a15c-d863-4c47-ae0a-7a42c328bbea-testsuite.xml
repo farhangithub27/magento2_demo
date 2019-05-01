@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668657933" stop="1556668657940" version="1.4.0">
+  <name>Magento\Setup\Test\Unit\Controller\NavigationTest</name>
+  <test-cases>
+    <test-case start="1556668657933" stop="1556668657935" status="passed">
+      <name>testIndexAction</name>
+    </test-case>
+    <test-case start="1556668657936" stop="1556668657936" status="passed">
+      <name>testMenuActionUpdater</name>
+    </test-case>
+    <test-case start="1556668657937" stop="1556668657937" status="passed">
+      <name>testMenuActionInstaller</name>
+    </test-case>
+    <test-case start="1556668657938" stop="1556668657938" status="passed">
+      <name>testHeaderBarInstaller</name>
+    </test-case>
+    <test-case start="1556668657939" stop="1556668657939" status="passed">
+      <name>testHeaderBarUpdater</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

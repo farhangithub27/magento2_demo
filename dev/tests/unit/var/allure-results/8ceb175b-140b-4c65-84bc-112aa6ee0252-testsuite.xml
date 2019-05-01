@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668681998" stop="1556668682005" version="1.4.0">
+  <name>Magento\CatalogInventory\Test\Unit\Model\Plugin\LayerTest</name>
+  <test-cases>
+    <test-case start="1556668681998" stop="1556668682003" status="passed">
+      <name>testAddStockStatusDisabledShow</name>
+    </test-case>
+    <test-case start="1556668682004" stop="1556668682005" status="passed">
+      <name>testAddStockStatusEnabledShow</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

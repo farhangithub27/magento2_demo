@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668872688" stop="1556668872695" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\File\Collector\ThemeTest</name>
+  <test-cases>
+    <test-case start="1556668872688" stop="1556668872690" status="passed">
+      <name>testGetFilesWrongTheme</name>
+    </test-case>
+    <test-case start="1556668872690" stop="1556668872691" status="passed">
+      <name>testGetFilesEmpty</name>
+    </test-case>
+    <test-case start="1556668872691" stop="1556668872693" status="passed">
+      <name>testGetFilesSingle</name>
+    </test-case>
+    <test-case start="1556668872693" stop="1556668872695" status="passed">
+      <name>testGetFilesMultiple</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

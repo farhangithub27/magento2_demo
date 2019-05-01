@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668666196" stop="1556668666216" version="1.4.0">
+  <name>Magento\Analytics\Test\Unit\Model\IntegrationManagerTest</name>
+  <test-cases>
+    <test-case start="1556668666197" stop="1556668666206" status="passed">
+      <name>testActivateIntegrationSuccess</name>
+    </test-case>
+    <test-case start="1556668666206" stop="1556668666207" status="passed">
+      <name>testActivateIntegrationFailureNoSuchEntity</name>
+    </test-case>
+    <test-case start="1556668666208" stop="1556668666210" status="passed">
+      <name>testGetTokenNewIntegration with data set #0</name>
+    </test-case>
+    <test-case start="1556668666210" stop="1556668666212" status="passed">
+      <name>testGetTokenNewIntegration with data set #1</name>
+    </test-case>
+    <test-case start="1556668666213" stop="1556668666214" status="passed">
+      <name>testGetTokenExistingIntegration with data set #0</name>
+    </test-case>
+    <test-case start="1556668666214" stop="1556668666216" status="passed">
+      <name>testGetTokenExistingIntegration with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668745260" stop="1556668745299" version="1.4.0">
+  <name>Magento\Indexer\Test\Unit\Controller\Adminhtml\Indexer\MassChangelogTest</name>
+  <test-cases>
+    <test-case start="1556668745261" stop="1556668745272" status="passed">
+      <name>testExecute with data set "set1"</name>
+    </test-case>
+    <test-case start="1556668745272" stop="1556668745280" status="passed">
+      <name>testExecute with data set "set2"</name>
+    </test-case>
+    <test-case start="1556668745281" stop="1556668745290" status="passed">
+      <name>testExecute with data set "set3"</name>
+    </test-case>
+    <test-case start="1556668745290" stop="1556668745299" status="passed">
+      <name>testExecute with data set "set4"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

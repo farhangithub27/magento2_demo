@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668684999" stop="1556668685008" version="1.4.0">
+  <name>Magento\CatalogSearch\Test\Unit\Model\Adapter\Aggregation\Checker\Query\CatalogViewTest</name>
+  <test-cases>
+    <test-case start="1556668684999" stop="1556668685005" status="passed">
+      <name>testIsApplicable</name>
+    </test-case>
+    <test-case start="1556668685005" stop="1556668685008" status="passed">
+      <name>testIsNotApplicable</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

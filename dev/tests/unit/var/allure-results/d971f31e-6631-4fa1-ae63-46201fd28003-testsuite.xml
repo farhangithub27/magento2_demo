@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668723113" stop="1556668723357" version="1.4.0">
+  <name>Magento\Customer\Test\Unit\Model\Customer\DataProviderTest</name>
+  <test-cases>
+    <test-case start="1556668723113" stop="1556668723157" status="passed">
+      <name>testGetAttributesMetaWithOptions with data set #0</name>
+    </test-case>
+    <test-case start="1556668723158" stop="1556668723182" status="passed">
+      <name>testGetData</name>
+    </test-case>
+    <test-case start="1556668723182" stop="1556668723207" status="passed">
+      <name>testGetDataWithCustomerFormData</name>
+    </test-case>
+    <test-case start="1556668723207" stop="1556668723232" status="passed">
+      <name>testGetDataWithCustomAttributeImage</name>
+    </test-case>
+    <test-case start="1556668723232" stop="1556668723240" status="passed">
+      <name>testGetAttributesMetaWithCustomAttributeImage</name>
+    </test-case>
+    <test-case start="1556668723241" stop="1556668723297" status="passed">
+      <name>testGetDataWithVisibleAttributes</name>
+    </test-case>
+    <test-case start="1556668723297" stop="1556668723357" status="passed">
+      <name>testGetDataWithVisibleAttributesWithAccountEdit</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

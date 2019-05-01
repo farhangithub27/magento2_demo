@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668841440" stop="1556668841445" version="1.4.0">
+  <name>Magento\Framework\Acl\Test\Unit\AclResource\ProviderTest</name>
+  <test-cases>
+    <test-case start="1556668841440" stop="1556668841443" status="passed">
+      <name>testGetIfAclResourcesExist</name>
+    </test-case>
+    <test-case start="1556668841443" stop="1556668841444" status="passed">
+      <name>testGetIfAclResourcesExistInCache</name>
+    </test-case>
+    <test-case start="1556668841444" stop="1556668841445" status="passed">
+      <name>testGetIfAclResourcesEmpty</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

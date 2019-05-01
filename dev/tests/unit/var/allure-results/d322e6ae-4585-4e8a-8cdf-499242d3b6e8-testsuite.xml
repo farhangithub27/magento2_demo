@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668807410" stop="1556668807420" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\Invoice\Validation\CanRefundTest</name>
+  <test-cases>
+    <test-case start="1556668807410" stop="1556668807412" status="passed">
+      <name>testValidateWrongInvoiceState</name>
+    </test-case>
+    <test-case start="1556668807413" stop="1556668807414" status="passed">
+      <name>testValidateInvoiceSumWasRefunded</name>
+    </test-case>
+    <test-case start="1556668807415" stop="1556668807419" status="passed">
+      <name>testValidate</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668855135" stop="1556668855141" version="1.4.0">
+  <name>Magento\Framework\Indexer\Test\Unit\Config\ReaderTest</name>
+  <test-cases>
+    <test-case start="1556668855135" stop="1556668855138" status="passed">
+      <name>testReadValidConfig with data set #0</name>
+    </test-case>
+    <test-case start="1556668855139" stop="1556668855140" status="passed">
+      <name>testReadValidConfig with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

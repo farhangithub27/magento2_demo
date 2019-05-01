@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668727507" stop="1556668730517" version="1.4.0">
+  <name>Magento\Deploy\Test\Unit\Process\QueueTest</name>
+  <test-cases>
+    <test-case start="1556668727507" stop="1556668727512" status="passed">
+      <name>testAdd</name>
+    </test-case>
+    <test-case start="1556668727513" stop="1556668730517" status="passed">
+      <name>testProcess</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

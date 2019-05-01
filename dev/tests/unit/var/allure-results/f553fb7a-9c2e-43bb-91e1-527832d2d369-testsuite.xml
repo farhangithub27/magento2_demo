@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668870188" stop="1556668870211" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\Asset\MinificationTest</name>
+  <test-cases>
+    <test-case start="1556668870188" stop="1556668870188" status="passed">
+      <name>testIsEnabled</name>
+    </test-case>
+    <test-case start="1556668870189" stop="1556668870190" status="passed">
+      <name>testIsAssetMinification with data set #0</name>
+    </test-case>
+    <test-case start="1556668870190" stop="1556668870191" status="passed">
+      <name>testIsAssetMinification with data set #1</name>
+    </test-case>
+    <test-case start="1556668870192" stop="1556668870192" status="passed">
+      <name>testIsAssetMinification with data set #2</name>
+    </test-case>
+    <test-case start="1556668870193" stop="1556668870193" status="passed">
+      <name>testIsAssetMinification with data set #3</name>
+    </test-case>
+    <test-case start="1556668870194" stop="1556668870195" status="passed">
+      <name>testIsAssetMinification with data set #4</name>
+    </test-case>
+    <test-case start="1556668870195" stop="1556668870196" status="passed">
+      <name>testIsAssetMinification with data set #5</name>
+    </test-case>
+    <test-case start="1556668870196" stop="1556668870197" status="passed">
+      <name>testAddMinifiedSign with data set #0</name>
+    </test-case>
+    <test-case start="1556668870197" stop="1556668870198" status="passed">
+      <name>testAddMinifiedSign with data set #1</name>
+    </test-case>
+    <test-case start="1556668870198" stop="1556668870199" status="passed">
+      <name>testAddMinifiedSign with data set #2</name>
+    </test-case>
+    <test-case start="1556668870200" stop="1556668870200" status="passed">
+      <name>testRemoveMinifiedSign with data set #0</name>
+    </test-case>
+    <test-case start="1556668870201" stop="1556668870201" status="passed">
+      <name>testRemoveMinifiedSign with data set #1</name>
+    </test-case>
+    <test-case start="1556668870202" stop="1556668870203" status="passed">
+      <name>testRemoveMinifiedSign with data set #2</name>
+    </test-case>
+    <test-case start="1556668870203" stop="1556668870204" status="passed">
+      <name>testIsMinifiedFilename with data set #0</name>
+    </test-case>
+    <test-case start="1556668870204" stop="1556668870204" status="passed">
+      <name>testIsMinifiedFilename with data set #1</name>
+    </test-case>
+    <test-case start="1556668870205" stop="1556668870205" status="passed">
+      <name>testIsMinifiedFilename with data set #2</name>
+    </test-case>
+    <test-case start="1556668870206" stop="1556668870206" status="passed">
+      <name>testIsMinifiedFilename with data set #3</name>
+    </test-case>
+    <test-case start="1556668870207" stop="1556668870207" status="passed">
+      <name>testIsMinifiedFilename with data set #4</name>
+    </test-case>
+    <test-case start="1556668870207" stop="1556668870208" status="passed">
+      <name>testGetExcludes</name>
+    </test-case>
+    <test-case start="1556668870208" stop="1556668870209" status="passed">
+      <name>testGetExcludesTinyMceAsString with data set #0</name>
+    </test-case>
+    <test-case start="1556668870209" stop="1556668870210" status="passed">
+      <name>testGetExcludesTinyMceAsString with data set #1</name>
+    </test-case>
+    <test-case start="1556668870210" stop="1556668870211" status="passed">
+      <name>testGetExcludesTinyMceAsString with data set #2</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

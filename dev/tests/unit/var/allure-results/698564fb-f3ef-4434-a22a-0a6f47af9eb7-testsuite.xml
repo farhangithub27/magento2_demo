@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668872551" stop="1556668872557" version="1.4.0">
+  <name>Magento\Framework\View\Test\Unit\File\Collector\Decorator\ModuleDependencyTest</name>
+  <test-cases>
+    <test-case start="1556668872552" stop="1556668872553" status="passed">
+      <name>testGetFiles with data set "same module"</name>
+    </test-case>
+    <test-case start="1556668872553" stop="1556668872554" status="passed">
+      <name>testGetFiles with data set "different modules"</name>
+    </test-case>
+    <test-case start="1556668872555" stop="1556668872556" status="passed">
+      <name>testGetFiles with data set "different unknown modules"</name>
+    </test-case>
+    <test-case start="1556668872556" stop="1556668872557" status="passed">
+      <name>testGetFiles with data set "known and unknown modules"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

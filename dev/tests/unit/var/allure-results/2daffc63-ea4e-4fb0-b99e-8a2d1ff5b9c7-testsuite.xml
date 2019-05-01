@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668838235" stop="1556668838247" version="1.4.0">
+  <name>Vertex\Tax\Test\Unit\Model\Vertex\SendApiRequestTest</name>
+  <test-cases>
+    <test-case start="1556668838235" stop="1556668838240" status="passed">
+      <name>testErrorLoggingIsLogged</name>
+    </test-case>
+    <test-case start="1556668838240" stop="1556668838243" status="passed">
+      <name>testNonSoapExceptionDuringRequestLogs</name>
+    </test-case>
+    <test-case start="1556668838243" stop="1556668838247" status="passed">
+      <name>testTaxAreaLookupCallsValidationAndLogs</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

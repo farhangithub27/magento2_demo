@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668688986" stop="1556668688998" version="1.4.0">
+  <name>Magento\Catalog\Test\Unit\Block\Adminhtml\Product\Attribute\GridTest</name>
+  <test-cases>
+    <test-case start="1556668688986" stop="1556668688997" status="passed">
+      <name>testGetRowUrl</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668832934" stop="1556668832962" version="1.4.0">
+  <name>Magento\Webapi\Test\Unit\Model\ServiceMetadataTest</name>
+  <test-cases>
+    <test-case start="1556668832934" stop="1556668832939" status="passed">
+      <name>testGetServicesConfig</name>
+    </test-case>
+    <test-case start="1556668832940" stop="1556668832945" status="passed">
+      <name>testGetServicesConfigNoCache</name>
+    </test-case>
+    <test-case start="1556668832945" stop="1556668832946" status="passed">
+      <name>testGetRoutesConfig</name>
+    </test-case>
+    <test-case start="1556668832946" stop="1556668832952" status="passed">
+      <name>testGetRoutesConfigNoCache</name>
+    </test-case>
+    <test-case start="1556668832952" stop="1556668832953" status="passed">
+      <name>testGetServiceName with data set #0</name>
+    </test-case>
+    <test-case start="1556668832953" stop="1556668832954" status="passed">
+      <name>testGetServiceName with data set #1</name>
+    </test-case>
+    <test-case start="1556668832955" stop="1556668832956" status="passed">
+      <name>testGetServiceNameInvalidName with data set #0</name>
+    </test-case>
+    <test-case start="1556668832956" stop="1556668832957" status="passed">
+      <name>testGetServiceNameInvalidName with data set #1</name>
+    </test-case>
+    <test-case start="1556668832957" stop="1556668832958" status="passed">
+      <name>testGetServiceNameInvalidName with data set #2</name>
+    </test-case>
+    <test-case start="1556668832958" stop="1556668832959" status="passed">
+      <name>testGetServiceNameInvalidName with data set #3</name>
+    </test-case>
+    <test-case start="1556668832959" stop="1556668832960" status="passed">
+      <name>testGetServiceNameInvalidName with data set #4</name>
+    </test-case>
+    <test-case start="1556668832960" stop="1556668832961" status="passed">
+      <name>testGetServiceNameInvalidName with data set #5</name>
+    </test-case>
+    <test-case start="1556668832961" stop="1556668832962" status="passed">
+      <name>testGetServiceNameInvalidName with data set #6</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

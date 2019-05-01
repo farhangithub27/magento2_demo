@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668836922" stop="1556668836926" version="1.4.0">
+  <name>Magento\Wishlist\Test\Unit\Model\LocaleQuantityProcessorTest</name>
+  <test-cases>
+    <test-case start="1556668836922" stop="1556668836924" status="passed">
+      <name>testProcess with data set "positive"</name>
+    </test-case>
+    <test-case start="1556668836925" stop="1556668836926" status="passed">
+      <name>testProcess with data set "negative"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668780544" stop="1556668780565" version="1.4.0">
+  <name>Magento\NewRelicReporting\Test\Unit\Model\Cron\ReportCountsTest</name>
+  <test-cases>
+    <test-case start="1556668780545" stop="1556668780550" status="passed">
+      <name>testReportCountsTestsModuleDisabledFromConfig</name>
+    </test-case>
+    <test-case start="1556668780551" stop="1556668780565" status="passed">
+      <name>testReportCountsTest</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

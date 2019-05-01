@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668680289" stop="1556668680307" version="1.4.0">
+  <name>Magento\CatalogImportExport\Test\Unit\Model\Import\Product\Validator\MediaTest</name>
+  <test-cases>
+    <test-case start="1556668680289" stop="1556668680297" status="passed">
+      <name>testInit</name>
+    </test-case>
+    <test-case start="1556668680298" stop="1556668680298" status="passed">
+      <name>testIsValid with data set "valid"</name>
+    </test-case>
+    <test-case start="1556668680299" stop="1556668680299" status="passed">
+      <name>testIsValid with data set "valid2"</name>
+    </test-case>
+    <test-case start="1556668680300" stop="1556668680300" status="passed">
+      <name>testIsValid with data set "invalid"</name>
+    </test-case>
+    <test-case start="1556668680301" stop="1556668680302" status="passed">
+      <name>testIsValidClearMessagesCall</name>
+    </test-case>
+    <test-case start="1556668680302" stop="1556668680303" status="passed">
+      <name>testIsValidAdditionalImagesPath with data set "additional_images"</name>
+    </test-case>
+    <test-case start="1556668680303" stop="1556668680304" status="passed">
+      <name>testIsValidAdditionalImagesPath with data set "additional_images_fail"</name>
+    </test-case>
+    <test-case start="1556668680305" stop="1556668680306" status="passed">
+      <name>testIsValidAdditionalImagesUrl with data set "additional_images_wrong_domain"</name>
+    </test-case>
+    <test-case start="1556668680306" stop="1556668680307" status="passed">
+      <name>testIsValidAdditionalImagesUrl with data set "additional_images_url_multiple_underscores"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

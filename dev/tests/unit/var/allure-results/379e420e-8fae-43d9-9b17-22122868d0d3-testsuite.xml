@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668734965" stop="1556668734973" version="1.4.0">
+  <name>Magento\Eav\Test\Unit\Model\Attribute\Data\MultiselectTest</name>
+  <test-cases>
+    <test-case start="1556668734966" stop="1556668734967" status="passed">
+      <name>testExtractValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668734967" stop="1556668734968" status="passed">
+      <name>testExtractValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668734969" stop="1556668734970" status="passed">
+      <name>testExtractValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668734970" stop="1556668734971" status="passed">
+      <name>testOutputValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668734972" stop="1556668734973" status="passed">
+      <name>testOutputValue with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

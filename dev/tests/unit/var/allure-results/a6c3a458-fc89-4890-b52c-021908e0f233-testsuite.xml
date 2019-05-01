@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668791796" stop="1556668791878" version="1.4.0">
+  <name>Magento\Quote\Test\Unit\Model\Quote\Address\Total\SubtotalTest</name>
+  <test-cases>
+    <test-case start="1556668791796" stop="1556668791819" status="passed">
+      <name>testCollect with data set #0</name>
+    </test-case>
+    <test-case start="1556668791820" stop="1556668791834" status="passed">
+      <name>testCollect with data set #1</name>
+    </test-case>
+    <test-case start="1556668791834" stop="1556668791848" status="passed">
+      <name>testCollect with data set #2</name>
+    </test-case>
+    <test-case start="1556668791849" stop="1556668791862" status="passed">
+      <name>testCollect with data set #3</name>
+    </test-case>
+    <test-case start="1556668791863" stop="1556668791876" status="passed">
+      <name>testCollect with data set #4</name>
+    </test-case>
+    <test-case start="1556668791876" stop="1556668791878" status="passed">
+      <name>testFetch</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

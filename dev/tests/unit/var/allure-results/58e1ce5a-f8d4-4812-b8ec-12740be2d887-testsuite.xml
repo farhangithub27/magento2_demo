@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668739178" stop="1556668739183" version="1.4.0">
+  <name>Magento\Elasticsearch\Test\Unit\SearchAdapter\Query\Builder\AggregationTest</name>
+  <test-cases>
+    <test-case start="1556668739178" stop="1556668739180" status="passed">
+      <name>testBuildDynamicPrice</name>
+    </test-case>
+    <test-case start="1556668739180" stop="1556668739181" status="passed">
+      <name>testBuildDynamic</name>
+    </test-case>
+    <test-case start="1556668739181" stop="1556668739183" status="passed">
+      <name>testBuildTerm</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668865230" stop="1556668865242" version="1.4.0">
+  <name>Magento\Framework\Validator\Test\Unit\Constraint\Option\CallbackTest</name>
+  <test-cases>
+    <test-case start="1556668865230" stop="1556668865231" status="passed">
+      <name>testGetValue with data set #0</name>
+    </test-case>
+    <test-case start="1556668865231" stop="1556668865232" status="passed">
+      <name>testGetValue with data set #1</name>
+    </test-case>
+    <test-case start="1556668865232" stop="1556668865233" status="passed">
+      <name>testGetValue with data set #2</name>
+    </test-case>
+    <test-case start="1556668865233" stop="1556668865234" status="passed">
+      <name>testGetValue with data set #3</name>
+    </test-case>
+    <test-case start="1556668865234" stop="1556668865235" status="passed">
+      <name>testGetValue with data set #4</name>
+    </test-case>
+    <test-case start="1556668865235" stop="1556668865236" status="passed">
+      <name>testSetArguments with data set #0</name>
+    </test-case>
+    <test-case start="1556668865236" stop="1556668865236" status="passed">
+      <name>testSetArguments with data set #1</name>
+    </test-case>
+    <test-case start="1556668865237" stop="1556668865237" status="passed">
+      <name>testGetValueException with data set #0</name>
+    </test-case>
+    <test-case start="1556668865238" stop="1556668865238" status="passed">
+      <name>testGetValueException with data set #1</name>
+    </test-case>
+    <test-case start="1556668865239" stop="1556668865239" status="passed">
+      <name>testGetValueException with data set #2</name>
+    </test-case>
+    <test-case start="1556668865240" stop="1556668865240" status="passed">
+      <name>testGetValueException with data set #3</name>
+    </test-case>
+    <test-case start="1556668865240" stop="1556668865241" status="passed">
+      <name>testGetValueException with data set #4</name>
+    </test-case>
+    <test-case start="1556668865241" stop="1556668865242" status="passed">
+      <name>testGetValueException with data set #5</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

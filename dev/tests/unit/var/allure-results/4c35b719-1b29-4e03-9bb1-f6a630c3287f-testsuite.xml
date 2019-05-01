@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668745649" stop="1556668745721" version="1.4.0">
+  <name>Magento\Indexer\Test\Unit\Model\IndexerTest</name>
+  <test-cases>
+    <test-case start="1556668745649" stop="1556668745654" status="passed">
+      <name>testLoadWithException</name>
+    </test-case>
+    <test-case start="1556668745654" stop="1556668745655" status="passed">
+      <name>testGetView</name>
+    </test-case>
+    <test-case start="1556668745656" stop="1556668745657" status="passed">
+      <name>testGetState</name>
+    </test-case>
+    <test-case start="1556668745658" stop="1556668745660" status="passed">
+      <name>testGetLatestUpdated with data set #0</name>
+    </test-case>
+    <test-case start="1556668745661" stop="1556668745663" status="passed">
+      <name>testGetLatestUpdated with data set #1</name>
+    </test-case>
+    <test-case start="1556668745663" stop="1556668745665" status="passed">
+      <name>testGetLatestUpdated with data set #2</name>
+    </test-case>
+    <test-case start="1556668745665" stop="1556668745667" status="passed">
+      <name>testGetLatestUpdated with data set #3</name>
+    </test-case>
+    <test-case start="1556668745668" stop="1556668745670" status="passed">
+      <name>testGetLatestUpdated with data set #4</name>
+    </test-case>
+    <test-case start="1556668745671" stop="1556668745673" status="passed">
+      <name>testGetLatestUpdated with data set #5</name>
+    </test-case>
+    <test-case start="1556668745673" stop="1556668745675" status="passed">
+      <name>testGetLatestUpdated with data set #6</name>
+    </test-case>
+    <test-case start="1556668745676" stop="1556668745678" status="passed">
+      <name>testGetLatestUpdated with data set #7</name>
+    </test-case>
+    <test-case start="1556668745678" stop="1556668745681" status="passed">
+      <name>testGetLatestUpdated with data set #8</name>
+    </test-case>
+    <test-case start="1556668745681" stop="1556668745688" status="passed">
+      <name>testReindexAll</name>
+    </test-case>
+    <test-case start="1556668745689" stop="1556668745694" status="passed">
+      <name>testReindexAllWithException</name>
+    </test-case>
+    <test-case start="1556668745694" stop="1556668745699" status="passed">
+      <name>testReindexAllWithError</name>
+    </test-case>
+    <test-case start="1556668745699" stop="1556668745700" status="passed">
+      <name>testGetTitle</name>
+    </test-case>
+    <test-case start="1556668745701" stop="1556668745702" status="passed">
+      <name>testGetDescription</name>
+    </test-case>
+    <test-case start="1556668745702" stop="1556668745703" status="passed">
+      <name>testSetState</name>
+    </test-case>
+    <test-case start="1556668745703" stop="1556668745704" status="passed">
+      <name>testIsScheduled</name>
+    </test-case>
+    <test-case start="1556668745705" stop="1556668745707" status="passed">
+      <name>testSetScheduled with data set #0</name>
+    </test-case>
+    <test-case start="1556668745707" stop="1556668745709" status="passed">
+      <name>testSetScheduled with data set #1</name>
+    </test-case>
+    <test-case start="1556668745709" stop="1556668745710" status="passed">
+      <name>testGetStatus</name>
+    </test-case>
+    <test-case start="1556668745711" stop="1556668745712" status="passed">
+      <name>testStatus with data set #0</name>
+    </test-case>
+    <test-case start="1556668745712" stop="1556668745714" status="passed">
+      <name>testStatus with data set #1</name>
+    </test-case>
+    <test-case start="1556668745714" stop="1556668745715" status="passed">
+      <name>testStatus with data set #2</name>
+    </test-case>
+    <test-case start="1556668745715" stop="1556668745718" status="passed">
+      <name>testInvalidate</name>
+    </test-case>
+    <test-case start="1556668745718" stop="1556668745719" status="passed">
+      <name>testReindexRow</name>
+    </test-case>
+    <test-case start="1556668745719" stop="1556668745721" status="passed">
+      <name>testReindexList</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

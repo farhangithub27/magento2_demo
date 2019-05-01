@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668803227" stop="1556668803271" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Helper\DataTest</name>
+  <test-cases>
+    <test-case start="1556668803228" stop="1556668803231" status="passed">
+      <name>testCanSendNewOrderConfirmationEmail with data set #0</name>
+    </test-case>
+    <test-case start="1556668803231" stop="1556668803233" status="passed">
+      <name>testCanSendNewOrderConfirmationEmail with data set #1</name>
+    </test-case>
+    <test-case start="1556668803233" stop="1556668803235" status="passed">
+      <name>testCanSendNewOrderEmail with data set #0</name>
+    </test-case>
+    <test-case start="1556668803235" stop="1556668803237" status="passed">
+      <name>testCanSendNewOrderEmail with data set #1</name>
+    </test-case>
+    <test-case start="1556668803238" stop="1556668803240" status="passed">
+      <name>testCanSendOrderCommentEmail with data set #0</name>
+    </test-case>
+    <test-case start="1556668803240" stop="1556668803242" status="passed">
+      <name>testCanSendOrderCommentEmail with data set #1</name>
+    </test-case>
+    <test-case start="1556668803242" stop="1556668803244" status="passed">
+      <name>testCanSendNewShipmentEmail with data set #0</name>
+    </test-case>
+    <test-case start="1556668803245" stop="1556668803247" status="passed">
+      <name>testCanSendNewShipmentEmail with data set #1</name>
+    </test-case>
+    <test-case start="1556668803247" stop="1556668803249" status="passed">
+      <name>testCanSendShipmentCommentEmail with data set #0</name>
+    </test-case>
+    <test-case start="1556668803250" stop="1556668803251" status="passed">
+      <name>testCanSendShipmentCommentEmail with data set #1</name>
+    </test-case>
+    <test-case start="1556668803252" stop="1556668803254" status="passed">
+      <name>testCanSendNewInvoiceEmail with data set #0</name>
+    </test-case>
+    <test-case start="1556668803254" stop="1556668803256" status="passed">
+      <name>testCanSendNewInvoiceEmail with data set #1</name>
+    </test-case>
+    <test-case start="1556668803256" stop="1556668803259" status="passed">
+      <name>testCanSendInvoiceCommentEmail with data set #0</name>
+    </test-case>
+    <test-case start="1556668803259" stop="1556668803262" status="passed">
+      <name>testCanSendInvoiceCommentEmail with data set #1</name>
+    </test-case>
+    <test-case start="1556668803262" stop="1556668803264" status="passed">
+      <name>testCanSendNewCreditmemoEmail with data set #0</name>
+    </test-case>
+    <test-case start="1556668803265" stop="1556668803266" status="passed">
+      <name>testCanSendNewCreditmemoEmail with data set #1</name>
+    </test-case>
+    <test-case start="1556668803267" stop="1556668803269" status="passed">
+      <name>testCanSendCreditmemoCommentEmail with data set #0</name>
+    </test-case>
+    <test-case start="1556668803269" stop="1556668803271" status="passed">
+      <name>testCanSendCreditmemoCommentEmail with data set #1</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

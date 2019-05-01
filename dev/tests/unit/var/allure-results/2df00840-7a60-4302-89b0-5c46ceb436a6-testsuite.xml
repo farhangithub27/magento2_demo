@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668818691" stop="1556668818946" version="1.4.0">
+  <name>Magento\Store\Test\Unit\Model\StoreTest</name>
+  <test-cases>
+    <test-case start="1556668818691" stop="1556668818701" status="passed">
+      <name>testLoad with data set #0</name>
+    </test-case>
+    <test-case start="1556668818702" stop="1556668818709" status="passed">
+      <name>testLoad with data set #1</name>
+    </test-case>
+    <test-case start="1556668818710" stop="1556668818716" status="passed">
+      <name>testSetWebsite</name>
+    </test-case>
+    <test-case start="1556668818716" stop="1556668818722" status="passed">
+      <name>testGetWebsite</name>
+    </test-case>
+    <test-case start="1556668818722" stop="1556668818728" status="passed">
+      <name>testGetWebsiteIfWebsiteIsNotExist</name>
+    </test-case>
+    <test-case start="1556668818728" stop="1556668818735" status="passed">
+      <name>testGetGroup</name>
+    </test-case>
+    <test-case start="1556668818736" stop="1556668818743" status="passed">
+      <name>testGetGroupIfGroupIsNotExist</name>
+    </test-case>
+    <test-case start="1556668818743" stop="1556668818750" status="passed">
+      <name>testGetUrl</name>
+    </test-case>
+    <test-case start="1556668818751" stop="1556668818756" status="passed">
+      <name>testGetBaseUrl with data set #0</name>
+    </test-case>
+    <test-case start="1556668818757" stop="1556668818762" status="passed">
+      <name>testGetBaseUrl with data set #1</name>
+    </test-case>
+    <test-case start="1556668818763" stop="1556668818768" status="passed">
+      <name>testGetBaseUrl with data set #2</name>
+    </test-case>
+    <test-case start="1556668818769" stop="1556668818776" status="passed">
+      <name>testGetBaseUrl with data set #3</name>
+    </test-case>
+    <test-case start="1556668818777" stop="1556668818782" status="passed">
+      <name>testGetBaseUrl with data set #4</name>
+    </test-case>
+    <test-case start="1556668818783" stop="1556668818789" status="passed">
+      <name>testGetBaseUrl with data set #5</name>
+    </test-case>
+    <test-case start="1556668818789" stop="1556668818795" status="passed">
+      <name>testGetBaseUrl with data set #6</name>
+    </test-case>
+    <test-case start="1556668818796" stop="1556668818801" status="passed">
+      <name>testGetBaseUrl with data set #7</name>
+    </test-case>
+    <test-case start="1556668818802" stop="1556668818809" status="passed">
+      <name>testGetBaseUrlEntryPoint</name>
+    </test-case>
+    <test-case start="1556668818809" stop="1556668818815" status="passed">
+      <name>testGetBaseUrlWrongType</name>
+    </test-case>
+    <test-case start="1556668818815" stop="1556668818823" status="passed">
+      <name>testGetCurrentUrl with data set #0</name>
+    </test-case>
+    <test-case start="1556668818824" stop="1556668818830" status="passed">
+      <name>testGetCurrentUrl with data set #1</name>
+    </test-case>
+    <test-case start="1556668818831" stop="1556668818838" status="passed">
+      <name>testGetCurrentUrl with data set #2</name>
+    </test-case>
+    <test-case start="1556668818839" stop="1556668818847" status="passed">
+      <name>testGetCurrentUrl with data set #3</name>
+    </test-case>
+    <test-case start="1556668818848" stop="1556668818853" status="passed">
+      <name>testGetBaseCurrency with data set #0</name>
+    </test-case>
+    <test-case start="1556668818854" stop="1556668818861" status="passed">
+      <name>testGetBaseCurrency with data set #1</name>
+    </test-case>
+    <test-case start="1556668818862" stop="1556668818867" status="passed">
+      <name>testGetAllowedCurrencies</name>
+    </test-case>
+    <test-case start="1556668818868" stop="1556668818873" status="passed">
+      <name>testIsCurrentlySecure with data set "secure request, no server setting"</name>
+    </test-case>
+    <test-case start="1556668818874" stop="1556668818879" status="passed">
+      <name>testIsCurrentlySecure with data set "unsecure request, using registered port"</name>
+    </test-case>
+    <test-case start="1556668818880" stop="1556668818885" status="passed">
+      <name>testIsCurrentlySecure with data set "unsecure request, no secure base url registered"</name>
+    </test-case>
+    <test-case start="1556668818886" stop="1556668818893" status="passed">
+      <name>testIsCurrentlySecure with data set "unsecure request, not using registered port"</name>
+    </test-case>
+    <test-case start="1556668818894" stop="1556668818900" status="passed">
+      <name>testIsCurrentlySecure with data set "unsecure request, using registered port, not using secure in frontend"</name>
+    </test-case>
+    <test-case start="1556668818901" stop="1556668818906" status="passed">
+      <name>testIsCurrentlySecure with data set "unsecure request, no secure base url registered, not using secure in frontend"</name>
+    </test-case>
+    <test-case start="1556668818907" stop="1556668818912" status="passed">
+      <name>testIsCurrentlySecure with data set "unsecure request, not using registered port, not using secure in frontend"</name>
+    </test-case>
+    <test-case start="1556668818912" stop="1556668818915" status="passed">
+      <name>testGetBaseMediaDir</name>
+    </test-case>
+    <test-case start="1556668818915" stop="1556668818919" status="passed">
+      <name>testGetBaseStaticDir</name>
+    </test-case>
+    <test-case start="1556668818919" stop="1556668818922" status="passed">
+      <name>testGetScopeType</name>
+    </test-case>
+    <test-case start="1556668818923" stop="1556668818927" status="passed">
+      <name>testGetScopeTypeName</name>
+    </test-case>
+    <test-case start="1556668818927" stop="1556668818931" status="passed">
+      <name>testGetCurrentCurrencyCode with data set #0</name>
+    </test-case>
+    <test-case start="1556668818931" stop="1556668818934" status="passed">
+      <name>testGetCurrentCurrencyCode with data set #1</name>
+    </test-case>
+    <test-case start="1556668818935" stop="1556668818938" status="passed">
+      <name>testGetCurrentCurrencyCode with data set #2</name>
+    </test-case>
+    <test-case start="1556668818939" stop="1556668818942" status="passed">
+      <name>testGetCurrentCurrencyCode with data set #3</name>
+    </test-case>
+    <test-case start="1556668818942" stop="1556668818946" status="passed">
+      <name>testGetCurrentCurrencyCode with data set #4</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

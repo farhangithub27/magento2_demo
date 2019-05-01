@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668712671" stop="1556668712681" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Model\Config\Structure\Element\AbstractCompositeTest</name>
+  <test-cases>
+    <test-case start="1556668712671" stop="1556668712674" status="passed">
+      <name>testSetDataInitializesChildIterator</name>
+    </test-case>
+    <test-case start="1556668712674" stop="1556668712675" status="passed">
+      <name>testSetDataInitializesChildIteratorWithEmptyArrayIfNoChildrenArePresent</name>
+    </test-case>
+    <test-case start="1556668712675" stop="1556668712676" status="passed">
+      <name>testHasChildrenReturnsFalseIfThereAreNoChildren</name>
+    </test-case>
+    <test-case start="1556668712676" stop="1556668712677" status="passed">
+      <name>testHasChildrenReturnsTrueIfThereAreVisibleChildren</name>
+    </test-case>
+    <test-case start="1556668712677" stop="1556668712679" status="passed">
+      <name>testIsVisibleReturnsTrueIfThereAreVisibleChildren</name>
+    </test-case>
+    <test-case start="1556668712679" stop="1556668712680" status="passed">
+      <name>testIsVisibleReturnsTrueIfElementHasFrontEndModel</name>
+    </test-case>
+    <test-case start="1556668712680" stop="1556668712681" status="passed">
+      <name>testIsVisibleReturnsFalseIfElementHasNoChildrenAndFrontendModel</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

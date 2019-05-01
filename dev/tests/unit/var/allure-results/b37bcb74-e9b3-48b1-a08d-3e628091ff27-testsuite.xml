@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668672158" stop="1556668672172" version="1.4.0">
+  <name>Magento\Backend\Test\Unit\Model\Menu\ConfigTest</name>
+  <test-cases>
+    <test-case start="1556668672158" stop="1556668672163" status="passed">
+      <name>testGetMenuWithCachedObjectReturnsUnserializedObject</name>
+    </test-case>
+    <test-case start="1556668672163" stop="1556668672165" status="passed">
+      <name>testGetMenuWithNotCachedObjectBuildsObject</name>
+    </test-case>
+    <test-case start="1556668672165" stop="1556668672167" status="passed">
+      <name>testGetMenuExceptionLogged with data set "InvalidArgumentException"</name>
+    </test-case>
+    <test-case start="1556668672167" stop="1556668672169" status="passed">
+      <name>testGetMenuExceptionLogged with data set "BadMethodCallException"</name>
+    </test-case>
+    <test-case start="1556668672169" stop="1556668672170" status="passed">
+      <name>testGetMenuExceptionLogged with data set "OutOfRangeException"</name>
+    </test-case>
+    <test-case start="1556668672171" stop="1556668672172" status="passed">
+      <name>testGetMenuGenericExceptionIsNotLogged</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

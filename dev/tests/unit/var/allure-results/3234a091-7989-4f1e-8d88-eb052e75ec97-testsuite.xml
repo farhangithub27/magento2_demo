@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668807755" stop="1556668807837" version="1.4.0">
+  <name>Magento\Sales\Test\Unit\Model\Order\ItemTest</name>
+  <test-cases>
+    <test-case start="1556668807755" stop="1556668807757" status="passed">
+      <name>testSetParentItemNull</name>
+    </test-case>
+    <test-case start="1556668807758" stop="1556668807761" status="passed">
+      <name>testSetParentItem</name>
+    </test-case>
+    <test-case start="1556668807761" stop="1556668807764" status="passed">
+      <name>testGetPatentItem</name>
+    </test-case>
+    <test-case start="1556668807764" stop="1556668807766" status="passed">
+      <name>testSetOrder</name>
+    </test-case>
+    <test-case start="1556668807767" stop="1556668807769" status="passed">
+      <name>testGetOrder</name>
+    </test-case>
+    <test-case start="1556668807770" stop="1556668807772" status="passed">
+      <name>testGetStatusId with data set #0</name>
+    </test-case>
+    <test-case start="1556668807772" stop="1556668807774" status="passed">
+      <name>testGetStatusId with data set #1</name>
+    </test-case>
+    <test-case start="1556668807775" stop="1556668807777" status="passed">
+      <name>testGetStatusId with data set #2</name>
+    </test-case>
+    <test-case start="1556668807777" stop="1556668807779" status="passed">
+      <name>testGetStatusId with data set #3</name>
+    </test-case>
+    <test-case start="1556668807780" stop="1556668807782" status="passed">
+      <name>testGetStatusId with data set #4</name>
+    </test-case>
+    <test-case start="1556668807782" stop="1556668807784" status="passed">
+      <name>testGetStatusId with data set #5</name>
+    </test-case>
+    <test-case start="1556668807785" stop="1556668807787" status="passed">
+      <name>testGetStatusId with data set #6</name>
+    </test-case>
+    <test-case start="1556668807787" stop="1556668807789" status="passed">
+      <name>testGetStatusId with data set #7</name>
+    </test-case>
+    <test-case start="1556668807790" stop="1556668807792" status="passed">
+      <name>testGetStatusId with data set #8</name>
+    </test-case>
+    <test-case start="1556668807793" stop="1556668807794" status="passed">
+      <name>testGetStatusId with data set #9</name>
+    </test-case>
+    <test-case start="1556668807795" stop="1556668807797" status="passed">
+      <name>testGetStatusId with data set #10</name>
+    </test-case>
+    <test-case start="1556668807798" stop="1556668807799" status="passed">
+      <name>testGetStatusId with data set #11</name>
+    </test-case>
+    <test-case start="1556668807800" stop="1556668807802" status="passed">
+      <name>testGetStatuses</name>
+    </test-case>
+    <test-case start="1556668807803" stop="1556668807804" status="passed">
+      <name>testGetOriginalPrice</name>
+    </test-case>
+    <test-case start="1556668807805" stop="1556668807807" status="passed">
+      <name>testGetProductOptions with data set "array"</name>
+    </test-case>
+    <test-case start="1556668807807" stop="1556668807809" status="passed">
+      <name>testGetProductOptions with data set "serialized"</name>
+    </test-case>
+    <test-case start="1556668807809" stop="1556668807811" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "empty_item"</name>
+    </test-case>
+    <test-case start="1556668807812" stop="1556668807814" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "ordered_item"</name>
+    </test-case>
+    <test-case start="1556668807814" stop="1556668807816" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "partially_invoiced"</name>
+    </test-case>
+    <test-case start="1556668807816" stop="1556668807818" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "completely_invoiced"</name>
+    </test-case>
+    <test-case start="1556668807819" stop="1556668807821" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "partially_invoiced_refunded"</name>
+    </test-case>
+    <test-case start="1556668807821" stop="1556668807823" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "partially_refunded"</name>
+    </test-case>
+    <test-case start="1556668807823" stop="1556668807825" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "partially_shipped"</name>
+    </test-case>
+    <test-case start="1556668807826" stop="1556668807827" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "partially_refunded_partially_shipped"</name>
+    </test-case>
+    <test-case start="1556668807828" stop="1556668807830" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "complete"</name>
+    </test-case>
+    <test-case start="1556668807830" stop="1556668807832" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "canceled"</name>
+    </test-case>
+    <test-case start="1556668807833" stop="1556668807835" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "completely_shipped_using_decimals"</name>
+    </test-case>
+    <test-case start="1556668807835" stop="1556668807837" status="passed">
+      <name>testGetSimpleQtyToMethods with data set "completely_invoiced_using_decimals"</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

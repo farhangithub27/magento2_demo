@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668781069" stop="1556668781072" version="1.4.0">
+  <name>Magento\NewRelicReporting\Test\Unit\Model\Observer\ReportSystemCacheFlushToNewRelicTest</name>
+  <test-cases>
+    <test-case start="1556668781070" stop="1556668781071" status="passed">
+      <name>testReportSystemCacheFlushToNewRelicModuleDisabledFromConfig</name>
+    </test-case>
+    <test-case start="1556668781071" stop="1556668781072" status="passed">
+      <name>testReportSystemCacheFlushToNewRelic</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

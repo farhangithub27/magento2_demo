@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668865572" stop="1556668865575" version="1.4.0">
+  <name>Magento\Framework\Validator\Test\Unit\ValidatorAbstractTest</name>
+  <test-cases>
+    <test-case start="1556668865573" stop="1556668865573" status="passed">
+      <name>testDefaultTranslatorGetSet</name>
+    </test-case>
+    <test-case start="1556668865573" stop="1556668865574" status="passed">
+      <name>testTranslatorGetSetHas</name>
+    </test-case>
+    <test-case start="1556668865574" stop="1556668865575" status="passed">
+      <name>testGetTranslatorDefault</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

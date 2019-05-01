@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668835339" stop="1556668835342" version="1.4.0">
+  <name>Magento\Widget\Test\Unit\Model\Template\FilterEmulateTest</name>
+  <test-cases>
+    <test-case start="1556668835340" stop="1556668835342" status="passed">
+      <name>testWidgetDirective</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

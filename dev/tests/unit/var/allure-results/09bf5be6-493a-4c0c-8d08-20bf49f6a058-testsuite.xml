@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668845323" stop="1556668845327" version="1.4.0">
+  <name>Magento\Framework\App\Test\Unit\Route\ConfigInterface\ProxyTest</name>
+  <test-cases>
+    <test-case start="1556668845324" stop="1556668845325" status="passed">
+      <name>testGetRouteFrontName</name>
+    </test-case>
+    <test-case start="1556668845325" stop="1556668845326" status="passed">
+      <name>testGetRouteByFrontName</name>
+    </test-case>
+    <test-case start="1556668845326" stop="1556668845327" status="passed">
+      <name>testGetModulesByFrontName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

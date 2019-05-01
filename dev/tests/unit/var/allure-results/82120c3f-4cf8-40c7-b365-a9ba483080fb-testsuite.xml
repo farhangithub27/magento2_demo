@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668826361" stop="1556668826367" version="1.4.0">
+  <name>Magento\Theme\Test\Unit\Model\Url\Plugin\SignatureTest</name>
+  <test-cases>
+    <test-case start="1556668826362" stop="1556668826364" status="passed">
+      <name>testAfterGetBaseUrlInactive with data set "disabled in config, relevant URL type"</name>
+    </test-case>
+    <test-case start="1556668826365" stop="1556668826366" status="passed">
+      <name>testAfterGetBaseUrlInactive with data set "enabled in config, irrelevant URL type"</name>
+    </test-case>
+    <test-case start="1556668826366" stop="1556668826367" status="passed">
+      <name>testAroundGetBaseUrlActive</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

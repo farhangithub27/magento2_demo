@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668734171" stop="1556668734190" version="1.4.0">
+  <name>Magento\Downloadable\Test\Unit\Observer\SaveDownloadableOrderItemObserverTest</name>
+  <test-cases>
+    <test-case start="1556668734171" stop="1556668734183" status="passed">
+      <name>testSaveDownloadableOrderItem</name>
+    </test-case>
+    <test-case start="1556668734184" stop="1556668734185" status="passed">
+      <name>testSaveDownloadableOrderItemNotDownloadableItem</name>
+    </test-case>
+    <test-case start="1556668734186" stop="1556668734187" status="passed">
+      <name>testSaveDownloadableOrderItemNotSavedOrderItem</name>
+    </test-case>
+    <test-case start="1556668734187" stop="1556668734190" status="passed">
+      <name>testSaveDownloadableOrderItemSavedPurchasedLink</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

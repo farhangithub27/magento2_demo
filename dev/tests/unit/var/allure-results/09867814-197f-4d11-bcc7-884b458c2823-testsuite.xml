@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668710824" stop="1556668710830" version="1.4.0">
+  <name>Magento\Config\Test\Unit\Block\System\Config\Form\Field\NotificationTest</name>
+  <test-cases>
+    <test-case start="1556668710825" stop="1556668710830" status="passed">
+      <name>testRender</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668846502" stop="1556668846510" version="1.4.0">
+  <name>Magento\Framework\Cache\Test\Unit\Backend\Decorator\CompressionTest</name>
+  <test-cases>
+    <test-case start="1556668846502" stop="1556668846506" status="passed">
+      <name>testCompressData</name>
+    </test-case>
+    <test-case start="1556668846506" stop="1556668846507" status="passed">
+      <name>testDecompressData</name>
+    </test-case>
+    <test-case start="1556668846507" stop="1556668846507" status="passed">
+      <name>testIsCompressionNeeded</name>
+    </test-case>
+    <test-case start="1556668846508" stop="1556668846508" status="passed">
+      <name>testIsDecompressionNeeded</name>
+    </test-case>
+    <test-case start="1556668846508" stop="1556668846510" status="passed">
+      <name>testSaveLoad</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556668739621" stop="1556668739630" version="1.4.0">
+  <name>Magento\Email\Test\Unit\Controller\Adminhtml\Email\Template\IndexTest</name>
+  <test-cases>
+    <test-case start="1556668739621" stop="1556668739626" status="passed">
+      <name>testExecute</name>
+    </test-case>
+    <test-case start="1556668739626" stop="1556668739630" status="passed">
+      <name>testExecuteAjax</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>
