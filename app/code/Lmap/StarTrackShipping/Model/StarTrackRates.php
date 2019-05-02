@@ -23,4 +23,5 @@ class StarTrackRates extends AbstractModel
          * getdata() magic getter / setter magento data object. Hence setter and getters are not created here.
          */
     }
+
 }

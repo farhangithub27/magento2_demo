@@ -15,6 +15,8 @@ class LuckInfoTest extends \PHPUnit\Framework\TestCase //\PHPUnit_Framework_Test
 
     protected function setUp()
     {
+        // In this setUp function assign instance of class under test to our property.
+        // Since our class doesnt have any dependencies we can create it with new operator.
         $this->luckInfo = new LuckInfo();
     }
 
@@ -22,12 +24,14 @@ class LuckInfoTest extends \PHPUnit\Framework\TestCase //\PHPUnit_Framework_Test
      * @param $isLucky
      * @param $amount
      * @dataProvider amountProvider
+     *
      */
     public function testIsAmountLucky($isLucky, $amount)
     {
         $this->assertEquals($isLucky, $this->luckInfo->isAmountLucky($amount));
     }
 
+    // In order to use this php built in data provider function we have add it to annotations of testIsAmountLucky method.
     public function amountProvider()
     {
         return [

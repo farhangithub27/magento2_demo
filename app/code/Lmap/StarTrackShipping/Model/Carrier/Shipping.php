@@ -10,6 +10,7 @@ use Magento\Shipping\Model\Rate\Result;
 //use Lmap\ShippingRates\Model\ResourceModel\ShippingRates\CollectionFactory as SRCollectionFactory; // Not used at all
 
 use Lmap\StarTrackShipping\Model\ResourceModel\StarTrackRatesFactory;
+
 //use Lmap\StarTrackShipping\Helper\FetchShippingRate; // Not used
 
 
@@ -90,7 +91,26 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         return [$this->_code => $this->getConfigData('name')];
     }
 
+    public function getShippingPrice($rate_array,$package_weight)
+    {
+        $this->_logger->debug('getShippingPrice method called !');
+        $basic_rate = floatval($rate_array[0]['basic']);
+        $rate_per_kg = floatval($rate_array[0]['rate_per_kg']);
+        $minimum_rate = floatval($rate_array[0]['minimum']);
 
+        $weight_based_rate = $basic_rate + ($rate_per_kg * floatval($package_weight));
+        $this->_logger->debug('Basic Rate is: '. var_export($basic_rate,true).
+            ' and Rate Per Kg: '.$rate_per_kg.
+            ' and Minimum Rate: '.$minimum_rate.
+            ' and Weight Based Rate: '.$weight_based_rate.
+            ' and package weight:' .floatval($package_weight));
+        if ($weight_based_rate<$minimum_rate){
+            return  $shipping_rate = $minimum_rate;
+        }
+        else{
+            return $shipping_rate = $weight_based_rate;
+        }
+    }
     /**
      * @param RateRequest $request
      * @return bool|\Magento\Framework\DataObject|Result|null
@@ -124,10 +144,14 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
 
         //$received_rate_array = $this->shippingRateFactory->create()->getRate($request); // Worked successfully
 
-        $received_rate_array = $this->starTrackRatesFactory->create()->getRate($request);
+        $postcode = $request->getDestPostcode();
 
-        $this->_logger->debug('ShippingRatesHelper Rate is: '.var_export($received_rate_array[0]['basic'],true));
+        $received_rate_array = $this->starTrackRatesFactory->create()->getRate($postcode);
+
+        $this->_logger->debug('Received Rates are: '.var_export($received_rate_array[0]['basic'],true));
         $packageWeight = $request->getPackageWeight();
+        $shipping_rate = $this->getShippingPrice($received_rate_array,$packageWeight);
+        /**
         $basic_rate = floatval($received_rate_array[0]['basic']);
 
         $rate_per_kg = floatval($received_rate_array[0]['rate_per_kg']);
@@ -145,7 +169,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         else{
             $shipping_rate = $weight_based_rate;
         }
-
+        */
         $method->setPrice($shipping_rate);
         $method->setCost($shipping_rate);
 
