@@ -94,6 +94,7 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
     public function getShippingPrice($rate_array,$package_weight)
     {
         $this->_logger->debug('getShippingPrice method called !');
+        $this->_logger->debug('No need for var_dump, var_export  and echo methods as xdebug has been configured along with phpstorm to see the variables.');
         $basic_rate = floatval($rate_array[0]['basic']);
         $rate_per_kg = floatval($rate_array[0]['rate_per_kg']);
         $minimum_rate = floatval($rate_array[0]['minimum']);
