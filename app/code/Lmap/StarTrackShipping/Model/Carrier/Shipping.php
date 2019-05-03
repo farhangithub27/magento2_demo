@@ -91,13 +91,20 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         return [$this->_code => $this->getConfigData('name')];
     }
 
-    public function getShippingPrice($rate_array,$package_weight)
+    /**
+     * @param $rate_array []
+     * @param $package_weight
+     * @return float|int
+     */
+
+    public function getShippingPrice($postcode,$package_weight)
     {
+        $received_rate_array = $this->starTrackRatesFactory->create()->getRate($postcode);
         $this->_logger->debug('getShippingPrice method called !');
         $this->_logger->debug('No need for var_dump, var_export  and echo methods as xdebug has been configured along with phpstorm to see the variables.');
-        $basic_rate = floatval($rate_array[0]['basic']);
-        $rate_per_kg = floatval($rate_array[0]['rate_per_kg']);
-        $minimum_rate = floatval($rate_array[0]['minimum']);
+        $basic_rate = floatval($received_rate_array[0]['basic']);
+        $rate_per_kg = floatval($received_rate_array[0]['rate_per_kg']);
+        $minimum_rate = floatval($received_rate_array[0]['minimum']);
 
         $weight_based_rate = $basic_rate + ($rate_per_kg * floatval($package_weight));
         $this->_logger->debug('Basic Rate is: '. var_export($basic_rate,true).
@@ -147,11 +154,11 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
 
         $postcode = $request->getDestPostcode();
 
-        $received_rate_array = $this->starTrackRatesFactory->create()->getRate($postcode);
+        //$received_rate_array = $this->starTrackRatesFactory->create()->getRate($postcode);
 
-        $this->_logger->debug('Received Rates are: '.var_export($received_rate_array[0]['basic'],true));
+        //$this->_logger->debug('Received Rates are: '.var_export($received_rate_array[0]['basic'],true));
         $packageWeight = $request->getPackageWeight();
-        $shipping_rate = $this->getShippingPrice($received_rate_array,$packageWeight);
+        $shipping_rate = $this->getShippingPrice($postcode,$packageWeight);
         /**
         $basic_rate = floatval($received_rate_array[0]['basic']);
 
