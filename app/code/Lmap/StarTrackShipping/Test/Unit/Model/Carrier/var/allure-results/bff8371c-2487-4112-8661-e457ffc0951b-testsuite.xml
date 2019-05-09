@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1557383115226" stop="1557383115257" version="1.4.0">
+  <name>Lmap\StarTrackShipping\Model\Carrier\ShippingTest</name>
+  <test-cases>
+    <test-case start="1557383115228" stop="1557383115241" status="passed">
+      <name>testgetShippingPrice with data set #0</name>
+    </test-case>
+    <test-case start="1557383115242" stop="1557383115243" status="passed">
+      <name>testgetShippingPrice with data set #1</name>
+    </test-case>
+    <test-case start="1557383115243" stop="1557383115256" status="passed">
+      <name>testCollectRates</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

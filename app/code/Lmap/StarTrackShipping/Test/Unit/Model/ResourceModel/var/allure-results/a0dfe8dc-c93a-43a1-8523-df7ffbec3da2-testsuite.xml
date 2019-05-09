@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1557384207261" stop="1557384207282" version="1.4.0">
+  <name>Lmap\StarTrackShipping\Test\Model\ResourceModel\StarTrackRatesTest</name>
+  <test-cases>
+    <test-case start="1557384207262" stop="1557384207282" status="passed">
+      <name>testgetRates</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

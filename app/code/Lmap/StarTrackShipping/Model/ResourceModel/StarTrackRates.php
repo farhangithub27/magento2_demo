@@ -45,8 +45,8 @@ class StarTrackRates extends AbstractDb
         $connection = $this->getConnection(); // getConnection method is method  of AbstractDb class
         $sql = $connection->select()->from($this->getMainTable())->where('postcode =?',$postcode);
         $result = $connection->fetchAll($sql);
-        $this->logger->debug('The select with condition is:');
-        $this->logger->debug(var_export($result,true));
+        //$this->logger->debug('The select with condition is:');
+        //$this->logger->debug(var_export($result,true));
 
         return $result;
     }

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1556840798443" stop="1556840798452" version="1.4.0">
-  <name>Lmap\StarTrackShipping\Model\Carrier\ShippingTest</name>
-  <test-cases>
-    <test-case start="1556840798444" stop="1556840798452" status="passed">
-      <name>testShippingPrice</name>
-    </test-case>
-  </test-cases>
-</alr:test-suite>
