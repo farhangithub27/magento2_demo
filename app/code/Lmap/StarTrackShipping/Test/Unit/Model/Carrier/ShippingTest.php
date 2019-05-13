@@ -135,10 +135,6 @@ class ShippingTest extends TestCase
 
         $shipping_rate = $this->shippingMock->getShippingPrice($received_rate_array,$package_weight);
         $shipping_rate = $shipping_rate+($shipping_rate*0.147);
-        //$test = $this->shippingMock->expects($this->any())
-        //    ->method('getFinalPriceWithHandlingFee')
-        //    ->with($shipping_rate)
-        //    ->willReturn($shipping_rate+($shipping_rate*0.147));
 
         $this->assertEquals(floatval($expected_result),$shipping_rate);
         // $this->assertEquals(floatval($expected_result),$this->shippingMock->getShippingPrice($received_rate_array,$package_weight));
@@ -177,7 +173,6 @@ class ShippingTest extends TestCase
             ->disableOriginalConstructor()
             ->setMethods(['getAllItems', 'getPackageQty','getPackageWeight'])
             ->getMock();
-
 
         $item = $this->getMockBuilder(\Magento\Sales\Model\Order\Item::class)
             ->disableOriginalConstructor()
@@ -222,7 +217,6 @@ class ShippingTest extends TestCase
             ->getMock();
         $this->rateResultFactoryMock->expects($this->once())->method('create')->willReturn($result);
 
-
         $item->expects($this->any())->method('getProduct')->willReturn($product);
         $item->expects($this->any())->method('getFreeShipping')->willReturn(1);
         $item->expects($this->any())->method('getQty')->willReturn(1);
@@ -230,9 +224,6 @@ class ShippingTest extends TestCase
         $request->expects($this->any())->method('getAllItems')->willReturn([$item]);
         $request->expects($this->any())->method('getPackageQty')->willReturn(1);
         $request->expects($this->any())->method('getPackageWeight')->willReturn(1);
-
-
-
 
         $returnPrice = null;
         $method->expects($this->once())->method('setPrice')->with($this->captureArg($returnPrice));
@@ -243,9 +234,6 @@ class ShippingTest extends TestCase
         $returnMethod = null;
         $result->expects($this->once())->method('append')->with($this->captureArg($returnMethod));
 
-
-
-        //$request->expects($this->never())->method('getFreeShipping')->willReturn($freeshipping);
         //echo is_null($request) ? 'yes':'No';
         $returnResult = $this->shippingMock->collectRates($request);
         //print_r('Return Price: '.$returnPrice . ' and Return Cost: '. $returnCost.' ');
