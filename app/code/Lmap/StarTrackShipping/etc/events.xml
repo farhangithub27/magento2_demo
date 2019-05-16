@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="checkout_onepage_controller_success_action">
+        <observer name="lmap_successfull_order_mainfreight_edi" instance="Lmap\StarTrackShipping\Observer\OrderSuccessMainFreightEDI" />
+    </event>
+
+
+    <!--This event will triggered when 'Place Order' button will be poressed after filling Fatzebra payment details. This doesn't ensures that payment has been successfully done hence use above event. -->
+    <!--
+    <event name="sales_order_save_before">
+        <observer name="lmap_successfull_order_mainfreight_edi" instance="Lmap\StarTrackShipping\Observer\OrderSuccessMainFreightEDI" />
+    </event>
+    -->
+</config>

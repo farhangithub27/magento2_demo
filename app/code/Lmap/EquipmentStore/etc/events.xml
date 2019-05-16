@@ -13,7 +13,7 @@
     <!-- This event name of lmap_equipment_items_save_after was used without ManagerInterface code in AddEquipment. However  Observer Implementation is still the same.-->
     <event name="lmap_equipment_items_save_after">
         <!-- event name with a suffix for example  save_after means that event is of type dynamic and not static.
-        This event will be dispatched after model with above event prefix "lmap_equipment_items" is saved.
+        This event will be dispatched with ManagerInterface when model with above event prefix "lmap_equipment_items" will be saved. Event Prefix 'lmap_equipment_items' is defined in Model 'EquipmentItem.php'
         Also the model will passed to data together with event as object under object key so we dont have to change observer logger implementation given is instance string below..-->
 
         <observer name="lmap_logger" instance="Lmap\EquipmentStore\Observer\Logger" />

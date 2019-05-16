@@ -115,18 +115,18 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         //$received_rate_array = $this->starTrackRatesFactory->create()->getRate($postcode);
         // If Factory is used then create() method needs to be used and then call the relevant method.
         //$received_rate_array = $this->starTrackRatesFactory->getRate($postcode);
-        //$this->_logger->debug('getShippingPrice method called !');
-        //$this->_logger->debug('No need for var_dump, var_export  and echo methods as xdebug has been configured along with phpstorm to see the variables.');
+        $this->_logger->debug('getShippingPrice method called !');
+        $this->_logger->debug('No need for var_dump, var_export  and echo methods as xdebug has been configured along with phpstorm to see the variables.');
         $basic_rate = floatval($received_rate_array[0]['basic']);
         $rate_per_kg = floatval($received_rate_array[0]['rate_per_kg']);
         $minimum_rate = floatval($received_rate_array[0]['minimum']);
 
         $weight_based_rate = $basic_rate + ($rate_per_kg * floatval($package_weight));
-        //$this->_logger->debug('Basic Rate is: '. var_export($basic_rate,true).
-        //    ' and Rate Per Kg: '.$rate_per_kg.
-        //    ' and Minimum Rate: '.$minimum_rate.
-        //    ' and Weight Based Rate: '.$weight_based_rate.
-        //    ' and package weight:' .floatval($package_weight));
+        $this->_logger->debug('Basic Rate is: '. var_export($basic_rate,true).
+            ' and Rate Per Kg: '.$rate_per_kg.
+            ' and Minimum Rate: '.$minimum_rate.
+            ' and Weight Based Rate: '.$weight_based_rate.
+            ' and package weight:' .floatval($package_weight));
         if ($weight_based_rate < $minimum_rate){
             // Fuel adjustment is 14.7% configured in shipping method.
             //$shipping_rate = $this->getFinalPriceWithHandlingFee($minimum_rate);
@@ -184,9 +184,40 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         // If Factory is used then create() method needs to be used and then call the relevant method.
         // Otherwise use below
         //$received_rate_array = $this->starTrackRates->getRate($postcode);
-        //$this->_logger->debug('Received Rates are: '.var_export($received_rate_array[0]['basic'],true));
+        $this->_logger->debug('Received Rates are: '.var_export($received_rate_array[0]['basic'],true));
         $packageWeight = $request->getPackageWeight();
         $shipping_rate = $this->getShippingPrice($received_rate_array,$packageWeight);
+        // SOH - // Sales Order Header
+        //$OrderID=
+        //$CustRef=
+        //$DebtorID=
+        //$DebtorName=
+        $DebtorAdd1= $request ->getDestStreet();
+        //$DebtorAdd2=
+        $DebtorSuburb=$request->getDestStreet();
+        $DebtorPostCode=$request->getDestPostcode();
+        $DebtorCity=$request->getDestCity();
+        $DebtorState=$request->getDestRegionId();
+        $DebtorCountry=$request->getDestCountryId();
+        $OrderTotalQty = $request->getOrderTotalQty();
+        $AllItems = $request->getAllItems();
+        $packageQty = $request->getPackageQty();
+        //$SpecialInstructions
+        //$WhsID
+        //$OrderLineTotal
+        //$Carrier
+        //$CustomerID
+
+        // SOL - // Sales Order Line
+        //$OrderID
+        //$LineNo
+        //$WhsStockCode
+        //$WhsStockDesc
+        //$Quantity
+        //$CostPrice
+        //$Weight
+        //$Volume
+
         /**
         $basic_rate = floatval($received_rate_array[0]['basic']);
 

@@ -11,6 +11,10 @@
         </arguments>
     </type>
 
+    <type name="Magento\Sales\Model\Order\Email\Container\OrderIdentity">
+        <plugin name="change_is_enable_method" type="\Lmap\StarTrackShipping\Plugin\Sales\Order\Email\Container\OrderIdentityPlugin"/>
+    </type>
+
     <!-- Connection for the new custom database in env.php file
     <type name="Lmap\StarTrackShipping\Model\ResourceModel\Shipping">
         <arguments>
