@@ -2,7 +2,7 @@
 
 namespace Lmap\StarTrackShipping\Plugin\Sales\Order\Email\Container;
  // Plugin created to send email to customer after successful order payment.
- // Since third party payment engine is used hence magento doesnt sends automatic confirmation emails.
+ // Since third party payment engine is used hence magento doesn't send automatic confirmation emails.
  // Hence this plugin is created just incase no duplicate emails are sent.
  // Reference: https://magecomp.com/blog/send-order-confirmation-email-after-successful-payment-magento-2/
 class OrderIdentityPlugin
@@ -39,7 +39,7 @@ class OrderIdentityPlugin
             if($returnValue)
                 $returnValue = false;
             else
-                $returnValue = true;
+            $returnValue = true;
 
             $this->checkoutSession->unsForceOrderMailSentOnSuccess();
         }

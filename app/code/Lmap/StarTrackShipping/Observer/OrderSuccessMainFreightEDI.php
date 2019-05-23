@@ -7,6 +7,7 @@ use Magento\Framework\Event\ObserverInterface;
 use Lmap\StarTrackShipping\Helper\ArrayToXML;
 
 
+
 class OrderSuccessMainFreightEDI implements ObserverInterface
 {
     /**
@@ -30,6 +31,11 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
     protected $orderSender;
 
     /**
+     * @var \Magento\Sales\Model\OrderFactory
+     */
+    protected $orderModel;
+
+    /**
      * @var \Psr\Log\LoggerInterface
      */
     private $logger;
@@ -45,6 +51,7 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
      * @param \Magento\Framework\Message\ManagerInterface $messageManager
      */
     public function __construct(
+        \Magento\Sales\Model\OrderFactory $orderModel,
         \Magento\Store\Model\StoreManagerInterface $storeManager,
         \Magento\Checkout\Model\Session $checkoutSession,
         \Magento\Sales\Model\Order\Email\Sender\OrderSender $orderSender,
@@ -53,8 +60,10 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
         \Lmap\StarTrackShipping\Helper\ArrayToXML $arraytoXML
     )
     {
+        $this->orderModel = $orderModel;
         $this->_storeManager = $storeManager;
         $this->checkoutSession = $checkoutSession;
+        $this->orderSender = $orderSender;
         $this->messageManager = $messageManager;
         $this->logger = $logger;
         $this->arraytoXML = $arraytoXML;
@@ -67,15 +76,22 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
      */
     public function execute(Observer $observer)
     {
-        $Quote = $this->checkoutSession->getQuote();
-        $customerQoute = $this->checkoutSession->getCustomerQoute();
-        //$order = $this->checkoutSession->getLastRealOrder();
+        $orderlast = $this->checkoutSession->getLastRealOrder();
+        $orderlastId = $orderlast->getId();
+        $orderlastOrigId=$orderlast->getRealOrderId();
         // OR
         $order = $observer->getEvent()->getOrder();
-        # This is the order id in our side
-        $OrderID = $observer->getEvent()->getOrderIds();
+        $orderdata = $order ->getData();
+        # This is the order id in our side. OrderId is internal magento orderid
+        $orderIds = $observer->getEvent()->getOrderIds();
+        $payment = $order->getPayment();
+
+
+        $transactionLastId = $payment->getLastTransId();
+        // orderIncrementId is id sent to the customer
+        $orderIncrementId = 'zenkai-'.$transactionLastId.'-'.$orderdata['increment_id'];
         $DebtorID = $order->getCustomerId(); // Person or Licensee custID
-        $CustRef = // str(db_postage_consignment.transactionid)
+        $CustRef = $transactionLastId;
         # Customer and delivery detail
         $DebtorName = $order->getCustomerName();
         $DebtorAdd1 = $order->getShippingAddress()->getStreet();
@@ -92,19 +108,9 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
         $Carrier = 'MAINFREIGHT';
         $CustomerID = '935744';
 
-        /*
-        $orderstore  =  $order->getStore();
-        $orderdata = $order ->getData();
-        $shippingAddressId = $orderdata['shipping_address_id'];
-        $orderGrandTotal=$order->getGrandTotal();
-        $orderInvoiceCollection = $order->getInvoiceCollection();
-        $orderShippingMethod =$order->getShippingMethod();
-        $orderweight = $order->getWeight();
-        $orderOrigData = $order->getOrigData();
-        */
         // Preparing an associative array to be used for creating xml formatted order
-        $ORDER = [
-            "SOH"=>['OrderID'=>$OrderID[0],'DebtorID'=>$DebtorID,'CustRef'=>$CustRef,'DebtorName'=>$DebtorName,
+        $ORDER_ARRAY = [
+            "SOH"=>['OrderID'=>$orderIncrementId,'DebtorID'=>$DebtorID,'CustRef'=>$CustRef,'DebtorName'=>$DebtorName,
                 'DebtorAdd1'=>$DebtorAdd1,'DebtorAdd2'=>$DebtorAdd2,'DebtorSuburb'=>$DebtorSuburb,
                 'DebtorPostCode'=>$DebtorPostCode,'DebtorCity'=>$DebtorCity,'DebtorState'=>$DebtorState,
                 'DebtorCountry'=>$DebtorCountry,'SpecialInstructions'=>$SpecialInstructions,'WhsID'=>$WhsID,
@@ -117,32 +123,32 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
         // Declare empty associative Line Array
         $Line = ['OrderID'=>[],'LineNo'=>[],'WhsStockCode'=>[],'WhsStockDesc'=>[],'Quantity'=>[],'CostPrice'=>[],'Weight'=>[],'Volume'=>[]];
         $orderItems =$order->getAllItems();
-        $linenumber = 1;
+        $lineNumber = 1;
         foreach ($orderItems as $key => $item)
         {
             $itemData = $item->getData();
-            $Line['OrderID']=$itemData['order_id'];
-            $Line['LineNo']=$linenumber;
+            $Line['OrderID']=$orderIncrementId;
+            $Line['LineNo']=$lineNumber;
             $Line['WhsStockCode']=$itemData['sku'];
             $Line['WhsStockDesc']=$itemData['name'];
             $Line['Quantity']=$itemData['qty_invoiced'];
             $Line['CostPrice']=$itemData['base_cost'];
             $Line['Weight']=$itemData['weight'];
             $Line['Volume']=[];
-            $ORDER['SOL']['Line'][$linenumber-1]=$Line;
-            $linenumber+=1;
+            $ORDER_ARRAY['SOL']['Line'][$lineNumber-1]=$Line;
+            $lineNumber+=1;
         }
 
-        $xmlOrder = $this->arraytoXML->toXML($ORDER,'order');
+        $xmlOrder = $this->arraytoXML->toXML($ORDER_ARRAY,'order');
         $this->logger->debug("xml order " . var_export($xmlOrder,true));
 
         // Sending confirmation email to customer after successful order payment
         $this->checkoutSession->setForceOrderMailSentOnSuccess(true);
+        //$orderemail = $this->orderModel->create()->load($orderlastOrigId);
+        $this->logger->debug("order " .$orderIds[0].' emailed');
         $this->orderSender->send($order, true);
 
-
-        $this->logger->debug("ordersavebefore: ");
-        // Debugger won't fireup if debug marker is on try line.
+        /*
         try {
             $this->checkoutSession->loadCustomerQuote();
         } catch (\Magento\Framework\Exception\LocalizedException $e) {
@@ -150,7 +156,7 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
         } catch (\Exception $e) {
             $this->messageManager->addExceptionMessage($e, __('Load customer quote error'));
         }
-
+        */
 
     }
 }
