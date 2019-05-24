@@ -5,6 +5,7 @@ namespace Lmap\StarTrackShipping\Observer;
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use Lmap\StarTrackShipping\Helper\ArrayToXML;
+use Magento\InventoryApi\Api\GetSourceItemsBySkuInterface;
 
 
 
@@ -44,6 +45,8 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
      */
     private $arraytoXML;
 
+    protected $getSourceItemsBySku;
+
     /**
      * OrderSuccessMainFreightEDI constructor.
      * @param \Magento\Store\Model\StoreManagerInterface $storeManager
@@ -58,6 +61,7 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
         \Magento\Framework\Message\ManagerInterface $messageManager,
         \Psr\Log\LoggerInterface $logger,
         \Lmap\StarTrackShipping\Helper\ArrayToXML $arraytoXML
+        //\Magento\InventoryApi\Api\GetSourceItemsBySkuInterface $getSourceItemsBySku
     )
     {
         $this->orderModel = $orderModel;
@@ -67,6 +71,7 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
         $this->messageManager = $messageManager;
         $this->logger = $logger;
         $this->arraytoXML = $arraytoXML;
+        //$this->getSourceItemsBySku = $getSourceItemsBySku;
     }
 
     /**
@@ -85,6 +90,16 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
         # This is the order id in our side. OrderId is internal magento orderid
         $orderIds = $observer->getEvent()->getOrderIds();
         $payment = $order->getPayment();
+        $orderItems =$order->getAllItems();
+        //$sku = $orderItems[0]['sku'];
+        //$sourceItems = $this->getSourceItemsBySku->execute($orderItems[0]['sku']);
+        //$source = $sourceItems->getSourceCode();
+
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+        $addressInformation = $objectManager->create('Magento\Checkout\Api\Data\ShippingInformationInterface');
+        $extAttributes = $addressInformation->getExtensionAttributes();
+        //$suburb = $extAttributes->getCustomShippingAddress()->getSuburb();
+
 
 
         $transactionLastId = $payment->getLastTransId();
@@ -96,7 +111,7 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
         $DebtorName = $order->getCustomerName();
         $DebtorAdd1 = $order->getShippingAddress()->getStreet();
         $DebtorAdd2 = $order->getShippingAddress()->getStreet();
-        $DebtorSuburb = $order->getShippingAddress()->getStreet();
+        $DebtorSuburb = $order->getShippingAddress()->getSuburb();
         $DebtorPostCode = $order->getShippingAddress()->getPostcode();
         $DebtorCity = $order->getShippingAddress()->getCity();
         $DebtorState = $order->getShippingAddress()->getRegion();
@@ -122,7 +137,7 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
         ];
         // Declare empty associative Line Array
         $Line = ['OrderID'=>[],'LineNo'=>[],'WhsStockCode'=>[],'WhsStockDesc'=>[],'Quantity'=>[],'CostPrice'=>[],'Weight'=>[],'Volume'=>[]];
-        $orderItems =$order->getAllItems();
+
         $lineNumber = 1;
         foreach ($orderItems as $key => $item)
         {
