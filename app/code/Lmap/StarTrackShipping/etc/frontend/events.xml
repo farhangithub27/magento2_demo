@@ -6,7 +6,8 @@
     </event>
 
 
-    <!--This event will triggered when 'Place Order' button will be poressed after filling Fatzebra payment details. This doesn't ensures that payment has been successfully done hence use above event. -->
+    <!--This event will be triggered when 'Place Order' button will be clicked after filling Fatzebra payment details.
+        This doesn't ensures that payment has been successfully done hence use above event. -->
     <!--
     <event name="sales_order_save_before">
         <observer name="lmap_successfull_order_mainfreight_edi" instance="Lmap\StarTrackShipping\Observer\OrderSuccessMainFreightEDI" />

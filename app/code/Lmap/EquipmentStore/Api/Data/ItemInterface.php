@@ -11,6 +11,11 @@ interface ItemInterface
     // Magic getter
 
     /**
+     * @return mixed
+     */
+    public function setEquipmentName();
+
+    /**
      * @return string|null
      */
     public function getDescription();

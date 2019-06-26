@@ -1,5 +1,5 @@
 <?php
-namespace Lmap\StarTrackShipping\Plugin\Checkout\Block\Checkout;
+namespace Lmap\ExtAttributes\Plugin\Checkout\Block\Checkout;
 
 class LayoutProcessorPlugin
 {

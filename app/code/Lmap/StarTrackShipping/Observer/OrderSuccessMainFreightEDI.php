@@ -97,8 +97,9 @@ class OrderSuccessMainFreightEDI implements ObserverInterface
 
         $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
         $addressInformation = $objectManager->create('Magento\Checkout\Api\Data\ShippingInformationInterface');
+        //$addressInformation = $objectManager->create('Magento\Quote\Api\Data\AddressInterface');
         $extAttributes = $addressInformation->getExtensionAttributes();
-        //$suburb = $extAttributes->getCustomShippingAddress()->getSuburb();
+        $suburb = $extAttributes->getSuburb();
 
 
 

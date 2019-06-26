@@ -2,7 +2,7 @@
 <routes>
     <route url="/V1/lmap" method="GET">
         <service class="Lmap\EquipmentStore\Api\ItemRepositoryInterface" method="getList"/>
-        <!-- we have to define acl resources for above service. We cab use acl created in the demo store however at this point its been bypassed as anonymous-->
+        <!-- we have to define acl resources for above service. We can use acl created in the demo store however at this point its been bypassed as anonymous-->
         <resources>
             <resource ref="anonymous"/>
         </resources>

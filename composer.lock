@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcec5d985ec6acda45b8fcd3eec61d53",
+    "content-hash": "1c9bded42b9fc1dfc5d2da51aa49526a",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -20053,6 +20053,48 @@
                 "environment"
             ],
             "time": "2019-01-29T11:11:52+00:00"
+        },
+        {
+            "name": "vpietri/adm-quickdevbar",
+            "version": "0.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vpietri/magento2-developer-quickdevbar.git",
+                "reference": "55ddabfa0dac254176afeb0e5cc2a03203670e89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vpietri/magento2-developer-quickdevbar/zipball/55ddabfa0dac254176afeb0e5cc2a03203670e89",
+                "reference": "55ddabfa0dac254176afeb0e5cc2a03203670e89",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento-composer-installer": "*",
+                "php": "~5.5|~5.6|~7.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ADM\\QuickDevBar\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vincent Pietri",
+                    "homepage": "http://www.vincent-pietri.fr/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "QuickDevBar is a developer toolbar for magento 2",
+            "time": "2019-05-10T21:13:02+00:00"
         },
         {
             "name": "webmozart/assert",
